@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "ingest:archive": "node scripts/fetchArchive.mjs",
-    "ingest:shakespeare": "node scripts/parseStudyPage.mjs"
+    "ingest:study": "node scripts/parseStudyPage.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
