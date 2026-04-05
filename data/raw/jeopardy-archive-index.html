@@ -1,0 +1,1510 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+   
+   <html>
+   <head>
+      <meta charset="UTF-8" />
+
+      <title>Jeopardy! Clue Archive</title>
+
+      <meta itemprop="name" content="Jeopardy! Clue Archive" />
+      <meta itemprop="url" content="https://www.trivialstudies.com/jeop.php" />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Jeopardy! Clue Archive" />
+      <meta property="og:description" content="All of the clues & questions ever presented on Jeopardy!, available in easy to study list & flash card formats. TrivialStudies.com is the ultimate website to help you study for trivia, whether it's a game show, pub quizzes, Learned League, or anything else. " />
+      <meta property="og:url" content="https://www.trivialstudies.com/jeop.php" />
+      <meta property="og:site_name" content="Jeopardy! Clue Archive" />
+      <meta property="og:image" content="https://www.trivialstudies.com/images/logo_new.png" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:locale" content="en_US" />
+
+      <meta name="description" content="All of the clues & questions ever presented on Jeopardy!, available in easy to study list & flash card formats. TrivialStudies.com is the ultimate website to help you study for trivia, whether it's a game show, pub quizzes, Learned League, or anything else. "/>
+      <meta name="keywords" content="jeopardy, clues, trivia, study, pub trivia, study guides, learning, education, facts" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- <link rel="shortcut icon"         href="https://www.trivialstudies.com/favicon.ico" /> -->
+      <!-- <link rel="icon" type="image/gif" href="https://www.trivialstudies.com/animated_favicon1.gif" /> -->
+
+      <!-- Favicon base -->
+      <link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon" />
+      
+      <!-- SVG favicon (preferred by modern browsers) (TODO - 1MB file - shrink?) -->
+      <!-- <link rel="icon" href="/images/favicon/favicon.svg" type="image/svg+xml" /> -->
+      
+      <!-- PNG favicon for older browsers -->
+      <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+      
+      <!-- Apple Touch Icon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+      
+      <!-- Manifest (use your site.webmanifest) -->
+      <link rel="manifest" href="/images/favicon/site.webmanifest">
+
+      <link rel="alternate" type="application/rss+xml" title="RSS Feed for TrivialStudies.com Blog" href="https://www.trivialstudies.com/rss_blog.xml" />
+   
+      <script type="text/javascript">
+         function inc_button(type) {
+            var load_link = 'https://www.trivialstudies.com/button_cnt.php?b='+type;
+            document.getElementById('button_result').innerHTML = 'Updating button count for '+type;
+            ajax_loadContent('button_result',load_link);
+         }
+
+         function set_new_url(title, link) {
+            window.history.pushState("data",title,link);
+            document.title=title;
+         }
+
+   </script>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109127908-1"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-109127908-1');
+      </script>
+
+
+<style>
+
+.dummy{
+  margin:      0;
+}
+
+html{
+  margin:      0;
+  padding:     0;
+  font-family: arial;
+  font-size:   2.25vh;
+  font-weight: 450;
+  color:       black;
+}
+
+.copy_font{
+  color:       black;
+}
+
+body{
+  margin:     0;
+  padding:    0;
+  background: white;
+  text-align: center;
+}
+
+table#page{
+  margin: 0px auto;
+  height:100vh;
+  width: 100vw;
+  position: absolute;
+  overflow: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td.header{
+   background: #ededed;
+   height: 8vh;
+   vertical-align: middle;
+   text-align: center;
+   font-size: 6vh;
+   text-shadow: 1px 1px 1px rgba(79,150,190,1);
+}
+
+td#header{
+   background: #ededed;
+   height: 8vh;
+   vertical-align: middle;
+   text-align: center;
+   font-size: 6vh;
+   text-shadow: 1px 1px 1px rgba(79,150,190,1);
+}
+
+td.tabs_header{
+   background: #ededed;
+   height: 6vh;
+   vertical-align: middle;
+   text-align: center;
+   font-weight: bold;
+   font-size: 4vh;
+   padding:    1vh;
+   border-radius: 1vh;}
+
+table#tabs{
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 3vh;
+   text-align: center;
+   border-collapse: collapse;
+   overflow: auto;
+}
+
+.tab_cell{
+   background: #ededed;
+   padding:    1vh;
+   width: 20vw;
+   height: 5vh;
+   border: 1vh solid  white;
+   border-radius: 2vh;
+}
+
+.tab_cell:hover {
+   background: grey;
+   cursor:     pointer;
+}
+
+.link_cell{
+   background: #ededed;
+   padding:    2px;
+   border-width: 0px 3px 0px 3px;
+   border-style: solid;
+   border-color: white;
+   border-radius: 5px;
+}
+
+.link_cell:hover {
+   background: grey;
+}
+
+.patron_cell{
+   background: #ededed;
+   padding:    2px;
+   border-width: 0px 3px 0px 3px;
+   border-style: solid;
+   border-color: white;
+   border-radius: 5px;
+}
+
+
+td#ajax_reload{
+   height: 89vh;
+   vertical-align: middle;
+   text-align: center;
+   border-collapse: collapse;
+   margin: 0;
+   padding: 0;
+   overflow:auto;
+}
+
+table#main{
+  margin: 0px auto;
+  padding:    0;
+  height:89vh;
+  width: 80vw;
+  text-align: center;
+  border-collapse: collapse;
+  position: absolute;
+  overflow: auto;
+  top: 8vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+table.data{
+   margin-left: auto;
+   margin-right: auto;
+   padding:    1vh;
+   width: 75vw;
+   text-align: center;
+   border-collapse: collapse;
+   overflow: auto;
+}
+
+table#data{
+   border-collapse: collapse;
+}
+
+td#data{
+   text-align: center;
+   border-collapse: collapse;
+   margin: 0;
+   padding: 0;
+   overflow:auto;
+   vertical-align: top;
+}
+
+table.title{
+   border-collapse: collapse;
+   padding:    0px;
+}
+
+td.title{
+   background: #ededed;
+   height: 4vh;
+   vertical-align: middle;
+   text-align: center;
+   font-size: 4vh;
+}
+
+td.title_back{
+   width: 2vw;
+   cursor: pointer;
+   line-height: 0.93;
+}
+td.title_back:hover{
+   text-shadow:1px 1px 1px rgba(79,150,190,1);
+}
+
+td.title_text{
+   width: 98vw;
+   line-height: 0.93;
+}
+
+td.section_header{
+   background: #ededed;
+}
+
+div.section_header{
+   width: 100%;
+   background: #ededed;
+}
+
+div.blog_header{
+  background: #ededed;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+td.section_title{
+   background: #ededed;
+   width: 95vw;
+}
+
+td#question{
+   height: 40vh;
+   vertical-align: middle;
+   text-align: center;
+   border-collapse: collapse;
+   padding: 0;
+   overflow:auto;
+   text-wrap: balance;
+   color: black;
+}
+
+td.response{
+   border-collapse: collapse;
+   border-style: none;
+   text-align: left;
+   vertical-align: top;
+}
+
+td.icon{
+   border-collapse: collapse;
+   border-style: none;
+   text-align: right;
+   vertical-align: top;
+}
+
+td.pavlov{
+   border-collapse: collapse;
+   border-style: none;
+   text-align: right;
+   vertical-align: top;
+   font-weight: bold;
+   color: black;
+}
+
+td.info{
+   text-align: left;
+   border-collapse: collapse;
+   margin: 0;
+   padding: 2px;
+   overflow:auto;
+   vertical-align: top;
+   color: black;
+}
+
+td.quiz_link{
+  font-size:   2.5vh;
+  font-weight: 500;
+}
+
+div#home{
+   font-size: 3vh;
+   margin: 0 auto;
+   width: 75vw;
+   padding: 1.5vh;
+   line-height: 1.3;
+   text-wrap: balance;
+}
+
+div#randq, div.randq{
+  background: #ededed;
+  border: 0px;
+  padding: 2vh;
+  border-radius: 8px;
+  border: 2px solid grey;
+/*  box-shadow: 2px 2px 3px #ededed;   */
+}
+
+td.spacer{
+   height: 2.5vh;
+   border-collapse: collapse;
+   padding: 0;
+   overflow:auto;
+}
+
+td.option{
+   background: #ededed;
+   height: 8.5vh;
+   border-collapse: collapse;
+   vertical-align: middle;
+   text-align: center;
+   text-wrap: balance;
+   line-height: 1.4;
+   font-size: 3vh;
+   padding: 2px;
+   overflow:auto;
+}
+
+td.option:hover, td.option:active{
+   background: grey;
+   cursor: pointer;
+}
+
+div.return_home{
+   background: #ededed;
+   margin: 0px auto;
+   height: 4.5vh;
+   width: 80vw;
+   border-collapse: collapse;
+   vertical-align: middle;
+   text-align: center;
+   text-wrap: balance;
+   line-height: 1.4;
+   font-size: 3vh;
+   padding: 2px;
+   position: absolute;
+   overflow: auto;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+   position: fixed;
+   z-index: 1;
+}
+
+div.return_home:hover, div.return_home:active{
+   background: grey;
+   cursor: pointer;
+}
+
+td.option0{
+   background: #dedede;
+   height: 8.5vh;
+   border-collapse: collapse;
+   vertical-align: middle;
+   text-align: center;
+   text-wrap: balance;
+   line-height: 1.4;
+   font-size: 3vh;
+   padding: 2px;
+   overflow:auto;
+   border-radius: 1vh;
+}
+
+td.option0:hover, td.option0:active{
+   background: grey;
+   cursor: pointer;
+}
+
+td.option1{
+   background: #e3e3e3;
+   height: 8.5vh;
+   border-collapse: collapse;
+   vertical-align: middle;
+   text-align: center;
+   text-wrap: balance;
+   line-height: 1.4;
+   font-size: 3vh;
+   padding: 2px;
+   overflow:auto;
+   border-radius: 1vh;
+}
+
+td.option1:hover, td.option1:active{
+   background: grey;
+   cursor: pointer;
+}
+
+td.option2{
+   background: #e7e7e7;
+   height: 8.5vh;
+   border-collapse: collapse;
+   vertical-align: middle;
+   text-align: center;
+   text-wrap: balance;
+   line-height: 1.4;
+   font-size: 3vh;
+   padding: 2px;
+   overflow:auto;
+   border-radius: 1vh;
+}
+
+td.option2:hover, td.option2:active{
+   background: grey;
+   cursor: pointer;
+}
+
+td.option3{
+   background: #ebebeb;
+   height: 8.5vh;
+   border-collapse: collapse;
+   vertical-align: middle;
+   text-align: center;
+   text-wrap: balance;
+   line-height: 1.4;
+   font-size: 3vh;
+   padding: 2px;
+   overflow:auto;
+   border-radius: 1vh;
+}
+
+td.option3:hover, td.option3:active{
+   background: grey;
+   cursor: pointer;
+}
+
+table#correct, table#wrong, table#results{
+  margin: 0px auto;
+  padding:    0;
+  height:91vh;
+  width: 80vw;
+  text-align: center;
+  border-collapse: collapse;
+  position: absolute;
+  overflow: auto;
+  top: 8vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+td#correct_header{
+   background: #ededed;
+   font-weight: 650;
+   height: 9vh;
+   border-collapse: collapse;
+   vertical-align: middle;
+   font-size:   4.5vh;
+   text-align: center;
+   padding: 0;
+   overflow:auto;
+}
+
+td#incorrect_header{
+   background: #ededed;
+   font-weight: 650;
+   height: 9vh;
+   border-collapse: collapse;
+   font-size:   4.5vh;
+   vertical-align: middle;
+   text-align: center;
+   padding: 0;
+   overflow:auto;
+}
+
+td#answer{
+   height: 42vh;
+   vertical-align: middle;
+   text-align: center;
+   text-wrap: balance;
+   border-collapse: collapse;
+   padding: 0;
+   overflow:auto;
+   color: black;
+}
+
+span.notes{
+   font-size:   2.5vh;
+   line-height: 1.2;
+}
+
+span.bld{
+  font-weight: bold;
+}
+
+span.itl{
+  font-style: italic;
+}
+
+td#footer{
+   height: 4vh;
+   vertical-align: middle;
+   text-align: center;
+   border-collapse: collapse;
+   padding: 0;
+   overflow:auto;
+}
+
+tr.outlined_row{
+   border-bottom: 1px solid #ededed;
+}
+
+tr.stripe:nth-child(odd) {
+   border-collapse: collapse;
+   background-color: #ededed;
+}
+
+img{
+   border: 1px solid lightgrey;
+   height: 32vh;
+   object-fit: contain;
+   max-width: 80vh;
+   /*width: auto;*/
+}
+
+a:link {
+   color: black;
+}
+a:visited {
+   color: grey;
+}
+a:hover {
+   color: grey;
+   text-shadow: 2px 2px 2px rgba(79,150,190,1);
+}
+a:active {
+    color: grey;
+}
+
+.mouse_pointer:hover{
+   cursor: pointer;
+}
+
+.font_85{
+   font-size: 85%;
+}
+
+.button {
+    vertical-align: middle;
+    border: 0px;
+    height: auto;
+    width: auto;
+}
+
+img.convert{
+   vertical-align: middle;
+   border: 0px;
+   max-width: 100%;
+}
+
+table.amazon_link {
+   color: navy;
+   background: white;
+   font-size: 50%;
+   padding: 0;
+   margin: 0 auto;
+   border-style: solid;
+   border-width: 3px 1px 1px 1px;
+   border-color: darkorange gray gray gray;
+}
+table.amazon_link:hover {
+   color: blue;
+}
+td.amazon_shop {
+   width:118px;
+   vertical-align:bottom;
+   text-align:right;
+}
+img.amazon_shop {
+   border: 0px;
+   height: auto;
+}
+
+/* Should only be for the code input on the settings page */
+.input[type=text] {
+   font-size: 2.25vh;
+   color: white;
+   background-color: #ededed;
+   padding: 4px 4px;
+   margin: 8px 0;
+   box-sizing: border-box;
+}
+
+input[type=submit]{
+  font-size: 2.25vh;
+  color: black;
+  background-color: #ededed;
+  border: none;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: grey;
+}
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 0.3em 0.3em -0.2em #000;
+    transform: translateY(-0.05em);
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  background-color: #ededed;
+  padding: 2px;
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popup:hover {
+  background-color: grey;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 60vw;
+  background-color: #ededed;
+  color: black;
+  text-align: left;
+  border-radius: 6px;
+  padding: 1vh;
+  position: absolute;
+  z-index: 20;
+  bottom: 125%;
+  left: 12%;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 5%;
+  margin-left: -11px;
+  border-width: 11px;
+  border-style: solid;
+  border-color:  #ededed transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+}
+
+/* The instructions popup */
+.popupinst {
+  padding: 2px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  z-index: 24;
+}
+
+.popupinst:hover {
+  background-color: grey;
+}
+
+.popupinst .popuptext_inst {
+  visibility: hidden;
+  width: 35vw;
+  background-color: #ededed;
+  color: black;
+  text-align: left;
+  border-radius: 8px;
+  padding: 1vh;
+  position: absolute;
+  z-index: 25;
+  top: 15%;
+  right: 110%;
+  cursor: pointer;
+  border: 2px solid grey;
+}
+
+.popupinst .show {
+  visibility: visible;
+}
+
+span.blink {
+   animation: blinker 3s linear infinite;
+}
+@keyframes blinker {
+   50% { opacity: 0; }
+}
+
+td.compscorehead{
+   font-weight: bold;
+   padding: 0.5vh;
+   text-align: center;
+}
+
+td.compscore{
+   padding: 0.5vh;
+   text-align: center;
+}
+
+tr.stripe:hover{
+   background: grey;
+   cursor:     pointer;
+}
+
+      </style>
+   </head>
+   
+<body>
+
+<table id="page">
+   <tr>
+      <td class="header">"Jeopardy!" Clue Archive</td>
+   </tr>
+   <tr>
+      <td id="data">
+
+<table id="seasons" style="display: table;" class="data">
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr><td class="title" colspan="3">
+     <table>
+     <tr><td class="title_text">Season Listing</td><tr>
+     </table>
+  </td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr><td colspan="3"></td></tr>
+  <tr><td class="data_cell" colspan="3">Questions provided for entertainment purposes only.</td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr><td colspan="3" class="link_cell mouse_pointer font_85" onclick="window.location.href='https://www.trivialstudies.com/games';">Return to Trivial Studies</td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr class="outlined_row"><td colspan="3"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Final Jeopardy! Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670139'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670139&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr class="outlined_row"><td colspan="3"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Literature Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670100'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670100&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Poetry Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670132'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670132&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Shakespeare Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670101'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670101&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Charles Dickens Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670102'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670102&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Jane Austen Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670103'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670103&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Broadway Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670123'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670123&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Opera Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670104'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670104&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Ballet Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670124'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670124&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Classical Music Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670105'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670105&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Television Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670125'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670125&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Movie Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670126'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670126&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Disney Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670140'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670140&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Music Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670127'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670127&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Art & Artists Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670121'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670121&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Architecture Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670108'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670108&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Mythology Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670120'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670120&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Philosophy Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670136'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670136&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Bible Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670141'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670141&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr class="outlined_row"><td colspan="3"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All History Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670137'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670137&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All President Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670118'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670118&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All War Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670138'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670138&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Nobel Prize Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670134'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670134&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Geography Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670106'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670106&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Capitals Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670107'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670107&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr class="outlined_row"><td colspan="3"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Baseball Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670109'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670109&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Basketball Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670110'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670110&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Football Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670111'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670111&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Hockey Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670112'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670112&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Olympic Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670113'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670113&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Soccer Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670114'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670114&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Boxing Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670115'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670115&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Horse Racing Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670116'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670116&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Golf Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670117'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670117&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Auto Racing Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670135'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670135&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr class="outlined_row"><td colspan="3"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Potent Potables Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670119'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670119&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Chemistry Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670122'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670122&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Physics Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670128'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670128&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Biology Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670129'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670129&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Astronomy Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670130'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670130&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Business Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670133'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670133&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">All Technology Clues</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670131'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670131&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr class="outlined_row"><td colspan="3"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 41 - 2024-2025</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670041'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670041&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell"><i>Masters Tournament</i> - 2023-2024</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670092'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670092&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 40 - 2023-2024</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670040'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670040&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 39 - 2022-2023</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670039'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670039&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 38 - 2021-2022</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670038'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670038&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 37 - 2020-2021</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670037'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670037&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell"><i>Greatest of All-Time Tournament</i> - January 2020</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670091'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670091&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 36 - 2019-2020</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670036'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670036&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 35 - 2018-2019</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670035'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670035&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 34 - 2017-2018</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670034'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670034&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 33 - 2016-2017</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670033'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670033&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 32 - 2015-2016</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670032'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670032&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 31 - 2014-2015</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670031'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670031&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 30 - 2013-2014</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670030'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670030&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 29 - 2012-2013</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670029'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670029&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 28 - 2011-2012</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670028'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670028&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 27 - 2010-2011</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670027'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670027&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 26 - 2009-2010</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670026'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670026&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 25 - 2008-2009</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670025'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670025&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 24 - 2007-2008</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670024'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670024&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 23 - 2006-2007</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670023'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670023&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 22 - 2005-2006</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670022'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670022&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 21 - 2004-2005</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670021'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670021&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 20 - 2003-2004</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670020'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670020&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 19 - 2002-2003</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670019'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670019&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 18 - 2001-2002</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670018'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670018&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 17 - 2000-2001</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670017'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670017&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 16 - 1999-2000</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670016'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670016&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 15 - 1998-1999</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670015'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670015&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 14 - 1997-1998</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670014'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670014&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 13 - 1996-1997</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670013'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670013&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 12 - 1995-1996</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670012'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670012&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 11 - 1994-1995</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670011'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670011&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 10 - 1993-1994</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670010'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670010&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 9 - 1992-1993</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670009'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670009&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 8 - 1991-1992</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670008'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670008&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 7 - 1990-1991</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670007'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670007&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell"><i>Super Jeopardy!</i> - Summer 1990</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670090'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670090&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 6 - 1989-1990</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670006'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670006&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 5 - 1988-1989</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670005'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670005&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 4 - 1987-1988</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670004'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670004&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 3 - 1986-1987</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670003'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670003&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 2 - 1985-1986</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670002'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670002&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Season 1 - 1984-1985</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670001'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670001&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td colspan="3"></td></tr>
+
+  <tr>
+     <td class="data_cell">Pilot Episodes - 1983-1984</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='flash_53670000'">Flash</td>
+     <td class="link_cell mouse_pointer font_85" onclick="window.location.href='study_53670000&shuffle=true'">Study</td>
+  </tr>
+  <tr class="outlined_row"><td colspan="4"></td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr class="outlined_row"><td colspan="3"></td></tr>
+
+  <tr><td colspan="3" class="link_cell mouse_pointer font_85" onclick="window.location.href='https://www.trivialstudies.com/games';">Return to Trivial Studies</td></tr>
+  <tr><td class="data_cell" colspan="3">&nbsp;</td></tr>
+  <tr><td colspan="3"></td></tr>
+</table>
+      </td>
+   </tr>
+</table>
+</body>
+
