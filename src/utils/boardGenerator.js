@@ -143,13 +143,105 @@ function isClueHighQuality(entry) {
   return true
 }
 
-function buildBoardColumn(dataset, categoryName) {
-  const filtered = dataset.filter(isClueHighQuality)
-  const shuffled = shuffleArray(filtered)
-  const selected = shuffled.slice(0, 5)
+function normalizeText(text) {
+  return text.toLowerCase()
+}
+
+function isPlayTitle(text) {
+  const normalized = normalizeText(text)
+
+  return [
+    'hamlet',
+    'macbeth',
+    'othello',
+    'king lear',
+    'romeo and juliet',
+    'julius caesar',
+    'much ado about nothing',
+    "a midsummer night's dream",
+    'the tempest',
+    'twelfth night',
+    'measure for measure',
+    'as you like it',
+    'henry v',
+    'henry vi',
+    'henry vi, part i',
+    'henry vi, part 1',
+    'richard iii',
+    'merchant of venice',
+    'the merchant of venice',
+    'titus andronicus',
+    "the winter's tale",
+    'antony and cleopatra',
+    'coriolanus',
+    'pericles',
+    'the taming of the shrew',
+    'comedy of errors',
+    'the comedy of errors',
+  ].includes(normalized)
+}
+
+function isDickensNovel(text) {
+  const normalized = normalizeText(text)
+
+  return [
+    'bleak house',
+    'great expectations',
+    'david copperfield',
+    'oliver twist',
+    'little dorrit',
+    'hard times',
+    'nicholas nickleby',
+    'martin chuzzlewit',
+    'our mutual friend',
+    'a tale of two cities',
+    'pickwick papers',
+    'the pickwick papers',
+    'barnaby rudge',
+    'dombey and son',
+    'christmas carol',
+    'a christmas carol',
+  ].includes(normalized)
+}
+
+function buildBoardColumn(entries, categoryName, fallbackPool = []) {
+  const filtered = shuffleArray(entries.filter(isClueHighQuality))
+  const backup = shuffleArray(fallbackPool.filter(isClueHighQuality))
+
+  const selected = []
+  const usedIds = new Set()
+
+  for (const entry of filtered) {
+    const key = `${entry.clue}|||${entry.response}`
+    if (!usedIds.has(key)) {
+      selected.push(entry)
+      usedIds.add(key)
+    }
+    if (selected.length === 5) break
+  }
 
   if (selected.length < 5) {
-    throw new Error(`Not enough clean clues to build category "${categoryName}"`)
+    for (const entry of backup) {
+      const key = `${entry.clue}|||${entry.response}`
+      if (!usedIds.has(key)) {
+        selected.push(entry)
+        usedIds.add(key)
+      }
+      if (selected.length === 5) break
+    }
+  }
+
+  if (selected.length < 5) {
+    return {
+      category: categoryName,
+      clues: CLUE_VALUES.map((value, index) => ({
+        id: `${categoryName}-placeholder-${index + 1}`,
+        value,
+        clue: 'This category is still being curated.',
+        response: 'Placeholder',
+        used: false,
+      })),
+    }
   }
 
   return {
@@ -164,14 +256,46 @@ function buildBoardColumn(dataset, categoryName) {
   }
 }
 
-export function generateMultiCategoryBoard(datasets) {
-  return datasets.map(({ categoryName, clues }) =>
-    buildBoardColumn(clues, categoryName)
-  )
+export function generateCuratedBoard(datasets) {
+  const shakespeare = datasets.shakespeare ?? []
+  const dickens = datasets.dickens ?? []
+  const opera = datasets.opera ?? []
+  const classicalMusic = datasets.classicalMusic ?? []
+
+  const shakespearePlays = shakespeare.filter((entry) => isPlayTitle(entry.response))
+  const shakespeareCharacters = shakespeare.filter((entry) => !isPlayTitle(entry.response))
+  const dickensNovels = dickens.filter((entry) => isDickensNovel(entry.response))
+  const dickensCharacters = dickens.filter((entry) => !isDickensNovel(entry.response))
+
+  return [
+    buildBoardColumn(shakespearePlays, 'Shakespeare Plays', shakespeare),
+    buildBoardColumn(shakespeareCharacters, 'Shakespeare Characters', shakespeare),
+    buildBoardColumn(dickensNovels, 'Dickens Novels', dickens),
+    buildBoardColumn(dickensCharacters, 'Dickens Characters', dickens),
+    buildBoardColumn(opera, 'Opera', opera),
+    buildBoardColumn(classicalMusic, 'Classical Music', classicalMusic),
+  ]
 }
 
 export function generateBoardFromStudyClues(studyClues, datasetName = 'Shakespeare') {
-  return Array.from({ length: 6 }, (_, index) =>
-    buildBoardColumn(studyClues, `${datasetName} ${index + 1}`)
-  )
+  const filtered = shuffleArray(studyClues.filter(isClueHighQuality))
+  const board = []
+
+  for (let columnIndex = 0; columnIndex < 6; columnIndex += 1) {
+    const start = columnIndex * 5
+    const columnClues = filtered.slice(start, start + 5)
+
+    board.push({
+      category: `${datasetName} ${columnIndex + 1}`,
+      clues: columnClues.map((entry, clueIndex) => ({
+        id: `${datasetName}-${columnIndex + 1}-${start + clueIndex}`,
+        value: CLUE_VALUES[clueIndex],
+        clue: entry.clue,
+        response: entry.response,
+        used: false,
+      })),
+    })
+  }
+
+  return board
 }

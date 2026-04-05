@@ -5,9 +5,7 @@ import charlesDickensStudyClues from './data/processed/charles-dickens-study-clu
 import operaStudyClues from './data/processed/opera-study-clues.json'
 import classicalMusicStudyClues from './data/processed/classical-music-study-clues.json'
 import finalJeopardyStudyClues from './data/processed/final-jeopardy-study-clues.json'
-import {
-  generateMultiCategoryBoard,
-} from './utils/boardGenerator'
+import { generateCuratedBoard } from './utils/boardGenerator'
 
 const CLUE_TIME_LIMIT = 10
 const FUZZY_MATCH_THRESHOLD = 0.84
@@ -92,35 +90,15 @@ function answersMatch(userAnswer, correctAnswer) {
 
 function App() {
   const initialBoardData = useMemo(
-    () =>
-      generateMultiCategoryBoard([
-        {
-          categoryName: 'Shakespeare',
-          clues: shakespeareStudyClues,
-        },
-        {
-          categoryName: 'Charles Dickens',
-          clues: charlesDickensStudyClues,
-        },
-        {
-          categoryName: 'Opera',
-          clues: operaStudyClues,
-        },
-        {
-          categoryName: 'Classical Music',
-          clues: classicalMusicStudyClues,
-        },
-        {
-          categoryName: 'Final Jeopardy',
-          clues: finalJeopardyStudyClues,
-        },
-        {
-          categoryName: 'Shakespeare Encore',
-          clues: shakespeareStudyClues,
-        },
-      ]),
-    []
-  )
+  () =>
+    generateCuratedBoard({
+      shakespeare: shakespeareStudyClues,
+      dickens: charlesDickensStudyClues,
+      opera: operaStudyClues,
+      classicalMusic: classicalMusicStudyClues,
+    }),
+  []
+)
 
   const [boardData, setBoardData] = useState(initialBoardData)
   const [activeClue, setActiveClue] = useState(null)
