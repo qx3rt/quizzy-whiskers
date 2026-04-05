@@ -1,38 +1,16 @@
-# Quizzy Whiskers 🐱
+# React + Vite
 
-A cozy Jeopardy-style study simulator built with real archived clues.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Purpose
+Currently, two official plugins are available:
 
-Quizzy Whiskers is designed to help players practice Jeopardy-style thinking under realistic conditions — including timed responses, category-based boards, and proper answer framing.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Built as a personal project to support focused, low-pressure studying.
+## React Compiler
 
-## MVP Features
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- Jeopardy-style game board (categories + clue values)
-- Timer-based answering
-- Score tracking
-- Real archived Jeopardy clues
-- Hardcoded response framing (e.g. "What is [answer]")
-- Simple, cozy UI focused on usability over polish
+## Expanding the ESLint configuration
 
-## Tech Stack (Planned)
-
-- React + Vite
-- Static site hosted on GitHub Pages
-- Local JSON dataset derived from archive sources
-
-## Development Approach
-
-- Feature branches + PR workflow
-- Iterative MVP-first delivery
-- Functionality prioritized over design polish
-
-## Status
-
-🚧 In active development (MVP phase)
-
----
-
-*Study clues. Beat the clock.*
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
