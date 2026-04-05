@@ -1,5 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
+
+const CLUE_TIME_LIMIT = 10
 
 const initialBoardData = [
   {
@@ -259,6 +261,25 @@ function App() {
   const [answerText, setAnswerText] = useState('')
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isCorrect, setIsCorrect] = useState(null)
+  const [timeRemaining, setTimeRemaining] = useState(CLUE_TIME_LIMIT)
+  const [didTimeExpire, setDidTimeExpire] = useState(false)
+
+  useEffect(() => {
+    if (!activeClue || isSubmitted || didTimeExpire) {
+      return
+    }
+
+    if (timeRemaining <= 0) {
+      setDidTimeExpire(true)
+      return
+    }
+
+    const timerId = window.setTimeout(() => {
+      setTimeRemaining((currentTime) => currentTime - 1)
+    }, 1000)
+
+    return () => window.clearTimeout(timerId)
+  }, [activeClue, isSubmitted, didTimeExpire, timeRemaining])
 
   function handleClueSelect(selectedClue) {
     if (selectedClue.used) {
@@ -269,6 +290,8 @@ function App() {
     setAnswerText('')
     setIsSubmitted(false)
     setIsCorrect(null)
+    setTimeRemaining(CLUE_TIME_LIMIT)
+    setDidTimeExpire(false)
 
     setBoardData((currentBoard) =>
       currentBoard.map((column) => ({
@@ -283,7 +306,7 @@ function App() {
   function handleSubmitAnswer(event) {
     event.preventDefault()
 
-    if (!activeClue || !answerText.trim()) {
+    if (!activeClue || !answerText.trim() || didTimeExpire) {
       return
     }
 
@@ -294,6 +317,8 @@ function App() {
     setIsCorrect(answerMatches)
     setIsSubmitted(true)
   }
+
+  const showReveal = isSubmitted || didTimeExpire
 
   return (
     <main className="app-shell">
@@ -324,10 +349,10 @@ function App() {
 
           <div className="hero-card">
             <span className="card-label">Current build focus</span>
-            <h3>Lightweight answer validation</h3>
+            <h3>Timed clue flow</h3>
             <p>
-              Submit a response and get immediate feedback based on a simple,
-              normalized text match.
+              Selecting a clue now starts a countdown, bringing the study loop
+              closer to a true Jeopardy-style experience.
             </p>
           </div>
         </section>
@@ -364,7 +389,19 @@ function App() {
 
         <section className="info-grid">
           <article className="panel clue-panel">
-            <p className="panel-eyebrow">Selected clue</p>
+            <div className="clue-panel-header">
+              <p className="panel-eyebrow">Selected clue</p>
+
+              {activeClue ? (
+                <div
+                  className={`timer-badge ${
+                    timeRemaining <= 3 ? 'timer-warning' : ''
+                  }`}
+                >
+                  {didTimeExpire ? "Time's up" : `${timeRemaining}s`}
+                </div>
+              ) : null}
+            </div>
 
             {activeClue ? (
               <div className="clue-panel-content">
@@ -388,33 +425,43 @@ function App() {
                       value={answerText}
                       onChange={(event) => setAnswerText(event.target.value)}
                       placeholder="type your answer"
-                      disabled={isSubmitted}
+                      disabled={isSubmitted || didTimeExpire}
                     />
                   </div>
 
                   <button
                     className="submit-button"
                     type="submit"
-                    disabled={!answerText.trim() || isSubmitted}
+                    disabled={!answerText.trim() || isSubmitted || didTimeExpire}
                   >
                     {isSubmitted ? 'Submitted' : 'Submit response'}
                   </button>
                 </form>
 
-                {isSubmitted ? (
+                {showReveal ? (
                   <>
                     <div
                       className={`result-banner ${
-                        isCorrect ? 'result-correct' : 'result-incorrect'
+                        didTimeExpire
+                          ? 'result-time'
+                          : isCorrect
+                            ? 'result-correct'
+                            : 'result-incorrect'
                       }`}
                     >
                       <span className="result-label">
-                        {isCorrect ? 'Nice work' : 'Not a match'}
+                        {didTimeExpire
+                          ? 'Time expired'
+                          : isCorrect
+                            ? 'Nice work'
+                            : 'Not a match'}
                       </span>
                       <strong>
-                        {isCorrect
-                          ? 'Your response matches the expected answer.'
-                          : 'Your response did not match the expected answer.'}
+                        {didTimeExpire
+                          ? 'The clue timed out before a response was submitted.'
+                          : isCorrect
+                            ? 'Your response matches the expected answer.'
+                            : 'Your response did not match the expected answer.'}
                       </strong>
                     </div>
 
@@ -444,8 +491,8 @@ function App() {
                 <strong>Hardcoded before input</strong>
               </li>
               <li>
-                <span>Validation</span>
-                <strong>Case + punctuation normalized</strong>
+                <span>Timer</span>
+                <strong>{CLUE_TIME_LIMIT} second countdown per clue</strong>
               </li>
             </ul>
           </article>
