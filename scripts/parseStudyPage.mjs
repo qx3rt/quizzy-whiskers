@@ -3,11 +3,30 @@ import path from 'node:path'
 import * as cheerio from 'cheerio'
 
 const ARCHIVE_INDEX_URL = 'https://www.trivialstudies.com/jeopardy'
-const STUDY_PATH = 'study_53670101&shuffle=true'
-const STUDY_URL = new URL(STUDY_PATH, ARCHIVE_INDEX_URL).toString()
+
+function getArgValue(flagName) {
+  const index = process.argv.indexOf(flagName)
+  if (index === -1) {
+    return null
+  }
+
+  return process.argv[index + 1] ?? null
+}
+
+const studyPath = getArgValue('--path')
+const outputName = getArgValue('--output')
+
+if (!studyPath || !outputName) {
+  console.error(
+    'Usage: node scripts/parseStudyPage.mjs --path <study_path> --output <output_name>'
+  )
+  process.exit(1)
+}
+
+const studyUrl = new URL(studyPath, ARCHIVE_INDEX_URL).toString()
 
 async function fetchStudyPage() {
-  const response = await fetch(STUDY_URL)
+  const response = await fetch(studyUrl)
 
   if (!response.ok) {
     throw new Error(
@@ -19,7 +38,7 @@ async function fetchStudyPage() {
 }
 
 async function saveRawHtml(html) {
-  const outputPath = path.resolve('data/raw/shakespeare-study-page.html')
+  const outputPath = path.resolve(`data/raw/${outputName}-study-page.html`)
   await fs.writeFile(outputPath, html, 'utf8')
   return outputPath
 }
@@ -44,12 +63,6 @@ function removeKnownMetadata(text) {
     .replace(/Double Jeopardy Round:\s*\$\d+/gi, ' ')
     .replace(/Final Jeopardy/gi, ' ')
     .replace(/\bDaily Double\b/gi, ' ')
-    .replace(/\bSHAKESPEAREAN QUOTES\b/gi, ' ')
-    .replace(/\bSHAKESPEAREAN TRIVIA\b/gi, ' ')
-    .replace(/\bJESTERDAY\b/gi, ' ')
-    .replace(/\bTHE END\b/gi, ' ')
-    .replace(/\bTHEATRE\b/gi, ' ')
-    .replace(/\bIN THE TV KITCHEN\b/gi, ' ')
 }
 
 function normalizeLeadingNumbering(text) {
@@ -77,7 +90,6 @@ function extractCleanClue(rawText) {
   cleaned = cleanText(cleaned)
   cleaned = normalizeLeadingNumbering(cleaned)
 
-  // Remove obvious all-caps category blocks only when they are separated cleanly
   cleaned = cleaned.replace(/\b[A-Z][A-Z&/' -]{6,}\b/g, ' ')
   cleaned = cleanText(cleaned)
   cleaned = normalizeLeadingNumbering(cleaned)
@@ -123,28 +135,26 @@ function extractStudyClues(html) {
 }
 
 async function saveProcessedClues(clues) {
-  const outputPath = path.resolve(
-    'data/processed/shakespeare-study-clues.json'
-  )
+  const outputPath = path.resolve(`data/processed/${outputName}-study-clues.json`)
   await fs.writeFile(outputPath, JSON.stringify(clues, null, 2), 'utf8')
   return outputPath
 }
 
 async function main() {
-  console.log(`Fetching study page from ${STUDY_URL}...`)
+  console.log(`Fetching study page from ${studyUrl}...`)
   const html = await fetchStudyPage()
 
   const rawHtmlPath = await saveRawHtml(html)
   console.log(`Saved raw HTML to ${rawHtmlPath}`)
 
   const clues = extractStudyClues(html)
-  console.log(`Extracted ${clues.length} clean clues`)
+  console.log(`Extracted ${clues.length} clues`)
 
   const processedPath = await saveProcessedClues(clues)
   console.log(`Saved processed clues to ${processedPath}`)
 
   console.log('\nSample clues:')
-  clues.slice(0, 10).forEach((clue, index) => {
+  clues.slice(0, 5).forEach((clue, index) => {
     console.log(`${index + 1}. ${clue.clue}`)
     console.log(`   → ${clue.response}`)
   })
