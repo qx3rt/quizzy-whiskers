@@ -31,7 +31,7 @@ function cleanText(text) {
     .trim()
 }
 
-function stripMetadata(text) {
+function removeKnownMetadata(text) {
   return text
     .replace(/Season\s+\d+/gi, ' ')
     .replace(
@@ -44,67 +44,22 @@ function stripMetadata(text) {
     .replace(/Double Jeopardy Round:\s*\$\d+/gi, ' ')
     .replace(/Final Jeopardy/gi, ' ')
     .replace(/\bDaily Double\b/gi, ' ')
-    .replace(/[A-Z][A-Z\s&/'-]{8,}/g, ' ')
+    .replace(/\bSHAKESPEAREAN QUOTES\b/gi, ' ')
+    .replace(/\bSHAKESPEAREAN TRIVIA\b/gi, ' ')
+    .replace(/\bJESTERDAY\b/gi, ' ')
+    .replace(/\bTHE END\b/gi, ' ')
+    .replace(/\bTHEATRE\b/gi, ' ')
+    .replace(/\bIN THE TV KITCHEN\b/gi, ' ')
 }
 
-function stripLeadingArtifacts(text) {
-  let cleaned = text
-
-  const patterns = [
-    /^#\d+\.\s*/i,
-    /^#\d+\s*/i,
-    /^,\d+\s*/i,
-    /^\$\d+\s*/i,
-    /^[.'",:;!?-]+\s*/i,
-    /^[A-Z]+Double\s*/i,
-    /^[A-Z]+Title\s*/i,
-    /^[A-Z]+Round\s*/i,
-    /^[A-Z]+Jeopardy\s*/i,
-    /^[A-Z]{4,}\s*/i,
-    /^ouble\s+/i,
-    /^ever\s+/i,
-    /^egan\s+/i,
-    /^Title\s+/i,
-    /^Round\s+/i,
-    /^Double\s+/i,
-    /^DR\.\s*PHIL,\s*/i,
-    /^DR\.\s*/i,
-  ]
-
-  let changed = true
-
-  while (changed) {
-    changed = false
-
-    cleaned = cleaned.trim()
-
-    for (const pattern of patterns) {
-      const next = cleaned.replace(pattern, '')
-      if (next !== cleaned) {
-        cleaned = next.trim()
-        changed = true
-      }
-    }
-  }
-
-  return cleaned
-}
-
-function normalizeClueText(text) {
-  let cleaned = stripMetadata(text)
-  cleaned = cleanText(cleaned)
-  cleaned = stripLeadingArtifacts(cleaned)
-
-  cleaned = cleaned
-    .replace(/\s+,/g, ',')
-    .replace(/\s+\./g, '.')
-    .replace(/\s+:/g, ':')
-    .replace(/\s+;/g, ';')
-    .replace(/\(\s+/g, '(')
-    .replace(/\s+\)/g, ')')
+function normalizeLeadingNumbering(text) {
+  return text
+    .replace(/^#\d+\.\s*/i, '')
+    .replace(/^#\d+\s*/i, '')
+    .replace(/^\$\d+\s*/i, '')
+    .replace(/^,\d+\s*/i, '')
+    .replace(/^[\s.,;:!?'"-]+/, '')
     .trim()
-
-  return cleaned
 }
 
 function extractQuotedClue(text) {
@@ -112,13 +67,22 @@ function extractQuotedClue(text) {
   return match ? match[1].trim() : null
 }
 
-function extractClueSentence(text) {
-  const quotedClue = extractQuotedClue(text)
-  if (quotedClue) {
-    return quotedClue
+function extractCleanClue(rawText) {
+  const quoted = extractQuotedClue(rawText)
+  if (quoted) {
+    return quoted
   }
 
-  return normalizeClueText(text)
+  let cleaned = removeKnownMetadata(rawText)
+  cleaned = cleanText(cleaned)
+  cleaned = normalizeLeadingNumbering(cleaned)
+
+  // Remove obvious all-caps category blocks only when they are separated cleanly
+  cleaned = cleaned.replace(/\b[A-Z][A-Z&/' -]{6,}\b/g, ' ')
+  cleaned = cleanText(cleaned)
+  cleaned = normalizeLeadingNumbering(cleaned)
+
+  return cleaned
 }
 
 function extractStudyClues(html) {
@@ -143,7 +107,7 @@ function extractStudyClues(html) {
     clueContainer.find('div[id^="ans_"]').remove()
 
     const rawText = cleanText(clueContainer.text())
-    const clue = extractClueSentence(rawText)
+    const clue = extractCleanClue(rawText)
 
     if (!clue) {
       return
@@ -180,7 +144,7 @@ async function main() {
   console.log(`Saved processed clues to ${processedPath}`)
 
   console.log('\nSample clues:')
-  clues.slice(0, 5).forEach((clue, index) => {
+  clues.slice(0, 10).forEach((clue, index) => {
     console.log(`${index + 1}. ${clue.clue}`)
     console.log(`   → ${clue.response}`)
   })

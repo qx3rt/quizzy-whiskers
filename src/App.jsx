@@ -1,14 +1,18 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import './App.css'
-import { mockBoardData } from './data/mockBoardData'
+import shakespeareStudyClues from './data/processed/shakespeare-study-clues.json'
+import { generateBoardFromStudyClues } from './utils/boardGenerator'
 
 const CLUE_TIME_LIMIT = 10
+const FUZZY_MATCH_THRESHOLD = 0.84
 
 function normalizeAnswer(text) {
   return text
     .toLowerCase()
+    .replace(/&/g, ' and ')
     .replace(/[^\w\s]/g, ' ')
     .replace(/\b(a|an|the)\b/g, ' ')
+    .replace(/\band\b/g, ' ')
     .replace(/\s+/g, ' ')
     .trim()
 }
@@ -17,8 +21,76 @@ function formatScore(score) {
   return `${score < 0 ? '-' : ''}$${Math.abs(score)}`
 }
 
+function getLevenshteinDistance(source, target) {
+  const rows = source.length + 1
+  const cols = target.length + 1
+  const matrix = Array.from({ length: rows }, () => Array(cols).fill(0))
+
+  for (let row = 0; row < rows; row += 1) {
+    matrix[row][0] = row
+  }
+
+  for (let col = 0; col < cols; col += 1) {
+    matrix[0][col] = col
+  }
+
+  for (let row = 1; row < rows; row += 1) {
+    for (let col = 1; col < cols; col += 1) {
+      const substitutionCost = source[row - 1] === target[col - 1] ? 0 : 1
+
+      matrix[row][col] = Math.min(
+        matrix[row - 1][col] + 1,
+        matrix[row][col - 1] + 1,
+        matrix[row - 1][col - 1] + substitutionCost
+      )
+    }
+  }
+
+  return matrix[source.length][target.length]
+}
+
+function getSimilarityScore(source, target) {
+  if (!source && !target) {
+    return 1
+  }
+
+  const longestLength = Math.max(source.length, target.length)
+
+  if (longestLength === 0) {
+    return 1
+  }
+
+  const distance = getLevenshteinDistance(source, target)
+  return 1 - distance / longestLength
+}
+
+function answersMatch(userAnswer, correctAnswer) {
+  if (!userAnswer || !correctAnswer) {
+    return false
+  }
+
+  if (userAnswer === correctAnswer) {
+    return true
+  }
+
+  if (
+    correctAnswer.includes(userAnswer) ||
+    userAnswer.includes(correctAnswer)
+  ) {
+    return true
+  }
+
+  const similarityScore = getSimilarityScore(userAnswer, correctAnswer)
+  return similarityScore >= FUZZY_MATCH_THRESHOLD
+}
+
 function App() {
-  const [boardData, setBoardData] = useState(mockBoardData)
+  const initialBoardData = useMemo(
+    () => generateBoardFromStudyClues(shakespeareStudyClues),
+    []
+  )
+
+  const [boardData, setBoardData] = useState(initialBoardData)
   const [activeClue, setActiveClue] = useState(null)
   const [answerText, setAnswerText] = useState('')
   const [isSubmitted, setIsSubmitted] = useState(false)
@@ -76,7 +148,10 @@ function App() {
 
     const normalizedUserAnswer = normalizeAnswer(answerText)
     const normalizedCorrectAnswer = normalizeAnswer(activeClue.response)
-    const answerMatches = normalizedUserAnswer === normalizedCorrectAnswer
+    const answerMatches = answersMatch(
+      normalizedUserAnswer,
+      normalizedCorrectAnswer
+    )
 
     setIsCorrect(answerMatches)
     setIsSubmitted(true)
@@ -104,7 +179,7 @@ function App() {
               <strong className="score-value">{formatScore(score)}</strong>
             </div>
 
-            <div className="header-chip">MVP in progress</div>
+            <div className="header-chip">Real data enabled</div>
           </div>
         </header>
 
@@ -113,9 +188,8 @@ function App() {
             <p className="hero-kicker">Study clues. Beat the clock.</p>
             <h2>Train with real archived clues in a simple Jeopardy-style format.</h2>
             <p className="hero-description">
-              Quizzy Whiskers is being built to help Liz study under
-              Jeopardy-inspired conditions with category-based boards, timed clue
-              responses, and answer framing built into the experience.
+              Quizzy Whiskers is now running on real Shakespeare archive data,
+              giving Liz a more authentic Jeopardy-style study experience.
             </p>
 
             <button className="primary-button" type="button">
@@ -125,10 +199,10 @@ function App() {
 
           <div className="hero-card">
             <span className="card-label">Current build focus</span>
-            <h3>Scored clue flow</h3>
+            <h3>Cleaner clues + fairer validation</h3>
             <p>
-              Correct answers now add money, while incorrect or timed-out clues
-              subtract money from the running score.
+              The board now favors stronger clue text, and answer checking is
+              more forgiving around small wording differences.
             </p>
           </div>
         </section>
@@ -137,9 +211,9 @@ function App() {
           <div className="panel-header">
             <div>
               <p className="panel-eyebrow">Game board</p>
-              <h3>Practice board preview</h3>
+              <h3>Shakespeare practice board</h3>
             </div>
-            <span className="panel-tag">Interactive</span>
+            <span className="panel-tag">Archive-backed</span>
           </div>
 
           <div className="game-board">
@@ -263,8 +337,8 @@ function App() {
                 <strong>Single-player practice</strong>
               </li>
               <li>
-                <span>Answer framing</span>
-                <strong>Hardcoded before input</strong>
+                <span>Dataset</span>
+                <strong>Real Shakespeare archive clues</strong>
               </li>
               <li>
                 <span>Timer</span>
@@ -273,6 +347,10 @@ function App() {
               <li>
                 <span>Scoring</span>
                 <strong>Correct adds, incorrect subtracts</strong>
+              </li>
+              <li>
+                <span>Validation</span>
+                <strong>Flexible match with typo tolerance</strong>
               </li>
             </ul>
           </article>
