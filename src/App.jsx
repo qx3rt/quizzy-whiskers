@@ -244,11 +244,21 @@ const initialBoardData = [
   },
 ]
 
+function normalizeAnswer(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s]/g, ' ')
+    .replace(/\b(a|an|the)\b/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
 function App() {
   const [boardData, setBoardData] = useState(initialBoardData)
   const [activeClue, setActiveClue] = useState(null)
   const [answerText, setAnswerText] = useState('')
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isCorrect, setIsCorrect] = useState(null)
 
   function handleClueSelect(selectedClue) {
     if (selectedClue.used) {
@@ -258,6 +268,7 @@ function App() {
     setActiveClue(selectedClue)
     setAnswerText('')
     setIsSubmitted(false)
+    setIsCorrect(null)
 
     setBoardData((currentBoard) =>
       currentBoard.map((column) => ({
@@ -276,6 +287,11 @@ function App() {
       return
     }
 
+    const normalizedUserAnswer = normalizeAnswer(answerText)
+    const normalizedCorrectAnswer = normalizeAnswer(activeClue.response)
+    const answerMatches = normalizedUserAnswer === normalizedCorrectAnswer
+
+    setIsCorrect(answerMatches)
     setIsSubmitted(true)
   }
 
@@ -308,10 +324,10 @@ function App() {
 
           <div className="hero-card">
             <span className="card-label">Current build focus</span>
-            <h3>Answer input flow</h3>
+            <h3>Lightweight answer validation</h3>
             <p>
-              Select a clue, type a response using the built-in Jeopardy framing,
-              and reveal the correct answer after submission.
+              Submit a response and get immediate feedback based on a simple,
+              normalized text match.
             </p>
           </div>
         </section>
@@ -386,10 +402,27 @@ function App() {
                 </form>
 
                 {isSubmitted ? (
-                  <div className="response-preview">
-                    <span className="response-label">Correct response</span>
-                    <strong>What is {activeClue.response}?</strong>
-                  </div>
+                  <>
+                    <div
+                      className={`result-banner ${
+                        isCorrect ? 'result-correct' : 'result-incorrect'
+                      }`}
+                    >
+                      <span className="result-label">
+                        {isCorrect ? 'Nice work' : 'Not a match'}
+                      </span>
+                      <strong>
+                        {isCorrect
+                          ? 'Your response matches the expected answer.'
+                          : 'Your response did not match the expected answer.'}
+                      </strong>
+                    </div>
+
+                    <div className="response-preview">
+                      <span className="response-label">Correct response</span>
+                      <strong>What is {activeClue.response}?</strong>
+                    </div>
+                  </>
                 ) : null}
               </div>
             ) : (
@@ -411,8 +444,8 @@ function App() {
                 <strong>Hardcoded before input</strong>
               </li>
               <li>
-                <span>Primary prompt</span>
-                <strong>What is</strong>
+                <span>Validation</span>
+                <strong>Case + punctuation normalized</strong>
               </li>
             </ul>
           </article>

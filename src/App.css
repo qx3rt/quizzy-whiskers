@@ -332,6 +332,31 @@
   outline: none;
 }
 
+.result-banner {
+  display: grid;
+  gap: 6px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid transparent;
+}
+
+.result-correct {
+  background: rgba(225, 246, 233, 0.95);
+  border-color: rgba(84, 146, 99, 0.2);
+  color: #245733;
+}
+
+.result-incorrect {
+  background: rgba(255, 239, 239, 0.95);
+  border-color: rgba(184, 93, 93, 0.2);
+  color: #7b2f2f;
+}
+
+.result-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
 .response-preview {
   display: grid;
   gap: 6px;
