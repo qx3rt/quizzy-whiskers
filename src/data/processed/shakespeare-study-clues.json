@@ -1,3258 +1,82 @@
 [
   {
-    "clue": "UH-OH! !Double Romantic, yes, but Romeo & this young bride are not -- we repeat not -- good role models for kids",
-    "response": "Juliet"
+    "clue": "This play features a Puck but no hockey players",
+    "response": "A Midsummer's Night Dream"
   },
   {
-    "clue": "Uncle",
-    "response": "Romeo and Juliet"
+    "clue": "Drink, servant monster, when I bid thee",
+    "response": "Calaban"
   },
   {
-    "clue": "SHAKESPEAREDouble This cousin of Juliet kills Mercutio",
-    "response": "Tybalt"
+    "clue": "There's beggary in the love that can be reckoned",
+    "response": "Antony"
   },
   {
-    "clue": "O",
-    "response": "Otello"
+    "clue": "The name of this insectivore has meant a scolding woman since before Shakespeare used it in a play title",
+    "response": "shrew"
   },
   {
-    "clue": "TIMEDouble Cressida's lover, after happiness has vanished",
-    "response": "joyless Troilus"
-  },
-  {
-    "clue": "Henry VIII",
-    "response": "Wolsey"
-  },
-  {
-    "clue": "An upstart",
-    "response": "Crow"
-  },
-  {
-    "clue": "COMEDIESDouble ,000Considered Shakespeare's first comedy, as its title shows he wanted you to know it was one",
-    "response": "The Comedy of Errors"
-  },
-  {
-    "clue": "Tempest",
-    "response": "Prospero"
-  },
-  {
-    "clue": "C",
-    "response": "Cordelia"
-  },
-  {
-    "clue": "Magic man:",
-    "response": "Prospero"
-  },
-  {
-    "clue": "Twelfth Night",
-    "response": "National Endowment for the Arts"
-  },
-  {
-    "clue": "Cry 'havoc', and let slip",
-    "response": "the dogs of war"
-  },
-  {
-    "clue": "How sweet a thing it is to wear",
-    "response": "a crown"
-  },
-  {
-    "clue": "Some brides wear a decorative skullcap named for this Shakespearean heroine",
-    "response": "Juliet"
-  },
-  {
-    "clue": "I kissed thee ere I killed thee. no way but this, killing myself, to die upon a kiss",
-    "response": "Othello"
-  },
-  {
-    "clue": "J.P.",
-    "response": "Joseph Papp"
-  },
-  {
-    "clue": "Portia's house at Belmont",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "Double creepy ladies say a guy'll be king, so he has to kill the top dog & order a hit on his pal in this play? That's. messed. up.",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "Lost Years",
-    "response": "Stratford-upon-Avon & London"
-  },
-  {
-    "clue": "Alas, I rather hate myself for hateful deeds committed by myself",
-    "response": "Richard III"
-  },
-  {
-    "clue": "SO LONGDouble ,000This king reigned for almost 50 years starting in 1422 & got his name in the titles of 3 Shakespeare plays",
-    "response": "Henry VI"
-  },
-  {
-    "clue": "L.L.L.",
-    "response": "Love's Labour's Lost"
-  },
-  {
-    "clue": "The fault, dear Brutus, is not in",
-    "response": "the stars"
-  },
-  {
-    "clue": "In the 1999 movie version of this Shakespeare play, Rupert Everett & Michelle Pfeiffer are the king & queen of fairies",
-    "response": "\"A Midsummer Night's Dream\""
-  },
-  {
-    "clue": "Speak of me as one that love not wisely, but too well",
-    "response": "Othello"
-  },
-  {
-    "clue": "The ravished Helen...with wanton Paris sleeps--& that's the quarrel.",
-    "response": "Troilus & Cressida"
-  },
-  {
-    "clue": "One of the 2 plays whose plots are set in motion by shipwrecks, one off Illyria & one off an unnamed island",
-    "response": "(1 of) The Tempest & Twelfth Night"
-  },
-  {
-    "clue": "cannibal",
+    "clue": "I have been in such a pickle",
     "response": "The Tempest"
-  },
-  {
-    "clue": "Joseph Conrad was introduced to English at age 8 when his dad was translating Shakespeare into this language",
-    "response": "Polish"
-  },
-  {
-    "clue": "C",
-    "response": "Cyprus"
-  },
-  {
-    "clue": "Infected minds to their deaf pillows will discharge their secrets: more needs she the divine than the physician",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "Calphurnia!",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "I thought the king had more affected the Duke of Albany than Cornwall",
-    "response": "King Lear"
-  },
-  {
-    "clue": "The Murder of Gonzago",
-    "response": "(Tom) Stoppard"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Title character who's Benvolio's buddy",
-    "response": "Romeo"
-  },
-  {
-    "clue": "a lot of fuss concerning zilch",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Wealthy Portia, her gentlewoman, Nerissa & religiously conflicted Jessica",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "In Troy, there lies the scene...",
-    "response": "Troilus and Cressida"
-  },
-  {
-    "clue": "There is no record of his activities between Stratford in 1585 & London in 1592",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "HOT",
-    "response": "Hotspur"
-  },
-  {
-    "clue": "King Lear's daughter Cordelia has these 2 older sisters",
-    "response": "Goneril and Regan"
-  },
-  {
-    "clue": "In his will, this playwright left his second-best bed to his wife; maybe the best one went to Gwyneth Paltrow",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "The name of this play refers to a violent windstorm",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "HOMOPHONESDouble Prevented, or a poet (maybe Shakespeare)",
-    "response": "Barred/bard"
-  },
-  {
-    "clue": "Othello",
-    "response": "green eyes"
-  },
-  {
-    "clue": "LITERATUREDouble Victor Hugo wrote a biographical study of this great English playwright",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "She cleverly disguises herself as a lawyer & saves Antonio from Shylock's revenge",
-    "response": "Portia"
-  },
-  {
-    "clue": "WOMENDouble In the 1st act, before he's king, this title character woos the newly-widowed Lady Anne",
-    "response": "Richard III"
-  },
-  {
-    "clue": "Love's Labour's Lost",
-    "response": "Judas Iscariot"
-  },
-  {
-    "clue": "SHAKESPEAREANADouble Many plays first appeared in these books, smaller than folios, made from sheets folded twice to make 4 leaves",
-    "response": "quartos"
-  },
-  {
-    "clue": "Sonnet 18",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "Antony & Cleopatra",
-    "response": "Octavius"
-  },
-  {
-    "clue": "Scotland & (in 4.3) England",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "LAWDouble You can perform Shakespeare's plays without paying royalties since copyright law defines them as this",
-    "response": "Public Domain"
-  },
-  {
-    "clue": "Conscience is but a word that cowards use, devised at first to keep the strong in awe",
-    "response": "Richard III"
-  },
-  {
-    "clue": "The Tempest",
-    "response": "Prospero"
-  },
-  {
-    "clue": "HUNCHBACKDouble ,800As portrayed by Shakespeare, this 15th century king was a murderous hunchback",
-    "response": "Richard III"
-  },
-  {
-    "clue": "Uneasy lies the head",
-    "response": "wears the crown"
-  },
-  {
-    "clue": "The Donkey Show",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Macbeth",
-    "response": "The Sound and the Fury"
-  },
-  {
-    "clue": "Hamlet",
-    "response": "Hamnet"
-  },
-  {
-    "clue": "PALE CUT",
-    "response": "Capulet"
-  },
-  {
-    "clue": "Who can sever love from charity?",
-    "response": "Love's Labour's Lost"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Nerissa is Portia's waiting-maid in this play",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "She speaks yet she says nothing",
-    "response": "Romeo & Juliet"
-  },
-  {
-    "clue": "Season JMTuesday, May 23, 2023REAL In Shakespeare this man is a rival of Prince Hal; in real life he was older than Hal's father",
-    "response": "Hotspur"
-  },
-  {
-    "clue": "Something is rotten in the state of Denmark",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "so intolerably dull that it nauseated me",
-    "response": "Darwin"
-  },
-  {
-    "clue": "The Taming of the Shrew",
-    "response": "Verona"
-  },
-  {
-    "clue": "Out, out, brief candle!",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "nada",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "Double Banquo--this guy who sent the hitmen, though he also got his own hands bloody",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "to censor",
-    "response": "bowdlerize"
-  },
-  {
-    "clue": "Including the duke of Cornwall, many end up dead in this royal play, by poison, suicide, hanging & causes unknown",
-    "response": "King Lear"
-  },
-  {
-    "clue": "The Tempest",
-    "response": "Miranda"
-  },
-  {
-    "clue": "Make thick my blood; stop up the access & passage to remorse",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "revenge",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "O, wherefore art thou, my love?",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "TIMEDouble It's the Afghani Islamic fundamentalist regime that Prospero's slave would lead",
-    "response": "the Caliban Taliban (Caliban's Talibans accepted)"
-  },
-  {
-    "clue": "In the past 3 years she's played film roles based on Shakespeare's Katharina, Ophelia & Desdemona",
-    "response": "Julia Stiles"
-  },
-  {
-    "clue": "Brush up your Shakespeare & read one of his comedies, like this one about twins Viola & Sebastian",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "TRIVIADouble A glove maker named John & a farmer's daughter named Mary",
-    "response": "Shakespeare's parents"
-  },
-  {
-    "clue": "POTPOURRIDouble Peter Brook's unusual 1970 production of this comedy featured Oberon & Puck on trapezes",
-    "response": "\"A Midsummer Night's Dream\""
-  },
-  {
-    "clue": "My only love sprung from my only hate! Too early seen unknown, and known too late!",
-    "response": "Juliet"
-  },
-  {
-    "clue": "The Greek goddess of magic & Shakespeare's queen of the witches, she can make cows fat or skinny",
-    "response": "Hecate"
-  },
-  {
-    "clue": "Behold, mine arm is, like a blasted sapling, withered up",
-    "response": "Richard III"
-  },
-  {
-    "clue": "this is thy sheath",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "I think there be six Richmonds in the field; five have I slain today instead of him",
-    "response": "King Richard III"
-  },
-  {
-    "clue": "Is Tybalt dead? My dearest cousin, and my dearer lord? Then, dreadful trumpet, sound the general doom",
-    "response": "Juliet"
-  },
-  {
-    "clue": "The plot? Potters plot; mid-March gets dangerous; main plotter ends up committing Strato-cide",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "Richard III",
-    "response": "the winter of our discontent"
-  },
-  {
-    "clue": "IM-PASTORSDouble In this Shakespeare play, Viola dresses as a man & Feste masquerades as clergyman Sir Topas",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "Troilus and Cressida",
-    "response": "Troy"
-  },
-  {
-    "clue": "Saw you the weird sisters?",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "Her dad Brabantio dies of grief over her marriage to Othello",
-    "response": "Desdemona"
-  },
-  {
-    "clue": "19th WOMENDouble In 1857 Delia Bacon alleged that this playwright was a fraud & didn't write his plays",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "SHAKESPEAREDouble The last person Othello kills",
-    "response": "himself"
-  },
-  {
-    "clue": "Hamlet",
-    "response": "Gertrude"
-  },
-  {
-    "clue": "Romeo & Juliet",
-    "response": "Verona"
-  },
-  {
-    "clue": "MENDouble The fool &the Dukes of Cornwall & Albany",
-    "response": "King Lear"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "Starveling"
-  },
-  {
-    "clue": "ASTRONOMYDouble ,000This moon that orbits Uranus in 18 hrs. was named for a Shakespeare character who can circle the Earth in 40 min.",
-    "response": "Puck"
-  },
-  {
-    "clue": "The Dream",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Double Soliloquy-lovin' title guy plus BLT ingredient",
-    "response": "Hamlettuce"
-  },
-  {
-    "clue": "M",
-    "response": "music"
-  },
-  {
-    "clue": "Peace lives again: that she may long live here, God say amen!",
-    "response": "Richard III"
-  },
-  {
-    "clue": "The Moor the Merrier",
-    "response": "Desdemona"
-  },
-  {
-    "clue": "C",
-    "response": "Cassandra"
-  },
-  {
-    "clue": "WWEDouble Brutus! You led the assassins that kill me in Act III! That's not even halfway through my own play! That ain't right!",
-    "response": "(Julius) Caesar"
-  },
-  {
-    "clue": "SHAKESPEAREDouble In this play Titania, queen of the fairies, becomes enamored of Bottom, the weaver",
-    "response": "\"A Midsummer Night's Dream\""
-  },
-  {
-    "clue": "GREAT BRITDouble You can visit the 1564 Stratford-upon-Avon birthplace of this writer of some repute",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "BALLETDouble Originally, Prokofiev wanted this Shakespearean ballet to end with both lovers alive & dancing",
-    "response": "\"Romeo & Juliet\""
-  },
-  {
-    "clue": "BATCH ME",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "SHAKESPEAREDouble An officer with the silly name of Silius shows up in the play named for these historic lovers",
-    "response": "\"Antony & Cleopatra\""
-  },
-  {
-    "clue": "Paradise Lost",
-    "response": "(John) Milton"
-  },
-  {
-    "clue": "ENDINGSDouble ,000In 1995 the marriage of these Shakespearean actors & co-stars did wither like the leaf in autumn's chill",
-    "response": "Kenneth Branagh & Emma Thompson"
-  },
-  {
-    "clue": "Spartan dog",
-    "response": "Othello"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Brabantio, this woman's father, dies of grief over her marriage to Othello",
-    "response": "Desdemona"
-  },
-  {
-    "clue": "D.C.- statue of Puck graces this Shakespeare library",
-    "response": "the Folger"
-  },
-  {
-    "clue": "WILL",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "M",
-    "response": "Mab"
-  },
-  {
-    "clue": "Owen Glendower bedeviled Henry IV on stage & in real life as a leader of rebel forces in this U.K. country",
-    "response": "Wales"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "Jack & Jill"
-  },
-  {
-    "clue": "The last person to die in this play is Brutus, who kills himself",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "Othello",
-    "response": "Iago"
-  },
-  {
-    "clue": "Double, double, toil and trouble, fire burn and ____ bubble",
-    "response": "cauldron"
-  },
-  {
-    "clue": "And Horatio In The Graveyard",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Curst be he that moves my bones",
-    "response": "William Shakespeare (he's buried at Stratford)"
-  },
-  {
-    "clue": "Macbeth",
-    "response": "Duncan"
-  },
-  {
-    "clue": "I prithee take thy fingers from my throat",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "CASTDouble Portia,Antonio,Bassanio",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "GNOME, SWEET GNOMEDouble Shakespeare got a credit on this 2011 animated movie",
-    "response": "Gnomeo and Juliet"
-  },
-  {
-    "clue": "C",
-    "response": "Caliban"
-  },
-  {
-    "clue": "amenable",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "Near the end of the play, Fluellen, one of Henry V's officers, compares him to this 4th century B.C. conqueror",
-    "response": "Alexander the Great"
-  },
-  {
-    "clue": "Now applied to Shakespeare, this word referred originally to Celtic minstrel poets",
-    "response": "bard"
-  },
-  {
-    "clue": "My Own Private Idaho",
-    "response": "Henry IV"
-  },
-  {
-    "clue": "Merry Wives",
-    "response": "Central Park"
-  },
-  {
-    "clue": "UH-OH! !Double Hard to imagine, but in Shakespeare's time, this queen of Egypt, like other female roles, was played by a boy",
-    "response": "Cleopatra"
-  },
-  {
-    "clue": "Scouting report on this title guy: very indecisive hitting holes but has great vision--even of his own father's ghost",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Song: To Celia",
-    "response": "Ben Jonson"
-  },
-  {
-    "clue": "In this play Malcolm & Donalbain are the sons of King Duncan",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "Take in a show at the Public Theater or Shakespeare in the Park, both founded by this producer/director",
-    "response": "(Joseph) Papp"
-  },
-  {
-    "clue": "O, what a rogue and peasant slave am I",
-    "response": "the Hamlet"
-  },
-  {
-    "clue": "Gary",
-    "response": "Titus Andronicus"
-  },
-  {
-    "clue": "Starting at WR, as no one catches grief better than her, this Lear daughter does get benched from the play in Acts 2 & 3",
-    "response": "Cordelia"
-  },
-  {
-    "clue": "SHAKESPEAREDouble An orchard near Oliver's house is the 1st setting in this play; the forest of Arden turns up later",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "Henry VIII",
-    "response": "Catherine of Aragon"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Kenneth Branagh & Emma Thompson played Benedick & Beatrice in the 1993 film version of this comedy",
-    "response": "\"Much Ado About Nothing\""
-  },
-  {
-    "clue": "The Duchess of Malfi",
-    "response": "Shakespeare in Love"
-  },
-  {
-    "clue": "COMEDIESDouble The story goes, Queen Elizabeth wanted to see Falstaff in love so Shakespeare quickly wrote this comedy",
-    "response": "The Merry Wives of Windsor"
-  },
-  {
-    "clue": "THE 1940sDouble This Shakespeare-sourced Cole Porter classic won the Tony Award for Best Musical in 1949",
-    "response": "Kiss Me, Kate"
-  },
-  {
-    "clue": "WOMENDouble The Duke of Albany & the Duke of Cornwall are the husbands of these 2 sisters",
-    "response": "Goneril & Regan"
-  },
-  {
-    "clue": "It's the only part of Hamlet's father's jester seen in Shakespeare's play",
-    "response": "his skull (Yorick's)"
-  },
-  {
-    "clue": "A",
-    "response": "apothecary"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "Elizabeth I"
-  },
-  {
-    "clue": "GOVDouble Underage couples in love are often protected by laws named for this pair",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "Shakespeare in Love",
-    "response": "Judi Dench"
-  },
-  {
-    "clue": "drunken man",
-    "response": "The Taming of the Shrew"
-  },
-  {
-    "clue": "As for that ravenous tiger, Tamora... Her life was beastly... And being dead, let birds on her take pity",
-    "response": "Titus Andronicus"
-  },
-  {
-    "clue": "SCENESDouble This prince of Tyre discovers the wife he believed was dead has become a priestess of Diana",
-    "response": "Pericles"
-  },
-  {
-    "clue": "No",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "You may have witnessed Kelly McGillis as this obsessive hand-washer onstage in 2004",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "PLAYDouble A woman disguised as a man is loved by a woman who ends up marrying her brother",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "PORTMANTEAUDouble Shakespeare believes that there will be an answer for why the prince of Denmark sings a Beatles classic",
-    "response": "Hamlet It Be"
-  },
-  {
-    "clue": "LOST",
-    "response": "Love's Labour's Lost"
-  },
-  {
-    "clue": "In the 1970s, when she was in her 70s, Dame Judith Anderson took on this male role; she'd previously played his mom",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "A Thousand Acres",
-    "response": "King Lear"
-  },
-  {
-    "clue": "The Winter's...",
-    "response": "Tale"
-  },
-  {
-    "clue": "A Merry Jest of a Shrewd and Curst Wife...",
-    "response": "The Taming of the Shrew"
-  },
-  {
-    "clue": "Let the angel... tell thee",
-    "response": "Macduff"
-  },
-  {
-    "clue": "CHARACTERSDouble men named Cinna appear in this tragedy: one is a poet & one is a conspirator",
-    "response": "Julius Caesar"
   },
   {
     "clue": "Mel Gibson has a few Mommy issues with Glenn Close in this Shakespearean film",
     "response": "Hamlet"
   },
   {
-    "clue": "BURIALDouble His son Hamnet died of unknown causes in 1596 at the age of 11",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "Macbeth",
-    "response": "Malcolm"
-  },
-  {
-    "clue": "No",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "CHARACTERSDouble Villainous king whose brother George was drowned in a cask of wine",
-    "response": "Richard III"
-  },
-  {
-    "clue": "Sir John in Love",
-    "response": "The Merry Wives of Windsor"
-  },
-  {
-    "clue": "NONFICTIONDouble In this essay, Virginia Woolf created the hypothetical example of Shakespeare's sister, gifted but uneducated",
-    "response": "A Room of One's Own"
-  },
-  {
-    "clue": "Cordelia refuses to flatter Dad just to get a bigger inheritance, unlike these 2 siblings",
-    "response": "Regan & Goneril"
-  },
-  {
-    "clue": "And kiss me Kate, we will be married O'Sunday",
-    "response": "Petruchio"
-  },
-  {
-    "clue": "In a Shakespeare adaptation by Jo Nesbø, Duncan is chief of police & this title guy, a devious inspector",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "The lady is enamored of thee, verily, verily, verily",
-    "response": "\"She Loves You\""
-  },
-  {
-    "clue": "He's coming hither; now i' the night, i' the haste, and Regan with him",
-    "response": "King Lear"
-  },
-  {
-    "clue": "YOU SAYDouble ,200This son of Hecuba & title character of a Shakespeare play was ambushed & killed by Achilles",
-    "response": "Troilus"
-  },
-  {
-    "clue": "SHAKESPEAREDouble ,200Maggie Smith earned a 1965 Oscar nomination for playing Desdemona in this Laurence Olivier film",
-    "response": "Othello"
-  },
-  {
-    "clue": "This is Illyria",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "The isle is full of noises",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "Richard II",
-    "response": "Windsor Castle"
-  },
-  {
-    "clue": "Cymbeline",
-    "response": "franchise"
-  },
-  {
-    "clue": "C",
-    "response": "Claudius"
-  },
-  {
-    "clue": "How camest thou hither, tell me, and wherefore? The orchard walls are high and hard to climb",
-    "response": "Juliet"
-  },
-  {
-    "clue": "When I was about thy years, Hal, I was not an eagle's talon in the waist",
-    "response": "(Sir John) Falstaff"
-  },
-  {
-    "clue": "Venus and Adonis",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "When he mistakes frankness for lack of affection, this king rejects his only loyal daughter",
-    "response": "King Lear"
-  },
-  {
-    "clue": "And my poor fool is hang'd!",
-    "response": "King Lear"
-  },
-  {
-    "clue": "A comedy about the greatest love story almost never told",
-    "response": "Shakespeare in Love"
-  },
-  {
-    "clue": "purified",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "The 1st season mentioned in this play is summer, but it has another season in its title",
-    "response": "The Winter's Tale"
-  },
-  {
-    "clue": "And so did I",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "THINGDouble Disguised as a lawyer, she saves Antonio from the revenge of Shylock",
-    "response": "Portia"
-  },
-  {
-    "clue": "As You Like It",
-    "response": "jester"
-  },
-  {
-    "clue": "FILMSDouble In a 1995 film starring Ian McKellen, this Shakespearean history is transported to the 1930s",
-    "response": "Richard III"
-  },
-  {
-    "clue": "This play begins at a queen's palace in Alexandria",
-    "response": "Antony and Cleopatra"
-  },
-  {
-    "clue": "You need a hankie for this tragedy; a Cassio gets played; smother, may I?",
-    "response": "Othello"
-  },
-  {
-    "clue": "The Thane of Fife had a wife; where is she now? What, will these hands ne'er be clean?",
-    "response": "Lady MacBeth"
-  },
-  {
-    "clue": "the game is afoot",
-    "response": "(Sir Arthur Conan) Doyle"
-  },
-  {
-    "clue": "SHAKESPEAREDouble In a Shakespeare poem, Adonis rejects this goddess of love",
-    "response": "Venus"
-  },
-  {
-    "clue": "Twelfth Night",
-    "response": "great"
-  },
-  {
-    "clue": "LITERATUREDouble Matteo Bandello's short stories inspired a number of Shakespeare's plays, including this Verona-set tragedy",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "Hamlet",
-    "response": "Guildenstern"
-  },
-  {
-    "clue": "Where is the beauteous majesty of Denmark?",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "ROLESDouble The great 19th c. actor Edwin Booth was most famous for playing this Shakespearean role",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "The Merchant of Venice",
-    "response": "Portia"
-  },
-  {
-    "clue": "BALLETSDouble Title character played by former Alvin Ailey dancer Desmond Richardson in a 1997 ballet",
-    "response": "Othello"
-  },
-  {
-    "clue": "SCHOLARDouble Gloucester blindness symbolic in how he deal with Edgar; Hulk reflect on own family after this play",
-    "response": "King Lear"
-  },
-  {
-    "clue": "Rosalind from this comedy has the most lines of any of Shakespeare's women",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "ado",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "Season JMFriday, May 10, 2024LIKE SHAKESPEAREJeopardy Round: 1000The settings in this play are Milan, a forest near Milan & the title city",
-    "response": "The Two Gentlemen of Verona"
-  },
-  {
-    "clue": "A plague o' both your houses!",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "The most unkindest cut of all",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "WORDDouble In Shakespeare's 18th sonnet",
-    "response": "(Shall I) compare (thee to a summer's day)"
-  },
-  {
-    "clue": "Frailty, thy name is woman",
-    "response": "(Queen) Gertrude"
-  },
-  {
-    "clue": "Poison spoils Elsinore royals; also, this title character's play within play becomes B'way smash!",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "The Merry Wives of Windsor",
-    "response": "\"Greensleeves\""
-  },
-  {
-    "clue": "seen better days",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "Cry 'havoc!' and let slip the dogs of war",
-    "response": "Marc Antony"
-  },
-  {
-    "clue": "The Carolina Ballet debuted a 2006 work based on this stormy Shakespearean shipwreck saga",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "Where Late the Sweet Birds Sang",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "murder most foul",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "M",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "Battle of the Sexes",
-    "response": "\"Taming of the Shrew\""
-  },
-  {
-    "clue": "Shakespeare in Love",
-    "response": "Gwyneth Paltrow & Judi Dench"
-  },
-  {
-    "clue": "Double Cordelia:murder by this method",
-    "response": "hanging"
-  },
-  {
-    "clue": "One wicked daughter would have been quite enough",
-    "response": "King Lear"
-  },
-  {
-    "clue": "This Shakespeare comedy set in Illyria is said to have first been performed on January 6",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "MONARCHSDouble Though Shakespeare said he was murdered, some say he starved himself after being deposed by Henry IV",
-    "response": "Richard II"
-  },
-  {
-    "clue": "Volpone",
-    "response": "a fox"
-  },
-  {
-    "clue": "Comedy",
-    "response": "The Comedy of Errors"
-  },
-  {
-    "clue": "Our love's gonna be written down in history a-just like",
-    "response": "Romeo & Juliet"
-  },
-  {
-    "clue": "Double Mercutio, who has a few choice words about the Montagues & Capulets before dying",
-    "response": "Tybalt"
-  },
-  {
-    "clue": "Brave New World",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "seasonal",
-    "response": "A Winter's Tale"
-  },
-  {
-    "clue": "Thou art the ruins of the noblest man that ever lived in the tide of times",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "Double Ophelia: possible suicide by this method",
-    "response": "drowning"
-  },
-  {
-    "clue": "little king",
-    "response": "Regan (from King Lear)"
-  },
-  {
-    "clue": "Saint Joan",
-    "response": "George Bernard Shaw"
-  },
-  {
-    "clue": "Henry IV",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "In Shakespeare's play, ghost who sat in Macbeth's place at the banquet table",
-    "response": "Banquo"
-  },
-  {
-    "clue": "I jest to Oberon... and sometime lurk I in a gossip's bowl",
-    "response": "Puck"
-  },
-  {
-    "clue": "The Bard of Avon & also the Swan of Avon: either way, he told a few tales",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "THEATREDouble When this Shakespearean theater was rebuilt after a 1613 fire, tile replaced thatch on its roof",
-    "response": "the Globe Theatre"
-  },
-  {
-    "clue": "real set",
-    "response": "Laertes (for \"real set\")"
-  },
-  {
-    "clue": "AFTERDouble A 1953 musical based on a Shakespeare play becomes an actress who won as a literature-loving Nazi",
-    "response": "Kiss Me Kate Winslet"
-  },
-  {
-    "clue": "As You Like It",
-    "response": "wine"
-  },
-  {
-    "clue": "COMEDIESDouble ,000All the words start with the same letter in the title of this play from around 1595",
-    "response": "Love's Labour's Lost"
-  },
-  {
-    "clue": "Boatswain!",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "DARKDouble ,000Laurence Olivier was accidentally hit by an arrow when he played this king on film, so his limp was real",
-    "response": "Richard III"
-  },
-  {
-    "clue": "I hold it fit that we shake hands and part",
-    "response": "Horatio"
-  },
-  {
-    "clue": "1956 Due to ankle injuries, Orson Welles played this Shakespearean king in a wheel-chair on B'way",
-    "response": "King Lear"
-  },
-  {
-    "clue": "Fairies fight & frolic in the forest",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Bird",
-    "response": "A Twelfth Night Owl"
-  },
-  {
-    "clue": "The bloody dog is dead",
-    "response": "Richard III"
-  },
-  {
-    "clue": "of Mtsensk",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "Noah Webster was a co-founder of this Mass. college that administers the Folger Shakespeare Library",
-    "response": "Amherst"
-  },
-  {
-    "clue": "BUT...Double It's about this guy who hires non-permanent secretarial help for his office",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "No grave upon the earth shall clip in it A pair so famous... see High order in this great solemnity",
-    "response": "Antony and Cleopatra"
-  },
-  {
-    "clue": "HEREDouble This Shakespeare play begins as Don Pedro's victorious army returns to Messina",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "The island. The entrance of a cave",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "I charge you, o men... that between you and the women the play may please",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "admirable",
-    "response": "Miranda"
-  },
-  {
-    "clue": "B",
-    "response": "Brutus"
-  },
-  {
-    "clue": "Rockabye Hamlet",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "Aid me if thou canst, I feel sorrow... & my gratitude is large for thy presence here",
-    "response": "\"Help!\""
-  },
-  {
-    "clue": "Season JMTuesday, May 23, 2023BARONS & BARONESSESDouble Jeopardy Round: 400This Shakespearean actor was knighted in 1947 and became Baron of Brighton in 1970 for his theater work",
-    "response": "Laurence Olivier"
-  },
-  {
-    "clue": "He has the most speeches of any character with 471 in 3 plays, of which 2 are histories & 1 is a comedy",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "Kiss Me, Kate",
-    "response": "The Taming of the Shrew"
-  },
-  {
-    "clue": "LONG MOVIESDouble In 1996 a Kenneth Branagh film fit this Shakespeare tragedy into just over 4 hours",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "SHAKESPEAREDouble In this comedy Julia disguises herself as a boy to follow Proteus from Verona to Milan",
-    "response": "Two Gentlemen of Verona"
-  },
-  {
-    "clue": "Let's all sink with the king",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "Henry V",
-    "response": "Kenneth Branagh"
-  },
-  {
-    "clue": "MENDouble The porter &Duncan",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "SHAKESPEAREDouble This misanthropic title character leaves Athens & moves to a cave",
-    "response": "Timon (of Athens)"
-  },
-  {
-    "clue": "NUMBERDouble Lines in a Shakespearean sonnet",
-    "response": "14"
-  },
-  {
-    "clue": "He doth bestride the narrow world like a colossus",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "UPDouble ,000Name shared by a Shakespearean play-within-a-play & a long-running Agatha Christie play that premiered in 1952",
-    "response": "The Mousetrap"
-  },
-  {
-    "clue": "Love's",
-    "response": "L-A-B-O-U-R-'-S"
-  },
-  {
-    "clue": "Easy Rider",
-    "response": "Dennis Hopper"
-  },
-  {
-    "clue": "Henry VI",
-    "response": "a trilogy"
-  },
-  {
-    "clue": "The Tempest",
-    "response": "Prospero"
-  },
-  {
-    "clue": "Shall I",
-    "response": "Shall I compare thee to a summer's day?"
-  },
-  {
-    "clue": "O, how this spring of love resembleth the uncertain glory of an April day",
-    "response": "The Two Gentlemen of Verona"
-  },
-  {
-    "clue": "LOCK",
+    "clue": "I am a dog, beware my fangs",
     "response": "Shylock"
   },
   {
-    "clue": "a pair of star-cross'd lovers",
-    "response": "Romeo & Juliet"
+    "clue": "Timon of Athens",
+    "response": "In Cold Blood"
   },
   {
-    "clue": "PASTDouble At age 14, Eleonora Duse played this Shakespearean ingenue at Verona",
-    "response": "Juliet"
+    "clue": "The Drunken Boat",
+    "response": "Rimbaud"
   },
   {
-    "clue": "LITERATUREDouble At a dinner party in Shakespeare, Banquo's ghost shows up to torment this title character",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "CONTEMPORARIESDouble Lady Godiva was a naked babe in arms when this Scot & Shakespeare title character was on the throne",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "EX",
-    "response": "exeunt"
-  },
-  {
-    "clue": "the sun",
-    "response": "Juliet"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Nahum Tate's 1681 adaptation of this play omitted the Fool & added a love affair between Edgar & Cordelia",
-    "response": "King Lear"
-  },
-  {
-    "clue": "We few, we happy few, we...",
-    "response": "band of brothers"
-  },
-  {
-    "clue": "MENDouble Octavius &Philo",
-    "response": "Antony and Cleopatra"
-  },
-  {
-    "clue": "Henry VIII",
-    "response": "Cardinal Wolsey"
-  },
-  {
-    "clue": "WELL, SHAKESPEAREDouble It's the last name of German dramatist Bertolt, who lived in the U.S. from 1941 to 1947",
-    "response": "Brecht"
-  },
-  {
-    "clue": "OLIVIADouble Nothing is ordinary for Olivia in this Shakespeare comedy: she loves Cesario, who is Viola in disguise",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "Bo-Peep",
-    "response": "King Lear"
-  },
-  {
-    "clue": "Things without all remedy should be without regard: what's done is done",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "IT RUNS A DISCOUNT",
-    "response": "Titus Andronicus"
-  },
-  {
-    "clue": "SETTINGSDouble The play that's set in & around the Greek city as its title",
-    "response": "Timon of Athens"
-  },
-  {
-    "clue": "P.I. ,000Impressive trail of corpses in this title guy's wake: the Dukes of Clarence & York & the Prince of Wales",
-    "response": "Richard III"
-  },
-  {
-    "clue": "Richard III",
-    "response": "Bosworth (Field)"
-  },
-  {
-    "clue": "not wisely, but too well",
-    "response": "Othello"
-  },
-  {
-    "clue": "I'm Beatrice Reiner. I stop at the hotel",
-    "response": "nothing"
-  },
-  {
-    "clue": "Romeo & Juliet",
-    "response": "priests (friars)"
-  },
-  {
-    "clue": "Double Regan (then she offs herself)",
-    "response": "Goneril"
-  },
-  {
-    "clue": "PIRATESDouble Though Shakespeare didn't tell us so, in 75 B.C. pirates kidnapped this man & held him for ransom",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "How dost thou, Benedick, the married man?",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "TRIVIADouble Of Romeo or Juliet, the 1 who has more lines",
-    "response": "Romeo"
-  },
-  {
-    "clue": "Now is the winter of our discontent made glorious summer by this sun of York",
-    "response": "Richard III"
-  },
-  {
-    "clue": "WORLDDouble This 3-word nickname for Shakespeare is based in part on his place of birth in 1564",
-    "response": "the Bard of Avon"
-  },
-  {
-    "clue": "Enter Polonius",
-    "response": "Rosencrantz & Guildenstern"
-  },
-  {
-    "clue": "O, thereby hangs a tail",
-    "response": "Iago"
-  },
-  {
-    "clue": "CASTDouble Lucentio,Bianca,Katharina",
-    "response": "The Taming of the Shrew"
-  },
-  {
-    "clue": "Double ,000Make no mistake, a character named Dr. Pinch is a quack physician & teacher in this Shakespeare play",
-    "response": "A Comedy of Errors"
-  },
-  {
-    "clue": "SHAKESPEAREDouble The title character of this tragedy is governor of Cyprus, where much of the play is set",
-    "response": "\"Othello\""
-  },
-  {
-    "clue": "Troilus and Criseyde",
-    "response": "Geoffrey Chaucer"
-  },
-  {
-    "clue": "The Merry Wives of Windsor",
-    "response": "Mistress Quickly"
-  },
-  {
-    "clue": "Henry VI, Part I",
-    "response": "Joan of Arc"
-  },
-  {
-    "clue": "GAME NAMEDouble It's all there in black & white; this strategy game is named for a Shakespeare play",
-    "response": "Othello"
-  },
-  {
-    "clue": "Macbeth",
-    "response": "Lay on, Macduff"
-  },
-  {
-    "clue": "After England, more Shakespeare plays are set in this present-day country than in any other",
-    "response": "Italy"
-  },
-  {
-    "clue": "Give me your hands if we be friends, and Robin shall restore amends",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Now is the winter of our discontent made glorious summer by this sun of...",
-    "response": "York"
-  },
-  {
-    "clue": "murder most foul",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "ROLESDouble ,0001998:Richard Burbage,Queen Elizabeth,Viola de Lesseps",
-    "response": "Shakespeare in Love"
-  },
-  {
-    "clue": "SHAKESPEAREDouble In this play, the twins of Antipholus & Dromio are also named Antipholus & Dromio",
-    "response": "A Comedy of Errors"
-  },
-  {
-    "clue": "Or What You Will",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "A very outside LB, this guy plays on an island; the son of a witch & a devil, he's a total beast out there!",
-    "response": "Caliban"
-  },
-  {
-    "clue": "Henry IV, Part II",
-    "response": "(Sir John) Falstaff"
-  },
-  {
-    "clue": "ACTORSDouble Anthony Hopkins & Diana Rigg played this scintillating Scottish couple at the Old Vic in 1972",
-    "response": "Lord & Lady Macbeth"
-  },
-  {
-    "clue": "Who's there?",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Macbeth",
-    "response": "Malcolm"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Tybalt is this title teenage girl's first cousin",
-    "response": "Juliet"
-  },
-  {
-    "clue": "DEATHMATCHDouble He's a lover & a fighter as he kills both Tybalt & Paris",
-    "response": "Romeo"
-  },
-  {
-    "clue": "DRAMADouble This Egyptian queen's name appears in the titles of plays by Shakespeare & Shaw",
-    "response": "Cleopatra"
-  },
-  {
-    "clue": "& Juliet",
-    "response": "\"Larger Than Life\""
-  },
-  {
-    "clue": "Scone",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "TNG An associate artist of the Royal Shakespeare Company, he plays Captain Jean-Luc Picard",
-    "response": "Patrick Stewart"
-  },
-  {
-    "clue": "heart",
-    "response": "Cordelia"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Brabantio, this tragic title character's father-in-law, is a Venetian senator",
-    "response": "Othello"
-  },
-  {
-    "clue": "not really that important",
-    "response": "Antony and Cleopatra"
-  },
-  {
-    "clue": "Othello",
-    "response": "trash"
-  },
-  {
-    "clue": "Wherefore should you do this?",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "CSI: The Duke's been stabbed, then drowned in a barrel of wine; looks like the drinks... are on him",
-    "response": "Richard III"
-  },
-  {
-    "clue": "Ariel foils Antonio's plot against Alonso in this play, but will that lead to getting voted off the island?",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Kenneth Branagh's 1993 film of this comedy features Denzel Washington as Don Pedro",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "SHAKESPEAREDouble This title character buys the poison that eventually kills him in Mantua, not in Verona",
-    "response": "Romeo"
-  },
-  {
-    "clue": "SONATASDouble Beethoven's piano sonata in D minor, Op. 31 No. 2, has this name for its stormy character, not the Shakespeare play",
-    "response": "Tempest"
-  },
-  {
-    "clue": "A fellow of infinite jest, of most excellent fancy",
-    "response": "Yorick"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Richard II, Richard III & Henry VIII all had wives with this name",
-    "response": "Anne"
-  },
-  {
-    "clue": "CSI: Stabbed the king & made him drink poison--something is rotten in the state of Denmark... & it's him",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Carnal, bloody, and unnatural acts",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "How sharper than a serpent's tooth it is to have a thankless ____",
-    "response": "child"
-  },
-  {
-    "clue": "the first poet in the world in some things",
-    "response": "Ben Jonson"
-  },
-  {
-    "clue": "This prime minister left the Likud party in 2005 to form a new centrist party, Kadima",
-    "response": "Ariel Sharon"
-  },
-  {
-    "clue": "DR. PHIL, So your uncle killed Dad & married Mom; I say stop brooding, get off your duff & kill your uncle!",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "I am the very pink of courtesy",
-    "response": "Mercutio"
-  },
-  {
-    "clue": "Wiggly dessert for Desdemona's jealous husband",
-    "response": "Othello Jell-O"
-  },
-  {
-    "clue": "A noble Moor in the service of the Venetian state",
-    "response": "Othello"
-  },
-  {
-    "clue": "Shakespeare in Love",
-    "response": "Christopher Marlowe"
-  },
-  {
-    "clue": "MEDouble Named for the god of thievery, this friend of Romeo is slain by Juliet's cousin Tybalt",
-    "response": "Mercutio"
-  },
-  {
-    "clue": "SCREENPLAYDouble Marc Norman & Tom Stoppard(1998)",
-    "response": "Shakespeare In Love"
-  },
-  {
-    "clue": "In this play Gratiano has the last speech; Portia has the next to last",
-    "response": "\"The Merchant of Venice\""
-  },
-  {
-    "clue": "This metaphor used by Shakespeare & Coleridge to denote an ending is based on a legend that never really happens in nature",
-    "response": "swan song"
-  },
-  {
-    "clue": "M",
-    "response": "a Moor"
-  },
-  {
-    "clue": "PLEASE, There are this many lines in a Shakespearean sonnet",
-    "response": "14"
-  },
-  {
-    "clue": "CHARACTERSDouble Some merry wives dress up like fairies in Verdi's 1893 opera named for this Shakespearean character",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "M",
-    "response": "merry"
-  },
-  {
-    "clue": "All the world's",
-    "response": "a stage"
-  },
-  {
-    "clue": "KILLERDouble In this play the question is, who's going to die--the King, the Queen, Ophelia & the title guy do",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "The Murder of Gonzago",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Hamlet",
-    "response": "Elsinore"
-  },
-  {
-    "clue": "Let's meet as little as we can",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "Did my heart love till now?...for I ne'er saw true beauty till this night",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "My mistress' eyes are nothing like the sun",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "The Merchant of Venice",
-    "response": "Shylock"
-  },
-  {
-    "clue": "TEEN",
-    "response": "14"
-  },
-  {
-    "clue": "Shakespeare in Love",
-    "response": "Gwyneth Paltrow"
-  },
-  {
-    "clue": "Henry V",
-    "response": "band of brothers"
-  },
-  {
-    "clue": "Sweets to the sweet",
-    "response": "Gertrude"
-  },
-  {
-    "clue": "THEIR CONTEMPORARYDouble On April 23, 1616 Shakespeare died in England & this great writer died in Spain",
-    "response": "Cervantes"
-  },
-  {
-    "clue": "EARLSDouble This 1623 edition of Shakespeare is dedicated to the Earls of Pembroke & Montgomery",
-    "response": "First Folio"
-  },
-  {
-    "clue": "days' wonder",
-    "response": "9"
-  },
-  {
-    "clue": "th C. English comedian Josias Miller won lasting comic fame as first gravedigger in this play by Shakespeare",
-    "response": "\"Hamlet\""
-  },
-  {
-    "clue": "WARDouble ,000In the title of a Shakespeare work, he is a son of King Priam & she is the daughter of Calchas",
-    "response": "Troilus & Cressida"
-  },
-  {
-    "clue": "This modern dance pioneer lost her 2 children to a 1913 auto accident before dying in one herself",
-    "response": "Isadora Duncan"
-  },
-  {
-    "clue": "F",
-    "response": "Fortinbras"
-  },
-  {
-    "clue": "found",
-    "response": "Love's Labour's Lost"
-  },
-  {
-    "clue": "King John",
-    "response": "Eleanor of Aquitaine"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "Hippolyta"
-  },
-  {
-    "clue": "Falstaff",
-    "response": "The Merry Wives of Windsor"
-  },
-  {
-    "clue": "2 TAKINGDouble Valentine & Proteus are the pair of fellows in this Shakespeare title",
-    "response": "Two Gentlemen of Verona"
-  },
-  {
-    "clue": "Demented dad:",
-    "response": "King Lear"
-  },
-  {
-    "clue": "Lots o' Bustle Concerning Zilch",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "If thou be merciful, open the tomb, lay me with Juliet",
-    "response": "Paris"
-  },
-  {
-    "clue": "All the world's a stage",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "Shakespeare in Love",
-    "response": "Gwyneth Paltrow"
-  },
-  {
-    "clue": "SHAKESPEAREDouble ,000This title character imprisons his brother, the Duke of Clarence, in the Tower of London",
-    "response": "Richard III"
-  },
-  {
-    "clue": "passionate",
-    "response": "ardent"
-  },
-  {
-    "clue": "that death's unnatural that kills for loving",
+    "clue": "The Moor the Merrier",
     "response": "Desdemona"
   },
   {
-    "clue": "O, what a noble mind is here o'erthrown!... O, woe is me! To have seen what I have seen, see what I see!",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "CHARACTERSDouble His mother died of grief after he was banished from Verona",
-    "response": "Romeo"
-  },
-  {
-    "clue": "Hamlet",
-    "response": "Kenneth Branagh"
-  },
-  {
-    "clue": "Goneril with a white beard",
-    "response": "King Lear"
-  },
-  {
-    "clue": "Or What You Will",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "Athens and neighbourhood",
-    "response": "Timon of Athens"
-  },
-  {
-    "clue": "P",
-    "response": "Quince"
-  },
-  {
-    "clue": "big deal",
-    "response": "\"Much Ado About Nothing Comes Between Me and My Calvins\""
-  },
-  {
-    "clue": "Queen Gertrude reports this woman's death by drowning",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "I don't want that thing in my house",
-    "response": "Shakespeare in Love"
-  },
-  {
-    "clue": "Go, bid the soldiers shoot",
+    "clue": "This above all: to thine own self be true",
     "response": "Hamlet"
   },
   {
-    "clue": "TITLEDouble The short-tailed variety of this insectivore uses toxic saliva to immobilize prey",
-    "response": "a shrew"
-  },
-  {
-    "clue": "CLUE: VERSIONDouble ,000It was Hamlet, in the Queen's chamber, stabbing this man through a curtain",
-    "response": "Polonius"
-  },
-  {
-    "clue": "As a mark of his favor, one thing Henry VIII does for her is to make her the Marchioness of Pembroke",
-    "response": "Anne Boleyn"
-  },
-  {
-    "clue": "SHAKESPEAREDouble ,000After III, the only King Henry with no Shakespeare title is him, the subject of a 2007 Sean Cunningham biography",
-    "response": "Henry VII"
-  },
-  {
-    "clue": "(Dagmar Midcap of NBC 7 in San Diego presents the clue.) In February 1983, Queen Elizabeth visited San Diego, stopping in Balboa Park to unveil a statue of William Shakespeare at this theater, named for the historic one in London where many of Shakespeare’s plays were first performed",
-    "response": "the Globe"
-  },
-  {
-    "clue": "ARTSDouble In 1603 Shakespeare's company, the Lord Chamberlain's Men, switched to royal patronage & to this name",
-    "response": "the King's Men"
-  },
-  {
-    "clue": "MasterChef",
-    "response": "(Gordon) Ramsay"
-  },
-  {
-    "clue": "NIGHT",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "This queen of Denmark dies after drinking poison prepared for Hamlet by Claudius",
-    "response": "Gertrude"
-  },
-  {
-    "clue": "he that knows better how to tame a shrew, now let him speak",
-    "response": "Petruchio"
-  },
-  {
-    "clue": "5",
-    "response": "pentameter"
-  },
-  {
-    "clue": "green in judgment",
-    "response": "your salad days"
-  },
-  {
-    "clue": "Speed-the-Plow",
-    "response": "Mamet"
-  },
-  {
-    "clue": "The Taming of the Shrew",
-    "response": "Kiss Me, Kate"
-  },
-  {
-    "clue": "A",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "Macbeth",
-    "response": "(King) Duncan"
-  },
-  {
-    "clue": "Season JMWednesday, May 10, 2023A WORDSJeopardy Round: 1000Navarre,celibacy!Rosaline?Re-plan!",
-    "response": "Love's Labour's Lost"
-  },
-  {
-    "clue": "The course of true love...",
-    "response": "never did run smooth"
-  },
-  {
-    "clue": "WELL, SHAKESPEAREDouble Sure & 'tis the name of playwright John Casey, after he changed it to its Irish form",
-    "response": "Sean O'Casey"
-  },
-  {
-    "clue": "Methought I heard a voice cry",
-    "response": "sleep"
-  },
-  {
-    "clue": "horrid image doth unfix my hair",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "The Winter's Tale",
-    "response": "a bear"
-  },
-  {
-    "clue": "Othello",
-    "response": "Desdemona"
-  },
-  {
-    "clue": "Is not tomorrow, boy, the Ides of March?",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "So far from being Shakespeare's masterpiece",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "seasonal",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Good night, sweet prince",
-    "response": "Horatio"
-  },
-  {
-    "clue": "She went to medical school at Johns Hopkins before hosting a literary group & hanging out with Hemingway",
-    "response": "Gertrude Stein"
-  },
-  {
-    "clue": "King Lear",
-    "response": "Kenneth Branagh"
-  },
-  {
-    "clue": "Lear",
-    "response": "Goneril"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Female spot remover:chat me badly",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "WOMENDouble They're King Lear's 3 daughters; the youngest is virtuous, but the other 2, not so much",
-    "response": "Goneril, Regan & Cordelia"
-  },
-  {
-    "clue": "tale",
-    "response": "The Winter's Tale"
-  },
-  {
-    "clue": "Romeo and Juliet",
-    "response": "Lady Capulet & Lady Montague"
-  },
-  {
-    "clue": "The 2 Gentlemen",
-    "response": "Verona"
-  },
-  {
-    "clue": "LIBRARYDouble Have a cup of coffee before taking in this D.C. Shakespeare library's 255,000 books & 55,000 manuscripts",
-    "response": "Folger"
-  },
-  {
-    "clue": "A",
-    "response": "Ariel"
-  },
-  {
-    "clue": "HAMLET ,000Shakespeare may have gotten the names of these courtiers from 2 members of Danish nobility who visited London in the 1590s",
-    "response": "Rosencrantz and Guildenstern"
-  },
-  {
-    "clue": "SHAKESPEAREDouble This prince stabs King Claudius with a poisoned rapier",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Ran",
-    "response": "\"King Lear\""
-  },
-  {
-    "clue": "Tale",
-    "response": "The Winter's Tale"
-  },
-  {
-    "clue": "Star Trek",
-    "response": "Patrick Stewart"
-  },
-  {
-    "clue": "Many a good hanging prevents a bad marriage",
-    "response": "(William) Shakespeare"
-  },
-  {
-    "clue": "I thought the king had more affected the Duke of Albany than Cornwall",
-    "response": "King Lear"
-  },
-  {
-    "clue": "Lives",
-    "response": "Plutarch"
-  },
-  {
-    "clue": "pity",
-    "response": "concordance"
-  },
-  {
-    "clue": "GEOGRAPHYDouble Hamlet's father, the king of Denmark, killed Fortinbras' father, king of this nearby country",
-    "response": "Norway"
-  },
-  {
-    "clue": "M",
-    "response": "Malcolm"
-  },
-  {
-    "clue": "exit, pursued by a bear",
-    "response": "The Winter's Tale"
-  },
-  {
-    "clue": "Some wine, ho!",
-    "response": "Othello"
-  },
-  {
-    "clue": "What's in a Name",
-    "response": "Romeo"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Emilia",
-    "response": "Iago"
-  },
-  {
-    "clue": "Double Richard III, for lack of an equine",
-    "response": "Henry VII"
-  },
-  {
-    "clue": "Love's Labour's Lost",
-    "response": "9 & 5"
-  },
-  {
-    "clue": "Brave New World",
-    "response": "Aldous Huxley"
-  },
-  {
-    "clue": "Midsummer Night's Dream",
-    "response": "Puck"
-  },
-  {
-    "clue": "This comedy opens on a Venetian street",
-    "response": "\"The Merchant of Venice\""
-  },
-  {
-    "clue": "What? What?",
-    "response": "Troilus and Cressida"
-  },
-  {
-    "clue": "The Doge's March",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "Double Sir Andrew Aguecheek,Old Gobbo,Puck",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "Julius Caesar",
-    "response": "beware the Ides of March"
-  },
-  {
-    "clue": "The Tempest",
-    "response": "Miranda"
-  },
-  {
-    "clue": "The youngest man to play Henry V for the Royal Shakespeare Company, he starred in the 1989 film, too",
-    "response": "Kenneth Branagh"
-  },
-  {
-    "clue": "MONEY Shakespeare's Antonio, a merchant of this city, borrowed 3,000 ducats from Shylock",
-    "response": "Venice"
-  },
-  {
-    "clue": "I never did repent for doing good, nor shall not now",
-    "response": "\"The Merchant of Venice\""
-  },
-  {
-    "clue": "Which of you shall we say doth love us most",
-    "response": "King Lear"
-  },
-  {
-    "clue": "CHARACTERSDouble Cassandra, a prophetess whose father is the king of Troy, is a character in this play",
-    "response": "\"Troilus and Cressida\""
-  },
-  {
-    "clue": "pale as his shirt; his knees knocking each other",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "Two Angry Women of Abingdon",
-    "response": "\"The Merry Wives of Windsor\""
-  },
-  {
-    "clue": "FOOLSDouble Though this historical play contains a clown, it's the heroine who makes an asp of herself",
-    "response": "Antony and Cleopatra"
-  },
-  {
-    "clue": "Play On!",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "'Tis a wonder, by your leave, she will be tamed so",
-    "response": "\"Taming of the Shrew\""
-  },
-  {
-    "clue": "DUNCANDouble Duncan is Malcolm's father in this Shakespeare play",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "There is among the Greeks a lord of Trojan blood, nephew to Hector; they call him Ajax",
-    "response": "Troilus & Cressida"
-  },
-  {
-    "clue": "Bardolatry",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "In Ambroise Thomas' opera version, you'll need a mezzo-soprano to play this queen & mother of Hamlet",
-    "response": "Gertrude"
-  },
-  {
-    "clue": "The Shoemaker's Holiday",
-    "response": "London"
-  },
-  {
-    "clue": "pansies",
-    "response": "Rosemary"
-  },
-  {
-    "clue": "My So-Called Life",
-    "response": "Claire Danes"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "fairies"
-  },
-  {
-    "clue": "Play-mates Portia, Antonio & Shylock live in & around this city",
-    "response": "Venice"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Shakespeare never put this comical knight's name in a title, but Verdi did",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "Othello",
-    "response": "on his sleeve"
-  },
-  {
-    "clue": "SERVANTSDouble Alexander is her servant, not Troilus'",
-    "response": "Cressida"
-  },
-  {
-    "clue": "obvious",
-    "response": "perspicuous"
-  },
-  {
-    "clue": "brown warrior",
-    "response": "Duncan"
-  },
-  {
-    "clue": "Your native language is the language of Shakespeare & Milton & the Bible",
-    "response": "Henry Higgins"
-  },
-  {
-    "clue": "Zookeeper",
-    "response": "a comedy"
-  },
-  {
-    "clue": "SHAKESPEAREDouble The first gravedigger provides some much-needed comic relief in Act V of this tragedy",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Richard III",
-    "response": "discontent"
-  },
-  {
-    "clue": "AUTHORSDouble Virginia Woolf created Judith, this playwright's equally gifted sister, rejected by the London stage for being a woman",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "Dost thou think, because thou art virtuous, there shall be no more cakes and",
-    "response": "ale"
-  },
-  {
-    "clue": "PAIRSDouble Shakespeare, when he was prohibited from entering",
-    "response": "bard/barred"
-  },
-  {
-    "clue": "Good-night, good-night! Parting is such sweet sorrow that I shall say good-night till it be morrow",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "The potent poison quite o'ercrows my spirit. I cannot live to hear the news from England",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "The scene, an uninhabited island",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "Julius Caeser",
-    "response": "\"Beware the ides of March\""
-  },
-  {
-    "clue": "The Merry Wives of Windsor",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "Love's night is noon",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "The fault, dear Brutus, is not in our stars, but in ourselves",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "In 1630 John Milton wrote a sonnet honoring this other famous sonneteer",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "POETSDouble This poet/playwright published his folio of works in 1616, a full 7 years before Shakespeare's",
-    "response": "Ben Jonson"
-  },
-  {
-    "clue": "Empire",
-    "response": "King Lear"
-  },
-  {
-    "clue": "His garments are rich but he wears them not handsomely",
-    "response": "The Winter's Tale"
-  },
-  {
-    "clue": "CASUAL JURIES",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "The life of this legendary king of Britain was fodder for a Shakespeare tragedy in 1605",
-    "response": "King Lear"
-  },
-  {
-    "clue": "Troilus and Cressida",
-    "response": "Troy"
-  },
-  {
-    "clue": "Iliad",
-    "response": "Cressida"
-  },
-  {
-    "clue": "Here hung these lips that I have kissed I know not how oft",
-    "response": "Yorick"
-  },
-  {
-    "clue": "M",
-    "response": "Montague"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Though she breaks a lute over Hortensio's head, Petruchio still wants to marry her",
-    "response": "Kate"
-  },
-  {
-    "clue": "WEDDINGDouble A popular wedding march comes from music Mendelssohn wrote for this magical Shakespeare play",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Brave New World",
-    "response": "\"The Tempest\""
-  },
-  {
-    "clue": "The Third Part of King...",
-    "response": "Henry VI"
-  },
-  {
-    "clue": "THE 3Double ,200The 3 Shakespeare plays whose titles are the names of famous couples",
-    "response": "Romeo and Juliet, Troilus and Cressida & Antony and Cleopatra"
-  },
-  {
-    "clue": "of glorious war!",
-    "response": "\"Pomp and Circumstance\""
-  },
-  {
-    "clue": "mistaken",
-    "response": "The Comedy of Errors"
-  },
-  {
-    "clue": "Macbeth",
-    "response": "Lady Macduff"
-  },
-  {
-    "clue": "Bleeding, warm and newly dead",
-    "response": "Juliet"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Katharina",
-    "response": "Petruchio"
-  },
-  {
-    "clue": "CSI: dead daughters, by poison, hanging & suicide; I wouldn't want to write the family Christmas card... this year",
-    "response": "King Lear"
-  },
-  {
-    "clue": "Henry VI, Part 2",
-    "response": "Richard III"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Hippolyta",
-    "response": "Theseus"
-  },
-  {
-    "clue": "indecent",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "The Fairy Queen",
-    "response": "\"A Midsummer Night's Dream\""
-  },
-  {
-    "clue": "Parting is such sweet sorrow",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Chubby character who loved his ale & supplied the name for one",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "SHAKESPEAREDouble He kills Macbeth in battle",
-    "response": "Macduff"
-  },
-  {
-    "clue": "A plague o' both your houses",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "Shakespeare in Love",
-    "response": "Marlowe"
-  },
-  {
-    "clue": "blessed",
-    "response": "Beatrice & Benedick"
-  },
-  {
-    "clue": "She's the impatient sister of the title shrew",
-    "response": "Bianca"
-  },
-  {
-    "clue": "He played Hamlet at the New York Shakespeare Festival before he hammed it up as Mike Hammer:",
-    "response": "Stacy Keach"
-  },
-  {
-    "clue": "DIS",
-    "response": "discontent"
-  },
-  {
-    "clue": "stol'n marriage day was Tybalt's doomsday",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "He goes to the Capulets' party to see the fair Rosaline, whom he loves -- for now",
-    "response": "Romeo"
-  },
-  {
-    "clue": "Thy husband is thy lord, thy life, thy keeper... thy sovereign",
-    "response": "Katherina"
-  },
-  {
-    "clue": "hath forbid this bandying in Verona streets",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "SHAKESPEAREDouble The ghost of his wife, Anne, haunted him at Bosworth Field",
-    "response": "Richard III"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Othello kills himself on this island",
-    "response": "Cyprus"
-  },
-  {
-    "clue": "Hamlet",
-    "response": "drinking a cup of poison"
-  },
-  {
-    "clue": "LOVERSDouble After he murdered her husband, Lady Anne spit in his face & then agreed to wear his ring",
-    "response": "Richard III"
-  },
-  {
-    "clue": "According to Shakespeare, Cressida was unfaithful to this tragic Trojan",
-    "response": "Troilus"
-  },
-  {
-    "clue": "SHAKESPEAREDouble About 230 years B.S. (before Shakespeare), Chaucer wrote an 8,000-line poem about this title Homeric pair",
-    "response": "Troilus and Criseyde"
-  },
-  {
-    "clue": "Will you",
-    "response": "sup"
-  },
-  {
-    "clue": "Jurassic Park",
-    "response": "Jeff Goldblum"
-  },
-  {
-    "clue": "Farewell! Thou art too dear for my possessing",
-    "response": "a sonnet"
-  },
-  {
-    "clue": "OPERA CHARACTERSDouble Verdi & Salieri both wrote operas about this fat, funny Shakespearean character",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "I am a man more sinned against than sinning",
-    "response": "King Lear"
-  },
-  {
-    "clue": "Small Village",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Eye of newt and toe of frog, wool of bat and tongue of dog",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "Cordelia",
-    "response": "King Lear"
-  },
-  {
-    "clue": "The Faery Queen",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "BUT...Double Obviously, it's a funny play about bad baseball players",
-    "response": "The Comedy of Errors"
-  },
-  {
-    "clue": "Der Sturm",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "BARONESSESDouble This late Shakespearean actor became a baron in 1970",
-    "response": "Laurence Olivier"
-  },
-  {
-    "clue": "I never did offend you in my life; never loved Cassio but with such general warranty of heaven as I might love",
-    "response": "Desdemona"
-  },
-  {
-    "clue": "We few, we happy few, we band of brothers; for he to-day that sheds his blood with me shall be my brother",
-    "response": "Henry V"
-  },
-  {
-    "clue": "H",
-    "response": "Otello"
-  },
-  {
-    "clue": "P",
-    "response": "Pericles"
-  },
-  {
-    "clue": "ANAGRAMSDouble We doubt if this king of the fairies would feel at home on Borneo",
-    "response": "Oberon (Borneo)"
-  },
-  {
-    "clue": "comic sidekick who appears in 3 different plays; his death is mentioned in another",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "Now, sir, be judge yourself whether I in any just term am affined to love the Moor",
-    "response": "Iago"
-  },
-  {
-    "clue": "that has such people in't!",
-    "response": "Brave New World"
+    "clue": "Friends, Romans, Countrymen, lend me",
+    "response": "Your ears"
   },
   {
     "clue": "Lord, what fools these mortals be!",
     "response": "A Midsummer Night's Dream"
   },
   {
-    "clue": "Mark Twain didn't think Shakespeare wrote the famous plays, wondering why this 1616 document mentions no books",
-    "response": "his will"
+    "clue": "The slings and arrows of outrageous fortune",
+    "response": "Hamlet"
   },
   {
-    "clue": "KILLERDouble Will had this title man do the dirty work in Act V, smothering his wife for her supposed infidelity",
-    "response": "Othello"
+    "clue": "Uneasy lies the head that wears",
+    "response": "A crown"
   },
   {
-    "clue": "I am all the subjects that you have... here you sty me, in this hard rock, whiles you do keep from me the rest o' the island",
-    "response": "The Tempest"
+    "clue": "I come to bury Caesar, not to praise him",
+    "response": "Mark Antony"
   },
   {
-    "clue": "HISTORYDouble Shakespeare patterned this villainess after Gruoch, who bore the blood of Scottish kings",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "Come on, and kiss me, Kate",
+    "clue": "Tis' a wonder, by your leave she will be tamed so",
     "response": "The Taming of the Shrew"
   },
   {
-    "clue": "AUTHORSDouble ,000Outsold only by the Bible and Shakespeare, this woman is the best-selling romance writer of the twentieth century",
-    "response": "Barbara Cartland"
-  },
-  {
-    "clue": "green-eyed monster",
-    "response": "jealousy"
-  },
-  {
-    "clue": "WOMENDouble While there's a Katharine in 3 plays, this is the only play with a Katharina",
-    "response": "The Taming of the Shrew"
-  },
-  {
-    "clue": "Shall I compare thee to a summer's day?",
-    "response": "(William) Shakespeare"
-  },
-  {
-    "clue": "Julius Caesar",
-    "response": "Cassius"
-  },
-  {
-    "clue": "The quality of mercy is rather lumpy, methinks",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "SHAKESPEAREDouble ,000The ghosts of the little princes appear to him a Bosworth Field",
-    "response": "Richard III"
-  },
-  {
-    "clue": "a fellow of infinite jest",
-    "response": "Horatio"
-  },
-  {
-    "clue": "Henry V",
-    "response": "Lord Scroop of Masham"
-  },
-  {
-    "clue": "World Book & Copyright Day, April 23, commemorates the 1616 deaths of Shakespeare in England & this other guy in Spain",
-    "response": "Cervantes"
-  },
-  {
-    "clue": "In 1952 Orson took on the Shakespearean film role of this Moor of Venice",
-    "response": "Othello"
-  },
-  {
-    "clue": "Dating Hamlet",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "cheek by",
-    "response": "jowl"
-  },
-  {
-    "clue": "Lady Capulet is his mother-in-law, briefly",
-    "response": "Romeo"
-  },
-  {
-    "clue": "age cannot wither her, nor custom stale her infinite variety",
-    "response": "Cleopatra"
-  },
-  {
-    "clue": "I come to wive it wealthily in ____",
-    "response": "Padua"
-  },
-  {
-    "clue": "SHAKESPEAREDouble ,400He has the nerve to woo a widow beside her father-in-law's coffin, but she marries him anyway",
-    "response": "Richard III"
-  },
-  {
-    "clue": "A pair of star-crossed lovers take their life",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "A Year in the Life of",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "that stuffed cloak-bag of guts",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "The winter of our discontent",
-    "response": "\"Richard III\""
-  },
-  {
-    "clue": "of Fife",
-    "response": "thane"
-  },
-  {
-    "clue": "Is this a dagger which I see before me, the handle toward my hand? Come, let me clutch thee",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "The Sisters Royal",
-    "response": "Regan & Goneril"
-  },
-  {
-    "clue": "WOMENDouble Title adjective Shakespeare used to describe Mistresses Ford & Page",
-    "response": "merry"
-  },
-  {
-    "clue": "The Two Noble Kinsmen",
-    "response": "Geoffrey Chaucer"
-  },
-  {
-    "clue": "SHORT SHAKESPEAREDouble Saintly day of Henry V's stirring speech",
-    "response": "St. Crispin's Day"
-  },
-  {
-    "clue": "Troilus & Criseyde",
-    "response": "Chaucer"
-  },
-  {
-    "clue": "TRIVIADouble Italian great whose last 2 operas were based on Shakespeare plays",
-    "response": "Giuseppe Verdi"
-  },
-  {
-    "clue": "Prospero's Books",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "M.s Played Cassio like a keyboard (BEG)",
-    "response": "Iago"
-  },
-  {
-    "clue": "A plague on...",
-    "response": "Both Your Houses"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Hamlet's closest friend, only major character left alive at play's end",
-    "response": "Horatio"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "Greece"
-  },
-  {
-    "clue": "Richard III",
-    "response": "The Winter of Our Discontent"
-  },
-  {
-    "clue": "We rewrite Shakespeare! It's now lady first, please, in this nifty new title of a 1597 tragedy",
-    "response": "Juliet and Romeo"
-  },
-  {
-    "clue": "STAGEDouble The efforts of American actor Sam Wannamaker built this theatre where you can watch Shakespeare today",
-    "response": "the Globe"
-  },
-  {
-    "clue": "comedy",
-    "response": "Comedy of Errors"
-  },
-  {
-    "clue": "Under",
-    "response": "\"the Greenwood Tree\""
-  },
-  {
-    "clue": "Though Shakespeare had this many children, his descendants later died out",
-    "response": "3"
-  },
-  {
-    "clue": "The Two Gentlemen of",
-    "response": "Verona"
-  },
-  {
-    "clue": "The Two Gentlemen of Verona",
-    "response": "Valentine"
-  },
-  {
-    "clue": "young lovers, families keep 'em apart -- it'd be a teen flick but we won't shoot in Verona; too expensive",
-    "response": "\"Romeo and Juliet\""
-  },
-  {
-    "clue": "Henry IV, Part 1",
-    "response": "Wales"
-  },
-  {
-    "clue": "This comedy concerns Valentine & Proteus, 2 guys from Italy who vie for the hand of Sylvia",
-    "response": "Two Gentlemen of Verona"
-  },
-  {
-    "clue": "A Midsummer Night's",
-    "response": "Dream"
-  },
-  {
-    "clue": "Can-Can",
-    "response": "Juliet"
-  },
-  {
-    "clue": "The Moor of",
-    "response": "Venice"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "Spring"
-  },
-  {
-    "clue": "MICRO Hamlet alone speaks 1,569 lines; Shakespeare's shortest play at 1,770 lines is this one involving 2 sets of twins",
-    "response": "The Comedy of Errors"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Canada's best-known theatrical event is the annual festival here featuring plays by Shakespeare",
-    "response": "Stratford, Ontario"
-  },
-  {
-    "clue": "The more fool I",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "When I did fly from Tyre, I left behind an ancient substitute",
-    "response": "Pericles"
-  },
-  {
-    "clue": "WOMENDouble Of 5, 8, or 11, the # of Shakespeare's 37 plays in which a woman's role is the longest",
-    "response": "5"
-  },
-  {
-    "clue": "WOMENDouble In Act I her nurse & mother discuss her upcoming 14th birthday",
-    "response": "Juliet"
-  },
-  {
-    "clue": "plague o' both your houses",
-    "response": "Mercutio"
-  },
-  {
-    "clue": "King John",
-    "response": "England & France"
-  },
-  {
-    "clue": "LOVE",
-    "response": "Love's Labour's Lost"
-  },
-  {
-    "clue": "Victoria, B.C. boasts a replica of the famous thatched cottage of this woman, Shakespeare's wife",
-    "response": "Anne Hathaway"
-  },
-  {
-    "clue": "The high-spirited mistresses Ford & Page are the title married women of this place in a Shakespeare play",
-    "response": "Windsor"
-  },
-  {
-    "clue": "This troubled title guy says the Danes are known as drunkards to other nations",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "The Tempest",
-    "response": "Ariel"
-  },
-  {
-    "clue": "It's totally goth; act I, scene 1 sees the title Roman kill his son & the deaths don't stop; ends with the worst dinner ever",
-    "response": "Titus Andronicus"
-  },
-  {
-    "clue": "Beaucoup de Bruit Pour Rien",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "Our Thane is coming",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "Rialto Retailer",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "Give me your hands, if we be friends: And Robin shall restore amends",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "the most unkindest cut of all",
-    "response": "Brutus"
-  },
-  {
-    "clue": "Thou must be married to no man but me, for I am he am born to tame you, Kate",
-    "response": "Petruchio"
-  },
-  {
-    "clue": "Henry VI, Part 3",
-    "response": "the chameleon"
-  },
-  {
-    "clue": "And one man in his time plays many roles, his acts being ____ ages",
-    "response": "7"
-  },
-  {
-    "clue": "This title Shakespeare guy attended school in Wittenberg & 2 of his mates there are later brought into the plot",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "I kiss'd thee ere I kill'd thee: no way but this; killing myself, to die upon a kiss",
-    "response": "Othello"
-  },
-  {
-    "clue": "Ruy Blas",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Arranging a lovers' meeting in a crypt is a really bad idea--just look at Act V, Scene 3 of this play",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "Does he not hold up his head, as it were, and",
-    "response": "strut"
-  },
-  {
-    "clue": "I take this offer then. Pay the bond thrice and let the Christian go.",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "'Tis brief, my lord",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Achilles & Ajax are characters in this play",
-    "response": "Troilus and Cressida"
-  },
-  {
-    "clue": "The Taming of the Shrew",
-    "response": "Franco Zeffirelli"
-  },
-  {
-    "clue": "Othello",
-    "response": "Iago"
-  },
-  {
-    "clue": "M",
-    "response": "The Merry Wives of Windsor"
-  },
-  {
-    "clue": "The Tragical History of doctor Faustus",
-    "response": "(Christopher) Marlowe"
-  },
-  {
-    "clue": "Or, What You Will",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "OCCUPATIONSDouble Shakespeare's character Bottom is one of these fabric workers",
-    "response": "Weaver"
-  },
-  {
-    "clue": "Romeo and Juliet",
-    "response": "\"It is the east, and Juliet is the sun\""
-  },
-  {
-    "clue": "In the '60s, Laurence Olivier put on blackface to play this Shakespearean hero",
-    "response": "Othello"
-  },
-  {
-    "clue": "La Luce Langue",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "I will play the swan, and die in music",
-    "response": "Othello"
-  },
-  {
-    "clue": "The first thing we do, let's kill all",
-    "response": "lawyers"
-  },
-  {
-    "clue": "the sweet o' the year",
-    "response": "The Winter's Tale"
-  },
-  {
-    "clue": "OPERADouble Verdi's first comic opera was a flop; it was 50 years before he wrote his second, about this Shakespeare character",
-    "response": "Falstaff"
-  },
-  {
-    "clue": "Whoever hath her wish, thou hast thy",
-    "response": "will"
-  },
-  {
-    "clue": "LIBRARIESDouble This Shakespeare library is administered by a board of directors under the auspices of Amherst College",
-    "response": "the Folger Library"
-  },
-  {
-    "clue": "Twelfth Night",
-    "response": "Belch"
-  },
-  {
-    "clue": "a great reckoning in a little room",
-    "response": "Christopher Marlowe"
-  },
-  {
-    "clue": "NOTHINGDouble In this Shakespeare comedy, Hero is falsely accused of unfaithfulness & a huge fuss ensues",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "The Comedy of Errors",
-    "response": "globe"
-  },
-  {
-    "clue": "Abopbopaloomop",
-    "response": "Little Richard III"
-  },
-  {
-    "clue": "All the world's a stage",
-    "response": "the Globe Theatre"
-  },
-  {
-    "clue": "Ungrateful daughters are featured in an 1870 Turgenev story inspired by & named for this Shakespeare play",
-    "response": "King Lear"
-  },
-  {
-    "clue": "MANDouble They're the main rivers of the 2 cities where Shakespeare spent most of his life",
-    "response": "Avon & Thames"
-  },
-  {
-    "clue": "She hangs upon the cheek of night like a rich jewel in an Ethiop's ear",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "Be but sworn, my love, and I'll no longer be a Capulet",
-    "response": "Juliet"
-  },
-  {
-    "clue": "In sooth I know not why I am so sad. It wearies me, you say it wearies you",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "The first thing we do, let's kill all the lawyers",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "C.Double The Folger Library houses world's most important collection of works by and about him",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "In truth, fair Montague, I am too fond",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "Wives of Windsor",
-    "response": "Merry"
-  },
-  {
-    "clue": "Measure For Measure",
-    "response": "Elbow"
-  },
-  {
-    "clue": "Hates any man the thing he would not kill?",
-    "response": "Shylock"
-  },
-  {
-    "clue": "Bachelorette",
-    "response": "Kate"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Lavinia has her tongue cut out & Tamora is served her own sons baked in a pie in this far-from-tasteful tragedy",
-    "response": "Titus Andronicus"
-  },
-  {
-    "clue": "Bardathon",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "Othello",
-    "response": "Iago"
-  },
-  {
-    "clue": "Rockabye",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "RUBIESDouble She was 1st black actress to star in major roles at the American Shakespeare Festival",
-    "response": "Ruby Dee"
-  },
-  {
-    "clue": "tamer",
-    "response": "Petruchio"
-  },
-  {
-    "clue": "A beast, that wants discourse of reason, would have mourn'd longer",
-    "response": "Gertrude"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Basking or bonnethead",
-    "response": "a shark"
-  },
-  {
-    "clue": "Be collected - no more amazement",
-    "response": "\"The Tempest\""
-  },
-  {
-    "clue": "Boy meets girl. Boy gets girl. Boy loses girl. Boy takes poison. Girl stabs herself & dies.",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "comes",
-    "response": "Birnam Wood"
-  },
-  {
-    "clue": "P.I. Investigating a possible regicide by this fella; got his address, Dunsinane, but his wacked-out wife worries me",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "The Taming of the Shrew",
-    "response": "Katherine (or Kate)"
-  },
-  {
-    "clue": "Then should the warlike Harry, like himself, assume the port of Mars",
-    "response": "Henry V"
-  },
-  {
-    "clue": "LETTERDouble A Josh Hartnett Shakespeare reworking becomes an HBO prison series",
-    "response": "O & Oz"
-  },
-  {
-    "clue": "In 1599, Shakespeare paid 12.5% towards the cost of building this, which would go onto host many King's Men plays",
-    "response": "the Globe"
-  },
-  {
-    "clue": "Ado",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "Romans, countrymen, and lovers! Hear me for my cause, and be silent",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "The Sound and the Fury",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "DICTIONARYDouble This word comes from the name of an editor who toned down Shakespeare, for example making Ophelia's suicide an accident",
-    "response": "bowdlerize"
-  },
-  {
-    "clue": "POE FOLKSDouble This prince who tries to evade the Red Death in a secluded castle bears the name of a Shakespearean island dweller",
-    "response": "Prospero"
-  },
-  {
-    "clue": "I love your majesty according to my bond, no more nor less",
-    "response": "Cordelia"
-  },
-  {
-    "clue": "Neither a",
-    "response": "borrower & lender"
-  },
-  {
-    "clue": "CHARACTERSDouble Characters in this play include a prophetess, a Trojan priest & a bastard son of King Priam",
-    "response": "Troilus and Cressida"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Act IV of this play opens in a cave where 3 witches are gathered around a boiling cauldron",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "spirit of health or goblin damn'd",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "C",
-    "response": "Cornwall"
-  },
-  {
-    "clue": "Antony and Cleopatra",
-    "response": "falling on his blade"
-  },
-  {
-    "clue": "SHAKESPEAREDouble The title of this comedy refers to Mistress Ford & Mistress Page",
-    "response": "The Merry Wives of Windsor"
-  },
-  {
-    "clue": "ASIMPSONSCHARACTERDouble ,000Part of a Shakespearean comedy title, its synonyms are fuss, bustle & bother",
-    "response": "ado"
-  },
-  {
-    "clue": "Lay on, Macduff, and damn'd be him that first cries, 'hold, enough!",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "THIN",
-    "response": "Much Ado about Nothing"
-  },
-  {
-    "clue": "Acts of Henry V are set mostly in England; the rest of the play unfolds in this country",
-    "response": "France"
-  },
-  {
-    "clue": "A tale told by an idiot, full of sound & fury, signifying nothing",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "The Taming of the Shrew",
-    "response": "Petruchio"
-  },
-  {
-    "clue": "The Two Noble Kinsmen",
-    "response": "John Fletcher"
-  },
-  {
-    "clue": "Escalus, prince of Verona; an apothecary",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "There's something in his soul o'er which his melancholy sits on brood",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "T.M.O.V.",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "A man may fish with the worm that hath eat of a king, and eat of the fish that hath fed of that worm",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "The Comedy of Errors",
-    "response": "rhyme"
-  },
-  {
-    "clue": "the most hapless of monarchs",
-    "response": "Henry VI"
-  },
-  {
-    "clue": "LITDouble ,100The Baconian theory expounds this",
-    "response": "that Francis Bacon wrote Shakespeare's plays"
-  },
-  {
-    "clue": "Shakespeare in Harlem",
-    "response": "Langston Hughes"
-  },
-  {
-    "clue": "C",
-    "response": "Capulet"
-  },
-  {
-    "clue": "This heroine is murdered on the island of Cyprus, as is her waiting-woman",
-    "response": "Desdemona (from \"Othello\")"
-  },
-  {
-    "clue": "To be or not to be",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Heroes & villains abound! Colby, Coach & Rupert doth return to the fray but Boston Rob, the tribe hath spoken",
-    "response": "Survivor"
-  },
-  {
-    "clue": "I bleed, sir, but not killed",
-    "response": "Iago"
-  },
-  {
-    "clue": "Not only witty myself; but the cause that wit is in other men",
-    "response": "Sir John Falstaff"
-  },
-  {
-    "clue": "QUEENSDouble This title king's victory at Agincourt is followed by his awkward bilingual wooing of princess Katherine",
-    "response": "Henry V"
-  },
-  {
-    "clue": "Measure for Measure",
-    "response": "Vienna"
-  },
-  {
-    "clue": "Season SUPERJEOPARDYSaturday, August 25, 1990SHAKESPEAREDouble Jeopardy Round: 1000This historical play dramatizes the events which led to England's break with the Roman Catholic church",
-    "response": "Henry VIII"
-  },
-  {
-    "clue": "O, my dear Hamlet!",
-    "response": "Gertrude"
-  },
-  {
-    "clue": "The barge she sat in, like a burnished throne, burned on the water",
-    "response": "Antony and Cleopatra"
-  },
-  {
-    "clue": "SHAKESPEAREDouble He was passed over for promotion in favor of Cassio, giving him a motive for revenge",
-    "response": "Iago"
-  },
-  {
-    "clue": "Keep me in temper; I would not be mad",
-    "response": "King Lear"
-  },
-  {
-    "clue": "DR. PHIL, After being your own severed hand on a platter, I think killing Tamora & her sons was a cry for help, General",
-    "response": "Titus Andronicus"
-  },
-  {
-    "clue": "cates",
-    "response": "Taming of the Shrew"
-  },
-  {
-    "clue": "The Tempest",
-    "response": "Prospero"
-  },
-  {
-    "clue": "Hecatommithi",
-    "response": "Othello"
-  },
-  {
-    "clue": "F",
-    "response": "a folio"
-  },
-  {
-    "clue": "King Henry V",
-    "response": "Sir John Falstaff"
-  },
-  {
-    "clue": "Come, bid me do anything for thee",
-    "response": "Beatrice"
-  },
-  {
-    "clue": "might touch",
-    "response": "her cheek"
-  },
-  {
-    "clue": "CENTURYDouble As its title suggests, this Shakespeare comedy may have opened Jan. 6, 1601, a dozen evenings after Christmas",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "Much Ado About",
-    "response": "Nothing"
-  },
-  {
-    "clue": "Who wrote Shakespeare?",
-    "response": "Will"
-  },
-  {
-    "clue": "B",
-    "response": "Beatrice"
-  },
-  {
-    "clue": "Henry VI, Part 2",
-    "response": "\"let's kill all the lawyers\""
-  },
-  {
-    "clue": "hangs upon the cheek of night like a rich jewel in an Ethiop's ear",
-    "response": "Juliet"
-  },
-  {
-    "clue": "B",
-    "response": "Bottom"
-  },
-  {
-    "clue": "Christopher Marlowe (assuming he didn't fake his own death, move to France & write Shakespeare's plays)",
-    "response": "16th century"
-  },
-  {
-    "clue": "MARRIEDDouble Anne Hathaway was 26 & pregnant when she married this 18-year old in 1582",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "Cast in a play with Al Pacino, Paul Giamatti enraged the superstitious star by whistling & by naming this Shakespeare play",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "Lord, what fools these mortals be!",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "SHAKESPEAREDouble This historical play includes the death of Katharine of Aragon",
-    "response": "\"Henry VIII\""
-  },
-  {
-    "clue": "Two households, both alike in dignity...",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "ROYALTYDouble The 2 monarchs who ruled England during Shakespeare's lifetime",
-    "response": "Elizabeth I & James I"
-  },
-  {
-    "clue": "Blood will have blood",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "This city's Boar's Head Inn is a favorite hangout of Falstaff & his friends",
-    "response": "London"
-  },
-  {
-    "clue": "an uninhabited island",
-    "response": "The Tempest"
-  },
-  {
-    "clue": "my serpent of old Nile",
-    "response": "Cleopatra"
-  },
-  {
-    "clue": "Come Lammas-eve at night shall she be fourteen",
-    "response": "Juliet"
-  },
-  {
-    "clue": "eaten",
-    "response": "house & home"
-  },
-  {
-    "clue": "The Merchant of",
-    "response": "Venice"
-  },
-  {
-    "clue": "In this harsh world draw thy breath in pain, to tell my story",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Macbeth",
-    "response": "The Weird Sisters"
-  },
-  {
-    "clue": "Double Emilia--her husband, also pretty much responsible for the title guy's suicide",
-    "response": "Iago"
-  },
-  {
-    "clue": "QUEENSDouble The night before a fateful battle, the ghosts of the murdered Edward V & Henry VI appear to this king & curse him",
-    "response": "Richard III"
-  },
-  {
-    "clue": "Will paid part of the cost of building this theater that opened in late 1599",
-    "response": "the Globe"
-  },
-  {
-    "clue": "GOOD WILLDouble This man enjoyed good Will Shakespeare & his actors so much, he made them Grooms of the King's Chamber",
-    "response": "King James I"
-  },
-  {
-    "clue": "prefrontal",
-    "response": "Othellobotomy"
-  },
-  {
-    "clue": "what's past is ___",
-    "response": "prologue"
-  },
-  {
-    "clue": "Saturninus kills this man, but only after that man has cooked his stepsons into a pie",
-    "response": "Titus Andronicus"
-  },
-  {
-    "clue": "PLAYDouble It's 1415 & England is invading France",
-    "response": "Henry V"
-  },
-  {
-    "clue": "Verona's Got Talent",
-    "response": "Romeo & Juliet"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "Titania"
-  },
-  {
-    "clue": "All for Love",
-    "response": "Antony and Cleopatra"
-  },
-  {
-    "clue": "The worms were hallow'd that did breed the silk",
+    "clue": "Heaven truly knows that thou are as false as hell",
     "response": "Desdemona"
   },
   {
-    "clue": "Ask for me tomorrow and you shall find me a grave man",
-    "response": "Romeo and Juliet"
+    "clue": "Beethoven thought about basing an opera on this play & even began a witches' chorus",
+    "response": "Macbeth"
   },
   {
-    "clue": "tragical",
-    "response": "Doctor Faustus"
-  },
-  {
-    "clue": "Anne Hathaway(1582-1616)",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "Julius Caesar",
-    "response": "epilepsy"
-  },
-  {
-    "clue": "musicalized",
-    "response": "A Comedy of Errors"
-  },
-  {
-    "clue": "SCENESDouble This comedy ends in Lucentio's house, not in Petruchio's",
-    "response": "The Taming of the Shrew"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Those joyful schemers mistress Alice Ford & mistress Margaret Page",
-    "response": "The Merry Wives of Windsor"
-  },
-  {
-    "clue": "The Tempest",
-    "response": "a bat"
-  },
-  {
-    "clue": "Kiss Me, Kate",
+    "clue": "Petruchio deprives Kate of food & sleep in this play, which makes her grow to love him? That's messed up, Shakespeare!",
     "response": "The Taming of the Shrew"
   },
   {
@@ -3260,743 +84,2659 @@
     "response": "Antony & Cleopatra"
   },
   {
-    "clue": "PLAY Shakespeare:An Egyptian & a Roman fall in love",
-    "response": "Antony and Cleopatra"
+    "clue": "About 230 years B.S. (before Shakespeare), Chaucer wrote an 8 -line poem about this title Homeric pair",
+    "response": "Troilus and Criseyde"
   },
   {
-    "clue": "Baptista Minola,Gremio, Lucentio,Hortensio,Petruchio",
-    "response": "The Taming of the Shrew"
-  },
-  {
-    "clue": "CHARACTERDouble Olivia,Viola,Sir Toby Belch",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "Beekeeping for Dummies",
-    "response": "\"To bee or not to bee?\""
-  },
-  {
-    "clue": "The M of V",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "A Merry Jest of a Shrewd and Curst Wife",
-    "response": "Taming of the Shrew"
-  },
-  {
-    "clue": "FESTIVALDouble Judi played Queen Elizabeth I in a brief but Oscar-winning performance in this film",
-    "response": "Shakespeare in Love"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Guiderius & Arviragus, who pretend to be Polydore & Cadwal, are sons of this title king of Britain",
-    "response": "Cymbeline"
-  },
-  {
-    "clue": "C",
-    "response": "Cyprus"
-  },
-  {
-    "clue": "SHAKESPEAREDouble The last of the tragedies, this play deals with the conflict between Rome's patrician & plebeian classes",
-    "response": "Coriolanus"
-  },
-  {
-    "clue": "Here in this island we arrived; and here have I, thy schoolmaster, made thee more profit",
-    "response": "Prospero"
-  },
-  {
-    "clue": "Henry VI, Part II",
-    "response": "his legs"
-  },
-  {
-    "clue": "Henry V",
-    "response": "Agincourt"
-  },
-  {
-    "clue": "Henry IV', he says,",
-    "response": "Sir John Falstaff"
-  },
-  {
-    "clue": "This son of the Black Prince became king in 1377 & got his own Shakespeare play somewhat later",
-    "response": "Richard II"
-  },
-  {
-    "clue": "Julius Caesar",
-    "response": "the dogs of war"
-  },
-  {
-    "clue": "doth bestride the narrow world like a colossus",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "Yo, Shakespeare!It's a 14-line poem",
-    "response": "a sonnet"
-  },
-  {
-    "clue": "LOVE",
-    "response": "Love's Labour's Lost"
-  },
-  {
-    "clue": "In Mark Antony's eulogy for Julius Caesar in Shakespeare, after the crowd quiets down",
-    "response": "lend"
-  },
-  {
-    "clue": "The Taming of the Shrew",
-    "response": "Bianca"
-  },
-  {
-    "clue": "Richard III",
-    "response": "Richard Thomas"
-  },
-  {
-    "clue": "Shakespeare used this term derived from the German to speak to a man's stockings, not a garden device",
-    "response": "hose"
-  },
-  {
-    "clue": "The Merchant of Venice",
-    "response": "mercy"
-  },
-  {
-    "clue": "something rotten",
-    "response": "Denmark"
-  },
-  {
-    "clue": "A Midsummer Night's Dream",
-    "response": "(Samuel) Pepys"
-  },
-  {
-    "clue": "What's in a name? That which we call a rose by any other name would smell as sweet",
-    "response": "Juliet"
-  },
-  {
-    "clue": "Twelve year since, thy father was the Duke of Milan",
-    "response": "Prospero"
-  },
-  {
-    "clue": "C",
-    "response": "Caliban"
-  },
-  {
-    "clue": "Twelfth Night",
-    "response": "January"
-  },
-  {
-    "clue": "Young Prince of Tyre",
-    "response": "Pericles"
-  },
-  {
-    "clue": "That cuckold lives in bliss who, certain of his fate, loves not his wronger",
-    "response": "Othello"
-  },
-  {
-    "clue": "O serpent heart, hid with a flowering face!",
-    "response": "Romeo"
-  },
-  {
-    "clue": "King of Texas",
+    "clue": "Did my father strike my gentleman for chiding of his fool?",
     "response": "King Lear"
-  },
-  {
-    "clue": "The thunder of my",
-    "response": "a cannon"
-  },
-  {
-    "clue": "I would give you some violets, but they withered all when my father died",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "This D.C.-based Shakespeare library has 79 copies of the First Folio",
-    "response": "the Folger Library"
-  },
-  {
-    "clue": "of Athens",
-    "response": "Timon"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Octavius speaks last in these 2 plays",
-    "response": "\"Julius Caesar\" & \"Antony and Cleopatra\""
-  },
-  {
-    "clue": "GUINNESSDouble Guinness played many Shakespearean roles at this theatre aka the Royal Victorian Theatre",
-    "response": "Old Vic"
-  },
-  {
-    "clue": "All For Love",
-    "response": "iambic pentameter (blank verse)"
-  },
-  {
-    "clue": "the Shakespeare of science fiction",
-    "response": "H.G. Wells"
-  },
-  {
-    "clue": "Anyone But You",
-    "response": "Much Ado About Nothing"
-  },
-  {
-    "clue": "Love's Labour's Lost",
-    "response": "Romeo"
-  },
-  {
-    "clue": "The Princess Diaries",
-    "response": "Anne Hathaway"
-  },
-  {
-    "clue": "raise her statue in pure gold",
-    "response": "Juliet"
-  },
-  {
-    "clue": "Much Ado About Nothing",
-    "response": "Dogberry"
-  },
-  {
-    "clue": "Wearing just a few small leaves, Judi Dench leaves nothing to the imagination as Titania in this 1968 film",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "thou lump of foul deformity",
-    "response": "Richard III"
-  },
-  {
-    "clue": "Hamlet",
-    "response": "Daniel Day-Lewis"
-  },
-  {
-    "clue": "the winter of our discontent",
-    "response": "Gloucester"
-  },
-  {
-    "clue": "Dost thou think, because thou art virtuous, there shall be no more cakes & ale?",
-    "response": "Twelfth Night"
-  },
-  {
-    "clue": "PARTSDouble Those portraying a Norwegian captain in this play don't have to worry about memorizing a lot of lines",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "TERM: PAPER This term for a large sheet of paper is used in the name of the first complete Shakespeare play collection",
-    "response": "folio"
-  },
-  {
-    "clue": "Mahogany master Phyfe",
-    "response": "Duncan"
-  },
-  {
-    "clue": "The Fairy Queen",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "WOMENDouble While hanging flower garlands on a willow tree, she fell into the brook & drowned",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "Jessika",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "King Lear",
-    "response": "Goneril"
-  },
-  {
-    "clue": "If music be the food of love...",
-    "response": "play on"
-  },
-  {
-    "clue": "You shall not in your funeral speech blame us, but speak all good you can devise",
-    "response": "Marc Antony"
-  },
-  {
-    "clue": "Henry VI Part 2",
-    "response": "jaded"
-  },
-  {
-    "clue": "The Playmaker",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "FILMSDouble On screen, he's been portrayed by Leslie Howard & Leonardo DiCaprio",
-    "response": "Romeo"
-  },
-  {
-    "clue": "I have a new play",
-    "response": "Shakespeare in Love"
-  },
-  {
-    "clue": "The Dresser",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "Personally, I'd avoid these paired names, chums of Hamlet; it's a lot to write",
-    "response": "Rosencrantz and Guildenstern"
-  },
-  {
-    "clue": "As You Like It",
-    "response": "Christopher Marlowe"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Cobweb is a fairy, not a spider, in this comedy",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Not in the legions of horrid hell can come a devil more damn'd in evils to top",
-    "response": "the Macbeth"
-  },
-  {
-    "clue": "Et tu, Brute",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "And thereby hangs a tale",
-    "response": "As You Like It"
-  },
-  {
-    "clue": "My mistress' eyes are...",
-    "response": "Nothing like the sun"
-  },
-  {
-    "clue": "SHAKESPEAREDouble Iago suspects, or pretends to suspect, his wife Emilia of having an affair with this man",
-    "response": "Othello"
-  },
-  {
-    "clue": "Ein Sommer-Nachtstraum",
-    "response": "\"A Midsummer Night's Dream\""
-  },
-  {
-    "clue": "The Elements",
-    "response": "Euclid"
-  },
-  {
-    "clue": "Frailty, thy name is ____",
-    "response": "woman"
-  },
-  {
-    "clue": "Henry IV, Part I",
-    "response": "discretion"
-  },
-  {
-    "clue": "Multiple homicides, regicide via poison in ear; unit dispatched to nunnery for further investigation",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "Valentine & Proteus are the title Italian friends in this comedy",
-    "response": "Two Gentlemen of Verona"
-  },
-  {
-    "clue": "If love be blind, love cannot hit the mark",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "Gloucester",
-    "response": "Richard III"
-  },
-  {
-    "clue": "Julius Caesar",
-    "response": "\"Et tu, Brute?\""
-  },
-  {
-    "clue": "M",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "banished haughty Montague",
-    "response": "Romeo"
-  },
-  {
-    "clue": "Peter O'Toole played this shrew tamer in 1960; Alan Bates, in 1973",
-    "response": "Petruchio"
-  },
-  {
-    "clue": "DRAMADouble Shakespeare play that features the christening of Shakespeare's patron, Elizabeth I",
-    "response": "Henry VIII"
-  },
-  {
-    "clue": "3- QUOTESDouble After Julius Caesar is stabbed in the Shakespeare tragedy named for him, he utters this Latin question",
-    "response": "Et tu, Brute?"
-  },
-  {
-    "clue": "WORLD",
-    "response": "All the world's a stage"
-  },
-  {
-    "clue": "In 1982 he played Broadway as Cassio to James Earl Jones' Othello (Frasier Crane would be impressed)",
-    "response": "(Kelsey) Grammer"
-  },
-  {
-    "clue": "William Shakespeare would have stayed in Stratford if he had a wife like her",
-    "response": "Anne Hathaway"
-  },
-  {
-    "clue": "SHAKESPEAREDouble She was King Lear's oldest daughter",
-    "response": "Goneril"
-  },
-  {
-    "clue": "SHAKESPEAREDouble ,200Tamora eats a pie in this play; problem is that the pie was made with the heads of Demetrius & Chiron, her sons",
-    "response": "Titus Andronicus"
-  },
-  {
-    "clue": "20 trenched gashes on his head",
-    "response": "Banquo"
-  },
-  {
-    "clue": "a bastard son of Priam's",
-    "response": "Troilus and Cressida"
-  },
-  {
-    "clue": "I SAY, HERMIONEDouble Hermione suffers from the jealousy of her husband Leontes in this late Shakespeare play",
-    "response": "The Winter's Tale"
-  },
-  {
-    "clue": "Though this comedy has Verona in its title, it ends in a forest on the frontiers of Mantua",
-    "response": "The Two Gentlemen of Verona"
-  },
-  {
-    "clue": "POTPOURRIDouble ,000Shakespeare's theatrical company became known as The King's Men in honor of this king's patronage",
-    "response": "James I"
-  },
-  {
-    "clue": "SHAKESPEAREANADouble Oscar Wilde asked whether the critics who'd written on this play were mad or only pretending to be",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "OILRUST",
-    "response": "Troilus"
-  },
-  {
-    "clue": "Then fall, Caesar",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "SHAKESPEAREDouble ,000In different plays, it's the name shared by men linked with Helen of Troy & with Juliet",
-    "response": "Paris"
-  },
-  {
-    "clue": "Go hang yourself, you naughty mocking uncle!",
-    "response": "Cressida"
-  },
-  {
-    "clue": "fantastical Spaniard",
-    "response": "Love's Labour's Lost"
-  },
-  {
-    "clue": "IDENTITYDouble This Shakespeare play involves a double set of twins & much confusion over who is whom",
-    "response": "The Comedy of Errors"
-  },
-  {
-    "clue": "love-kindling fire",
-    "response": "Cupid"
-  },
-  {
-    "clue": "Hamlet",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "Friends, Romans, countrymen, lend me your ears",
-    "response": "Julius Caesar"
-  },
-  {
-    "clue": "The time is out of joint, o cursed spite, that ever I was born to set it right!",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "CLUE: VERSIONDouble It was Othello, perhaps with a pillow, smothering her in her bedroom",
-    "response": "Desdemona"
-  },
-  {
-    "clue": "He shall have every day a several greeting, or I'll unpeople Egypt",
-    "response": "Cleopatra"
-  },
-  {
-    "clue": "SHAKESPEAREDouble In 1599 Shakespeare became a co-owner of this famous London theatre",
-    "response": "the Globe"
-  },
-  {
-    "clue": "You have but jested with me all this while, I prithee sister Kate, untie my hands",
-    "response": "The Taming of the Shrew"
-  },
-  {
-    "clue": "When to the sessions of sweet silent thought / I summon up",
-    "response": "Remembrance of Things Past"
-  },
-  {
-    "clue": "SHAKESPEAREDouble ,500Bertram, the Count of Rousillon, is the hero of this comedy whose title foretells its happy ending",
-    "response": "All's Well That Ends Well"
-  },
-  {
-    "clue": "London. The Tower",
-    "response": "Richard III"
-  },
-  {
-    "clue": "CHARACTERSDouble Richard III's mother is the Duchess of this, a title Fergie has today",
-    "response": "York"
-  },
-  {
-    "clue": "He's troubled:",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "most famous work of English literature before Shakespeare",
-    "response": "The Canterbury Tales"
-  },
-  {
-    "clue": "One of Shakespeare's sisters had this name, the same as Will's wife",
-    "response": "Anne"
-  },
-  {
-    "clue": "Cursed be he that moves my bones",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "Macbeth",
-    "response": "\"Fair is foul, and foul is fair\""
-  },
-  {
-    "clue": "Mentioning a Mediterranean city, it's the only Shakespeare play with a national capital in the title",
-    "response": "Timon of Athens"
-  },
-  {
-    "clue": "Lord, what fools these mortals be!",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Its Shakespeare Festival at Ashland started in 1935",
-    "response": "Oregon"
-  },
-  {
-    "clue": "Sleuth",
-    "response": "Shaffer"
-  },
-  {
-    "clue": "M",
-    "response": "Macduff"
-  },
-  {
-    "clue": "STRATFORDDouble Traveling players were hired by Shakespeare's father, who was Stratford's bailiff, what we would call this",
-    "response": "mayor"
-  },
-  {
-    "clue": "star-crossed",
-    "response": "Romeo and Juliet"
-  },
-  {
-    "clue": "Henry VI, Part I",
-    "response": "Westminster Abbey"
-  },
-  {
-    "clue": "I prithee, daughter, do not make me mad",
-    "response": "King Lear"
-  },
-  {
-    "clue": "It is my lady; O, it is my love! O, that she knew she were!",
-    "response": "Romeo"
-  },
-  {
-    "clue": "so perfumed that the winds were love-sick with them",
-    "response": "Cleopatra"
-  },
-  {
-    "clue": "Hometown of the Montagues & the Capulets",
-    "response": "Verona"
-  },
-  {
-    "clue": "GAMESDouble In a Shakespeare play, this queen invites one of her eunuchs to play billiards with her at her palace in Alexandria",
-    "response": "Cleopatra"
-  },
-  {
-    "clue": "ACT I, SCENE 1 Act I, Scene 1 of this Shakespeare play takes place atop the castle at Elsinore",
-    "response": "Hamlet"
   },
   {
     "clue": "The Merchant of Venice",
     "response": "Portia"
   },
   {
-    "clue": "If ever you disturb our streets again, your lives shall pay the forfeit of the peace",
-    "response": "Verona"
+    "clue": "The Riverside Shakespeare",
+    "response": "Henry VI, Part 3"
   },
   {
-    "clue": "SCREENDouble James Cagney played Bottom & Mickey Rooney was Puck in a 1935 adaptation of this Shakespeare comedy",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "Season SUPERJEOPARDYSaturday, August 25, 1990SHAKESPEAREDouble Jeopardy Round: 500Alas, you don't need an actor to play this character in “Hamlet”; all you need is a skull",
-    "response": "Yorick"
-  },
-  {
-    "clue": "Double ,000Desdemona: Murder by this method",
-    "response": "smothering with a pillow"
-  },
-  {
-    "clue": "W",
-    "response": "a wormhole"
-  },
-  {
-    "clue": "MOVIESDouble In this 1990 film Glenn Close played Mel Gibson's mother",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "WOMENDouble Before the start of the action of the play, she elopes with Othello; things don't end well for her",
-    "response": "Desdemona"
-  },
-  {
-    "clue": "This Shakespeare character drinks a potion that imitates outward death, but the plan doesn't go as desired",
-    "response": "Juliet"
-  },
-  {
-    "clue": "SENSEDouble He was a poet, actor & dramatist:",
-    "response": "William Shakespeare"
-  },
-  {
-    "clue": "COMEDIESDouble Shakespeare introduced the English name Jessica for a character in this play",
-    "response": "The Merchant of Venice"
-  },
-  {
-    "clue": "Yea, noise? Then I'll be brief. O happy dagger, this is thy sheath. There rest, and let me die",
-    "response": "Juliet"
-  },
-  {
-    "clue": "GROUPSDouble The early 20th c. Stratford-on-Odéon literary circle hung out at this bookstore run by Sylvia Beach in Paris' Left Bank",
-    "response": "Shakespeare & Company"
-  },
-  {
-    "clue": "Never trust a woman whose words are too flattering--like Goneril in this play",
-    "response": "King Lear"
-  },
-  {
-    "clue": "At QB, she audibles to get her husband to commit murder & win the title but she literally sleepwalks through the 4th quarter",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "Shrew",
-    "response": "Petruchio"
-  },
-  {
-    "clue": "Moor",
-    "response": "Rossini"
-  },
-  {
-    "clue": "ELSEDouble In \"Antony and Cleopatra this word doesn't mean an available motel room; it means one's leisure time",
-    "response": "vacancy"
-  },
-  {
-    "clue": "The Dream",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "All the perfumes of Arabia will not sweeten this little hand",
-    "response": "Lady Macbeth"
-  },
-  {
-    "clue": "Double Shakespeare didn't print his plays but did shepherd some of his poems through printing, including this one about 2 mythical beauties",
-    "response": "Venus and Adonis"
-  },
-  {
-    "clue": "This university that hosts the Georgia Shakespeare festival is named for Georgia's colonial founder",
-    "response": "Oglethorpe"
-  },
-  {
-    "clue": "TESTDouble The Max Factor make-up inspired by this 1999 Shakespeare film features colors like Cob Web & Mustard Seed",
-    "response": "A Midsummer Night's Dream"
-  },
-  {
-    "clue": "In truth, Rod Blagojevich, thou displeasest me mightily & thy hair scares even me... thou art fired!",
-    "response": "The Apprentice"
-  },
-  {
-    "clue": "Jersey Lilly",
-    "response": "Lillie Langtry"
-  },
-  {
-    "clue": "STRATFORDDouble The play's the thing in a theatre named for this bird to which Ben Jonson compared Shakespeare",
-    "response": "the swan"
-  },
-  {
-    "clue": "PORTMANTEAUDouble Tragedy about a Roman general who cuts off his own hand & throws it into an old word for a spittoon",
-    "response": "Titus Andronicuspidor"
-  },
-  {
-    "clue": "Get thee to a nunnery",
-    "response": "Ophelia"
-  },
-  {
-    "clue": "CHARACTERSDouble Thinking this man is the king, Hamlet kills him in Act III, Scene iv",
-    "response": "Polonius"
-  },
-  {
-    "clue": "Buckingham gets the boot from the palace, as does a wife; title guy is not a cardinal fan; on to wife 2!",
-    "response": "Henry VIII"
-  },
-  {
-    "clue": "The quality of mercy is not strained",
+    "clue": "The Merchant of Venice",
     "response": "Portia"
   },
   {
-    "clue": "Proteus & Valentine Take Manhattan",
-    "response": "The Two Gentlemen of Verona"
+    "clue": "of 3 women named in titles of Shakesperean plays",
+    "response": "Cleopatra, Cressida & Juliet"
   },
   {
-    "clue": "Better thou hadst not been born than not t' have pleased me better",
-    "response": "King Lear"
-  },
-  {
-    "clue": "The Tempest",
-    "response": "Prospero"
-  },
-  {
-    "clue": "SHAKESPEAREDouble In this play, Rosencrantz & Guildenstern almost always appear together",
-    "response": "Hamlet"
-  },
-  {
-    "clue": "CHOREOGRAPHERSDouble The Royal Ballet's Kenneth MacMillan choreographed a 1966 film starring Nureyev & Fonteyn as these lovers from Shakespeare",
-    "response": "Romeo & Juliet"
-  },
-  {
-    "clue": "DOMINGODouble Placido is associated with the title role of this 1887 Verdi opera based on a Shakespearean tragedy",
-    "response": "\"Othello\""
-  },
-  {
-    "clue": "Now my spirit is going. I can no more",
-    "response": "Antony"
-  },
-  {
-    "clue": "MENDouble Brabantio &Cassio",
-    "response": "Othello"
-  },
-  {
-    "clue": "The Bard of Avon",
-    "response": "Shakespeare"
-  },
-  {
-    "clue": "Once more unto the breach, once more! (aside) Why did we not just use the door?",
-    "response": "Henry V"
+    "clue": "Have a cup of coffee before taking in this D.C. Shakespeare library's 255 books & 55 manuscripts",
+    "response": "Folger"
   },
   {
     "clue": "We are such stuff as dreams are made on",
     "response": "Prospero"
   },
   {
-    "clue": "Once more unto",
-    "response": "the breach"
+    "clue": "To the consternation of the title character, we learn that this character was born by C-section",
+    "response": "Macduff"
   },
   {
-    "clue": "earthy",
-    "response": "groundlings"
+    "clue": "I prithee take thy fingers from my throat",
+    "response": "Hamlet"
   },
   {
-    "clue": "USA This D.C. library houses the world's foremost collection of works by & about Shakespeare",
-    "response": "Folger Library"
+    "clue": "CSI: Stabbed the king & made him drink poison--something is rotten in the state of Denmark... & it's him",
+    "response": "Hamlet"
   },
   {
-    "clue": "SHAKESPEAREDouble Act III, Scene I of this play takes place on March 15, also known as the Ides of March",
+    "clue": "If love be blind, love cannot hit the mark",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Yusuke Takanashi: this board game named for a Shakespeare character",
+    "response": "Othello"
+  },
+  {
+    "clue": "Then fall, Caesar",
     "response": "Julius Caesar"
   },
   {
-    "clue": "does murder sleep",
+    "clue": "Autolycus is a lovable rogue in this Shakespeare play",
+    "response": "\"The Winter's Tale\""
+  },
+  {
+    "clue": "thou see'st these lovers seek a place to fight: hie therefore, robin, overcast the night",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "Beatrice, Hero & her gentlewomen Margaret & Ursula",
+    "response": "Much Ado About Nothing"
+  },
+  {
+    "clue": "A demon in early English folklore, it became the name of a character in a Shakespeare comedy",
+    "response": "Puck"
+  },
+  {
+    "clue": "This friar conducts the ill-fated marriage of Romeo & Juliet",
+    "response": "Friar Lawrence"
+  },
+  {
+    "clue": "People and senators, be not affrighted; fly not; stand still: ambition's debt is paid",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "Ay, now am I in Arden, the more fool I",
+    "response": "As You Like It"
+  },
+  {
+    "clue": "The Comedy of Aerosmith",
+    "response": "A Comedy of Errors"
+  },
+  {
+    "clue": "The classic game Reversi is aka this game, like a Shakespearean title character",
+    "response": "Othello"
+  },
+  {
+    "clue": "This tragedy has settings in Rome, Syria & fatefully in Alexandria, Egypt",
+    "response": "Antony and Cleopatra"
+  },
+  {
+    "clue": "I tell thee I am mad in Cressid's love",
+    "response": "Troilus"
+  },
+  {
+    "clue": "The Tragedy of Hamlet...",
+    "response": "Prince of Denmark"
+  },
+  {
+    "clue": "In the 1st act, before he's king, this title character woos the newly-widowed Lady Anne",
+    "response": "Richard III"
+  },
+  {
+    "clue": "The Merry Wives of Windsor",
+    "response": "Falstaff"
+  },
+  {
+    "clue": "Imprisoned is he, say you?",
+    "response": "Timon of Athens"
+  },
+  {
+    "clue": "We will unite the white rose and the red",
+    "response": "Richard III"
+  },
+  {
+    "clue": "She speaks yet she says nothing",
+    "response": "Romeo & Juliet"
+  },
+  {
+    "clue": "A noble Moor in the service of the Venetian state",
+    "response": "Othello"
+  },
+  {
+    "clue": "What's in a Name",
+    "response": "Romeo"
+  },
+  {
+    "clue": "I thought the king had more affected the Duke of Albany than Cornwall",
+    "response": "King Lear"
+  },
+  {
+    "clue": "Hang him instantly",
+    "response": "King Lear"
+  },
+  {
+    "clue": "Be collected - no more amazement",
+    "response": "\"The Tempest\""
+  },
+  {
+    "clue": "I am a very foolish fond old man",
+    "response": "King Lear"
+  },
+  {
+    "clue": "Thy pity may deserve to pitied be",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "A Midsummer Night's Dream",
+    "response": "True love"
+  },
+  {
+    "clue": "The fool &the Dukes of Cornwall & Albany",
+    "response": "King Lear"
+  },
+  {
+    "clue": "This city's Boar's Head Inn is a favorite hangout of Falstaff & his friends",
+    "response": "London"
+  },
+  {
+    "clue": "The Moor, The Marrier",
+    "response": "Othello"
+  },
+  {
+    "clue": "Infant, schoolboy, lover, soldier, the Justice, the Pantaloon, second childishness",
+    "response": "Shakespeare's Seven Ages Of Man"
+  },
+  {
+    "clue": "Of Othello, Iago or Cassio, the one whose first name is Michael",
+    "response": "Cassio"
+  },
+  {
+    "clue": "Buckingham gets the boot from the palace, as does a wife; title guy is not a cardinal fan; on to wife 2!",
+    "response": "Henry VIII"
+  },
+  {
+    "clue": "Roll Call said no one in Congress quoted the bard as often as this long, longtime West Virginia senator",
+    "response": "(Senator Robert) Byrd"
+  },
+  {
+    "clue": "murderers,a Scottish doctor, &some apparitions",
     "response": "Macbeth"
+  },
+  {
+    "clue": "hath not seen the change of fourteen years",
+    "response": "Juliet"
+  },
+  {
+    "clue": "I am thy father's spirit, doomed for a certain term to walk the night...",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "Lord, what fools these mortals be!",
+    "response": "\"A Midsummer Night's Dream\""
+  },
+  {
+    "clue": "I love your majesty according to my bond, no more nor less",
+    "response": "Cordelia"
+  },
+  {
+    "clue": "Romeo & Juliet",
+    "response": "Maria"
+  },
+  {
+    "clue": "The only play in which a woman gets the last word is when Rosalind gives its epilogue",
+    "response": "As You Like It"
+  },
+  {
+    "clue": "Kiss Me, Kate",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings",
+    "response": "Cassius"
+  },
+  {
+    "clue": "O serpent heart, hid with a flowering face!",
+    "response": "Romeo"
+  },
+  {
+    "clue": "IT RUNS A DISCOUNT",
+    "response": "Titus Andronicus"
+  },
+  {
+    "clue": "O, beware, my lord, of jealousy! It is the green-eyed monster",
+    "response": "Othello"
+  },
+  {
+    "clue": "I can be patient, I can stay with Regan, I and my hundred knights",
+    "response": "King Lear"
+  },
+  {
+    "clue": "Brabantio is her dad & Othello's father-in-law",
+    "response": "Desdemona"
+  },
+  {
+    "clue": "John Dryden & his brother-in-law revised this tragedy so everybody (well, not Tybalt) lives happily ever after",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Kenneth Branagh in Shakespeare",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "shipwreck separates twin siblings Viola & Sebastian in this comedy",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "Escalus, prince of Verona; an apothecary",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "He hath a person and a smooth dispose to be suspected--framed to make women false. The Moor is of a free and open nature",
+    "response": "Iago"
+  },
+  {
+    "clue": "I hate ingratitude more in a man than lying, vainness",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "Demetrius is among the many, many casualties by the end & oh yeah... there's cannibalism!",
+    "response": "Titus Andronicus"
+  },
+  {
+    "clue": "Now, fair Hippolyta, our nuptial hour draws on apace",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "St. Crispin's Day",
+    "response": "Henry V"
+  },
+  {
+    "clue": "Though Birnam Wood be come to Dunsinane, and thou opposed, being of no woman born, yet I will try the last",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Hamlet alone speaks 1 lines; Shakespeare's shortest play at 1 lines is this one involving 2 sets of twins",
+    "response": "The Comedy of Errors"
+  },
+  {
+    "clue": "Blood will have blood",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Shakespearean king who thought Cordelia's love wasn't real",
+    "response": "Lear (from real)"
+  },
+  {
+    "clue": "My only love sprung from my only hate! Too early seen unknown, and known too late!",
+    "response": "Juliet"
+  },
+  {
+    "clue": "Take me by the hand, and say 'Harry of England, I am thine'",
+    "response": "Henry V"
+  },
+  {
+    "clue": "He loves Desdemona but (spoiler alert) smothers her, believing her unfaithful",
+    "response": "Othello"
+  },
+  {
+    "clue": "The ghosts of the little princes appear to him a Bosworth Field",
+    "response": "Richard III"
+  },
+  {
+    "clue": "She persuades her husband to kill Duncan",
+    "response": "Lady Macbeth"
+  },
+  {
+    "clue": "Things without all remedy should be without regard: what's done is done",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Ariel is this magician's assistant",
+    "response": "Prospero"
+  },
+  {
+    "clue": "This title character imprisons his brother, the Duke of Clarence, in the Tower of London",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Measure For Measure",
+    "response": "Elbow"
+  },
+  {
+    "clue": "Like Shakespeare, Michelangelo wrote these poems, many in praise of Tommaso de Cavalieri",
+    "response": "Sonnets"
+  },
+  {
+    "clue": "The Country Wife",
+    "response": "Restoration"
+  },
+  {
+    "clue": "Measure for Measure",
+    "response": "Juliet"
+  },
+  {
+    "clue": "Cassandra, a prophetess whose father is the king of Troy, is a character in this play",
+    "response": "\"Troilus and Cressida\""
+  },
+  {
+    "clue": "The Murder of Gonzago",
+    "response": "(Tom) Stoppard"
+  },
+  {
+    "clue": "The Comedy of Errors",
+    "response": "Twins"
+  },
+  {
+    "clue": "Our Thane is coming",
+    "response": "Lady Macbeth"
+  },
+  {
+    "clue": "To delete recorded data",
+    "response": "erase"
+  },
+  {
+    "clue": "Son of theater manager James Burbage, Richard Burbage originated many Shakespeare roles, including this Moor",
+    "response": "Othello"
+  },
+  {
+    "clue": "Prince of Tyre",
+    "response": "Pericles"
+  },
+  {
+    "clue": "The clouds tell you why this work by Giorgione shares its name with a Shakespeare play",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Verdi & Salieri both wrote operas about this fat, funny Shakespearean character",
+    "response": "Falstaff"
+  },
+  {
+    "clue": "I never did repent for doing good, nor shall not now",
+    "response": "\"The Merchant of Venice\""
+  },
+  {
+    "clue": "Shakespeare's saga of Kate & Petruchio, it inspired a ballet with the same title",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "of the 2 plays that feature a character named Paris",
+    "response": "(1 of) Troilus & Cressida (or Romeo and Juliet)"
+  },
+  {
+    "clue": "La Bisbetica Dominata",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "Play in which the king of Naples is shipwrecked by a sorcerer",
+    "response": "Tempest"
+  },
+  {
+    "clue": "Cyprus, a room in the castle",
+    "response": "Othello"
+  },
+  {
+    "clue": "The Two Gentlemen of",
+    "response": "Verona"
+  },
+  {
+    "clue": "Men are April when they woo, December when they wed",
+    "response": "As You Like It"
+  },
+  {
+    "clue": "From fairest creatures we desire increase",
+    "response": "his sonnets"
+  },
+  {
+    "clue": "The play that's set in & around the Greek city as its title",
+    "response": "Timon of Athens"
+  },
+  {
+    "clue": "Shall I compare thee to a summer's day?",
+    "response": "(William) Shakespeare"
+  },
+  {
+    "clue": "Before the start of the action of the play, she elopes with Othello; things don't end well for her",
+    "response": "Desdemona"
+  },
+  {
+    "clue": "Give me your hands if we be friends, and Robin shall restore amends",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "The moor's abused by some most villainous knave",
+    "response": "Othello"
+  },
+  {
+    "clue": "According to Shakespeare, this queen liked to play billiards with her eunuch",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "Ralph Fiennes made his directorial debut with a modern battle gear adaptation of this play of ancient Rome with a 1-word title",
+    "response": "Coriolanus"
+  },
+  {
+    "clue": "Of Desdemona, Iago or himself, the one Othello doesn't kill",
+    "response": "Iago"
+  },
+  {
+    "clue": "There is among the Greeks a lord of Trojan blood, nephew to Hector; they call him Ajax",
+    "response": "Troilus & Cressida"
+  },
+  {
+    "clue": "The Duchess of York,the Lieutenant of the Tower, &the ghosts of the title character's victims",
+    "response": "Richard III"
+  },
+  {
+    "clue": "His youngest daughter, Cordelia, shares his stubbornness & refuses to flatter him like her sisters",
+    "response": "King Lear"
+  },
+  {
+    "clue": "What's in a name? That which we call a rose, by any other name would smell as sweet",
+    "response": "Juliet"
+  },
+  {
+    "clue": "In this tragedy Donalbain flees to Ireland after his father, Duncan is murdered",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Will's birth is celebrated on April 23 partly because that's the feast day of this patron saint of England",
+    "response": "Saint George"
+  },
+  {
+    "clue": "If you're looking for Mr. (Robin) Goodfellow, ask for this Shakespearean character",
+    "response": "Puck"
+  },
+  {
+    "clue": "2 of 3 Verdi operas based on Shakespeare's plays, all with 1-word titles",
+    "response": "(2 of) \"Falstaff\", \"Othello\" & \"Macbeth\""
+  },
+  {
+    "clue": "The triple pillar of the world transformed into a strumpet's fool",
+    "response": "Antony and Cleopatra"
+  },
+  {
+    "clue": "Shakespeare was hot & cold with these 2 plays that have seasons in the title",
+    "response": "A Midsummer Night's Dream and The Winter's Tale (A Winter's Tale accepted)"
+  },
+  {
+    "clue": "Shakespeare In Love",
+    "response": "Joseph Fiennes"
+  },
+  {
+    "clue": "Thou hadst little wit in thy bald crown when thou gav'st thy golden one away",
+    "response": "the Fool"
+  },
+  {
+    "clue": "Matteo Bandello's short stories inspired a number of Shakespeare's plays, including this Verona-set tragedy",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Gloucester blindness symbolic in how he deal with Edgar; Hulk reflect on own family after this play",
+    "response": "King Lear"
+  },
+  {
+    "clue": "Shakespeare based this play on the legend of a pair of Trojan lovers",
+    "response": "Troilus & Cressida"
+  },
+  {
+    "clue": "Regan, his second daughter, is married to the Duke of Cornwall",
+    "response": "King Lear"
+  },
+  {
+    "clue": "the cave of winds",
+    "response": "Candlestick (Park)"
+  },
+  {
+    "clue": "Ere the Storm",
+    "response": "Prospero"
+  },
+  {
+    "clue": "The Taming of the Shrew",
+    "response": "Bianca"
+  },
+  {
+    "clue": "The Merchant of",
+    "response": "Venice"
+  },
+  {
+    "clue": "After this queen dies, her attendant Charmian also kills herself with an asp",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "My only love sprung from my only hate! Too early seen unknown, and known too late!",
+    "response": "Juliet"
+  },
+  {
+    "clue": "Roderigo & Iago enter at the start of this tragedy",
+    "response": "Othello"
+  },
+  {
+    "clue": "has not so much brain as earwax",
+    "response": "Troilus and Cressida"
+  },
+  {
+    "clue": "If thou be merciful, open the tomb, lay me with Juliet",
+    "response": "Paris"
+  },
+  {
+    "clue": "horrid image doth unfix my hair",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Troy & the Greek camp before it",
+    "response": "Troilus and Cressida"
+  },
+  {
+    "clue": "I don't want that thing in my house",
+    "response": "Shakespeare in Love"
+  },
+  {
+    "clue": "Romeo and Juliet",
+    "response": "Verona"
+  },
+  {
+    "clue": "The Passionate Shepherd to His Love",
+    "response": "Marlowe"
+  },
+  {
+    "clue": "The last of the tragedies, this play deals with the conflict between Rome's patrician & plebeian classes",
+    "response": "Coriolanus"
+  },
+  {
+    "clue": "The Taming of the Shrew",
+    "response": "Petruchio"
+  },
+  {
+    "clue": "This dead butcher and his fiend-like queen",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "P.I. Investigating a possible regicide by this fella; got his address, Dunsinane, but his wacked-out wife worries me",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Cry 'God for Harry, England, and Saint George!'",
+    "response": "Henry V"
+  },
+  {
+    "clue": "Shakespeare didn't invent this mischievous sprite; in folklore he's also known as Hobgoblin",
+    "response": "Puck"
+  },
+  {
+    "clue": "A pound of that same merchant's flesh is thine",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "She was 1st black actress to star in major roles at the American Shakespeare Festival",
+    "response": "Ruby Dee"
+  },
+  {
+    "clue": "What shall Cordelia speak? Love, and be silent",
+    "response": "\"King Lear\""
+  },
+  {
+    "clue": "I have a new play",
+    "response": "Shakespeare in Love"
+  },
+  {
+    "clue": "Talk toyourself much? /I, Claudius,killed your dad /You're not mad,are you?",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "Shall I compare thee to",
+    "response": "a summer's day"
+  },
+  {
+    "clue": "They're the 3 daughters of King Lear",
+    "response": "Cordelia, Goneril & Regan"
+  },
+  {
+    "clue": "In London, Shakespeare boarded with the Mountjoys, a family of these French Protestants",
+    "response": "Huguenots"
+  },
+  {
+    "clue": "Appropriately, the Royal Shakespeare Co. performs the man's plays in this town; Shottery is one mile west",
+    "response": "Stratford-upon-Avon"
+  },
+  {
+    "clue": "The Faery Queen",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "Some one take order Buckingham be brought to Salisbury; the rest march on with me",
+    "response": "Richard III"
+  },
+  {
+    "clue": "The time is out of joint, O cursèd spite...",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "The only one of Shakespeare's plays that does not take place in any known city or country",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Goneril is the eldest of his 3 daughters",
+    "response": "Lear"
+  },
+  {
+    "clue": "A Midsummer Night's Dream",
+    "response": "Spring"
+  },
+  {
+    "clue": "The Comedy of Errors",
+    "response": "America"
+  },
+  {
+    "clue": "'Tis a wonder, by your leave, she will be tamed so",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "plague o' both your houses",
+    "response": "Mercutio"
+  },
+  {
+    "clue": "As You Like It",
+    "response": "Shakespeare in the Park"
+  },
+  {
+    "clue": "Better thou hadst not been born than not t' have pleased me better",
+    "response": "King Lear"
+  },
+  {
+    "clue": "In this play, Gremio is a suitor to Bianca & Grumio is Petruchio's lackey",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "A plague on...",
+    "response": "Both Your Houses"
+  },
+  {
+    "clue": "M.s EM me @ thaneoffife @ I'mtheregicider.com",
+    "response": "Macduff"
+  },
+  {
+    "clue": "A horse! A horse! My kingdom for a horse!",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Despair and die!",
+    "response": "Richard III"
+  },
+  {
+    "clue": "young lovers, families keep 'em apart -- it'd be a teen flick but we won't shoot in Verona; too expensive",
+    "response": "\"Romeo and Juliet\""
+  },
+  {
+    "clue": "Speak of me as one that love not wisely, but too well",
+    "response": "Othello"
+  },
+  {
+    "clue": "He shall have every day a several greeting, or I'll unpeople Egypt",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "It's Falstaff's first name",
+    "response": "(Sir) John"
+  },
+  {
+    "clue": "Despised title king whose mother is Elinor of Aquitaine",
+    "response": "King John"
+  },
+  {
+    "clue": "These 2 title characters who have the same pair of initials both die by stabbing",
+    "response": "Juliet Capulet & Julius Caesar"
+  },
+  {
+    "clue": "Paduan lawyers, sexual identity wackiness, money & deceit... this play doth have it all! Must runneth, ta for now, Bill",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "Portia's house at Belmont",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "She continues to get thousands of letters each year addressed to her in Verona",
+    "response": "Juliet"
+  },
+  {
+    "clue": "A Merry Jest of a Shrewd and Curst Wife",
+    "response": "Taming of the Shrew"
+  },
+  {
+    "clue": "Henry IV, Part II",
+    "response": "crown"
+  },
+  {
+    "clue": "The Merchant of Venice",
+    "response": "mercy"
+  },
+  {
+    "clue": "if hairs be wires, black wires grow on her head",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "Henry VI, Part I",
+    "response": "the peacock"
+  },
+  {
+    "clue": "Hang him instantly",
+    "response": "King Lear"
+  },
+  {
+    "clue": "West Side Story",
+    "response": "Tony & Maria"
+  },
+  {
+    "clue": "Good Night, Good Night! Parting is such...",
+    "response": "sweet sorrow"
+  },
+  {
+    "clue": "Lay on, Macduff, and damned be him that first cries, 'hold, enough",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "One of the 2 plays whose plots are set in motion by shipwrecks, one off Illyria & one off an unnamed island",
+    "response": "(1 of) The Tempest & Twelfth Night"
+  },
+  {
+    "clue": "Much Ado About Nothing",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Act III, Scene I of this play takes place on March 15, also known as the Ides of March",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "Farewell, good strato. Caesar, now be still; I killed not thee with half so good a will",
+    "response": "Brutus"
+  },
+  {
+    "clue": "Be-all and end-all",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "This play begins at a queen's palace in Alexandria",
+    "response": "Antony and Cleopatra"
+  },
+  {
+    "clue": "Dost thou think, because thou art virtuous, there shall be no more cakes and",
+    "response": "ale"
+  },
+  {
+    "clue": "At the banquet, his ghost is invisible to everyone but Macbeth",
+    "response": "Banquo"
+  },
+  {
+    "clue": "This Shakespeare play title refers to Epiphany Eve",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "The Merry Wives of Windsor",
+    "response": "\"Greensleeves\""
+  },
+  {
+    "clue": "His son is thirty",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Sir Toby Belch & his friends trick Malvolio into acting crazy & getting sent to an asylum",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "Sweets to the sweet: Farewell!” were Hamlet's mother's words at this woman's funeral",
+    "response": "Ophelia"
+  },
+  {
+    "clue": "Out, damned spot! Out, I say!",
+    "response": "Lady Macbeth"
+  },
+  {
+    "clue": "We have kiss'd away kingdoms and provinces",
+    "response": "Antony & Cleopatra"
+  },
+  {
+    "clue": "Title character who's Benvolio's buddy",
+    "response": "Romeo"
+  },
+  {
+    "clue": "The Donkey Show",
+    "response": "\"A Midsummer Night's Dream\""
+  },
+  {
+    "clue": "Ding dong! Shakespeare's hometown gets house visits from a cosmetics saleslady using a familiar slogan",
+    "response": "Stratford-on-Avon calling"
+  },
+  {
+    "clue": "Benvolio, Balthasar, Mercutio",
+    "response": "Romeo & Juliet"
+  },
+  {
+    "clue": "Mistress Ford & Mistress Page are the saucy spouses who trick & torment Falstaff in this comedy",
+    "response": "The Merry Wives of Windsor"
+  },
+  {
+    "clue": "The 2 Gentlemen",
+    "response": "Verona"
+  },
+  {
+    "clue": "This D.C.-based Shakespeare library has 79 copies of the First Folio",
+    "response": "the Folger Library"
+  },
+  {
+    "clue": "The Taming of the Shrew",
+    "response": "Kate & Petruchio"
+  },
+  {
+    "clue": "Marina is captured by pirates & sold to a brothel in the play named for this Prince of Tyre",
+    "response": "Pericles"
+  },
+  {
+    "clue": "This play's famous balcony scene takes place in a garden after a ball",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Cursed be he that moves my bones",
+    "response": "William Shakespeare"
+  },
+  {
+    "clue": "CUSTODIAN NUT SIR",
+    "response": "Titus Andronicus"
+  },
+  {
+    "clue": "Beware the Ides of ____",
+    "response": "March"
+  },
+  {
+    "clue": "Loved not wisely but too well",
+    "response": "Othello"
+  },
+  {
+    "clue": "Give me excess of it, that, surfeiting, The appetite may sicken, and so die",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "An age when Shakespeare wrote & England gained power is named for this queen",
+    "response": "Elizabeth I"
+  },
+  {
+    "clue": "My mistress' eyes are nothing like",
+    "response": "the sun"
+  },
+  {
+    "clue": "the sea's worth",
+    "response": "Othello"
+  },
+  {
+    "clue": "King Ferdinand of Navarre vows to basically set up a 3-year He-Man Woman-Haters Club in this Shakespeare play",
+    "response": "Love's Labour's Lost"
+  },
+  {
+    "clue": "I think there be six Richmonds in the field; five have I slain today instead of him",
+    "response": "King Richard III"
+  },
+  {
+    "clue": "A horse! A horse! My kingdom for a horse!",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Something is rotten in the state of Jeopardy!",
+    "response": "Denmark"
+  },
+  {
+    "clue": "The Royal Shakespeare Theatre is in this town; the theatre overlooks a river",
+    "response": "Stratford-on-Avon"
+  },
+  {
+    "clue": "Saddle White Surrey for the field to-morrow",
+    "response": "Richard III"
+  },
+  {
+    "clue": "U.S.A. This state's Odessa College hosts an annual Shakespeare festival in a replica of the Globe Theatre",
+    "response": "Texas"
+  },
+  {
+    "clue": "O, beware, my lord, of jealousy",
+    "response": "Othello"
+  },
+  {
+    "clue": "Love's Labour's Lost",
+    "response": "Romeo"
+  },
+  {
+    "clue": "Tis but the infirmity of his age; yet he hath ever but slenderly known himself",
+    "response": "King Lear"
+  },
+  {
+    "clue": "The Fairy Queen",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "Shakespeare is guilty of an anachronism when this ancient queen says to an attendant, let's play billiards",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "Romans, countrymen, and lovers! Hear me for my cause, and be silent",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "Band of Brothers",
+    "response": "Henry V"
+  },
+  {
+    "clue": "Shakespeare based these 2 characters on a certain Miss Cappelletti & a Mr. Montecchi",
+    "response": "Romeo & Juliet"
+  },
+  {
+    "clue": "The Duchess of Malfi",
+    "response": "Shakespeare in Love"
+  },
+  {
+    "clue": "The Taming of the Shrew",
+    "response": "10 Things I Hate About You"
+  },
+  {
+    "clue": "Le Marchand de Venise",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "Writer of 37 plays & 154 sonnets:We all make his praise",
+    "response": "William Shakespeare"
+  },
+  {
+    "clue": "O, what a rogue and peasant slave am I",
+    "response": "the Hamlet"
+  },
+  {
+    "clue": "This one's about a wannabe Scottish king & his wife, right, & he kills King Duncan...is Connery available?",
+    "response": "\"Macbeth\""
+  },
+  {
+    "clue": "She was 8 years older & 3 months pregnant when Shakespeare married her",
+    "response": "Anne Hathaway"
+  },
+  {
+    "clue": "Standard editions of Shakespeare contain these numbered 1-154",
+    "response": "sonnets"
+  },
+  {
+    "clue": "Go tell him I have slain myself; say that the last I spoke was 'Antony'",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "How sharper than",
+    "response": "a serpent's tooth"
+  },
+  {
+    "clue": "Shakespeare's daughter Susanna was born 6 months after his marriage to this woman",
+    "response": "Anne Hathaway"
+  },
+  {
+    "clue": "Any sap knows it was the instrument of Cleopatra's demise",
+    "response": "Asp (for \"sap\")"
+  },
+  {
+    "clue": "raise her statue in pure gold",
+    "response": "Juliet"
+  },
+  {
+    "clue": "What You Will",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "This title character buys the poison that eventually kills him in Mantua, not in Verona",
+    "response": "Romeo"
+  },
+  {
+    "clue": "Calpurnia's husband's small metal hair pluckers",
+    "response": "Caesar's tweezers"
+  },
+  {
+    "clue": "The island. The entrance of a cave",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Pyramus and Thisbe",
+    "response": "Bottom"
+  },
+  {
+    "clue": "Desdemona's lady-in-waiting, Emilia is the wife of this villain",
+    "response": "Iago"
+  },
+  {
+    "clue": "Enjoy the pies, Tamorra. I wish your sons were here. Oh, they are",
+    "response": "Titus Andronicus"
+  },
+  {
+    "clue": "Boy meets girl. Boy gets girl. Boy loses girl. Boy takes poison. Girl stabs herself & dies.",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "As You Like It",
+    "response": "trowel"
+  },
+  {
+    "clue": "Much Ado About Nothing",
+    "response": "Dogberry"
+  },
+  {
+    "clue": "I am all the subjects that you have... here you sty me, in this hard rock, whiles you do keep from me the rest o' the island",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Eye of newt and toe of frog, wool of bat and tongue of dog",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Is not in our stars, but in ourselves, that we are underlings",
+    "response": "Brutus"
+  },
+  {
+    "clue": "Conscience is but a word that cowards use, devised at first to keep the strong in awe",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Et tu Brute!",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "...in that sleep of death what dreams may come...",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "From ancient grudge break to new mutiny, where civil blood makes civil hands unclean",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Will combines one of his comedy classics with what Mr. Blandings is trying to put up in a Cary Grant film",
+    "response": "A Midsummer Night's Dream House"
+  },
+  {
+    "clue": "I am not well; send the deed after me and I will sign it",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "Who can sever love from charity?",
+    "response": "Love's Labour's Lost"
+  },
+  {
+    "clue": "Act II, Scene I of this play is set in Brutus' orchard",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "Of 5, 8, or 11, the # of Shakespeare's 37 plays in which a woman's role is the longest",
+    "response": "5"
+  },
+  {
+    "clue": "As for that ravenous tiger Tamora... being dead, let birds on her take pity",
+    "response": "Titus Andronicus"
+  },
+  {
+    "clue": "Love's Labour's Lost",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "Caesar & Cleopatra",
+    "response": "Anthony & Cleopatra"
+  },
+  {
+    "clue": "Basically, this Shakespeare character tells her husband, kill the king as he sleeps; we'll set up his staff for it!",
+    "response": "Lady Macbeth"
+  },
+  {
+    "clue": "Lines from the Prince of Verona end this story of woe",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "The Merchant of Venice",
+    "response": "Lead"
+  },
+  {
+    "clue": "In sleep I heard him say, 'Sweet Desdemona, let us be wary, let us hide our loves!'",
+    "response": "Othello"
+  },
+  {
+    "clue": "She was queen when William Shakespeare was born & died when he was almost 40",
+    "response": "Elizabeth I"
+  },
+  {
+    "clue": "Shakespeare in Love",
+    "response": "Gwyneth Paltrow"
+  },
+  {
+    "clue": "Much Ado About Nothing",
+    "response": "Dogberry"
+  },
+  {
+    "clue": "She cleverly disguises herself as a lawyer & saves Antonio from Shylock's revenge",
+    "response": "Portia"
+  },
+  {
+    "clue": "the fattest... i' the forest",
+    "response": "Merry Wives of Windsor"
+  },
+  {
+    "clue": "The Merchant of Venice",
+    "response": "Portia"
+  },
+  {
+    "clue": "After being banished, Rosalind runs off to the Forest of Arden dressed like a man in this play",
+    "response": "As You Like It"
+  },
+  {
+    "clue": "This moon that orbits Uranus in 18 hrs. was named for a Shakespeare character who can circle the Earth in 40 min.",
+    "response": "Puck"
+  },
+  {
+    "clue": "Fortinbras, prince of Norway; two clowns, listed as gravediggers",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "My father compounded with my mother under the dragon's tail",
+    "response": "King Lear"
+  },
+  {
+    "clue": "These 2 courtiers were hired by King Claudius to spy on Hamlet",
+    "response": "Rosencrantz & Guildenstern"
+  },
+  {
+    "clue": "God for Harry! England & Saint George!",
+    "response": "the Battle of Agincourt"
+  },
+  {
+    "clue": "I am a man more sinned against than sinning",
+    "response": "King Lear"
+  },
+  {
+    "clue": "And Horatio In The Graveyard",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "word phrase for a predetermined ending; Othello talks of one in Act III",
+    "response": "a foregone conclusion"
+  },
+  {
+    "clue": "I bleed, sir, but not killed",
+    "response": "Iago"
+  },
+  {
+    "clue": "Let me not to the marriage of true minds admit...",
+    "response": "impediments"
+  },
+  {
+    "clue": "Young Prince of Tyre",
+    "response": "Pericles"
+  },
+  {
+    "clue": "Cressida's lover, after happiness has vanished",
+    "response": "joyless Troilus"
+  },
+  {
+    "clue": "FORESTRY CHEER DOOM",
+    "response": "The Comedy of Errors"
+  },
+  {
+    "clue": "Shakespeare play that features the christening of Shakespeare's patron, Elizabeth I",
+    "response": "Henry VIII"
+  },
+  {
+    "clue": "This lover of Bassanio disguises herself as a lawyer & saves Antonio",
+    "response": "Portia"
+  },
+  {
+    "clue": "At the end of a Berlioz opera inspired by Shakespeare, she & Benedict admit their love for one another",
+    "response": "Beatrice"
+  },
+  {
+    "clue": "This Shakespeare play is set in 44 B.C.",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "You shall not in your funeral speech blame us, but speak all good you can devise",
+    "response": "Marc Antony"
+  },
+  {
+    "clue": "101 Shrew-tamer Petruchio came from this city, like a certain two gentlemen",
+    "response": "Verona"
+  },
+  {
+    "clue": "This Shakespeare library is administered by a board of directors under the auspices of Amherst College",
+    "response": "the Folger Library"
+  },
+  {
+    "clue": "Viola's crossdressing in this Shakespeare play ran afoul of a N.H. Prohibition of Alternative Lifestyle Act",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "noblest Roman of them all",
+    "response": "Brutus"
+  },
+  {
+    "clue": "Romeo and Juliet",
+    "response": "Verona"
+  },
+  {
+    "clue": "Alas, poor Yorick!",
+    "response": "Ophelia"
+  },
+  {
+    "clue": "Queen of the Fairies",
+    "response": "Titania"
+  },
+  {
+    "clue": "Victor Hugo wrote a biographical study of this great English playwright",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "Now applied to Shakespeare, this word referred originally to Celtic minstrel poets",
+    "response": "bard"
+  },
+  {
+    "clue": "Enter three witches",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "A comedy about the greatest love story almost never told",
+    "response": "Shakespeare in Love"
+  },
+  {
+    "clue": "the Bard of Avon",
+    "response": "Robert Burns"
+  },
+  {
+    "clue": "It describes Shakespeare's pentameter",
+    "response": "iambic"
+  },
+  {
+    "clue": "The Taming of the Shrew",
+    "response": "Padua"
+  },
+  {
+    "clue": "I am a gentleman of Verona, sir",
+    "response": "\"Taming of the Shrew\""
+  },
+  {
+    "clue": "The green-eyed monster, who doth mock the meat it feeds on",
+    "response": "Iago"
+  },
+  {
+    "clue": "Let's playhouse; the Bard fiddles with Viola",
+    "response": "Shakespeare in Love"
+  },
+  {
+    "clue": "Lines in a Shakespearean sonnet",
+    "response": "14"
+  },
+  {
+    "clue": "Shakespeare writes the 11th sequel to the Freddy Krueger horror films",
+    "response": "Twelfth Nightmare on Elm Street"
+  },
+  {
+    "clue": "Not surprisingly, this author's works have been filmed more than any other",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "The 2 monarchs who ruled England during Shakespeare's lifetime",
+    "response": "Elizabeth I & James I"
+  },
+  {
+    "clue": "Love and constancy is dead;/___ and the turtle fled/ In a mutual flame from hence",
+    "response": "Phoenix"
+  },
+  {
+    "clue": "Shakespeare In Love",
+    "response": "Tom Stoppard"
+  },
+  {
+    "clue": "Of Henry IV, V, VI, VII or , the only one who isn't a title character in a Shakespeare play",
+    "response": "Henry VII"
+  },
+  {
+    "clue": "This Dane wants to go back to school in Wittenberg but his mother & stepfather talk him out of it",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "Romeo and Juliet",
+    "response": "\"Parting is such sweet sorrow\""
+  },
+  {
+    "clue": "holistic guide to stopping compulsive eating",
+    "response": "the Chew"
+  },
+  {
+    "clue": "In this play, Paris is a kinsman to the prince of Verona",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "The Merchant of Venice",
+    "response": "Shylock"
+  },
+  {
+    "clue": "Behold, mine arm is, like a blasted sapling, withered up",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Valentine & Proteus are the title Italian friends in this comedy",
+    "response": "Two Gentlemen of Verona"
+  },
+  {
+    "clue": "The barge she sat in, like a burnished throne, burned on the water",
+    "response": "Antony and Cleopatra"
+  },
+  {
+    "clue": "To prudishly edit vulgar bits out of a written work is called this, after a guy named Thomas who did it to Shakespeare",
+    "response": "bowdlerize"
+  },
+  {
+    "clue": "thou lump of foul deformity",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Outsold only by the Bible and Shakespeare, this woman is the best-selling romance writer of the twentieth century",
+    "response": "Barbara Cartland"
+  },
+  {
+    "clue": "Placed under a magic spell by her husband, this queen falls in love with the donkey-headed Nick Bottom",
+    "response": "Titania"
+  },
+  {
+    "clue": "In the title of a Shakespeare work, he is a son of King Priam & she is the daughter of Calchas",
+    "response": "Troilus & Cressida"
+  },
+  {
+    "clue": "House of the Dragon",
+    "response": "(George R.R.) Martin"
+  },
+  {
+    "clue": "Many actors consider it bad luck to quote lines from this Shakespeare play",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Throne of Blood",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "She is poisoned by her sister Goneril",
+    "response": "Regan"
+  },
+  {
+    "clue": "Strike up, pipers!",
+    "response": "Much Ado About Nothing"
+  },
+  {
+    "clue": "Egeon, a merchant from Syracuse, speaks the first line in this comedy",
+    "response": "The Comedy of Errors"
+  },
+  {
+    "clue": "Shakespeare in Love",
+    "response": "Judi Dench"
+  },
+  {
+    "clue": "Merchant of Venice",
+    "response": "Portia"
+  },
+  {
+    "clue": "Your face, my thane, is as a book where men may read strange matters",
+    "response": "Lady Macbeth"
+  },
+  {
+    "clue": "Located on Capitol Hill, it publishes the journal Shakespeare Quarterly",
+    "response": "Folger"
+  },
+  {
+    "clue": "love is blind",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "Henry VI Part 2",
+    "response": "jaded"
+  },
+  {
+    "clue": "Mendelssohn's beautiful overture",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "In this Shakespeare play, Viola dresses as a man & Feste masquerades as clergyman Sir Topas",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "In this play Gratiano has the last speech; Portia has the next to last",
+    "response": "\"The Merchant of Venice\""
+  },
+  {
+    "clue": "This tragic Shakespeare title king has a cold night reflect on filial ingratitude",
+    "response": "King Lear"
+  },
+  {
+    "clue": "She's a foreign queen:",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "Be but sworn, my love, and I'll no longer be a Capulet",
+    "response": "Juliet"
+  },
+  {
+    "clue": "Love's Labour's Lost",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "Beekeeping for Dummies",
+    "response": "\"To bee or not to bee?\""
+  },
+  {
+    "clue": "The Madness of King George",
+    "response": "King Lear"
+  },
+  {
+    "clue": "An anaconda squeezing her to death in Act V wouldn't work, so will used an asp instead",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "The Trojan tragedy that features Helen of Troy",
+    "response": "Troilus & Cressida"
+  },
+  {
+    "clue": "A former 10 Maniacs lead singer, she owes Shylock a pound of flesh",
+    "response": "Natalie Merchant of Venice"
+  },
+  {
+    "clue": "Captured after stabbing his wife to death, this villain vows never to speak again; he doesn't",
+    "response": "Iago"
+  },
+  {
+    "clue": "The Merchant of Venice",
+    "response": "Shylock"
+  },
+  {
+    "clue": "The winter of our discontent",
+    "response": "\"Richard III\""
+  },
+  {
+    "clue": "When Viola disguises herself as a boy in this comedy, Olivia falls in love with her",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "his Moorship's ancient",
+    "response": "Iago"
+  },
+  {
+    "clue": "A Game at Chess",
+    "response": "Spain"
+  },
+  {
+    "clue": "Poor venomous fool, be angry, and dispatch",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "As Time Goes By",
+    "response": "Judi Dench"
+  },
+  {
+    "clue": "As You Like It",
+    "response": "Arden"
+  },
+  {
+    "clue": "Verdi's first comic opera was a flop; it was 50 years before he wrote his second, about this Shakespeare character",
+    "response": "Falstaff"
+  },
+  {
+    "clue": "stol'n marriage day was Tybalt's doomsday",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Frailty, thy name is woman",
+    "response": "(Queen) Gertrude"
+  },
+  {
+    "clue": "From Rome PD:Dismemberment, homicide, cannibalism, emperor-cide, unauthorized tongue-ectomy",
+    "response": "Titus Andronicus"
+  },
+  {
+    "clue": "Anyone But You",
+    "response": "Much Ado About Nothing"
+  },
+  {
+    "clue": "Henry VI, Part I",
+    "response": "Joan of Arc"
+  },
+  {
+    "clue": "Never promise anybody a pound of this; Antonio did, & Shylock tried to collect it (ouch!)",
+    "response": "flesh"
+  },
+  {
+    "clue": "exit, pursued by a bear",
+    "response": "The Winter's Tale"
+  },
+  {
+    "clue": "In Shakespeare her parents want her to marry Paris, a nobleman & kinsman of the prince of Verona",
+    "response": "Juliet"
+  },
+  {
+    "clue": "As You Like It",
+    "response": "Arden"
+  },
+  {
+    "clue": "The ghost of his wife, Anne, haunted him at Bosworth Field",
+    "response": "Richard III"
+  },
+  {
+    "clue": "13 Shakespeare is credited with the first use of this term for political murder",
+    "response": "assassination"
+  },
+  {
+    "clue": "Henry VI, Part I",
+    "response": "Henry V"
+  },
+  {
+    "clue": "This play opens on a ship & ends in front of a cell",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Personally, I'd avoid these paired names, chums of Hamlet; it's a lot to write",
+    "response": "Rosencrantz and Guildenstern"
+  },
+  {
+    "clue": "The first gravedigger provides some much-needed comic relief in Act V of this tragedy",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "Now is the winter of our discontent",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Proteus & Valentine Take Manhattan",
+    "response": "The Two Gentlemen of Verona"
+  },
+  {
+    "clue": "Here hung these lips that I have kissed I know not how oft",
+    "response": "Yorick"
+  },
+  {
+    "clue": "While hanging flower garlands on a willow tree, she fell into the brook & drowned",
+    "response": "Ophelia"
+  },
+  {
+    "clue": "Iago suspects, or pretends to suspect, his wife Emilia of having an affair with this man",
+    "response": "Othello"
+  },
+  {
+    "clue": "The Moor's Pavane",
+    "response": "Othello"
+  },
+  {
+    "clue": "Di scozia a te promettono le profetesse il trono... Che tardi?",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "This Shakespearean king established the college of arms, England's authority on heraldry",
+    "response": "Richard III"
+  },
+  {
+    "clue": "There's something in his soul o'er which his melancholy sits on brood",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "Collier's calls it the most quoted of Shakespeare's plays & it fills almost 8 pages in Bartlett's",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "The Taming of the Shrew",
+    "response": "a graybeard"
+  },
+  {
+    "clue": "Part of John Cranko's ballet based on this Shakespeare play is set in Petruchio's home",
+    "response": "Taming of the Shrew"
+  },
+  {
+    "clue": "A man may fish with the worm that hath eat of a king, and eat of the fish that hath fed of that worm",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "very outside LB, this guy plays on an island; the son of a witch & a devil, he's a total beast out there!",
+    "response": "Caliban"
+  },
+  {
+    "clue": "My only love sprung from my only hate! Too early seen unknown, and known too late!",
+    "response": "Juliet"
+  },
+  {
+    "clue": "The Bard of Avon",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "An unmarked tomb in the Inner Hebrides holds the body of this king, Shakespeare's slain Thane",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "This cross-dressing lawyer tries to balance her career & her relationship with Bassanio",
+    "response": "Portia"
+  },
+  {
+    "clue": "It's how Hamlet finds out his father was murdered",
+    "response": "(father's) ghost"
+  },
+  {
+    "clue": "A Shakespeare sonnet accuses this purple flower of stealing its smell from the poet's love",
+    "response": "the violet"
+  },
+  {
+    "clue": "Age cannot wither her, nor custom stale her infinite variety,",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "Ende Gut, Alles Gut",
+    "response": "All's Well That Ends Well"
+  },
+  {
+    "clue": "I learn in this letter that Don Pedro of Arragon comes this night to Messina",
+    "response": "Much Ado About Nothing"
+  },
+  {
+    "clue": "She's the impatient sister of the title shrew",
+    "response": "Bianca"
+  },
+  {
+    "clue": "Shakespeare In Love",
+    "response": "Go on"
+  },
+  {
+    "clue": "Now, sir, be judge yourself whether I in any just term am affined to love the Moor",
+    "response": "Iago"
+  },
+  {
+    "clue": "winter of our discontent",
+    "response": "Richard III"
+  },
+  {
+    "clue": "If music be the food of love...",
+    "response": "play on"
+  },
+  {
+    "clue": "The princess of France must be admitted into the king of Navarre's park in this comedy where romance is actually found",
+    "response": "Love's Labour's Lost"
+  },
+  {
+    "clue": "the sweet o' the year",
+    "response": "The Winter's Tale"
+  },
+  {
+    "clue": "Blest be the man that spares these stones and curst be he that moves my bones",
+    "response": "Shakespeare's tombstone (epitaph)"
+  },
+  {
+    "clue": "The Hillbilly Shakespeare",
+    "response": "Hank Williams, Sr."
+  },
+  {
+    "clue": "In lists of Shakespeare's plays, this comedy is placed first alphabetically",
+    "response": "\"All's Well That Ends Well\""
+  },
+  {
+    "clue": "You lie, in faith, for you are called plain Kate, and bonny Kate, and sometimes Kate the curst",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "Underage couples in love are often protected by laws named for this pair",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "To the Greeks, Hecate was a goddess of sorcery, in this Shakespeare play, she was a witch",
+    "response": "\"Macbeth\""
+  },
+  {
+    "clue": "I know not that; but such a handkerchief--I am sure it was your wife's--did I today see Cassio wipe his beard with",
+    "response": "Iago"
+  },
+  {
+    "clue": "I am a man more sinned against than sinning",
+    "response": "King Lear"
+  },
+  {
+    "clue": "if music be the food of love, play on",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "The Historie of Error",
+    "response": "The Comedy of Errors"
+  },
+  {
+    "clue": "He is the last to stab Julius Caesar",
+    "response": "Brutus"
+  },
+  {
+    "clue": "RUMMAGE MASTERMIND DISH",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "In this comedy, Bianca has a suitor named Gremio & Petruchio has a servant named Grumio",
+    "response": "Taming of the Shrew"
+  },
+  {
+    "clue": "Mine and my father's death come not upon thee, nor thine on me!",
+    "response": "\"Hamlet\""
+  },
+  {
+    "clue": "in beauty as the first of May doth the last of December",
+    "response": "Much Ado About Nothing"
+  },
+  {
+    "clue": "that is the question",
+    "response": "or"
+  },
+  {
+    "clue": "A pair of star-crossed lovers take their life",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "It's also what Cleopatra's attendant Charmian used to commit suicide",
+    "response": "asp"
+  },
+  {
+    "clue": "I hoped thou shouldst have been my Hamlet's wife",
+    "response": "Ophelia"
+  },
+  {
+    "clue": "This nobleman has designs on Juliet, but it's Romeo who wins her heart",
+    "response": "Paris"
+  },
+  {
+    "clue": "I'm Beatrice Reiner. I stop at the hotel",
+    "response": "nothing"
+  },
+  {
+    "clue": "Farewell! Thou art too dear for my possessing",
+    "response": "a sonnet"
+  },
+  {
+    "clue": "This man enjoyed good Will Shakespeare & his actors so much, he made them Grooms of the King's Chamber",
+    "response": "King James I"
+  },
+  {
+    "clue": "Much Ado About Nothing",
+    "response": "Beatrice"
+  },
+  {
+    "clue": "to bury Caesar, not to",
+    "response": "praise him"
+  },
+  {
+    "clue": "Something is rotten in the state of Denmark",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "While he's big on Shakespeare, this literary critic & longtime Yale Professor admits he's no Harry Potter fan",
+    "response": "Harold Bloom"
+  },
+  {
+    "clue": "The church where Shakespeare is buried overlooks this river",
+    "response": "the Avon"
+  },
+  {
+    "clue": "Shakespeare lived for awhile with the Mountjoys, a Huguenot family, in this capital city",
+    "response": "London"
+  },
+  {
+    "clue": "Or, What You Will",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "If music be the food of love, play on",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "Never trust a woman whose words are too flattering--like Goneril in this play",
+    "response": "King Lear"
+  },
+  {
+    "clue": "When Othello decides he wants to poison Desdemona, this villain suggests that he strangle her instead",
+    "response": "Iago"
+  },
+  {
+    "clue": "Here's my hand",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "This prince who tries to evade the Red Death in a secluded castle bears the name of a Shakespearean island dweller",
+    "response": "Prospero"
+  },
+  {
+    "clue": "A woman disguised as a man is loved by a woman who ends up marrying her brother",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "That's The Way It Is",
+    "response": "Celine Dion"
+  },
+  {
+    "clue": "Characters in this comedy include Shallow, Simple, Slender & Falstaff",
+    "response": "The Merry Wives of Windsor"
+  },
+  {
+    "clue": "Shakespeare in Love",
+    "response": "Tom Stoppard"
+  },
+  {
+    "clue": "The plot? Potters plot; mid-March gets dangerous; main plotter ends up committing Strato-cide",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "Venus And Adonis",
+    "response": "Ovid"
+  },
+  {
+    "clue": "The hilarity of this Shakespeare play involves 2 sets of twin brothers & lots of mistaken identity",
+    "response": "The Comedy of Errors"
+  },
+  {
+    "clue": "Because she has seen a comet, Calpurnia warns him not to go out on the Ides of March",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "Henry VI, Part 3",
+    "response": "the chameleon"
+  },
+  {
+    "clue": "Cher, not Shakespeare, shot this title New Orleans fortune teller after catching her with her man",
+    "response": "\"Dark Lady\""
+  },
+  {
+    "clue": "O, how this spring of love resembleth the uncertain glory of an April day",
+    "response": "The Two Gentlemen of Verona"
+  },
+  {
+    "clue": "pale as his shirt; his knees knocking each other",
+    "response": "Ophelia"
+  },
+  {
+    "clue": "Henry IV, Part 1",
+    "response": "Falstaff"
+  },
+  {
+    "clue": "The quality of mercy is not strained, it droppeth as the gentle rain from heaven upon the place beneath",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "Wherefore should you do this?",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "If you prick us, do we not bleed?",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "Act I, scene 1 of this play is set in front of Priam's palace in Troy",
+    "response": "\"Troilus and Cressida\""
+  },
+  {
+    "clue": "Two households,both alike in dignity,In fair Verona, where we lay our scene",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Good night sweet prince, and flights of ____ sing thee to thy rest",
+    "response": "angels"
+  },
+  {
+    "clue": "Let me not to the marriage of true minds admit impediments",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "DR. PHIL, So your uncle killed Dad & married Mom; I say stop brooding, get off your duff & kill your uncle!",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "Sarah Bernhardt was unafraid to take on male roles, like this Shakespeare prince",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "How sweet a thing it is to wear",
+    "response": "a crown"
+  },
+  {
+    "clue": "...truant muse, what shall be thy amends...",
+    "response": "O"
+  },
+  {
+    "clue": "Many a good hanging prevents a bad marriage",
+    "response": "(William) Shakespeare"
+  },
+  {
+    "clue": "20 trenched gashes on his head",
+    "response": "Banquo"
+  },
+  {
+    "clue": "Love well our father; to your professed bosoms I commit him... So farewell to you both",
+    "response": "Cordelia (in King Lear)"
+  },
+  {
+    "clue": "Who knows not where a wasp does wear his sting? In his tail",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "Act IV of this play opens in a cave where 3 witches are gathered around a boiling cauldron",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Originally, Prokofiev wanted this Shakespearean ballet to end with both lovers alive & dancing",
+    "response": "\"Romeo & Juliet\""
+  },
+  {
+    "clue": "This play features maskers, musicians & an apothecary",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "We doubt if this king of the fairies would feel at home on Borneo",
+    "response": "Oberon (Borneo)"
+  },
+  {
+    "clue": "Lord, what fools these mortals be!",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "The Taming of the Shrew",
+    "response": "Petruchio"
+  },
+  {
+    "clue": "O Antony, nay I will take thee to; what, should I stay?",
+    "response": "Cleopatra"
+  },
+  {
+    "clue": "Enter Puck, and",
+    "response": "Bottom"
+  },
+  {
+    "clue": "Romeo wished to be a glove on Juliet's hand so that he might touch this part of her",
+    "response": "cheek"
+  },
+  {
+    "clue": "It's totally goth; act I, scene 1 sees the title Roman kill his son & the deaths don't stop; ends with the worst dinner ever",
+    "response": "Titus Andronicus"
+  },
+  {
+    "clue": "Mum's the word",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "Kiss me, Kate, we will be married o' Sunday",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "William Shakespeare's Stratford in on this river, a tributary of the Severn",
+    "response": "the Avon"
+  },
+  {
+    "clue": "Shakespeare's only play with an English locale in its title",
+    "response": "The Merry Wives of Windsor"
+  },
+  {
+    "clue": "This Shakespeare play sounds like it’s about the better halves of George George VI",
+    "response": "The Merry Wives of Windsor"
+  },
+  {
+    "clue": "Assemble forth, all ye jesters, speak thusly... Hark! Thou must conceal thy amorousness",
+    "response": "\"You've Got To Hide Your Love Away\""
+  },
+  {
+    "clue": "The 2 beloveds Julia & Silvia",
+    "response": "Two Gentlemen of Verona"
+  },
+  {
+    "clue": "The last scene of this tragedy takes place in a pavilion in Titus' garden in Rome",
+    "response": "Titus Andronicus"
+  },
+  {
+    "clue": "The ghost of Banquo appears at a Scottish banquet & sits in this title character's place",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "This blessed plot, this earth, this realm",
+    "response": "England"
+  },
+  {
+    "clue": "Rosalind from this comedy has the most lines of any of Shakespeare's women",
+    "response": "As You Like It"
+  },
+  {
+    "clue": "No grave upon the earth shall clip in it A pair so famous... see High order in this great solemnity",
+    "response": "Antony and Cleopatra"
+  },
+  {
+    "clue": "What's in a name? That which we call a rose by any other name would smell as sweet",
+    "response": "Juliet"
+  },
+  {
+    "clue": "From fairest creatures we desire increase",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "All his mighty words couldn't save the orator Cicero from execution in this play",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "This comedy opens in the palace of the Duke of Ephesus, make no mistake",
+    "response": "The Comedy of Errors"
+  },
+  {
+    "clue": "The Merchant of Venice",
+    "response": "Shylock"
+  },
+  {
+    "clue": "Sir Toby Belch is a character in this Shakespeare comedy with a 2-word, 2-vowel title",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "2 Valentine & Proteus are the pair of fellows in this Shakespeare title",
+    "response": "Two Gentlemen of Verona"
+  },
+  {
+    "clue": "pray you now, forget and forgive; I am old and foolish",
+    "response": "King Lear"
+  },
+  {
+    "clue": "A Midsummer Night's Dream",
+    "response": "Greece"
+  },
+  {
+    "clue": "Act I, Scene II of this play is set in a room in Portia's house in Belmont",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "A Midsummer Night's Dream",
+    "response": "Jack & Jill"
+  },
+  {
+    "clue": "Peace lives again: that she may long live here, God say amen!",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Know that we have divided in three our kingdom",
+    "response": "King Lear"
+  },
+  {
+    "clue": "Never was a story of more woe",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Now fair Hippolyta, our nuptial hour draws on apace...",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "Romeo's family name",
+    "response": "M-O-N-T-A-G-U-E"
+  },
+  {
+    "clue": "He probably wasn't killed at Dunsinane as Shakespeare wrote, but at the Battle of Lumphanan",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "The devil can cite",
+    "response": "scripture"
+  },
+  {
+    "clue": "Where's my serpent of old Nile?",
+    "response": "Antony and Cleopatra"
+  },
+  {
+    "clue": "Angels and ministers of grace defend us!",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "On screen, he's been portrayed by Leslie Howard & Leonardo DiCaprio",
+    "response": "Romeo"
+  },
+  {
+    "clue": "This school in Annandale-on-Hudson in New York was named for a wealthy Episcopalian family, not for Shakespeare",
+    "response": "Bard"
+  },
+  {
+    "clue": "The soon-to-be Henry kills this title monarch at Bosworth field",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Shall we to th' court? For, by my fay, I cannot reason",
+    "response": "Rosencrantz & Guildenstern"
+  },
+  {
+    "clue": "Priam's six-gated city",
+    "response": "Troy"
+  },
+  {
+    "clue": "Shall I compare thee to a summer's day? Thou art more lovely and more temperate",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "Henry VI, Part I",
+    "response": "Westminster Abbey"
+  },
+  {
+    "clue": "This Shakespeare comedy set in Illyria is said to have first been performed on January 6",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "These families in Verona have been the cause of three civil brawls",
+    "response": "the Montagues & the Capulets"
+  },
+  {
+    "clue": "Tybalt is this title teenage girl's first cousin",
+    "response": "Juliet"
+  },
+  {
+    "clue": "Kiss Me, Kate",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "You have but jested with me all this while, I prithee sister Kate, untie my hands",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "What's done cannot be undone: to bed, to bed, to bed",
+    "response": "Lady Macbeth"
+  },
+  {
+    "clue": "For much of the play, this title character is known simply as Gloucester",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Olivia,Viola,Sir Toby Belch",
+    "response": "Twelfth Night"
+  },
+  {
+    "clue": "As You Like It",
+    "response": "Rosalind"
+  },
+  {
+    "clue": "A Midsummer Night's Dream",
+    "response": "Athens"
+  },
+  {
+    "clue": "Nerissa is Portia's waiting-maid in this play",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "Caliban Upon Setebos",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Why, man, he doth bestride the narrow world like a Jeopardy!",
+    "response": "Colossus"
+  },
+  {
+    "clue": "The Spanish Tragedy",
+    "response": "revenge"
+  },
+  {
+    "clue": "is a pipe blown by surmises, jealousies, conjectures",
+    "response": "Rumor"
+  },
+  {
+    "clue": "This king has a fool, said to represent truth, who speaks in rhymes & songs",
+    "response": "King Lear"
+  },
+  {
+    "clue": "A doctor sat up 3 nights in Dunsinane Castle to observe her sleepwalking",
+    "response": "Lady Macbeth"
+  },
+  {
+    "clue": "Stay, and speak!",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "Blow, winds, and crack your cheeks",
+    "response": "King Lear"
+  },
+  {
+    "clue": "Edgar disguises himself as a mad beggar in this tragedy about a mad king",
+    "response": "King Lear"
+  },
+  {
+    "clue": "fair speechless messages",
+    "response": "Eyes"
+  },
+  {
+    "clue": "2 7 The schoolboy & the soldier, according to Shakespeare",
+    "response": "the seven ages of man"
+  },
+  {
+    "clue": "The Fault in Our Stars",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "Two households, both alike in dignity...",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "The ghost of this king's wife, Lady Anne, haunts him at Bosworth field",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Rudy, though thou sheddeth 213 lbs. in our 8th season, I am sorry to inform thee, thou art not...",
+    "response": "The Biggest Loser"
+  },
+  {
+    "clue": "friars,1 nurse &1 apothecary",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "The devil can cite",
+    "response": "scripture"
+  },
+  {
+    "clue": "The Greek general Agamemnon is a character in this Shakespeare play",
+    "response": "Troilus and Cressida"
+  },
+  {
+    "clue": "Go, bid the soldiers shoot",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "A tale told by an idiot, full of sound & fury, signifying nothing",
+    "response": "life"
+  },
+  {
+    "clue": "Antony and Cleopatra",
+    "response": "Octavia"
+  },
+  {
+    "clue": "A hall in Petruchio's country house",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "Chubby character who loved his ale & supplied the name for one",
+    "response": "Falstaff"
+  },
+  {
+    "clue": "Is this a dagger which I see before me, the handle toward my hand? Come, let me clutch thee",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Passed over for a promotion, he plots to destroy Othello",
+    "response": "Iago"
+  },
+  {
+    "clue": "Or, What You Will",
+    "response": "\"Twelfth Night\""
   },
   {
     "clue": "William Shakespeare was only 18 when he married this woman, who was 26",
     "response": "Anne Hathaway"
   },
   {
-    "clue": "All Is True",
-    "response": "the Globe Theatre"
+    "clue": "bestride the narrow world like",
+    "response": "a colossus"
+  },
+  {
+    "clue": "The Earl of Gloucester's castle",
+    "response": "King Lear"
+  },
+  {
+    "clue": "We wonder if Roger Moore ever played this tragic young lover",
+    "response": "Romeo (Moore)"
+  },
+  {
+    "clue": "Merchant Of Venice",
+    "response": "The Rialto"
+  },
+  {
+    "clue": "2 , Born 344 years apart, they are the 2 real people mentioned by name in the titles of 1990s Best Picture Oscar winners",
+    "response": "Shakespeare & Schindler"
+  },
+  {
+    "clue": "Richmond! You! Me! Bosworth Field! My kingdom for a horse? Ho 'bout a folding chair for the back of your head?!",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Henry IV', he says,",
+    "response": "Sir John Falstaff"
+  },
+  {
+    "clue": "In Mark Antony's eulogy for Julius Caesar in Shakespeare, after the crowd quiets down",
+    "response": "lend"
+  },
+  {
+    "clue": "Desdemona is the wife of the title character of this tragedy",
+    "response": "Othello"
+  },
+  {
+    "clue": "10 Things I Hate About You",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "One Severe Storm",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Antonio is the title Italian businessman in this play",
+    "response": "The Merchant of Venice"
+  },
+  {
+    "clue": "The Merchant of Venice",
+    "response": "Sigourney Weaver"
+  },
+  {
+    "clue": "The Coriolis effect is caused by the Earth's rotation; this is a Shakespeare play about Caius Marcius",
+    "response": "Coriolanus"
+  },
+  {
+    "clue": "Alas, you don't need an actor to play this character in “Hamlet”; all you need is a skull",
+    "response": "Yorick"
+  },
+  {
+    "clue": "a lot of fuss concerning zilch",
+    "response": "Much Ado About Nothing"
+  },
+  {
+    "clue": "a pair of star-cross'd lovers",
+    "response": "Romeo & Juliet"
+  },
+  {
+    "clue": "Shakespearean monarch visited by 11 ghosts of his victims before the Battle of Bosworth Field",
+    "response": "Richard III"
+  },
+  {
+    "clue": "wedding & apparently an early same sex one!",
+    "response": "Falstaff"
+  },
+  {
+    "clue": "Go get some water, & wash this filthy witness from your hand. Why did you bring these daggers from the place?",
+    "response": "Lady Macbeth"
+  },
+  {
+    "clue": "This Atari game that shares its name with a Shakespeare play was known for its rotating dial used as a controller",
+    "response": "Tempest"
+  },
+  {
+    "clue": "Love's Labor's Lost",
+    "response": "William Shakespeare"
+  },
+  {
+    "clue": "Here's the smell, of the blood still; all the perfumes of Arabia will not sweeten this little hand",
+    "response": "Lady Macbeth"
+  },
+  {
+    "clue": "Bleeding, warm and newly dead",
+    "response": "Juliet"
+  },
+  {
+    "clue": "A round solid geometric figure, or a field of knowledge",
+    "response": "a sphere"
+  },
+  {
+    "clue": "Love's Labour's Lost",
+    "response": "William Shakespeare"
+  },
+  {
+    "clue": "If you're a Shakespeare fan, don't miss Canada's most famous dramatic festival, held each year in this city",
+    "response": "Stratford, Ontario"
+  },
+  {
+    "clue": "So long as men can breathe or eyes can see, so long lives this, and this gives life to thee",
+    "response": "Shakespeare"
+  },
+  {
+    "clue": "At your choice, sir",
+    "response": "King Lear"
+  },
+  {
+    "clue": "Play-mates Portia, Antonio & Shylock live in & around this city",
+    "response": "Venice"
+  },
+  {
+    "clue": "Near the end of the play, Fluellen, one of Henry V's officers, compares him to this 4th century B.C. conqueror",
+    "response": "Alexander the Great"
+  },
+  {
+    "clue": "How far that little",
+    "response": "candle"
+  },
+  {
+    "clue": "An island provides the backdrop as the succession to the leadership of Naples is decided",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Bard to the Bone",
+    "response": "Shakespeare in Love"
+  },
+  {
+    "clue": "The better part of Jeopardy! is discretion",
+    "response": "valor"
+  },
+  {
+    "clue": "And thereby hangs a tale",
+    "response": "As You Like It"
+  },
+  {
+    "clue": "soothsayer tells him to beware the ides of March; (spoiler alert) he doesn't & ends up on the pointy end of a knife",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "If I be waspish best beware my sting",
+    "response": "Petruchio"
+  },
+  {
+    "clue": "A beast, that wants discourse of reason, would have mourn'd longer",
+    "response": "Gertrude"
+  },
+  {
+    "clue": "The rest is silence",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "Much Ado About Nothing",
+    "response": "Beatrice"
+  },
+  {
+    "clue": "Thou art a boil, a plague-sore",
+    "response": "Goneril"
+  },
+  {
+    "clue": "Athens and neighbourhood",
+    "response": "Timon of Athens"
+  },
+  {
+    "clue": "Basking or bonnethead",
+    "response": "a shark"
+  },
+  {
+    "clue": "It's a coveted Shakespeare role for older actors, like Christopher Plummer on Broadway at age 74",
+    "response": "King Lear"
+  },
+  {
+    "clue": "made glorious summer by this sun of York",
+    "response": "Now is the winter of our discontent"
+  },
+  {
+    "clue": "An orchard beside the house of Brutus",
+    "response": "Julius Caesar"
+  },
+  {
+    "clue": "The Merchant of Venice",
+    "response": "Shylock"
+  },
+  {
+    "clue": "Beatrice et Benedict",
+    "response": "Hector Berlioz"
+  },
+  {
+    "clue": "Richard's battleground:show told brief",
+    "response": "Bosworth Field"
+  },
+  {
+    "clue": "To be or not to be",
+    "response": "Hamlet"
+  },
+  {
+    "clue": "Fair is foul, & foul is fair: Hover through the fog & filthy air",
+    "response": "three witches in Macbeth"
+  },
+  {
+    "clue": "Of Laertes, Claudius or Polonius, the one who's Hamlet's stepfather",
+    "response": "Claudius"
+  },
+  {
+    "clue": "The Taming of the Shrew",
+    "response": "Padua"
+  },
+  {
+    "clue": "This TV series inspired an album featuring Ron Perlman reading Shakespeare's sonnets",
+    "response": "\"Beauty And The Beast\""
+  },
+  {
+    "clue": "The Fairy Queen",
+    "response": "\"A Midsummer Night's Dream\""
+  },
+  {
+    "clue": "this is thy sheath",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "I think there be six Richmonds in the field; five have I slain today instead of him",
+    "response": "Bosworth Field"
+  },
+  {
+    "clue": "OF ____ Shakespeare's birthplace is alluded to in this nickname of his",
+    "response": "the \"Bard of Avon\""
+  },
+  {
+    "clue": "He's a guy who can't say no to love, she's a gal with a weakness for faking her own death; together, they're...",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "The Thane of Fife had a wife; where is she now? What, will these hands ne'er be clean?",
+    "response": "Lady MacBeth"
+  },
+  {
+    "clue": "I am that merry wanderer of the night, I jest to Oberon, and make him smile",
+    "response": "A Midsummer Night's Dream"
+  },
+  {
+    "clue": "We are such stuff as dreams are made on, and our little life is rounded with a sleep",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Villainous king whose brother George was drowned in a cask of wine",
+    "response": "Richard III"
+  },
+  {
+    "clue": "10 Things I Hate About You",
+    "response": "The Taming of the Shrew"
+  },
+  {
+    "clue": "This ineffectual 15th century king still got his name on not 1, not 2, but 3 Shakespeare plays",
+    "response": "Henry VI"
+  },
+  {
+    "clue": "companion for Juliet's whole life, she's known by her occupation, but gets to tell us her dead daughter was named Susan",
+    "response": "the nurse"
+  },
+  {
+    "clue": "Legend says this play is cursed, so if you mention it in a dressing room, you may not get off Scot-free",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "A perplexing bequest in Will's will left wife Anne the second best one of these",
+    "response": "Bed"
+  },
+  {
+    "clue": "by the pricking of my thumbs",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "My brother Jaques he keeps at school, & report speaks goldenly of his profit",
+    "response": "As You Like It"
+  },
+  {
+    "clue": "No grave upon the earth shall clip in it a pair so famous",
+    "response": "Antony and Cleopatra"
+  },
+  {
+    "clue": "Shakespeare's Sonnet 99 has this many lines, 1 more than each of the previous 98",
+    "response": "15"
+  },
+  {
+    "clue": "Let not thy nurse lie with thee in thy chamber: take thou this vial...",
+    "response": "Romeo and Juliet"
+  },
+  {
+    "clue": "Play in which a magician endures hardships as an exiled ruler on an island",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Shakespeare in Love",
+    "response": "Judi Dench"
+  },
+  {
+    "clue": "Though this historical play contains a clown, it's the heroine who makes an asp of herself",
+    "response": "Antony and Cleopatra"
+  },
+  {
+    "clue": "O true apothecary! Thy drugs are quick. Thus with a kiss I die",
+    "response": "Romeo"
+  },
+  {
+    "clue": "Another part of the island",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Cast in a play with Al Pacino, Paul Giamatti enraged the superstitious star by whistling & by naming this Shakespeare play",
+    "response": "Macbeth"
+  },
+  {
+    "clue": "Alas, I rather hate myself for hateful deeds committed by myself",
+    "response": "Richard III"
+  },
+  {
+    "clue": "Though yet of Hamlet our dear brother's death the memory be green...",
+    "response": "(King) Claudius"
+  },
+  {
+    "clue": "men whose heads do grow beneath their shoulders",
+    "response": "Othello"
+  },
+  {
+    "clue": "What, jealous Oberon? Fairies, skip hence. I have forsworn his bed and company",
+    "response": "Titania"
+  },
+  {
+    "clue": "Now, sir, be judge yourself whether I in any just term am affined to love the Moor",
+    "response": "Iago"
+  },
+  {
+    "clue": "I learn in this letter that Don Pedro of Arragon comes this night in Messina.",
+    "response": "Much Ado About Nothing"
+  },
+  {
+    "clue": "2 households both alike in dignity,In fair Verona where we lay our scene...",
+    "response": "the first line of Romeo and Juliet"
+  },
+  {
+    "clue": "Naturally, Act V, Scene ii of this play is set in Windsor Park",
+    "response": "Merry Wives of Windsor"
+  },
+  {
+    "clue": "A horse! A horse! My kingdom for a horse!",
+    "response": "Richard III"
+  },
+  {
+    "clue": "In Shakespeare:Troilus & her",
+    "response": "Cressida"
+  },
+  {
+    "clue": "Enter a fairy at one door, and Puck at another",
+    "response": "Midsummer Night's Dream"
+  },
+  {
+    "clue": "The renouncing of magic in this play is believed to be the bard's symbolic farewell to the stage",
+    "response": "The Tempest"
+  },
+  {
+    "clue": "Lovers, to bed; 'tis almost fairy time",
+    "response": "\"A Midsummer Night's Dream\""
   }
 ]

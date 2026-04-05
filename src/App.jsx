@@ -1,7 +1,13 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import shakespeareStudyClues from './data/processed/shakespeare-study-clues.json'
-import { generateBoardFromStudyClues } from './utils/boardGenerator'
+import charlesDickensStudyClues from './data/processed/charles-dickens-study-clues.json'
+import operaStudyClues from './data/processed/opera-study-clues.json'
+import classicalMusicStudyClues from './data/processed/classical-music-study-clues.json'
+import finalJeopardyStudyClues from './data/processed/final-jeopardy-study-clues.json'
+import {
+  generateMultiCategoryBoard,
+} from './utils/boardGenerator'
 
 const CLUE_TIME_LIMIT = 10
 const FUZZY_MATCH_THRESHOLD = 0.84
@@ -86,7 +92,33 @@ function answersMatch(userAnswer, correctAnswer) {
 
 function App() {
   const initialBoardData = useMemo(
-    () => generateBoardFromStudyClues(shakespeareStudyClues),
+    () =>
+      generateMultiCategoryBoard([
+        {
+          categoryName: 'Shakespeare',
+          clues: shakespeareStudyClues,
+        },
+        {
+          categoryName: 'Charles Dickens',
+          clues: charlesDickensStudyClues,
+        },
+        {
+          categoryName: 'Opera',
+          clues: operaStudyClues,
+        },
+        {
+          categoryName: 'Classical Music',
+          clues: classicalMusicStudyClues,
+        },
+        {
+          categoryName: 'Final Jeopardy',
+          clues: finalJeopardyStudyClues,
+        },
+        {
+          categoryName: 'Shakespeare Encore',
+          clues: shakespeareStudyClues,
+        },
+      ]),
     []
   )
 
@@ -188,7 +220,7 @@ function App() {
             <p className="hero-kicker">Study clues. Beat the clock.</p>
             <h2>Train with real archived clues in a simple Jeopardy-style format.</h2>
             <p className="hero-description">
-              Quizzy Whiskers is now running on real Shakespeare archive data,
+              Quizzy Whiskers is now running on multiple real archive datasets,
               giving Liz a more authentic Jeopardy-style study experience.
             </p>
 
@@ -199,10 +231,10 @@ function App() {
 
           <div className="hero-card">
             <span className="card-label">Current build focus</span>
-            <h3>Cleaner clues + fairer validation</h3>
+            <h3>Multi-category realism</h3>
             <p>
-              The board now favors stronger clue text, and answer checking is
-              more forgiving around small wording differences.
+              The board now pulls from multiple real categories while keeping
+              answer validation flexible and clue quality filtered.
             </p>
           </div>
         </section>
@@ -211,7 +243,7 @@ function App() {
           <div className="panel-header">
             <div>
               <p className="panel-eyebrow">Game board</p>
-              <h3>Shakespeare practice board</h3>
+              <h3>Practice board preview</h3>
             </div>
             <span className="panel-tag">Archive-backed</span>
           </div>
@@ -337,8 +369,8 @@ function App() {
                 <strong>Single-player practice</strong>
               </li>
               <li>
-                <span>Dataset</span>
-                <strong>Real Shakespeare archive clues</strong>
+                <span>Datasets</span>
+                <strong>Shakespeare, Dickens, Opera, Classical Music, Final Jeopardy</strong>
               </li>
               <li>
                 <span>Timer</span>
