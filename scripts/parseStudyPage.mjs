@@ -50,29 +50,25 @@ function cleanText(text) {
     .trim()
 }
 
-function removeKnownMetadata(text) {
+function stripGlobalArtifacts(text) {
   return text
     .replace(/Season\s+\d+/gi, ' ')
+    .replace(/Season\s+SUPERJEOPARDY/gi, ' ')
     .replace(
       /\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+[A-Za-z]+\s+\d{1,2},\s+\d{4}/gi,
       ' '
     )
-    .replace(/Jeopardy Round:\s*Daily Double\s*[-–—]?\s*\$\d+/gi, ' ')
-    .replace(/Double Jeopardy Round:\s*Daily Double\s*[-–—]?\s*\$\d+/gi, ' ')
-    .replace(/Jeopardy Round:\s*\$\d+/gi, ' ')
-    .replace(/Double Jeopardy Round:\s*\$\d+/gi, ' ')
+    .replace(/SUPERJEOPARDY/gi, ' ')
+    .replace(/Jeopardy Round:\s*Daily Double\s*[-–—]?\s*\$?\d+/gi, ' ')
+    .replace(/Double Jeopardy Round:\s*Daily Double\s*[-–—]?\s*\$?\d+/gi, ' ')
+    .replace(/Jeopardy Round:\s*\$?\d+/gi, ' ')
+    .replace(/Double Jeopardy Round:\s*\$?\d+/gi, ' ')
     .replace(/Final Jeopardy/gi, ' ')
     .replace(/\bDaily Double\b/gi, ' ')
-}
-
-function normalizeLeadingNumbering(text) {
-  return text
-    .replace(/^#\d+\.\s*/i, '')
-    .replace(/^#\d+\s*/i, '')
-    .replace(/^\$\d+\s*/i, '')
-    .replace(/^,\d+\s*/i, '')
-    .replace(/^[\s.,;:!?'"-]+/, '')
-    .trim()
+    .replace(/[A-Z&' /-]{4,}Double/gi, ' ')
+    .replace(/,\d{3}/g, ' ')
+    .replace(/^#\d+\.\s*/g, ' ')
+    .replace(/^#\d+\s*/g, ' ')
 }
 
 function extractQuotedClue(text) {
@@ -86,15 +82,52 @@ function extractCleanClue(rawText) {
     return quoted
   }
 
-  let cleaned = removeKnownMetadata(rawText)
+  let cleaned = stripGlobalArtifacts(rawText)
   cleaned = cleanText(cleaned)
-  cleaned = normalizeLeadingNumbering(cleaned)
 
-  cleaned = cleaned.replace(/\b[A-Z][A-Z&/' -]{6,}\b/g, ' ')
+  // remove large all-caps category fragments that survive cleanup
+  cleaned = cleaned.replace(/\b[A-Z&' /-]{5,}\b/g, ' ')
   cleaned = cleanText(cleaned)
-  cleaned = normalizeLeadingNumbering(cleaned)
+
+  // remove leading punctuation / number fragments after cleanup
+  cleaned = cleaned
+    .replace(/^,\d+\s*/g, '')
+    .replace(/^[\W_]+/g, '')
+    .trim()
 
   return cleaned
+}
+
+function looksUsable(clue, response) {
+  if (!clue || !response) {
+    return false
+  }
+
+  const wordCount = clue.split(/\s+/).filter(Boolean).length
+
+  if (clue.length < 12) {
+    return false
+  }
+
+  if (wordCount < 3) {
+    return false
+  }
+
+  if (/^[A-Z]$/.test(clue) || /^[A-Z]{1,2}$/.test(clue)) {
+    return false
+  }
+
+  if (
+    /Double/i.test(clue) ||
+    /SUPERJEOPARDY/i.test(clue) ||
+    /Season /i.test(clue) ||
+    /\b\d{4}\b/.test(clue) ||
+    /,\d{3}/.test(clue)
+  ) {
+    return false
+  }
+
+  return true
 }
 
 function extractStudyClues(html) {
@@ -121,7 +154,7 @@ function extractStudyClues(html) {
     const rawText = cleanText(clueContainer.text())
     const clue = extractCleanClue(rawText)
 
-    if (!clue) {
+    if (!looksUsable(clue, response)) {
       return
     }
 
@@ -154,7 +187,7 @@ async function main() {
   console.log(`Saved processed clues to ${processedPath}`)
 
   console.log('\nSample clues:')
-  clues.slice(0, 5).forEach((clue, index) => {
+  clues.slice(0, 10).forEach((clue, index) => {
     console.log(`${index + 1}. ${clue.clue}`)
     console.log(`   → ${clue.response}`)
   })
