@@ -1,5 +1,32 @@
 import './App.css'
 
+const boardData = [
+  {
+    category: 'History',
+    clues: [200, 400, 600, 800, 1000],
+  },
+  {
+    category: 'Literature',
+    clues: [200, 400, 600, 800, 1000],
+  },
+  {
+    category: 'Science',
+    clues: [200, 400, 600, 800, 1000],
+  },
+  {
+    category: 'Film',
+    clues: [200, 400, 600, 800, 1000],
+  },
+  {
+    category: 'Geography',
+    clues: [200, 400, 600, 800, 1000],
+  },
+  {
+    category: 'Word Origins',
+    clues: [200, 400, 600, 800, 1000],
+  },
+]
+
 function App() {
   return (
     <main className="app-shell">
@@ -30,80 +57,78 @@ function App() {
 
           <div className="hero-card">
             <span className="card-label">Current build focus</span>
-            <h3>App shell foundation</h3>
+            <h3>Board rendering foundation</h3>
             <p>
-              This step creates the structure for the future board, timer, score,
-              and clue-answer flow.
+              This step turns the placeholder board into a real data-driven grid
+              so gameplay logic can be added next.
             </p>
           </div>
         </section>
 
-        <section className="dashboard-grid">
-          <article className="panel panel-large">
-            <div className="panel-header">
-              <div>
-                <p className="panel-eyebrow">Game board</p>
-                <h3>Playable board area</h3>
-              </div>
-              <span className="panel-tag">Placeholder</span>
+        <section className="board-section panel panel-full">
+          <div className="panel-header">
+            <div>
+              <p className="panel-eyebrow">Game board</p>
+              <h3>Practice board preview</h3>
             </div>
+            <span className="panel-tag">Data-backed</span>
+          </div>
 
-            <div className="board-placeholder">
-              <div className="board-row">
-                <span>History</span>
-                <span>Literature</span>
-                <span>Science</span>
+          <div className="game-board">
+            {boardData.map((column) => (
+              <div key={column.category} className="board-column">
+                <div className="category-cell">{column.category}</div>
+
+                {column.clues.map((value) => (
+                  <button
+                    key={`${column.category}-${value}`}
+                    className="clue-cell"
+                    type="button"
+                  >
+                    ${value}
+                  </button>
+                ))}
               </div>
-              <div className="board-row values">
-                <span>$200</span>
-                <span>$400</span>
-                <span>$600</span>
-              </div>
-              <div className="board-row values">
-                <span>$800</span>
-                <span>$1000</span>
-                <span>$1200</span>
-              </div>
-            </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="info-grid">
+          <article className="panel">
+            <p className="panel-eyebrow">Session details</p>
+            <ul className="detail-list">
+              <li>
+                <span>Mode</span>
+                <strong>Single-player practice</strong>
+              </li>
+              <li>
+                <span>Answer framing</span>
+                <strong>Hardcoded before input</strong>
+              </li>
+              <li>
+                <span>Primary prompt</span>
+                <strong>What is</strong>
+              </li>
+            </ul>
           </article>
 
-          <aside className="sidebar-stack">
-            <article className="panel">
-              <p className="panel-eyebrow">Session details</p>
-              <ul className="detail-list">
-                <li>
-                  <span>Mode</span>
-                  <strong>Single-player practice</strong>
-                </li>
-                <li>
-                  <span>Answer framing</span>
-                  <strong>Hardcoded before input</strong>
-                </li>
-                <li>
-                  <span>Primary prompt</span>
-                  <strong>What is</strong>
-                </li>
-              </ul>
-            </article>
-
-            <article className="panel">
-              <p className="panel-eyebrow">Build roadmap</p>
-              <ul className="detail-list">
-                <li>
-                  <span>Next</span>
-                  <strong>Board data structure</strong>
-                </li>
-                <li>
-                  <span>After that</span>
-                  <strong>Clue view + timer</strong>
-                </li>
-                <li>
-                  <span>Then</span>
-                  <strong>Answer input + score</strong>
-                </li>
-              </ul>
-            </article>
-          </aside>
+          <article className="panel">
+            <p className="panel-eyebrow">Build roadmap</p>
+            <ul className="detail-list">
+              <li>
+                <span>Next</span>
+                <strong>Clue selection state</strong>
+              </li>
+              <li>
+                <span>After that</span>
+                <strong>Clue view + timer</strong>
+              </li>
+              <li>
+                <span>Then</span>
+                <strong>Answer input + score</strong>
+              </li>
+            </ul>
+          </article>
         </section>
       </div>
     </main>
