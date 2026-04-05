@@ -3,29 +3,109 @@ import './App.css'
 function App() {
   return (
     <main className="app-shell">
-      <section className="hero-card">
-        <p className="eyebrow">Study clues. Beat the clock.</p>
-        <h1>Quizzy Whiskers 🐱</h1>
-        <p className="description">
-          A cozy Jeopardy-style study simulator built to help Liz practice with
-          real archived clues under timed conditions.
-        </p>
-
-        <div className="status-panel">
-          <div className="status-item">
-            <span className="status-label">Project status</span>
-            <span className="status-value">Baseline setup in progress</span>
+      <div className="app-frame">
+        <header className="app-header">
+          <div>
+            <p className="eyebrow">Quizzy Whiskers</p>
+            <h1>Jeopardy practice, made cozy.</h1>
           </div>
-          <div className="status-item">
-            <span className="status-label">Next milestone</span>
-            <span className="status-value">Build the first playable board</span>
-          </div>
-        </div>
 
-        <button className="primary-button" type="button">
-          Start Coming Soon
-        </button>
-      </section>
+          <div className="header-chip">MVP in progress</div>
+        </header>
+
+        <section className="hero-panel">
+          <div className="hero-copy">
+            <p className="hero-kicker">Study clues. Beat the clock.</p>
+            <h2>Train with real archived clues in a simple Jeopardy-style format.</h2>
+            <p className="hero-description">
+              Quizzy Whiskers is being built to help Liz study under
+              Jeopardy-inspired conditions with category-based boards, timed clue
+              responses, and answer framing built into the experience.
+            </p>
+
+            <button className="primary-button" type="button">
+              Start session coming soon
+            </button>
+          </div>
+
+          <div className="hero-card">
+            <span className="card-label">Current build focus</span>
+            <h3>App shell foundation</h3>
+            <p>
+              This step creates the structure for the future board, timer, score,
+              and clue-answer flow.
+            </p>
+          </div>
+        </section>
+
+        <section className="dashboard-grid">
+          <article className="panel panel-large">
+            <div className="panel-header">
+              <div>
+                <p className="panel-eyebrow">Game board</p>
+                <h3>Playable board area</h3>
+              </div>
+              <span className="panel-tag">Placeholder</span>
+            </div>
+
+            <div className="board-placeholder">
+              <div className="board-row">
+                <span>History</span>
+                <span>Literature</span>
+                <span>Science</span>
+              </div>
+              <div className="board-row values">
+                <span>$200</span>
+                <span>$400</span>
+                <span>$600</span>
+              </div>
+              <div className="board-row values">
+                <span>$800</span>
+                <span>$1000</span>
+                <span>$1200</span>
+              </div>
+            </div>
+          </article>
+
+          <aside className="sidebar-stack">
+            <article className="panel">
+              <p className="panel-eyebrow">Session details</p>
+              <ul className="detail-list">
+                <li>
+                  <span>Mode</span>
+                  <strong>Single-player practice</strong>
+                </li>
+                <li>
+                  <span>Answer framing</span>
+                  <strong>Hardcoded before input</strong>
+                </li>
+                <li>
+                  <span>Primary prompt</span>
+                  <strong>What is</strong>
+                </li>
+              </ul>
+            </article>
+
+            <article className="panel">
+              <p className="panel-eyebrow">Build roadmap</p>
+              <ul className="detail-list">
+                <li>
+                  <span>Next</span>
+                  <strong>Board data structure</strong>
+                </li>
+                <li>
+                  <span>After that</span>
+                  <strong>Clue view + timer</strong>
+                </li>
+                <li>
+                  <span>Then</span>
+                  <strong>Answer input + score</strong>
+                </li>
+              </ul>
+            </article>
+          </aside>
+        </section>
+      </div>
     </main>
   )
 }
