@@ -11,14 +11,6 @@ function shuffleArray(items) {
   return copy
 }
 
-function buildCategoryName(index, datasetName) {
-  if (datasetName === 'Category') {
-    return `Shakespeare ${index + 1}`
-  }
-
-  return `${datasetName} ${index + 1}`
-}
-
 function countWords(text) {
   return text.trim().split(/\s+/).filter(Boolean).length
 }
@@ -151,38 +143,35 @@ function isClueHighQuality(entry) {
   return true
 }
 
-export function generateBoardFromStudyClues(
-  studyClues,
-  datasetName = 'Category'
-) {
-  const highQualityClues = studyClues.filter(isClueHighQuality)
-  const shuffledClues = shuffleArray(highQualityClues)
-  const requiredClueCount = 6 * 5
+function buildBoardColumn(dataset, categoryName) {
+  const filtered = dataset.filter(isClueHighQuality)
+  const shuffled = shuffleArray(filtered)
+  const selected = shuffled.slice(0, 5)
 
-  if (shuffledClues.length < requiredClueCount) {
-    throw new Error(
-      `Not enough high-quality study clues to build a board. Need ${requiredClueCount}, got ${shuffledClues.length}.`
-    )
+  if (selected.length < 5) {
+    throw new Error(`Not enough clean clues to build category "${categoryName}"`)
   }
 
-  const selectedClues = shuffledClues.slice(0, requiredClueCount)
-  const board = []
-
-  for (let columnIndex = 0; columnIndex < 6; columnIndex += 1) {
-    const start = columnIndex * 5
-    const columnClues = selectedClues.slice(start, start + 5)
-
-    board.push({
-      category: buildCategoryName(columnIndex, datasetName),
-      clues: columnClues.map((entry, clueIndex) => ({
-        id: `${datasetName}-${columnIndex + 1}-${start + clueIndex}`,
-        value: CLUE_VALUES[clueIndex],
-        clue: entry.clue,
-        response: entry.response,
-        used: false,
-      })),
-    })
+  return {
+    category: categoryName,
+    clues: selected.map((entry, clueIndex) => ({
+      id: `${categoryName}-${clueIndex + 1}-${entry.response}`,
+      value: CLUE_VALUES[clueIndex],
+      clue: entry.clue,
+      response: entry.response,
+      used: false,
+    })),
   }
+}
 
-  return board
+export function generateMultiCategoryBoard(datasets) {
+  return datasets.map(({ categoryName, clues }) =>
+    buildBoardColumn(clues, categoryName)
+  )
+}
+
+export function generateBoardFromStudyClues(studyClues, datasetName = 'Shakespeare') {
+  return Array.from({ length: 6 }, (_, index) =>
+    buildBoardColumn(studyClues, `${datasetName} ${index + 1}`)
+  )
 }
