@@ -215,10 +215,11 @@
   cursor: pointer;
   transition:
     transform 0.15s ease,
-    box-shadow 0.15s ease;
+    box-shadow 0.15s ease,
+    opacity 0.15s ease;
 }
 
-.clue-cell:hover {
+.clue-cell:hover:not(:disabled) {
   transform: translateY(-1px);
   box-shadow: 0 10px 20px rgba(83, 58, 145, 0.22);
 }
@@ -228,10 +229,75 @@
   outline-offset: 3px;
 }
 
+.clue-cell-used {
+  background: linear-gradient(180deg, #d8caef 0%, #c9b7e8 100%);
+  color: #7a5c99;
+  cursor: not-allowed;
+}
+
 .info-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1.2fr 0.8fr;
   gap: 20px;
+}
+
+.clue-panel-content {
+  display: grid;
+  gap: 18px;
+  margin-top: 16px;
+}
+
+.clue-meta {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.clue-value {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: rgba(248, 242, 255, 0.95);
+  border: 1px solid rgba(122, 92, 153, 0.12);
+  color: #6f4ea1;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.clue-text {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #2d1f3d;
+}
+
+.response-preview {
+  display: grid;
+  gap: 6px;
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(248, 242, 255, 0.9);
+  border: 1px solid rgba(122, 92, 153, 0.12);
+}
+
+.response-label {
+  color: #7a5c99;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.empty-state {
+  margin-top: 16px;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(248, 242, 255, 0.55);
+  border: 1px dashed rgba(122, 92, 153, 0.25);
+}
+
+.empty-state p {
+  margin: 0;
+  color: #4b3f5d;
 }
 
 .detail-list {
