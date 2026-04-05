@@ -13,6 +13,10 @@ function normalizeAnswer(text) {
     .trim()
 }
 
+function formatScore(score) {
+  return `${score < 0 ? '-' : ''}$${Math.abs(score)}`
+}
+
 function App() {
   const [boardData, setBoardData] = useState(mockBoardData)
   const [activeClue, setActiveClue] = useState(null)
@@ -21,6 +25,7 @@ function App() {
   const [isCorrect, setIsCorrect] = useState(null)
   const [timeRemaining, setTimeRemaining] = useState(CLUE_TIME_LIMIT)
   const [didTimeExpire, setDidTimeExpire] = useState(false)
+  const [score, setScore] = useState(0)
 
   useEffect(() => {
     if (!activeClue || isSubmitted || didTimeExpire) {
@@ -29,6 +34,7 @@ function App() {
 
     if (timeRemaining <= 0) {
       setDidTimeExpire(true)
+      setScore((currentScore) => currentScore - activeClue.value)
       return
     }
 
@@ -74,6 +80,11 @@ function App() {
 
     setIsCorrect(answerMatches)
     setIsSubmitted(true)
+    setScore((currentScore) =>
+      answerMatches
+        ? currentScore + activeClue.value
+        : currentScore - activeClue.value
+    )
   }
 
   const showReveal = isSubmitted || didTimeExpire
@@ -87,7 +98,14 @@ function App() {
             <h1>Jeopardy practice, made cozy.</h1>
           </div>
 
-          <div className="header-chip">MVP in progress</div>
+          <div className="header-actions">
+            <div className="score-chip">
+              <span className="score-label">Score</span>
+              <strong className="score-value">{formatScore(score)}</strong>
+            </div>
+
+            <div className="header-chip">MVP in progress</div>
+          </div>
         </header>
 
         <section className="hero-panel">
@@ -107,10 +125,10 @@ function App() {
 
           <div className="hero-card">
             <span className="card-label">Current build focus</span>
-            <h3>Timed clue flow</h3>
+            <h3>Scored clue flow</h3>
             <p>
-              Selecting a clue now starts a countdown, bringing the study loop
-              closer to a true Jeopardy-style experience.
+              Correct answers now add money, while incorrect or timed-out clues
+              subtract money from the running score.
             </p>
           </div>
         </section>
@@ -216,10 +234,10 @@ function App() {
                       </span>
                       <strong>
                         {didTimeExpire
-                          ? 'The clue timed out before a response was submitted.'
+                          ? `-${formatScore(activeClue.value).replace('-', '')} applied for timeout.`
                           : isCorrect
-                            ? 'Your response matches the expected answer.'
-                            : 'Your response did not match the expected answer.'}
+                            ? `+${formatScore(activeClue.value)} earned for a correct response.`
+                            : `-${formatScore(activeClue.value).replace('-', '')} applied for an incorrect response.`}
                       </strong>
                     </div>
 
@@ -251,6 +269,10 @@ function App() {
               <li>
                 <span>Timer</span>
                 <strong>{CLUE_TIME_LIMIT} second countdown per clue</strong>
+              </li>
+              <li>
+                <span>Scoring</span>
+                <strong>Correct adds, incorrect subtracts</strong>
               </li>
             </ul>
           </article>

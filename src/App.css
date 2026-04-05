@@ -17,6 +17,12 @@
   gap: 16px;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .eyebrow {
   margin: 0 0 8px;
   font-size: 0.85rem;
@@ -33,15 +39,38 @@
   color: #2d1f3d;
 }
 
-.header-chip {
-  white-space: nowrap;
-  border: 1px solid rgba(122, 92, 153, 0.18);
-  background: rgba(255, 255, 255, 0.75);
-  color: #6f4ea1;
+.header-chip,
+.score-chip {
   border-radius: 999px;
   padding: 10px 14px;
   font-size: 0.9rem;
   font-weight: 700;
+  white-space: nowrap;
+}
+
+.header-chip {
+  border: 1px solid rgba(122, 92, 153, 0.18);
+  background: rgba(255, 255, 255, 0.75);
+  color: #6f4ea1;
+}
+
+.score-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(89, 124, 74, 0.18);
+  background: rgba(235, 248, 232, 0.9);
+  color: #2f5d2f;
+}
+
+.score-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.score-value {
+  font-size: 1rem;
 }
 
 .hero-panel {
@@ -459,6 +488,10 @@
 
   .app-header {
     flex-direction: column;
+  }
+
+  .header-actions {
+    flex-wrap: wrap;
   }
 
   .hero-copy,
