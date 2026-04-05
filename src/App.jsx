@@ -247,6 +247,8 @@ const initialBoardData = [
 function App() {
   const [boardData, setBoardData] = useState(initialBoardData)
   const [activeClue, setActiveClue] = useState(null)
+  const [answerText, setAnswerText] = useState('')
+  const [isSubmitted, setIsSubmitted] = useState(false)
 
   function handleClueSelect(selectedClue) {
     if (selectedClue.used) {
@@ -254,6 +256,8 @@ function App() {
     }
 
     setActiveClue(selectedClue)
+    setAnswerText('')
+    setIsSubmitted(false)
 
     setBoardData((currentBoard) =>
       currentBoard.map((column) => ({
@@ -263,6 +267,16 @@ function App() {
         ),
       }))
     )
+  }
+
+  function handleSubmitAnswer(event) {
+    event.preventDefault()
+
+    if (!activeClue || !answerText.trim()) {
+      return
+    }
+
+    setIsSubmitted(true)
   }
 
   return (
@@ -294,10 +308,10 @@ function App() {
 
           <div className="hero-card">
             <span className="card-label">Current build focus</span>
-            <h3>Clue selection interaction</h3>
+            <h3>Answer input flow</h3>
             <p>
-              Click a clue to reveal it in the study panel and mark it as used on
-              the board.
+              Select a clue, type a response using the built-in Jeopardy framing,
+              and reveal the correct answer after submission.
             </p>
           </div>
         </section>
@@ -344,10 +358,39 @@ function App() {
 
                 <p className="clue-text">{activeClue.clue}</p>
 
-                <div className="response-preview">
-                  <span className="response-label">Correct response</span>
-                  <strong>What is {activeClue.response}?</strong>
-                </div>
+                <form className="answer-form" onSubmit={handleSubmitAnswer}>
+                  <label className="answer-label" htmlFor="answer-input">
+                    Your response
+                  </label>
+
+                  <div className="answer-input-row">
+                    <span className="answer-prefix">What is</span>
+                    <input
+                      id="answer-input"
+                      className="answer-input"
+                      type="text"
+                      value={answerText}
+                      onChange={(event) => setAnswerText(event.target.value)}
+                      placeholder="type your answer"
+                      disabled={isSubmitted}
+                    />
+                  </div>
+
+                  <button
+                    className="submit-button"
+                    type="submit"
+                    disabled={!answerText.trim() || isSubmitted}
+                  >
+                    {isSubmitted ? 'Submitted' : 'Submit response'}
+                  </button>
+                </form>
+
+                {isSubmitted ? (
+                  <div className="response-preview">
+                    <span className="response-label">Correct response</span>
+                    <strong>What is {activeClue.response}?</strong>
+                  </div>
+                ) : null}
               </div>
             ) : (
               <div className="empty-state">
