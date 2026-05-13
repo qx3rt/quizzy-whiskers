@@ -1,0 +1,750 @@
+[
+  {
+    "name": "BOXER",
+    "topic_area": "boxing",
+    "season": 24,
+    "air_date": "2008-02-26",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It wasn't marvelous Marvin Hamlisch who KO'd Thomas Hearns in the 3rd round in 1985; it was him",
+        "response_text": "Marvin Hagler",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "2 men named \"Sugar Ray\": one became welterweight champ in 1946, the other in 1979",
+        "response_text": "Sugar Ray Leonard & Sugar Ray Robinson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "From East L.A. this Mexican American won the WBO light weight title in 1994 & a Grammy nomination in 2001",
+        "response_text": "Oscar De La Hoya",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "He won the heavyweight title in 1892 & was known as \"Gentleman Jim\" for his fancy style of dress",
+        "response_text": "\\\"Gentleman Jim\" Corbett",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "His 1910 defeat of James J. Jeffries resulted in racial violence in many U.S. cities",
+        "response_text": "Jack Johnson",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BOXERS",
+    "topic_area": "boxing",
+    "season": 10,
+    "air_date": "1994-01-14",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Before a title fight with Billy Conn, Joe Louis said, \"He can run but he can't\" do this",
+        "response_text": "hide",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He appears in TV commercials for Doritos tortilla chips with sons George, George, George & George",
+        "response_text": "George Foreman",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1970 this former champ made a comeback in bouts with Jerry Quarry & Oscar Bonavena",
+        "response_text": "Muhammad Ali",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Born Walker Smith, Jr., this great \"sweet\" middleweight won 174 of his 201 career bouts",
+        "response_text": "Sugar Ray Robinson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Subject of the film \"Raging Bull\", he held the middleweight title from 1949 to 1951",
+        "response_text": "Jake LaMotta",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING TERMS",
+    "topic_area": "boxing",
+    "season": 15,
+    "air_date": "1999-04-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "New to the sport? Let me show you these; they're strung around the ring",
+        "response_text": "Ropes",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A punch delivered \"below\" it is a foul (and may cause you to lose it)",
+        "response_text": "The belt",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The most important bout on the card; Barbra Streisand sang about one in 1979",
+        "response_text": "Main event",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "For the count, the standing boxer must retire to one of these",
+        "response_text": "Neutral corner",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1982 Nevada made this count mandatory in case of a knockdown",
+        "response_text": "a standing eight count",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BIG SCREEN BOXERS",
+    "topic_area": "boxing",
+    "season": 18,
+    "air_date": "2001-10-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Robert De Niro, 1980",
+        "response_text": "Jake LaMotta",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Sly Stallone, 1976",
+        "response_text": "Rocky Balboa",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Mr. T, 1982",
+        "response_text": "Clubber Lang",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Paul Newman, 1956",
+        "response_text": "Rocky Graziano",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Marlon Brando, 1954",
+        "response_text": "Terry Malloy",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING NICKNAMES",
+    "topic_area": "boxing",
+    "season": 17,
+    "air_date": "2000-09-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"The Greatest\\\"",
+        "response_text": "Muhammad Ali (Cassius Clay)",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"The Brown Bomber\\\"",
+        "response_text": "Joe Louis",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"The Manassa Mauler\\\"",
+        "response_text": "Jack Dempsey",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Macho\\\"",
+        "response_text": "Hector Camacho",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"The Real Deal\\\"",
+        "response_text": "Evander Holyfield",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "HEAVYWEIGHT CHAMPS",
+    "topic_area": "boxing",
+    "season": 18,
+    "air_date": "2001-12-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1964 he won the first of his 3 world heavyweight boxing titles, defeating Sonny Liston by a TKO",
+        "response_text": "Muhammad Ali",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Known for poking fun at his eating habits in TV commercials, he regained his heavyweight crown at age 45 in 1994",
+        "response_text": "George Foreman",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Between 1937 & 1942, he successfully defended his heavyweight title 21 times",
+        "response_text": "Joe Louis",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This former heavyweight champ failed to regain his title against Gene Tunney in 1927's \"Battle of the Long Count\\\"",
+        "response_text": "Jack Dempsey",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Ingemar Johansson won the heavyweight title from him in 1959, but lost 2 rematches",
+        "response_text": "Floyd Patterson",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING DAY",
+    "topic_area": "boxing",
+    "season": 30,
+    "air_date": "2013-12-26",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "With a 1-minute break between them, men's professional boxing rounds last this long unless stopped",
+        "response_text": "3 minutes",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "As Cassius Clay, Muhammad Ali fought in the Olympics at this weight class, not heavyweight",
+        "response_text": "light heavyweight",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The first heavyweight match in the U.S. fought under these rules was in 1892 when Jim Corbett beat John L. Sullivan",
+        "response_text": "Queensberry Rules",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Insectoid name for the professional boxing weight class from 108 to 112 pounds",
+        "response_text": "flyweight",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Last name of the 2 brothers who both won gold medals for the U.S. at the 1976 Olympics",
+        "response_text": "Spinks",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "JACK IN THE BOXING RING",
+    "topic_area": "boxing",
+    "season": 31,
+    "air_date": "2015-05-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Lightweight champ Beau Jack fought the main event at this NYC venue a record 21 times",
+        "response_text": "Madison Square Garden",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In his 70s, long after his 1920s championship days, he flattened 2 men who tried to mug him",
+        "response_text": "Jack Dempsey",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Jack Sharkey won the heavyweight title in 1932 by defeating this German",
+        "response_text": "Max Schmeling",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This pioneering black heavyweight fought in Paris, Havana & Leavenworth",
+        "response_text": "Jack Johnson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Before becoming an actor, this \"Shane\" tough guy had a career in the pro ring",
+        "response_text": "Jack Palance",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING",
+    "topic_area": "boxing",
+    "season": 8,
+    "air_date": "1991-11-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He invented the \"Rope-A-Dope\" technique to tire his opponents",
+        "response_text": "Muhammad Ali",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Meaning to strike rapidly, it's the term used for practice fighting",
+        "response_text": "sparring",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "He held the heavyweight title from 1937 to 1949, the longest reign",
+        "response_text": "Joe Louis",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1915 Jess Willard took the heavyweight title from this first black man to hold it",
+        "response_text": "(Jack) Johnson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "At 260 lbs., the heaviest heavyweight champ was this \"Ambling Alp\" from Italy",
+        "response_text": "Primo Carnera",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING",
+    "topic_area": "boxing",
+    "season": 2,
+    "air_date": "1985-10-15",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In the basic stance, right-handed & some left-handed boxers keep this foot forward",
+        "response_text": "the left foot",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "After knocking an opponent down a boxer must go to this for the count",
+        "response_text": "a neutral corner",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1889, John L. Sullivan went 75 rounds to win the last heavyweight championship fought this way",
+        "response_text": "bare-knuckle",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "When any part of a boxer's body except his feet is touching the floor",
+        "response_text": "a knockdown",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In the WBA, neither the jr. flyweight nor, surprisingly, this division has a minimum weight requirement",
+        "response_text": "heavyweight",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING",
+    "topic_area": "boxing",
+    "season": 41,
+    "air_date": "2024-09-16",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Undisputed middleweight champ Claressa Shields appropriately calls herself the GWOAT, short for this",
+        "response_text": "greatest woman of all time",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Boxing writer Budd Schulberg wrote how this boxer's \"gift for public relations matched his boxing skills\" before a Zaire match",
+        "response_text": "Muhammad Ali",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In April 2022, Katie Taylor & Amanda Serrano squared off in the first women's boxing match to headline this New York venue",
+        "response_text": "Madison Square Garden",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This first name of former WBC titleholder Mr. Fury is appropriate for a heavyweight champ",
+        "response_text": "Tyson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This heavyweight \"Brown Bomber\" was undefeated before a shocking loss to the German Max Schmeling in 1936",
+        "response_text": "Joe Louis",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING",
+    "topic_area": "boxing",
+    "season": 1,
+    "air_date": "1985-03-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Vegetable name for a boxer's damaged acoustic organ",
+        "response_text": "a cauliflower ear",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In many states it is mandatory count after a knockdown before fight may continue",
+        "response_text": "a standing 8 count",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "He ended his fight with \"Sugar\" Ray Leonard with the words \"No mas, no mas\\\"",
+        "response_text": "Roberto Duran",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "His reign as heavyweight champ, 11 yrs, 8 mos. 9 days, was the longest for any weight division",
+        "response_text": "Joe Louis",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Italian heavyweight who, at 260 pounds, was largest man to win the crown",
+        "response_text": "Primo Carnera",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING",
+    "topic_area": "boxing",
+    "season": 20,
+    "air_date": "2004-07-01",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "At the 2000 Olympics, 4 boxing golds went to fighters from this Caribbean island",
+        "response_text": "Cuba",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1937 Joe Louis became heavyweight champ; in 1997 this Lewis wore the crown",
+        "response_text": "Lennox Lewis",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1973 Joe Frazier lost his title to this man",
+        "response_text": "George Foreman",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Fearsome nickname of 1980s heavyweight champ James Smith",
+        "response_text": "\\\"Bonecrusher\\\"",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "His sweetest moment came on June 17, 2000 when he beat Oscar De La Hoya",
+        "response_text": "\\\"Sugar\" Shane Mosley",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BOXERS",
+    "topic_area": "boxing",
+    "season": 17,
+    "air_date": "2001-04-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1993 this semi-retired boxer starred as a retired boxer on the short-lived sitcom \"George\\\"",
+        "response_text": "George Foreman",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1999 this 3-time world heavyweight champ became the first professional boxer to grace the cover of a Wheaties box",
+        "response_text": "Muhammad Ali",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In Jan. 1999 he KO'd Francois Botha; in Feb. 1999 he went to jail in Maryland for assault",
+        "response_text": "Mike Tyson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He required 15 stitches to his right ear & reconstructive surgery after a 1997 title bout",
+        "response_text": "Evander Holyfield",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Winning gold in the 1992 Olympics, this lightweight boxer circled the ring holding an American flag & a Mexican flag",
+        "response_text": "Oscar De La Hoya",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING",
+    "topic_area": "boxing",
+    "season": 20,
+    "air_date": "2004-02-03",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Sarah of the Clue Crew at Gleason's Gym in New York City) This great champ who trained at Gleason's Gym invented the \"Rope-a-dope\" technique to tire his opponents",
+        "response_text": "Muhammad Ali",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "After a knockdown during a match, the standing boxer must retire to one of these",
+        "response_text": "a neutral corner",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Cheryl of the Clue Crew) From the Middle English for \"thrust\", it's a term used for practice fighting",
+        "response_text": "sparring",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "By setting many of the rules still used today, the 8th Marquess of this turned boxing from fisticuffs into an art form",
+        "response_text": "Queensberry",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "(Cheryl) The subject of the film \"Raging Bull\", this Gleason's Gym trainee held the middleweight title from 1949 to 1951",
+        "response_text": "Jake LaMotta",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "THE HEAVYWEIGHT CHAMPION OF THE WORLD",
+    "topic_area": "boxing",
+    "season": 40,
+    "air_date": "2023-10-09",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A wild day for this ex-champ in 1997: \"I lost my last professional boxing match, but I received a check for $1 million for the grill\\\"",
+        "response_text": "George Foreman",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Some stats from a 1966 title bout: Over three rounds, he threw 100-plus punches, took less than 10, & knocked down his foe four times",
+        "response_text": "Muhammad Ali",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The champ for an amazing 12 years, this \"Brown Bomber\" joined the Army in 1942 & served in a segregated unit with Jackie Robinson",
+        "response_text": "Joe Louis",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1990, this man here knocked out Buster Douglas to become the undefeated, undisputed heavyweight champ",
+        "response_text": "Evander Holyfield",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Rocky before \"Rocky\", this 1950s legend retired as the sole undefeated heavyweight champ in history, going 49-0 with 43 KOs",
+        "response_text": "Rocky Marciano",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING",
+    "topic_area": "boxing",
+    "season": 1,
+    "air_date": "1984-12-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Length of a full count",
+        "response_text": "ten",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Term for tossing the terrycloth",
+        "response_text": "throwing in the towel",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Meaning of TKO",
+        "response_text": "technical knockout",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In '81, he got $12 mil. for beating welterweight Thomas Hearns",
+        "response_text": "Sugar Ray Leonard",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In '65, it took Muhammad Ali less than 2 min. to beat him",
+        "response_text": "Sonny Liston",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING BIOPICS",
+    "topic_area": "boxing",
+    "season": 22,
+    "air_date": "2006-06-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Raging Bull\\\"",
+        "response_text": "Jake LaMotta",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Cinderella Man\\\"",
+        "response_text": "Braddock",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Joe and Max\" (2 please)",
+        "response_text": "Joe Louis & Max Schmeling",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "\\\"Gentleman Jim\" (1942)",
+        "response_text": "Jim Corbett",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "\\\"Somebody Up There Likes Me\\\"",
+        "response_text": "Rocky Graziano",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "HEAVYWEIGHTS",
+    "topic_area": "boxing",
+    "season": 24,
+    "air_date": "2008-05-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Between 1937 & 1942, he successfully defended his heavyweight title 21 times",
+        "response_text": "Joe Louis",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Ingemar Johansson won the heavyweight title from him in 1959 but lost 2 rematches",
+        "response_text": "Floyd Patterson",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Geographic nickname of boxer Joe Walcott; he was KO'd in '52 by Rocky Marciano",
+        "response_text": "\\\"Jersey Joe\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "As his last name suggests, this boxer who's twice beaten Mike Tyson is a devout Christian",
+        "response_text": "Holyfield",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This British-born boxer won the WBC heavyweight title in 1992",
+        "response_text": "Lennox Lewis",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BOXING TERMS SANS BOXING",
+    "topic_area": "boxing",
+    "season": 26,
+    "air_date": "2010-05-14",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "An enticement; hard to catch a fish without one",
+        "response_text": "a hook",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A circle in the trunk that reveals a tree's age",
+        "response_text": "a ring",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Hey, ya palooka, I got you a lawyer... yeah, he's also known by this \"oral\" term",
+        "response_text": "a mouthpiece",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Annoyed, or to pass from one side to the other",
+        "response_text": "cross",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A strikingly attractive woman",
+        "response_text": "a knockout",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ON BOXING DAY",
+    "topic_area": "boxing",
+    "season": 34,
+    "air_date": "2017-12-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This team sold Babe Ruth to the Yankees in 1919; curses!",
+        "response_text": "the Boston Red Sox",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In the Dec. 26, 1776 battle of this New Jersey city, a colonial army defeated a garrison of Hessian soldiers",
+        "response_text": "Trenton",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "I feel happy inside that this song was released in the U.S. on the day after Christmas 1963, launching U.S. Beatlemania",
+        "response_text": "\\\"I Wanna Hold Your Hand\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1966 Maulana Karenga, a professor of Africana studies, gave the world this celebration",
+        "response_text": "Kwanzaa",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "On Dec. 26, 1944 Patton's Third Army relieved Bastogne during this battle",
+        "response_text": "the Battle of the Bulge",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE HEAVYWEIGHT CHAMP",
+    "topic_area": "boxing",
+    "season": 26,
+    "air_date": "2010-06-30",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Trainer Angelo Dundee was in this champ's corner from 1960 to his 1981 fight with Trevor Berbick",
+        "response_text": "Muhammad Ali",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Damon Runyon gave this champ the nickname \"Manassa Mauler\", Manassa being the Colorado town where he was born",
+        "response_text": "Jack Dempsey",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1994, at age 45, he reclaimed the title he had held 20 years earlier with a 10-round knockout of champ Michael Moorer",
+        "response_text": "George Foreman",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "He retired in 1949 after an 11-year reign as champ but came out of retirement in 1950, losing to Ezzard Charles",
+        "response_text": "Joe Louis",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This African American's first fight after winning the title was a 1909 bout against future actor Victor McLaglen",
+        "response_text": "Jack Johnson",
+        "dollar_value": 2000
+      }
+    ]
+  }
+]

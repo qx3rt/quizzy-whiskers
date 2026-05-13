@@ -1,0 +1,3708 @@
+[
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 6,
+    "air_date": "1990-06-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state's tourist info phone number is 1-800-33-gumbo",
+        "response_text": "Louisiana",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This state's dog is the Chesapeake Bay retriever",
+        "response_text": "Maryland",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Hoover's library is in Iowa & his dam is on the border of these 2 states",
+        "response_text": "Nevada & Arizona",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The name of this state's capital is also a popular dance of the '20s",
+        "response_text": "West Virginia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "To visit A. Haley's roots go to Africa; to see his museum & home go to this \"Volunteer\" state",
+        "response_text": "Tennessee",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 2,
+    "air_date": "1985-11-12",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"America's Dairyland\\\"",
+        "response_text": "Wisconsin",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "While Rhode Island has 5 counties, Delaware has only this many",
+        "response_text": "3",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Cape May, in this state, is as far south as Washington, D.C.",
+        "response_text": "New Jersey",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Brown vs. Board of Education\" dealt with school segregation in this state's capital",
+        "response_text": "Kansas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Meredith Willson modeled his \"River City\" on his home town of Mason City in this state",
+        "response_text": "Iowa",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 4,
+    "air_date": "1988-05-30",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Ironically, this little state's official name is the longest of any U.S. state",
+        "response_text": "Rhode Island (and Providence Plantations)",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The biggest earthquake ever to hit the U.S. happened in 1964 in this state",
+        "response_text": "Alaska",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "2 of the 3 states that have only 4 letters in their name",
+        "response_text": "(2 of) Ohio, Utah & Iowa",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The almost perfect arc in Delaware's border separates it from this state",
+        "response_text": "Pennsylvania",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state boasts the 1st U.S. National Monument, National Forest, & National Park",
+        "response_text": "Wyoming",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 8,
+    "air_date": "1991-12-26",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1912 this future state became a territory",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Half of this state's apple crop is produced in the Shenandoah valley",
+        "response_text": "Virginia",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The first atomic bomb was exploded on July 16, 1945 at the Trinity site in this state",
+        "response_text": "New Mexico",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Its current license plates carry the slogan \"First in Flight\\\"",
+        "response_text": "North Carolina",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state has a historic site honoring the 1st railroad to cross the Allegheny Mountains",
+        "response_text": "Pennsylvania",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 1,
+    "air_date": "1984-09-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Russians sold it to Seward at 2¢ an acre",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It contains highest & lowest spots in lower 48 states, only 106 miles apart",
+        "response_text": "California",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Part of Massachusetts until it became our 23rd state",
+        "response_text": "Maine",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Whenever it wants to, this state can legally break up into 5",
+        "response_text": "Texas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Originally set aside for the Indians for as long as grass shall grow & rivers flow",
+        "response_text": "Oklahoma",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATE NAMES",
+    "topic_area": "us-states",
+    "season": 11,
+    "air_date": "1994-09-29",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Before it was a state, its name included \"Alta\" before its name to differentiate it from Baja",
+        "response_text": "California",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's Sioux for \"friendly\"; so a person might hail from north Friendly or South Friendly",
+        "response_text": "Dakota",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The only \"New\" state not named for a British person or place",
+        "response_text": "New Mexico",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Its name, an Indian word for \"flat\" or \"spreading water\", refers to its Platte River",
+        "response_text": "Nebraska",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Originally, this state's name began with \"Ou\"; its legislature changed that to \"W\\\"",
+        "response_text": "Wisconsin",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 14,
+    "air_date": "1997-12-19",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Its largest city is named for angels & was named for a mythical treasure-filled land",
+        "response_text": "California",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1998 the Diamondbacks will begin to play Major League Baseball for this state",
+        "response_text": "Arizona",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Located on the Continental Divide, Glacier National Park is in this state",
+        "response_text": "Montana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Geographic features of this state include the San Juan Islands & the Strait of Juan de Fuca",
+        "response_text": "Washington",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "It has only 9 places with 5,000 or more people, including Kenai, Ketchikan & Sitka",
+        "response_text": "Alaska",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 16,
+    "air_date": "1999-09-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "There's New York, New Jersey, New Mexico & \"New\" this as well",
+        "response_text": "New Hampshire",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Its capital is Salem, but its largest city is Portland",
+        "response_text": "Oregon",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state is the smallest in area",
+        "response_text": "Rhode Island",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Ponce de Leon searched for the Fountain of Youth in this \"Sunshine\" state",
+        "response_text": "Florida",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Points of interest in this state include the San Joaquin Valley & the Sacramento River",
+        "response_text": "California",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 13,
+    "air_date": "1997-02-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state's port of Duluth greatly increased ocean traffic when the St. Lawrence Seaway opened in 1959",
+        "response_text": "Minnesota",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Joel Chandler Harris & Margaret Mitchell were authors native to this state",
+        "response_text": "Georgia",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Its name was first associated with a lord, then a river, a tribe & the first state",
+        "response_text": "Delaware",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "From west to east, South Dakota's southern border is straight until it follows this river",
+        "response_text": "the Missouri River",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The first French settlers in this Pine Tree State brought their own wood to build houses",
+        "response_text": "Maine",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DEFINITELY NOT ONE OF THE 50 U.S. STATES",
+    "topic_area": "us-states",
+    "season": 37,
+    "air_date": "2021-08-03",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A government too full of advice or laws is said to be this household worker's \"state\\\"",
+        "response_text": "nanny",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "States of it include plasma & the Bose-Einstein condensate",
+        "response_text": "matter",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "As in the title of a Russell Crowe film, \"State of\" this refers to \"the current situation\\\"",
+        "response_text": "State of Play",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "The third book Bob Woodward wrote about the Bush administration's Iraq War failings is called \"State of\" this",
+        "response_text": "Denial",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In the Catholic church, one free from mortal sin is said to be in a \"state of\" this",
+        "response_text": "grace",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 2,
+    "air_date": "1985-09-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Both South Dakota & Florida have this same nickname",
+        "response_text": "\\\"The Sunshine State\\\"",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "State usually called 1st at presidential conventions because it's 1st in alphabetical order",
+        "response_text": "Alabama",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "With NYC & Philadelphia in mind, Ben Franklin called this state \"a rum keg tapped at both ends\\\"",
+        "response_text": "New Jersey",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "State with highest average wage, $9,000 higher than 2nd-highest state",
+        "response_text": "Alaska",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "State in which this song takes place: \"And I dreamed about them cottonfields 'n' home / I dreamed about my mother / Dear old sister and papa and brother / Dreamed about that sweetheart who's been waitin' for so long / I wanna go home...\\\"",
+        "response_text": "Michigan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE LARGEST U.S. STATE",
+    "topic_area": "us-states",
+    "season": 22,
+    "air_date": "2006-02-16",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "New Mexico, New Jersey, New Hampshire",
+        "response_text": "New Mexico",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Florida, Idaho, Montana",
+        "response_text": "Montana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Ohio, Oklahoma, Oregon",
+        "response_text": "Oregon",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Massachusetts, Maine, Maryland",
+        "response_text": "Maine",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Michigan, Minnesota, Mississippi",
+        "response_text": "Michigan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 26,
+    "air_date": "2010-07-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state's geographic center lies about 12 miles northwest of Little Rock",
+        "response_text": "Arkansas",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "America's largest national park, Wrangell-St. Elias, covers more than 8 million acres in this large state",
+        "response_text": "Alaska",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Clearwater & Palm Beach are popular seaside resorts in this state",
+        "response_text": "Florida",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It earned its nickname \"The Equality State\" by being the first to give full voting rights to women back in 1869",
+        "response_text": "Wyoming",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Nicknamed the \"Mother of Presidents\", it's the birthplace of 7 presidents, including Taft & McKinley",
+        "response_text": "Ohio",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1989-05-05",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state has an entire museum devoted to barbed wire, but as far as we know, there's no Toto museum",
+        "response_text": "Kansas",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The only state represented by 2 senators of Japanese descent",
+        "response_text": "Hawaii",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "South Carolina's flag has a blue field with this state tree in the center",
+        "response_text": "palmetto",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Southeast state's official seal depicts an Indian girl strewing flowers",
+        "response_text": "Florida",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state's Black Warrior National Forest was renamed in honor of T. Bankhead's father",
+        "response_text": "Alabama",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 4,
+    "air_date": "1988-04-12",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The capital of this state is named after Helena, Minnesota",
+        "response_text": "Montana",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A city named for French-Canadian fur trapper Etiene Provost is in this state, far from French-speaking Canada",
+        "response_text": "Utah",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "State with the highest state income tax rate, 13.5%, on taxable earned income over $26,000",
+        "response_text": "New York",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Great American athlete Jim Thorpe is buried in the town named for him in this state",
+        "response_text": "Pennsylvania",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Old Man of the Mountains, carved by nature into a mountainside, is an attraction of this N.E. state",
+        "response_text": "New Hampshire",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 10,
+    "air_date": "1993-10-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state ranks No. 1 in the breeding of thoroughbred horses",
+        "response_text": "Kentucky",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Beep! Beep!\" It's New Mexico's state bird",
+        "response_text": "road runner",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "From 1733 to 1782, its capital was Savannah",
+        "response_text": "Georgia",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Chinook variety of this fish is Oregon's state fish",
+        "response_text": "salmon",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state has a 4,150'-wide, 570'-deep meteor crater",
+        "response_text": "Arizona",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 1,
+    "air_date": "1985-05-01",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Pikes Peak or Bust\" was slogan of 1858 gold rush in this state",
+        "response_text": "Colorado",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "State in which this song takes place \"Oh beat the drum slowly and play the fife lowly / Play the Dead March as they carry me along\\\"",
+        "response_text": "Texas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1 of 4 states that's officially a commonwealth",
+        "response_text": "Virginia (or Massachusetts, Pennsylvania, or Kentucky)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Republican Party traces its origins to an 1854 meeting at Ripon in this state",
+        "response_text": "Wisconsin",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Nicknamed \"The Treasure State\", the motto of this 4th-largest in area is \"Gold & Silver\\\"",
+        "response_text": "Montana",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 9,
+    "air_date": "1993-05-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The world's most powerful solar telescope is near Tucson in this state",
+        "response_text": "Arizona",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "An 1867 flood in this state allowed a steamboat to travel down Chattanooga's Main Street",
+        "response_text": "Tennessee",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1992 most of this state's permanent residents got $915.84 from its oil revenues",
+        "response_text": "Alaska",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This state has a Lake Sidney Lanier about 25 miles north of Stone Mountain",
+        "response_text": "Georgia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1777 New Connecticut changed its name to this, the name the state's still known by",
+        "response_text": "Vermont",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 8,
+    "air_date": "1991-10-14",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state's silver production is no small potatoes: in fact, it leads the nation",
+        "response_text": "Idaho",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The geographic center of this state is in Wexford County, five miles north of Cadillac",
+        "response_text": "Michigan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "With fewer than 500,000 people, this Rocky Mountain state placed last in the 1990 census",
+        "response_text": "Wyoming",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "If you're looking for treasure - Treasure County, that is - you'll find it in this \"Treasure State\\\"",
+        "response_text": "Montana",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1 of 2 states that border eight others",
+        "response_text": "Missouri or Tennessee",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 13,
+    "air_date": "1997-02-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This \"Show-Me State\" has also been called the \"Gateway to the West\\\"",
+        "response_text": "Missouri",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "About one-third of this state's industrial workers are employed in the auto industry",
+        "response_text": "Michigan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state's lowest point, 320 feet, lies at the junction of the Wabash & the Ohio Rivers",
+        "response_text": "Indiana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Laughlin is this state's southernmost city",
+        "response_text": "Nevada",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state has 2 national monuments: the Hagerman fossil beds & craters of the moon",
+        "response_text": "Idaho",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 11,
+    "air_date": "1995-03-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's the only state with an area of less than 2,000 square miles",
+        "response_text": "Rhode Island",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Biloxi is this state's chief shrimp-packing port",
+        "response_text": "Mississippi",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state's largest bank is Key Bank in Cheyenne",
+        "response_text": "Wyoming",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Northwestern state is called \"The Evergreen State\\\"",
+        "response_text": "Washington",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Appalachian state's motto is \"Mountaineers are always free\\\"",
+        "response_text": "West Virginia",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 7,
+    "air_date": "1991-07-03",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Its new license plates have a depiction of the Statue of Liberty",
+        "response_text": "New York",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This state has 4 national forests, Sabine, Angelina, Davy Crockett & Sam Houston",
+        "response_text": "Texas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state is now third after Indiana & Ohio in production of iron & steel",
+        "response_text": "Pennsylvania",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Mormon Station was the first permanent settlement in this state west of Utah",
+        "response_text": "Nevada",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1777 the constitution of this N.E. state, then a republic, became the 1st in the U.S. to prohibit slavery",
+        "response_text": "Vermont",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATE NAMES",
+    "topic_area": "us-states",
+    "season": 23,
+    "air_date": "2007-01-16",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Lots of folks must wear glasses in this state; it's the only one with 4 \"i\"s",
+        "response_text": "Mississippi",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Its name includes the name of another state that was named for a ruler born in 1533",
+        "response_text": "West Virginia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Land's sakes! The only 2 states with \"land\" in their names",
+        "response_text": "Maryland & Rhode Island",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This state's name is a homophone for a word that means \"principal\\\"",
+        "response_text": "Maine",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "The names of this state & its state capital both end with the letters \"na\\\"",
+        "response_text": "Montana",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 9,
+    "air_date": "1993-01-15",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Jim Woodruff Dam forms Lake Seminole, which lies on the border of Georgia & this state",
+        "response_text": "Florida",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "An abundance of the Douglas fir helps make this state, not Washington, the leading lumber state",
+        "response_text": "Oregon",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This whale noted for its \"songs\" is Hawaii's state marine mammal",
+        "response_text": "the humpback whale",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This \"Sister Carrie\" author helped write Indiana's state song, \"On The Banks Of The Wabash, Far Away\\\"",
+        "response_text": "(Theodore) Dreiser",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1803 it became the first state carved out of the Northwest Territory",
+        "response_text": "Ohio",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 9,
+    "air_date": "1992-09-24",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Fred Allen said of this state, \"It's a great place if you happen to be an orange\\\"",
+        "response_text": "California",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Although Walden Pond is not this state's largest pond, it's probably the most famous",
+        "response_text": "Massachusetts",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state's first governor was Charles N. Haskell of Muskogee, who was elected in 1907",
+        "response_text": "Oklahoma",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1524, Verrazzano became the first Eur. explorer to reach what's now this state when he visited Cape Fear",
+        "response_text": "North Carolina",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Founded in 1817, Fort Smith in this state was one of the first military posts in the Missouri Territory",
+        "response_text": "Arkansas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 1,
+    "air_date": "1984-12-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The 2 states that don't border any others",
+        "response_text": "Alaska & Hawaii",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Wolverine State, in 1847 became 1st to abolish capital punishment",
+        "response_text": "Michigan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Region originally called Indian Territory, it now has no Fed. reservations",
+        "response_text": "Oklahoma",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Western neighbor of Tenn. & Miss.; it has only diamond field in N. America",
+        "response_text": "Arkansas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Midwest state whose native sons include Marlon Brando, Nick Nolte & Henry Fonda",
+        "response_text": "Nebraska",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ALSO A U.S. STATE",
+    "topic_area": "us-states",
+    "season": 26,
+    "air_date": "2009-12-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It was destroyed in Havana Harbor on Feb. 15, 1898",
+        "response_text": "the USS Maine",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A numbered shirt you just bought from your favorite football team",
+        "response_text": "a New Jersey",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This band of \"Wayward Sons\" is fronted by Steve Walsh",
+        "response_text": "Kansas",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "2-word beseeching request for Ms. Fanning to continue in the direction of Antarctica",
+        "response_text": "South Dakota",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "First name of Ms. Engel of \"Mary Tyler Moore\" fame",
+        "response_text": "Georgia",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE 27 LANDLOCKED U.S. STATES",
+    "topic_area": "us-states",
+    "season": 34,
+    "air_date": "2018-06-19",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's alphabetically first",
+        "response_text": "Arizona",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Word shared in the name of 2 of the 27",
+        "response_text": "Dakota",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "It's the largest in area",
+        "response_text": "Montana",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "The westernmost",
+        "response_text": "Nevada",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Bordering a Great Lake but no ocean, it was the first on the list to become a state",
+        "response_text": "Pennsylvania",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 12,
+    "air_date": "1995-11-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The front of this state's seal features Lord Baltimore dressed as a knight",
+        "response_text": "Maryland",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This New England state is about as large as the other five New England states combined",
+        "response_text": "Maine",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state has only two metropolitan statistical areas: Billings & Great Falls",
+        "response_text": "Montana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A region in the southern part of this state is called Acadiana",
+        "response_text": "Louisiana",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1913 this state chose \"On the Banks of the Wabash, Far Away\" as its state song",
+        "response_text": "Indiana",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 7,
+    "air_date": "1990-10-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Gerald Ford Presidential Library is located in Ann Arbor in this state",
+        "response_text": "Michigan",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Huey Long & his brother Earl were 2 of the most powerful politicians in this state's history",
+        "response_text": "Louisiana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Due to its great running facilities, Eugene in this state is a favorite training site for athletes",
+        "response_text": "Oregon",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Country music's Alabama is from that state, while the Oak Ridge Boys began as a group in this state",
+        "response_text": "Tennessee",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "William Henry Harrison won the Battle of Tippecanoe near Lafayette in what is now this state",
+        "response_text": "Indiana",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 1,
+    "air_date": "1985-03-15",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Highest elevation in this \"Sunshine State\" is only 345 feet",
+        "response_text": "Florida",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Last Chance Gulch\" is now the main street of its capital, Helena",
+        "response_text": "Montana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Only U.S. railroad owned and operated by Federal gov't. is found entirely within this sizeable state",
+        "response_text": "Alaska",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "First state to forbid slavery & guarantee universal male suffrage & public education to all",
+        "response_text": "Vermont",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "During the Civil War, this Midwest state sent proportionally the most men into the Union Army",
+        "response_text": "Kansas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1989-07-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "If this state were an independent country, it would be the 6th richest in the world",
+        "response_text": "California",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "New Hampshire was the 1st U.S. state to finance education by this method, adopted in 1963",
+        "response_text": "the lottery",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The largest wilderness area east of the Mississippi is this state's Adirondack Park",
+        "response_text": "New York",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Jimmy Swaggart usually preaches via TV from this, his home state",
+        "response_text": "Louisiana",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The geographic center of the lower 48 is just outside the town of Lebanon in this state",
+        "response_text": "Kansas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 8,
+    "air_date": "1991-09-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The design on the Arkansas flag is in this shape, representing a gem found there",
+        "response_text": "a diamond",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Its rivers include the Withlacooche, Kissimmee & Caloosahatchee",
+        "response_text": "Florida",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Delaware's rank among the 50 states in terms of area",
+        "response_text": "49",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A U.S. battleship named after this state was sunk February 15, 1898",
+        "response_text": "Maine",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "About 60% of the iron ore in the U.S. comes from this state's Mesabi range",
+        "response_text": "Minnesota",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "HIDDEN U.S. STATES",
+    "topic_area": "us-states",
+    "season": 22,
+    "air_date": "2006-07-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Give an East Indian a cow & he won't eat it",
+        "response_text": "Indiana (in East Indian a)",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Using Gore-Tex as infant wear will keep your babies dry",
+        "response_text": "Texas (in Gore-Tex as)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Face it: audio wasn't as good on Grandma's gramophone",
+        "response_text": "Iowa (in audio wasn't)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Linguistically, did ahoy enter the English language directly from sailors?",
+        "response_text": "Idaho (in did ahoy)",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Mama inexplicably burned the family dinner",
+        "response_text": "Maine (in Mama inexplicably)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 9,
+    "air_date": "1993-07-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Land regions in this state include the Hudson-Mohawk Lowland & the Adirondack Upland",
+        "response_text": "New York",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The county governments of this \"Garden State\" are called boards of chosen freeholders",
+        "response_text": "New Jersey",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The state tree of this NW state is the western hemlock, an evergreen",
+        "response_text": "Washington",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The roadrunner is its state bird",
+        "response_text": "New Mexico",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state's largest city is Manchester",
+        "response_text": "New Hampshire",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 7,
+    "air_date": "1991-03-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state finds the orange blossom special, so it was made the state flower",
+        "response_text": "Florida",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Named for an Indian chief who helped the railroad get land, Pocatello is this state's 2nd-largest city",
+        "response_text": "Idaho",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state's first governor, William A. Egan, was reelected in 1970",
+        "response_text": "Alaska",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Its early inhabitants didn't have chalets, they lived in cliff dwellings in Mesa Verde",
+        "response_text": "Colorado",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Oregon Trail began in this state",
+        "response_text": "Missouri",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 8,
+    "air_date": "1992-03-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "42% of this state's general fund tax revenues comes from gambling",
+        "response_text": "Nevada",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "From 1804 to 1812, this state was known as the Territory of Orleans",
+        "response_text": "Louisiana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1 of 2 states whose state fish is the Chinook salmon",
+        "response_text": "(1 of) Alaska or Oregon",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1988 Wisconsin made this its state beverage",
+        "response_text": "milk",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state produced about 1% of the world's raw sugar in 1990",
+        "response_text": "Hawaii",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1989-04-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The 1st federal wildlife refuge was established in 1903 on Pelican Island in this state's Indian River",
+        "response_text": "Florida",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Kentucky was declared a Commonwealth, just like this state that formerly owned it",
+        "response_text": "Virginia",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Interstate 5 runs from San Diego north to Blaine in this state",
+        "response_text": "Washington",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The only parts of North America occupied by Japanese troops during World War II are in this state",
+        "response_text": "Alaska",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Battle of Tippecanoe took place in 1811 near present-day Lafayette in this Midwestern state",
+        "response_text": "Indiana",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1988-09-28",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Of \"Boomer\", \"Sooner\" or \"Later\", the one that's not an Oklahoma nickname",
+        "response_text": "Later",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "You can order various collectibles from the Franklin Mint in this state",
+        "response_text": "Pennsylvania",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Colorado Desert borders the Colorado River, not in Colorado but in these 2 states",
+        "response_text": "California & Arizona",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Jekyll Island is one of the Sea Islands off the coast of S.C., Florida & this state",
+        "response_text": "Georgia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The higest peaks in New England are in this state's White Mountains",
+        "response_text": "New Hampshire",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 13,
+    "air_date": "1997-05-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The international date line bends around this state",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "With over 15,000 lakes, its lowest point is naturally on a lake, Lake Superior",
+        "response_text": "Minnesota",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Its state mineral is gold, its state fish is the golden trout & its state flower is the golden poppy",
+        "response_text": "California",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "NCAA teams in this state include the La Salle Explorers, the Villanova Wildcats & the Drexel Dragons",
+        "response_text": "Pennsylvania",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Cimarron County in this state touches 4 other states",
+        "response_text": "Oklahoma (Colorado, Kansas, New Mexico & Texas)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 18,
+    "air_date": "2001-10-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Its state dog is the Boston Terrier",
+        "response_text": "Massachusetts",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "2/3 of this state's population lives in New Castle, one of its 3 counties",
+        "response_text": "Delaware",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state's name comes from the Sioux for \"sky-tinted waters\", which probably refers to its 10,000 lakes",
+        "response_text": "Minnesota",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Nestled between Ohio & Illinois, it's the smallest mainland state in area west of the Appalachians",
+        "response_text": "Indiana",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state was home to the world's first drive-in movie theater & the first boardwalk",
+        "response_text": "New Jersey",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 11,
+    "air_date": "1994-12-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "About 1/4 of this \"Pelican State\"'s area consists of the Mississippi River delta",
+        "response_text": "Louisiana",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Most of this state's mineral wealth lies in the Black Hills",
+        "response_text": "South Dakota",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state's nickname \"The Hawkeye State\" probably honors the Indian leader Black Hawk",
+        "response_text": "Iowa",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This state's only national forest is Finger Lakes National Forest",
+        "response_text": "New York",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Its state bird is the Blue Hen chicken",
+        "response_text": "Delaware",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE GREAT STATE OF MISSISSIPPI",
+    "topic_area": "us-states",
+    "season": 31,
+    "air_date": "2015-04-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Mississippi's lowest point is along the shores of this body of water",
+        "response_text": "the Gulf of Mexico",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1792 a French-Canadian trader named Louis LeFleur was the first to settle in this state capital",
+        "response_text": "Jackson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Mississippi city was named for the trees that provided building timber but are also sung about for their honey",
+        "response_text": "Tupelo",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Perhaps this author's early boyhood in New Albany, Miss. was in his mind as he lay dying in Byhalia",
+        "response_text": "Faulkner",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "While he was governor from 2004 to 2012, Mississippi got out of last place in per-capita income for the first time in 25 years",
+        "response_text": "Haley Barbour",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 6,
+    "air_date": "1989-11-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state's geographic center is located within the limits of Hartford County, near its capital",
+        "response_text": "Connecticut",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The 4 U.S. states that are officially commonwealths are Kentucky, Pennsylvania, Virginia & this one",
+        "response_text": "Massachusetts",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Its state tree is the Kukui",
+        "response_text": "Hawaii",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The 1st long-distance automobile race on a track took place in 1911 in this midwestern state",
+        "response_text": "Indiana",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Acadia National Park, the oldest one east of the Mississippi, is in this state",
+        "response_text": "Maine",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1988-11-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The largest U.S. naval base is at Norfolk in this state",
+        "response_text": "Virginia",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The two U.S. states that begin with \"N\" that are neither \"North\" nor \"New\\\"",
+        "response_text": "Nebraska & Nevada",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Among its 77 counties are Creek, Cherokee, Choctaw, Seminole & Osage",
+        "response_text": "Oklahoma",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Its state song is \"Home On The Range\", not \"Over The Rainbow\\\"",
+        "response_text": "Kansas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Named for John Jacob Astor, Astoria, first American settlement west of the Rockies, is in this state",
+        "response_text": "Oregon",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 9,
+    "air_date": "1993-03-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Its state house in Annapolis, begun in 1772, is the oldest still in use in the U.S.",
+        "response_text": "Maryland",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Its tourist info line is 1-800-CT BOUND",
+        "response_text": "Connecticut",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "California had a gold rush beginning in 1848 & what's now this state had one beginning in 1896",
+        "response_text": "Alaska",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Johnson Space Center is in Texas & the Marshall Space Flight Center is in this state",
+        "response_text": "Alabama",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1898 the U.S. annexed what's now this state",
+        "response_text": "Hawaii",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 3,
+    "air_date": "1987-06-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The only U.S. state which borders Maine",
+        "response_text": "New Hampshire",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The 2 states mentioned in the chorus of \"This Land is Your Land\\\"",
+        "response_text": "California & New York",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "About 46% of the population of this most rural & eastern of Pacific NW states live on farms & ranches",
+        "response_text": "Idaho",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "5 of largest U.S. rivers, including the Arkansas, N. Platte, & the Rio Grande, begin in this state",
+        "response_text": "Colorado",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Part of the Black Mountains, Mt. Mitchell in this state is highest point in U.S. east of the Mississippi",
+        "response_text": "North Carolina",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 11,
+    "air_date": "1994-09-19",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Its state bird is the Baltimore Oriole",
+        "response_text": "Maryland",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Tomatoes rank as Florida's second most valuable crop; this fruit is number one",
+        "response_text": "oranges",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Kentucky's state song is this Stephen Foster classic",
+        "response_text": "\\\"My Old Kentucky home\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Though this tree is now rare due to a \"Dutch\" disease, it's still Massachusetts' state tree",
+        "response_text": "the elm",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "When it joined the Union in 1803, it became the first state west of the Alleghenies",
+        "response_text": "Ohio",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 7,
+    "air_date": "1991-01-15",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "State that's often called \"The Crossroads of the Pacific\\\"",
+        "response_text": "Hawaii",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Villa Real de la Santa Fe de San Francisco de Asis was the original name of this state's capital",
+        "response_text": "New Mexico",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Founded by the French c. 1714, Natchitoches is the oldest permanent settlement in this state",
+        "response_text": "Louisiana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "You can't see the falls for which International Falls in this state is named; they no longer exist",
+        "response_text": "Minnesota",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Though it has only 40 miles of coastline, it's still nicknamed \"The Ocean State\\\"",
+        "response_text": "Rhode Island",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1989-03-31",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "J.R. Ewing would be upset to hear that in 1988 this state led the nation in most bank failures",
+        "response_text": "Texas",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "State with the most telephone area codes",
+        "response_text": "California",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "For $50, credit cards accepted, you can be incorporated in this state within 24 hours",
+        "response_text": "Delaware",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This \"Granite State\" has the lowest unemployment rate in the U.S.",
+        "response_text": "New Hampshire",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "2 of the 3 states that touch both the Mississippi River & a Great Lake",
+        "response_text": "(2 of) Minnesota, Illinois & Wisconsin",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 3,
+    "air_date": "1987-04-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1916, S. Bamberger, a Jewish Democrat, was elected this state's 1st non-Mormon governor",
+        "response_text": "Utah",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Though the Pro Football Hall of Fame is in this state, the state beverage is tomato juice, not beer",
+        "response_text": "Ohio",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1 of 3 states which border Virginia & share its state bird, the Cardinal",
+        "response_text": "West Virginia (or Kentucky or North Carolina)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Mark Twain said he was born in this state because \"it was an unknown new state & needed attractions\\\"",
+        "response_text": "Missouri",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "From 1961-1976, Alabama flew this flag above the U.S. flag on the State Capitol",
+        "response_text": "the Confederate flag (the Stars & Bars)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 2,
+    "air_date": "1985-11-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"The Last Frontier\\\"",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Gulf state whose counties are called parishes",
+        "response_text": "Louisiana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Only state bordering directly on both the Atlantic Ocean & the Great Lakes",
+        "response_text": "New York",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "TV's \"Little House on the Prairie\" is set in Walnut Grove, in this state",
+        "response_text": "Minnesota",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Before joining Union in 1791, this New England state was an independent republic for 14 years",
+        "response_text": "Vermont",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 4,
+    "air_date": "1987-12-23",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It makes sense that the state with the most area codes is this state with the most people",
+        "response_text": "California",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Of A, E, I, O, or U, the only vowel that doesn't begin a state name",
+        "response_text": "E",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Raking in 30 million people & $16 billion in bets in '86, this state claims to have nation's #1 tourist resort",
+        "response_text": "New Jersey",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "While Memphis is in Tennessee, West Memphis lies across the Mississippi in this state",
+        "response_text": "Arkansas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The \"Toledo War\" was a dispute between these 2 states over 400 square miles along Lake Erie",
+        "response_text": "Ohio & Michigan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 32,
+    "air_date": "2016-04-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The coldest on average",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The northernmost",
+        "response_text": "Alaska",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The westernmost",
+        "response_text": "Alaska",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The one with the most coastline",
+        "response_text": "Alaska",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The first alphabetically",
+        "response_text": "Alabama",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 4,
+    "air_date": "1988-05-20",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "80-90% of this New England state, more than any other, is covered by forests, with lots of pine trees",
+        "response_text": "Maine",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1 of 2 states whose state bird is a chicken",
+        "response_text": "Rhode Island (or Delaware)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This \"Mountain State\" is considered to have the most irregular boundary of the lower 48",
+        "response_text": "West Virginia",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Before 1959, a piece of this central state was the northernmost point in the U.S.",
+        "response_text": "Minnesota",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1 of best-known but least-seen monuments in Alaska is near Barrow, honoring these 2 men who died there in '35",
+        "response_text": "Wiley Post & Will Rogers",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 6,
+    "air_date": "1990-02-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Bimini Islands of the Bahamas lie about 50 miles east of this state",
+        "response_text": "Florida",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "State that suffered the most severe damage from 1989's Hurricane Hugo",
+        "response_text": "South Carolina",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state has over 50 peaks above 14,000 feet but none over 14,500 feet",
+        "response_text": "Colorado",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Wyoming is nicknamed \"The Equality State\" because it was the first to do this",
+        "response_text": "allow women to vote",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Classified as a Mid-Atlantic state, this state doesn't touch an ocean, but it does border Lake Erie",
+        "response_text": "Pennsylvania",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 3,
+    "air_date": "1986-12-08",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Thoroughbred horses do well fueled by the \"blue grass\" of this state",
+        "response_text": "Kentucky",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Of Ohio, Indiana or Illinois, the 1 most densely populated & having the most large cities",
+        "response_text": "Ohio",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The states that make up New England",
+        "response_text": "Connecticut, Vermont, Maine, New Hampshire, Massachusetts and Rhode Island",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Years after the Okla. landrush of 1889, a similar one occurred on Sioux Indian holdings in this state",
+        "response_text": "South Dakota",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The only state in which caucasians are a minority",
+        "response_text": "Hawaii",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 11,
+    "air_date": "1995-01-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "More than half of this southeast state's orange crop is used for frozen citrus concentrate",
+        "response_text": "Florida",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The city of Bangor had this state's first radio station in 1922 & its first TV station in 1953",
+        "response_text": "Maine",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Snake River stampede, one of the West's largest rodeos, takes place each July in Nampa in this state",
+        "response_text": "Idaho",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In the 19th century, this second-smallest state was known as the \"Peach State\\\"",
+        "response_text": "Delaware",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Its state flower is the black-eyed Susan",
+        "response_text": "Maryland",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1989-06-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Green Bay, in this state, is the smallest city to hold an NFL franchise",
+        "response_text": "Wisconsin",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "State that was the birthplace of both Abe Lincoln & Jefferson Davis",
+        "response_text": "Kentucky",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Largest of the 6 New England states, it's the most sparsely populated state east of the Mississippi",
+        "response_text": "Maine",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "When the 1st Mormon pioneers came to Utah, it was part of this country",
+        "response_text": "Mexico",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "State named by Spanish conquistadors for an imaginary island in the novel \"Las sergas de Esplandian\\\"",
+        "response_text": "California",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 7,
+    "air_date": "1990-09-27",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The name of this state is often found in desserts made with ice cream",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This state bird was named for the English lord who founded Maryland",
+        "response_text": "the (Baltimore) oriole",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This branch of the armed forces trains officers at its academy in New London, Connecticut",
+        "response_text": "the Coast Guard",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Lindbergh's last home was in this state, & he was buried there in 1974",
+        "response_text": "Hawaii",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Grandfather Mountain, the tallest peak in the Blue Ridge Mountains, is in this state",
+        "response_text": "North Carolina",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 6,
+    "air_date": "1990-02-02",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Hey, it's the \"Bay State\\\"",
+        "response_text": "Massachusetts",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The state that contains the mouth of the Mississippi",
+        "response_text": "Louisiana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1947 British driver John Cobb was 1st to travel over 400 MPH on this state's salt beds",
+        "response_text": "Utah",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It contains both the highest & lowest points in the lower 48 states",
+        "response_text": "California",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "3 of the top 10 U.S. cities in population are in this state",
+        "response_text": "Texas (Dallas, Houston, San Antonio)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1989-02-24",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Louisiana was named in honor of the king of this country",
+        "response_text": "France",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "An 8' 8\" cake with 88 gallons of punch was served on 8/8/88 in the town of Eighty-Eight in this \"Bluegrass State\\\"",
+        "response_text": "Kentucky",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The only 2' gauge railroad in the U.S. takes tourists on a trip thru this state's cranberry bogs",
+        "response_text": "Massachusetts",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Uncle Sam Diamond, largest diamond ever discovered in the U.S., came from a mine in this state",
+        "response_text": "Arkansas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state's largest airport is located in Warwick, its 2nd largest city",
+        "response_text": "Rhode Island",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 9,
+    "air_date": "1992-10-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "There are this many states in the conterminus United States",
+        "response_text": "48",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "American metropolitan areas include Dallas-Fort Worth, Minneapolis-St. Paul, and Seattle-this",
+        "response_text": "Tacoma",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The proposed territory of Cimarron is now this state's Panhandle",
+        "response_text": "Oklahoma",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It's not the largest Hawaiian island, but it is the most populous",
+        "response_text": "Oahu",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1 of the 2 states bordered by both Idaho and South Dakota",
+        "response_text": "Wyoming (or Montana)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 11,
+    "air_date": "1995-03-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state produces about 20 million pounds of lobster annually",
+        "response_text": "Maine",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This southeast state's annual flow of tourists outnumbers its resident population by 3 to 1",
+        "response_text": "Florida",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The 201-foot-long Roe River near Great Falls in this state has been called the world's shortest river",
+        "response_text": "Montana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "State in which you'd find Crater of Diamonds State Park",
+        "response_text": "Arkansas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Its state flower is the bluebonnet",
+        "response_text": "Texas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 11,
+    "air_date": "1994-11-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Football fans know this state is the home of the Aloha Bowl",
+        "response_text": "Hawaii",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Wakulla Springs, one of the deepest springs in the U.S., is near Tallahassee in this state",
+        "response_text": "Florida",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Bill Clinton could tell you this state's motto is Regnat Populus— \"The people rule\\\"",
+        "response_text": "Arkansas",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It's the only U.S. state that's larger than Texas",
+        "response_text": "Alaska",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Tuscaloosa was the capital of this state from 1826 until 1846",
+        "response_text": "Alabama",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 18,
+    "air_date": "2002-01-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's nicknamed the \"Baked Bean State\\\"",
+        "response_text": "Massachusetts",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Granite Peak is the highest point in this state whose postal abbreviation also stands for \"mountain\\\"",
+        "response_text": "Montana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Containing over 75 percent of the U.S. land over 10,000 feet, this is the state with the highest mean elevation",
+        "response_text": "Colorado",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1965's Freedom March took place entirely within this state",
+        "response_text": "Alabama",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Though its name is from Algonquin for \"tribe\" of superior men\", this state is on Lake Michigan",
+        "response_text": "Illinois",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE GREAT STATE OF...",
+    "topic_area": "us-states",
+    "season": 25,
+    "air_date": "2009-07-15",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It touches four of the Great Lakes",
+        "response_text": "Michigan",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Its shape reminds me of one of those big foam fingers at sporting events",
+        "response_text": "Idaho",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew shows a map of the Northeast on the monitor.) The combined area of all the other New England states would fit inside this largest New England state",
+        "response_text": "Maine",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It's the smallest state in the Deep South",
+        "response_text": "South Carolina",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Eight other states were formed all or in part from territory this state once claimed",
+        "response_text": "Virginia",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1989-05-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Pony Express ran from St. Joseph, Missouri as far west as this state",
+        "response_text": "California",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This, the \"Mountain State\", has the highest average altitude of any state east of the Mississippi",
+        "response_text": "West Virginia",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state, not Mississippi or Connecticut, has the longest 1-word name",
+        "response_text": "Massachusetts",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Burlington, the largest city in this state, has fewer than 50,000 people",
+        "response_text": "Vermont",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "George Mitchell, the Senate Majority Leader, represents this state",
+        "response_text": "(the state of) Maine",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 10,
+    "air_date": "1994-04-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Counties in this state include Elbert, Boulder & Pueblo",
+        "response_text": "Colorado",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This state is the USA's leading producer of crayfish",
+        "response_text": "Louisiana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Rio Grande River forms about 15 miles of the border between Texas & this state",
+        "response_text": "New Mexico",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "White Mountain National Forest covers about 1/8 of this state",
+        "response_text": "New Hampshire",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1958 construction was completed on a 129-mile turnpike that crosses this state from N.Y. to R.I.",
+        "response_text": "Connecticut",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 6,
+    "air_date": "1989-10-04",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "While Maine borders only 1 state, these 2 don't border any",
+        "response_text": "Alaska & Hawaii",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Though headquartered in this \"Garden State\", Campbell's hasn't used tomatoes its in soup since 1979",
+        "response_text": "New Jersey",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "When Patrick Henry asked for liberty or death, he was standing in what is now this state",
+        "response_text": "Virginia",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Counties in this state include Wood, Deaf Smith, Coke & Pecos",
+        "response_text": "Texas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The 1905 treaty ending the Russo-Japanese war was signed in this state",
+        "response_text": "New Hampshire",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 6,
+    "air_date": "1990-04-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Providence County is this state's largest county in both area & population",
+        "response_text": "Rhode Island",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Symbols of the Cherokee, Chickasaw, Creek, Choctaw & Seminole Indian nations are on its seal",
+        "response_text": "Oklahoma",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "State whose motto \"Eureka\", meaning \"I have found it\" is attributed to Archimedes",
+        "response_text": "California",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This \"Tree Planters State\" in the midwest has the only 2 man-made national forests in the U.S.",
+        "response_text": "Nebraska",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Great Serpent Mound near Hillsboro in this state is an ancient Indian burial site",
+        "response_text": "Ohio",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 11,
+    "air_date": "1994-12-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"The Rushmore State\" is a nickname used to refer to this state",
+        "response_text": "South Dakota",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "New York's nickname \"The Empire State\" was suggested before 1800 by this general",
+        "response_text": "General Washington",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Hoosier National Forest is its only national forest",
+        "response_text": "Indiana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "When it became a state in 1863, Wheeling was its capital",
+        "response_text": "West Virginia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state, which leads the U.S. in wheat production, has been called the \"Breadbasket of America\\\"",
+        "response_text": "Kansas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATE NAMES",
+    "topic_area": "us-states",
+    "season": 16,
+    "air_date": "2000-02-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Literally, this state's name means \"Penn's Woods\\\"",
+        "response_text": "Pennsylvania",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's named for a Great Lake",
+        "response_text": "Michigan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state's name is derived from an Indian word for \"flat water\", a reference to the Platte River",
+        "response_text": "Nebraska",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1629 Captain John Mason named it for his home county in England",
+        "response_text": "New Hampshire",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Rev. Allen Wright, a Choctaw Indian, was responsible for giving this state a Choctaw name meaning \"red people\\\"",
+        "response_text": "Oklahoma",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 6,
+    "air_date": "1989-12-20",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state produces more tobacco products than all the other states combined",
+        "response_text": "North Carolina",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Atchafalaya floodway in this state was designed to control floods on the Mississippi",
+        "response_text": "Louisiana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Gerald Ford is the only Congressman from this state to become president",
+        "response_text": "Michigan",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Over 70 varieties of gems & semiprecious stones can be found in this, the \"Gem State\\\"",
+        "response_text": "Idaho",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Noted for its progressivism, this Midwest state passed the 1st Unemployment Compensation Act in 1932",
+        "response_text": "Wisconsin",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 4,
+    "air_date": "1988-07-14",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The 1st atomic bomb was exploded, aptly, in this state whose name is from that of an Aztec war god",
+        "response_text": "New Mexico",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The easternmost section of Rhode Island cannot be reached by land without going thru this state",
+        "response_text": "Massachusetts",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Michigan borders all the Great Lakes except this one",
+        "response_text": "Lake Ontario",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "You'll find the great Miami River, the Little Miami River, & Miami University in this state",
+        "response_text": "Ohio",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This western state has the highest coastal sand dunes & the deepest lake in the U.S.",
+        "response_text": "Oregon",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 26,
+    "air_date": "2009-09-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Bismarck is the second-largest city in this state",
+        "response_text": "North Dakota",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Its dairy industry is the largest in New England",
+        "response_text": "Vermont",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Its state vegetables are the chile & frijoles",
+        "response_text": "New Mexico",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "During the War of 1812 thousands in this state volunteered to enlist, hence its \"Volunteer State\" nickname",
+        "response_text": "Tennessee",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Appalled by the conditions of debtors in prison in England, James Oglethorpe started this as a debtor's colony",
+        "response_text": "Georgia",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 12,
+    "air_date": "1995-10-04",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1901 oil was discovered at Red Fork, near Tulsa in this state",
+        "response_text": "Oklahoma",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Beaches on this state's Atlantic coast include windy Hill, Seabrook Island & Hilton Head Island",
+        "response_text": "South Carolina",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Of the 6 New England states, it's the one farthest east",
+        "response_text": "Maine",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Among this state's nicknames are \"Land of Steady Habits\", \"The Brownstone State\" & \"The Nutmeg State\\\"",
+        "response_text": "Connecticut",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "With a population of less than 500,000, this Rocky Mountain state is the USA's least populous",
+        "response_text": "Wyoming",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 4,
+    "air_date": "1987-10-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The lowest point of elevation in Louisiana is 5 feet below sea level in this port city",
+        "response_text": "New Orleans",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Some say Secretary of State William H. Seward selected the name for this state",
+        "response_text": "Alaska",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's known as \"The land where the tall corn grows\\\"",
+        "response_text": "Iowa",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It leads the world in producing sardine cans, but it's called the Pine Tree State",
+        "response_text": "Maine",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Congress gave this state the option to divide itself into 5 other states, but it never has",
+        "response_text": "Texas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 13,
+    "air_date": "1996-12-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Its state sport is dog mushing",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This state's largest lake is Yellowstone Lake in the northwest",
+        "response_text": "Wyoming",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's known as \"The Land Where the Tall Corn Grows\\\"",
+        "response_text": "Iowa",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "One of its oldest universities is named for Robert Baylor, who helped craft its state constitution",
+        "response_text": "Texas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In Latin its state motto is \"Montani Semper Liberi\\\"",
+        "response_text": "West Virginia (\"Mountaineers are Always Free\")",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1988-11-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The 2 states that border no other states",
+        "response_text": "Alaska & Hawaii",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Of Colorado, New Mexico or Arizona, the state where the Rio Grande begins",
+        "response_text": "Colorado",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Besides X, Y & Z, 2 of the 3 consonants that don't begin a state's name",
+        "response_text": "J & Q (& B)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The last major land battle of the Revolutionary War took place in this state",
+        "response_text": "Virginia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state got its nickname, \"Badger State\", from the 1820s miners who dug into its hillsides",
+        "response_text": "Wisconsin",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 9,
+    "air_date": "1992-10-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state produces over 30% of the nation's cheese",
+        "response_text": "Wisconsin",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Hawaii's state seal features a shield flanked by the goddess of liberty & this king",
+        "response_text": "King Kamehameha",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This \"Cornhusker\" State's name comes from an Indian word for \"flat water\", a reference to the Platte River",
+        "response_text": "Nebraska",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This \"Down East\" state is bordered by only 1 state & 2 provinces",
+        "response_text": "Maine",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The pecan is the state nut not of Georgia, but of this neighbor to the west",
+        "response_text": "Alabama",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 3,
+    "air_date": "1987-04-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Number of stars on the state flag of Texas",
+        "response_text": "1",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The tallest building in this state is the 110-story Sears Tower",
+        "response_text": "Illinois",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In the 1790 census, this state had the most people, a few of whom didn't go on to be president",
+        "response_text": "Virginia",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Of N.Y., N.J., or N.M., the one, according to the World Almanac, with the most poultry",
+        "response_text": "New York",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The World Book lists 5 state songs for it, including, \"Rocky Top\\\"",
+        "response_text": "Tennessee",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 12,
+    "air_date": "1996-05-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Alaska's state fossil is this mammoth; hey, it's cold there",
+        "response_text": "the woolly mammoth",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Orleans is this state's largest parish in population",
+        "response_text": "Louisiana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "With a population of 19,122, Moscow is one of this Spud State's 10 largest cities",
+        "response_text": "Idaho",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "You'll find the Mystic Marinelife Aquarium in this \"Nutmeg State\\\"",
+        "response_text": "Connecticut",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Before the Civil War, it was nicknamed \"Bleeding\" from the battles over slavery there",
+        "response_text": "Kansas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "COASTAL U.S. STATES",
+    "topic_area": "us-states",
+    "season": 29,
+    "air_date": "2013-07-24",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Its Gulf Coast is between Alabama's & Louisiana's",
+        "response_text": "Mississippi",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Of the 3 coastal western states in the lower 48, its coast is the shortest at 157 miles",
+        "response_text": "Washington",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Bay Head on its famous \"shore\" was ravaged by Superstorm Sandy",
+        "response_text": "New Jersey",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This New England state has the least, a scant 13 miles on the sea",
+        "response_text": "New Hampshire",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Wilmington, near the mouth of the Cape Fear River, is its main seaport",
+        "response_text": "North Carolina",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 4,
+    "air_date": "1987-11-30",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Just over ½ the size of L.A. county, it's the 2nd smallest state in the U.S.",
+        "response_text": "Delaware",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1 of the 2 largest islands off Massachusetts' Cape Cod",
+        "response_text": "Martha's Vineyard or Nantucket Island",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The only U.S. state where coffee is grown commercially",
+        "response_text": "Hawaii",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1986, both this state & its largest city celebrated a sesquicentennial",
+        "response_text": "Texas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In area, this state with fewer than 1 million people is the 4th largest in the U.S.",
+        "response_text": "Montana",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 11,
+    "air_date": "1995-05-05",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Since WWII about half of this state's tax revenues have come from the gambling & tourism industries",
+        "response_text": "Nevada",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The first American steam locomotive, Best Friend of Charleston, was put into service in 1830 in this state",
+        "response_text": "South Carolina",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Okefenokee Swamp swamps parts of these 2 states",
+        "response_text": "Georgia & Florida",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It's the only state that borders only 1 other state",
+        "response_text": "Maine",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Willamette River is the largest river entirely within this state",
+        "response_text": "Oregon",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 5,
+    "air_date": "1988-09-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "After the Civil War, cow towns like Abilene & Dodge City began popping up in this state",
+        "response_text": "Kansas",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Its motto is \"The Crossroads of America\", & its song, \"On The Banks Of The Wabash\\\"",
+        "response_text": "Indiana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This U.S. state, the farthest from England, is the only one whose flag has a Union Jack",
+        "response_text": "Hawaii",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The \"Big Bonanza\", richest silver strike in America, was part of Comstock Lode in this state",
+        "response_text": "Nevada",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Only Alaska & Wyoming have fewer people than this New England state",
+        "response_text": "Vermont",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 13,
+    "air_date": "1997-01-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Colorado's motto is \"Nothing Without Providence\"; this smallest state's is \"Hope\\\"",
+        "response_text": "Rhode Island",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The moapa dace & bonytail chub are endangered fish in this state known for its gambling & ghost towns",
+        "response_text": "Nevada",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Iowa's capitol building in this city has 5 domes & one of them is covered in 23-karat gold",
+        "response_text": "Des Moines",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Place names that come from Indian tribes in this state include Totowa, Piscataway & Passaic",
+        "response_text": "New Jersey",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Its flag bears the quartered arms of the Calvert & Crossland families",
+        "response_text": "Maryland",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ABBREVIATED U.S. STATES",
+    "topic_area": "us-states",
+    "season": 22,
+    "air_date": "2006-07-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Also a preposition, the abbreviation for this Midwestern state can mean \"popular\" or \"fashionable\\\"",
+        "response_text": "Indiana, IN",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Put \"17\" with the abbreviation for this state & you get an MPAA movie rating",
+        "response_text": "North Carolina, NC",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The abbreviation for this state is one of the 3 basic parts of the human psyche, according to Freud",
+        "response_text": "Idaho, ID",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The 2 states whose abbreviations are informal words for father & mother",
+        "response_text": "Pennsylvania, PA & Massachusetts, MA",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Put the abbreviation for this state with \"scan\" & you get a computerized diagnostic medical technique",
+        "response_text": "Connecticut, CT",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 2,
+    "air_date": "1985-10-16",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It might have been called \"Henriettaland\", for King Charles named it after his queen, Henrietta Maria",
+        "response_text": "Maryland",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Called \"America's breadbasket\", it leads the nation in wheat production",
+        "response_text": "Kansas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "While many states have bays, only this one is \"The Bay State\\\"",
+        "response_text": "Massachusetts",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "World's largest chocolate factory is in this state",
+        "response_text": "Pennsylvania",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This New England state has no cities at all with over 40,000 people",
+        "response_text": "Vermont",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE LARGEST U.S. STATE",
+    "topic_area": "us-states",
+    "season": 23,
+    "air_date": "2007-01-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "New Jersey, New Hampshire, New York",
+        "response_text": "New York",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Virginia, West Virginia, Kentucky",
+        "response_text": "Virginia",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Delaware, Hawaii, Rhode Island",
+        "response_text": "Hawaii",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Washington, Oregon, Idaho",
+        "response_text": "Oregon",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Iowa, Indiana, Illinois",
+        "response_text": "Illinois",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 13,
+    "air_date": "1996-11-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "About 30% of this state's population lives in metropolitan New Orleans",
+        "response_text": "Louisiana",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Hudson-Mohawk Lowland & the Adirondack Upland are 2 of this state's 8 land regions",
+        "response_text": "New York",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's \"The Silver State\\\"",
+        "response_text": "Nevada",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Among this state's few natural lakes are the Bottomless Lakes near Roswell",
+        "response_text": "New Mexico",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state's border with Pennsylvania is the arc of a perfect circle centered in New Castle",
+        "response_text": "Delaware",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 1,
+    "air_date": "1985-03-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Population 51,016, Casper is this state's largest city",
+        "response_text": "Wyoming",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It held the World's Fair in '39 & '40 & another one in '64 & '65",
+        "response_text": "New York",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The United Nations' charter was adopted in this state",
+        "response_text": "California",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Nicknamed \"The Heart of Dixie,\" its capital served as a capital of the Confederacy",
+        "response_text": "Alabama",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In June, this state is the site of the Nat'l Hollerin' Contest in Spivey's Corners, near Fayetteville",
+        "response_text": "North Carolina",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 6,
+    "air_date": "1990-04-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Mt. Waialeale, the wettest spot in the world, is located in this state",
+        "response_text": "Hawaii",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The capital of this state was named for Pierre Chouteau, a French fur trader",
+        "response_text": "South Dakota",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Hawkeyes of this \"Hawkeye State\" must read a lot—they have the highest literacy rate in the U.S.",
+        "response_text": "Iowa",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Canyonlands National Park & Arches National Park are tourist attractions in this state",
+        "response_text": "Utah",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state ceded Tennessee to the U.S. in 1784, then reclaimed it & ceded it again in 1789",
+        "response_text": "North Carolina",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 4,
+    "air_date": "1988-02-29",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Old Spanish Trail began in what is now this \"New\" state & ended in California",
+        "response_text": "New Mexico",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It measures about 48 by 37 miles",
+        "response_text": "Rhode Island",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "If you want to winter at Valley Forge, just like Washington did, you have to go to this state",
+        "response_text": "Pennsylvania",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Martin Luther King Jr. is buried in this state",
+        "response_text": "Georgia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Among this state's tourist attractions are a tulip festival in Holland & the Soo Locks",
+        "response_text": "Michigan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 1,
+    "air_date": "1985-02-12",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Only state with Arctic and Pacific coastlines",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Center of early fur trading known as \"The Beaver State\\\"",
+        "response_text": "Oregon",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "State with this tune as its official state song \"Way down upon the Swanee River / Far, far away...\\\"",
+        "response_text": "Florida",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Only state ending in \"K\\\"",
+        "response_text": "New York",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Palmetto State, smallest in the Deep South",
+        "response_text": "South Carolina",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 1,
+    "air_date": "1985-01-30",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "State you'd go to, to visit U.S. Air Force Academy",
+        "response_text": "Colorado",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Living up to its reputation, its state capitol building is the largest",
+        "response_text": "Texas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Lake Itasca, the source of the Mississippi river, is there",
+        "response_text": "Minnesota",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Asheville & Asheboro, Greenville & Greensboro are in this state",
+        "response_text": "North Carolina",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Its Gulf coast is the shortest, 44 miles",
+        "response_text": "Mississippi",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 16,
+    "air_date": "1999-11-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It consists of 8 major & 124 minor islands",
+        "response_text": "Hawaii",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This state has more ethnic Norwegians than any other state, most of them in the Twin Cities area",
+        "response_text": "Minnesota",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Reflecting its Catholic heritage, this state has 64 parishes & no counties",
+        "response_text": "Louisiana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Its license plates bear a flag depicting the Big Dipper & the North Star",
+        "response_text": "Alaska",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Its highest point is 5,344-foot Mount Marcy in the Adirondacks",
+        "response_text": "New York",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 7,
+    "air_date": "1991-07-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Not surprisingly, this state's official sport is mushing",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Celebrated in Cheyenne since 1897, Frontier Days is this state's most popular annual event",
+        "response_text": "Wyoming",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This state's historical society publishes a series of books for students called \"Badger History\\\"",
+        "response_text": "Wisconsin",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1965 the chile pepper & the frijol bean became this state's official vegetables",
+        "response_text": "New Mexico",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Studebaker, which closed its South Bend plant in 1963, was the last major automaker based in this state",
+        "response_text": "Indiana",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 4,
+    "air_date": "1988-01-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state is almost twice the size of Scandinavia",
+        "response_text": "Alaska",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Located in this state, Rock Island is the site of the government's largest military arsenal",
+        "response_text": "Illinois",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Of about 10, 15, or 25, % of world's oranges produced in Florida",
+        "response_text": "25",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This state produces more tobacco products than all other U.S. states combined",
+        "response_text": "North Carolina",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1 of 2 Gulf states containing the area of black clay soils known as the \"Black Belt\\\"",
+        "response_text": "Mississippi (or Alabama)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 10,
+    "air_date": "1993-10-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The USA's largest popcorn processing plant is in Sioux City in this state",
+        "response_text": "Iowa",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Aniakchak National Monument in this state is the 2500'-deep caldera of a volcano",
+        "response_text": "Alaska",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Pontchartrain Railroad opened in 1832 in this state",
+        "response_text": "Louisiana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This state uses the Greek word \"Eureka\" as its motto",
+        "response_text": "California",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Its Coleman Du Pont Highway was begun in 1913 with private funds & later completed by the state",
+        "response_text": "Delaware",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 7,
+    "air_date": "1991-05-08",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's the official state beverage of Mississippi & its source is the official domestic animal of Wisconsin",
+        "response_text": "milk",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Famous flyers from this state include Eddie Rickenbacker, John Glenn & Orville Wright",
+        "response_text": "Ohio",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "These words in the nicknames of California & New Jersey both end with \"D-E-N\\\"",
+        "response_text": "garden & golden",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This state was named for the man who was King of England in 1732",
+        "response_text": "Georgia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "It borders 4 of the 5 Great Lakes",
+        "response_text": "Michigan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 3,
+    "air_date": "1986-10-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Spanish for \"snow clad\", this state is best known for its desert gambling resort",
+        "response_text": "Nevada",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The only 2 U.S. states to begin with the letter \"T\", they both have the mockingbird as state bird",
+        "response_text": "Tennessee and Texas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "State with the highest percentage of population age 65 or older",
+        "response_text": "Florida",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Admitted on same day in 1889, it's said N. Dakota was called 39th state, S. Dakota 40th for this reason",
+        "response_text": "South Dakota comes alphabetically after North Dakota",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state's capital was named in honor of Princess Anne of England",
+        "response_text": "Annapolis",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 6,
+    "air_date": "1990-03-20",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "We acquired this state by treaty 9 days after gold was discovered at Sutter's Mill",
+        "response_text": "California",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The southernmost city, town & point in the 50 states are located on this Hawaiian island",
+        "response_text": "the island of Hawaii (the Big Island)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Farms occupy 95% of the land in this Cornhusker State, more than any other",
+        "response_text": "Nebraska",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This future state song of Maryland was a battle song for Confederate soldiers",
+        "response_text": "\\\"Maryland, My Maryland\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Colorado River enters Arizona from this state",
+        "response_text": "Utah",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 1,
+    "air_date": "1984-12-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Empire State",
+        "response_text": "New York",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The ceiling of its capitol features a lone star",
+        "response_text": "Texas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Only U.S. state with a \"Z\" in its name",
+        "response_text": "Arizona",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The New England state without an Atlantic Ocean coastline",
+        "response_text": "Vermont",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "8th state of the Union, it was the 1st state to secede",
+        "response_text": "South Carolina",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 3,
+    "air_date": "1987-01-07",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Providence Plantations\" is part of its official name",
+        "response_text": "Rhode Island",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This state's coastline is longer than Atlantic, Gulf & Pacific coasts of all other states combined",
+        "response_text": "Alaska",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Its 3 largest cities all begin with the letter \"C\\\"",
+        "response_text": "Ohio (Columbus, Cleveland & Cincinnati)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Knights of Ak-Sar-Ben are a civic organization sponsoring an annual rodeo in this state",
+        "response_text": "Nebraska",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1st Catholic cathedral in the U.S. was built in this state",
+        "response_text": "Maryland",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 2,
+    "air_date": "1985-10-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "13th to enter the Union, it must have been Providence, or we'd have had a flag with 12 stripes",
+        "response_text": "Rhode Island",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "While New York is the Empire State of the north, this is \"The Empire State of the South\\\"",
+        "response_text": "Georgia",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The geographic center of this state is Delaware, 25 miles north of Columbus",
+        "response_text": "Ohio",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Both Sun Valley & the Craters of the Moon are tourist attractions in this state",
+        "response_text": "Idaho",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Francis Scott Key didn't have to leave this, his home state, to spend the night near Ft. McHenry",
+        "response_text": "Maryland",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 3,
+    "air_date": "1987-05-04",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Even a baby can say this official postal abbreviation for the state of Washington",
+        "response_text": "WA",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Of Michigan, Minnesota, or Wisconsin, the only state whose land mass borders on Canada",
+        "response_text": "Minnesota",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Reason why in 1959 the geographic center of the U.S. moved from Kansas to South Dakota",
+        "response_text": "Alaskan statehood",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "3 of 5 neighboring states from which you can go marching through Georgia",
+        "response_text": "(3 of) Florida, South Carolina, Alabama, Tennessee, and North Carolina",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state has the most Interstate miles, over 3000, including parts of I-10, 20, 30, & 40",
+        "response_text": "Texas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "U.S. STATES",
+    "topic_area": "us-states",
+    "season": 8,
+    "air_date": "1992-07-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This state leads all others in the production of apples",
+        "response_text": "Washington",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"The Old Colony State\", one of Massachusetts' nicknames, refers to this early colony",
+        "response_text": "Plymouth",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1976 the Great Falls of the Passaic River, in this state were dedicated as a national historic site",
+        "response_text": "New Jersey",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In pioneer days, it was known as the Bear State; later it became the \"Land of Opportunity\\\"",
+        "response_text": "Arkansas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This state ranks first in the manufacture of machine tools & rubber products",
+        "response_text": "Ohio",
+        "dollar_value": 1000
+      }
+    ]
+  }
+]

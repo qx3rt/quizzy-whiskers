@@ -1,0 +1,36 @@
+[
+  {
+    "name": "POTENT POE TALES",
+    "topic_area": "poe",
+    "season": 35,
+    "air_date": "2019-01-24",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"The Pit and the Pendulum\" finds a man sentenced to death by this tribunal in Toledo",
+        "response_text": "the Inquisition",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Poe story's title is realized as the narrator flees the \"House\" as it cracks & is torn asunder",
+        "response_text": "\\\"The Fall of the House of Usher\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"I admit the deed!—Tear up the planks!\" shouts the murderer as he shows the police this title body part",
+        "response_text": "the tell-tale heart",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "A stolen document provides the title of this story featuring detective C. Auguste Dupin",
+        "response_text": "\\\"The Purloined Letter\\\"",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "It is noted twice in a certain Poe short story that Luchesi cannot tell the difference between sherry & this other drink",
+        "response_text": "amontillado",
+        "dollar_value": 2000
+      }
+    ]
+  }
+]

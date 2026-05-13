@@ -1,48 +1,50 @@
-import { getAllCategories } from '../models/categories.js';
-import { getRandomCluesByCategory } from '../models/clues.js';
+import { getAllQuery } from '../db/database.js'
 
-export function generateCuratedBoard(selectedCategoryIds = null) {
-  const allCategories = getAllCategories();
+// Generates a 6-column board. Each column is a real Jeopardy! category-set
+// (original episode category name + 5 clues in dollar-value order).
+//
+// topicAreas: array of topic slugs (e.g. ['shakespeare', 'mythology'])
+// If empty, picks from all available topics at random.
+export function generateCuratedBoard(topicAreas = []) {
+  let candidates
 
-  // If specific categories requested, use those; otherwise pick 6 random
-  let selectedCategories = selectedCategoryIds && selectedCategoryIds.length > 0
-    ? allCategories.filter(c => selectedCategoryIds.includes(c.id))
-    : allCategories.sort(() => Math.random() - 0.5).slice(0, 6);
-
-  // Ensure we have 6 categories
-  if (selectedCategories.length < 6) {
-    selectedCategories = selectedCategories.concat(
-      allCategories.filter(c => !selectedCategories.find(sc => sc.id === c.id))
-    ).slice(0, 6);
+  if (topicAreas.length > 0) {
+    // sql.js doesn't support IN (?) with an array — build placeholders manually
+    const placeholders = topicAreas.map(() => '?').join(', ')
+    candidates = getAllQuery(
+      `SELECT id, name, topic_area, season, air_date, round
+       FROM categories
+       WHERE topic_area IN (${placeholders})`,
+      topicAreas
+    )
+  } else {
+    candidates = getAllQuery(
+      'SELECT id, name, topic_area, season, air_date, round FROM categories'
+    )
   }
 
-  // For each category, get 5 random clues
-  const board = selectedCategories.map(category => {
-    const clues = getRandomCluesByCategory(category.id, 5);
+  if (candidates.length === 0) {
+    return []
+  }
 
-    // If not enough clues, pad with available ones
-    if (clues.length < 5) {
-      // This can happen if category has fewer than 5 clues
-      console.warn(`Category "${category.name}" has fewer than 5 clues (${clues.length})`);
-    }
+  // JS shuffle (sql.js has no ORDER BY RANDOM())
+  const shuffled = candidates.sort(() => Math.random() - 0.5).slice(0, 6)
+
+  return shuffled.map(cat => {
+    const clues = getAllQuery(
+      'SELECT id, clue_text, response_text, dollar_value FROM clues WHERE category_id = ? ORDER BY dollar_value ASC',
+      [cat.id]
+    )
 
     return {
-      category_id: category.id,
-      category_name: category.name,
-      clues: clues.map((clue, index) => ({
-        id: clue.id,
-        value: (index + 1) * 200, // $200, $400, $600, $800, $1000
-        clue_text: clue.clue_text,
-        response_text: clue.response_text,
-        difficulty_level: clue.difficulty_level
-      }))
-    };
-  });
-
-  return board;
-}
-
-export function generateBoardByCategories(categoryIds) {
-  // User selected specific categories
-  return generateCuratedBoard(categoryIds);
+      category: cat.name,         // Original Jeopardy! category name — shown as board column header
+      topic_area: cat.topic_area,
+      clues: clues.map(c => ({
+        id: c.id,
+        value: c.dollar_value,
+        clue_text: c.clue_text,
+        response_text: c.response_text,
+      })),
+    }
+  })
 }

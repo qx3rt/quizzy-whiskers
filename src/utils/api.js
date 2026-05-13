@@ -8,19 +8,20 @@ async function request(path) {
   return response.json()
 }
 
+// Returns topic areas: [{ id, name, category_count }]
 export async function fetchCategories() {
   const json = await request('/api/categories')
   return json.data
 }
 
-// Accepts optional array of category IDs to request a specific board.
-// Maps API shape → app shape so game logic doesn't need to change.
-export async function fetchBoard(categoryIds = []) {
-  const qs = categoryIds.length ? `?categories=${categoryIds.join(',')}` : ''
+// topicSlugs: optional array of topic area ids (e.g. ['shakespeare', 'mythology'])
+// Maps API shape → app shape expected by game logic.
+export async function fetchBoard(topicSlugs = []) {
+  const qs = topicSlugs.length ? `?topics=${topicSlugs.join(',')}` : ''
   const json = await request(`/api/board${qs}`)
 
   return json.data.map((column) => ({
-    category: column.category_name,
+    category: column.category,
     clues: column.clues.map((clue) => ({
       id: clue.id,
       value: clue.value,

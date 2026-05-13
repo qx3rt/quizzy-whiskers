@@ -86,7 +86,7 @@ function answersMatch(userAnswer, correctAnswer) {
 function App() {
   const [boardData, setBoardData] = useState([])
   const [categories, setCategories] = useState([])
-  const [selectedCategoryIds, setSelectedCategoryIds] = useState([])
+  const [selectedTopics, setSelectedTopics] = useState([])
   const [boardLoading, setBoardLoading] = useState(true)
   const [boardError, setBoardError] = useState(null)
   const [showCategoryPicker, setShowCategoryPicker] = useState(false)
@@ -109,7 +109,7 @@ function App() {
     setIsCorrect(null)
     setScore(0)
     try {
-      const data = await fetchBoard(categoryIds)
+      const data = await fetchBoard(categoryIds)  // categoryIds is now topic slugs
       setBoardData(data)
     } catch (err) {
       setBoardError('Could not load board. Make sure the backend is running.')
@@ -151,9 +151,9 @@ function App() {
     return () => window.clearTimeout(timerId)
   }, [activeClue, isSubmitted, didTimeExpire, timeRemaining])
 
-  function toggleCategoryId(id) {
-    setSelectedCategoryIds((prev) => {
-      if (prev.includes(id)) return prev.filter((c) => c !== id)
+  function toggleTopic(id) {
+    setSelectedTopics((prev) => {
+      if (prev.includes(id)) return prev.filter((t) => t !== id)
       if (prev.length >= 6) return prev
       return [...prev, id]
     })
@@ -161,7 +161,7 @@ function App() {
 
   function handleStartBoard() {
     setShowCategoryPicker(false)
-    loadBoard(selectedCategoryIds)
+    loadBoard(selectedTopics)
   }
 
   function handleClueSelect(selectedClue) {
@@ -210,7 +210,7 @@ function App() {
   }
 
   const showReveal = isSubmitted || didTimeExpire
-  const atCategoryLimit = selectedCategoryIds.length >= 6
+  const atCategoryLimit = selectedTopics.length >= 6
 
   return (
     <main className="app-shell">
@@ -248,7 +248,7 @@ function App() {
 
           <div className="hero-card">
             <span className="card-label">Archive-backed</span>
-            <h3>{categories.length} categories · {categories.reduce((sum, c) => sum + (c.clue_count || 0), 0).toLocaleString()} clues</h3>
+            <h3>{categories.length} topics · {categories.reduce((sum, c) => sum + (c.category_count || 0), 0).toLocaleString()} boards</h3>
             <p>
               Real Jeopardy archive data, quality-filtered and ready to play.
             </p>
@@ -263,26 +263,26 @@ function App() {
                 <h3>Choose up to 6 categories</h3>
               </div>
               <span className="panel-tag">
-                {selectedCategoryIds.length === 0
+                {selectedTopics.length === 0
                   ? 'Random'
-                  : `${selectedCategoryIds.length} / 6 selected`}
+                  : `${selectedTopics.length} / 6 selected`}
               </span>
             </div>
 
             <div className="category-picker-grid">
               {categories.map((cat) => {
-                const isSelected = selectedCategoryIds.includes(cat.id)
+                const isSelected = selectedTopics.includes(cat.id)
                 const isDisabled = !isSelected && atCategoryLimit
                 return (
                   <button
                     key={cat.id}
                     type="button"
                     className={`category-chip ${isSelected ? 'category-chip-selected' : ''} ${isDisabled ? 'category-chip-disabled' : ''}`}
-                    onClick={() => toggleCategoryId(cat.id)}
+                    onClick={() => toggleTopic(cat.id)}
                     disabled={isDisabled}
                   >
                     <strong>{cat.name}</strong>
-                    <span>{cat.clue_count} clues</span>
+                    <span>{cat.category_count} boards</span>
                   </button>
                 )
               })}
@@ -294,13 +294,13 @@ function App() {
                 type="button"
                 onClick={handleStartBoard}
               >
-                {selectedCategoryIds.length === 0 ? 'Start with random categories' : 'Start board'}
+                {selectedTopics.length === 0 ? 'Start with random topics' : 'Start board'}
               </button>
-              {selectedCategoryIds.length > 0 && (
+              {selectedTopics.length > 0 && (
                 <button
                   className="secondary-button"
                   type="button"
-                  onClick={() => setSelectedCategoryIds([])}
+                  onClick={() => setSelectedTopics([])}
                 >
                   Clear selection
                 </button>
@@ -318,7 +318,7 @@ function App() {
             <button
               className="panel-tag panel-tag-button"
               type="button"
-              onClick={() => loadBoard(selectedCategoryIds)}
+              onClick={() => loadBoard(selectedTopics)}
               disabled={boardLoading}
             >
               {boardLoading ? 'Loading…' : 'New board'}

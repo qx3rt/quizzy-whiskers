@@ -1,0 +1,444 @@
+[
+  {
+    "name": "HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 5,
+    "air_date": "1989-03-06",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Fighting depression, he underwent shock treatments at this Minnesota medical center",
+        "response_text": "the Mayo Clinic",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1 of the 4 women he married",
+        "response_text": "(1 of) Mary Welsh, Hadley Richardson Pauline Pfeifrer & Martha Gellhorn",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In \"The Old Man & the Sea\", they ate the giant marlin the old fisherman caught",
+        "response_text": "the sharks",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1938 he wrote his only play, \"The Fifth Column\", which dealt with this war",
+        "response_text": "the Spanish Civil War",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Hemingway's minor novel of 1937 that became the 1st film to pair Bogie & Bacall",
+        "response_text": "To Have and Have Not",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "HEMINGWAY BOOKS",
+    "topic_area": "hemingway",
+    "season": 11,
+    "air_date": "1994-11-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "At the end of this 1952 novella, Manolin promises to accompany Santiago on future fishing trips",
+        "response_text": "\\\"The Old Man and the Sea\\\"",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Sport that's the subject of \"The Dangerous Summer\" as well as \"Death in the Afternoon\\\"",
+        "response_text": "Bullfighting",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The title of this novel of the Spanish Civil War comes from John Donne's \"Meditation XVII\\\"",
+        "response_text": "\\\"For Whom the Bell Tolls\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He drew on his World War II experience looking for German submarines for this novel published in 1970",
+        "response_text": "\\\"Islands in the Stream\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Lt. Frederic Henry leaves the Italian army & flees to Switzerland with Catherine in this novel",
+        "response_text": "\\\"A Farewell to Arms\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "HEMINGWAY WORKS IN OTHER WORDS",
+    "topic_area": "hemingway",
+    "season": 22,
+    "air_date": "2006-03-09",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Grandpa with Ocean\\\"",
+        "response_text": "The Old Man and the Sea",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"So Long, Weaponry\\\"",
+        "response_text": "A Farewell to Arms",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"One Transferable Banquet\\\"",
+        "response_text": "A Moveable Feast",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "\\\"A Star Ascends As Well\\\"",
+        "response_text": "The Sun Also Rises",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "\\\"Extinction Following Lunch\\\"",
+        "response_text": "Death in the Afternoon",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 37,
+    "air_date": "2021-04-05",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Ken Burns narrates the clue.) Hemingway's father nurtured his love of the outdoors on Walton Lake in this state, 300 miles north, northeast of the family home near Chicago",
+        "response_text": "Michigan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Ken Burns narrates the clue.) Hemingway gave his first son a middle name Nicanor, after a Spanish star of this arena sport that the writer had become enthralled with",
+        "response_text": "bullfighting",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Ken Burns narrates the clue.) Hemingway portrayed his friends in this first novel; Harold Loeb became the unattractive Robert Cohn, whose name begins the book",
+        "response_text": "The Sun Also Rises",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "(Ken Burns narrates the clue.) An anecdote in the 1936 Esquire piece was the basis for this 1952 bestseller that brought Hemingway new acclaim",
+        "response_text": "The Old Man and the Sea",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "(Ken Burns narrates the clue.) The third Mrs. H., Martha Gellhorn, was a fellow correspondent & the lovers bonded in this war-torn capital in the 1930s",
+        "response_text": "Madrid",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 38,
+    "air_date": "2022-07-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Hemingway's first great love, Agnes, was his nurse during WWI after he was hit by 200 pieces of this, fragments from a mortar",
+        "response_text": "shrapnel",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Hemingway bought his longtime home in Cuba from the sale of film rights to this novel set during the Spanish Civil War",
+        "response_text": "For Whom the Bell Tolls",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Hemingway's \"To Have & Have Not\" is less remembered as a novel than as the film that kindled the romance of these 2 co-stars",
+        "response_text": "Bogie & Bacall (Humphrey Bogart & Lauren Bacall)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Per the title, a cafe in a famous Hemingway story is not just clean but this",
+        "response_text": "well-lighted",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Hemingway ate his last meal on July 1, 1961 at Michel's Christiania Restaurant, still a hangout for skiers in this Idaho city",
+        "response_text": "Ketchum",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MAKE WAY FOR HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 17,
+    "air_date": "2001-01-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Death in the Afternoon\" is a treatise on this, which Hemingway considered a tragic spectacle, not a sport",
+        "response_text": "Bullfighting",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Hemingway served as an ambulance driver during WWI, like Frederic Henry, the hero of this novel",
+        "response_text": "\\\"A Farewell to Arms\\\"",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The title of this Hemingway novel set during the Spanish Civil War comes from one of John Donne's \"Devotions\\\"",
+        "response_text": "\\\"For Whom the Bell Tolls\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"In Our Time\", a collection of short stories, features this character who is similar to Hemingway",
+        "response_text": "Nick Adams",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This 1926 novel begins, \"Robert Cohn was once middleweight boxing champion of Princeton\\\"",
+        "response_text": "\\\"The Sun Also Rises\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 1,
+    "air_date": "1984-11-06",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "His \"fatherly\" nickname",
+        "response_text": "Papa",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Hemingway novel that became movie in which Bogie met Bacall",
+        "response_text": "To Have and Have Not",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The grand-daughter who tried her best in \"Personal Best\\\"",
+        "response_text": "Mariel Hemingway",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Oak Park, Illinois, was the 1st, Ketchum, Idaho, the last",
+        "response_text": "the birthplace and death place of Hemingway",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Wartime occupation he shared with his hero in \"Farewell to Arms\\\"",
+        "response_text": "an ambulance driver",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 32,
+    "air_date": "2015-10-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Santiago is the title figure of this novella",
+        "response_text": "The Old Man and the Sea",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In \"A Moveable Feast\", Hemingway recalled his wild youth in this city",
+        "response_text": "Paris",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In this novel American Robert Jordan joins the Republican Army in Spain",
+        "response_text": "For Whom the Bell Tolls",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In 1928 Hemingway went to a Princeton game with this author, who got drunk after the game",
+        "response_text": "(F. Scott) Fitzgerald",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Harry is dying of gangrene while on safari in Africa in this short story",
+        "response_text": "\\\"The Snows of Kilimanjaro\\\"",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 7,
+    "air_date": "1991-06-13",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He was there to see this city that he called \"A Moveable Feast\" liberated during WWII",
+        "response_text": "Paris",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Ingrid Bergman played Maria in the film version of this Spanish Civil War novel",
+        "response_text": "For Whom the Bell Tolls",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Both Hemingway & his hero in \"A Farewell to Arms\" served in this capacity in WWI",
+        "response_text": "ambulance driver (an ambulance attendant)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Hemingway defined courage as this \"under pressure\\\"",
+        "response_text": "grace",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Considered his alter ego, this character is the hero of a series of his short stories",
+        "response_text": "Nick Adams",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ERNEST HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 41,
+    "air_date": "2025-01-29",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Hemingway lived for over 20 years at the hilltop estate known as Finca Vigia, or \"Lookout Farm\", outside this Caribbean capital",
+        "response_text": "Havana",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Hemingway, an avid angler, caught many of these large sport fish; his \"Old Man\" character only managed one blue one",
+        "response_text": "marlin",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Titled \"Fiesta\" in England, this novel told of Lost Generation Yanks & Brits in France & Spain in the 1920s",
+        "response_text": "The Sun Also Rises",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Hemingway looked back on his life as a young writer in 1920s Paris in this memoir",
+        "response_text": "A Moveable Feast",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Ernest was an ambulance driver in World War I, just like his hero Frederic Henry in this novel",
+        "response_text": "A Farewell to Arms",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ERNEST HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 26,
+    "air_date": "2009-10-13",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Hemingway won the Nobel Prize for Literature in 1954 & this American literary prize in 1953",
+        "response_text": "the Pulitzer",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Hemingway's novel \"For Whom the Bell Tolls\" primarily drew upon his experiences during this pre-WWII conflict",
+        "response_text": "the Spanish Civil War",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Hemingway began his writing career as a teenage reporter for this Midwest city's Star newspaper",
+        "response_text": "Kansas City",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In the 1920s Hemingway bailed this innovative Irish novelist out of a few Paris bar fights",
+        "response_text": "James Joyce",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Hemingway sadly ended his own life in Ketchum in this state in 1961",
+        "response_text": "Idaho",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "ERNEST HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 22,
+    "air_date": "2006-01-04",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Sarah of the Clue Crew delivers the clue from the JFK Library and Museum wearing a metal ring.) Hemingway wore this ring for luck; it's made with shrapnel from the injuries he suffered during this war",
+        "response_text": "the First World War",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Descendants of Hemingway's beloved 6-toed cat abound in his home on Whitehead Street in this Florida city",
+        "response_text": "Key West",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The first section of this Hemingway book is appropriately called \"Bimini\\\"",
+        "response_text": "Islands in the Stream",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "A letter of introduction from this \"Winesburg, Ohio\" author helped Hemingway meet the literary lights of Europe",
+        "response_text": "Sherwood Anderson",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "(Cheryl of the Clue Crew delivers the clue from the JFK Library & Museum holding a composition book.) I'm holding Ernest Hemingway's first draft of this novel; you can see that his working title for it was \"Fiesta\\\"",
+        "response_text": "The Sun Also Rises",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "HEMINGWAY",
+    "topic_area": "hemingway",
+    "season": 4,
+    "air_date": "1987-12-24",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He said that like these floating objects, only the tip of a writer's knowledge should appear in a novel",
+        "response_text": "an iceberg",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1937, he went as a war correspondent to this country to cover its war",
+        "response_text": "Spain",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Story about a writer who composes stories in his mind the last hours before his death in Africa",
+        "response_text": "\\\"The Snows of Kilimanjaro\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1954, he won the Nobel Prize for Literature, 1 year after he won the Pulitzer for this novel",
+        "response_text": "The Old Man and the Sea",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1920s Paris, he was spokesman for a group of disillusioned writers dubbed this by G. Stein",
+        "response_text": "the Lost Generation",
+        "dollar_value": 1000
+      }
+    ]
+  }
+]
