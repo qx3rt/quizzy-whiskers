@@ -40,10 +40,6 @@
     "response": "orbit"
   },
   {
-    "clue": "The green muse",
-    "response": "Absinthe"
-  },
-  {
     "clue": "Proposed in the 19th century, Olbers' Paradox questions why light from these doesn't illuminate the night sky",
     "response": "stars"
   },
@@ -58,10 +54,6 @@
   {
     "clue": "This architect led the design team of Sao Paulo's Ibirapuera Park, which has a planetarium shaped like a flying saucer",
     "response": "Oscar Niemeyer"
-  },
-  {
-    "clue": "Hitchhiker's Guide to the Galaxy",
-    "response": "android"
   },
   {
     "clue": "Its 7 -mile diameter is only slightly less than that of the Earth",
@@ -220,20 +212,12 @@
     "response": "solar & scholar"
   },
   {
-    "clue": "Guardians of the Galaxy",
-    "response": "Glenn Close"
-  },
-  {
     "clue": "Newts are New Hampshire's state amphibian, partly for helping track this form of liquid pollution",
     "response": "acid rain"
   },
   {
     "clue": "This planet has the shortest year, 88 days",
     "response": "Mercury"
-  },
-  {
-    "clue": "quasi-stellar radio sources",
-    "response": "quasars"
   },
   {
     "clue": "Polaris, the polestar, is part of its handle",
@@ -348,10 +332,6 @@
     "response": "Ursa Major"
   },
   {
-    "clue": "The Dragons of Eden",
-    "response": "Carl Sagan"
-  },
-  {
     "clue": "In astronomy a darkened circle indicates the moon is in this phase",
     "response": "New Moon"
   },
@@ -362,10 +342,6 @@
   {
     "clue": "Charon paddles around this dwarf planet",
     "response": "Pluto"
-  },
-  {
-    "clue": "A Synopsis of the Astronomy of Comets",
-    "response": "(Edmond) Halley"
   },
   {
     "clue": "In this Pierre Boulle novel, chimps & gorillas rule & men live like beasts",
@@ -398,10 +374,6 @@
   {
     "clue": "The constellation Auriga, the charioteer, contains 1 of the horntips of this constellation",
     "response": "Taurus, the bull"
-  },
-  {
-    "clue": "Saturday Night Live",
-    "response": "the Coneheads"
   },
   {
     "clue": "Created by a French astronomer in the 1930s, the coronagraph is a type of this",
@@ -454,18 +426,6 @@
   {
     "clue": "Color most commonly seen during a display of the Aurora Borealis",
     "response": "green"
-  },
-  {
-    "clue": "Met Dr. Thip",
-    "response": "Saturn"
-  },
-  {
-    "clue": "Treatise on Demonstration of Problems of Algebra",
-    "response": "Omar Khayyám"
-  },
-  {
-    "clue": "The Iron Giant",
-    "response": "Vin Diesel"
   },
   {
     "clue": "At its closest point to the Earth it's only 26 million miles away",
@@ -636,10 +596,6 @@
     "response": "Omar Khayyam"
   },
   {
-    "clue": "Guardians of the Galaxy Vol. 2",
-    "response": "Kurt Russell"
-  },
-  {
     "clue": "Because the earth rotates as it orbits, a sidereal day, based on the stars, is about 4 minutes shorter than this day",
     "response": "a solar day"
   },
@@ -650,10 +606,6 @@
   {
     "clue": "Believed to be made of metallic hydrogen, not water, the largest ocean in the solar system is on this planet",
     "response": "Jupiter"
-  },
-  {
-    "clue": "One of the 2 astronomical images found on Alaska's official license plate",
-    "response": "the Big Dipper (or the North Star)"
   },
   {
     "clue": "Give your garden solar power with richly colored varieties of this, like the type called the giant single",
@@ -686,10 +638,6 @@
   {
     "clue": "The water jar in this constellation is represented by a Y-shaped group of 4 stars",
     "response": "Aquarius"
-  },
-  {
-    "clue": "A Wrinkle in Time",
-    "response": "Madeleine L'Engle"
   },
   {
     "clue": "This planet is only about ¾ as dense as water, so it probably wouldn’t leave “rings” in the bathtub",
@@ -734,10 +682,6 @@
   {
     "clue": "Referring to its hair color, the dominant male within a group of gorillas is called this",
     "response": "a silverback"
-  },
-  {
-    "clue": "In this Twain novel, a New Englander saves himself by predicting a solar eclipse",
-    "response": "\"A Connecticut Yankee In King Arthur's Court\""
   },
   {
     "clue": "Larousse Gastronomique says the tripe of this gator relative is a delicacy in Ethiopia",
@@ -790,14 +734,6 @@
   {
     "clue": "Praise the lords! Neil Gaiman won for this book about Shadow Moon's travels with Mr. Wednesday",
     "response": "American Gods"
-  },
-  {
-    "clue": "The first 10 words on the screen at the beginning of the film",
-    "response": "\"A long time ago, in a galaxy far, far away\""
-  },
-  {
-    "clue": "This place of pirates & Lost Boys adds Alaska's nickname & is home to the leader of jazz' Solar Arkestra",
-    "response": "the Never Never Land of the Midnight Sun Ra"
   },
   {
     "clue": "Logically enough, this planet has the strongest magnetic field of any planet in our solar system",
@@ -916,10 +852,6 @@
     "response": "Annihilation"
   },
   {
-    "clue": "Procyon: This little dog",
-    "response": "Canis Minor"
-  },
-  {
     "clue": "The name of this Los Angeles team refers to all the stars & celebrities found there",
     "response": "the (LA) Galaxy"
   },
@@ -1012,10 +944,6 @@
     "response": "Orpheus"
   },
   {
-    "clue": "The Astronomy Capital of the World",
-    "response": "Tucson"
-  },
-  {
     "clue": "As a humorous tribute, an astronomical term equivalent to at least 4 billion has been named for him",
     "response": "Carl Sagan"
   },
@@ -1096,10 +1024,6 @@
     "response": "The Daily Planet"
   },
   {
-    "clue": "The Man Who Fell To",
-    "response": "Earth"
-  },
-  {
     "clue": "The Banff Springs snail: this country",
     "response": "Canada"
   },
@@ -1124,24 +1048,12 @@
     "response": "X-rays"
   },
   {
-    "clue": "the giant's armpit",
-    "response": "Betelgeuse"
-  },
-  {
     "clue": "The crew of Apollo 15 spent 3 days on the Moon & were the first to use this to visit distant sites",
     "response": "the lunar rover"
   },
   {
-    "clue": "Land of the Midnight Sun",
-    "response": "Arctic Circle"
-  },
-  {
     "clue": "Member of the zodiac who is always dumping on the Southern Fish",
     "response": "Aquarius"
-  },
-  {
-    "clue": "MacARTHUR Coronagraph expert Olivier Guyon designs these instruments to look for exoplanets",
-    "response": "telescopes"
   },
   {
     "clue": "This astronomical body is the main cause of tides",
@@ -1158,10 +1070,6 @@
   {
     "clue": "King Christian IV built the Round Tower in this Danish capital as an astronomical observatory",
     "response": "Copenhagen"
-  },
-  {
-    "clue": "causes damage to",
-    "response": "Mars"
   },
   {
     "clue": "Polish astronomer who was 1st to theorize earth isn't the center of the universe",
@@ -1186,10 +1094,6 @@
   {
     "clue": "This constellation is depicted on Australia's flag",
     "response": "Southern Cross"
-  },
-  {
-    "clue": "SEAPLANE THEFT OP",
-    "response": "Planet of the Apes"
   },
   {
     "clue": "This planet's moons include Triton & the recently discovered Naiad",
@@ -1236,16 +1140,8 @@
     "response": "Isis"
   },
   {
-    "clue": "Pale Blue Dot",
-    "response": "Carl Sagan"
-  },
-  {
     "clue": "This Polish astronomer has craters on the moon & Mars named for him",
     "response": "Copernicus"
-  },
-  {
-    "clue": "A Swiftly Tilting Planet",
-    "response": "Madeleine L'Engle"
   },
   {
     "clue": "The elevation above the horizon of this star in Ursa Minor is equal to the observer's latitude",
@@ -1292,10 +1188,6 @@
     "response": "Lyre"
   },
   {
-    "clue": "among the 8 planets",
-    "response": "Earth"
-  },
-  {
     "clue": "In a single day, temperatures on this planet closest to the sun range from -280 degrees to 800 degrees",
     "response": "Mercury"
   },
@@ -1312,24 +1204,12 @@
     "response": "a galaxy"
   },
   {
-    "clue": "Life, the Universe and Everything",
-    "response": "The Hitchhiker's Guide to the Galaxy"
-  },
-  {
     "clue": "Forget Pluto--this farthest planet from the sun is the only planet that can't be seen without a telescope",
     "response": "Neptune"
   },
   {
-    "clue": "From the Earth to the Moon",
-    "response": "(Jules) Verne"
-  },
-  {
     "clue": "THE 8 This planet shines the brightest in our sky",
     "response": "Venus"
-  },
-  {
-    "clue": "The Hitchhiker's Guide to the Galaxy",
-    "response": "Douglas Adams"
   },
   {
     "clue": "The space around an atom's nucleus where electrons are most likely to be found has this name that mainly reminds us of astronomy",
@@ -1358,10 +1238,6 @@
   {
     "clue": "Cetus is known as the whale, but in mythology, it was the sea creature this hero saved Andromeda from",
     "response": "Perseus"
-  },
-  {
-    "clue": "Second-biggest planet's designs",
-    "response": "Saturn's patterns"
   },
   {
     "clue": "This zodiac constellation is dominated by 2 stars; however, one is actually a complex system of at least 6 stars",
@@ -1432,10 +1308,6 @@
     "response": "Charlton Heston"
   },
   {
-    "clue": "A Synopsis of the Astronomy of Comets",
-    "response": "Edmond Halley"
-  },
-  {
     "clue": "Bellatrix & Saiph mark the right shoulder & left foot of this guy's constellation, not his belt",
     "response": "Orion"
   },
@@ -1444,20 +1316,12 @@
     "response": "Pluto"
   },
   {
-    "clue": "line of ladies' razors",
-    "response": "Venus"
-  },
-  {
     "clue": "Each August astronomers watch for these in the constellation Perseus",
     "response": "meteors"
   },
   {
     "clue": "type of trapdoor spider with blue eyes has this spicy fictional desert planet in its name",
     "response": "Arrakis"
-  },
-  {
-    "clue": "The Salmon of Doubt: Hitchhiking the Galaxy One Last Time",
-    "response": "(Douglas) Adams"
   },
   {
     "clue": "The Earth's magnetic field interacts with this flow of charged particles from the sun to produce the Aurora",
@@ -1516,10 +1380,6 @@
     "response": "Uranus"
   },
   {
-    "clue": "Salut, et encore merci pour le poisson",
-    "response": "So Long, and Thanks for All the Fish"
-  },
-  {
     "clue": "Astrologically, houses that lie in the west are called occidental; houses that lie in the east, this",
     "response": "oriental"
   },
@@ -1552,20 +1412,12 @@
     "response": "craters"
   },
   {
-    "clue": "Fly Me To The Moon",
-    "response": "Jupiter & Mars"
-  },
-  {
     "clue": "Titan, a moon of this planet, is the second-largest satellite in the solar system",
     "response": "Saturn"
   },
   {
     "clue": "d as skygazers headed for this event's zone of totality",
     "response": "the (solar) eclipse"
-  },
-  {
-    "clue": "one small step",
-    "response": "Sea of Tranquility"
   },
   {
     "clue": "An old brand of television, in astronomy it's the opposite of nadir",
@@ -1648,10 +1500,6 @@
     "response": "magnetic fields (magnetic poles)"
   },
   {
-    "clue": "Star Trek III: The Search for",
-    "response": "Spock"
-  },
-  {
     "clue": "To find this zodiac constellation, look for Spica, its brightest star; it marks the sheaf of wheat the maiden holds",
     "response": "Virgo"
   },
@@ -1666,10 +1514,6 @@
   {
     "clue": "Canis Major, said to represent the dog of this hunter, is at the heel of his constellation",
     "response": "Orion"
-  },
-  {
-    "clue": "Henry Hudson Planetarium,Schuyler Mansion",
-    "response": "Albany"
   },
   {
     "clue": "Methane in the atmosphere is responsible for the blue-green coloring of these 2 planets",
@@ -1732,10 +1576,6 @@
     "response": "the Los Angeles Galaxy"
   },
   {
-    "clue": "Though it's currently Polaris, Vega will become this directional star around 14 A.D.",
-    "response": "the North Star (or the Pole Star)"
-  },
-  {
     "clue": "Even though it sounds like the Ewok planet, this show is named for Diego Luna's character",
     "response": "Andor"
   },
@@ -1776,10 +1616,6 @@
     "response": "unicorn"
   },
   {
-    "clue": "California Here We Come",
-    "response": "the 101"
-  },
-  {
     "clue": "A strange visitor from another planet would find this gas, atomic number 36, odorless & colorless",
     "response": "krypton"
   },
@@ -1814,10 +1650,6 @@
   {
     "clue": "Winter in the northern hemisphere lasts about 150 days on this planet noted for its ice caps",
     "response": "Mars"
-  },
-  {
-    "clue": "A Synopsis of the Astronomy of Comets",
-    "response": "Edmond Halley"
   },
   {
     "clue": "Don't blink or you'll miss this little guy, a planet that's smaller than Earth's moon",
@@ -1880,10 +1712,6 @@
     "response": "Venus"
   },
   {
-    "clue": "Return of the Killer Catfish",
-    "response": "River Monsters"
-  },
-  {
     "clue": "It was America's first, & so far only, space station",
     "response": "Skylab"
   },
@@ -1898,10 +1726,6 @@
   {
     "clue": "One of these astronomical events brought an end to King Alyattes' war with the Medes",
     "response": "an eclipse"
-  },
-  {
-    "clue": "The Moon Is A Harsh Mistress",
-    "response": "(Robert) Heinlein"
   },
   {
     "clue": "paleolithic sculpture: the ____ of Willendorf",
@@ -1956,20 +1780,8 @@
     "response": "Pluto"
   },
   {
-    "clue": "On the Beach",
-    "response": "a nuclear war"
-  },
-  {
     "clue": "This body accounts for over 99% of the mass of our solar system",
     "response": "sun"
-  },
-  {
-    "clue": "The Long Way to a Small, Angry Planet",
-    "response": "wormholes"
-  },
-  {
-    "clue": "The Zoo: San Diego",
-    "response": "Animal Planet"
   },
   {
     "clue": "Jovial means jolly, like those under the astrological influence of this planet",
@@ -2004,20 +1816,8 @@
     "response": "Taurus the bull"
   },
   {
-    "clue": "Inferior planets:Mercury, _____",
-    "response": "Venus"
-  },
-  {
-    "clue": "Rise of the Planet of the Apes",
-    "response": "Alzheimer's"
-  },
-  {
     "clue": "When twins Castor & Pollux died, they were placed in the heavens as this constellation",
     "response": "Gemini"
-  },
-  {
-    "clue": "Mr. Sammler's Planet",
-    "response": "Saul Bellow"
   },
   {
     "clue": "The Pleiades & the Hyades, both galactic clusters, can be found in this constellation",
@@ -2056,20 +1856,8 @@
     "response": "Saturn"
   },
   {
-    "clue": "Kingdom of the Planet of the Apes",
-    "response": "Caesar"
-  },
-  {
     "clue": "Deimos strikes terror orbiting this planet",
     "response": "Mars"
-  },
-  {
-    "clue": "the twilight zone",
-    "response": "the terminator"
-  },
-  {
-    "clue": "The Hitchhiker's Guide to the Galaxy",
-    "response": "Douglas Adams"
   },
   {
     "clue": "This hunter's dogs Canis Major & Canis Minor are positioned at his heels",
@@ -2092,10 +1880,6 @@
     "response": "Uranus"
   },
   {
-    "clue": "Big Cat Diary",
-    "response": "Animal Planet"
-  },
-  {
     "clue": "The nearby Andromeda Galaxy has a supermassive one of these at its center",
     "response": "a black hole"
   },
@@ -2114,10 +1898,6 @@
   {
     "clue": "spacecraft sent to study Saturn is named for this Italian-born astronomer who discovered 4 of Saturn's moons",
     "response": "Cassini"
-  },
-  {
-    "clue": "The Mandan of North Dakota were known for building this type of dwelling, named not for the planet, but for what it was covered in",
-    "response": "an earth dwelling (an earth lodge, earth house)"
   },
   {
     "clue": "This constellation represents a youth pouring water from a jar",
@@ -2192,10 +1972,6 @@
     "response": "planets"
   },
   {
-    "clue": "billions & billions",
-    "response": "astronomers"
-  },
-  {
     "clue": "Totality during one of these never lasts for more than about 8 minutes",
     "response": "eclipse of the sun"
   },
@@ -2208,16 +1984,8 @@
     "response": "asteroids"
   },
   {
-    "clue": "The Chained Lady",
-    "response": "Andromeda"
-  },
-  {
     "clue": "Northwestern U. researchers have developed new photovoltaic cells for these panels that use tin rather than lead",
     "response": "solar panels"
-  },
-  {
-    "clue": "Asteroid observations helped Harold Jones establish this at about 93 million miles",
-    "response": "distance from the earth to the sun"
   },
   {
     "clue": "Tests show the planet Mercury has a thin one containing helium & sodium",
@@ -2250,14 +2018,6 @@
   {
     "clue": "This word originally meant the happy time at the start of a marriage, perhaps lasting for just one lunar cycle",
     "response": "honeymoon"
-  },
-  {
-    "clue": "Planet of Communication",
-    "response": "Mercury"
-  },
-  {
-    "clue": "Together Forever--Relationship Skills for Lasting Love",
-    "response": "Mars & Venus (Venus & Mars accepted)"
   },
   {
     "clue": "An undignified jokester on our biggest satellite",
@@ -2296,10 +2056,6 @@
     "response": "astronomy"
   },
   {
-    "clue": "opposite the bear",
-    "response": "Antarctica"
-  },
-  {
     "clue": "Copernicus changed the views in this scientific profession:",
     "response": "astronomer"
   },
@@ -2318,10 +2074,6 @@
   {
     "clue": "The first novel to win the Nebula Award was this one set on Arrakis",
     "response": "Dune"
-  },
-  {
-    "clue": "The Man Who Fell to Earth",
-    "response": "Bowie"
   },
   {
     "clue": "6 Arthur Dent (his first novel appearance)",
@@ -2372,14 +2124,6 @@
     "response": "the Black Eye Galaxy"
   },
   {
-    "clue": "The Dragons of Eden",
-    "response": "Carl Sagan"
-  },
-  {
-    "clue": "The Home Planet",
-    "response": "the Moon (outer space, spaceships)"
-  },
-  {
     "clue": "There's still time to get ready, but in 4 billion years, this galaxy is destined for a head-on collision with ours",
     "response": "Andromeda"
   },
@@ -2418,14 +2162,6 @@
   {
     "clue": "This Zodiac constellation includes 2 lines (or strings) that terminate in a star called Alrescha, the knot",
     "response": "Pisces"
-  },
-  {
-    "clue": "Pale Blue Dot",
-    "response": "Sagan"
-  },
-  {
-    "clue": "Little Dog Star",
-    "response": "Canis Minor"
   },
   {
     "clue": "iBose makes a portable charger with 4 of these that unfold to soak up some rays & power your electronics",
