@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { initializeDatabase, closeDatabase } from './db/database.js';
-import { seedIfEmpty } from './db/seed.js';
+import { syncCategories } from './db/seed.js';
 import categoriesRouter from './routes/categories.js';
 import boardRouter from './routes/board.js';
 
@@ -19,7 +19,7 @@ app.use(express.json());
 async function startServer() {
   try {
     await initializeDatabase();
-    await seedIfEmpty();
+    await syncCategories();
     console.log('Database ready');
 
     // Routes
