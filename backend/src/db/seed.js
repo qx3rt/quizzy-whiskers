@@ -31,7 +31,7 @@ function resolveDataDir() {
   if (process.env.DATA_DIR) {
     return process.env.DATA_DIR;
   }
-  return path.resolve(__dirname, '../../../data/processed');
+  return path.resolve(__dirname, '../../data/processed');
 }
 
 function loadCluesFromFile(filePath) {
