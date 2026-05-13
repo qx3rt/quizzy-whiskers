@@ -1,11 +1,6 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import './App.css'
-import shakespeareStudyClues from './data/processed/shakespeare-study-clues.json'
-import charlesDickensStudyClues from './data/processed/charles-dickens-study-clues.json'
-import operaStudyClues from './data/processed/opera-study-clues.json'
-import classicalMusicStudyClues from './data/processed/classical-music-study-clues.json'
-import finalJeopardyStudyClues from './data/processed/final-jeopardy-study-clues.json'
-import { generateCuratedBoard } from './utils/boardGenerator'
+import { fetchBoard, fetchCategories } from './utils/api'
 
 const CLUE_TIME_LIMIT = 10
 const FUZZY_MATCH_THRESHOLD = 0.84
@@ -89,18 +84,13 @@ function answersMatch(userAnswer, correctAnswer) {
 }
 
 function App() {
-  const initialBoardData = useMemo(
-  () =>
-    generateCuratedBoard({
-      shakespeare: shakespeareStudyClues,
-      dickens: charlesDickensStudyClues,
-      opera: operaStudyClues,
-      classicalMusic: classicalMusicStudyClues,
-    }),
-  []
-)
+  const [boardData, setBoardData] = useState([])
+  const [categories, setCategories] = useState([])
+  const [selectedCategoryIds, setSelectedCategoryIds] = useState([])
+  const [boardLoading, setBoardLoading] = useState(true)
+  const [boardError, setBoardError] = useState(null)
+  const [showCategoryPicker, setShowCategoryPicker] = useState(false)
 
-  const [boardData, setBoardData] = useState(initialBoardData)
   const [activeClue, setActiveClue] = useState(null)
   const [answerText, setAnswerText] = useState('')
   const [isSubmitted, setIsSubmitted] = useState(false)
@@ -108,6 +98,33 @@ function App() {
   const [timeRemaining, setTimeRemaining] = useState(CLUE_TIME_LIMIT)
   const [didTimeExpire, setDidTimeExpire] = useState(false)
   const [score, setScore] = useState(0)
+
+  const loadBoard = useCallback(async (categoryIds = []) => {
+    setBoardLoading(true)
+    setBoardError(null)
+    setActiveClue(null)
+    setAnswerText('')
+    setIsSubmitted(false)
+    setIsCorrect(null)
+    setScore(0)
+    try {
+      const data = await fetchBoard(categoryIds)
+      setBoardData(data)
+    } catch (err) {
+      setBoardError('Could not load board. Make sure the backend is running.')
+      console.error(err)
+    } finally {
+      setBoardLoading(false)
+    }
+  }, [])
+
+  // Load categories list + initial board on mount
+  useEffect(() => {
+    fetchCategories()
+      .then(setCategories)
+      .catch((err) => console.error('Failed to load categories', err))
+    loadBoard()
+  }, [loadBoard])
 
   useEffect(() => {
     if (!activeClue || isSubmitted || didTimeExpire) {
@@ -126,6 +143,17 @@ function App() {
 
     return () => window.clearTimeout(timerId)
   }, [activeClue, isSubmitted, didTimeExpire, timeRemaining])
+
+  function toggleCategoryId(id) {
+    setSelectedCategoryIds((prev) =>
+      prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id]
+    )
+  }
+
+  function handleStartBoard() {
+    setShowCategoryPicker(false)
+    loadBoard(selectedCategoryIds)
+  }
 
   function handleClueSelect(selectedClue) {
     if (selectedClue.used) {
@@ -198,53 +226,124 @@ function App() {
             <p className="hero-kicker">Study clues. Beat the clock.</p>
             <h2>Train with real archived clues in a simple Jeopardy-style format.</h2>
             <p className="hero-description">
-              Quizzy Whiskers is now running on multiple real archive datasets,
-              giving Liz a more authentic Jeopardy-style study experience.
+              Pick your categories, start a board, and beat the clock on every clue.
             </p>
 
-            <button className="primary-button" type="button">
-              Start session coming soon
+            <button
+              className="primary-button"
+              type="button"
+              onClick={() => setShowCategoryPicker((v) => !v)}
+            >
+              {showCategoryPicker ? 'Hide category picker' : 'Choose categories'}
             </button>
           </div>
 
           <div className="hero-card">
-            <span className="card-label">Current build focus</span>
-            <h3>Multi-category realism</h3>
+            <span className="card-label">Archive-backed</span>
+            <h3>{categories.length} categories · {categories.reduce((sum, c) => sum + (c.clue_count || 0), 0).toLocaleString()} clues</h3>
             <p>
-              The board now pulls from multiple real categories while keeping
-              answer validation flexible and clue quality filtered.
+              Real Jeopardy archive data, quality-filtered and ready to play.
             </p>
           </div>
         </section>
+
+        {showCategoryPicker && (
+          <section className="panel panel-full category-picker">
+            <div className="panel-header">
+              <div>
+                <p className="panel-eyebrow">Category picker</p>
+                <h3>Choose up to 6 categories</h3>
+              </div>
+              <span className="panel-tag">
+                {selectedCategoryIds.length === 0 ? 'Random' : `${selectedCategoryIds.length} selected`}
+              </span>
+            </div>
+
+            <div className="category-picker-grid">
+              {categories.map((cat) => {
+                const isSelected = selectedCategoryIds.includes(cat.id)
+                return (
+                  <button
+                    key={cat.id}
+                    type="button"
+                    className={`category-chip ${isSelected ? 'category-chip-selected' : ''}`}
+                    onClick={() => toggleCategoryId(cat.id)}
+                  >
+                    <strong>{cat.name}</strong>
+                    <span>{cat.clue_count} clues</span>
+                  </button>
+                )
+              })}
+            </div>
+
+            <div className="category-picker-actions">
+              <button
+                className="primary-button"
+                type="button"
+                onClick={handleStartBoard}
+              >
+                {selectedCategoryIds.length === 0 ? 'Start with random categories' : 'Start board'}
+              </button>
+              {selectedCategoryIds.length > 0 && (
+                <button
+                  className="secondary-button"
+                  type="button"
+                  onClick={() => setSelectedCategoryIds([])}
+                >
+                  Clear selection
+                </button>
+              )}
+            </div>
+          </section>
+        )}
 
         <section className="board-section panel panel-full">
           <div className="panel-header">
             <div>
               <p className="panel-eyebrow">Game board</p>
-              <h3>Practice board preview</h3>
+              <h3>Practice board</h3>
             </div>
-            <span className="panel-tag">Archive-backed</span>
+            <button
+              className="panel-tag panel-tag-button"
+              type="button"
+              onClick={() => loadBoard(selectedCategoryIds)}
+              disabled={boardLoading}
+            >
+              {boardLoading ? 'Loading…' : 'New board'}
+            </button>
           </div>
 
-          <div className="game-board">
-            {boardData.map((column) => (
-              <div key={column.category} className="board-column">
-                <div className="category-cell">{column.category}</div>
+          {boardError && (
+            <div className="board-error">
+              <p>{boardError}</p>
+            </div>
+          )}
 
-                {column.clues.map((clue) => (
-                  <button
-                    key={clue.id}
-                    className={`clue-cell ${clue.used ? 'clue-cell-used' : ''}`}
-                    type="button"
-                    onClick={() => handleClueSelect(clue)}
-                    disabled={clue.used}
-                  >
-                    {clue.used ? '—' : `$${clue.value}`}
-                  </button>
-                ))}
-              </div>
-            ))}
-          </div>
+          {boardLoading ? (
+            <div className="board-loading">
+              <p>Loading board…</p>
+            </div>
+          ) : (
+            <div className="game-board">
+              {boardData.map((column) => (
+                <div key={column.category} className="board-column">
+                  <div className="category-cell">{column.category}</div>
+
+                  {column.clues.map((clue) => (
+                    <button
+                      key={clue.id}
+                      className={`clue-cell ${clue.used ? 'clue-cell-used' : ''}`}
+                      type="button"
+                      onClick={() => handleClueSelect(clue)}
+                      disabled={clue.used}
+                    >
+                      {clue.used ? '—' : `$${clue.value}`}
+                    </button>
+                  ))}
+                </div>
+              ))}
+            </div>
+          )}
         </section>
 
         <section className="info-grid">
@@ -347,8 +446,12 @@ function App() {
                 <strong>Single-player practice</strong>
               </li>
               <li>
-                <span>Datasets</span>
-                <strong>Shakespeare, Dickens, Opera, Classical Music, Final Jeopardy</strong>
+                <span>Categories</span>
+                <strong>
+                  {boardData.length > 0
+                    ? boardData.map((c) => c.category).join(', ')
+                    : 'Loading…'}
+                </strong>
               </li>
               <li>
                 <span>Timer</span>
