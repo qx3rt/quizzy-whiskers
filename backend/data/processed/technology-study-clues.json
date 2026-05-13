@@ -76,10 +76,6 @@
     "response": "the League of Legends"
   },
   {
-    "clue": "The Florida Institute of Technology & the University of Pittsburgh",
-    "response": "the Panthers"
-  },
-  {
     "clue": "Google is this to Alphabet, this being one company owned by another",
     "response": "a subsidiary"
   },
@@ -98,10 +94,6 @@
   {
     "clue": "adjacent bits processed as a unit by a computer is one of these",
     "response": "a byte"
-  },
-  {
-    "clue": "Phonograph,pinball machine,transistor radio",
-    "response": "a phonograph"
   },
   {
     "clue": "SMH is Internet slang for this, & I'll be doing it if you miss the clue",
@@ -140,10 +132,6 @@
     "response": "to be honest"
   },
   {
-    "clue": "Worst Christmas Ever",
-    "response": "Grumpy Cat"
-  },
-  {
     "clue": "Hi-fi is for playing records; this rhyming term is a standard for network technology",
     "response": "wi-fi (wireless fidelity)"
   },
@@ -176,10 +164,6 @@
     "response": "a hit"
   },
   {
-    "clue": "For celluloid lovers:imdb.com",
-    "response": "the Internet Movie Database"
-  },
-  {
     "clue": "Like money, you can't have too much RAM, which stands for this",
     "response": "random access memory"
   },
@@ -192,10 +176,6 @@
     "response": "professor"
   },
   {
-    "clue": "I'm Losing You",
-    "response": "a cell phone"
-  },
-  {
     "clue": "Chris Parnell & Andy Samberg rapped their love of Google maps & the Chronic-what?-cles of Narnia on this show",
     "response": "Saturday Night Live"
   },
@@ -206,10 +186,6 @@
   {
     "clue": "This kind of material has superconductivity, which means it has no electrical resistance at very low temperatures",
     "response": "a superconductor"
-  },
-  {
-    "clue": "Because I Could Not Stop For Death",
-    "response": "Portal"
   },
   {
     "clue": "In the 1960s, this firm introduced the first word processor, the , based on its Selectric typewriter",
@@ -250,10 +226,6 @@
   {
     "clue": "Murderous blood-splatter specialist Michael C. Hall is addicted to his cell phone & can't stop messaging",
     "response": "Texter"
-  },
-  {
-    "clue": "Where the Wild Things Are",
-    "response": "(Maurice) Sendak"
   },
   {
     "clue": "Providing antivirus & firewall technology:MFE",
@@ -340,10 +312,6 @@
     "response": "an arcade"
   },
   {
-    "clue": "You Don't Know",
-    "response": "Jack"
-  },
-  {
     "clue": "This company's name is short of Integrated Electronics",
     "response": "Intel"
   },
@@ -400,24 +368,12 @@
     "response": "D-Day"
   },
   {
-    "clue": "Comedians in Cars Getting Coffee",
-    "response": "a webisode"
-  },
-  {
-    "clue": "the Microsoft Network)",
-    "response": "a butterfly"
-  },
-  {
     "clue": "They clean floors, perform surgery & will go to Mars before people do",
     "response": "robots"
   },
   {
     "clue": "10 The Internet or the online world",
     "response": "cyberspace"
-  },
-  {
-    "clue": "Electrical activity impeding communication",
-    "response": "interference"
   },
   {
     "clue": "Someone not smart, maybe in the way of computers, is deemed this palindromic number, a webpage error",
@@ -580,10 +536,6 @@
     "response": "amp & ohm"
   },
   {
-    "clue": "Washington: this computer geek",
-    "response": "Bill Gates"
-  },
-  {
     "clue": "year-old kids are the most expert at this activity, illicitly entering computer systems",
     "response": "Hacking"
   },
@@ -620,10 +572,6 @@
     "response": "Bus"
   },
   {
-    "clue": "in front of computer",
-    "response": "naked"
-  },
-  {
     "clue": "device to digitally copy a landed estate",
     "response": "a manor scanner"
   },
@@ -656,10 +604,6 @@
     "response": "the neutron"
   },
   {
-    "clue": "Run All Night",
-    "response": "(Liam) Neeson"
-  },
-  {
     "clue": "In this game's sequel, we return to the underwater city of Rapture & take a submerged walk in Big Daddy's diving suit",
     "response": "BioShock"
   },
@@ -684,10 +628,6 @@
     "response": "central processing unit"
   },
   {
-    "clue": "Riding The Bullet",
-    "response": "Logging onto the Internet"
-  },
-  {
     "clue": "London's Elmtree offers under-floor heating & has installed these so you can view your pet via computer",
     "response": "webcams"
   },
@@ -698,10 +638,6 @@
   {
     "clue": "series of three connected dots is an icon for this 7-letter action with files, not toys",
     "response": "sharing"
-  },
-  {
-    "clue": "Legend of Zelda",
-    "response": "ocarina"
   },
   {
     "clue": "This machine for patients with faulty kidneys was developed during ; today some models fit under an airplane seat",
@@ -716,16 +652,8 @@
     "response": "silver"
   },
   {
-    "clue": "world at war",
-    "response": "Call of Duty"
-  },
-  {
     "clue": "Storm Worm & Zeus are types of these computer viruses that take their name from classical mythology",
     "response": "a Trojan horse"
-  },
-  {
-    "clue": "Common Business-Oriented Language",
-    "response": "COBOL"
   },
   {
     "clue": "This company's new computer products include the Aptiva the Thinkpad 560",
@@ -734,10 +662,6 @@
   {
     "clue": "Time to process the Pentium 4 processor from this company",
     "response": "Intel"
-  },
-  {
-    "clue": "you've got mail",
-    "response": "AOL"
   },
   {
     "clue": "Be careful around one of these, known as a power point; you may get a shock",
@@ -808,10 +732,6 @@
     "response": "the Pac-Man defense"
   },
   {
-    "clue": "The Last Stand",
-    "response": "X-Men"
-  },
-  {
     "clue": "Subtract a letter from the name of a keystroke found in computer commands & you get this violent reaction to social change",
     "response": "backlash (from \"backslash\")"
   },
@@ -830,10 +750,6 @@
   {
     "clue": "This retronym for a type of computer also means a screen with icons on it",
     "response": "a desktop"
-  },
-  {
-    "clue": "Donkey Kong Land",
-    "response": "Game Boy"
   },
   {
     "clue": "An Internet site about this product from Bayer can be found at wonderdrug.com",
@@ -872,10 +788,6 @@
     "response": "Guernsey"
   },
   {
-    "clue": "The Chase & Sanborn Hour",
-    "response": "radio waves"
-  },
-  {
     "clue": "This programming language was named for calculating-machine inventor Blaise",
     "response": "PASCAL"
   },
@@ -890,10 +802,6 @@
   {
     "clue": "This animated TV mom is symbolized here:@@@@ :-)",
     "response": "Marge Simpson"
-  },
-  {
-    "clue": "Windows is one:OS",
-    "response": "operating system"
   },
   {
     "clue": "This popular Internet service provider began as QCS, Quantum Computer Services",
@@ -928,10 +836,6 @@
     "response": "the 1930s"
   },
   {
-    "clue": "Terminator 3: Rise of the Machines",
-    "response": "Skynet"
-  },
-  {
     "clue": "WORD + WORD = Elation + a broken-off part of a tree = this video game control lever",
     "response": "joystick"
   },
@@ -946,10 +850,6 @@
   {
     "clue": "Quemado, N.M., known for electrical storms, is home to the art piece of 400 steel poles called this weather event field",
     "response": "a lightning field"
-  },
-  {
-    "clue": "City of Light",
-    "response": "Buffalo"
   },
   {
     "clue": "30 Well, since my Mamiya is outdated now, can I just use the 12-megapixel one of these on your iPhone?",
@@ -1000,10 +900,6 @@
     "response": ".edu"
   },
   {
-    "clue": "Works in Progress",
-    "response": "Alexander Calder"
-  },
-  {
     "clue": "When this device is moved along a tabletop, it causes a pointer to move across the screen",
     "response": "a mouse"
   },
@@ -1052,10 +948,6 @@
     "response": "Christianity"
   },
   {
-    "clue": "the world's fastest",
-    "response": "a swimsuit"
-  },
-  {
     "clue": "You may have to do this to a computer disk to enable it to store information",
     "response": "format (in(format)ion)"
   },
@@ -1068,20 +960,12 @@
     "response": "San Jose"
   },
   {
-    "clue": "The Physics of",
-    "response": "Star Wars"
-  },
-  {
     "clue": "Electronically recorded visual record of the human voice now used for identification of criminals",
     "response": "a voiceprint"
   },
   {
     "clue": "This search site's browser called Chrome has an incognito mode for anonymous surfing",
     "response": "Google"
-  },
-  {
-    "clue": "Return to Dream Land",
-    "response": "Kirby"
   },
   {
     "clue": "Technology-averse (or even destructive) dramatist",
@@ -1130,10 +1014,6 @@
   {
     "clue": "In this type of testing, electronic equipment is subjected to the real world conditions in which it'll be used",
     "response": "beta testing"
-  },
-  {
-    "clue": "Business at the Speed of Thought",
-    "response": "Bill Gates"
   },
   {
     "clue": "6 It can refer to territory governed by another, a set of values in math or a group of linked computers on a network",
@@ -1224,14 +1104,6 @@
     "response": "warm boot"
   },
   {
-    "clue": "redundant array of inexpensive",
-    "response": "disks"
-  },
-  {
-    "clue": "An Athenian computer nerd",
-    "response": "a Greek geek"
-  },
-  {
     "clue": "The part of a stereo system that gets the electrical signals & converts them so you can listen",
     "response": "a receiver"
   },
@@ -1258,10 +1130,6 @@
   {
     "clue": "Ace & True Value both serve as this type of store",
     "response": "hardware"
-  },
-  {
-    "clue": "TV that's plugged in",
-    "response": "G4"
   },
   {
     "clue": "A dynamo is a device for converting mechanical energy into this type of energy",
@@ -1296,10 +1164,6 @@
     "response": "aneroid"
   },
   {
-    "clue": "Let there be Sega",
-    "response": "the Genesis"
-  },
-  {
     "clue": "comedian's scripted shtick, or a computer's set of instructions",
     "response": "routine"
   },
@@ -1310,10 +1174,6 @@
   {
     "clue": "Italian soccer star Mario Balotelli might earn this video game nickname from the way he unclogs defenses",
     "response": "\"Super Mario\""
-  },
-  {
-    "clue": "OpenAI, which developed ChatGPT, also came up with the AI tech used by this Microsoft search engine",
-    "response": "Bing"
   },
   {
     "clue": "John Green presents the clue.) With a mission to increase awesome & decrease suck & to champion causes to help others, fans of my brother Hank our VlogBrothers videos are called these from the misreading of the name of a video game",
@@ -1328,10 +1188,6 @@
     "response": "Milan"
   },
   {
-    "clue": "Shock the Monkey",
-    "response": "a synthesizer"
-  },
-  {
     "clue": "This Internet abbreviation provides a newcomer with additional information on a topic",
     "response": "FAQ"
   },
@@ -1342,10 +1198,6 @@
   {
     "clue": "Galactic apocalypse? No problem for Cortana & Master Chief in this video game series",
     "response": "Halo"
-  },
-  {
-    "clue": "The Everything Store",
-    "response": "Amazon.com"
   },
   {
     "clue": "It can be a mix of gas & tiny particles, or a spray can that expels that mix",
@@ -1400,16 +1252,8 @@
     "response": "a mainframe"
   },
   {
-    "clue": "The Social Network",
-    "response": "Justin Timberlake"
-  },
-  {
     "clue": "It's a manual or electrical device used to pulverize your coffee beans that sounds like a dating app",
     "response": "a grinder"
-  },
-  {
-    "clue": "The cake is a lie",
-    "response": "Portal"
   },
   {
     "clue": "William Shatner has been a longtime advertising pitchman for this site that helps find discounts for travel",
@@ -1458,14 +1302,6 @@
   {
     "clue": "When a sewing machine is sewing, the feed dog pushes cloth forward the length of one of these",
     "response": "stitch"
-  },
-  {
-    "clue": "The Victorian Internet",
-    "response": "the telegraph"
-  },
-  {
-    "clue": "Shadows of Angmar",
-    "response": "The Lord of the Rings"
   },
   {
     "clue": "The cloud type of this releases a substance such as silver iodide into clouds to increase the chance of rain",
@@ -1556,10 +1392,6 @@
     "response": "(Ross) Perot"
   },
   {
-    "clue": "Middle-Earth: Shadow of War",
-    "response": "orcs"
-  },
-  {
     "clue": "The of your computer's stands for this",
     "response": "read-only memory"
   },
@@ -1588,10 +1420,6 @@
     "response": "a graphical user interface"
   },
   {
-    "clue": "The medium is",
-    "response": "the message"
-  },
-  {
     "clue": "This Apple video chat app comes with every iPhone sold in the United States",
     "response": "FaceTime"
   },
@@ -1602,10 +1430,6 @@
   {
     "clue": "Though not always accurate, a polygraph machine is supposed to show if you are doing this",
     "response": "lying"
-  },
-  {
-    "clue": "Nobel Prize of computing",
-    "response": "Berners-Lee"
   },
   {
     "clue": "Term for any gas that pressurizes the liquid in an aerosol can",
@@ -1624,10 +1448,6 @@
     "response": "Deep Blue"
   },
   {
-    "clue": "to the hundredth power.com",
-    "response": "Google"
-  },
-  {
     "clue": "Mies van der Rohe headed the College of Architecture & designed its building at IIT, short for this Chicago school",
     "response": "Illinois Institute of Technology"
   },
@@ -1642,14 +1462,6 @@
   {
     "clue": "molin che il vento gira",
     "response": "Windmill"
-  },
-  {
-    "clue": "toile d'araignee mondiale",
-    "response": "world wide web"
-  },
-  {
-    "clue": "Call of Duty",
-    "response": "Black Ops"
   },
   {
     "clue": "French scientist Rene de Reaumur got the idea to make this out of wood from watching a wasp",
@@ -1668,14 +1480,6 @@
     "response": "byte"
   },
   {
-    "clue": "Steve Jobs said his new computer, called the NeXT will 1st be sold exclusively to these institutions",
-    "response": "schools (colleges, universities)"
-  },
-  {
-    "clue": "Welcome To The Playhouse",
-    "response": "Shaquille O'Neal (Shaq)"
-  },
-  {
     "clue": "Zone names include com, gov, net & this one found after www.stanford & www.hofstra",
     "response": ".edu"
   },
@@ -1688,20 +1492,8 @@
     "response": "Bayer"
   },
   {
-    "clue": "file not found",
-    "response": "a 404"
-  },
-  {
     "clue": "This entrance to a house is also a secret way of gaining access to a computer system",
     "response": "the back door"
-  },
-  {
-    "clue": "Jerry and David's Guide to the World Wide Web",
-    "response": "Yahoo!"
-  },
-  {
-    "clue": "position indicator control",
-    "response": "a computer mouse"
   },
   {
     "clue": "E.T. 20th Through computer magic, federal agents no longer brandish guns; instead they carry these rhyming devices, 10-4!",
@@ -1716,10 +1508,6 @@
     "response": "tractor"
   },
   {
-    "clue": "Legend of Zelda",
-    "response": "The Ocarina of Time"
-  },
-  {
     "clue": "Electronic circuit signals may be classified as analog or this",
     "response": "Digital"
   },
@@ -1730,10 +1518,6 @@
   {
     "clue": "This man is Number 1 with $53 billion; just turn on any computer if you need a clue",
     "response": "Bill Gates"
-  },
-  {
-    "clue": "once beat me at",
-    "response": "chess"
   },
   {
     "clue": "In a Greek temple in 200 B.C., one dispensed holy water; today they give candy & cigarettes",
@@ -1784,10 +1568,6 @@
     "response": "card counters"
   },
   {
-    "clue": "Operating system,central processing unit,mouse",
-    "response": "a computer"
-  },
-  {
     "clue": "Your heart has a natural this, the sinoatrial node, which emits electrical impulses that cause it to contract",
     "response": "a pacemaker"
   },
@@ -1826,10 +1606,6 @@
   {
     "clue": "The 21st century has seen this communist island nation turn from sugar to tourism & biotechnology",
     "response": "Cuba"
-  },
-  {
-    "clue": "Mahindra Satyam Computer Services",
-    "response": "India"
   },
   {
     "clue": "Using 400 computers, a team has broken down a 100-digit number into these, used as secret codes",
@@ -1872,14 +1648,6 @@
     "response": "multitasking"
   },
   {
-    "clue": "Computer, Communication, Compatibility",
-    "response": "3Com"
-  },
-  {
-    "clue": "systems on a chip",
-    "response": "Intel"
-  },
-  {
     "clue": "An additional section placed within the folds of a newspaper",
     "response": "an insert"
   },
@@ -1912,16 +1680,8 @@
     "response": "Fax Machine"
   },
   {
-    "clue": "Vacuum Tube Valley",
-    "response": "Philadelphia"
-  },
-  {
     "clue": "The top letter row of a standard computer keyboard starts with ends with this letter",
     "response": "P"
-  },
-  {
-    "clue": "Golden Trails 2",
-    "response": "piracy (pirating accepted)"
   },
   {
     "clue": "RHD, Robert H. Dennard, came up with RAM, this, used in computers since the '70s",
@@ -1948,16 +1708,8 @@
     "response": "Binary Code"
   },
   {
-    "clue": "new Industrial Revolution",
-    "response": "design"
-  },
-  {
     "clue": "The s Mr. Lemieux got this Nintendo-based moniker",
     "response": "\"Super\" Mario"
-  },
-  {
-    "clue": "My Grandparents' War",
-    "response": "radar"
   },
   {
     "clue": "Evolutionary biologist Beth Shapiro delivered a Google lecture about cloning this Pleistocene pachyderm",
@@ -1968,16 +1720,8 @@
     "response": "Sharp"
   },
   {
-    "clue": "Paleontologists Determine Dinosaurs Were Killed By Someone They Trusted",
-    "response": "The Onion"
-  },
-  {
     "clue": "Robert Shapiro co-founded this online law service for wills, incorporating & other needs",
     "response": "legalzoom.com"
-  },
-  {
-    "clue": "The Curse of",
-    "response": "Monkey Island"
   },
   {
     "clue": "Reshma Saujani presents the clue.) Computer scientist Annie Easley wrote code that helped in the development of the first batteries used in this class of car that employs dual power systems",
@@ -2010,10 +1754,6 @@
   {
     "clue": "Useful in electronics crafts, this process similar to welding joins circuit components using a low melting point alloy",
     "response": "soldering"
-  },
-  {
-    "clue": "The World Without Us",
-    "response": "The Last of Us"
   },
   {
     "clue": "101 The many versions of Windows are the flagship products of this company",
@@ -2068,20 +1808,12 @@
     "response": "typewriters"
   },
   {
-    "clue": "series of tubes",
-    "response": "virtual private network"
-  },
-  {
     "clue": "It computes that Carly Fiorin is chairman & C.E.O. of this computer company abbreviated H.P.",
     "response": "Hewlett-Packard"
   },
   {
     "clue": "2 Michael Faraday introduced this term for an electrically charged atom",
     "response": "an ion"
-  },
-  {
-    "clue": "Grand Theft _____",
-    "response": "Autumn"
   },
   {
     "clue": "Ads blocked on Facebook include those for weapons, spyware & this financial service for those newly arrested",
@@ -2094,10 +1826,6 @@
   {
     "clue": "In the '40s Harvard's Howard Aiken developed the Mark I computer with this company's help",
     "response": "IBM"
-  },
-  {
-    "clue": "Call of Duty",
-    "response": "Black Ops"
   },
   {
     "clue": "With flowing white hair, Geralt of Rivia is a monster slayer in this video game series based on the stories of Andrzej Sapkowski",
@@ -2116,16 +1844,8 @@
     "response": "PowerPoint"
   },
   {
-    "clue": "just what I needed",
-    "response": "Circuit City"
-  },
-  {
     "clue": "Most modern supercomputers run on this operating system developed by Linus Torvalds",
     "response": "Linux"
-  },
-  {
-    "clue": "Jerry's Guide to the World Wide Web",
-    "response": "Yahoo!"
   },
   {
     "clue": "Jimmy swears by Windows, while his pal Ned sticks to this Apple system that Windows mimics",
@@ -2190,9 +1910,5 @@
   {
     "clue": "These are the 2 pieces that can be moved to begin a chess game",
     "response": "pawn & knight"
-  },
-  {
-    "clue": "The Civil War",
-    "response": "Shelby Foote"
   }
 ]

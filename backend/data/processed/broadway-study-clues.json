@@ -8,10 +8,6 @@
     "response": "West Side Story"
   },
   {
-    "clue": "Will & Grace",
-    "response": "\"The Music Man\""
-  },
-  {
     "clue": "Many of this Jonathan Larson musical's famous fans have gone backstage to add their names to a long graffiti wall",
     "response": "Rent"
   },
@@ -20,120 +16,28 @@
     "response": "Crimes of the Heart"
   },
   {
-    "clue": "Long Day's Journey into Night",
-    "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "A Chorus Line",
-    "response": "Cats"
-  },
-  {
-    "clue": "Guys & Dolls",
-    "response": "\"A Bushel and a Peck\""
-  },
-  {
-    "clue": "The Sound of Music",
-    "response": "\"Climb Every Mountain\""
-  },
-  {
     "clue": "Amherst College administers this Washington, D.C. library devoted to a playwright",
     "response": "the Folger Library"
-  },
-  {
-    "clue": "Prelude to a Kiss",
-    "response": "(John) Mahoney"
-  },
-  {
-    "clue": "This musical about Huck & Jim made safe passage to BroadwayRIVER",
-    "response": "Big River"
-  },
-  {
-    "clue": "The Time of Your Life",
-    "response": "William Saroyan"
   },
   {
     "clue": "As a student at Brown University, this actress appeared in a play written by her father, Romulus Linney",
     "response": "Laura Linney"
   },
   {
-    "clue": "Oh, What a Beautiful Mornin'",
-    "response": "the corn"
-  },
-  {
     "clue": "Jonathan Pryce sang the showstopping number \"The American Dream in this megahit musical",
     "response": "Miss Saigon"
-  },
-  {
-    "clue": "Sexual Perversity in Chicago",
-    "response": "(David) Mamet"
-  },
-  {
-    "clue": "A Raisin in the Sun",
-    "response": "Lorraine Hansberry"
   },
   {
     "clue": "Come & meet those dancing feet, on the avenue I'm taking you to",
     "response": "42nd Street"
   },
   {
-    "clue": "The Importance of Being Earnest",
-    "response": "(Oscar) Wilde"
-  },
-  {
-    "clue": "Knights Of The Round Table",
-    "response": "Spamalot"
-  },
-  {
-    "clue": "Moon over Buffalo",
-    "response": "Carol Burnett"
-  },
-  {
-    "clue": "Do You Want To Build A Snowman?",
-    "response": "Frozen"
-  },
-  {
-    "clue": "Cuba and His Teddy Bear",
-    "response": "Robert De Niro"
-  },
-  {
-    "clue": "Good Morning Baltimore",
-    "response": "Hairspray"
-  },
-  {
-    "clue": "The Good Doctor",
-    "response": "Marsha Mason"
-  },
-  {
-    "clue": "The Little Mermaid",
-    "response": "Beauty and the Beast"
-  },
-  {
-    "clue": "Can You Feel The Love Tonight",
-    "response": "The Lion King"
-  },
-  {
     "clue": "Pay attention to Linda & Biff Loman",
     "response": "Death of a Salesman"
   },
   {
-    "clue": "As Ever, Gene",
-    "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "The Blue Bird",
-    "response": "Maurice Maeterlinck"
-  },
-  {
-    "clue": "A Place with the Pigs",
-    "response": "Athol Fugard"
-  },
-  {
     "clue": "You coax the blues right out of this, Mame",
     "response": "the horn"
-  },
-  {
-    "clue": "The Roman Spring of Mrs. Stone",
-    "response": "Tennessee Williams"
   },
   {
     "clue": "Daniel Burnham had to work with a triangular plot where Broadway, 5th & 23rd meet, & he came up with this building",
@@ -148,14 +52,6 @@
     "response": "Sigourney Weaver"
   },
   {
-    "clue": "Track Down This Murderer",
-    "response": "\"Phantom of the Opera\""
-  },
-  {
-    "clue": "Making Things Up Again",
-    "response": "The Book of Mormon"
-  },
-  {
     "clue": "During , poet & playwright Archibald MacLeish served as Asst. Sec'y of this diplomatic dept.",
     "response": "State"
   },
@@ -168,10 +64,6 @@
     "response": "Ireland"
   },
   {
-    "clue": "The Sixth Sense",
-    "response": "Haley Joel Osment"
-  },
-  {
     "clue": "Hey, look me over, lend me",
     "response": "an ear"
   },
@@ -180,68 +72,24 @@
     "response": "Aida"
   },
   {
-    "clue": "famous playwright: GBS",
-    "response": "George Bernard Shaw"
-  },
-  {
-    "clue": "How to Succeed in Business ____ ____ ____",
-    "response": "Without Really Trying"
-  },
-  {
     "clue": "James O'Neill, father of this playwright, was arrested for playing Jesus in a passion play",
     "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "The Night of the Iguana",
-    "response": "Tennessee Williams"
   },
   {
     "clue": "Appropriately, this Woody Allen film about mobsters in 1920s inspired a Broadway musical",
     "response": "Bullets over Broadway"
   },
   {
-    "clue": "Good Morning, Baltimore",
-    "response": "Hairspray"
-  },
-  {
-    "clue": "A Month in the Country",
-    "response": "Ivan Turgenev"
-  },
-  {
-    "clue": "Super Sea Star Savior",
-    "response": "SpongeBob SquarePants"
-  },
-  {
-    "clue": "The Thin Man",
-    "response": "Dashiell Hammett"
-  },
-  {
     "clue": "This show takes place on a Greek isle while a single mother prepares for her daughter's wedding",
     "response": "Mamma Mia!"
-  },
-  {
-    "clue": "The Inspector General",
-    "response": "(Nikolai) Gogol"
-  },
-  {
-    "clue": "The Good Doctor",
-    "response": "Neil Simon"
   },
   {
     "clue": "John Millington Synge wasn't born on Dublin's Synge St.; this other 3-named playwright was",
     "response": "George Bernard Shaw"
   },
   {
-    "clue": "Sex and the City",
-    "response": "Cynthia Nixon"
-  },
-  {
     "clue": "Bodyguard kills his boss' girlfriend so that the show can go on",
     "response": "Bullets Over Broadway"
-  },
-  {
-    "clue": "Born is the King of Israel",
-    "response": "The First Noël Coward"
   },
   {
     "clue": "Oprah was one of the original producers of this musical based on an Alice Walker novel",
@@ -260,10 +108,6 @@
     "response": "Memphis"
   },
   {
-    "clue": "The Good Doctor",
-    "response": "Chekhov"
-  },
-  {
     "clue": "21 When this show opened, Hank Azaria played several roles including Sir Lancelot & a Knight of Ni",
     "response": "Spamalot"
   },
@@ -280,64 +124,12 @@
     "response": "Wicked"
   },
   {
-    "clue": "The Madwoman of",
-    "response": "Chaillot"
-  },
-  {
     "clue": "Broadway's lights are dimmed to honor late, great luminaries, such as this lyricist partner of John Kander",
     "response": "Fred Ebb"
   },
   {
     "clue": "Gore Vidal's play about this president opened & closed a few weeks before the Watergate break-in",
     "response": "Richard Nixon"
-  },
-  {
-    "clue": "EDGE PRAISEWORTHY GIANT HUNK",
-    "response": "Sunday in the Park with George"
-  },
-  {
-    "clue": "Waiting for Lefty",
-    "response": "(Clifford) Odets"
-  },
-  {
-    "clue": "Into the Light",
-    "response": "the Shroud of Turin"
-  },
-  {
-    "clue": "Night Must Fall",
-    "response": "Emlyn Williams"
-  },
-  {
-    "clue": "Fool for Love",
-    "response": "Sam Shepard"
-  },
-  {
-    "clue": "Broadway Boogie Woogie",
-    "response": "Piet Mondrian"
-  },
-  {
-    "clue": "1 of 3 women who won the Pulitzer Prize for Drama in the 1980s",
-    "response": "(1 of) Beth Henley (for Crimes of the Heart), Marsha Norman (for 'Night, Mother) & Wendy Wasserstein (for The Heidi Chronicles)"
-  },
-  {
-    "clue": "Oh, What A Beautiful Mornin",
-    "response": "Oklahoma!"
-  },
-  {
-    "clue": "The Heidi Chronicles",
-    "response": "Wendy Wasserstein"
-  },
-  {
-    "clue": "The Roman Spring of Mrs. Stone",
-    "response": "Tennessee Williams"
-  },
-  {
-    "clue": "Tim Curry as Mozart, Ian McKellen as Salieri",
-    "response": "Amadeus"
-  },
-  {
-    "clue": "Walter Matthau,Art Carney,Paul Dooley,Carole Shelley",
-    "response": "The Odd Couple"
   },
   {
     "clue": "80s Based on an off-Broadway play with just 3 characters, it won the Best Picture Oscar & the actors in all 3 roles were nominated",
@@ -348,44 +140,16 @@
     "response": "Shaw"
   },
   {
-    "clue": "Falling in Love Again",
-    "response": "Marlene Dietrich"
-  },
-  {
-    "clue": "The Piano Lesson",
-    "response": "August Wilson"
-  },
-  {
-    "clue": "Who's Afraid of Virginia Woolf?",
-    "response": "Edward Albee"
-  },
-  {
-    "clue": "Three Tall Women",
-    "response": "Edward Albee"
-  },
-  {
     "clue": "Watch for the costumed Elmos while waiting on line at this Times Square booth for discounts on Broadway shows",
     "response": "the TKTS booth"
-  },
-  {
-    "clue": "Cunning little brain, regular Voltaire, thinks he's quite a lover but there's not much there",
-    "response": "\"Master Of The House\" (from Les Mis)"
   },
   {
     "clue": "Lorraine Bracco dared to go bare when she took over the role of Mrs. Robinson in this play based on a film",
     "response": "The Graduate"
   },
   {
-    "clue": "The Piano Lesson",
-    "response": "August Wilson"
-  },
-  {
     "clue": "We are all born mad. Some remain so.",
     "response": "Samuel Beckett"
-  },
-  {
-    "clue": "La Cage aux Folles",
-    "response": "Fierstein"
   },
   {
     "clue": "If you end up with a straight from the 10 to the ace, it's called this, like a street",
@@ -404,16 +168,8 @@
     "response": "The Graduate"
   },
   {
-    "clue": "The Ladies Who Lunch",
-    "response": "Stephen Sondheim"
-  },
-  {
     "clue": "The casino so nice they named it twice, this place has room types called the Skyline & Broadway Deluxe",
     "response": "New York New York"
-  },
-  {
-    "clue": "Brighton Beach Memoirs",
-    "response": "Neil Simon"
   },
   {
     "clue": "A big nose is indicative of a soul affable, and kind",
@@ -424,24 +180,8 @@
     "response": "Mean Girls"
   },
   {
-    "clue": "Playwright Samuel Beckett",
-    "response": "Paris"
-  },
-  {
-    "clue": "The Boy from Oz",
-    "response": "(Hugh) Jackman"
-  },
-  {
-    "clue": "Lost in Yonkers",
-    "response": "Neil Simon"
-  },
-  {
     "clue": "love-rock musical that exposed the naked truth about its performers",
     "response": "Hair"
-  },
-  {
-    "clue": "So long, dearie",
-    "response": "Hello, Dolly!"
   },
   {
     "clue": "This musical opens with Anna's arrival in Bangkok",
@@ -452,84 +192,32 @@
     "response": "The Odd Couple"
   },
   {
-    "clue": "A Chorus Line",
-    "response": "\"Kiss today goodbye\""
-  },
-  {
     "clue": "She's got the banjoes strummin' and plunkin' out a tune to beat the band",
     "response": "Mame"
-  },
-  {
-    "clue": "The Happy Prince and Other Tales",
-    "response": "Oscar Wilde"
   },
   {
     "clue": "Something familiar /Something peculiar /Something for everyone /A comedy tonight! /Something appealing /Something appalling /Something for everyone /A comedy tonight!",
     "response": "Plautus"
   },
   {
-    "clue": "The Great Profile",
-    "response": "John Barrymore"
-  },
-  {
-    "clue": "A Raisin in the Sun",
-    "response": "(Lorraine) Hansberry"
-  },
-  {
-    "clue": "A Streetcar Named Desire",
-    "response": "Tennessee Williams"
-  },
-  {
-    "clue": "The Schuyler Sisters",
-    "response": "Hamilton"
-  },
-  {
     "clue": "A salesman is got to dream, boy. It comes with the territory",
     "response": "(Arthur) Miller"
-  },
-  {
-    "clue": "Billy Porter: Broadway & Soul",
-    "response": "Live from Lincoln Center"
-  },
-  {
-    "clue": "We're Not Gonna Take It",
-    "response": "Rock of Ages"
-  },
-  {
-    "clue": "Laughter on the 23rd Floor",
-    "response": "Neil Simon"
   },
   {
     "clue": "This actor is the son of a British poet laureate & the son-in-law of playwright Arthur Miller",
     "response": "Daniel Day-Lewis"
   },
   {
-    "clue": "On the Waterfront",
-    "response": "Leonard Bernstein"
-  },
-  {
     "clue": "This show is set in & around Rydell High School",
     "response": "Grease"
-  },
-  {
-    "clue": "Death of a Salesman",
-    "response": "the Lomans"
   },
   {
     "clue": "given us the drive again, to make the south revive again",
     "response": "Mame"
   },
   {
-    "clue": "Nick Massi,Mary Delgado,Frankie Valli",
-    "response": "Jersey Boys"
-  },
-  {
     "clue": "Gaston plots to kill the hulking, hairy hero of this musical (don't worry, kiddies--everything turns out all right)",
     "response": "Beauty and the Beast"
-  },
-  {
-    "clue": "A Raisin in the Sun",
-    "response": "Lorraine Hansberry"
   },
   {
     "clue": "meeting between Werner Heisenberg & Niels Bohr is the subject of the play named for this Danish city",
@@ -552,10 +240,6 @@
     "response": "George Bernard Shaw"
   },
   {
-    "clue": "Sei personaggi in cerca d'autore",
-    "response": "Six Characters in Search of an Author"
-  },
-  {
     "clue": "The Helen Hayes Award for Best New Play is named for this playwright & husband of Helen Hayes",
     "response": "(Charles) MacArthur"
   },
@@ -564,60 +248,20 @@
     "response": "All That Jazz"
   },
   {
-    "clue": "The Boy David",
-    "response": "James M. Barrie"
-  },
-  {
-    "clue": "Come Blow Your Horn",
-    "response": "Neil Simon"
-  },
-  {
     "clue": "Thomas Kyd helped establish the unrhyming form called this verse on the English stage",
     "response": "blank verse"
-  },
-  {
-    "clue": "Scenes from a Life",
-    "response": "(Anton) Chekhov"
   },
   {
     "clue": "once there was a spot, for one",
     "response": "brief shining moment"
   },
   {
-    "clue": "It Only Takes A Moment",
-    "response": "Hello, Dolly!"
-  },
-  {
     "clue": "Originally a Native American trail, the Dutch made it a main road & today it runs 33 miles from State Street to Sleepy Hollow",
     "response": "Broadway"
   },
   {
-    "clue": "Saturday Night Live",
-    "response": "(Will) Ferrell"
-  },
-  {
-    "clue": "The King and I",
-    "response": "Siam"
-  },
-  {
-    "clue": "The School for Wives",
-    "response": "Molière"
-  },
-  {
-    "clue": "The Roman Spring of Mrs. Stone",
-    "response": "Tennessee Williams"
-  },
-  {
-    "clue": "The Human Comedy",
-    "response": "William Saroyan"
-  },
-  {
     "clue": "This playwright was the illegitimate fils of a famed novelist",
     "response": "Alexandre Dumas"
-  },
-  {
-    "clue": "Mafala Hatimbi & Elder McKinley",
-    "response": "The Book of Mormon"
   },
   {
     "clue": "An film & a Broadway musical both bear the name of this Long Island estate owned by Jackie Kennedy's aunt",
@@ -632,20 +276,8 @@
     "response": "Tennessee Williams"
   },
   {
-    "clue": "The Birthday Party",
-    "response": "(Harold) Pinter"
-  },
-  {
-    "clue": "Waiting for Godot",
-    "response": "Lefty"
-  },
-  {
     "clue": "Delicate & rare like herself, a unicorn is among Laura Wingfield's prized collection in this Tennessee Williams play",
     "response": "The Glass Menagerie"
-  },
-  {
-    "clue": "Angels in America",
-    "response": "(Tony) Kushner"
   },
   {
     "clue": "Cuz when push comes to shove, I will kill your friends & family to remind you of my love",
@@ -656,28 +288,8 @@
     "response": "A Man For All Seasons"
   },
   {
-    "clue": "What The Butler Saw",
-    "response": "Joe Orton"
-  },
-  {
-    "clue": "Rosencrantz and Guildenstern Are Dead",
-    "response": "(Tom) Stoppard"
-  },
-  {
     "clue": "Well ya got trouble, my friend—right here I say trouble right here in",
     "response": "River City"
-  },
-  {
-    "clue": "An Unmarried Woman",
-    "response": "Jill Clayburgh"
-  },
-  {
-    "clue": "Fugue For Tinhorns",
-    "response": "Guys and Dolls"
-  },
-  {
-    "clue": "Agnes Of God",
-    "response": "Meg Tilly"
   },
   {
     "clue": "Ancient Greek playwright Sophocles wrote 2 plays named for this complex & troubled King of Thebes",
@@ -696,52 +308,12 @@
     "response": "dice"
   },
   {
-    "clue": "The Phantom of the Opera",
-    "response": "the Majestic"
-  },
-  {
-    "clue": "Escanaba in da Moonlight",
-    "response": "Michigan"
-  },
-  {
-    "clue": "A View From The Bridge",
-    "response": "Arthur Miller"
-  },
-  {
-    "clue": "hilarious and irreverent",
-    "response": "The Book of Mormon"
-  },
-  {
-    "clue": "Back to Methuselah",
-    "response": "(George Bernard) Shaw"
-  },
-  {
-    "clue": "American tribal-love rock musical",
-    "response": "Hair"
-  },
-  {
     "clue": "The most celebrated artist in the theater",
     "response": "Al Hirschfeld"
   },
   {
-    "clue": "The Dance of Death",
-    "response": "The Light in August Strindberg"
-  },
-  {
-    "clue": "I Feel The Earth Move",
-    "response": "Beautiful: The Carole King Musical"
-  },
-  {
-    "clue": "Boy Falls From The Sky",
-    "response": "Spider-Man"
-  },
-  {
     "clue": "The son of an actor, he won 4 Pulitzer Prizes for Drama, more than any other playwright",
     "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "Mea Domina Bella",
-    "response": "My Fair Lady"
   },
   {
     "clue": "Musical in which the title character sings, \"I will never grow a moustache, or a fraction of an inch",
@@ -752,10 +324,6 @@
     "response": "your dream"
   },
   {
-    "clue": "At The End Of The Day",
-    "response": "Les Miserables"
-  },
-  {
     "clue": "Mandy Patinkin created the role of Che on Broadway in this musical set in Argentina",
     "response": "Evita"
   },
@@ -764,28 +332,12 @@
     "response": "Gypsy"
   },
   {
-    "clue": "Brighton Beach Memoirs",
-    "response": "Neil Simon"
-  },
-  {
     "clue": "He was the first man to win golf's Grand Slam & the first to receive 2 Broadway ticker-tape parades",
     "response": "Bobby Jones"
   },
   {
     "clue": "James & Kate Keller, who need one",
     "response": "The Miracle Worker"
-  },
-  {
-    "clue": "The Girl That I Marry",
-    "response": "Annie Get Your Gun"
-  },
-  {
-    "clue": "Come Back, Little Sheba",
-    "response": "William Inge"
-  },
-  {
-    "clue": "But, Mr. Adams",
-    "response": "1776"
   },
   {
     "clue": "year-old usher Sheila Delaney got a taste for theatre & went home one night to start this play",
@@ -806,18 +358,6 @@
   {
     "clue": "Broadway musical about Charlemagne's son",
     "response": "Pippin"
-  },
-  {
-    "clue": "Yankee Doodle Dandy",
-    "response": "(George M.) Cohan"
-  },
-  {
-    "clue": "The People's Song",
-    "response": "Les Misérables"
-  },
-  {
-    "clue": "The Gulf War",
-    "response": "Princeton"
   },
   {
     "clue": "On Broadway you sit in the orchestra; in the West End you, not the horses, sit in these",
@@ -844,44 +384,8 @@
     "response": "Mary Poppins"
   },
   {
-    "clue": "Who's Afraid of Virginia Woolf?",
-    "response": "Albee"
-  },
-  {
-    "clue": "A Fantasia in the Russian Manner...",
-    "response": "Anton Chekhov"
-  },
-  {
-    "clue": "How are things in",
-    "response": "Glocca Morra"
-  },
-  {
-    "clue": "Renaldo and Clara",
-    "response": "Sam Shepard"
-  },
-  {
-    "clue": "Bells Are Ringing",
-    "response": "Judy Holliday"
-  },
-  {
-    "clue": "Merry Christmas Maggie Thatcher",
-    "response": "Billy Elliot"
-  },
-  {
-    "clue": "Beauty and the Beast",
-    "response": "Lumiere"
-  },
-  {
     "clue": "The father of this Southern playwright was a big inspiration for the character Big Daddy",
     "response": "Tennessee Williams"
-  },
-  {
-    "clue": "The Plough and the Stars",
-    "response": "Sean O'Casey"
-  },
-  {
-    "clue": "John Lithgow as Rene Gallimard, B.D. Wong as Song Liling",
-    "response": "M. Butterfly"
   },
   {
     "clue": "Oh, no! Not in springtime! Summer, winter or fall! No, never could I",
@@ -892,52 +396,8 @@
     "response": "John"
   },
   {
-    "clue": "A Touch of the Poet",
-    "response": "O'Neill"
-  },
-  {
-    "clue": "Three Tall Women",
-    "response": "Edward Albee"
-  },
-  {
-    "clue": "A Whole New World",
-    "response": "Aladdin"
-  },
-  {
-    "clue": "Angry Young Men",
-    "response": "John Osborne (\"Look Back In Anger\")"
-  },
-  {
-    "clue": "Strong men tremble",
-    "response": "(Bill) Sikes"
-  },
-  {
-    "clue": "The Moon is Down",
-    "response": "John Steinbeck"
-  },
-  {
-    "clue": "An American Daughter",
-    "response": "Wendy Wasserstein"
-  },
-  {
     "clue": "of the 2 playwrights named Miller who won the Pulitzer Prize for Drama",
     "response": "Arthur Miller (or Jason Miller)"
-  },
-  {
-    "clue": "Glengarry Glen Ross",
-    "response": "David Mamet"
-  },
-  {
-    "clue": "Luck Be A Lady",
-    "response": "Guys And Dolls"
-  },
-  {
-    "clue": "Tamburlaine The Great",
-    "response": "William Shatner"
-  },
-  {
-    "clue": "Shadows in the Evening",
-    "response": "Noel Coward"
   },
   {
     "clue": "There is no benefit in the gifts of a bad man",
@@ -952,26 +412,6 @@
     "response": "Cats"
   },
   {
-    "clue": "My Boyfriend's Back",
-    "response": "Jersey Boys"
-  },
-  {
-    "clue": "The Blonde in the Thunderbird",
-    "response": "Suzanne Somers"
-  },
-  {
-    "clue": "The Little Foxes",
-    "response": "(Lillian) Hellman"
-  },
-  {
-    "clue": "The Talk of the Town",
-    "response": "The New Yorker"
-  },
-  {
-    "clue": "Got Tu Go Disco",
-    "response": "Irene Cara"
-  },
-  {
     "clue": "60 This Broadway tune was Louis Armstrong's only Top 40 hit in the 1960s",
     "response": "\"Hello, Dolly!\""
   },
@@ -980,64 +420,12 @@
     "response": "Ragtime"
   },
   {
-    "clue": "Le Bourgeois Gentilhomme",
-    "response": "Molière"
-  },
-  {
-    "clue": "Sweet Bird of Youth",
-    "response": "Tennessee Williams"
-  },
-  {
-    "clue": "Splendor in the Grass",
-    "response": "(William) Inge"
-  },
-  {
-    "clue": "Uno Sguardo Dal Ponte",
-    "response": "Arthur Miller"
-  },
-  {
-    "clue": "The Coast of Utopia",
-    "response": "Tom Stoppard"
-  },
-  {
-    "clue": "The Kindness of Strangers",
-    "response": "Tennessee Williams"
-  },
-  {
-    "clue": "Death of a Salesman",
-    "response": "(Arthur) Miller"
-  },
-  {
-    "clue": "Arms and the Man",
-    "response": "George Bernard Shaw"
-  },
-  {
-    "clue": "The Master Builder",
-    "response": "Ibsen"
-  },
-  {
-    "clue": "Come Back, Little Sheba",
-    "response": "William Inge"
-  },
-  {
     "clue": "Good-by, good-by world. Good-by Grover's Corners... Mama and Papa. Good-by to clocks ticking...",
     "response": "Thornton Wilder (Our Town)"
   },
   {
-    "clue": "The Color Purple",
-    "response": "Georgia"
-  },
-  {
-    "clue": "Six Degrees of Separation",
-    "response": "Sidney Poitier"
-  },
-  {
     "clue": "This playwright created the memorable characters Laura Wingfield & Blanche DuBois",
     "response": "(Tennessee) Williams"
-  },
-  {
-    "clue": "Glengarry Glen Ross",
-    "response": "David Mamet"
   },
   {
     "clue": "Famed for playing a sewer worker on TV, he originated the role of Felix Unger on Broadway",
@@ -1052,128 +440,20 @@
     "response": "My Bill"
   },
   {
-    "clue": "All About Eve",
-    "response": "Applause"
-  },
-  {
     "clue": "You can buy a souvenir box of tissues at the Broadway musical based on this bestseller by Nicholas Sparks",
     "response": "The Notebook"
-  },
-  {
-    "clue": "A Musical Web",
-    "response": "Spider-Man"
-  },
-  {
-    "clue": "Night Must Fall",
-    "response": "Wales"
-  },
-  {
-    "clue": "Waiting for Lefty",
-    "response": "Clifford Odets"
   },
   {
     "clue": "Unless you're tired of your old records you'll love this show based on s greatest hits",
     "response": "Mamma Mia!"
   },
   {
-    "clue": "Red Light Winter",
-    "response": "Amsterdam"
-  },
-  {
-    "clue": "Paint Your Wagon",
-    "response": "Maria"
-  },
-  {
-    "clue": "The Real Thing",
-    "response": "(Jeremy) Irons"
-  },
-  {
-    "clue": "Valley of the Dolls",
-    "response": "Jacqueline Susann"
-  },
-  {
-    "clue": "Mack and Mabel",
-    "response": "(Mabel) Normand"
-  },
-  {
-    "clue": "Don't Cry For Me Argentina",
-    "response": "Evita"
-  },
-  {
-    "clue": "Fiddler on the Roof",
-    "response": "Zero Mostel"
-  },
-  {
-    "clue": "The Goodbye Girl",
-    "response": "Neil Simon"
-  },
-  {
-    "clue": "The Glass Menagerie",
-    "response": "Tennessee Williams"
-  },
-  {
-    "clue": "GLAD SUDS ONLY",
-    "response": "Guys and Dolls"
-  },
-  {
     "clue": "Memory, all alone in the moonlight, I can smile at the old days, I was beautiful then",
     "response": "Cats"
   },
   {
-    "clue": "Bound East For Cardiff",
-    "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "The Chocolate Soldier",
-    "response": "George Bernard Shaw"
-  },
-  {
-    "clue": "Good Night, and Good Luck.",
-    "response": "George Clooney"
-  },
-  {
-    "clue": "Beyond the Horizon",
-    "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "Broadway lyricist Alan Lerner",
-    "response": "Alan Jay Lerner"
-  },
-  {
-    "clue": "Max von Mayerling,Norma Desmond",
-    "response": "Sunset Boulevard"
-  },
-  {
-    "clue": "The Boy Friend",
-    "response": "Julie Andrews"
-  },
-  {
-    "clue": "Mack and Mabel",
-    "response": "Mabel Normand"
-  },
-  {
     "clue": "A Tony Award-winning Broadway show is named for this father of afrobeat, Mr. Kuti",
     "response": "Fela (Kuti)"
-  },
-  {
-    "clue": "The Man Who Had All the Luck",
-    "response": "Arthur Miller"
-  },
-  {
-    "clue": "The Vikings at Helgeland",
-    "response": "Ibsen"
-  },
-  {
-    "clue": "Think before you act",
-    "response": "Mamet & Macy"
-  },
-  {
-    "clue": "I Enjoy Being A Girl",
-    "response": "Flower Drum Song"
-  },
-  {
-    "clue": "Brighton Beach Memoirs",
-    "response": "Neil Simon"
   },
   {
     "clue": "Lope de Rueda & Lope de Vega were 2 of this country's most famous playwrights",
@@ -1188,48 +468,12 @@
     "response": "Anton Chekhov"
   },
   {
-    "clue": "Into the Woods",
-    "response": "(Stephen) Sondheim"
-  },
-  {
     "clue": "weeks before he died, this Broadway lyricist got his daughter to the church on time",
     "response": "(Alan Jay) Lerner"
   },
   {
-    "clue": "Slaughter on Tenth Avenue",
-    "response": "Toes"
-  },
-  {
     "clue": "The Middle Eastern town of Agrabah (which is almost an anagram of Baghdad)",
     "response": "Aladdin"
-  },
-  {
-    "clue": "Mother Courage and Her Children",
-    "response": "Bertolt Brecht"
-  },
-  {
-    "clue": "I Meant You No Harm",
-    "response": "Dreamgirls"
-  },
-  {
-    "clue": "The Adventures of Tom Sawyer",
-    "response": "Becky Thatcher"
-  },
-  {
-    "clue": "Sweet Bird of Youth",
-    "response": "Tennessee Williams"
-  },
-  {
-    "clue": "Me And Bobby McGee",
-    "response": "Janis Joplin"
-  },
-  {
-    "clue": "The Broadway Theater,Nathan's Famous Hot Dogs",
-    "response": "New York, New York"
-  },
-  {
-    "clue": "Quadragesimus Secundus Vicus",
-    "response": "42nd Street"
   },
   {
     "clue": "Our home has been nothing but a playroom",
@@ -1240,32 +484,8 @@
     "response": "Sylvia"
   },
   {
-    "clue": "The Man Who Had All the Luck",
-    "response": "Arthur Miller"
-  },
-  {
-    "clue": "I Remember Mama",
-    "response": "Marlon Brando"
-  },
-  {
-    "clue": "The Boy from",
-    "response": "Oz"
-  },
-  {
     "clue": "He had several one-man shows of his sculptures but he's perhaps best known for his caricatures of Broadway stars",
     "response": "Al Hirschfeld"
-  },
-  {
-    "clue": "The King and I",
-    "response": "Yul Brynner"
-  },
-  {
-    "clue": "Waiting For This Moment",
-    "response": "Tarzan"
-  },
-  {
-    "clue": "The Admiral Broadway Revue",
-    "response": "Your Show of Shows"
   },
   {
     "clue": "No matter how hopeless, no matter how far, to fight for the right without question",
@@ -1280,40 +500,12 @@
     "response": "Shaw"
   },
   {
-    "clue": "Gee, Officer Krupke",
-    "response": "West Side Story"
-  },
-  {
     "clue": "who never fell in love",
     "response": "\"What Kind of Fool Am I?\""
   },
   {
-    "clue": "Fiddler on the Roof",
-    "response": "Sunrise, Sunset"
-  },
-  {
-    "clue": "Nippon. The floating kingdom",
-    "response": "Pacific Overtures"
-  },
-  {
-    "clue": "Magic of the Holidays",
-    "response": "The Illusionists"
-  },
-  {
-    "clue": "Lost in Yonkers",
-    "response": "Neil Simon"
-  },
-  {
-    "clue": "King Arthur's Song",
-    "response": "Spamalot"
-  },
-  {
     "clue": "All Broadway productions of this musical have featured real-life shelter dogs as Sandy",
     "response": "Annie"
-  },
-  {
-    "clue": "Another Part of the Forest",
-    "response": "Lillian Hellman"
   },
   {
     "clue": "I don't say he's a great man. Willy Loman never made a lot of money",
@@ -1322,18 +514,6 @@
   {
     "clue": "year-old Laura Benanti played Maria to Richard Chamberlain's Capt. Von Trapp in the recent revival of this musical",
     "response": "\"The Sound of Music\""
-  },
-  {
-    "clue": "The Marriage of",
-    "response": "Figaro"
-  },
-  {
-    "clue": "Mrs. Warren's Profession",
-    "response": "George Bernard Shaw"
-  },
-  {
-    "clue": "Six Characters in Search of an Author",
-    "response": "Pirandello"
   },
   {
     "clue": "A recent off-Broadway musical parodied this sitcom with everyone's favorites including Ross & Rachel",
@@ -1348,18 +528,6 @@
     "response": "Ticker Tape Parade"
   },
   {
-    "clue": "Long Day's Journey Into Night",
-    "response": "Eugene O' Neill"
-  },
-  {
-    "clue": "Beyond the Horizon",
-    "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "One Night Stands of a Noisy Passenger",
-    "response": "Shelley Winters"
-  },
-  {
     "clue": "Mandy played George in the original Broadway production of this musical with sets & costumes based on a Seurat painting",
     "response": "Sunday in the Park with George"
   },
@@ -1368,40 +536,12 @@
     "response": "Henrik Ibsen"
   },
   {
-    "clue": "Fisch Schlapping Song",
-    "response": "Spamalot"
-  },
-  {
-    "clue": "medicine go down",
-    "response": "a spoonful of sugar"
-  },
-  {
-    "clue": "The Adventures of Tom Sawyer",
-    "response": "Becky (Thatcher)"
-  },
-  {
-    "clue": "Cyrano de Bergerac",
-    "response": "Rostand"
-  },
-  {
     "clue": "Tom Wingfield brings Jim O'Connor home to meet his sister Laura in this Tennessee Williams play",
     "response": "The Glass Menagerie"
   },
   {
     "clue": "Nothing portentous or polite, tragedy tomorrow",
     "response": "comedy"
-  },
-  {
-    "clue": "Let the Sunshine In",
-    "response": "Diane Keaton"
-  },
-  {
-    "clue": "Les precieuses ridicules",
-    "response": "Molière"
-  },
-  {
-    "clue": "God of Carnage",
-    "response": "James Gandolfini"
   },
   {
     "clue": "Future playwright John Casey changed his name to this when he was won over to Irish nationalism",
@@ -1416,96 +556,24 @@
     "response": "Wicked"
   },
   {
-    "clue": "Tevye the Dairyman",
-    "response": "Fiddler on the Roof"
-  },
-  {
-    "clue": "Angels in America",
-    "response": "(Tony) Kushner"
-  },
-  {
-    "clue": "The King of Broadway",
-    "response": "The Producers"
-  },
-  {
     "clue": "princess has bedding-based sleeping trouble",
     "response": "Once Upon a Mattress"
-  },
-  {
-    "clue": "Stories 1, 2, 3, 4",
-    "response": "(Eugène) Ionesco"
-  },
-  {
-    "clue": "It's The Hard-Knock Life",
-    "response": "Annie"
-  },
-  {
-    "clue": "Annie Get Your Gun",
-    "response": "Reba McEntire"
   },
   {
     "clue": "The settings for this musical are a prison in Seville & in the imagination of Cervantes",
     "response": "Man of La Mancha"
   },
   {
-    "clue": "A Little Night Music",
-    "response": "Catherine Zeta-Jones"
-  },
-  {
     "clue": "It's a long, long while from May to December, but the days grow short when you reach",
     "response": "September"
-  },
-  {
-    "clue": "The Piano Lesson",
-    "response": "August Wilson"
-  },
-  {
-    "clue": "The Boy from Oz",
-    "response": "Hugh Jackman"
-  },
-  {
-    "clue": "The Sound of Music",
-    "response": "\"Edelweiss\""
-  },
-  {
-    "clue": "Torch Song Trilogy",
-    "response": "Harvey Fierstein"
   },
   {
     "clue": "Lack of money is the root of all evil",
     "response": "George Bernard Shaw"
   },
   {
-    "clue": "The Rattigan Version",
-    "response": "Terrence Rattigan"
-  },
-  {
-    "clue": "The Great White Way",
-    "response": "Broadway"
-  },
-  {
-    "clue": "Juno and the Paycock",
-    "response": "Sean O'Casey"
-  },
-  {
-    "clue": "Send In The Clowns",
-    "response": "Stephen Sondheim"
-  },
-  {
-    "clue": "Annie Oakley,Frank Butler,Sitting Bull",
-    "response": "Annie Get Your Gun"
-  },
-  {
-    "clue": "The Sisters Rosensweig",
-    "response": "Wendy Wasserstein"
-  },
-  {
     "clue": "Birth & burial place of England's most famous playwright",
     "response": "Stratford-upon-Avon"
-  },
-  {
-    "clue": "The Dance of Death",
-    "response": "August Strindberg"
   },
   {
     "clue": "Sebastian Melmoth was the name used by this Irish playwright while in exile",
@@ -1520,14 +588,6 @@
     "response": "The Lion King"
   },
   {
-    "clue": "Lettice and Lovage",
-    "response": "Peter Shaffer"
-  },
-  {
-    "clue": "The Iceman Cometh",
-    "response": "Eugene O'Neill"
-  },
-  {
     "clue": "A theatre at the University of Michigan is named for this alumnus & Pulitzer Prize-winning playwright",
     "response": "Arthur Miller"
   },
@@ -1538,14 +598,6 @@
   {
     "clue": "He was the royal godfather to the son of French playwright Moliere",
     "response": "King Louis XIV"
-  },
-  {
-    "clue": "The Dreamy Kid",
-    "response": "(Eugene) O'Neill"
-  },
-  {
-    "clue": "The Boy from Oz",
-    "response": "Jackman"
   },
   {
     "clue": "You're looks are laughable, un-photographable",
@@ -1568,10 +620,6 @@
     "response": "Christopher"
   },
   {
-    "clue": "Come Blow Your Horn",
-    "response": "Neil Simon"
-  },
-  {
     "clue": "Bigamy is having one wife too many. Monogamy is the same",
     "response": "Oscar Wilde"
   },
@@ -1584,24 +632,8 @@
     "response": "Sister Act"
   },
   {
-    "clue": "Ol' Man River",
-    "response": "Show Boat"
-  },
-  {
-    "clue": "A Thousand Clowns",
-    "response": "Tom Selleck"
-  },
-  {
-    "clue": "Gold Diggers of Broadway",
-    "response": "\"Tiptoe Through the Tulips\""
-  },
-  {
     "clue": "But should auld acquaintance be forgotten, keep your eye on",
     "response": "the grand old flag"
-  },
-  {
-    "clue": "It's delightful, it's delicious...",
-    "response": "\"It's De-Lovely\""
   },
   {
     "clue": "You make me smile with my heart, your looks are laughable, unphotographable",
@@ -1616,14 +648,6 @@
     "response": "Gilbert and Sullivan"
   },
   {
-    "clue": "Little Johnny Jones",
-    "response": "George M. Cohan"
-  },
-  {
-    "clue": "Keep coolly cool, boy",
-    "response": "West Side Story"
-  },
-  {
     "clue": "I didn't see myself as an editor. I wanted to be a playwright",
     "response": "Tina Brown"
   },
@@ -1636,10 +660,6 @@
     "response": "Driving Miss Daisy"
   },
   {
-    "clue": "Once Upon A December",
-    "response": "Anastasia"
-  },
-  {
     "clue": "This Gatlin brother played Will Rogers on Broadway while a Carradine brother played the role on tour",
     "response": "Larry Gatlin"
   },
@@ -1648,48 +668,12 @@
     "response": "The Odd Couple"
   },
   {
-    "clue": "Dawn (Go Away)",
-    "response": "Jersey Boys"
-  },
-  {
-    "clue": "the Scottish play",
-    "response": "Macbeth"
-  },
-  {
-    "clue": "The Lion King",
-    "response": "Cheetah Rivera"
-  },
-  {
-    "clue": "Voice of Broadway",
-    "response": "Dorothy Kilgallen"
-  },
-  {
     "clue": "Nobel Prize literature winners were born on the Emerald Isle: Yeats, Beckett, Heaney & this playwright",
     "response": "(George Bernard) Shaw"
   },
   {
-    "clue": "Shiksa Goddess: (or, How I Spent My Forties)",
-    "response": "(Wendy) Wasserstein"
-  },
-  {
     "clue": "This musical's original Broadway cast featured Barry Bostwick as Danny Zuko & Adrienne Barbeau as Betty Rizzo",
     "response": "Grease"
-  },
-  {
-    "clue": "A Moon for the Misbegotten",
-    "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "Now & Forever",
-    "response": "Cats"
-  },
-  {
-    "clue": "Paint Your ____",
-    "response": "Wagon"
-  },
-  {
-    "clue": "Ol' Man River",
-    "response": "Show Boat"
   },
   {
     "clue": "Brecht served in a German army hospital during this war, but never as a surgeon as he claimed",
@@ -1708,32 +692,8 @@
     "response": "Edmond Rostand"
   },
   {
-    "clue": "Trollbusters! The Return of Peer Gynt",
-    "response": "Ibsen"
-  },
-  {
-    "clue": "A U.S. playwright",
-    "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "Alexis Smith,Dorothy Collins,Gene Nelson,Yvonne De Carlo",
-    "response": "Follies"
-  },
-  {
-    "clue": "Look Back In Anger",
-    "response": "John Osborne"
-  },
-  {
     "clue": "you make me smile with my heart; your looks are laughable, unphotographable",
     "response": "\"My Funny Valentine\""
-  },
-  {
-    "clue": "The Unsinkable Molly Brown",
-    "response": "The Music Man"
-  },
-  {
-    "clue": "Five by Tenn",
-    "response": "Tennessee Williams"
   },
   {
     "clue": "Albus Potter teams up with Scorpius Malfoy in a spellbinding journey through time & space",
@@ -1744,72 +704,16 @@
     "response": "Carrie"
   },
   {
-    "clue": "The Zoo Story",
-    "response": "Edward Albee"
-  },
-  {
-    "clue": "The Devil's Disciple",
-    "response": "the American Revolution"
-  },
-  {
-    "clue": "Search for Signs of Intelligent Life in the Universe",
-    "response": "Lily Tomlin"
-  },
-  {
-    "clue": "Velma Von Tussle,Tracy Turnblad,Corny Collins",
-    "response": "Hairspray"
-  },
-  {
-    "clue": "Chicks and ducks and geese better scurry when I take you out in",
-    "response": "a surrey with a fringe on top"
-  },
-  {
-    "clue": "Cyrano de Bergerac",
-    "response": "Edmond Rostand"
-  },
-  {
-    "clue": "New Girl in Town",
-    "response": "Eugene O'Neill"
-  },
-  {
     "clue": "The Lincoln Center for the Performing Arts & Columbia University are located on this thoroughfare",
     "response": "Broadway"
-  },
-  {
-    "clue": "John Brown's Body",
-    "response": "Eugene O'Neill"
   },
   {
     "clue": "I could write about failure only because I could deal with it...I knew how he felt",
     "response": "Arthur Miller"
   },
   {
-    "clue": "Holding one note was",
-    "response": "Johnny One Note"
-  },
-  {
-    "clue": "Love Never Dies",
-    "response": "Phantom of the Opera"
-  },
-  {
     "clue": "London-born playwright of Portuguese descent whose family name was anglicized from da Pinta",
     "response": "Harold Pinter"
-  },
-  {
-    "clue": "To the Ladies",
-    "response": "George S. Kaufman"
-  },
-  {
-    "clue": "Diamonds Are A Girl's Best Friend",
-    "response": "\"Gentlemen Prefer Blondes\""
-  },
-  {
-    "clue": "roaring and bubbling",
-    "response": "a melting pot"
-  },
-  {
-    "clue": "Safe in Hell",
-    "response": "Cotton and Increase Mather"
   },
   {
     "clue": "Broadway & movie musical where helps the little heroine find her folks",
@@ -1824,50 +728,6 @@
     "response": "E-Q-U-U-S"
   },
   {
-    "clue": "Give My Regards To Broadway",
-    "response": "Herald Square"
-  },
-  {
-    "clue": "An Unfinished Woman",
-    "response": "Lillian Hellman"
-  },
-  {
-    "clue": "La maison de",
-    "response": "Molière"
-  },
-  {
-    "clue": "The Star-Spangled Girl",
-    "response": "Neil Simon"
-  },
-  {
-    "clue": "Summer And Smoke",
-    "response": "Tennessee Williams"
-  },
-  {
-    "clue": "The Time of Your Life",
-    "response": "William Saroyan"
-  },
-  {
-    "clue": "The Good Doctor",
-    "response": "Neil Simon"
-  },
-  {
-    "clue": "The Lion King",
-    "response": "Simba"
-  },
-  {
-    "clue": "We are here in search of an author",
-    "response": "Six Characters In Search of an Author"
-  },
-  {
-    "clue": "On Your Feet!",
-    "response": "Gloria Estefan"
-  },
-  {
-    "clue": "Guys and Dolls",
-    "response": "Damon Runyon"
-  },
-  {
     "clue": "It's the middle & more familiar name of playwright Marvin Simon",
     "response": "Neil"
   },
@@ -1876,44 +736,8 @@
     "response": "Dreamgirls"
   },
   {
-    "clue": "A Steady Rain",
-    "response": "Hugh Jackman"
-  },
-  {
-    "clue": "Priscilla Queen of the Desert",
-    "response": "Stranger Things"
-  },
-  {
-    "clue": "Curse fo the Starving Class",
-    "response": "Sam Shepard"
-  },
-  {
-    "clue": "West Side Story",
-    "response": "Chita Rivera"
-  },
-  {
-    "clue": "Suicide in B-Flat",
-    "response": "Sam Shepard"
-  },
-  {
-    "clue": "Tevye, Yente, Lazar Wolf",
-    "response": "Fiddler on the Roof"
-  },
-  {
-    "clue": "Master Harold...and the Boys",
-    "response": "Athol Fugard"
-  },
-  {
-    "clue": "tale as old as time",
-    "response": "Beauty and the Beast"
-  },
-  {
     "clue": "His father, James O'Neill, was a 19th century actor whose famous role was the Count of Monte Cristo",
     "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "I Hope I Get It",
-    "response": "A Chorus Line"
   },
   {
     "clue": "Your table is cracking... can you hear the timbers split?",
@@ -1932,10 +756,6 @@
     "response": "September"
   },
   {
-    "clue": "A View from the Bridge",
-    "response": "Scarlett Johansson"
-  },
-  {
     "clue": "Ajax... mild on hands, tough on",
     "response": "grease"
   },
@@ -1944,40 +764,12 @@
     "response": "Grease"
   },
   {
-    "clue": "Shall We Dance",
-    "response": "The King and I"
-  },
-  {
-    "clue": "Barefoot in the Park",
-    "response": "Neil Simon"
-  },
-  {
     "clue": "There is nothin' you can name that is anythin' like",
     "response": "a dame"
   },
   {
-    "clue": "Glengarry Glen Ross",
-    "response": "David Mamet"
-  },
-  {
-    "clue": "Five Guys Named",
-    "response": "Moe"
-  },
-  {
-    "clue": "Barefoot in the Park",
-    "response": "Neil Simon"
-  },
-  {
     "clue": "David Letterman walked Oprah to the opening of this musical based on an Alice Walker novel",
     "response": "The Color Purple"
-  },
-  {
-    "clue": "You must not",
-    "response": "kiss"
-  },
-  {
-    "clue": "Sweet Bird of Youth",
-    "response": "Paul Newman"
   },
   {
     "clue": "Screen legend Lucille LeSueur & Broadway legend Michael Dumbell-Smith",
@@ -1988,16 +780,8 @@
     "response": "The Music Man"
   },
   {
-    "clue": "To Be Young, Gifted and Black",
-    "response": "(Lorraine) Hansberry"
-  },
-  {
     "clue": "He wrote the screenplay for Marilyn Monroe's last completed film",
     "response": "Arthur Miller"
-  },
-  {
-    "clue": "Dirty Rotten Number",
-    "response": "Dirty Rotten Scoundrels"
   },
   {
     "clue": "He was a poet & a playwright as well as a Victorian minister",
@@ -2008,43 +792,7 @@
     "response": "rent"
   },
   {
-    "clue": "The House of Bernarda Alba",
-    "response": "(Federico Garcia) Lorca"
-  },
-  {
-    "clue": "Hillary & Clinton",
-    "response": "2008"
-  },
-  {
-    "clue": "Nothin' But A Good Time",
-    "response": "Tonys"
-  },
-  {
-    "clue": "I Can Get It for You",
-    "response": "Wholesale"
-  },
-  {
-    "clue": "The ___ Mermaid",
-    "response": "Little"
-  },
-  {
-    "clue": "A Doll's House",
-    "response": "Henrik Ibsen"
-  },
-  {
-    "clue": "Death of a Salesman",
-    "response": "Arthur Miller"
-  },
-  {
     "clue": "Mr. Applegate agrees to an escape clause in a baseball player's contract in this Broadway musical",
     "response": "Damn Yankees"
-  },
-  {
-    "clue": "one and only",
-    "response": "Tommy Tune"
-  },
-  {
-    "clue": "Crimes of the Heart",
-    "response": "(Beth) Henley"
   }
 ]

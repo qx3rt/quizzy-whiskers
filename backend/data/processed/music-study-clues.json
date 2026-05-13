@@ -1,13 +1,5 @@
 [
   {
-    "clue": "Come Away With Me",
-    "response": "Norah Jones"
-  },
-  {
-    "clue": "This Little Girl",
-    "response": "Matilda"
-  },
-  {
     "clue": "they say, on the far side of the hill",
     "response": "green green"
   },
@@ -16,32 +8,12 @@
     "response": "crescendo"
   },
   {
-    "clue": "Let the Sunshine In",
-    "response": "Diane Keaton"
-  },
-  {
-    "clue": "thunderbolt and lightning",
-    "response": "\"Bohemian Rhapsody\""
-  },
-  {
     "clue": "This cafe in a Nashville strip mall is famous for hosting an open mic night on Mondays",
     "response": "the Bluebird Café"
   },
   {
     "clue": "Popular with amateur musicians, the recorder is a type of this woodwind",
     "response": "a flute"
-  },
-  {
-    "clue": "Come As You Are",
-    "response": "Nevermind"
-  },
-  {
-    "clue": "Into The West",
-    "response": "Annie Lennox"
-  },
-  {
-    "clue": "A Pretty Girl Is Like A Melody",
-    "response": "Irving Berlin"
   },
   {
     "clue": "All together now--they're the choruses of songs",
@@ -56,10 +28,6 @@
     "response": "Fiddler on the Roof"
   },
   {
-    "clue": "Peace will guide the planets & love will steer the stars",
-    "response": "(the dawning of) the Age of Aquarius"
-  },
-  {
     "clue": "I see the girls walk by dressed in their summer clothes",
     "response": "\"Paint It, Black\""
   },
@@ -68,32 +36,16 @@
     "response": "Dora the Explorer"
   },
   {
-    "clue": "Believe It Or Not",
-    "response": "The Greatest American Hero"
-  },
-  {
     "clue": "Gavin Rossdale (Gwen Stefani's ex) is the lead singer of this British band",
     "response": "Bush"
-  },
-  {
-    "clue": "Love Will Keep Us Together",
-    "response": "the Captain & Tennille"
   },
   {
     "clue": "The Trench Town neighborhood of Kingston is considered the birthplace of this music genre",
     "response": "reggae"
   },
   {
-    "clue": "brand of Irish lager",
-    "response": "Harp"
-  },
-  {
     "clue": "in the church or chapel style",
     "response": "a cappella"
-  },
-  {
-    "clue": "My Big Redneck Wedding",
-    "response": "CMT (Country Music Television)"
   },
   {
     "clue": "rolling, rolling, rolling on the river",
@@ -120,36 +72,12 @@
     "response": "Antietam"
   },
   {
-    "clue": "I Do Not Want What I Haven't Got",
-    "response": "(Sinead) O'Connor"
-  },
-  {
-    "clue": "The Old North State",
-    "response": "North Carolina"
-  },
-  {
-    "clue": "Mr. Blue Sky",
-    "response": "ELO"
-  },
-  {
     "clue": "I'm in heaven when I see you smile",
     "response": "Diane"
   },
   {
     "clue": "seems to be the hardest word",
     "response": "Elton John"
-  },
-  {
-    "clue": "me and my true love will never meet again",
-    "response": "On the bonnie, bonnie banks of Loch Lomond"
-  },
-  {
-    "clue": "Salzburg Sight & Sound",
-    "response": "The Sound of Music"
-  },
-  {
-    "clue": "Sing a song of",
-    "response": "sixpence"
   },
   {
     "clue": "Fletcher Henderson's band pioneered these short, repeated musical phrases, also a term for a comic's improvs",
@@ -176,10 +104,6 @@
     "response": "a diving bell"
   },
   {
-    "clue": "Hey, Diddle, Diddle",
-    "response": "the cat"
-  },
-  {
     "clue": "For a choral symphony, Stravinsky wrote settings for the 39th, 40th & 150th of these Biblical songs",
     "response": "Psalms"
   },
@@ -196,32 +120,8 @@
     "response": "\"I'm A Believer\""
   },
   {
-    "clue": "Dress You Up",
-    "response": "Madonna"
-  },
-  {
-    "clue": "Sunday Mornin' ____in' Down",
-    "response": "Comin' Down"
-  },
-  {
-    "clue": "Inspired by a Meher Baba saying, this 1980s Grammy winner was the first a cappella recording to top the Billboard 100",
-    "response": "\"Don't Worry, Be Happy\" (by Bobby McFerrin)"
-  },
-  {
     "clue": "talk name is tuned by moving rings up & down the lacing",
     "response": "a tom-tom"
-  },
-  {
-    "clue": "help, help me",
-    "response": "Rhonda"
-  },
-  {
-    "clue": "Rock and Roll Heaven",
-    "response": "The Righteous Brothers"
-  },
-  {
-    "clue": "of the Greasepaint, the Smell of the Crowd",
-    "response": "The Roar"
   },
   {
     "clue": "It concerns baseball, darn it!",
@@ -236,18 +136,6 @@
     "response": "Recordings"
   },
   {
-    "clue": "20 Biggest ('80s) Songs of the Summer",
-    "response": "Huey Lewis and the News"
-  },
-  {
-    "clue": "They Don't Care About Us",
-    "response": "Michael Jackson"
-  },
-  {
-    "clue": "Oh the weather outside is frightful, but the fire is so delightful",
-    "response": "Let It Snow! Let It Snow! Let It Snow!"
-  },
-  {
     "clue": "I used to be sad, I used to be shy, funniest thing, the saddest part is I never knew why...",
     "response": "Alice"
   },
@@ -260,10 +148,6 @@
     "response": "bow"
   },
   {
-    "clue": "Dynamite, dynamite when",
-    "response": "Vandy"
-  },
-  {
     "clue": "You're the reason God made...",
     "response": "Oklahoma"
   },
@@ -272,20 +156,8 @@
     "response": "Harvey Fierstein"
   },
   {
-    "clue": "In the Heights",
-    "response": "Lin-Manuel Miranda"
-  },
-  {
-    "clue": "Got Run Over By A Reindeer",
-    "response": "Grandma"
-  },
-  {
     "clue": "Arthur MacArthur from Milwaukee won the Medal of Honor for a charge at Missionary Ridge shouting this, now a fight song title",
     "response": "On, Wisconsin!"
-  },
-  {
-    "clue": "(Sittin' On) The Dock Of The Bay",
-    "response": "Otis Redding"
   },
   {
     "clue": "From yonder Mississippi's stream, to where Missouri's waters gleam... see yonder fields of tasseled corn",
@@ -304,14 +176,6 @@
     "response": "(music) festivals"
   },
   {
-    "clue": "Earl had to die",
-    "response": "The Chicks"
-  },
-  {
-    "clue": "Waiting for Godot",
-    "response": "(Samuel) Beckett"
-  },
-  {
     "clue": "I get by with a little help from my friends",
     "response": "Sgt. Pepper's Lonely Hearts Club Band"
   },
@@ -320,20 +184,8 @@
     "response": "kabuki"
   },
   {
-    "clue": "Knockin' on Heaven's Door",
-    "response": "Billy the Kid"
-  },
-  {
     "clue": "With the introduction of the Model more people hitting the road, outdoor advertising on these became more popular",
     "response": "billboards"
-  },
-  {
-    "clue": "My Heart Will Go On",
-    "response": "Titanic"
-  },
-  {
-    "clue": "gonna get you",
-    "response": "\"Instant Karma!\""
   },
   {
     "clue": "who never fell in love",
@@ -342,14 +194,6 @@
   {
     "clue": "huge billboard in Italy parodied this artist's work with God offering a naked Adam a pair of jeans",
     "response": "Michelangelo"
-  },
-  {
-    "clue": "Islands In The Stream",
-    "response": "Dolly Parton"
-  },
-  {
-    "clue": "Oh What A Night",
-    "response": "1963"
   },
   {
     "clue": "The African amadinda is a type of this percussion instrument made with logs & bars",
@@ -368,10 +212,6 @@
     "response": "The Summoner"
   },
   {
-    "clue": "the only things",
-    "response": "Mick Jagger"
-  },
-  {
     "clue": "The 6-stringed Spanish version of this instrument has its strings tuned to E below the bass staff, A, D, G,",
     "response": "guitar"
   },
@@ -388,10 +228,6 @@
     "response": "Les Paul"
   },
   {
-    "clue": "Harry the Horse, Angie the Ox, Nicely-Nicely Johnson, Sky Masterson Mission Band",
-    "response": "Guys and Dolls"
-  },
-  {
     "clue": "Never smile at a crocodile",
     "response": "Peter Pan"
   },
@@ -404,80 +240,28 @@
     "response": "Brian Piccolo"
   },
   {
-    "clue": "2 of 4 performing duos inducted into the Rock and Roll Hall of Fame",
-    "response": "(2 of) The Everly Brothers, Ike & Tina Turner, Sam & Dave, and Simon & Garfunkel"
-  },
-  {
     "clue": "All bands in the U.S. are technically classified into these 2 types",
     "response": "marching & concert or symphonic"
-  },
-  {
-    "clue": "Shake it like",
-    "response": "a Polaroid picture"
-  },
-  {
-    "clue": "Under the Sea",
-    "response": "The Little Mermaid"
   },
   {
     "clue": "My mouth is dry, my legs are weak",
     "response": "\"Heart Attack\""
   },
   {
-    "clue": "Alligator Bites Never Heal",
-    "response": "Doechii"
-  },
-  {
-    "clue": "The modern Stone-Age family",
-    "response": "The Flintstones"
-  },
-  {
     "clue": "The 4 members in the band",
     "response": "Crosby, Stills, Nash & Young"
-  },
-  {
-    "clue": "Old Folks At Home",
-    "response": "\"Swanee River\""
   },
   {
     "clue": "Wake me up when September ends",
     "response": "Green Day"
   },
   {
-    "clue": "Lines, Vines And Trying Times",
-    "response": "Jonas"
-  },
-  {
-    "clue": "New Girl in Town",
-    "response": "Eugene O'Neill"
-  },
-  {
-    "clue": "(Put A Ring On It)",
-    "response": "\"Single Ladies\""
-  },
-  {
-    "clue": "I want to be alone",
-    "response": "Grand Hotel"
-  },
-  {
     "clue": "German is a common species of this bug whose name is from the Spanish, as in a popular song",
     "response": "cockroach"
   },
   {
-    "clue": "Of Thee I Sing",
-    "response": "the Gershwins"
-  },
-  {
     "clue": "You're a fine girl, what a good wife you would be",
     "response": "\"Brandy\""
-  },
-  {
-    "clue": "You Should Be",
-    "response": "Dancing"
-  },
-  {
-    "clue": "Serene, tactile facility",
-    "response": "\"Peaceful Easy Feeling\""
   },
   {
     "clue": "wood block beats out the ticking of the clock toward midnight in Prokofiev's score for the ballet about this heroine",
@@ -500,40 +284,12 @@
     "response": "\"Old Town Road\""
   },
   {
-    "clue": "The Farmer in the Dell",
-    "response": "I Am the Cheese"
-  },
-  {
     "clue": "on the dead man's chest",
     "response": "15"
   },
   {
-    "clue": "The Sound of Music",
-    "response": "\"Climb Every Mountain\""
-  },
-  {
-    "clue": "knows all the chords",
-    "response": "the guitar"
-  },
-  {
-    "clue": "A Doll's Life",
-    "response": "A Doll's House"
-  },
-  {
     "clue": "award for sales of 1 LP's; if solid, it'd be worth over $53",
     "response": "a platinum record"
-  },
-  {
-    "clue": "It's Been Awhile",
-    "response": "Staind"
-  },
-  {
-    "clue": "If I Were A Rich Man",
-    "response": "Fiddler On The Roof"
-  },
-  {
-    "clue": "Tales of the ____ Age",
-    "response": "Jazz"
   },
   {
     "clue": "Young couple in hiking tragedy; boy sustains grave head injury",
@@ -556,10 +312,6 @@
     "response": "\"Lucy In The Sky With Diamonds\""
   },
   {
-    "clue": "Boom Boom Pow",
-    "response": "the Black Eyed Peas"
-  },
-  {
     "clue": "packing and unpacking, town to town up & down the dial",
     "response": "WKRP in Cincinnati"
   },
@@ -578,10 +330,6 @@
   {
     "clue": "Orpheus' song saved sailors from the singing of these sea nymphs whose mother was one of the muses",
     "response": "the sirens"
-  },
-  {
-    "clue": "Do You Know The Way To San Jose?",
-    "response": "Burt Bacharach"
   },
   {
     "clue": "This song has lyrics by Robert Burns:",
@@ -608,20 +356,8 @@
     "response": "a flower"
   },
   {
-    "clue": "The Man Who Got Away",
-    "response": "Ira Gershwin"
-  },
-  {
-    "clue": "How to Dismantle",
-    "response": "an Atomic Bomb"
-  },
-  {
     "clue": "Goodbye to Rosie the queen of Corona, see you, me and",
     "response": "Julio"
-  },
-  {
-    "clue": "Off we go into",
-    "response": "\"the wild blue yonder\""
   },
   {
     "clue": "String players debate how much of this technique to use; a little adds warmth... too much & you get the nanny goat effect",
@@ -636,20 +372,8 @@
     "response": "a spoonful of sugar"
   },
   {
-    "clue": "Roll On, Columbia, Roll On",
-    "response": "Washington"
-  },
-  {
-    "clue": "Their Satanic Majesties Request",
-    "response": "The Rolling Stones"
-  },
-  {
     "clue": "When the moon hits your eye like a big pizza pie, that's",
     "response": "amore"
-  },
-  {
-    "clue": "How To (Succeed)",
-    "response": "How to Succeed in Business Without Really Trying"
   },
   {
     "clue": "Haruko Kataoka is the co-creator of the piano version of this music-teaching method",
@@ -658,18 +382,6 @@
   {
     "clue": "The oud, of the Middle East, is a member of this stringed instrument family with a 4-letter name",
     "response": "a lute"
-  },
-  {
-    "clue": "Let Love Rule",
-    "response": "Lenny Kravitz"
-  },
-  {
-    "clue": "Let's Hear It for the Boy",
-    "response": "Footloose"
-  },
-  {
-    "clue": "Will Be Flung Tonight!",
-    "response": "mud"
   },
   {
     "clue": "Herr Hansel Schmidt becomes Mrs. Hedwig Robinson",
@@ -688,22 +400,6 @@
     "response": "\"Open Arms\""
   },
   {
-    "clue": "There's No Business Like Show Business",
-    "response": "Irving Berlin"
-  },
-  {
-    "clue": "Saved by the Bell",
-    "response": "My dog ate it"
-  },
-  {
-    "clue": "Button Down Mind",
-    "response": "Bob Newhart"
-  },
-  {
-    "clue": "Tenth Avenue Freeze-Out",
-    "response": "Bruce Springsteen"
-  },
-  {
     "clue": "I am a man of constant",
     "response": "sorrow"
   },
@@ -716,64 +412,16 @@
     "response": "Country Music Television"
   },
   {
-    "clue": "Making Our Dreams Come True",
-    "response": "Laverne & Shirley"
-  },
-  {
-    "clue": "Elder Price,Elder Cunningham,Moroni",
-    "response": "The Book of Mormon"
-  },
-  {
-    "clue": "The Tonight Show with Jay Leno",
-    "response": "Branford Marsalis"
-  },
-  {
     "clue": "pools of sorrow, waves of joy",
     "response": "\"Across The Universe\""
-  },
-  {
-    "clue": "That Thing You Do",
-    "response": "Tom Hanks"
-  },
-  {
-    "clue": "Right Time, Wrong Place",
-    "response": "Dr. John"
-  },
-  {
-    "clue": "Seven Nation Army",
-    "response": "Elephant"
-  },
-  {
-    "clue": "Too-ra-loo-ra-loo-ral, too-ra-loo-ra-li, too-ra-loo-ra-loo-ral, that's",
-    "response": "an Irish lullaby"
-  },
-  {
-    "clue": "The Way You Love Me",
-    "response": "Breathe"
   },
   {
     "clue": "Since her beauty was sold for an old man's gold,",
     "response": "\"A Bird In A Gilded Cage\""
   },
   {
-    "clue": "For Once In My Life",
-    "response": "Stevie Wonder"
-  },
-  {
-    "clue": "Say It Right",
-    "response": "Nelly Furtado"
-  },
-  {
     "clue": "Orin, the sadistic dentist in this musical, really enjoys his nitrous oxide",
     "response": "Little Shop of Horrors"
-  },
-  {
-    "clue": "Are Here Again",
-    "response": "Happy Days"
-  },
-  {
-    "clue": "Seasons of Love",
-    "response": "Rent"
   },
   {
     "clue": "The chiffchaff & the ovenbird are this type of 7-letter songbird whose name could refer to anyone who sings with trills",
@@ -792,28 +440,12 @@
     "response": "Show Boat"
   },
   {
-    "clue": "Who ya gonna call?",
-    "response": "\"Ghostbusters\""
-  },
-  {
     "clue": "Start spreading the news, I'm leaving today",
     "response": "\"New York, New York\""
   },
   {
-    "clue": "The Crying Game",
-    "response": "Boy George Harrison"
-  },
-  {
-    "clue": "Oh, Come To The Window",
-    "response": "serenades"
-  },
-  {
     "clue": "Though a Christian music group, Stryper plays in this rock style",
     "response": "heavy metal"
-  },
-  {
-    "clue": "The Harder They Come",
-    "response": "reggae"
   },
   {
     "clue": "1920s Referring to a new kind of music & popularized by F. Scott Fitzgerald, it was a nickname for the decade",
@@ -836,24 +468,12 @@
     "response": "elephant"
   },
   {
-    "clue": "You're My Greatest Love",
-    "response": "The Honeymooners"
-  },
-  {
     "clue": "feel like an issue of life-or-death urgency",
     "response": "\"I Wanna Dance With Somebody\""
   },
   {
     "clue": "The lyrics for most of his songs were written by his brother Ira",
     "response": "George Gershwin"
-  },
-  {
-    "clue": "Of Thee I Sing",
-    "response": "Gershwin"
-  },
-  {
-    "clue": "Don't Stop The Music",
-    "response": "Rihanna"
   },
   {
     "clue": "When I get older, losing my hair many years from now...",
@@ -864,36 +484,12 @@
     "response": "\"Here Comes The Sun\""
   },
   {
-    "clue": "St. Louis Blues",
-    "response": "W.C. Handy"
-  },
-  {
-    "clue": "In Other Words",
-    "response": "\"Fly Me to the Moon\""
-  },
-  {
-    "clue": "Hey, Look Me Over",
-    "response": "here I come"
-  },
-  {
     "clue": "Waltzes are characterized by swift, gliding turns & music that has this many quarter notes to a measure",
     "response": "3"
   },
   {
     "clue": "Unlike the curved ones, this type of saxophone heard here is usually straight & looks like a clarinet",
     "response": "a soprano sax"
-  },
-  {
-    "clue": "Man of La Mancha",
-    "response": "Cervantes"
-  },
-  {
-    "clue": "Colors of the Wind",
-    "response": "Pocahontas"
-  },
-  {
-    "clue": "My Sweet Lord",
-    "response": "George Harrison"
   },
   {
     "clue": "For the common man or not, it's a loud, musical flourish of trumpets",
@@ -908,14 +504,6 @@
     "response": "\"Margaritaville\""
   },
   {
-    "clue": "Once Upon A Dream",
-    "response": "Sleeping Beauty"
-  },
-  {
-    "clue": "It Wasn't All Velvet",
-    "response": "Mel Torme"
-  },
-  {
     "clue": "Mean-spirited orphanage mistress Miss Hannigan",
     "response": "Annie"
   },
@@ -924,40 +512,12 @@
     "response": "Grandmother's house"
   },
   {
-    "clue": "Knowing Me, Knowing You",
-    "response": "Mamma Mia!"
-  },
-  {
-    "clue": "Gimme ____ Steps",
-    "response": "Three"
-  },
-  {
-    "clue": "Magaldi,Peron's mistress,People of Argentina",
-    "response": "Evita"
-  },
-  {
     "clue": "no worries for the rest of your days",
     "response": "hakuna matata"
   },
   {
-    "clue": "The Last Song",
-    "response": "Nicholas Sparks"
-  },
-  {
-    "clue": "American Tribal Love-Rock",
-    "response": "\"Hair\""
-  },
-  {
-    "clue": "Goodbye Yellow Brick Road",
-    "response": "\"Candle in the Wind\""
-  },
-  {
     "clue": "I'm gonna have me some fun if it costs me my very last dime",
     "response": "Las Vegas"
-  },
-  {
-    "clue": "The Banana Boat Song",
-    "response": "Calypso"
   },
   {
     "clue": "When did your sparkle turn to fire & your warmth become desire?",
@@ -972,10 +532,6 @@
     "response": "Soprano"
   },
   {
-    "clue": "Writing's On The Wall",
-    "response": "Sam Smith"
-  },
-  {
     "clue": "Prince Buster was a leader in this 3-letter Caribbean music style",
     "response": "ska"
   },
@@ -984,16 +540,8 @@
     "response": "Paul Simon"
   },
   {
-    "clue": "Look to the Lilies",
-    "response": "\"Lilies of the Field\""
-  },
-  {
     "clue": "Synonyms for member names of this band include provocative, eerie, athletic, infant & luxurious",
     "response": "the Spice Girls"
-  },
-  {
-    "clue": "grand old badger state",
-    "response": "\"On, Wisconsin!\""
   },
   {
     "clue": "Sinners are much more fun",
@@ -1012,14 +560,6 @@
     "response": "\"Two Out Of Three Ain't Bad\""
   },
   {
-    "clue": "You And Me (But Mostly Me)",
-    "response": "Book Of Mormon"
-  },
-  {
-    "clue": "Where You Lead",
-    "response": "Gilmore Girls"
-  },
-  {
     "clue": "For abundance of real musical ideas, for comic verve",
     "response": "The Barber of Seville"
   },
@@ -1032,24 +572,8 @@
     "response": "Jazzercise"
   },
   {
-    "clue": "One Bad Apple",
-    "response": "The Osmonds"
-  },
-  {
     "clue": "Action songs are an important tradition in the culture of these New Zealand natives",
     "response": "the Maori"
-  },
-  {
-    "clue": "How You Remind Me",
-    "response": "Nickelback"
-  },
-  {
-    "clue": "Flew in from Miami Beach BOAC",
-    "response": "\"Back In The U.S.S.R.\""
-  },
-  {
-    "clue": "Baby, I Need Your Loving",
-    "response": "the Four Tops"
   },
   {
     "clue": "Life is a cabaret, old",
@@ -1064,10 +588,6 @@
     "response": "\"El Paso\""
   },
   {
-    "clue": "I Happen to Like New York",
-    "response": "Cole Porter"
-  },
-  {
     "clue": "H2 Carl Palmer & Cozy Powell have been the third man in a group with these 2",
     "response": "Keith Emerson & Greg Lake"
   },
@@ -1076,20 +596,12 @@
     "response": "Gregorian chant"
   },
   {
-    "clue": "Jude, Glorious Jude",
-    "response": "\"Jude the Obscure\""
-  },
-  {
     "clue": "Instead of valves like a trumpet, this brass instrument has a slide with 7 positions",
     "response": "a trombone"
   },
   {
     "clue": "The group of songs a singer performs, or a set of available characters in a font",
     "response": "a repertoire"
-  },
-  {
-    "clue": "I Write The Songs",
-    "response": "Fanilows"
   },
   {
     "clue": "We'll take a cup o' kindness yet for",
@@ -1110,10 +622,6 @@
   {
     "clue": "In a Tim Rice musical, Frederick & Anatoly vie to be world champion of this game",
     "response": "chess"
-  },
-  {
-    "clue": "I Know You Want Me",
-    "response": "Pitbull"
   },
   {
     "clue": "Hyundai's bestselling cars in the U.S. are the Elantra & this musical model",
@@ -1152,80 +660,20 @@
     "response": "Tammy Wynette"
   },
   {
-    "clue": "America the Beautiful",
-    "response": "Amber"
-  },
-  {
-    "clue": "Best Song Ever",
-    "response": "One Direction"
-  },
-  {
-    "clue": "1 of the 2 musicals set in France that won the Best Picture Oscar in the 1950s",
-    "response": "(1 of) Gigi or An American in Paris"
-  },
-  {
     "clue": "It's a world of laughter, a world of tears...",
     "response": "It's a Small World"
-  },
-  {
-    "clue": "There She Is, Miss America",
-    "response": "Bert Parks"
-  },
-  {
-    "clue": "The World from the Side of the Moon",
-    "response": "Phillip Phillips"
   },
   {
     "clue": "We heard stories that this Fleetwood Mac album held the No. 1 spot for 31 weeks",
     "response": "Rumours"
   },
   {
-    "clue": "Falling into You",
-    "response": "Celine Dion"
-  },
-  {
-    "clue": "I Will Survive",
-    "response": "Gloria Gaynor"
-  },
-  {
-    "clue": "A Holly Jolly Christmas",
-    "response": "Rudolph the Red-Nosed Reindeer"
-  },
-  {
-    "clue": "What's My Name?",
-    "response": "Drake"
-  },
-  {
-    "clue": "The Prime Minister of Funk",
-    "response": "George Clinton"
-  },
-  {
-    "clue": "My Fair Lady",
-    "response": "Lerner & Loewe"
-  },
-  {
     "clue": "Now you always say that you want to be free but you'll come running back, you'll come running back...",
     "response": "\"Time Is On My Side\""
   },
   {
-    "clue": "Papa, Can You Hear Me?",
-    "response": "Yentl"
-  },
-  {
-    "clue": "Have I Got A Girl For You",
-    "response": "Company"
-  },
-  {
-    "clue": "All I Want For Christmas Is You",
-    "response": "Mariah Carey"
-  },
-  {
     "clue": "To move your fingers or hands in a nervous fashion",
     "response": "fiddle"
-  },
-  {
-    "clue": "Forever & Ever, Amen",
-    "response": "Randy Travis"
   },
   {
     "clue": "It's the April rose that only grows in the early spring",
@@ -1236,24 +684,8 @@
     "response": "Stradivarius"
   },
   {
-    "clue": "I met him on a Monday & my heart stood still",
-    "response": "Da doo ron ron ron, da doo ron ron"
-  },
-  {
     "clue": "Male mole crickets shape the entrances of these to amplify their songs, which can be heard a mile away",
     "response": "burrows"
-  },
-  {
-    "clue": "Life of Brian",
-    "response": "\"Always Look On The Bright Side Of Life\""
-  },
-  {
-    "clue": "Bullet With Butterfly Wings",
-    "response": "the Smashing Pumpkins"
-  },
-  {
-    "clue": "Kill You To Try",
-    "response": "Daisy Jones"
   },
   {
     "clue": "She's in love with me and I feel",
@@ -1266,10 +698,6 @@
   {
     "clue": "A rub dub, just relaxing in the tub",
     "response": "\"Splish Splash\""
-  },
-  {
-    "clue": "Wouldn't It Be Loverly?",
-    "response": "My Fair Lady"
   },
   {
     "clue": "Hajj, Caliph of Baghdad & Omar are among the characters in this musical",
@@ -1296,56 +724,20 @@
     "response": "Organ"
   },
   {
-    "clue": "Circle of Life",
-    "response": "\"The Lion King\""
-  },
-  {
-    "clue": "Back In Black",
-    "response": "AC/DC"
-  },
-  {
-    "clue": "We belong to",
-    "response": "a mutual admiration society"
-  },
-  {
-    "clue": "Back in the U.S.",
-    "response": "Paul McCartney"
-  },
-  {
     "clue": "This musical mostly takes place in & around a palace in Bangkok",
     "response": "The King and I"
-  },
-  {
-    "clue": "Come To My Window",
-    "response": "Melissa Etheridge"
-  },
-  {
-    "clue": "Have I Told You Lately",
-    "response": "Rod Stewart"
   },
   {
     "clue": "Expert oboe players also become experts at crowing & scraping these",
     "response": "reeds"
   },
   {
-    "clue": "Can You Feel The Love Tonight",
-    "response": "The Lion King"
-  },
-  {
     "clue": "Similar to Claude Monet & the art movement, Claude Debussy was a leader in this musical style",
     "response": "Impressionism"
   },
   {
-    "clue": "Yeah, Yeah, Yeah",
-    "response": "\"She Loves You\""
-  },
-  {
     "clue": "These songwriting brothers were awarded a Congressional Gold Medal--it is necessarily so",
     "response": "the Gershwins (Ira & George)"
-  },
-  {
-    "clue": "Love Yourself: Tear",
-    "response": "BTS"
   },
   {
     "clue": "The snare & timpani are 2 of the most popular types of these",
@@ -1360,16 +752,8 @@
     "response": "Renzo Piano"
   },
   {
-    "clue": "The Downward Spiral",
-    "response": "Nine Inch Nails"
-  },
-  {
     "clue": "1990s NO. 1 The soundtrack from this movie felt the love tonight (& for 10 weeks)",
     "response": "The Lion King"
-  },
-  {
-    "clue": "is a bad mother",
-    "response": "Shaft"
   },
   {
     "clue": "the first superstar of jazz",
@@ -1378,10 +762,6 @@
   {
     "clue": "This bebop trumpeter got his nickname because of his zany stage antics",
     "response": "Dizzy Gillespie"
-  },
-  {
-    "clue": "Dizzy Up the Girl",
-    "response": "the Goo Goo Dolls"
   },
   {
     "clue": "music dictionary will tell you it's another name for a note",
@@ -1396,10 +776,6 @@
     "response": "aerobics"
   },
   {
-    "clue": "We Are Family",
-    "response": "Pittsburgh Pirates"
-  },
-  {
     "clue": "Headin' down the Atlanta Highway...headin' on down to the Love Shack",
     "response": "The B-52's"
   },
@@ -1412,24 +788,12 @@
     "response": "Ozzy's Fozzies"
   },
   {
-    "clue": "How to Succeed in Business Without Really Trying",
-    "response": "Matthew Broderick"
-  },
-  {
     "clue": "Rudolph's red one was so bright it helped Santa guide his sleigh",
     "response": "his nose"
   },
   {
     "clue": "Men have named you, you're so like the lady with the mystic smile",
     "response": "\"Mona Lisa\""
-  },
-  {
-    "clue": "Guten Abend, Gut Nacht, Mit Rosen Bedacht",
-    "response": "Johannes Brahms"
-  },
-  {
-    "clue": "Chairman of the Board",
-    "response": "Frank Sinatra"
   },
   {
     "clue": "This heavy metal band bears the last name of drummer Alex as well as his brother Eddie",
@@ -1444,36 +808,12 @@
     "response": "a lullaby"
   },
   {
-    "clue": "Reeling in the Years",
-    "response": "Steely Dan"
-  },
-  {
     "clue": "China's Song Dynasty marked a high point in the making of this, like Jingdezhen whiteware",
     "response": "porcelain (or pottery or ceramics)"
   },
   {
-    "clue": "Bound for Glory",
-    "response": "Woody Guthrie"
-  },
-  {
-    "clue": "Put Your Lights On",
-    "response": "Supernatural"
-  },
-  {
-    "clue": "Tulsa,Baby Louise,Baby June",
-    "response": "Gypsy"
-  },
-  {
     "clue": "Nicknamed Lucy after a song, a star in Centaurus hosts a core of this gem, 10 billion trillion trillion carats in size",
     "response": "diamond"
-  },
-  {
-    "clue": "Music City, U.S.A.",
-    "response": "Nashville"
-  },
-  {
-    "clue": "God Save The Queen",
-    "response": "Never Mind the Bollocks"
   },
   {
     "clue": "Gottfried Silbermann pulled out all the stops building this for Dresden's Katholische Hofkirche",
@@ -1482,10 +822,6 @@
   {
     "clue": "top music industry award gets its name from this old-time record player with a big horn",
     "response": "a gramophone"
-  },
-  {
-    "clue": "Scenes From An Italian Restaurant",
-    "response": "Movin' Out"
   },
   {
     "clue": "The walk includes this Letterman music man, a native of Thunder Bay, Ontario",
@@ -1504,14 +840,6 @@
     "response": "ASPCA"
   },
   {
-    "clue": "those other similar things",
-    "response": "all that jazz"
-  },
-  {
-    "clue": "Musician Blind Lemon,non-U.S.-president Davis",
-    "response": "Jefferson"
-  },
-  {
     "clue": "The piccolo is the smallest & highest-pitched member of this group of instruments",
     "response": "the woodwinds"
   },
@@ -1524,40 +852,8 @@
     "response": "\"Graceland\""
   },
   {
-    "clue": "Girls Just Want To Have Fun",
-    "response": "Cyndi Lauper"
-  },
-  {
-    "clue": "it had to be",
-    "response": "the dice"
-  },
-  {
     "clue": "it's the thrill of the fight, rising up to the challenge of our rival",
     "response": "\"Eye Of The Tiger\""
-  },
-  {
-    "clue": "Baby It's You",
-    "response": "Jojo"
-  },
-  {
-    "clue": "no shirt, no problems",
-    "response": "No Shoes"
-  },
-  {
-    "clue": "McCONNELL It's believed Stephen Foster wrote this, now Kentucky's state song, after a brief stay in Bardstown",
-    "response": "\"My Old Kentucky Home\""
-  },
-  {
-    "clue": "Killing Me Softly With His Song",
-    "response": "Roberta Flack"
-  },
-  {
-    "clue": "bearing gifts we traverse afar",
-    "response": "\"We Three Kings (Of Orient Are)\" or \"We Three Kings From Orient Are\""
-  },
-  {
-    "clue": "The Concert Feature",
-    "response": "Fantasia"
   },
   {
     "clue": "Sir Lionel is killed during a tournament in this musical but is later miraculously revived",
@@ -1576,56 +872,16 @@
     "response": "\"The Hokey Pokey\""
   },
   {
-    "clue": "Title question asked in what became 1st of 9 #1 hit singles for the Bee Gees",
-    "response": "\"How Can You Mend a Broken Heart?\""
-  },
-  {
-    "clue": "The person that finances a Scottish musician gets to pick song played",
-    "response": "he who pays the piper calls the tune"
-  },
-  {
-    "clue": "joo joo eyeball",
-    "response": "\"Come Together\""
-  },
-  {
-    "clue": "Lorrell Robinson, Deena Jones, Effie White",
-    "response": "Dreamgirls"
-  },
-  {
-    "clue": "Here Comes Santa Claus",
-    "response": "Gene Autry"
-  },
-  {
     "clue": "It's the smallest & highest sounding brass instrument in an orchestra",
     "response": "Trumpet/Cornet"
-  },
-  {
-    "clue": "Pore Jud is Daid",
-    "response": "\"Oklahoma!\""
-  },
-  {
-    "clue": "City Of Stars",
-    "response": "Ryan Gosling and Emma Stone"
   },
   {
     "clue": "Latin American pop music style, or a sauce used in Mexican cuisine",
     "response": "Salsa"
   },
   {
-    "clue": "Deh, dimmi tu",
-    "response": "a madrigal"
-  },
-  {
-    "clue": "The Music Man",
-    "response": "186 (76 + 110)"
-  },
-  {
     "clue": "This city is considered the birthplace of Dixieland jazz",
     "response": "New Orleans"
-  },
-  {
-    "clue": "Wein, Weib und Gesang",
-    "response": "wine, women & song"
   },
   {
     "clue": "years after the Eastwood-Streep movie, Bartlett turned this Iowa-set Robert James Waller book into a musical",
@@ -1636,10 +892,6 @@
     "response": "\"Surfin' U.S.A.\""
   },
   {
-    "clue": "Running Away With Me",
-    "response": "\"Just My Imagination\""
-  },
-  {
     "clue": "Diners enjoy Baroque era cuisine while listening to Baroque music at Barokk in this Hungarian capital",
     "response": "Budapest"
   },
@@ -1648,44 +900,16 @@
     "response": "Dark Side of the Moon"
   },
   {
-    "clue": "(You Make Me Feel Like)",
-    "response": "\"A Natural Woman\""
-  },
-  {
-    "clue": "One of the Boys",
-    "response": "Katy Perry"
-  },
-  {
-    "clue": "Have Yourself A Merry Little Christmas",
-    "response": "Meet Me in St. Louis"
-  },
-  {
     "clue": "An old word for this wind instrument is spelled",
     "response": "an oboe"
-  },
-  {
-    "clue": "With One Look",
-    "response": "Sunset Boulevard"
   },
   {
     "clue": "the leading trumpeter in jazz history",
     "response": "Louis Armstrong"
   },
   {
-    "clue": "the birthplace of jazz",
-    "response": "New Orleans"
-  },
-  {
-    "clue": "Learjet up to Nova Scotia",
-    "response": "\"You're So Vain\""
-  },
-  {
     "clue": "WORD + WORD = Murray or Hader + a cut piece of wood = this outdoor ad space where you'd see Murray's & Hader's names",
     "response": "billboard"
-  },
-  {
-    "clue": "Spreading the Disease",
-    "response": "anthrax"
   },
   {
     "clue": "This exclamation used by Scarlett O'Hara refers to a musical instrument",
@@ -1702,10 +926,6 @@
   {
     "clue": "Electronic music master Moby is a descendant of this creator of Moby Dick",
     "response": "Herman Melville"
-  },
-  {
-    "clue": "Georgia On My Mind",
-    "response": "Designing Women"
   },
   {
     "clue": "When Viola uses her viola, she's playing this many strings",
@@ -1736,20 +956,8 @@
     "response": "Cats & Les Miserables"
   },
   {
-    "clue": "Woodstock: the 40th anniversary",
-    "response": "the Rock and Roll Hall of Fame"
-  },
-  {
-    "clue": "I'm So Excited",
-    "response": "The Pointer Sisters"
-  },
-  {
     "clue": "& there my true love sits him down",
     "response": "\"The Tavern In The Town\""
-  },
-  {
-    "clue": "Man On The Moon",
-    "response": "R.E.M."
   },
   {
     "clue": "Century Boulevard (We love it),Victory Boulevard (We love it),Santa Monica Boulevard(We love it)",
@@ -1768,24 +976,8 @@
     "response": "a harp"
   },
   {
-    "clue": "The Downward Spiral",
-    "response": "Nine Inch Nails"
-  },
-  {
-    "clue": "Smokey Joe's Café",
-    "response": "\"Love Potion No. 9\""
-  },
-  {
     "clue": "I want to shoot the whole day down",
     "response": "\"I Don't Like Mondays\""
-  },
-  {
-    "clue": "in the Night",
-    "response": "Blues"
-  },
-  {
-    "clue": "of the Blues",
-    "response": "Empress"
   },
   {
     "clue": "Big Bad one in song saved miners, a Little one in Sherwood Forest was a Merry Man",
@@ -1800,20 +992,12 @@
     "response": "the \"Chicken Dance\""
   },
   {
-    "clue": "30 Days In The Hole",
-    "response": "Humble Pie"
-  },
-  {
     "clue": "If you're gonna play in Texas, you gotta have",
     "response": "a fiddle"
   },
   {
     "clue": "When the moon is in the seventh house,",
     "response": "the age of Aquarius"
-  },
-  {
-    "clue": "The Sound of Music",
-    "response": "\"My Favorite Things\""
   },
   {
     "clue": "Richard Bonynge, former musical director of the Australian Opera, is married to this soprano",
@@ -1824,20 +1008,8 @@
     "response": "the albumen"
   },
   {
-    "clue": "The Grass _____",
-    "response": "Harp"
-  },
-  {
-    "clue": "The Wizard of Oz",
-    "response": "\"Somewhere Over The Rainbow\""
-  },
-  {
     "clue": "Most of the early work by this N.Y. cabinetmaker whose name sounds like a musical instrument was in mahogany",
     "response": "Duncan Phyfe"
-  },
-  {
-    "clue": "Ne Partez Pas Sans Moi",
-    "response": "Celine Dion"
   },
   {
     "clue": "I don't want no other love, baby it's still you I'm thinking of",
@@ -1846,10 +1018,6 @@
   {
     "clue": "If jazz singer Fitzgerald married the evil empire's Darth, she'd be...",
     "response": "Ella Vader"
-  },
-  {
-    "clue": "Take Me Home, Country Roads",
-    "response": "West Virginia"
   },
   {
     "clue": "It's hard to write a song where your main objective is to use the word Ghostbusters",
@@ -1864,52 +1032,20 @@
     "response": "Brian's Song"
   },
   {
-    "clue": "The King & I",
-    "response": "Gertrude Lawrence"
-  },
-  {
-    "clue": "One For My Baby",
-    "response": "3:00"
-  },
-  {
-    "clue": "Cobra Starship (that figures)",
-    "response": "\"Snakes On A Plane\""
-  },
-  {
-    "clue": "Makes Me Wonder",
-    "response": "Maroon 5"
-  },
-  {
     "clue": "You might say it's the Australian aborigines' instrumental equivalent of the Swiss alphorn",
     "response": "didgeridoo"
-  },
-  {
-    "clue": "____ Don't Let Your Babies Grow Up To Be Cowboys",
-    "response": "Mammas"
   },
   {
     "clue": "Ann & Nancy Wilson wrote about the sleazy side of the music industry in this fishy song",
     "response": "\"Barracuda\""
   },
   {
-    "clue": "Born To Boogie",
-    "response": "Billy Elliot"
-  },
-  {
     "clue": "The Beatles promised they'd love their girl this many days a week",
     "response": "8"
   },
   {
-    "clue": "unfettered & alive",
-    "response": "Paris"
-  },
-  {
     "clue": "Made with rows of short tubes of different lengths, versions of this instrument are played from China to Peru",
     "response": "the pan flute"
-  },
-  {
-    "clue": "Take My Breath Away",
-    "response": "Top Gun"
   },
   {
     "clue": "John Raitt said he'd never acted before he played Billy Bigelow in this musical",
@@ -1918,22 +1054,6 @@
   {
     "clue": "Metal Edge isn't a magazine for steelworkers but for fans of this",
     "response": "heavy metal music"
-  },
-  {
-    "clue": "Bleeding ____ On The Rocks",
-    "response": "love"
-  },
-  {
-    "clue": "close enough for",
-    "response": "jazz"
-  },
-  {
-    "clue": "All My Rowdy Friends Are Comin' Over Tonight",
-    "response": "Hank Williams, Jr."
-  },
-  {
-    "clue": "The Magic _____",
-    "response": "Flute"
   },
   {
     "clue": "Bob Wills pioneered the country style called western this & Texas made it its state music",
@@ -1952,52 +1072,20 @@
     "response": "Evita"
   },
   {
-    "clue": "Interstate Love Song",
-    "response": "Stone Temple Pilots"
-  },
-  {
-    "clue": "All I Want For Christmas Is You",
-    "response": "Mariah Carey"
-  },
-  {
-    "clue": "Smoke On The Water",
-    "response": "Deep Purple"
-  },
-  {
-    "clue": "The Heat Is On",
-    "response": "Glenn Frey"
-  },
-  {
     "clue": "Kings 4:32 says he wrote 1 songs",
     "response": "Solomon"
-  },
-  {
-    "clue": "In the Hall of",
-    "response": "the Mountain King"
   },
   {
     "clue": "run fast for your mother, run fast for your father",
     "response": "\"Dog Days Are Over\""
   },
   {
-    "clue": "Another Suitcase In Another Hall",
-    "response": "Evita"
-  },
-  {
     "clue": "But you made me look so naive the way you sold me for parts, as you sunk your teeth into me",
     "response": "\"Vampire\""
   },
   {
-    "clue": "The Once & Future King",
-    "response": "Camelot"
-  },
-  {
     "clue": "The Missing Links re-create this group's music show",
     "response": "The Monkees"
-  },
-  {
-    "clue": "What I Go To School For",
-    "response": "the Jonas Brothers"
   },
   {
     "clue": "The Middle Eastern town of Agrabah (which is almost an anagram of Baghdad)",
@@ -2012,36 +1100,12 @@
     "response": "ethnomusicology"
   },
   {
-    "clue": "Man! I Feel Like A Woman!",
-    "response": "Shania Twain"
-  },
-  {
-    "clue": "Mad About You",
-    "response": "Belinda Carlisle"
-  },
-  {
     "clue": "Smell like I sound, I'm lost in a crowd, and I'm",
     "response": "\"Hungry Like The Wolf\""
   },
   {
-    "clue": "Moonlight Feels Right",
-    "response": "\"Sunshine On My Shoulder\""
-  },
-  {
     "clue": "He played sax in a jazz trio called The Three Blind Mice",
     "response": "Clinton"
-  },
-  {
-    "clue": "The King and I",
-    "response": "Shall We Dance?"
-  },
-  {
-    "clue": "Blue Moon of",
-    "response": "Kentucky"
-  },
-  {
-    "clue": "I'm a little",
-    "response": "a teapot"
   },
   {
     "clue": "trip to Hawaii might include this traditional feast with music, hula dancing & food like poi & kalua pig",
@@ -2052,40 +1116,12 @@
     "response": "Bluegrass"
   },
   {
-    "clue": "After the Rain",
-    "response": "Nelson"
-  },
-  {
     "clue": "I gave a letter to the postman, he put it in his sack. Bright & early next morning he",
     "response": "brought my letter back"
   },
   {
-    "clue": "The Drummer Boy of",
-    "response": "Shiloh"
-  },
-  {
     "clue": "With spiky hair & names like Sid Vicious, this style of rock music shocked people in the '70s",
     "response": "punk"
-  },
-  {
-    "clue": "Rock You Like A Hurricane",
-    "response": "the Scorpions"
-  },
-  {
-    "clue": "Love, love, love",
-    "response": "dance"
-  },
-  {
-    "clue": "Dream A Little Dream Of Me",
-    "response": "sycamore"
-  },
-  {
-    "clue": "____ Nation Army",
-    "response": "Seven"
-  },
-  {
-    "clue": "It Came Upon the Midnight Clear",
-    "response": "Arthur Sullivan"
   },
   {
     "clue": "Would you like to swing on a star, carry moonbeams home in",
@@ -2096,16 +1132,8 @@
     "response": "\"Tragic Kingdom\""
   },
   {
-    "clue": "Go Away White",
-    "response": "Bauhaus"
-  },
-  {
     "clue": "Get your motor runnin', head out on the highway",
     "response": "\"Born To Be Wild\""
-  },
-  {
-    "clue": "If I Were A Rich Man",
-    "response": "Fiddler on the Roof"
   },
   {
     "clue": "In the Charlie Daniels song, the devil went down to this state for a fiddle contest",
@@ -2120,14 +1148,6 @@
     "response": "don't fence me in"
   },
   {
-    "clue": "skyrockets in flight",
-    "response": "\"Afternoon Delight\""
-  },
-  {
-    "clue": "The Lonely Goatherd",
-    "response": "The Sound of Music"
-  },
-  {
     "clue": "Let us wallow in glorious mud",
     "response": "Hippopotamus"
   },
@@ -2140,24 +1160,12 @@
     "response": "\"Jeanie With The Light Brown Hair\""
   },
   {
-    "clue": "The Unknown Stuntman",
-    "response": "The Fall Guy"
-  },
-  {
-    "clue": "Songs in the Key of Life",
-    "response": "Stevie Wonder"
-  },
-  {
     "clue": "If you were a viola, you'd have this many strings",
     "response": "four"
   },
   {
     "clue": "Characters Mark, Roger & Maureen in this musical were inspired by Marcello, Rodolfo & Musetta in another work",
     "response": "Rent"
-  },
-  {
-    "clue": "Calling All Stations",
-    "response": "Genesis"
   },
   {
     "clue": "This group's 1st XV albums were titled with Roman numerals, their latest, 16, 17 & 18 are not",
@@ -2184,14 +1192,6 @@
     "response": "bluegrass"
   },
   {
-    "clue": "West Side Story",
-    "response": "\"I Feel Pretty\""
-  },
-  {
-    "clue": "Beauty and the Beard",
-    "response": "Al Hirt"
-  },
-  {
     "clue": "The strangled cries of lawyers in love",
     "response": "Jackson Browne"
   },
@@ -2200,32 +1200,12 @@
     "response": "baritone"
   },
   {
-    "clue": "Dirty Rotten Number",
-    "response": "Dirty Rotten Scoundrels"
-  },
-  {
     "clue": "Collective title of the piano pieces Liszt based on Gypsy melodies",
     "response": "Hungarian Rhapsodies"
   },
   {
-    "clue": "the Miami Sound Machine",
-    "response": "Gloria Estefan"
-  },
-  {
-    "clue": "I'll Remember April",
-    "response": "Miles Davis"
-  },
-  {
     "clue": "Goodbye Norma Jean though I never knew you at all",
     "response": "\"Candle in the Wind\""
-  },
-  {
-    "clue": "All I Want to Do",
-    "response": "Sheryl Crow"
-  },
-  {
-    "clue": "The Kingdom Of Swing",
-    "response": "Benny Goodman"
   },
   {
     "clue": "Well, I was drunk the day my mom got out of prison",
@@ -2250,10 +1230,6 @@
   {
     "clue": "In the Baroque era the trio sonata, usually written for 2 violins & a cello, was a genre of this, named for a room",
     "response": "chamber music"
-  },
-  {
-    "clue": "Hips Don't Lie",
-    "response": "Shakira"
   },
   {
     "clue": "comin' down in 3-part harmony",
@@ -2290,10 +1266,6 @@
   {
     "clue": "Timon, Pumbaa & Simba are all characters in this musical",
     "response": "\"The Lion King\""
-  },
-  {
-    "clue": "Come On-A My House",
-    "response": "Bob Dylan"
   },
   {
     "clue": "Used as an interjection in trap music, this vowelless word conveys the sound of tires screeching",

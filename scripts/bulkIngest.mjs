@@ -78,6 +78,14 @@ function cleanText(text) {
   return text.replace(/ /g, ' ').replace(/\s+/g, ' ').trim()
 }
 
+// Lowercase words that do not indicate sentence structure (prepositions, articles, conjunctions)
+const STOP_WORDS = new Set([
+  'a','an','the','of','in','on','at','to','by','for','or','and','but','as',
+  'it','its','from','with','up','out','not','no','so','yet','nor','via','vs',
+  'into','over','under','about','around','between','within','through','across',
+  'before','after','during','upon','toward','than','like','off','onto','per',
+])
+
 function stripGlobalArtifacts(text) {
   return text
     .replace(/Season\s+\d+/gi, ' ')
@@ -94,6 +102,8 @@ function stripGlobalArtifacts(text) {
     .replace(/,\d{3}/g, ' ')
     .replace(/^#\d+\.\s*/g, ' ')
     .replace(/^#\d+\s*/g, ' ')
+    // Strip leading all-caps category name fragments like "TOP 10 " or "OUT OF "
+    .replace(/^(?:[A-Z]{2,}\s+|\d+\s+){1,5}(?=[A-Z][a-z]|[a-z])/, '')
 }
 
 function extractCleanClue(rawText) {
@@ -110,9 +120,21 @@ function extractCleanClue(rawText) {
 
 function looksUsable(clue, response) {
   if (!clue || !response) return false
-  const wordCount = clue.split(/\s+/).filter(Boolean).length
-  if (clue.length < 12 || wordCount < 3) return false
+  const words = clue.split(/\s+/).filter(Boolean)
+  // Minimum size for a real Jeopardy clue
+  if (clue.length < 20 || words.length < 5) return false
+  // Known artifact patterns
   if (/Double/i.test(clue) || /Season /i.test(clue) || /\b\d{4}\b/.test(clue) || /,\d{3}/.test(clue)) return false
+  // Reject overly long responses (likely category bleed artifact)
+  if (response.split(/\s+/).filter(Boolean).length > 6) return false
+  // Concatenation artifact: lowercase letter immediately followed by 2+ uppercase (e.g. "BroadwayRIVER")
+  if (/[a-z][A-Z]{2,}/.test(clue) || /[a-z][A-Z]{2,}/.test(response)) return false
+  // Require at least 1 non-stop lowercase content word (proves sentence structure, not a bare title)
+  const contentWords = words.slice(1).filter(w => {
+    const bare = w.toLowerCase().replace(/[^a-z]/g, '')
+    return bare.length > 2 && /^[a-z]/.test(w) && !STOP_WORDS.has(bare)
+  })
+  if (contentWords.length < 1) return false
   return true
 }
 

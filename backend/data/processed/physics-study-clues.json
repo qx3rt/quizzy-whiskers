@@ -12,10 +12,6 @@
     "response": "waves"
   },
   {
-    "clue": "If I Only Had A Brain",
-    "response": "Albert Einstein"
-  },
-  {
     "clue": "Barbara Feldman could tell you this is the atomic number of Einsteinium, the element named for him",
     "response": "99"
   },
@@ -76,10 +72,6 @@
     "response": "sun"
   },
   {
-    "clue": "Richard Feynman 5",
-    "response": "Physics"
-  },
-  {
     "clue": "This Pawtuxet Indian who befriended the Pilgrims was also known as Tisquantum",
     "response": "Squanto"
   },
@@ -118,10 +110,6 @@
   {
     "clue": "If an element has 26 protons, 30 neutrons & 26 electrons, this is its atomic number",
     "response": "26"
-  },
-  {
-    "clue": "The Father of Relativity",
-    "response": "Albert Einstein"
   },
   {
     "clue": "This type of particle can be produced during reactions such as beta decay:",
@@ -360,10 +348,6 @@
     "response": "the Edison effect"
   },
   {
-    "clue": "On the once widely used Reaumur scale, 0 degrees & 80 degrees represented these 2 points",
-    "response": "the freezing & boiling points of water"
-  },
-  {
     "clue": "The war is won, but the peace is not",
     "response": "Einstein"
   },
@@ -416,10 +400,6 @@
     "response": "Marv Albert Einstein"
   },
   {
-    "clue": "Guide to Shakespeare",
-    "response": "Isaac Asimov"
-  },
-  {
     "clue": "Named for an English scientist, it's a division of classical physics",
     "response": "Newtonian"
   },
@@ -438,10 +418,6 @@
   {
     "clue": "This current senator's maiden name was Dianne Goldman",
     "response": "Feinstein"
-  },
-  {
-    "clue": "How Bright Was the Big Bang?",
-    "response": "Physics"
   },
   {
     "clue": "This word once used by alchemists today means the changing of one element into another by a nuclear reaction",
@@ -492,10 +468,6 @@
     "response": "Ohm's law"
   },
   {
-    "clue": "Nobody understands quantum mechanics",
-    "response": "Richard Feynman"
-  },
-  {
     "clue": "Fusion reactions occur in this superhot gas made up of free electrons & free nuclei",
     "response": "the plasma"
   },
@@ -518,14 +490,6 @@
   {
     "clue": "This classical field of physics consists of kinematics & dynamics, not auto repairmen",
     "response": "mechanics"
-  },
-  {
-    "clue": "homage to Tolstoy, Kierkegaard, Einstein, Groucho Marx...",
-    "response": "Love and Death"
-  },
-  {
-    "clue": "The Present Situation of Quantum Mechanics",
-    "response": "Schrödinger"
   },
   {
     "clue": "Physics textbooks say all motion is relative to this kind of frame",
@@ -552,16 +516,8 @@
     "response": "resilience (or elasticity)"
   },
   {
-    "clue": "Our Friend the Atom",
-    "response": "chain reaction"
-  },
-  {
     "clue": "This 1990s Oscar winner studied physics at Cal State Fullerton",
     "response": "James Cameron"
-  },
-  {
-    "clue": "________ on the Beach",
-    "response": "Einstein"
   },
   {
     "clue": "The measure of a body's inertia is technically known as this",
@@ -576,20 +532,12 @@
     "response": "Infrared waves"
   },
   {
-    "clue": "On the Electrodynamics of Moving Bodies",
-    "response": "Albert Einstein"
-  },
-  {
     "clue": "The atomic numbers of Einsteinium, Fermium & Mendelevium",
     "response": "99, 100 & 101"
   },
   {
     "clue": "Think economically about the theory of cosmic this, which says the early universe expanded faster than the speed of light",
     "response": "inflation"
-  },
-  {
-    "clue": "Hooke's Law of",
-    "response": "elasticity"
   },
   {
     "clue": "Isotopes are 2 forms of an element with the same number of protons but different numbers of these particles",
@@ -656,10 +604,6 @@
     "response": "Gluons"
   },
   {
-    "clue": "These 2 institutes of technology are tied atop the latest U.S. News ranking of physics grad schools",
-    "response": "Massachusetts Institute of Technology & California Institute of Technology (MIT & Caltech)"
-  },
-  {
     "clue": "One proton makes up over 99% of the mass of an atom of this element, 2 of which are found in water",
     "response": "Hydrogen"
   },
@@ -692,20 +636,12 @@
     "response": "quarks"
   },
   {
-    "clue": "on the Beach",
-    "response": "Einstein"
-  },
-  {
     "clue": "Radioactive elements give off three kinds of rays named for these Greek letters",
     "response": "alpha, beta & gamma"
   },
   {
     "clue": "To get an element's mass number, add its protons & these",
     "response": "neutrons"
-  },
-  {
-    "clue": "Deep Space Nine",
-    "response": "a Wormhole"
   },
   {
     "clue": "20th Puzzlingly heavy & long-lived particles discovered in the 1940s were dubbed this adjective later applied to even smaller particles",
@@ -792,10 +728,6 @@
     "response": "the center"
   },
   {
-    "clue": "Due to Rayleigh scattering",
-    "response": "\"Why is the sky blue?\""
-  },
-  {
     "clue": "Pre-20th century, it was thought that stars were powered by the heat generated from their own collapse caused by this force",
     "response": "gravity"
   },
@@ -822,10 +754,6 @@
   {
     "clue": "Nuclear energy is released when you split up nucleons in the nucleus: groups of protons, and these",
     "response": "neutrons"
-  },
-  {
-    "clue": "Einstein on the Beach",
-    "response": "(Philip) Glass"
   },
   {
     "clue": "of the 4 basic forces in nature is this one that keeps you earthbound",
@@ -876,14 +804,6 @@
     "response": "acoustics"
   },
   {
-    "clue": "Person of the Century",
-    "response": "Albert Einstein"
-  },
-  {
-    "clue": "Person of the Century",
-    "response": "Albert Einstein"
-  },
-  {
     "clue": "Of the 3 main particles that make up an atom, this one is the smallest by mass",
     "response": "electron"
   },
@@ -912,10 +832,6 @@
     "response": "an electron"
   },
   {
-    "clue": "The study of collisions that create new particles is this physics branch, HEP for short",
-    "response": "high energy physics (high energy particle accepted)"
-  },
-  {
     "clue": "These rays are emitted by radioactive decay mostly in a range from 50 to 60 million electron volts",
     "response": "Gamma rays"
   },
@@ -926,10 +842,6 @@
   {
     "clue": "If you know that E = mc2, you should know that this element, number 99, was first produced in nuclear blasts",
     "response": "einsteinium"
-  },
-  {
-    "clue": "John Scarne is to",
-    "response": "gambling"
   },
   {
     "clue": "These devices for upping the speeds of particles may be linear or cyclic",
@@ -982,10 +894,6 @@
   {
     "clue": "A nucleon is either of these 2 basic constituents of an atomic nucleus",
     "response": "a proton or a neutron"
-  },
-  {
-    "clue": "From the Big Bang to Black Holes",
-    "response": "(Stephen) Hawking"
   },
   {
     "clue": "Einstein first stated the concept now summed up in this formula, just 5 symbols, in a short paper often called an afterthought",
@@ -1052,20 +960,12 @@
     "response": "electric current"
   },
   {
-    "clue": "A Brief History of Time",
-    "response": "(Stephen) Hawking"
-  },
-  {
     "clue": "His first wife was a physicist named Mileva Maric; after he married his cousin Elsa",
     "response": "[Albert] Einstein"
   },
   {
     "clue": "He said he's lucky to have chosen theoretical physics--his work isn't affected by his degenerative disease",
     "response": "Stephen Hawking"
-  },
-  {
-    "clue": "California:Feinstein & her",
-    "response": "Barbara Boxer"
   },
   {
     "clue": "The term horsepower was first used by James Watt affer comparing the power of horses to the power of these",
@@ -1090,10 +990,6 @@
   {
     "clue": "A library at the American Institute of Physics is named for this Great Dane",
     "response": "Niels Bohr"
-  },
-  {
-    "clue": "Price is Right",
-    "response": "excited"
   },
   {
     "clue": "the only one whom fame has not corrupted",
@@ -1124,10 +1020,6 @@
     "response": "the neucleus"
   },
   {
-    "clue": "Problems in the Theory of Molecular Vibrations",
-    "response": "Peter Higgs"
-  },
-  {
     "clue": "Rather than in fixed orbits, these particles travel in shells or layers around the nucleus",
     "response": "electrons"
   },
@@ -1140,16 +1032,8 @@
     "response": "the poles"
   },
   {
-    "clue": "the impossibility of",
-    "response": "metaphysics"
-  },
-  {
     "clue": "Have plenty of zeroes on hand when using Einstein's equation of energy with mass multiplied by this, squared",
     "response": "speed of light"
-  },
-  {
-    "clue": "of the 3 countries of which Einstein was a citizen during his life",
-    "response": "(2 of) Germany, United States or (Switzerland)"
   },
   {
     "clue": "Radial velocities in the zodiacal dust cloud",
@@ -1216,10 +1100,6 @@
     "response": "quarks"
   },
   {
-    "clue": "I never think of",
-    "response": "the future"
-  },
-  {
     "clue": "Josef Stefan heated up physics by showing that radiation from a glowing wire was proportional to this",
     "response": "temperature"
   },
@@ -1268,16 +1148,8 @@
     "response": "electrons"
   },
   {
-    "clue": "subatomic particle&a peculiar behavior",
-    "response": "a quark & a quirk"
-  },
-  {
     "clue": "Per a Richard Feynman lecture, a collision where bodies stick together is an example of conservation of this",
     "response": "momentum"
-  },
-  {
-    "clue": "Life is like riding",
-    "response": "a bicycle"
   },
   {
     "clue": "The 2 heaviest ones of these particles, top & bottom, were originally called truth & beauty",
@@ -1304,16 +1176,8 @@
     "response": "back in time"
   },
   {
-    "clue": "of 2 women who represent the state of California in the U.S. Senate",
-    "response": "(1 of) Barbara Boxer & Dianne Feinstein"
-  },
-  {
     "clue": "3 This type of atom is formed by the loss or gain of electrons",
     "response": "an ion"
-  },
-  {
-    "clue": "Quantum of Solace",
-    "response": "(James) Bond"
   },
   {
     "clue": "This one of the 3 main states of matter has no fixed shape or volume",
@@ -1364,24 +1228,12 @@
     "response": "inertia"
   },
   {
-    "clue": "Born in Beirut, Lebanon",
-    "response": "Keanu (Reeves)"
-  },
-  {
     "clue": "It's impossible to create a perfect one of these, a volume of space with no matter in it",
     "response": "Vacuum"
   },
   {
-    "clue": "Creator and Rebel",
-    "response": "Albert Einstein"
-  },
-  {
     "clue": "Half the atoms in a radioactive substance decay in the time period called this",
     "response": "half-life"
-  },
-  {
-    "clue": "The Principles of",
-    "response": "quantum mechanics"
   },
   {
     "clue": "In a perfectly inelastic collision, this is what would happen to the 2 objects that meet",
@@ -1432,10 +1284,6 @@
     "response": "helium"
   },
   {
-    "clue": "On the Generalized Theory of Gravitation",
-    "response": "Scientific American"
-  },
-  {
     "clue": "At age 14, physics whiz Chris Hirata joined the rocket scientists when he enrolled at this Pasadena college",
     "response": "Caltech"
   },
@@ -1474,10 +1322,6 @@
   {
     "clue": "Both used in the nuclear power industry, these first 2 transuranium elements are named for heavenly bodies",
     "response": "neptunium & plutonium"
-  },
-  {
-    "clue": "does not throw dice",
-    "response": "Einstein"
   },
   {
     "clue": "Edwin Hubble confirmed this German's view that the universe is expanding, not static",
@@ -1608,10 +1452,6 @@
     "response": "cathode ray"
   },
   {
-    "clue": "Surely You're Joking...",
-    "response": "Richard Feynman"
-  },
-  {
     "clue": "As a student in Paris, this Polish-born woman lived on bread & tea but graduated first in her class in physics",
     "response": "Marie Curie"
   },
@@ -1656,20 +1496,12 @@
     "response": "thermodynamics"
   },
   {
-    "clue": "the genius of",
-    "response": "(Albert) Einstein"
-  },
-  {
     "clue": "The atomic weight of an atom is the sum of the number of these in the nucleus",
     "response": "protons & neutrons"
   },
   {
     "clue": "Einstein, we see your Nobel Prize specifically for studying this effect, direct conversion of light energy into current",
     "response": "the photoelectric effect"
-  },
-  {
-    "clue": "a complete mystery",
-    "response": "women"
   },
   {
     "clue": "20 Before taking her seat in the Senate, Dianne Feinstein was Mayor of this California city",
@@ -1736,10 +1568,6 @@
     "response": "potential (energy)"
   },
   {
-    "clue": "On the Beach",
-    "response": "Einstein"
-  },
-  {
     "clue": "Also heard in economics, it's the property of a solid forced object out of shape, then returning to its original form",
     "response": "elasticity"
   },
@@ -1750,10 +1578,6 @@
   {
     "clue": "In some particle accelerators, particles can reach energies of over a trillion eV, which stands for this",
     "response": "electron volt"
-  },
-  {
-    "clue": "Moment of force",
-    "response": "torque"
   },
   {
     "clue": "A roentgen is a unit of measure of the amount of exposure to these, discovered by Roentgen",
@@ -1776,10 +1600,6 @@
     "response": "physics"
   },
   {
-    "clue": "In the physics lab:",
-    "response": "Light Amplification by Stimulated Emission of Radiation"
-  },
-  {
     "clue": "A deuterium atom is a hydrogen atom that has this keeping its proton company in the nucleus",
     "response": "a neutron"
   },
@@ -1798,10 +1618,6 @@
   {
     "clue": "His principle states a body floating in a fluid will displace a weight of the fluid equal to its own weight",
     "response": "Archimedes"
-  },
-  {
-    "clue": "A Good Walk Spoiled",
-    "response": "Golf"
   },
   {
     "clue": "An alkyl is a hydrocarbon that has lost one of these atoms that has just 1 proton in its nucleus",
@@ -1892,10 +1708,6 @@
     "response": "quarks"
   },
   {
-    "clue": "Einstein on the Beach",
-    "response": "(Philip) Glass"
-  },
-  {
     "clue": "word distance from the center of a lens to a point where the light rays that pass through it converge",
     "response": "the focal length"
   },
@@ -1968,10 +1780,6 @@
     "response": "centrifugal force"
   },
   {
-    "clue": "Driving Mr. Albert",
-    "response": "Albert Einstein"
-  },
-  {
     "clue": "This astronomer's constant is used for measuring the rate of expansion of the universe",
     "response": "Edwin Hubble"
   },
@@ -2020,10 +1828,6 @@
     "response": "conservation of matter"
   },
   {
-    "clue": "I Left My Heart In San Francisco",
-    "response": "Dianne Feinstein"
-  },
-  {
     "clue": "Quantum physics explains why these negative particles don't lose energy & crash into a positively charged nucleus",
     "response": "electrons"
   },
@@ -2048,16 +1852,8 @@
     "response": "atom & moat"
   },
   {
-    "clue": "New Theory of the Universe--Newtonian Ideas Overthrown",
-    "response": "Einstein"
-  },
-  {
     "clue": "It might take an Einstein to figure out that he's the patron saint of science students",
     "response": "Albert"
-  },
-  {
-    "clue": "Woodstock of Physics",
-    "response": "superconductivity"
   },
   {
     "clue": "Named for the British physicist, Hawking radiation is a weak force emitted by these",
@@ -2070,10 +1866,6 @@
   {
     "clue": "Each atom of this element has only one proton",
     "response": "hydrogen"
-  },
-  {
-    "clue": "The Septum Deviation",
-    "response": "The Big Bang Theory"
   },
   {
     "clue": "Except for hydrogen, all atomic nuclei contain these two types of particles",
@@ -2098,14 +1890,6 @@
   {
     "clue": "When 2 light nuclei combine to form a single heavier nucleus, it's called this process",
     "response": "fusion"
-  },
-  {
-    "clue": "A Great Unravelling",
-    "response": "string theory"
-  },
-  {
-    "clue": "Metaphysics of Morals",
-    "response": "Immanuel Kant"
   },
   {
     "clue": "It's a material such as germanium whose resistivity is midway between a conductor & an insulator",
@@ -2152,10 +1936,6 @@
     "response": "Einstein"
   },
   {
-    "clue": "Relativity: The Special and General Theory",
-    "response": "Albert Einstein"
-  },
-  {
     "clue": "Newton thought time was absolute; Einstein said it was this",
     "response": "relative"
   },
@@ -2188,10 +1968,6 @@
     "response": "Quantum"
   },
   {
-    "clue": "A Good Walk Spoiled",
-    "response": "golf"
-  },
-  {
     "clue": "3 All atoms are composed of these 3 basic types of particles",
     "response": "protons, neutrons and electrons"
   },
@@ -2212,10 +1988,6 @@
     "response": "particles"
   },
   {
-    "clue": "The Present Situation in Quantum Physics",
-    "response": "Schrödinger"
-  },
-  {
     "clue": "Mass number is defined as the number of neutrons & these particles in an atom's nucleus",
     "response": "protons"
   },
@@ -2226,10 +1998,6 @@
   {
     "clue": "Ferromagnetism, or attraction by an electrically uncharged body, is a property of this element, atomic number 26",
     "response": "iron"
-  },
-  {
-    "clue": "One Two Three...",
-    "response": "infinity"
   },
   {
     "clue": "Isotopes of this element are the most commonly used nuclear fuel in reactors",
@@ -2262,10 +2030,6 @@
   {
     "clue": "A shotgun's powerful recoil is an example of his third law of motion",
     "response": "Isaac Newton"
-  },
-  {
-    "clue": "The Man, the Genius, & the Theory of Relativity",
-    "response": "Albert Einstein"
   },
   {
     "clue": "The 3 elements whose names begin with 2 vowels are iodine & these 2, one synthetic & one natural",
