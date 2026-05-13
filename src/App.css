@@ -300,172 +300,211 @@
   cursor: not-allowed;
 }
 
-.info-grid {
+/* ── Clue modal ── */
+.clue-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(14, 8, 32, 0.88);
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 20px;
+  place-items: center;
+  z-index: 200;
+  padding: 24px;
+  backdrop-filter: blur(4px);
 }
 
-.clue-panel-content {
-  display: grid;
-  gap: 18px;
-  margin-top: 16px;
-}
-
-.clue-meta {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.clue-value {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 999px;
-  padding: 8px 12px;
-  background: rgba(248, 242, 255, 0.95);
-  border: 1px solid rgba(122, 92, 153, 0.12);
-  color: #6f4ea1;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-.clue-text {
-  margin: 0;
-  font-size: 1.2rem;
-  line-height: 1.7;
-  color: #2d1f3d;
-}
-
-.answer-form {
-  display: grid;
-  gap: 12px;
-}
-
-.answer-label {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #7a5c99;
-}
-
-.answer-input-row {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 12px;
-  border-radius: 16px;
-  background: rgba(248, 242, 255, 0.9);
-  border: 1px solid rgba(122, 92, 153, 0.12);
-}
-
-.answer-prefix {
-  font-weight: 700;
-  color: #6f4ea1;
-  white-space: nowrap;
-}
-
-.answer-input {
+.clue-modal {
+  background: linear-gradient(160deg, #1e1248 0%, #150d38 100%);
+  border: 1px solid rgba(255, 226, 138, 0.15);
+  border-radius: 28px;
+  padding: 48px 44px 44px;
+  max-width: 680px;
   width: 100%;
-  border: none;
-  background: transparent;
-  color: #2d1f3d;
-  font-size: 1rem;
-}
-
-.answer-input::placeholder {
-  color: #8e80a8;
-}
-
-.answer-input:focus {
-  outline: none;
-}
-
-.result-banner {
   display: grid;
-  gap: 6px;
-  padding: 16px;
-  border-radius: 16px;
-  border: 1px solid transparent;
+  gap: 24px;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.5);
 }
 
-.result-correct {
-  background: rgba(225, 246, 233, 0.95);
-  border-color: rgba(84, 146, 99, 0.2);
-  color: #245733;
+.clue-modal-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
 }
 
-.result-incorrect {
-  background: rgba(255, 239, 239, 0.95);
-  border-color: rgba(184, 93, 93, 0.2);
-  color: #7b2f2f;
+.clue-modal-category {
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffe28a;
 }
 
-.result-time {
-  background: rgba(255, 246, 225, 0.95);
-  border-color: rgba(187, 144, 51, 0.2);
-  color: #7a5a12;
+.clue-modal-value {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #ffe28a;
+  line-height: 1;
+  text-align: center;
 }
 
-.result-label {
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
-.response-preview {
-  display: grid;
-  gap: 6px;
-  padding: 16px;
-  border-radius: 16px;
-  background: rgba(248, 242, 255, 0.9);
-  border: 1px solid rgba(122, 92, 153, 0.12);
-}
-
-.response-label {
-  color: #7a5c99;
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
-.empty-state {
-  margin-top: 16px;
-  padding: 20px;
-  border-radius: 16px;
-  background: rgba(248, 242, 255, 0.55);
-  border: 1px dashed rgba(122, 92, 153, 0.25);
-}
-
-.empty-state p {
+.clue-modal-text {
   margin: 0;
-  color: #4b3f5d;
+  font-size: 1.45rem;
+  line-height: 1.55;
+  color: #ffffff;
+  text-align: center;
 }
 
-.detail-list {
-  list-style: none;
-  margin: 16px 0 0;
-  padding: 0;
+.clue-modal-form {
   display: grid;
   gap: 14px;
 }
 
-.detail-list li {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+.clue-modal-input-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
   padding: 14px 16px;
-  border-radius: 16px;
-  background: rgba(248, 242, 255, 0.9);
-  border: 1px solid rgba(122, 92, 153, 0.12);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.detail-list span {
-  color: #7a5c99;
-  font-size: 0.85rem;
+.answer-prefix {
   font-weight: 700;
+  color: rgba(255, 226, 138, 0.9);
+  white-space: nowrap;
 }
 
-.detail-list strong {
-  color: #2d1f3d;
+.clue-modal-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.clue-modal-input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.clue-modal-input:focus {
+  outline: none;
+}
+
+.clue-modal-submit {
+  border: none;
+  border-radius: 999px;
+  padding: 14px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: #6f4ea1;
+  color: white;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.clue-modal-submit:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(111, 78, 161, 0.4);
+}
+
+.clue-modal-submit:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.clue-modal-submit:focus-visible {
+  outline: 3px solid rgba(111, 78, 161, 0.5);
+  outline-offset: 3px;
+}
+
+.clue-modal-result {
+  display: grid;
+  gap: 16px;
+}
+
+.clue-modal-verdict {
+  display: grid;
+  gap: 6px;
+  padding: 18px 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.verdict-correct {
+  background: rgba(84, 146, 99, 0.2);
+  border: 1px solid rgba(84, 146, 99, 0.35);
+  color: #7ee8a2;
+}
+
+.verdict-incorrect {
+  background: rgba(184, 93, 93, 0.2);
+  border: 1px solid rgba(184, 93, 93, 0.35);
+  color: #f8a0a0;
+}
+
+.verdict-time {
+  background: rgba(187, 144, 51, 0.2);
+  border: 1px solid rgba(187, 144, 51, 0.35);
+  color: #ffd57e;
+}
+
+.verdict-label {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.verdict-delta {
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.clue-modal-answer {
+  display: grid;
+  gap: 6px;
+  padding: 16px 20px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.clue-modal-answer-label {
+  color: rgba(255, 226, 138, 0.7);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.clue-modal-answer strong {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.clue-modal-continue {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  padding: 14px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.85);
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.clue-modal-continue:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.clue-modal-continue:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.3);
+  outline-offset: 3px;
 }
 
 @media (max-width: 1100px) {
@@ -475,8 +514,25 @@
 }
 
 @media (max-width: 900px) {
-  .hero-panel,
-  .info-grid {
+  .hero-panel {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .clue-modal {
+    padding: 32px 24px 28px;
+  }
+
+  .clue-modal-value {
+    font-size: 2.2rem;
+  }
+
+  .clue-modal-text {
+    font-size: 1.2rem;
+  }
+
+  .clue-modal-input-row {
     grid-template-columns: 1fr;
   }
 }
@@ -504,13 +560,6 @@
     grid-template-columns: 1fr;
   }
 
-  .answer-input-row {
-    grid-template-columns: 1fr;
-  }
-
-  .clue-panel-header {
-    flex-direction: column;
-  }
 }
 
 /* ── Category picker ── */
@@ -548,6 +597,11 @@
 .category-chip-selected {
   border-color: #7a5c99;
   background: rgba(122, 92, 153, 0.1);
+}
+
+.category-chip-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 .category-chip strong {

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import './App.css'
 import { fetchBoard, fetchCategories } from './utils/api'
 
@@ -98,6 +98,7 @@ function App() {
   const [timeRemaining, setTimeRemaining] = useState(CLUE_TIME_LIMIT)
   const [didTimeExpire, setDidTimeExpire] = useState(false)
   const [score, setScore] = useState(0)
+  const answerInputRef = useRef(null)
 
   const loadBoard = useCallback(async (categoryIds = []) => {
     setBoardLoading(true)
@@ -127,6 +128,12 @@ function App() {
   }, [loadBoard])
 
   useEffect(() => {
+    if (activeClue && !isSubmitted && !didTimeExpire) {
+      answerInputRef.current?.focus()
+    }
+  }, [activeClue, isSubmitted, didTimeExpire])
+
+  useEffect(() => {
     if (!activeClue || isSubmitted || didTimeExpire) {
       return
     }
@@ -145,9 +152,11 @@ function App() {
   }, [activeClue, isSubmitted, didTimeExpire, timeRemaining])
 
   function toggleCategoryId(id) {
-    setSelectedCategoryIds((prev) =>
-      prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id]
-    )
+    setSelectedCategoryIds((prev) => {
+      if (prev.includes(id)) return prev.filter((c) => c !== id)
+      if (prev.length >= 6) return prev
+      return [...prev, id]
+    })
   }
 
   function handleStartBoard() {
@@ -201,6 +210,7 @@ function App() {
   }
 
   const showReveal = isSubmitted || didTimeExpire
+  const atCategoryLimit = selectedCategoryIds.length >= 6
 
   return (
     <main className="app-shell">
@@ -216,8 +226,6 @@ function App() {
               <span className="score-label">Score</span>
               <strong className="score-value">{formatScore(score)}</strong>
             </div>
-
-            <div className="header-chip">Real data enabled</div>
           </div>
         </header>
 
@@ -255,19 +263,23 @@ function App() {
                 <h3>Choose up to 6 categories</h3>
               </div>
               <span className="panel-tag">
-                {selectedCategoryIds.length === 0 ? 'Random' : `${selectedCategoryIds.length} selected`}
+                {selectedCategoryIds.length === 0
+                  ? 'Random'
+                  : `${selectedCategoryIds.length} / 6 selected`}
               </span>
             </div>
 
             <div className="category-picker-grid">
               {categories.map((cat) => {
                 const isSelected = selectedCategoryIds.includes(cat.id)
+                const isDisabled = !isSelected && atCategoryLimit
                 return (
                   <button
                     key={cat.id}
                     type="button"
-                    className={`category-chip ${isSelected ? 'category-chip-selected' : ''}`}
+                    className={`category-chip ${isSelected ? 'category-chip-selected' : ''} ${isDisabled ? 'category-chip-disabled' : ''}`}
                     onClick={() => toggleCategoryId(cat.id)}
+                    disabled={isDisabled}
                   >
                     <strong>{cat.name}</strong>
                     <span>{cat.clue_count} clues</span>
@@ -345,130 +357,88 @@ function App() {
             </div>
           )}
         </section>
+      </div>
 
-        <section className="info-grid">
-          <article className="panel clue-panel">
-            <div className="clue-panel-header">
-              <p className="panel-eyebrow">Selected clue</p>
-
-              {activeClue ? (
-                <div
-                  className={`timer-badge ${
-                    timeRemaining <= 3 ? 'timer-warning' : ''
-                  }`}
-                >
-                  {didTimeExpire ? "Time's up" : `${timeRemaining}s`}
-                </div>
-              ) : null}
+      {activeClue && (
+        <div className="clue-modal-overlay">
+          <div className="clue-modal">
+            <div className="clue-modal-meta">
+              <span className="clue-modal-category">{activeClue.category}</span>
+              <div
+                className={`timer-badge ${timeRemaining <= 3 ? 'timer-warning' : ''}`}
+              >
+                {didTimeExpire ? "Time's up" : `${timeRemaining}s`}
+              </div>
             </div>
 
-            {activeClue ? (
-              <div className="clue-panel-content">
-                <div className="clue-meta">
-                  <span className="clue-value">${activeClue.value}</span>
+            <div className="clue-modal-value">${activeClue.value}</div>
+
+            <p className="clue-modal-text">{activeClue.clue}</p>
+
+            {!showReveal ? (
+              <form className="clue-modal-form" onSubmit={handleSubmitAnswer}>
+                <div className="clue-modal-input-row">
+                  <span className="answer-prefix">What is</span>
+                  <input
+                    ref={answerInputRef}
+                    id="answer-input"
+                    className="clue-modal-input"
+                    type="text"
+                    value={answerText}
+                    onChange={(e) => setAnswerText(e.target.value)}
+                    placeholder="type your answer…"
+                    disabled={isSubmitted || didTimeExpire}
+                    autoComplete="off"
+                  />
+                </div>
+                <button
+                  className="clue-modal-submit"
+                  type="submit"
+                  disabled={!answerText.trim() || isSubmitted || didTimeExpire}
+                >
+                  Submit response
+                </button>
+              </form>
+            ) : (
+              <div className="clue-modal-result">
+                <div
+                  className={`clue-modal-verdict ${
+                    didTimeExpire
+                      ? 'verdict-time'
+                      : isCorrect
+                        ? 'verdict-correct'
+                        : 'verdict-incorrect'
+                  }`}
+                >
+                  <span className="verdict-label">
+                    {didTimeExpire ? "Time's up" : isCorrect ? 'Correct!' : 'Incorrect'}
+                  </span>
+                  <span className="verdict-delta">
+                    {didTimeExpire
+                      ? `−$${activeClue.value} for timeout`
+                      : isCorrect
+                        ? `+$${activeClue.value} earned`
+                        : `−$${activeClue.value} deducted`}
+                  </span>
                 </div>
 
-                <p className="clue-text">{activeClue.clue}</p>
+                <div className="clue-modal-answer">
+                  <span className="clue-modal-answer-label">Correct response</span>
+                  <strong>What is {activeClue.response}?</strong>
+                </div>
 
-                <form className="answer-form" onSubmit={handleSubmitAnswer}>
-                  <label className="answer-label" htmlFor="answer-input">
-                    Your response
-                  </label>
-
-                  <div className="answer-input-row">
-                    <span className="answer-prefix">What is</span>
-                    <input
-                      id="answer-input"
-                      className="answer-input"
-                      type="text"
-                      value={answerText}
-                      onChange={(event) => setAnswerText(event.target.value)}
-                      placeholder="type your answer"
-                      disabled={isSubmitted || didTimeExpire}
-                    />
-                  </div>
-
-                  <button
-                    className="submit-button"
-                    type="submit"
-                    disabled={!answerText.trim() || isSubmitted || didTimeExpire}
-                  >
-                    {isSubmitted ? 'Submitted' : 'Submit response'}
-                  </button>
-                </form>
-
-                {showReveal ? (
-                  <>
-                    <div
-                      className={`result-banner ${
-                        didTimeExpire
-                          ? 'result-time'
-                          : isCorrect
-                            ? 'result-correct'
-                            : 'result-incorrect'
-                      }`}
-                    >
-                      <span className="result-label">
-                        {didTimeExpire
-                          ? 'Time expired'
-                          : isCorrect
-                            ? 'Nice work'
-                            : 'Not a match'}
-                      </span>
-                      <strong>
-                        {didTimeExpire
-                          ? `-${formatScore(activeClue.value).replace('-', '')} applied for timeout.`
-                          : isCorrect
-                            ? `+${formatScore(activeClue.value)} earned for a correct response.`
-                            : `-${formatScore(activeClue.value).replace('-', '')} applied for an incorrect response.`}
-                      </strong>
-                    </div>
-
-                    <div className="response-preview">
-                      <span className="response-label">Correct response</span>
-                      <strong>What is {activeClue.response}?</strong>
-                    </div>
-                  </>
-                ) : null}
-              </div>
-            ) : (
-              <div className="empty-state">
-                <p>Select a clue from the board to preview it here.</p>
+                <button
+                  className="clue-modal-continue"
+                  type="button"
+                  onClick={() => setActiveClue(null)}
+                >
+                  Continue
+                </button>
               </div>
             )}
-          </article>
-
-          <article className="panel">
-            <p className="panel-eyebrow">Session details</p>
-            <ul className="detail-list">
-              <li>
-                <span>Mode</span>
-                <strong>Single-player practice</strong>
-              </li>
-              <li>
-                <span>Categories</span>
-                <strong>
-                  {boardData.length > 0
-                    ? boardData.map((c) => c.category).join(', ')
-                    : 'Loading…'}
-                </strong>
-              </li>
-              <li>
-                <span>Timer</span>
-                <strong>{CLUE_TIME_LIMIT} second countdown per clue</strong>
-              </li>
-              <li>
-                <span>Scoring</span>
-                <strong>Correct adds, incorrect subtracts</strong>
-              </li>
-              <li>
-                <span>Validation</span>
-                <strong>Flexible match with typo tolerance</strong>
-              </li>
-            </ul>
-          </article>
-        </section>
-      </div>
+          </div>
+        </div>
+      )}
     </main>
   )
 }
