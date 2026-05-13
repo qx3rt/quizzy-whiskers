@@ -1,0 +1,206 @@
+[
+  {
+    "name": "AUSTEN POWERS",
+    "topic_area": "austen",
+    "season": 19,
+    "air_date": "2003-02-06",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Of Jane Austen's 6 major works, it's the only one named for its heroine",
+        "response_text": "\\\"Emma\\\"",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's the main reason why 19-year-old Anne Elliot's family won't let her marry Frederick Wentworth",
+        "response_text": "he doesn't have enough money",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Jane lived out in the boonies, but visited London & this spa city where much of \"Persuasion\" is set",
+        "response_text": "Bath",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This Austen book about Elinor & Marianne Dashwood was initially called \"Elinor and Marianne\\\"",
+        "response_text": "\\\"Sense and Sensibility\\\"",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Catherine Morland goes to Northanger Abbey; Fanny Price goes to this title place",
+        "response_text": "\\\"Mansfield Park\\\"",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "STONE COLD JANE AUSTEN",
+    "topic_area": "austen",
+    "season": 30,
+    "air_date": "2014-01-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2013, a London lake got a 12-foot statue of this Austen character",
+        "response_text": "(Mr.) Darcy",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "She's a wood... house! This title woman gets Harriet to reject a farmer's marriage proposal, but that turns out badly",
+        "response_text": "Emma",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Glenda Jackson brings this novel to life in audio book form",
+        "response_text": "Sense and Sensibility",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "It's a day in the \"park\" & the price is right—the price being Fanny—in dealing with the Bertram family in this novel",
+        "response_text": "Mansfield Park",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This novel with a monastic title was sold to a publisher in 1803 but didn't appear until after Jane died in 1817",
+        "response_text": "Northanger Abbey",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "AUSTEN-TATIOUS",
+    "topic_area": "austen",
+    "season": 15,
+    "air_date": "1999-06-07",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Jane Austen said Elizabeth Bennet, the hero of this novel, was \"as delightful a creature as ever appeared in print\\\"",
+        "response_text": "\\\"Pride and Prejudice\\\"",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "After her unsuccessful & meddlesome matchmaking, this title character realizes she loves Mr. Knightley",
+        "response_text": "Emma Woodhouse",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This author of \"Orlando\" said, \"Of all the great writers\" Jane \"is the most difficult to catch in the act of greatness\\\"",
+        "response_text": "Virginia Woolf",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "While prince regent during his father's madness, this king had a set of Austen's novels in each of his residences",
+        "response_text": "George IV",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This title abbey is the home of clergyman Henry Tilney",
+        "response_text": "\\\"Northanger Abbey\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "JANE AUSTEN",
+    "topic_area": "austen",
+    "season": 14,
+    "air_date": "1998-04-28",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In Jane's first published novel, Elinor typifies \"Sense\" & Marianne stands for this title quality",
+        "response_text": "Sensibility",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Friends knew Jane wrote her novels even though she published them this way, from the Greek for \"nameless\\\"",
+        "response_text": "Anonymously",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "We don't want to leave you \"Clueless\" — Sir Walter Scott gave this 1816 book by Jane a good review",
+        "response_text": "\\\"Emma\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In this novel, Mrs. Bennet tries to find husbands for her 5 daughters",
+        "response_text": "\\\"Pride and Prejudice\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In \"Persuasion\", Wentworth returns from sea with this rank & renews his courtship of Anne",
+        "response_text": "Captain",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "JANE AUSTEN-TATIOUS",
+    "topic_area": "austen",
+    "season": 38,
+    "air_date": "2022-06-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Originally titled \"First Impressions\", this tale of Elizabeth Bennet would be Jane's second novel published",
+        "response_text": "Pride and Prejudice",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In Austen novels the girls like a guy who has \"four thousand\" or \"five thousand a year\"—4 or 5,000 of these",
+        "response_text": "pounds",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Austen adaptations include the 1995 movie version of this novel starring Emma Thompson as Elinor Dashwood",
+        "response_text": "Sense and Sensibility",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Jane lived most of her life in this southern English county that lent its name to a \"New\" U.S. state",
+        "response_text": "Hampshire",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "2 of Jane's 6 novels were published posthumously—\"Persuasion\" & this one with a building for a title",
+        "response_text": "Northanger Abbey",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "JANE AUSTEN IN POP CULTURE",
+    "topic_area": "austen",
+    "season": 29,
+    "air_date": "2013-06-04",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Helen Fielding reworked \"Pride & Prejudice\" & used the name Mr. Darcy for this novel & its 2001 film",
+        "response_text": "Bridget Jones's Diary",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "2 sisters go broke & move to East L.A. in the rhymingly titled fiim \"From Prada to\" this, based on \"Sense & Sensibility\\\"",
+        "response_text": "Nada",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "As if! This movie starring Alicia Silverstone was based on \"Emma\\\"",
+        "response_text": "Clueless",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Giant lobsters & rampaging octopi threaten the Dashwood sisters in the book \"Sense and Sensibility and\" these",
+        "response_text": "Sea Monsters",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "She played a pre-fame Jane Austen in the 2007 film \"Becoming Jane\\\"",
+        "response_text": "Anne Hathaway",
+        "dollar_value": 2000
+      }
+    ]
+  }
+]

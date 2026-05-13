@@ -1,0 +1,2348 @@
+[
+  {
+    "name": "NBA TEAMS' HOME ARENAS",
+    "topic_area": "basketball",
+    "season": 22,
+    "air_date": "2006-04-12",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Madison Square Garden",
+        "response_text": "the New York Knicks",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The 2 teams that play at the Staples Center",
+        "response_text": "the L.A. Lakers & Clippers",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "TD BankNorth Garden (or Gahden)",
+        "response_text": "the Boston Celtics",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Rose Garden Arena",
+        "response_text": "the Portland Trail Blazers",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "AT&T (formerly SBC) Center",
+        "response_text": "the San Antonio Spurs",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NBA FINALS MVPs",
+    "topic_area": "basketball",
+    "season": 30,
+    "air_date": "2014-03-31",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1983: This big man lived up to his name & led the Sixers to the promised land",
+        "response_text": "Moses Malone",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1988: This Tar Heel proved his merit for the Lakers",
+        "response_text": "(James) Worthy",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "2007: He was the first European-born MVP",
+        "response_text": "Tony Parker",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1969: This Laker had a few logo-worthy performances",
+        "response_text": "(Jerry) West",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1976: He thought he was a loner but got back as the Finals MVP",
+        "response_text": "Jo Jo White",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 1,
+    "air_date": "1985-04-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Sounds like the favorite shot of Peter pan's nemesis",
+        "response_text": "a hook shot",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Height of the basket",
+        "response_text": "10 feet",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Atlanta's basketball \"birds\\\"",
+        "response_text": "the Hawks",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Making it is called a \"conversion\\\"",
+        "response_text": "a foul shot (free throw)",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "He was NBA scoring champ for 7 straight years",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PRO BASKETBALL",
+    "topic_area": "basketball",
+    "season": 16,
+    "air_date": "2000-04-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In the 1980s this Lakers coach guided his team to 4 NBA championships",
+        "response_text": "Pat Riley",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "On Nov. 24, 1960 this Philadelphia Warrior had 55 rebounds, still the one-game NBA record",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1971 & 1972 he won NBA scoring titles under 2 different names",
+        "response_text": "Kareem Abdul-Jabbar/Lew Alcindor",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1 of the 2 Canadian teams in the NBA",
+        "response_text": "Toronto Raptors or Vancouver Grizzlies",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "As you'd expect from a 10-time scoring champion, Michael Jordan was primarily this type of guard",
+        "response_text": "Shooting guard",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "COLLEGE BASKETBALL COACHES",
+    "topic_area": "basketball",
+    "season": 26,
+    "air_date": "2010-06-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "John Wooden (1949-1975)",
+        "response_text": "UCLA",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Bobby Knight (1972-2000)",
+        "response_text": "Indiana",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Dean Smith (1962-1997)",
+        "response_text": "University of North Carolina",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Jim Boeheim (1976-present)",
+        "response_text": "Syracuse",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Phog Allen (1920-1956)",
+        "response_text": "the University of Kansas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "SALUTE TO THE NBA",
+    "topic_area": "basketball",
+    "season": 23,
+    "air_date": "2006-12-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "No arrests were made after John Stockton left the NBA with a record 3,625 of these",
+        "response_text": "steals",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Among the records he held upon retiring were most regular-season points & 5,762 playoff points",
+        "response_text": "Kareem Abdul-Jabbar",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This man pulled down 11 championship rings as a coach & player for the Celtics",
+        "response_text": "Bill Russell",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In 1974 & 1976 this forward led the Nets to the ABA Championship, & in 1983 he led the 76ers to the NBA Championship",
+        "response_text": "Julius Erving (\"Dr. J\")",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Defensive stars Mark Eaton & Hakeem Olajuwon share the record with 10 of these in a playoff game",
+        "response_text": "blocks",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 4,
+    "air_date": "1987-10-14",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Color of most basketball hoops & the Golden Gate Bridge",
+        "response_text": "orange",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "When these \"clowns\" once played in Greece the heat was so great the tar on the court melted",
+        "response_text": "Harlem Globetrotters",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Before 1937, this game-opener was repeated after every score",
+        "response_text": "center jump (jump ball)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Winner of 1st European championship, held in 1935, was this northern neighbor of Lithuania",
+        "response_text": "Latvia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In the pros, this area is 16 ft. wide, 4 ft. wider than college",
+        "response_text": "the lane in front of the basket (free throw lane)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PRO BASKETBALL",
+    "topic_area": "basketball",
+    "season": 19,
+    "air_date": "2003-04-15",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Since the '40s this NBA team has played its home games at Madison Square Garden, first on 49th St. & then on 33rd St.",
+        "response_text": "the Knicks",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 2002 this ex-Laker was presented for induction into the Hall of Fame by friend-competitor Larry Bird",
+        "response_text": "\\\"Magic\" Johnson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This semicircular line is 19 feet, 9 inches from the center of the basket in college, 4 feet further in the NBA",
+        "response_text": "the 3-point line",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In 2002 this Philadelphia 76er won his third NBA scoring title with an average of 31.4 points per game",
+        "response_text": "Allen Iverson",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This Orlando Magic superguard is known as \"T-Mac\\\"",
+        "response_text": "Tracy McGrady",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NBA RETIRED JERSEYS",
+    "topic_area": "basketball",
+    "season": 24,
+    "air_date": "2008-01-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Los Angeles Lakers No. 32",
+        "response_text": "Magic Johnson",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Philadelphia 76ers No. 6",
+        "response_text": "Julius Erving",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Boston Celtics No. 33",
+        "response_text": "Larry Bird",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "New York Knicks No. 33",
+        "response_text": "Patrick Ewing",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Indiana Pacers No. 31",
+        "response_text": "Reggie Miller",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 22,
+    "air_date": "2005-11-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2000 this ex-Chicago Bull became president of the Wizards",
+        "response_text": "(Michael) Jordan",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Hi. I'm Bill Walton.) In 1974 this team that now plays its home games in the Rose Garden made me the No. 1 overall pick in the NBA draft",
+        "response_text": "the Portland Trail Blazers",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Averaging 21 points per game, this team's Chauncey Billups was named MVP of the 2004 NBA Finals",
+        "response_text": "the Detroit Pistons",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Warrior had 6 NBA games in which he scored 70 or more points, including a 100-point game in 1962",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "He's won 6 NBA championship rings: 1 as a player, 1 as an asst. coach & 4 as head coach of the Lakers in the 1980s",
+        "response_text": "Pat Riley",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 17,
+    "air_date": "2001-06-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On Sept. 10, 2000 he was fired as coach of the Indiana Hoosiers after a 29-year stay at the school",
+        "response_text": "Bobby Knight",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1993 Shaquille O'Neal was named the NBA's Rookie of the Year while playing center for this Florida team",
+        "response_text": "Orlando Magic",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Blue Devils of this school are the only Division I team to win 37 games in a season twice",
+        "response_text": "Duke",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1979 Indiana State's Larry Bird was Player of the Year, but this Michigan State star was the NBA's No. 1 draft pick",
+        "response_text": "Earvin \"Magic\" Johnson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1961-62 this Philadelphia Warrior became the only man in history to score over 4,000 points in a season",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "COLLEGE BASKETBALL",
+    "topic_area": "basketball",
+    "season": 20,
+    "air_date": "2004-06-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Hi, I'm James Worthy.) In 1982 I led this school, the Tar Heels, to the NCAA title & was named MVP of the Final Four",
+        "response_text": "the University of North Carolina",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The dames from this Indiana university won the women's NCAA basketball title in 2001",
+        "response_text": "Notre Dame",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Hi, I'm Sue Bird.) Before joining the WNBA, I led this university's Huskies to the NCAA championships in 2000 & 2002",
+        "response_text": "the University of Connecticut (UConn)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Later a coach, she was the first basketball player at USC to have a jersey number retired",
+        "response_text": "Cheryl Miller",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(I'm Jalen Rose of the NBA.) I was part of this school's \"Fab Five\" that played in 2 NCAA finals in the '90s",
+        "response_text": "the University of Michigan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PRO BASKETBALL",
+    "topic_area": "basketball",
+    "season": 18,
+    "air_date": "2002-01-29",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On September 25, 2001, this co-owner of the Washington Wizards announced his return as an active player",
+        "response_text": "Michael Jordan",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Here's Charles Barkley with the clue.) This current Laker coach has the highest career winning percentage of any coach in NBA history",
+        "response_text": "Phil Jackson",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Known as \"The Stilt\", he led the NBA in rebounding a record 11 times during his 14-year career",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Originally a tri-city team it settled in Milwaukee & St. Louis before reaching Atlanta",
+        "response_text": "Hawks",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "From 1995 through 2000 this city's Grizzlies won only 78 games, the lowest number of NBA wins in any 5-season stretch",
+        "response_text": "Vancouver",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PRO BASKETBALL",
+    "topic_area": "basketball",
+    "season": 16,
+    "air_date": "2000-06-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1 of 2 players named MVP 3 times while with the L.A. Lakers",
+        "response_text": "(1 of) Kareem Abdul-Jabbar & Magic Johnson",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Known as Dr. J, he's the only man to have led the short-lived ABA in scoring more than once; he did it 3 times",
+        "response_text": "Julius Erving",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "On April 16, 1996 this team defeated the Milwaukee Bucks to become the first in NBA history to win 70 games in a season",
+        "response_text": "Chicago Bulls",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It's the only NBA team whose name comes from equipment actually used in the game today",
+        "response_text": "New Jersey Nets",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Hi, I'm Rebecca Lobo of the WNBA) The logo of this city's WNBA team, the Rockers, features a guitar twisted into the shape of an \"R\\\"",
+        "response_text": "Cleveland",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PRO BASKETBALL",
+    "topic_area": "basketball",
+    "season": 18,
+    "air_date": "2002-04-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Michael Jordan & this center are the only NBA players with over 30-point averages & over 400 games played",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This rival of the NBA, which began play in 1967, introduced the 3-point basket & the All-Star Game slam dunk contest",
+        "response_text": "the ABA (the American Basketball Association)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This NBA team's new home, Philips Arena, is connected to the CNN Center by a concourse",
+        "response_text": "the Hawks",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1941 this current Michigan team, the NBA's oldest, began playing in Fort Wayne, Indiana",
+        "response_text": "the Pistons",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Utah Jazz forward was named the NBA's Most Valuable Player in both 1997 & 1999",
+        "response_text": "Karl Malone",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA RULES",
+    "topic_area": "basketball",
+    "season": 20,
+    "air_date": "2004-03-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Hi, I'm Malik Rose.) Rule 4, Section 14 says that while an opponent's doing this, I can't run past him, wave my arms or talk trash to him",
+        "response_text": "shooting a free throw",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's the type of foul that can be called on a player who's not even in the game at the time",
+        "response_text": "technical foul",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Hi, I'm Michael Finley.) A substitute has to report to this person who gets to sit at a table while we run around",
+        "response_text": "scorekeeper",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "If a defensive player kicks the ball, this is reset & starts over",
+        "response_text": "the shot clock/24-second clock",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(I'm Derek Fisher.) In 2001 the time allowed to bring the ball across midcourt was lowered from this to 8 seconds",
+        "response_text": "10 seconds",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PRO BASKETBALL",
+    "topic_area": "basketball",
+    "season": 19,
+    "air_date": "2003-06-25",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In the name of Israeli basketball team Maccabi Elite T.A., T.A. stands for this city",
+        "response_text": "Tel Aviv",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Laker guard spent much of his youth in Italy — his dad Joe \"Jelly Bean\" played pro hoops there",
+        "response_text": "Kobe Bryant",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 2002 the Houston Rockets' first round draft pick was this 7'5\" center, formerly of the Shanghai Sharks",
+        "response_text": "Yao Ming",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This pro league founded by Dennis Murphy in 1967 used a red, white & blue basketball",
+        "response_text": "the ABA (American Basketball Association)",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In 2002 this Sparks center made history with the first slam dunk in a WNBA game",
+        "response_text": "Lisa Leslie",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NBA NICKNAMES",
+    "topic_area": "basketball",
+    "season": 24,
+    "air_date": "2007-09-18",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"MJ\\\"",
+        "response_text": "Michael Jordan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Pistol Pete\\\"",
+        "response_text": "Pete Maravich",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Sir Charles\\\"",
+        "response_text": "Charles Barkley",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "\\\"Larry Legend\\\"",
+        "response_text": "Larry Bird",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "\\\"Melo\\\"",
+        "response_text": "Carmelo Anthony",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NBA TEAMS, LITERALLY",
+    "topic_area": "basketball",
+    "season": 25,
+    "air_date": "2009-06-03",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Devices used by a rider to urge his mount forward",
+        "response_text": "Spurs",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Small, slender dinosaurs of the Cretaceous period",
+        "response_text": "Raptors",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A form of energy associated with the motion of atoms or molecules",
+        "response_text": "the (Miami) Heat",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Gallant or chivalrous knights, especially on horseback",
+        "response_text": "the (Cleveland) Cavaliers",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Enchanters, such as Gandalf",
+        "response_text": "the (Washington) Wizards",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "MARCH MADNESS",
+    "topic_area": "basketball",
+    "season": 19,
+    "air_date": "2003-03-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In March 1969 Baron Constantine, lawyer & cricket star, became the 1st black member of this house of Parliament",
+        "response_text": "House of Lords",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Frederick II, who held this \"Holy\" position, wasn't holy enough for the Pope & was excommunicated in March 1239",
+        "response_text": "Holy Roman Emperor",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "On March 14, 1964 he was sentenced to death for killing the man who killed the president",
+        "response_text": "Jack Ruby",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In March 1999, Ta Mok, AKA \"The Butcher\", became the first senior member of this Cambodian group arrested",
+        "response_text": "Khmer Rouge",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In March 1562 members of this French religious group were massacred at Vassy",
+        "response_text": "Huguenots",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL RULES",
+    "topic_area": "basketball",
+    "season": 18,
+    "air_date": "2002-06-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "An NBA player or coach who receives this many technical fouls in a game is ejected",
+        "response_text": "2",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew in front of a brick wall.) A player's not going to get very far if he commits the infraction I'm signaling",
+        "response_text": "traveling",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This violation is the bouncing of the ball with both hands at the same time",
+        "response_text": "double dribble",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew in front of a brick wall.) In a game, if neither team has control of the ball, the ref may signal this",
+        "response_text": "jump ball",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A player commits this infraction if he touches a shot on its downward flight before it touches the basket",
+        "response_text": "goaltending",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 18,
+    "air_date": "2002-07-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Cheryl shoots some hoops with Shawn Bradley.) There's a regular as well as a sky type of this shot",
+        "response_text": "hook shot",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1997 the NBA briefly shelved this contest whose winners included Isaiah Rider with the East Bay Funk",
+        "response_text": "Slam Dunk competition",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Sofia goes head-to-head with Bradley.) It's a musical artist who broadens his appeal or the type of dribble Shawn Bradley is using to beat me",
+        "response_text": "crossover",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The underhand free throw technique is associated with this Golden State Warriors hall of famer",
+        "response_text": "Rick Barry",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Cheryl is attempting a rebound from Bradley.) Shawn's doing this to me; it sounds like fighting, but he's actually in position for the rebound",
+        "response_text": "boxing out",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE NBA",
+    "topic_area": "basketball",
+    "season": 19,
+    "air_date": "2002-12-24",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In the 1990s this Chicago Bulls guard was the MVP of the NBA Finals a record 6 times",
+        "response_text": "Michael Jordan",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In June 2002 this Lakers coach became the all-time leader in playoff victories by winning his 156th game",
+        "response_text": "Phil Jackson",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1995 this Houston Rockets center scored a then-record 131 points in a 4-game NBA Finals",
+        "response_text": "Hakeem Olajuwon",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The NBA's Coach of the Year Trophy is named for this longtime Celtics coach",
+        "response_text": "Red Auerbach",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1987 7'7\" Manute Bol was a teammate of 5'3\" Tyrone Bogues, better known by this nickname",
+        "response_text": "Muggsy",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA HALL OF FAMERS",
+    "topic_area": "basketball",
+    "season": 27,
+    "air_date": "2010-10-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He won an NBA title ring in 1973 as a reserve forward with the Knicks & coached the Bulls to 6 titles in the '90s",
+        "response_text": "Phil Jackson",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 2000 this former Celtics player coached the Indiana Pacers to the NBA Finals",
+        "response_text": "Larry Bird",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Abe Saperstein is in the Hall of Fame, as is this team he promoted & coached for decades",
+        "response_text": "The Harlem Globetrotters",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "As a rookie in the 1980 NBA finals, this Michigan State alum played all 5 positions & scored 42 points in the final game",
+        "response_text": "Magic Johnson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Nigeria-born Rockets player holds the NBA record for career blocked shots with 3,830",
+        "response_text": "Hakeem Olajuwon",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARCH MADNESS",
+    "topic_area": "basketball",
+    "season": 21,
+    "air_date": "2005-06-22",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "March 29, 1792: King Gustav III of this nation is assassinated at a masquerade ball",
+        "response_text": "Sweden",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "March 5, 1770: British troops gun down 5 American colonists in the event that would become known as this",
+        "response_text": "the Boston Massacre",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "March 16, 1935: Hitler orders Germany to rearm itself in violation of this treaty",
+        "response_text": "the Treaty of Versailles",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "March 28, 1854: The U.K. & France declare war on Russia, beginning this war",
+        "response_text": "the Crimean War",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "March 1967: She, Joseph Stalin's last surviving child, asks for asylum at the U.S. embassy in New Delhi",
+        "response_text": "Svetlana Stalin",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NBA TEAMS IN OTHER WORDS",
+    "topic_area": "basketball",
+    "season": 22,
+    "air_date": "2006-02-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The male sorcerers",
+        "response_text": "the (Washington) Wizards",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The bright celestial bodies",
+        "response_text": "the Phoenix Suns",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The precious metal lumps",
+        "response_text": "the Denver Nuggets",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The meshwork trapping devices",
+        "response_text": "the New Jersey Nets",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The King Charles I supporters",
+        "response_text": "the (Cleveland) Cavaliers",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 4,
+    "air_date": "1988-02-15",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1936, a team from Universal Studios comprised nearly half of the U.S. basketball squad for these",
+        "response_text": "the Olympic Games",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In a \"bonus situation\", a fouled player shoots these",
+        "response_text": "foul shots (free throws)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "He led Indiana State U. to 1979 NCAA finals, losing to Michigan State, led by Magic Johnson",
+        "response_text": "Larry Bird",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Area under the basket next to the end line, or a rear entrance",
+        "response_text": "back door",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Teaching a rowdy P.E. class, he tried rugby, soccer & lacrosse, then in desperation invented basketball",
+        "response_text": "(Dr. James) Naismith",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL WITH COACH DIXON",
+    "topic_area": "basketball",
+    "season": 21,
+    "air_date": "2004-11-19",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Coach Dixon diagrams the clue on the board.) We need to force some turnovers—let's use this \"full-court\" defense",
+        "response_text": "the press",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Coach Dixon diagrams the clue on the board.) As long as they're in man-to-man, keep going to this basic play which starts with setting a pick",
+        "response_text": "pick and roll",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Coach Dixon diagrams the clue on the board.) This is what I tell people who don't belong in the gym; it's also the play we'll run to isolate our hot hand on one side",
+        "response_text": "clear out",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "(Coach Dixon diagrams the clue on the board.) We'll never get transition points if you don't sharpen up this pass that gets the fast break going",
+        "response_text": "an outlet pass",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "(Coach Dixon diagrams the clue on the board.) When I talk about the \"3-man\" type of this, I don't mean something you get at the hair salon",
+        "response_text": "the weave",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "COLLEGE BASKETBALL",
+    "topic_area": "basketball",
+    "season": 20,
+    "air_date": "2004-02-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1991 at LSU, this current Lakers center & part-time rapper led the NCAA in rebounds with 14.7 per game",
+        "response_text": "Shaquille O'Neal",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1932 he was College Player of the Year at Purdue; in the 1970s he coached UCLA to a record 88 straight wins",
+        "response_text": "(John) Wooden",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The NCAA basketball tournament is known by this \"crazy\" monthly name",
+        "response_text": "March Madness",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Only 2 men have won 3 NCAA scoring titles—Pete Maravich & this Cincinnati player known as the \"Big O\\\"",
+        "response_text": "Oscar Robertson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Hi, I'm Bill Walton.) This award for college player of the year is named for the inventor of basketball; I won it 3 times in the 1970s",
+        "response_text": "(James) Naismith",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA MVPs PDQ, OK?",
+    "topic_area": "basketball",
+    "season": 27,
+    "air_date": "2010-12-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This 2010 MVP took his trophy & then made \"The Decision\" to leave town",
+        "response_text": "LeBron James",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 2008 this Laker won his first MVP; hard to believe it took 12 seasons",
+        "response_text": "Kobe",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Suns guard went back-to-back in 2005 & '06",
+        "response_text": "Steve Nash",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Before a 3-point contest, this Celtic & 1986 MVP asked, \"Which one of you guys is finishing 2nd?\"; he backed it up & won",
+        "response_text": "Larry Bird",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1993 this Taco Bell spokesman wasn't \"turrible\", he was league MVP for Phoenix",
+        "response_text": "Charles Barkley",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 14,
+    "air_date": "1997-12-02",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1968 the St. Louis Hawks flew the coop & landed in this city",
+        "response_text": "Atlanta",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It was Kerr-tains for this team when the Bulls' Steve Kerr made the title-winning shot in the 1997 NBA Finals",
+        "response_text": "Utah Jazz",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In May 1997 this former Celtics star returned to his home state to become coach of the Indiana Pacers",
+        "response_text": "Larry Bird",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "John Wooden, the legendary \"Wizard of Westwood\", coached this school to 10 NCAA titles",
+        "response_text": "UCLA",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "While at Princeton, this future U.S. Senator set the record for points in a Final Four game with 58",
+        "response_text": "Bill Bradley",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARCH MADNESS CHAMPS",
+    "topic_area": "basketball",
+    "season": 34,
+    "air_date": "2018-02-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The last team to go undefeated in the regular season & win it all was this Bloomington bunch in 1976",
+        "response_text": "the (Indiana) Hoosiers",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's likely no team will break the record of 7 titles in a row won by this West Coast squad from 1967 to 1973",
+        "response_text": "UCLA",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Son of tennis star Yannick & a Miss Sweden, he was the most outstanding player in 2006 as Florida took the title",
+        "response_text": "Joakim Noah",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In the 2012 final Anthony Davis & this team went wild on defense with a record 11 blocks",
+        "response_text": "the Kentucky Wildcats",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Rollie Massimino coached this Philly-area school to a title in 1985 & Jay Wright got them another one in 2016",
+        "response_text": "Villanova",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PRO BASKETBALL",
+    "topic_area": "basketball",
+    "season": 7,
+    "air_date": "1990-10-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Nicknamed \"The Stilt\", this Philadelphia Warrior player scored 100 points in a game March 2, 1962",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "By the time he retired in 1989, this Laker had been named the NBA's MVP a record 6 times",
+        "response_text": "Kareem Abdul-Jabbar",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1966 Bill Russell became the NBA's first Black coach when he succeeded Red Auerbach as this team's coach",
+        "response_text": "the Boston Celtics",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This NBA team's official logo features a stylized musical note",
+        "response_text": "the (Utah) Jazz",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This professional league folded in 1976 with four of its teams joining the NBA",
+        "response_text": "the American Basketball Association (the ABA)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARCH MADNESS",
+    "topic_area": "basketball",
+    "season": 31,
+    "air_date": "2015-03-09",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "His jubilant letter of March 10th, 1876 says, \"Articulate speech was transmitted intelligibly this afternoon\\\"",
+        "response_text": "(Alexander Graham) Bell",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "March 1855 saw border ruffians from Missouri invade this state & force the election of a pro-slavery government",
+        "response_text": "Kansas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In March 2001 this space station was intentionally deorbited and crashed into the Pacific Ocean",
+        "response_text": "Mir",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In March 1792 King Gustav III of this nation was fatally shot by a disgruntled army officer",
+        "response_text": "Sweden",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In March 37 Tiberius lay dying as this successor waited; when Tiberius sat up & asked for food, he had to be smothered",
+        "response_text": "Caligula",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "COACHING BASKETBALL",
+    "topic_area": "basketball",
+    "season": 40,
+    "air_date": "2024-01-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Tex Winter, mentor to Phil Jackson, became famous for this type of offense with a geometric name",
+        "response_text": "a triangle",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Fittingly, NBA great Michael Cooper led the Sparks of this city to a pair of WNBA championships",
+        "response_text": "Los Angeles",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In \"I Came As a Shadow\", John Thompson diagrammed his life as basketball coach at this D.C. university",
+        "response_text": "Georgetown",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Coaching 1899-1907, this pioneer of the sport is the only basketball coach in Kansas Jayhawks history with a losing record",
+        "response_text": "Naismith",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Real first name Glenn, this man had the prescription for the Celtics in 2008, taking them to the championship",
+        "response_text": "Doc Rivers",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE \"NBA\\\"",
+    "topic_area": "basketball",
+    "season": 32,
+    "air_date": "2015-12-08",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "To lie outdoors to tan oneself",
+        "response_text": "to sunbathe",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Round projectile fired by an olde-time artillery piece",
+        "response_text": "a cannonball",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Colorful term for a note of U.S. currency",
+        "response_text": "a greenback",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Out of equilibrium",
+        "response_text": "unbalanced",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "A saying popularized in 1895 is \"Politics ain't\" this object that kids toss around",
+        "response_text": "a beanbag",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NBA TEAMS IN OTHER WORDS",
+    "topic_area": "basketball",
+    "season": 19,
+    "air_date": "2003-04-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The stinging wasps",
+        "response_text": "the Hornets",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The male deer",
+        "response_text": "the (Milwaukee) Bucks",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Ursus arctos horribilises",
+        "response_text": "the Grizzlies",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "The unbranded cattle",
+        "response_text": "the Mavericks",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "The 19th century sailing ships",
+        "response_text": "the Clippers",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL: SCREEN & ROLE",
+    "topic_area": "basketball",
+    "season": 31,
+    "air_date": "2015-06-24",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"They needed a second chance to finish first\" was a tagline for this 1986 Gene Hackman film",
+        "response_text": "Hoosiers",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Michael Jordan & other NBA stars teamed with Looney Tunes characters to defeat aliens in this 1996 film",
+        "response_text": "Space Jam",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Former NBA player Bob Lanier was hired to coach Woody Harrelson & Wesley Snipes for this 1992 film",
+        "response_text": "White Men Can't Jump",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This Bucks, Celtics & Heat sharpshooter played a high school phenom in Spike Lee's \"He Got Game\\\"",
+        "response_text": "Ray Allen",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In a 1978 pilot, coach Ken Howard: \"I'll be behind you every step of the way\"; Kevin Hooks: \"Yeah, like a\" this title phrase",
+        "response_text": "a white shadow",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PRO BASKETBALL",
+    "topic_area": "basketball",
+    "season": 7,
+    "air_date": "1991-07-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This Chicago Bulls guard was selected NBA Rookie of the Year in 1985",
+        "response_text": "Michael Jordan",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "During the 1961-62 season, this Warriors player set an NBA record by averaging 50.4 points a game",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Now the Celtics' president, he coached the team to 9 NBA titles in 10 seasons",
+        "response_text": "Red Auerbach",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1988 this NBA team moved from the Silverdome to the Palace of Auburn Hills",
+        "response_text": "the Detroit Pistons",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1 of 2 NBA teams located in Florida",
+        "response_text": "(1 of) the Miami Heat (Orlando Magic)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA ROOKIES OF THE YEAR",
+    "topic_area": "basketball",
+    "season": 33,
+    "air_date": "2017-04-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1998: Tim Duncan beginning quite a career with this team",
+        "response_text": "the (San Antonio) Spurs",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "2004: This 19-year-old from Akron",
+        "response_text": "LeBron James",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "2015 & 2016: Messrs. Wiggins & Towns, both of this team",
+        "response_text": "the Timberwolves",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "2009: This point guard who blossomed into an MVP in Chicago",
+        "response_text": "Derrick Rose",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "2011: This Clipper from Oklahoma who found success even sooner, winning the dunk contest that year",
+        "response_text": "Blake Griffin",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NBA MVPs",
+    "topic_area": "basketball",
+    "season": 18,
+    "air_date": "2002-04-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1977: A Lakers center",
+        "response_text": "Kareem Abdul-Jabbar",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1981: A Philadelphia \"doctor\\\"",
+        "response_text": "Dr. J (Julius Erving)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1956: Bob Pettit, 1957: This Bob of Boston",
+        "response_text": "Bob Cousy",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1994: A \"Dream\"y Rocket",
+        "response_text": "Hakeem Olajuwon",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1970: A gimpy Knick",
+        "response_text": "Willis Reed",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 13,
+    "air_date": "1996-09-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Chet the Jet was Chet Walker, Bill the Hill was Bill McGill & Wilt the Stilt was this man",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "NBA players competed in the Olympics for the 1st time in this city in 1992 & won the gold",
+        "response_text": "Barcelona",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Number 14 on the 1945-46 NBL champion Rochester Royals, he went on to play \"The Rifleman\\\"",
+        "response_text": "Chuck Connors",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This comical team's 1st trip wasn't around the world but to a town 50 miles from Chicago January 7, 1927",
+        "response_text": "the Harlem Globetrotters",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In the 1st NBA Draft Lottery in 1985, this team got the first pick & took Georgetown's Patrick Ewing",
+        "response_text": "the New York Knicks",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "LET'S PLAY SOME BASKETBALL",
+    "topic_area": "basketball",
+    "season": 22,
+    "air_date": "2006-03-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In basketball, 2 types of these are personal & technical",
+        "response_text": "fouls",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Hi, I'm Allan Houston of the NBA.) I helped the U.S. bring home the men's basketball gold from the 2000 Summer Olympics held in this city",
+        "response_text": "Sydney",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In the 2001 playoffs, Derek Fisher set a record, making 15 of these in 4 games against San Antonio",
+        "response_text": "three-pointers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Hi, I'm Michael Finley.) As a Badger on this college basketball team, I became its all-time leading scorer with 2,147 points",
+        "response_text": "the University of Wisconsin",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "He coached the University of North Carolina men's college basketball team in 4 different decades",
+        "response_text": "Dean Smith",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "GREENBACKS",
+    "topic_area": "basketball",
+    "season": 29,
+    "air_date": "2012-12-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "More bills of this denomination are printed every year than any other, about 45% of the total",
+        "response_text": "$1",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "On $20 bills a seal represents this system; a letter & number represent its component bank issuing the note",
+        "response_text": "the Federal Reserve System",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's the only current bill with the face of a treasury secretary on it",
+        "response_text": "the $10 bill",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A star at the end of this indicates that it's out of sequence with those on the other bills in its series",
+        "response_text": "the serial number",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Every day this bureau, the B.E.P., produces millions of paper bills, with a face value over $400 million",
+        "response_text": "the Bureau of Engraving and Printing",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA LAST NAME'S THE SAME",
+    "topic_area": "basketball",
+    "season": 31,
+    "air_date": "2014-11-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Jermaine & Shaquille",
+        "response_text": "O'Neal",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Reggie & Andre",
+        "response_text": "Miller",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Karl & Moses",
+        "response_text": "Malone",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "DeAndre & Michael",
+        "response_text": "Jordan",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Dwight & Juwan",
+        "response_text": "Howard",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE NAISMITH MEMORIAL BASKETBALL HALL OF FAME",
+    "topic_area": "basketball",
+    "season": 33,
+    "air_date": "2017-06-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Sarah of the Clue Crew reports from the Naismith Memorial Basketball Hall of Fame in Springfield, MA.) On March 2, 1962, five Philadelphia Warriors combined to score 69 points; the sixth, this man, who wore this jersey that night, added another 100",
+        "response_text": "Wilt Chamberlain",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew reports from the Naismith Memorial Basketball Hall of Fame in Springfield, MA.) Two basketballs went up on the shuttle Atlantis in 2009—one here from the Globetrotters & a second ball handled in 1909 by this astronomer, then a Big Ten athlete & whose namesake telescope Atlantis was off to repair",
+        "response_text": "the Hubble",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Sarah of the Clue Crew reports from the Naismith Memorial Basketball Hall of Fame in Springfield, MA.) Here is what this rebounding master wore before his surprisingly moving & emotional 2011 induction speech",
+        "response_text": "(Dennis) Rodman",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew reports from the Naismith Memorial Basketball Hall of Fame in Springfield, MA.) I wear a size 10 shoe; the largest shoe in the hall of fame, a size 23, belonged to this man who broke into the NBA with Orlando in 1992",
+        "response_text": "Shaquille O'Neal",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Sarah of the Clue Crew reports from the Naismith Memorial Basketball Hall of Fame in Springfield, MA.) Here is the 2006 Miami Heat championship ring of this coach, but don't worry—he still has four other NBA rings that he won patrolling the sidelines",
+        "response_text": "Pat Riley",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA ROOKIES OF THE YEAR",
+    "topic_area": "basketball",
+    "season": 27,
+    "air_date": "2011-07-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1985 it was this Bull with a bright future",
+        "response_text": "Michael Jordan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Shaq took the honor in 1993 as a member of this team",
+        "response_text": "the Orlando Magic",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 2009 Allen Iverson returned to this team for which he won the award in 1997",
+        "response_text": "the (Philadelphia) 76ers",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This Knicks center was the 1986 choice",
+        "response_text": "Patrick Ewing",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "When Kareem Abdul-Jabbar got the award, he was going by this name",
+        "response_text": "Lew Alcindor",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NBA GREATS",
+    "topic_area": "basketball",
+    "season": 33,
+    "air_date": "2017-02-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Alphabetically first on the NBA's list of its 50 greatest players is this Bucks, Lakers & Celebrity \"Jeopardy!\" star",
+        "response_text": "Kareem Abdul-Jabbar",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Dan Patrick delivers the clue.) In the 1998-99 season, this center led the Knicks as the team became the first ever to reach the finals as an 8th seed",
+        "response_text": "Patrick Ewing",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "OKC fans were thunderstruck in 2016 when this star announced he was leaving for Golden State",
+        "response_text": "Kevin Durant",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "At the Beijing Olympics, the Chinese called this Laker Xiao Fei Xia or Peter Pan, due to his \"flying\" ability",
+        "response_text": "Kobe Bryant",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Houston \"Dream\" added an \"H\" to his first name midway through his pro career",
+        "response_text": "(Hakeem) Olajuwon",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 33,
+    "air_date": "2016-12-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "If you want to play tight defense, employ a \"full-court\" this",
+        "response_text": "press",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The 2015 & 2016 NBA finals both matched up these 2 teams",
+        "response_text": "the Cavs & the Warriors",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In the NBA an award is given to the best of these ordinal players, usually the first off the bench",
+        "response_text": "the sixth man",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "2015-'16 was the 19th & final season for this NBA great from the U.S. Virgin Islands",
+        "response_text": "Tim Duncan",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Karl Malone was one of the most dominant at this 2-word position",
+        "response_text": "power forward",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA NICKNAMES",
+    "topic_area": "basketball",
+    "season": 40,
+    "air_date": "2023-12-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He knew how to operate on a basketball court, so it makes sense that Julius Erving had this medical nickname",
+        "response_text": "Dr. J",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Early on, superstar Kawhi Leonard earned the nickname \"Board Man\" with high numbers in this stat",
+        "response_text": "rebounds",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Nicknames of Giannis Antetokounmpo include \"The Alphabet\" & this rhyming one, including a nationality",
+        "response_text": "the \"Greek Freak\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Before his first NBA game Nike was pushing \"The Extraterrestrial\" for Victor Wembanyama, this team's 2023 number one draft choice",
+        "response_text": "the Spurs",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "James Harden fans have worn T-shirts with this 3-word phrase incorporating James' fairly obvious nickname",
+        "response_text": "fear the beard",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA TEAM NAMES EN ESPAÑOL",
+    "topic_area": "basketball",
+    "season": 31,
+    "air_date": "2015-04-08",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Los Toros",
+        "response_text": "the (Chicago) Bulls",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "El Calor",
+        "response_text": "the (Miami) Heat",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Las Pepitas de Oro",
+        "response_text": "the Denver Nuggets",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Los Caballeros",
+        "response_text": "the Cleveland Cavaliers",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Los Reyes",
+        "response_text": "the (Sacramento) Kings",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "THE ALL-WRITERS BASKETBALL TEAM",
+    "topic_area": "basketball",
+    "season": 31,
+    "air_date": "2014-09-23",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "6'4'' from the University of Maine, this \"Dead Zone\" author",
+        "response_text": "Stephen King",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "6'9'' from Harvard, this man who wrote thrillers under the name John Lange (Lange is \"tall\" in German)",
+        "response_text": "Michael Crichton",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "6'6'' from the Repton School in Derbyshire, this children's author seen with wife Patricia Neal",
+        "response_text": "Roald Dahl",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "6'3'' from Fairfax High, this author of crime books like \"L.A. Confidential\\\"",
+        "response_text": "James Ellroy",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "6'8'' from Ontario Agricultural College, this economist who wrote \"The New Industrial State\\\"",
+        "response_text": "John Kenneth Galbraith",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NBA LOGOS",
+    "topic_area": "basketball",
+    "season": 27,
+    "air_date": "2010-11-24",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Lucky, who wears a vest, bow tie & bowler hat with shamrocks on them",
+        "response_text": "the Celtics",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A flaming red basketball going through a white hoop",
+        "response_text": "the (Miami) Heat",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A shield with a horse's head & a single star",
+        "response_text": "the (Dallas) Mavericks",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "A sword goes through the \"C\" in the team's name",
+        "response_text": "the (Cleveland) Cavaliers",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "The letter \"W\" forms the body of a man in blue wearing a pointy hat",
+        "response_text": "the (Washington) Wizards",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "MARCH MADNESS",
+    "topic_area": "basketball",
+    "season": 29,
+    "air_date": "2012-12-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The second movement of his Third Symphony, the \"Eroica\", is a funeral march",
+        "response_text": "Beethoven",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "His Slavonic March of 1876 was commissioned by the Russian Musical Society to support Serbs at war with Turkey",
+        "response_text": "Tchaikovsky",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Hector Berlioz' \"Symphonie Fantastique\" contains the grim \"March to\" this place where the hangman awaits",
+        "response_text": "the gallows",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Yale played this march for Edward Elgar when it gave him an honorary Ph.D. in 1905; he probably loved it— he wrote it",
+        "response_text": "\\\"Pomp And Circumstance\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "It's said to have been inspired by a \"colonel\" who would whistle its distinctive 2-note phrase rather than shout \"fore!\\\"",
+        "response_text": "\\\"Colonel Bogey March\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL",
+    "topic_area": "basketball",
+    "season": 27,
+    "air_date": "2010-11-09",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He's been made an honorary ambassador to the city in Japan that shares his name",
+        "response_text": "Kobe Bryant",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew hangs on a basketball hoop.) If I hang on the rim after one of my thunderous dunks, I'll be hit with this 2-word infraction",
+        "response_text": "a technical foul",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1994 he hit 3 HRs for the Double-A Birmingham Barons; in '96 he was the NBA's season & finals MVP",
+        "response_text": "Michael Jordan",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew bounces the ball on the court.) The alliterative action that I'm demonstrating results in this infraction & puts my team on defense",
+        "response_text": "double dribble",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Though he didn't play organized hoops until 9th grade, this Spurs center is a 3-time NBA Finals MVP",
+        "response_text": "Tim Duncan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ALSO A BASKETBALL TERM",
+    "topic_area": "basketball",
+    "season": 40,
+    "air_date": "2024-04-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A group of notes on which a musical composition is based, such as C major & F-sharp minor",
+        "response_text": "key",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The ghost of Hamlet's father tells Hamlet he was murdered, \"murder most\" this, \"as in the best it is\\\"",
+        "response_text": "foul",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Expedition Bigfoot\" & \"Destination Fear\" are TV shows on this channel",
+        "response_text": "Travel",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This word can follow twilight, buffer or comfort",
+        "response_text": "zone",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Type of grant in which the federal government gives an annual sum of money to a state or local government to aid in a project",
+        "response_text": "a block grant",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA TEAMS",
+    "topic_area": "basketball",
+    "season": 39,
+    "air_date": "2022-12-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's the only team with an out-of-the-U.S. address",
+        "response_text": "the Toronto Raptors",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's the southernmost team in the NBA",
+        "response_text": "the Miami Heat",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Once a head coach at Louisiana Tech, Teresa Weatherspoon became an assistant coach for this New Orleans team in 2020",
+        "response_text": "the Pelicans",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In the 1990s they were the NBA champs 6 times, twice winning back-to-back-to-back",
+        "response_text": "the Chicago Bulls",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This alliterative team is last alphabetically",
+        "response_text": "the Washington Wizards",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL HALL OF FAMERS",
+    "topic_area": "basketball",
+    "season": 31,
+    "air_date": "2015-04-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This 5-time NBA MVP & onetime minor league baseball non-MVP",
+        "response_text": "Michael Jordan",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This \"Zen\" master coach inducted in 2007",
+        "response_text": "Phil Jackson",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This ex-76er, Sun & Rocket & current colorful commentator",
+        "response_text": "Charles Barkley",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This legendary Lakers announcer who popularized the term \"slam dunk\\\"",
+        "response_text": "Chick Hearn",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This late North Carolina coach who won 879 games",
+        "response_text": "Dean Smith",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA CHAMPS",
+    "topic_area": "basketball",
+    "season": 27,
+    "air_date": "2011-01-24",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Magic & Kareem led these guys to 5 titles in the 1980s",
+        "response_text": "the Los Angeles Lakers",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "They won 3 in a row from 1991 to 1993 & again from 1996 to 1998",
+        "response_text": "the (Chicago) Bulls",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Bill Walton helped these guys pioneer their first title in 1977",
+        "response_text": "the (Portland) Trail Blazers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 2008 they captured their first title in 22 years",
+        "response_text": "the Celtics",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "They must like the odds: behind Tim Duncan, they won in 2003, 2005 & 2007",
+        "response_text": "the San Antonio Spurs",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ALSO A BASKETBALL TERM",
+    "topic_area": "basketball",
+    "season": 33,
+    "air_date": "2017-01-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This retinue of a monarch includes the royal family, advisers & personal servants",
+        "response_text": "the court",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The First Amendment states that \"the freedom of speech, or of\" this shall not be abridged",
+        "response_text": "press",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Submerge in liquid such as a donut into coffee",
+        "response_text": "dunk",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Matthew 13:45 says, \"The kingdom of heaven is like unto\" this, \"that was cast into the sea, and gathered of every kind\\\"",
+        "response_text": "a net",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This kind of relationship can help you forget an ex",
+        "response_text": "a rebound",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PERFECTLY UNBALANCED",
+    "topic_area": "basketball",
+    "season": 40,
+    "air_date": "2024-05-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "As a noun it refers to a property put up for sale; as an adjective, it describes an unsteady ship",
+        "response_text": "listing",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "These 2 words that combine to form a playground device both imply unsteadiness",
+        "response_text": "teeter-totter",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Nothing to do with Scottish fashion, being \"off-\" this 6-letter word means uneven",
+        "response_text": "kilter",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Industrial workers of the world, give us this unsteady word for a member of that group",
+        "response_text": "a wobbly (the Wobblies)",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Compared to the left circle, the right shape is this, also an adjective for warfare, pitting outnumbered insurgents against armies",
+        "response_text": "asymmetric warfare",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA FINALS MVP",
+    "topic_area": "basketball",
+    "season": 28,
+    "air_date": "2011-12-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "2009: This Laker who averaged 32.4 points per game",
+        "response_text": "Kobe Bryant",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "2011: This 7-footer whose career has taken him from Deutschland to Big D",
+        "response_text": "Dirk Nowitzki",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "2000, 2001 & 2002: This Laker was the big everything, averaging a double-double for each series",
+        "response_text": "Shaquille O'Neal (The Shaq)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1984: This Celtic; averaging 27 points, 14 rebounds, 3 assists & 2 steals per game gets one MVP status",
+        "response_text": "Larry Bird",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1994 & 1995: This Nigerian completed 2 \"dream\" seasons with MVP honors",
+        "response_text": "Hakeem Olajuwon",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA MVPs",
+    "topic_area": "basketball",
+    "season": 28,
+    "air_date": "2012-06-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1987: Magic Johnson",
+        "response_text": "the Los Angeles Lakers",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1997: Karl Malone",
+        "response_text": "the Utah Jazz",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "2009: LeBron James",
+        "response_text": "Cleveland Cavaliers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1971: Kareem Abdul-Jabbar",
+        "response_text": "the Milwaukee Bucks",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "2011: Derrick Rose",
+        "response_text": "the Chicago Bulls",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA NICKNAMES",
+    "topic_area": "basketball",
+    "season": 30,
+    "air_date": "2014-04-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "King James",
+        "response_text": "LeBron James",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "His Airness",
+        "response_text": "Michael Jordan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Black Mamba",
+        "response_text": "Kobe Bryant",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Great Wall",
+        "response_text": "Yao Ming",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Worm",
+        "response_text": "Dennis Rodman",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NBA LOGOS",
+    "topic_area": "basketball",
+    "season": 37,
+    "air_date": "2021-03-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The deer on this team's logo now has 12-point antlers",
+        "response_text": "the Milwaukee Bucks",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This team's logo has 3 stars for D.C., Maryland & Virginia",
+        "response_text": "the Washington Wizards",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "One of this this southern's team's logos is called the \"Bird-de-Lis\\\"",
+        "response_text": "the New Orleans Pelicans",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This western team's 2018-19 logo had crossed pickaxes",
+        "response_text": "the Denver Nuggets",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This team's logo has a chrome outline to symbolize muscle cars",
+        "response_text": "the Detroit Pistons",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL: PIC & ROLE",
+    "topic_area": "basketball",
+    "season": 36,
+    "air_date": "2019-11-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Yosemite Sam ropes hoop-erstar Michael Jordan into a meeting with Bugs Bunny & friends in this movie",
+        "response_text": "Space Jam",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Wesley Snipes & Woody Harrelson leapt into starring roles hustling some basketball in this film",
+        "response_text": "White Men Can't Jump",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "As Monica, Sanaa Lathan gives a movie its title when she tells Omar Epps, \"All's fair in\" this \"& basketball, baby\\\"",
+        "response_text": "love",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Before moving on to Golden State, this NBA star was \"thunderstruck\" , losing his hoops talent in a \"Freaky Friday\" way to a kid",
+        "response_text": "(Kevin) Durant",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In a 1996 comedy basketball fans Mike O'Hara (Daniel Stern) & Jimmy Flaherty (Dan Aykroyd) have lots of this \"Pride\\\"",
+        "response_text": "Celtic",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "RICKENBACKER GUITARS",
+    "topic_area": "basketball",
+    "season": 34,
+    "air_date": "2017-10-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Kelly of the Clue Crew delivers the clue from the Rickenbacker Guitars HQ in Santa Ana, California.) Rickenbacker began a music revolution with the prototype of the first truly electric guitar, the frying pan; it was made of solid wood so it could be loudly amplified without producing this screeching also known as the Larsen effect",
+        "response_text": "feedback",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Kelly of the Clue Crew delivers the clue from the Rickenbacker Guitars HQ in Santa Ana, California.) Rickenbacker changed the sound of the 1960s when it gave the second-ever Model 360 12-string to George Harrison, who used it for the opening chord of the theme song for this 1964 movie",
+        "response_text": "A Hard Day's Night",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Heartbreaker Mike Campbell uses a Model 620 12-string for that ringing tone fans love as he backs up this fellow Floridian",
+        "response_text": "Tom Petty",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Kelly of the Clue Crew delivers the clue from the Rickenbacker Guitars HQ in Santa Ana, California.) A Model 1998 was the victim when this musician who later got his own Limited Edition model did his first onstage guitar smashing in London in 1964",
+        "response_text": "Pete Townshend",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Kelly of the Clue Crew delivers the clue from the Rickenbacker Guitars HQ in Santa Ana, California.) Rickenbacker-based guitars have provided the thunder for generations of rock bands; the bass here was played by John Paul Jones on this band's first US tour in 1969",
+        "response_text": "Led Zeppelin",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASKETBALL GREATS",
+    "topic_area": "basketball",
+    "season": 39,
+    "air_date": "2023-04-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(I'm Candace Parker.) 2008 was a good year; I won my second Final Four MVP for leading Tennessee to the NCAA title & was recognized as the top women's college player with the trophy named for this inventor of the sport",
+        "response_text": "Naismith",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Tim Hardaway was a master of the \"crossover\" this, switching the ball from one hand to the other to confuse defenders",
+        "response_text": "the dribble",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The winner of 11 NBA titles as a player, & the first Black coach in the NBA, this legend passed away in 2022",
+        "response_text": "(Bill) Russell",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The 1940s defensive dominance of 6'10\" George Mikan led to this rule that prohibits touching a ball on its downward flight to the basket",
+        "response_text": "goaltending",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(I'm Jalen Rose.) In 1992 & '93 Chris Webber, Juwan Howard, Jimmy King, Ray Jackson & I played in back-to-back NCAA title games as the University of Michigan starting squad, known by this alliterative nickname",
+        "response_text": "the Fab Five",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARCH MADNESS",
+    "topic_area": "basketball",
+    "season": 39,
+    "air_date": "2023-03-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Before becoming a true Warrior, this sharpshooter was a Wildcat in leading 10th-seeded Davidson to the Elite Eight in 2008",
+        "response_text": "Steph Curry",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "We have something in Storrs for you—Maya Moore had a pretty impressive run at this East Coast school, going 150-4 with 2 titles",
+        "response_text": "the University of Connecticut",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Students at this ACC school might have had a devil of a time spelling Krzyzewski, but Coach K's 5 national titles were worth it",
+        "response_text": "Duke",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Last name of USC's Cheryl, winner of back-to-back titles & M.O.P.s in 1983 & '84; she's in the hall of fame with her brother Reggie",
+        "response_text": "Miller",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1979, he conjured up a title for Michigan State over Larry Bird's Indiana State",
+        "response_text": "Magic Johnson",
+        "dollar_value": 1000
+      }
+    ]
+  }
+]

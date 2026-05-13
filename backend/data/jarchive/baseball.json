@@ -1,0 +1,5374 @@
+[
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 20,
+    "air_date": "2003-09-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2001 this Giants outfielder hit 73 home runs, one every 6.5 times at bat",
+        "response_text": "Barry Bonds",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This National League team has been playing its home games at Wrigley Field since 1916",
+        "response_text": "the Chicago Cubs",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's the position played by the Mets' Mike Piazza & the Yankees' Jorge Posada",
+        "response_text": "catcher",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1966 the Angels moved from Los Angeles to this city",
+        "response_text": "Anaheim",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Nicknamed the \"Big Unit\", this Arizona Diamondbacks pitcher has led the major leagues in strikeouts 8 times",
+        "response_text": "Randy Johnson",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 1,
+    "air_date": "1984-09-26",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A 1939 college baseball game was the first sports event shown on this medium",
+        "response_text": "television",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Metropolitan Museum of Art has 200,000 of them",
+        "response_text": "baseball trading cards",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1 of 3 Major League Baseball teams with state rather than city names",
+        "response_text": "(1 of) California Angels, Texas Rangers, Minnesota Twins",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Ironically, ex-con Ron LeFlore led the N.L. in these in 1980",
+        "response_text": "stolen bases",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "To help their owner pay off gambling debts, the 1920 Red Sox sold him to the Yankees",
+        "response_text": "Babe Ruth",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 1,
+    "air_date": "1984-11-30",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "During the McCarthy era this team changed its name to Redlegs",
+        "response_text": "the Cincinnati Reds",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Present record for most lifetime hits is still held by this \"Georgia Peach\\\"",
+        "response_text": "Ty Cobb",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Ballpark institution which seems to have died out with the advent of women's lib",
+        "response_text": "ladies day",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The state with 5 Major League baseball teams",
+        "response_text": "California",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Famed pitcher Denton Young's nickname was a shortened version of this violent storm",
+        "response_text": "a cyclone",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 1,
+    "air_date": "1985-02-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Atlanta Braves are in this division of the National League",
+        "response_text": "the Western division",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Eddie Gaedel, number 1/8th, was the only one ever to play in the Major Leagues",
+        "response_text": "a midget",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Now a paper company sales rep, he pitched only perfect game in World Series history",
+        "response_text": "Don Larsen",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Boston's \"Green Monster\" is in this stadium",
+        "response_text": "Fenway Park",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In '84, he became 1st manager to win over 100 games with teams in both Major Leagues",
+        "response_text": "Sparky Anderson",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 6,
+    "air_date": "1990-06-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1 of 3 Major League teams named for a state rather than a city",
+        "response_text": "(1 of) Minnesota Twins (or Texas Rangers & California Angels)",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1927 this Yankee duo accounted for 107 home runs—1/4 of the American League total",
+        "response_text": "Ruth & Gehrig",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1989 this team played only 17 night games at home, fewest in the Major Leagues",
+        "response_text": "(Chicago) Cubs",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1980 this K.C. Royals 3rd baseman hit .390, the highest average since Ted Williams hit .406 in 1941",
+        "response_text": "(George) Brett",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1989 Kent Tekulve broke Hoyt Wilhelm's record for most games played at this position",
+        "response_text": "pitcher",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 2,
+    "air_date": "1986-04-23",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1919-21, this championship was a best-of-9 series",
+        "response_text": "the World Series",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "2 of the 6 current major league teams that have never won a league pennant",
+        "response_text": "(2 of) the Montreal Expos, the Seattle Mariners, the California Angels, the Texas Rangers, the Toronto Blue Jays, & the Houston Astros",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "More current active major leaguers come from San Pedro de Macoris in this country than from Chicago",
+        "response_text": "the Dominican Republic",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1st man elected to Baseball Hall of Fame, he played 22 seasons for Detroit",
+        "response_text": "Ty Cobb",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1920, Bill Wambsganss became only player in World Series history to execute this feat",
+        "response_text": "an unassisted triple play",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THINK YOU KNOW BASEBALL?",
+    "topic_area": "baseball",
+    "season": 25,
+    "air_date": "2009-03-24",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He hit the first home run in All-Star game history (take a wild guess)",
+        "response_text": "Babe Ruth",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Their home parks have included the Union Grounds, Crosley Field & Riverfront Stadium",
+        "response_text": "the (Cincinnati) Reds",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The New York Yankees have won 26 World Series titles; these N.L. birds are a distant second, with 10",
+        "response_text": "the Cardinals",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Researchers have knocked a point off his record lifetime batting average, reducing it to .366",
+        "response_text": "(Ty) Cobb",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "\\\"Avian\" nickname of 1960s reliever Phil Regan, notorious for \"stealing\" wins from starting pitchers",
+        "response_text": "\\\"The Vulture\\\"",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL MANAGERS",
+    "topic_area": "baseball",
+    "season": 22,
+    "air_date": "2006-04-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Since taking over the Yankees in 1996, he's guided the team to 6 World Series appearances, winning 4 times",
+        "response_text": "Joe Torre",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "After retiring as the Dodgers' manager, he guided the 2000 U.S. Olympic baseball team to the gold medal",
+        "response_text": "Tommy Lasorda",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Nicknamed \"The Lip\", he managed the Dodgers, Giants, Cubs & Astros in his 24-year career",
+        "response_text": "(Leo) Durocher",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Born Cornelius McGillicuddy, he's the only manager in history to win more than 3,000 games—3,776, to be precise",
+        "response_text": "Connie Mack",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Hall of Fame manager George Anderson receved this nickname because of his scrappy determination",
+        "response_text": "\\\"Sparky\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL LINGO",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1987-07-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Carl Hubbell named this pitch which can also mean any zany player, whether he throws it or not",
+        "response_text": "a screwball",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A New York Mets outfielder, or a bruise resulting from sliding",
+        "response_text": "Strawberry",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "To fail in a critical situation, or to move your grip up the bat",
+        "response_text": "to choke",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The 2nd game of a double header, or the last congratulatory drink the winning pitcher might have",
+        "response_text": "a nightcap",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "For a batter to strike out swinging or someone in the stands who hopes it won't happen",
+        "response_text": "fan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MLB MASCOTS",
+    "topic_area": "baseball",
+    "season": 37,
+    "air_date": "2021-07-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Wally the Green Monster & his sister Tessie",
+        "response_text": "the Boston Red Sox",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A fuzzy green guy named Southpaw, born on the South Side",
+        "response_text": "White Sox",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Ace, a colorful bird whose genus name is Cyanocitta",
+        "response_text": "Toronto Blue Jays",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Billy, who measures 44 inches from the tip of his bill to the tip of his back fin",
+        "response_text": "Marlins",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A lime green parrot hatched in 1979",
+        "response_text": "Pirates",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL TIMELINE",
+    "topic_area": "baseball",
+    "season": 29,
+    "air_date": "2012-10-31",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On July 4, 1939 in Yankee Stadium, he said, \"I might have been given a bad break, but I've got an awful lot to live for\\\"",
+        "response_text": "Lou Gehrig",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "On April 14, 1910 he became the first president to throw the ceremonial first pitch to open a major league season",
+        "response_text": "William Howard Taft",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "23 of these have been pitched in the major leagues & on Aug. 15, 2012 9-month-old Bode Dockal witnessed his second",
+        "response_text": "a perfect game",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1966 this artificial sports surface was used for the first time in an exhibition game in Houston",
+        "response_text": "Astroturf",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1962 this ex-Yankee manager known as the \"Old Perfessor\" became the first manager of the N.Y. Mets",
+        "response_text": "Casey Stengel",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 8,
+    "air_date": "1992-02-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1978 this Cincinnati Reds player tied a N.L. record by hitting safely in 44 straight games",
+        "response_text": "Pete Rose",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "On April 29, 1986 this Red Sox pitcher struck out a record 20 batters in a 9-inning game",
+        "response_text": "(Roger) Clemens",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1989 this team's Tony Gwynn became only the 4th man to win 3 straight N.L. batting titles",
+        "response_text": "the San Diego Padres",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "On May 1, 1991 this Oakland A's player set a career record for stolen bases by stealing his 939th",
+        "response_text": "Rickey Henderson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This outfielder who played in Brooklyn & Los Angeles holds the Dodger career home run record with 389",
+        "response_text": "Duke Snider",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL — 1999",
+    "topic_area": "baseball",
+    "season": 16,
+    "air_date": "2000-01-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On October 27 this team won its 25th World Series in the 20th century by sweeping the Atlanta Braves",
+        "response_text": "the New York Yankees",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He not only won the NL home run title with 65, he now ranks tenth on the all-time career home run list",
+        "response_text": "Mark McGwire",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "On Sept. 30 Willie Mays threw out the ceremonial last pitch as this Giants park closed after 40 seasons",
+        "response_text": "Candlestick Park",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1999 this Diamondbacks pitcher had 364 strikeouts — the fourth-highest total in major league history",
+        "response_text": "Randy Johnson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This team's Manny Ramirez led the American League with 165 runs batted in — the highest league total in 61 years",
+        "response_text": "the Cleveland Indians",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 2,
+    "air_date": "1986-02-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's been said that \"to know the heart & mind of\" this place one \"had better learn baseball\\\"",
+        "response_text": "America",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Most recent manager to be fired by George Steinbrenner & replaced by Billy Martin",
+        "response_text": "Yogi Berra",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Biggest crowd to attend baseball game was in 1936 in this country, during the Olympics",
+        "response_text": "Germany",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1st numerals to identify baseball players by number were found on this team's pinstripes in 1929",
+        "response_text": "New York Yankees",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1972, Bernice Gera was 1st woman to do this at a professional baseball game",
+        "response_text": "umpire",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE WORLD SERIES",
+    "topic_area": "baseball",
+    "season": 23,
+    "air_date": "2006-10-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This NL team won back-to-back Series titles in 1907 & '08 but hasn't won since; anyone can have an off-century",
+        "response_text": "the Chicago Cubs",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Truly \"Mr. October\", this outfielder hit 10 home runs in 98 World Series at-bats",
+        "response_text": "Reggie Jackson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In the 1919 World Series, this \"Black Sox\" player hit .375 & did not commit an error, footwear & all",
+        "response_text": "\\\"Shoeless Joe\" Jackson",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "His .87 ERA is third on the all-time World Series list (min. 25 innings); his 15 home runs are second",
+        "response_text": "Babe Ruth",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "It ain't over 'til it's over, but this Yankee is the all-time World Series leader in games played, at-bats & hits",
+        "response_text": "Yogi Berra",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "MAJOR LEAGUE BASEBALL",
+    "topic_area": "baseball",
+    "season": 18,
+    "air_date": "2002-03-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1999, then with the Seattle Mariners, he led the American League in home runs for the third straight years",
+        "response_text": "Ken Griffey, Jr.",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "On April 4, 2001 this Japanese-born pitcher tossed a no-hitter, the earliest in a season in baseball history",
+        "response_text": "Hideo Nomo",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1916 this Red Sox pitcher led the American League in earned run average; 2 years later he led the league in home runs",
+        "response_text": "Babe Ruth",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "From 1954 to 1996 the Dodgers had only 2 managers: Walter Alston & this man",
+        "response_text": "Tommy Lasorda",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This team's Larry Walker hit .363 in 1998 & topped it with .379 in 1999",
+        "response_text": "the Colorado Rockies",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1987-02-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "N.Y. team that lost a record 120 games in its 1st season",
+        "response_text": "the Mets",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In baseball, a \"doughnut\" is a real sinker, since it's a weight used on this for practice",
+        "response_text": "the bat",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Even though this \"Bean Town\" batter hit .406 in 1941, he wasn't league MVP",
+        "response_text": "Ted Williams",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "With 208, this Cleveland pitching great holds the record for issuing most walks in a season",
+        "response_text": "Bob Feller",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "2 of 5 hall of famers consecutively struck out by Carl Hubbell in 1934 All-Star Game",
+        "response_text": "(2 of) Jimmie Foxx & Lou Gehrig (Babe Ruth, Al Simmons or Joe Cronin)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 5,
+    "air_date": "1988-12-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This mid-season classic started as an event of the 1933 Chicago World's Fair",
+        "response_text": "All-Star Game",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "To baseball players, stripper Morganna Roberts is better known by this nickname",
+        "response_text": "Kissing Bandit",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In the early days \"Germany\" Schaeffer was famous for stealing this base, which used to be legal",
+        "response_text": "first base",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The unusual thing Jimmy Piersall did after hitting his 100th career homer in 1963",
+        "response_text": "ran the bases running backwards",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "As a Major League manager, he won more games than any other but he lost even more than he won",
+        "response_text": "Connie Mack",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL HALL OF FAME PLAQUES",
+    "topic_area": "baseball",
+    "season": 41,
+    "air_date": "2025-03-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Holder of more than a score of Major and American League records, including that of playing 2,130 consecutive games\\\"",
+        "response_text": "Lou Gehrig",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Big Papi... took the Red Sox... to three World Series titles... eight times named top designated hitter\\\"",
+        "response_text": "David Ortiz",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Lifetime benchmarks include 5,714 strikeouts, seven no-hitters and 12 one-hitters in 27 seasons pitched\\\"",
+        "response_text": "(Nolan) Ryan",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A beacon of serenity & stature in the dugout... led Yankees to post-season in each of his 12 seasons at the helm",
+        "response_text": "Torre",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Helped lead the Cardinals to three World Series... trademark back flip made 'The Wizard' a fan favorite\\\"",
+        "response_text": "Ozzie Smith",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1987-01-29",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1951 film \"Angels in the Outfield\" wasn't about a California team but this Pennsylvania one",
+        "response_text": "Pittsburgh Pirates",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "With over 1000 RBIs, this Cincinnati Reds catcher led the majors during the '70s",
+        "response_text": "Johnny Bench",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In the 1880s, for a kid to get new baseball cards, he'd have to buy packs of these",
+        "response_text": "cigarettes",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"No boy or man can expect to succeed...& continue the use of cigarettes\", said this Phila. manager in 1913",
+        "response_text": "Connie Mack",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Shoeless\" Joe Jackson, with 3rd highest lifetime batting average, is not in Hall of Fame probably due to this",
+        "response_text": "The \"Black Sox\" Scandal of 1919",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL TEAMS",
+    "topic_area": "baseball",
+    "season": 10,
+    "air_date": "1993-10-14",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Louisville Redbirds are a minor league team affiliated with this St. Louis team",
+        "response_text": "the Cardinals",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This American League team's insignia has a Maple Leaf on it",
+        "response_text": "The Blue Jays",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This team's stadium was originally built in 1964 for the minor league Dallas-Ft. Worth Spurs",
+        "response_text": "the Texas Rangers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1974 McDonald's Corporation founder Ray Kroc bought this National League team",
+        "response_text": "the San Diego Padres",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Third baseman Mike Schmidt holds this team's record for career home runs, 548",
+        "response_text": "the Philadelphia Phillies",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL STADIUMS",
+    "topic_area": "baseball",
+    "season": 31,
+    "air_date": "2015-05-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2009 New Yorkers watched this major league park demolished; Yankee Stadium lasted another year",
+        "response_text": "Shea Stadium",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The clock at 20th & Blake Streets is a meeting place for Colorado Rockies fans prior to entering this field",
+        "response_text": "Coors",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Marge Schott once threatened to move this team to Kentucky to get a better lease for Great American Ball Park",
+        "response_text": "the (Cincinnati) Reds",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 2005 Rogers Communications bought this team's SkyDome & renamed it Rogers Centre",
+        "response_text": "the Toronto Blue Jays",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 2008 the Cleveland Indians sold the naming rights to Jacobs Field to this insurance company",
+        "response_text": "Progressive",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL HALL OF FAMERS",
+    "topic_area": "baseball",
+    "season": 12,
+    "air_date": "1995-11-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Quick as you can say his name, in 1962 he was the first black player inducted",
+        "response_text": "Jackie Robinson",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Willie Mays was The Say Hey Kid; he was Stan the Man",
+        "response_text": "Stan Musial",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A 1920 rule banned only new pitchers from using this pitch, so Burleigh Grimes could still throw it",
+        "response_text": "The spitball",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Baseball's batting leader for the 1940s & '50s",
+        "response_text": "Ted Williams",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Detroit Tiger played 2,488 games in right field",
+        "response_text": "Al Kaline",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL NICKNAMES",
+    "topic_area": "baseball",
+    "season": 26,
+    "air_date": "2010-06-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "One version of the origin of his nickname is that he'd say, \"Say hey, man\" because he couldn't remember names",
+        "response_text": "Willie Mays",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A string of sterling postseason performances earned him the nickname \"Mr. October\\\"",
+        "response_text": "(Reggie) Jackson",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "He probably preferred \"The Iron Horse\" to his earlier nickname, \"Biscuit Pants\\\"",
+        "response_text": "(Lou) Gehrig",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Known as \"The Big Unit\", he reached 300 wins in 2009 & announced his retirement in 2010",
+        "response_text": "(Randy) Johnson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "If this alliterative nickname were literally true, Babe Ruth would have ruled part of Northern Pakistan",
+        "response_text": "\\\"The Sultan of Swat\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL TERMS",
+    "topic_area": "baseball",
+    "season": 19,
+    "air_date": "2003-06-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This sparkling term for the playing field is as old as baseball",
+        "response_text": "diamond",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The \"H\" in the old Schaeffer sign in Ebbets Field lit up for a hit; an \"E\" was lit when one of these occurred",
+        "response_text": "error",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This term for the pitcher & catcher may refer to the firepower between them",
+        "response_text": "battery",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Shade in the hole\" tells the shortstop to move closer to this",
+        "response_text": "third base",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A walk year is the season before a player becomes one of these",
+        "response_text": "free agent",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "IN THE BASEBALL TEAM'S LINEUP",
+    "topic_area": "baseball",
+    "season": 33,
+    "air_date": "2016-09-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1969: Ed Kranepool, Bud Harrelson & Tom Seaver... what an amazin' team",
+        "response_text": "the Mets",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1975: Fred Lynn, Bernie Carbo & Carlton Fisk, who will always wave it fair",
+        "response_text": "the (Boston) Red Sox",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1994: David Justice, Greg Maddux & Deion Sanders, moonlighting from the gridiron",
+        "response_text": "the (Atlanta) Braves",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1906: Charley O'Leary, Pinky Lindsay & here's one who might help a bit... Ty Cobb",
+        "response_text": "the Detroit Tigers",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1991: Kent Hrbek, Dan Gladden & Kirby Puckett, & we'll see you tomorrow night!",
+        "response_text": "the Twins",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL: THE 1930s",
+    "topic_area": "baseball",
+    "season": 21,
+    "air_date": "2004-09-07",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On May 25, 1935 he slugged the last 3 home runs of his career—numbers 712, 713 & 714",
+        "response_text": "Babe Ruth",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "On July 6, 1933 this city's Comiskey Park hosted the first All-Star Game; the American League won, 4-2",
+        "response_text": "Chicago",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1939 Red Sox rookie batted .327; 2 years later his batting average increased 79 points",
+        "response_text": "Ted Williams",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In 1934 this eccentric St. Louis Cardinals pitcher who won 30 games was named the NL's most valuable player",
+        "response_text": "Dizzy Dean",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In June 1938 this Cincinnati Reds pitcher became the only man to pitch a no-hitter in 2 consecutive games",
+        "response_text": "Johnny Van Der Meer",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "MAJOR LEAGUE BASEBALL",
+    "topic_area": "baseball",
+    "season": 17,
+    "air_date": "2001-05-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1987 this A's first baseman was named the AL's Rookie of the Year; since then he's hit over 500 home runs",
+        "response_text": "Mark McGwire",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In April 1993 Joe DiMaggio threw out the first pitch in this Miami team's first regular season game ever",
+        "response_text": "the Florida Marlins",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Cubs pitcher Greg Maddux won the NL's Cy Young Award in 1992; he won it the next 3 years with this new team",
+        "response_text": "the Atlanta Braves",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "At the beginning of 2000, Rickey Henderson had 1,334 career stolen bases, 396 more than this former Cardinal",
+        "response_text": "Lou Brock",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1984 he was president of the Los Angeles Olympic Organizing Committee & became baseball's 6th commissioner",
+        "response_text": "Peter Ueberroth",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MAJOR LEAGUE BASEBALL",
+    "topic_area": "baseball",
+    "season": 25,
+    "air_date": "2008-09-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On Nov. 1, 2007, after a 12-year run in the Bronx, this Yankees manager became the manager of the Dodgers",
+        "response_text": "(Joe) Torre",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In the 1960s only 3 men exceeded 50 home runs in a season: Maris & Mantle in 1961 & this S.F. Giant in 1965",
+        "response_text": "(Willie) Mays",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This current Arizona Diamondbacks pitcher has led the major leagues in strikeouts 9 times",
+        "response_text": "Randy Johnson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Seattle Mariner's 2004 batting average of .372 is the highest of the 21st century",
+        "response_text": "Ichiro Suzuki",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This reliever with an intimidating fastball & mustache entered Cooperstown in 2008",
+        "response_text": "(Rich \"Goose\") Gossage",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL IN THE '60s",
+    "topic_area": "baseball",
+    "season": 21,
+    "air_date": "2004-11-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This Braves slugger hit 375 of his 755 career home runs in the 1960s",
+        "response_text": "Hank Aaron",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "On May 8, 1968 this \"fishy\" Oakland A's pitcher threw the only A.L. perfect game of the 1960s",
+        "response_text": "Catfish Hunter",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1968 this Cincinnati Reds player became the first catcher ever named Rookie of the Year",
+        "response_text": "Johnny Bench",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This St. Louis Cardinals pitcher was named MVP of the 1964 & 1967 World Series",
+        "response_text": "(Bob) Gibson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1967 this Red Sox outfielder became the last Major Leaguer to win hitting's Triple Crown",
+        "response_text": "Yastrzemski",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL MANAGERS",
+    "topic_area": "baseball",
+    "season": 37,
+    "air_date": "2021-04-05",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Connie Mack, Mike Scioscia & a disproportionate number of MLB managers played this position where you face your teammates",
+        "response_text": "catcher",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 2016 Joe Maddon managed this team to its first World Series title since before his own father was born",
+        "response_text": "the Chicago Cubs",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The nickname of this Yankees manager likely came from Kansas City, where he was born",
+        "response_text": "Casey Stengel",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Coach, scout & manager Cal Ripken Sr. spent 36 years in the organization of this major league team",
+        "response_text": "the (Baltimore) Orioles",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "The manager of 3 teams in the 19th century, he later owned the White Sox; for 8 decades the Sox' field was named for him",
+        "response_text": "(Charles) Comiskey",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 33,
+    "air_date": "2017-04-18",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2016 Cleveland's hopes died as this team won it all for the first time since the year Grover Cleveland died",
+        "response_text": "the (Chicago) Cubs",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Babe Ruth was the first to wear No. 3 for the Yankees; this man was their first No. 4",
+        "response_text": "Lou Gehrig",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Before the were named for their hosiery, this American League team was known simply as the Americans",
+        "response_text": "the (Boston) Red Sox",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In 2012 Miguel Cabrera got on his horse & became the first hitter to win this distinction since 1967",
+        "response_text": "the Triple Crown",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Wins above replacement is a statistic in this field of baseball statistical analysis",
+        "response_text": "sabermetrics",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL HALL OF FAMERS",
+    "topic_area": "baseball",
+    "season": 23,
+    "air_date": "2006-12-22",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Inducted in 1982, this Brave has the most RBIs of anyone in the Hall with 2,297",
+        "response_text": "Hank Aaron",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1985 he stole a place in the hearts of the voters to get into the Hall with his 938 stolen bases",
+        "response_text": "Lou Brock",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Jon of the Clue Crew stands with a baseball bat ready for a pitch.) For control, he used a split grip. I don't know how he hit anything, let alone recorded the higest lifetime batting average",
+        "response_text": "Ty Cobb",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This Pittsburgh Pirate was the first Puerto Rican & Latin American voted into the Baseball Hall of Fame",
+        "response_text": "Roberto Clemente",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Nickname shared by Hall of Fame pitchers Steve Carlton & Robert Grove",
+        "response_text": "\\\"Lefty\\\"",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL '98",
+    "topic_area": "baseball",
+    "season": 15,
+    "air_date": "1999-03-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Helped by fearful pitchers, Mark McGwire also led the major leagues with 162 of these",
+        "response_text": "walks",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Relief ace Trevor Hoffman saved 53 of this National League champion's 98 wins",
+        "response_text": "San Diego Padres",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Appropriately, this \"Junior\" reached the 350-homer mark at the youngest age ever",
+        "response_text": "Ken Griffey, Jr.",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He managed the '98 Yankee team some called the greatest ever",
+        "response_text": "Joe Torre",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "We wish we had stock in this Giants outfielder, who became the first player ever with 400 homers & 400 steals",
+        "response_text": "Barry Bonds",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "IT'S TIME FOR DODGER BASEBALL!",
+    "topic_area": "baseball",
+    "season": 35,
+    "air_date": "2019-05-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Sandy Koufax won this annual pitching award with 100% of the first place vote in 1963, '65 & '66",
+        "response_text": "a Cy Young Award",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Longtime Dodgers catcher Mike Scioscia drove to Orange County to become this team's longtime manager",
+        "response_text": "the Angels",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Dodger co-owner knows how to lend a hand—playing across town, he led the NBA in assists per game 4 times",
+        "response_text": "Magic Johnson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The 1970s Dodgers had the longest-lasting intact this group: Garvey, 1B; Lopes, 2B; Russell, SS; Cey, 3B",
+        "response_text": "an infield",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1986 this Dodger lefty from Mexico led the NL with a now-mind-boggling 20 complete games",
+        "response_text": "Fernando Valenzuela",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BIG SCREEN BASEBALL BRIEFLY",
+    "topic_area": "baseball",
+    "season": 41,
+    "air_date": "2025-03-26",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Tim Robbins took the mound as Nuke Laloosh",
+        "response_text": "Bull Durham",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Charlie Sheen took the mound as Ricky \"Wild Thing\" Vaughn",
+        "response_text": "Major League",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A home run by Scott Hatteberg of the Oakland A's is a climactic moment",
+        "response_text": "Moneyball",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "A man sells his soul to the devil to help his team beat a New York franchise",
+        "response_text": "Damn Yankees",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Texas college ballplayers Jake, Roper & McReynolds are often dazed & confused",
+        "response_text": "Everybody Wants Some!!",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "THEY'RE TALKIN' BASEBALL",
+    "topic_area": "baseball",
+    "season": 25,
+    "air_date": "2009-01-06",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "An umpire, accused of not seeing if a ball was fair or foul: \"On a clear day, I can see\" this \"& that sucker is 93 mil. miles away\\\"",
+        "response_text": "the Sun",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Garry Maddox, reflecting on hitting a grand slam: \"As I remember it, the bases were\" this",
+        "response_text": "loaded",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Ralph Kiner: \"If\" this Ol' Perfesser, an ex-Yankee & Met manager, \"were alive today, he'd be spinning in his grave\\\"",
+        "response_text": "Casey Stengel",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Pitcher Mike Flanagan said, \"You're having a bad day when the 5th...rolls around & they drag\" this outfield area",
+        "response_text": "the warning track",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Tommy Lasorda, asked in 1981 about contract negotiations for this Mexican lefty pitcher: \"He wants Texas back\\\"",
+        "response_text": "Fernando Valenzuela",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL LEGENDS",
+    "topic_area": "baseball",
+    "season": 20,
+    "air_date": "2003-12-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Only 2 pitchers have lost over 300 games in a career: Pud Galvin & this legend for whom a major award is named",
+        "response_text": "Cy Young",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Prior to entering the Major Leagues at age 42 in 1948, he had pitched 55 no-hitters in the Negro Leagues",
+        "response_text": "Satchel Paige",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Cardinals first baseman hit 583 career home runs, averaging a home run for every 10.6 times at bat",
+        "response_text": "Mark McGwire",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Baseball's all-time strikeout king with 5,714, his uniform number was retired by 3 teams: California, Houston & Texas",
+        "response_text": "Nolan Ryan",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This shortstop, the \"Flying Dutchman\", outplayed Ty Cobb in their 1909 World Series showdown",
+        "response_text": "Honus Wagner",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 15,
+    "air_date": "1998-11-30",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On September 27, 1998, in his final at-bat, this Cardinal hit his record 70th home run of the season",
+        "response_text": "Mark McGwire",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "On April 4, 1997 the new Turner Field opened with this home team defeating the visiting Cubs, 5-4",
+        "response_text": "the Atlanta Braves",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1997 this Jim Leyland-managed team became the first wild card to win a World Series",
+        "response_text": "the Florida Marlins",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Dodger won 27 games in 1966, but retired at season's end due to an arthritic arm",
+        "response_text": "Sandy Koufax",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "When this Brooklyn field opened in 1913, borough pres. Alfred Steers tossed out the first ball",
+        "response_text": "Ebbets Field",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL RECORD BREAKERS",
+    "topic_area": "baseball",
+    "season": 22,
+    "air_date": "2006-06-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On Sept. 26, 1981 he hurled his record-breaking 5th no-hit game; he went on to pitch 2 more in his career",
+        "response_text": "Nolan Ryan",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This Cincinnati Red had more career at-bats than any other player, 14,053; that's one reason for all those hits",
+        "response_text": "Pete Rose",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 2004 this Seattle Mariner had 262 hits, breaking an 84-year-old record",
+        "response_text": "Ichiro",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 2003 this Atlanta Braves pitcher set a record by winning at least 15 games for the 16th straight season",
+        "response_text": "Greg Maddux",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "While with the Rockies, this outfielder became the first Canadian-born major leaguer to collect 2,000 hits",
+        "response_text": "Larry Walker",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 2,
+    "air_date": "1986-03-28",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Roger Kahn's best-seller about 1952 & 1953 Brooklyn Dodgers, with title from Dylan Thomas poem",
+        "response_text": "The Boys of Summer",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Former Oakland A's owner Charlie Finley wanted this pitcher to change 1st name to \"True\\\"",
+        "response_text": "Vida Blue",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "3 of 5 ways a player can reach first base without having hit the ball",
+        "response_text": "hit by pitch, walk, dropped third strike, catcher's interference, as a pinch runner",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Giants pitcher who struck out Ruth, Gehrig, Foxx, Simmons & Cronin in a row in 1934 All-Star Game",
+        "response_text": "Carl Hubbell",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "He was the first Black to play in the American League",
+        "response_text": "Larry Doby",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "NAME THAT BASEBALL STAT, STAT!",
+    "topic_area": "baseball",
+    "season": 32,
+    "air_date": "2015-10-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Babe Ruth, 1921: 59 these",
+        "response_text": "home runs",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Rickey Henderson, career: 1,406 these",
+        "response_text": "stolen bases",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "New York Mets, 1962: 120 these",
+        "response_text": "losses",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Cal Ripken Jr., 1982-1998: 2,632 these",
+        "response_text": "consecutive games played",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Sandy Koufax, 1965: 382 these",
+        "response_text": "strikeouts",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WORLD SERIES MVPs",
+    "topic_area": "baseball",
+    "season": 40,
+    "air_date": "2024-05-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's a solid bet to say this all-time hit king hustled home with the trophy for the Reds in 1975",
+        "response_text": "Pete Rose",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1963 & again in 1965, Sandy Koufax brought the heat & took home the hardware for this team",
+        "response_text": "the Dodgers",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Win 2 games, save 1 & give up just 1 run in 21 innings & you'll be MVP like Madison Bumgarner was with this NL team in 2014",
+        "response_text": "the Giants",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Ben Zobrist had no HRs & just 2 RBIs in the Series, but an MVP-worthy hit helped break a 108-year title drought for this team",
+        "response_text": "the Chicago Cubs",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Tossing a perfect game in the 1956 World Series, as this guy did, might have tipped the MVP scales a bit",
+        "response_text": "Don Larsen",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 4,
+    "air_date": "1987-11-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Under the 1879-80 rules, it took nine balls for this to happen",
+        "response_text": "a base on balls",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Last name of two brothers who earned all four St. Louis Cardinals wins in the 1934 World Series",
+        "response_text": "(Dizzy & Paul) Dean",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Minnie Minoso, the major leaguer who played in the most different decades, played in this many",
+        "response_text": "5",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "His batting average was .320 or higher for 23 major league seasons in a row",
+        "response_text": "Ty Cobb",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "All baseballs used in the major leagues have the name of this foreign country printed on them",
+        "response_text": "Haiti",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL LINGO",
+    "topic_area": "baseball",
+    "season": 36,
+    "air_date": "2020-03-31",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A round tripper, a tater, a 4-bagger",
+        "response_text": "a home run",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The hot corner, a nickname for this position, was coined after a player fielded 7 line drives in an 1889 game",
+        "response_text": "third base",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This term for a player who rarely misses a game was applied to Joe McGinnity, a former foundry worker, & later Cal Ripken Jr.",
+        "response_text": "an iron man",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew demonstrates a catch.) Fielding a ball waist high with the palm up is this type of catch popularized by the great Willie Mays",
+        "response_text": "a basket catch",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This term for the big leagues is also a pop song featured in the last scene of \"Moneyball\\\"",
+        "response_text": "\\\"The Show\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 12,
+    "air_date": "1995-09-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Nicknamed \"Stan the Man\", he won 7 National League batting titles between 1943 & 1957",
+        "response_text": "Stan Musial",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Detroit Tigers' Sparky Anderson began his major league managerial career in 1970 with this city's Reds",
+        "response_text": "Cincinnati",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "He hit 659 home runs with the Yankees, 49 with the Red Sox & 6 with the Braves",
+        "response_text": "Babe Ruth",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1964 this National League team moved its home games from the Polo Grounds to Shea Stadium",
+        "response_text": "New York Mets",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1 of 4 men to steal over 100 bases in a season",
+        "response_text": "Rickey Henderson",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ALSO A BASEBALL TEAM",
+    "topic_area": "baseball",
+    "season": 21,
+    "air_date": "2005-07-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Raphael, Michael, Gabriel & Uriel",
+        "response_text": "angels",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Don Quixote thought the windmills were these",
+        "response_text": "giants",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Numbers like 1, 2 & 7012",
+        "response_text": "cardinals",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Split zygotes",
+        "response_text": "twins",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Icterus galbula songbirds",
+        "response_text": "orioles",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ACTUAL MLB BROADCAST QUOTES",
+    "topic_area": "baseball",
+    "season": 23,
+    "air_date": "2006-12-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Boros is not with the team...because he's attending his daughter's funeral. Oh, wait, it's her\" this, another big day",
+        "response_text": "wedding",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "At then-Royals Stadium, in Kansas City: \"The sky is so clear today, you can see all the way to\" this state",
+        "response_text": "Missouri",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Rich Folkers is throwing up in\" this warmup area",
+        "response_text": "bullpen",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Well, it looks like\" this mid-season \"balloting is over, especially in the National & American leagues\\\"",
+        "response_text": "All-Star voting",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"If\" this all-time hit king \"brings the Reds in, they ought to bronze him & put him in cement\\\"",
+        "response_text": "Pete Rose",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 1,
+    "air_date": "1985-01-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In Cleveland, these \"scalpers\" work inside, not outside, the stadium",
+        "response_text": "the Indians",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Boston Pilgrims beat the Pittsburgh Pirates to win the 1st one in 1903",
+        "response_text": "the World Series",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A full count",
+        "response_text": "three balls, two strikes",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Orioles' Rick Dempsey was this in '83 World Series",
+        "response_text": "Most Valuable Player",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "To this N.L. team, Lou Brock was always out in left field",
+        "response_text": "St. Louis Cardinals",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1987-05-04",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Major league team with the letters \"SOX\" on their caps",
+        "response_text": "Chicago (White Sox)",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The penalty when a pitcher balks",
+        "response_text": "all runners advance one base",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Known for years as \"The Baseball Bible\", this weekly paper now covers other sports as well",
+        "response_text": "The Sporting News",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1938, pitcher Johnny Vander Meer became only man ever to do this in 2 consecutive games",
+        "response_text": "pitch no-hitters",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1986, this S.F. Giants 1st baseman became only 16th man elected to Hall of Fame 1st year he was eligible",
+        "response_text": "Willie McCovey",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MAJOR LEAGUE BASEBALL",
+    "topic_area": "baseball",
+    "season": 23,
+    "air_date": "2007-06-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In the 20th c., only Joe DiMaggio hit in more consecutive games than this Cincinnati Red who hit safely in 44 straight games",
+        "response_text": "Pete Rose",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Hi, I'm Curt Schilling.) On August 30, 2006, I got my 3,000th one of these, only the 14th pitcher in Major League history to reach that milestone",
+        "response_text": "a strikeout",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Alex Rodriguez has won 2 American League MVP Awards, with Texas in 2003 & this team in 2005",
+        "response_text": "the Yankees",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "After 36 seasons in Montreal, the Expos moved to this city in 2005 & were renamed the Nationals",
+        "response_text": "Washington, D.C.",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Hall-of-Fame pitcher whose nickname is short for \"Cyclone\" has the all-time record for wins with 511",
+        "response_text": "Cy Young",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE WORLD SERIES",
+    "topic_area": "baseball",
+    "season": 22,
+    "air_date": "2005-09-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Boston Red Sox won the 2004 World Series in 4 straight games, finally exorcising this man's \"curse\\\"",
+        "response_text": "The Bambino (The Babe accepted)",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Say Hey\"! This Giants outfielder's catch of a Vic Wertz drive was a highlight of the 1954 World Series",
+        "response_text": "Willie Mays",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In game one of the 1968 Series, this Cardinals pitcher struck out a record 17 Tigers",
+        "response_text": "Bob Gibson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This outfielder was named World Series MVP twice: with the Oakland A's in 1973 & with the Yankees in 1977",
+        "response_text": "Reggie Jackson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Yankee catcher hit the 1st pinch-hit home run in Series history in '47; he hit 11 more homers in his Series career",
+        "response_text": "Yogi Berra",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ABBOTT & COSTELLO'S BASEBALL TEAM",
+    "topic_area": "baseball",
+    "season": 22,
+    "air_date": "2005-12-16",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He's the first baseman",
+        "response_text": "Who",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's understood that he's the third baseman",
+        "response_text": "I Don't Know",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Don't question me, this is the left fielder",
+        "response_text": "Why",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "I'm sure you'll tell me this pitcher's name soon",
+        "response_text": "Tomorrow",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Tell me that the name of this shortstop matters to you",
+        "response_text": "I Don't Care",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE LAST TIME THE CUBS WON THE WORLD SERIES",
+    "topic_area": "baseball",
+    "season": 31,
+    "air_date": "2015-04-23",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It was 1908 & this Paris attraction was the tallest man-made structure in the world",
+        "response_text": "the Eiffel Tower",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This man was gearing up to win the presidential election",
+        "response_text": "Taft",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Turkish empire was still in existence",
+        "response_text": "the Ottoman Empire",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Some people were tooling about in a luxurious touring car made by this company—one of the three P's",
+        "response_text": "Packard",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "His \"A Room with a View\" was brand new",
+        "response_text": "E.M. Forster",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "OLD BASEBALL TEAMS",
+    "topic_area": "baseball",
+    "season": 12,
+    "air_date": "1996-04-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "From 1884 to 1888 the Trolley Dodgers played for this city, now a New York borough",
+        "response_text": "Brooklyn",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1903 the Baltimore Orioles became the New York Highlanders; in 1913 they became this team",
+        "response_text": "New York Yankees",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1944-45 a Philadelphia team was named this; today it's the name of Toronto's team",
+        "response_text": "Blue Jays",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1890 this city had a team called the Bisons; a little redundant, don't you think?",
+        "response_text": "Buffalo",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This city's 19th C. teams included the Eclipse & the Colonels, but not the Sluggers",
+        "response_text": "Louisville",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL MANAGERS",
+    "topic_area": "baseball",
+    "season": 6,
+    "air_date": "1989-10-30",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "IN '72 Ted Williams became the 1st manager of this team that plays its home games in Arlington, TX.",
+        "response_text": "the Texas Rangers",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Born C. McGillicuddy, he bought the Philadelphia A's & managed the team a record 50 years",
+        "response_text": "Connie Mack",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "From 1968-82 Earl Weaver led this team to 4 American League pennants & a world championship",
+        "response_text": "the Baltimore Orioles",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This manager won 2 World Series at Cincinnati & 1 with his current team, Detroit",
+        "response_text": "Sparky Anderson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This San Francisco Giants manager has the same name as a 49ers running back",
+        "response_text": "Roger Craig",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WORLD SERIES",
+    "topic_area": "baseball",
+    "season": 1,
+    "air_date": "1984-09-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It took them 65 yrs. to win for Brooklyn, only 2 to win for L.A.",
+        "response_text": "the Dodgers",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "5 home runs in '77 Series, 3 in 1 game, earned him nickname \"Mr. October\\\"",
+        "response_text": "Reggie Jackson",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Played in the most World Series (14), all for the Yankees, & is now their manager",
+        "response_text": "Yogi Berra",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Team that threw Series in 1919 \"Black Sox\" scandal",
+        "response_text": "the Chicago White Sox",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Though they'd never before finished higher than 9th, amazingly they won the '69 Series",
+        "response_text": "the New York Mets",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL FRANCHISE SHIFTS",
+    "topic_area": "baseball",
+    "season": 24,
+    "air_date": "2007-10-19",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1958 the Dodgers & this team moved west to California",
+        "response_text": "the Giants",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Braves spent 82 seasons in Boston & more than 40 in Atlanta, with a 13-season stop in this city",
+        "response_text": "Milwaukee",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1955 the Philadelphia Athletics moved to this city, where they remained for 13 seasons",
+        "response_text": "Kansas City",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "After the 1960 season, the Washington Senators left the capital & headed west, becoming this new team",
+        "response_text": "the Minnesota Twins",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In 1972 the new Washington Senators moved west & became this team",
+        "response_text": "the Texas Rangers",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL BABES",
+    "topic_area": "baseball",
+    "season": 38,
+    "air_date": "2022-06-24",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "From 1914 to 1935 pitchers walked him 2,062 times, with good reason",
+        "response_text": "Babe Ruth",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "After 8 seasons in the Majors, hotheaded Babe Pinelli became one of these, with which he had frequently argued as a player",
+        "response_text": "an umpire",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1909 Pittsburgh's Babe Adams became the only rookie ever to pitch & win 3 games in one of these",
+        "response_text": "the World Series",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1928 the Brooklyn Daily Eagle said this team's Babe Herman is \"a great outfielder except for his inability to catch flyballs\\\"",
+        "response_text": "the Brooklyn Dodgers",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "When this man's 2,130 consecutive-game streak ended in 1939, Babe Dahlgren took his place & went 2 for 5 with a homer",
+        "response_text": "Lou Gehrig",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 6,
+    "air_date": "1990-03-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Though he's had 5 no-hitters & the most career strikeouts of any pitcher, he's never won the Cy Young Award",
+        "response_text": "Nolan Ryan",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The \"Black Sox\" team that threw the 1919 World Series lost to this Ohio team",
+        "response_text": "Cincinnati Reds",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In Los Angeles, the Dodgers have had only these 2 managers",
+        "response_text": "Walter Alston & Tommy Lasorda",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1961 owner Calvin Griffith moved this team to Minneapolis where it became the Minnesota Twins",
+        "response_text": "Washington Senators",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1972 owner Bob Short moved this team to Arlington, TX . where it became the Texas Rangers",
+        "response_text": "Washington Senators",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL NICKNAMES",
+    "topic_area": "baseball",
+    "season": 20,
+    "air_date": "2003-09-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Charlie Hustle\\\"",
+        "response_text": "Pete Rose",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Big Mac\\\"",
+        "response_text": "Mark McGwire",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Catfish\\\"",
+        "response_text": "Jim Hunter",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Doctor K\\\"",
+        "response_text": "Dwight Gooden",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"The Rocket\\\"",
+        "response_text": "Roger Clemens",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 8,
+    "air_date": "1991-12-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1959 Harvey Haddix pitched one for 12 innings but lost the game in the 13th",
+        "response_text": "a no-hitter",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1990, his 1st year as this team's manager, Lou Piniella led them to a 4-game World Series sweep",
+        "response_text": "Cincinnati Reds",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Of JFK, Truman or Teddy Roosevelt, the one who was president the last time the Cubs won the World Series",
+        "response_text": "Teddy Roosevelt",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A short fly ball that falls between the infielders & outfielders is named for this minor league",
+        "response_text": "the Texas League",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A 2nd baseman for the Cardinals & others, he's considered the best right-handed hitter in baseball history",
+        "response_text": "Rogers Hornsby",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE WORLD SERIES MVP's TEAM",
+    "topic_area": "baseball",
+    "season": 27,
+    "air_date": "2010-09-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1975: Pete Rose",
+        "response_text": "the (Cincinnati) Reds",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "2004: Manny Ramirez",
+        "response_text": "the (Boston) Red Sox",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1963 & '65: Sandy Koufax",
+        "response_text": "the Dodgers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1971: Roberto Clemente",
+        "response_text": "the Pirates",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1970: Brooks Robinson",
+        "response_text": "the (Baltimore) Orioles",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "INSIDE BASEBALL",
+    "topic_area": "baseball",
+    "season": 18,
+    "air_date": "2002-04-15",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This stat equals hits divided by official at-bats",
+        "response_text": "batting average",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's the risky play that tries to bring a runner in from third with a sacrifice bunt",
+        "response_text": "squeeze play",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "It precedes \"hitter\" or \"runner\" to mean a replacement player sent in during a game",
+        "response_text": "a pinch hitter",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "(From Bank One Ballpark, home of the Arizona Diamondbacks, here's Sarah.) I've called for this, because I think the runner on first is trying to steal",
+        "response_text": "a pitchout",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "(Once again, from Bank One Ballpark, here's Sarah.) Curt Schilling & Roger Clemens both use this pitch that's similar to a forkball",
+        "response_text": "a split-finger fastball",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 7,
+    "air_date": "1990-11-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Joe DiMaggio could tell you the Columbus Clippers are a minor league farm team of this American League club",
+        "response_text": "the Yankees",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This former Cincinnati Reds catcher was inducted into the Hall of Fame in 1989",
+        "response_text": "Johnny Bench",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Major League team sometimes called the Halos",
+        "response_text": "(California) Angels",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This present Red Sox 3rd baseman has the 4th-highest career batting average of all time",
+        "response_text": "Wade Boggs",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Oakland A's slugger who in 1988 became the first man to hit 40 homers & steal 40 bases in a season",
+        "response_text": "Jose Canseco",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 17,
+    "air_date": "2000-12-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This slugging right fielder is nicknamed \"Slammin' Sammy\\\"",
+        "response_text": "Sammy Sosa",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1999 only Mike Hampton & Jose Lima reached 20 wins in the National League, both for this city's Astros",
+        "response_text": "Houston",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This team's logo has mountain peaks & a baseball depicted on it",
+        "response_text": "Colorado Rockies",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Baltimore Oriole holds the major league record of consecutive games played with 2,632",
+        "response_text": "Cal Ripken Jr.",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This superstar Seattle shortstop is nicknamed \"A-Rod\\\"",
+        "response_text": "Alex Rodriguez",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 5,
+    "air_date": "1988-12-29",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The 1968 baseball draft for this team included Bill Buckner, Davey Lopes, Ron Cey & Steve Garvey",
+        "response_text": "Dodgers",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A \"stopper\" is a team's best one of these",
+        "response_text": "relief pitcher",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1987 this full-time baseball player got a \"part-time\" job carrying a football for the Raiders",
+        "response_text": "Bo Jackson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Reason the 1968 All-Star Game, played in Houston was historically significant",
+        "response_text": "1st All Star Game played indoors",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "With 28, this state has more minor league teams than any other",
+        "response_text": "Florida",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 8,
+    "air_date": "1991-11-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Say hey! This Giants centerfielder appeared in a record-tying 24 All-Star games",
+        "response_text": "Willie Mays",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This former Yankee home run hitter served as the Dodgers first base coach in 1938",
+        "response_text": "Babe Ruth",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1990 this Royals third baseman became the 1st to win batting titles in 3 different decades",
+        "response_text": "George Brett",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Number 1\" was the autobiography of this 5-time Yankee manager",
+        "response_text": "Billy Martin",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The 2 teams that won their divisions in 1991 after finishing last in 1990",
+        "response_text": "Braves and Twins",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MAJOR LEAGUE BASEBALL LOGOS",
+    "topic_area": "baseball",
+    "season": 28,
+    "air_date": "2011-09-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A red letter \"A\" with a halo",
+        "response_text": "the (Los Angeles) Angels (of Anaheim)",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A black & orange bird perched on the dot of an \"I\" in the team's name",
+        "response_text": "the (Baltimore) Orioles",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Formerly, the team's name in red across an outline of the Liberty Bell",
+        "response_text": "the (Philadelphia) Phillies",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The team's name in red, outlined in blue, above a red tomahawk",
+        "response_text": "the Atlanta Braves",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A baseball flying past snow-capped mountains",
+        "response_text": "the (Colorado) Rockies",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WORLD SERIES MVPs",
+    "topic_area": "baseball",
+    "season": 22,
+    "air_date": "2006-07-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1976: Johnny Bench",
+        "response_text": "the Cincinnati Reds",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1967: Bob Gibson",
+        "response_text": "the St. Louis Cardinals",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1970: Brooks Robinson",
+        "response_text": "the Baltimore Orioles",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1971: Roberto Clemente",
+        "response_text": "the Pittsburgh Pirates",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "2001: Curt Schilling & Randy Johnson",
+        "response_text": "the Diamondbacks",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL MVPs BY DECADE",
+    "topic_area": "baseball",
+    "season": 21,
+    "air_date": "2004-12-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Oakland's Rickey Henderson, \"Slammin'\" Sammy Sosa",
+        "response_text": "the '90s",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Orioles third baseman Brooks Robinson, L.A. Dodger Sandy Koufax",
+        "response_text": "the '60s",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "N.Y. Giants pitcher Carl Hubbell, \"Iron Horse\" Lou Gehrig",
+        "response_text": "the 1930s",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Stan \"The Man\" Musial, \"Splendid Splinter\" Ted Williams",
+        "response_text": "the 1940s",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Cincinnati Reds catcher Johnny Bench, 4,000-hit club member Pete Rose",
+        "response_text": "the '70s",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 2,
+    "air_date": "1986-03-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Until 1893, this was 50 feet from home plate",
+        "response_text": "the pitcher's mound",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A baseball curves because of these on the ball",
+        "response_text": "because of the stitches",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1940, this Cleveland Indian great became 1st to pitch a no-hitter on opening day",
+        "response_text": "Bob Feller",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The oldest ballparks still in use in both leagues are in this city",
+        "response_text": "Chicago",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1959, this eastern A.L. team became the last club to sign a black player",
+        "response_text": "Boston (Red Sox)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TALKIN' BASEBALL",
+    "topic_area": "baseball",
+    "season": 16,
+    "air_date": "2000-04-12",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "When a player \"hits for the cycle\", it means he hits a single, a double, a triple & this all in the same game",
+        "response_text": "Home run",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Though this pitch was banned in 1920, 17 pitchers were allowed to keep using it; the last was Burleigh Grimes in 1934",
+        "response_text": "Spitball",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Cactus League refers to spring training games in the Southwest; this term refers to those played in Florida",
+        "response_text": "Grapefruit League",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Dodger manager was referring to the New York Giants when he reportedly said, \"Nice guys finish last\\\"",
+        "response_text": "Leo Durocher",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The 1982 World Series was known as the \"Suds Series\" because these 2 teams had beer connections",
+        "response_text": "Milwaukee Brewers & St. Louis Cardinals",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ALSO A MAJOR LEAGUE BASEBALL TEAM",
+    "topic_area": "baseball",
+    "season": 23,
+    "air_date": "2007-05-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Them commies!",
+        "response_text": "the Reds",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Grades that should guarantee you 4.0",
+        "response_text": "the A's",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Mr. Molson & Mr. Coors, collectively",
+        "response_text": "the Brewers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "People who illegally copy software or DVDs",
+        "response_text": "the Pirates",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Sailors, whether ancient or not",
+        "response_text": "the Mariners",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL LIT",
+    "topic_area": "baseball",
+    "season": 16,
+    "air_date": "2000-06-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "David Halberstam looks back on a great World Series in the book titled this month, \"1964\\\"",
+        "response_text": "October",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"The Bingo Long Traveling All-Stars and Motor Kings\" is set in the segregated leagues called these",
+        "response_text": "Negro Leagues",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Douglass Wallop's \"The Year the Yankees Lost the Pennant\" was the basis for this musical",
+        "response_text": "\\\"Damn Yankees\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Roger Angell's classic baseball articles include a profile of this Hall of Fame Cardinals pitcher of the '60s",
+        "response_text": "Bob Gibson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1999 Stephen King published \"The Girl Who Loved\" this Red Sox relief pitcher",
+        "response_text": "Tom Gordon",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ON HIS BASEBALL HALL OF FAME PLAQUE",
+    "topic_area": "baseball",
+    "season": 26,
+    "air_date": "2010-02-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This Yankee was the \"greatest drawing card in history of baseball\\\"",
+        "response_text": "Babe Ruth",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Detroit - Philadelphia, A.L. - 1905-1926... retired with 4191 major league hits\\\"",
+        "response_text": "(Ty) Cobb",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"'Mr. October', found special success in World Series spotlight with 10 home runs\\\"",
+        "response_text": "(Reggie) Jackson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This 2009 inductee was \"faster than a speeding bullet\\\"",
+        "response_text": "Rickey Henderson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Boston Red Sox A.L. 1939-1960... batted .406 in 1941\\\"",
+        "response_text": "Ted Williams",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TEAMS THAT HAVEN'T WON THE WORLD SERIES",
+    "topic_area": "baseball",
+    "season": 31,
+    "air_date": "2015-07-29",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Maybe it's all the beer their name suggests they're making that's holding them back",
+        "response_text": "the (Milwaukee) Brewers",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "These \"Spanish priests\" are still praying for a title",
+        "response_text": "the (San Diego) Padres",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 2015 shortstop Troy Tulowitzki hopes to help this team fulfill its mile high hopes",
+        "response_text": "the (Colorado) Rockies",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Their name suggests they represent the whole country, but a whole series victory so far is off the map",
+        "response_text": "the (Washington) Nationals",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The victory dreams of this team of \"sailors\" are all still out to sea",
+        "response_text": "the Mariners",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 4,
+    "air_date": "1988-04-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He belted the 1st home run ever hit in Yankee Stadium, April 18, 1923",
+        "response_text": "Babe Ruth",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Last name of brothers Jesus, Matty & Felipe who in 1963 made history as the entire S.F. Giants outfield",
+        "response_text": "Alou",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "His 1987 Major League-leading .370 batting average was highest in the N.L. since 1948",
+        "response_text": "Tony Gwynn",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Andy Messersmith & Dave McNally, who in '76 became baseball's 1st free agents, both played this position",
+        "response_text": "pitcher",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1 of 3 top ranked, or Triple A, U.S. minor leagues",
+        "response_text": "(1 of) The Pacific Coast League (the International League or the American Association)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL STADIUMS",
+    "topic_area": "baseball",
+    "season": 29,
+    "air_date": "2012-09-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Light posts in this stadium's Babe Ruth Plaza highlight the slugger's career with images & storyboards",
+        "response_text": "Yankee Stadium",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 2003 274 seats were added above its \"Green Monster\" wall",
+        "response_text": "Fenway",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "From 1962 through 1965, 2 California MLB teams shared this facility",
+        "response_text": "Dodger Stadium",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Note the Gateway Arch that's part of the outfield grass at this park",
+        "response_text": "Busch Stadium",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Named for the Atlanta Braves' owner, this field served as the 1996 Olympic stadium before the Braves moved in",
+        "response_text": "Turner Field",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1986-12-25",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Position in the batting order of a player hitting \"clean-up\\\"",
+        "response_text": "4th",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This team holds the record for winning the most World Series in just 4 games",
+        "response_text": "the New York Yankees",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Both Bert Campaneris & Cesar Tovar have played this many positions in a single game",
+        "response_text": "9",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The 3 categories that make up the batting \"Triple Crown\\\"",
+        "response_text": "runs batted in, home runs & batting average",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "For a single season, it's the 56 hit by Hack Wilson in 1930",
+        "response_text": "the National League record for home runs",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "REMEMBER BASEBALL?",
+    "topic_area": "baseball",
+    "season": 39,
+    "air_date": "2023-06-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Remember 1969, when these New Yorkers became the first expansion team to win a World Series?",
+        "response_text": "the Mets",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "How about 1941, when this guy also known as \"Joltin' Joe\" had a 56-game hit streak?",
+        "response_text": "(Joe) DiMaggio",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Who can forget 1972, when the first of these led to the cancellation of 86 games that were never rescheduled?",
+        "response_text": "(the players') strike",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "We all recall 1884, when Kentuckian Pete Browning used the first bat nicknamed this",
+        "response_text": "a Louisville Slugger",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Surely you recall 1867, when Candy Cummings is credited with debuting this first breaking pitch",
+        "response_text": "a curveball",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 24,
+    "air_date": "2008-04-14",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He pitched a career-record 7 no-hitters: 4 in the 1970s, one in the '80s & 2 in the '90s",
+        "response_text": "Nolan Ryan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Yankees manager was hired by the Dodgers in 2007",
+        "response_text": "Joe Torre",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 2004 this team's Ichiro Suzuki had 262 hits, breaking George Sisler's 84-year-old record",
+        "response_text": "the Mariners",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This A.L. team's Jacobs Field has the largest video screen in the major leagues",
+        "response_text": "the (Cleveland) Indians",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In the 1980s 2 players stole 100 or more bases in a season 3 times: Vince Coleman & this Oakland A's star",
+        "response_text": "Rickey Henderson",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 2,
+    "air_date": "1985-12-18",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He played for the Chicago Cubs & Brooklyn Dodgers before becoming TV's \"Rifleman\\\"",
+        "response_text": "Chuck Connors",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He's chairman of American Ship Building as well as N.Y. Yankees' owner",
+        "response_text": "George Steinbrenner",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "With earnings est. at $2,130,000, this Phillies' slugger was highest paid player for '85 season",
+        "response_text": "Mike Schmidt",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "2 of 5 original members of Baseball Hall of Fame",
+        "response_text": "(2 of) Babe Ruth, Ty Cobb (Honus Wagner, Walter Johnson or Christy Mathewson)",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Announcer who applied word \"rhubarb\" from name of fictional cat to a disturbance on the field",
+        "response_text": "Red Barber",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 6,
+    "air_date": "1990-06-04",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "From 1975-83 this first baseman with the Dodgers & Padres played in a N.L. record 1,207 consecutive games",
+        "response_text": "Steve Garvey",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This Philadelphia Phillies third baseman was voted an all-star in 1989 even though he'd retired",
+        "response_text": "Mike Schmidt",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A controversy erupted in 1983 over the amount of this substance found on George Brett's bat",
+        "response_text": "pine tar",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Oakland A's pitcher won 2 games in the 1989 World Series & was named its MVP",
+        "response_text": "(Dave) Stewart",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1968 this Detroit Tigers pitcher won 31 games & was named the Sporting News \"Man of the Year\\\"",
+        "response_text": "Denny McLain",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MLB TEAMS EN FRANÇAIS",
+    "topic_area": "baseball",
+    "season": 30,
+    "air_date": "2014-05-28",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Les Chaussettes Rouges",
+        "response_text": "the Red Sox",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Les Peres",
+        "response_text": "the Padres",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Les Corsaires",
+        "response_text": "the (Pittsburgh) Pirates",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Les Jumeaux, or perhaps Les Doubles",
+        "response_text": "the (Minnesota) Twins",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Les Rocheuses",
+        "response_text": "the Colorado Rockies",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "MAJOR LEAGUE BASEBALL TEAMS",
+    "topic_area": "baseball",
+    "season": 39,
+    "air_date": "2023-01-16",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This National League team shares its name with a mountain range",
+        "response_text": "the Rockies",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The roster of this MLB team includes Mookie Betts & Freddie Freeman",
+        "response_text": "the Dodgers",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 2022 this team gave 73-year-old Dusty Baker his 1st championship as a manager; he's the oldest skipper to win a World Series",
+        "response_text": "the Astros",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Swinging Friar is the official mascot of this team",
+        "response_text": "the Padres",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Jim Palmer pitched his No. 22 into immortality with this team",
+        "response_text": "the Orioles",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 8,
+    "air_date": "1991-09-30",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1921 this Yankee slugger scored 177 runs—a modern Major League record that still stands",
+        "response_text": "Babe Ruth",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "When this National League team was founded in Houston in 1962, it was known as the Colt .45s",
+        "response_text": "Astros",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Texas Rangers pitcher has had 15 or more strikeouts in over 25 games",
+        "response_text": "Nolan Ryan",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The only man to bat .400 & not get 200 hits was this Red Sox player who hit .406 in 1941",
+        "response_text": "Ted Williams",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Detroit Tigers manager leads all active Major League managers in victories with over 1800",
+        "response_text": "Sparky Anderson",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL NICKNAMES",
+    "topic_area": "baseball",
+    "season": 13,
+    "air_date": "1997-03-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Charlie Hustle\\\"",
+        "response_text": "Pete Rose",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Leo the Lip\\\"",
+        "response_text": "Leo Durocher",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Tom Terrific\\\"",
+        "response_text": "Tom Seaver",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Joltin' Joe\\\"",
+        "response_text": "Joe DiMaggio",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Mr. Cub\\\"",
+        "response_text": "Ernie Banks",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 12,
+    "air_date": "1995-11-16",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Pitcher Nolan Ryan set a major league record in 1973 by recording 383 of these",
+        "response_text": "Strikeouts",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1978 this Cincinnati Red set a modern-day National League record with a 44-game hitting streak",
+        "response_text": "Pete Rose",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Only 3 players have hit 600 major league home runs: Hank Aaron, Babe Ruth & this Giants outfielder",
+        "response_text": "Willie Mays",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1995 he broke Lou Gehrig's record for consecutive games played",
+        "response_text": "Cal Ripken, Jr.",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This man with the middle name Mountain was baseball's first & longest-serving commissioner",
+        "response_text": "Kenesaw Mountain Landis",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 41,
+    "air_date": "2025-04-16",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2024, the jersey he wore for his called-shot home run in the 1932 World Series sold for $24 million",
+        "response_text": "Babe Ruth",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This team went a memorably bad 41-121 in 2024 though unlike in 1919, they did try their best",
+        "response_text": "the Chicago White Sox",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"The Catch\" refers to a September 29, 1954 play made by this center fielder who passed away in June 2024",
+        "response_text": "Willie Mays",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "An alien named Orbit is the mascot of this AL team",
+        "response_text": "the Astros",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The carousel at Comerica Park features not horses but these animals",
+        "response_text": "Tigers",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TEAM OF THE MLB HALL OF FAMERS",
+    "topic_area": "baseball",
+    "season": 39,
+    "air_date": "2022-11-02",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Roberto Clemente, Willie Stargell",
+        "response_text": "the Pirates",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Ozzie Smith, Lou Brock",
+        "response_text": "the Cardinals",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Phil Niekro, Chipper Jones",
+        "response_text": "the Braves",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Jeff Bagwell, Craig Biggio",
+        "response_text": "the Astros",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Ron Santo, Frank Chance",
+        "response_text": "the Chicago Cubs",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL NICKNAMES",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1986-09-30",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Nickname of Lloyd Waner, whose older brother & Pirate teammate Paul was called \"Big Poison\\\"",
+        "response_text": "\\\"Little Poison\\\"",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's said stubble-faced Sal Maglie got this nickname since his curve gave batters close shaves",
+        "response_text": "(Sal) \"the Barber\\\"",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Bill Skowron's nickname, given him as a baby for resembling a famous fascist, not a large elk",
+        "response_text": "\\\"Moose\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Poor fielder Dick Stuart had this nickname based on a Peter Sellers title role in a '63 film",
+        "response_text": "\\\"Dr. Strangeglove\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Nicknamed \"Mahatma\", this Dodger owner broke baseball's color line by hiring Jackie Robinson",
+        "response_text": "Branch Rickey",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BIG BATS OF BASEBALL",
+    "topic_area": "baseball",
+    "season": 32,
+    "air_date": "2016-04-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2015 this \"Big Papi\" with 500+ homers & a .455 World Series batting average said 2016 would be his final season",
+        "response_text": "(David) Ortiz",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A San Diego Padre from 1982 to 2001, this outfielder won 8 batting titles",
+        "response_text": "Tony Gwynn",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Yankee outfielder hit 52 home runs in 1956 & 54 in 1961",
+        "response_text": "Mickey Mantle",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1980 this Kansas City Royal batted .390",
+        "response_text": "George Brett",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In the '50s and '60s, he was a true giant, becoming one of the greatest players of all time",
+        "response_text": "Willie Mays",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 7,
+    "air_date": "1991-02-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1982 this player known as \"Mr. Cub\" became the first Cub to have his uniform number retired",
+        "response_text": "Ernie Banks",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1987 this Red Sox pitcher became only the fourth man to win 2 consecutive Cy Young Awards",
+        "response_text": "Roger Clemens",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This team's Arlington Stadium is the only one not to have hosted an All-Star or postseason game",
+        "response_text": "the Texas Rangers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He led the American League in stolen bases every year of the 1980s except one",
+        "response_text": "Rickey Henderson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Imaginary Winter Baseball League based on cartoons showing fans huddled around an old Franklin",
+        "response_text": "the Hot Stove League",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL: THE 1960s",
+    "topic_area": "baseball",
+    "season": 23,
+    "air_date": "2007-06-04",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Known as the \"M & M Boys\", these 2 Yankees slugged a total of 115 regular season home runs in 1961",
+        "response_text": "Mantle & Maris",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Say hey! This Giants outfielder was named the National League's most valuable player in 1965",
+        "response_text": "Willie Mays",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1967 Carl Yastrzemski led this team to the American League pennant",
+        "response_text": "the Boston Red Sox",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In 1962, in its first year in the National League, this East Coast team lost 120 regular season games",
+        "response_text": "the Mets",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "On June 21, 1964 this Philadelphia Phillies pitcher, now a U.S. Senator from Kentucky, hurled a perfect game",
+        "response_text": "Jim Bunning",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL QUOTES",
+    "topic_area": "baseball",
+    "season": 4,
+    "air_date": "1987-09-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It was club executive Branch Rickey who 1st said, \"Baseball is a game of\" this unit of measure",
+        "response_text": "inches",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In Abbott & Costello's \"Who's on First?\", he's on second",
+        "response_text": "What",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Gear worn by those playing this position has been called \"the tools of ignorance\\\"",
+        "response_text": "catcher",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He said he \"never wanted them to forget Babe Ruth,\" he \"just wanted them to remember\" him",
+        "response_text": "Hank Aaron",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Ageless pitcher who said, \"Age is...mind over matter. If you don't mind, it doesn't matter\\\"",
+        "response_text": "Satchel Paige",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 32,
+    "air_date": "2016-07-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.) In San Diego on August 4, 2007, Barry Bonds hit this ball 382 feet to tie the all-time home run record of this man, technically",
+        "response_text": "Hank Aaron",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.) Here's the ball hit by this Yankee legend who broke a 44-game hitting streak record held by \"Wee Willie\" Keeler",
+        "response_text": "Joe DiMaggio",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.) No major leaguer will ever again be permanently assigned the number of the jersey worn by this man",
+        "response_text": "Jackie Robinson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.) Here's the 1957 MVP award for this Yankee, but that was a bit of an off year for him: he'd won the Triple Crown the previous year with 18 more home runs & 36 more RBIs",
+        "response_text": "Mickey Mantle",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.) Check out the incredibly rare 1909-11 t206 card of this \"Flying Dutchman\"; in 2013, one went at auction for $2.1 million",
+        "response_text": "Honus Wagner",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MAJOR LEAGUE BASEBALL TEAM NICKNAMES",
+    "topic_area": "baseball",
+    "season": 33,
+    "air_date": "2017-06-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Bronx Bombers",
+        "response_text": "the Yankees",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Halos",
+        "response_text": "the Angels",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Redbirds",
+        "response_text": "the (St. Louis) Cardinals",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Buccos",
+        "response_text": "the Pirates",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Fightin' Fish",
+        "response_text": "the (Miami) Marlins",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PLAYING BASEBALL FOR VOCABULARY",
+    "topic_area": "baseball",
+    "season": 26,
+    "air_date": "2010-02-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This device lets a trombonist change pitch",
+        "response_text": "a slide",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A mixture of flour & water to make pancakes",
+        "response_text": "batter",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "An intentional stoppage by workers",
+        "response_text": "a strike",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "An unraveling in your nylon stocking",
+        "response_text": "a run",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A single-handled jug with a spout for pouring",
+        "response_text": "a pitcher",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 14,
+    "air_date": "1998-04-13",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1996 this Atlanta team's John Smoltz was named the NL's Cy Young Award winner",
+        "response_text": "Braves",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Hi, I'm Mike Piazza) On Sept. 1, 1992 I made my major league debut at this Chicago Cubs stadium with a 3-for-3 day at the plate",
+        "response_text": "Wrigley Field",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Yankee centerfielder hit a career record 18 World Series home runs — 3 more than Babe Ruth",
+        "response_text": "Mickey Mantle",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Seattle Mariner was named MVP of the 1992 All-Star Game; his father won the award in 1980",
+        "response_text": "Ken Griffey Jr.",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Tony Gwynn of this National League team has the highest career average of all active players with .340",
+        "response_text": "San Diego Padres",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 1,
+    "air_date": "1985-05-02",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In Abbott and Costello's \"Who's on first?\" routine, he's on second",
+        "response_text": "What",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "His brothers Vince & Dom were also Major Leaguers",
+        "response_text": "Joe DiMaggio",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "During 1945, this team hit only 1 home run in its D.C. stadium",
+        "response_text": "the Washington Senators",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Pirates' star whose plane crashed on mission to aid Nicaraguan earthquake victims",
+        "response_text": "Roberto Clemente",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Last player to win Major League Triple Crown was this Boston slugger, in 1967",
+        "response_text": "Carl Yastrzemski",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL TEAMS BY STADIUM",
+    "topic_area": "baseball",
+    "season": 28,
+    "air_date": "2012-06-29",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Fenway Park",
+        "response_text": "the Boston Red Sox",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Wrigley Field",
+        "response_text": "the Chicago Cubs",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Coors Field",
+        "response_text": "the Colorado Rockies",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Turner Field",
+        "response_text": "the Atlanta Braves",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Tropicana Field",
+        "response_text": "the Tampa Bay Devil Rays (Tampa Rays accepted)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL'S GREATEST HITTERS",
+    "topic_area": "baseball",
+    "season": 17,
+    "air_date": "2000-11-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "From 1996 through 1999, he averaged 61.25 home runs per season",
+        "response_text": "Mark McGwire",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Only Babe Ruth & this former Braves outfielder finished their careers with over 2,000 RBIs",
+        "response_text": "Hank Aaron",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1998 this Cub was named the National League's MVP with a .308 average & 66 home runs",
+        "response_text": "Sammy Sosa",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1997 this Boston shortstop led the American League on hits with 209 & was named its Rookie of the Year",
+        "response_text": "Nomar Garciaparra",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Over the past 50 years only Tony Gwynn & this K.C. Royals player had a .390 or better batting average for a season",
+        "response_text": "George Brett",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL HALL OF FAMERS",
+    "topic_area": "baseball",
+    "season": 15,
+    "air_date": "1999-01-22",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Yogi Berra",
+        "response_text": "New York Yankees",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Johnny Bench",
+        "response_text": "Cincinnati Reds",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Roy Campanella",
+        "response_text": "Brooklyn/Los Angeles Dodgers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Mike Schmidt",
+        "response_text": "Philadelphia Phillies",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Brooks Robinson",
+        "response_text": "the Baltimore Orioles",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL GREATS",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1987-01-08",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Most visited permanent exhibit at Cooperstown Hall of Fame honors this player",
+        "response_text": "Babe Ruth",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He still holds Major League record for highest \"lifetime\" batting average at .367",
+        "response_text": "Ty Cobb",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Even though he never hit more than 12 in a season, John Franklin Baker had this nickname",
+        "response_text": "Home Run",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The great Bob Feller played out his entire Major League career with this team",
+        "response_text": "Cleveland Indians",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Hall of Famer who wouldn't go to movies lest it impair his eye-sight was called \"The Rajah\\\"",
+        "response_text": "Rogers Hornsby",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL ROOKIES OF THE YEAR",
+    "topic_area": "baseball",
+    "season": 21,
+    "air_date": "2004-09-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This center fielder who hit 660 homers & won 2 NL MVP awards started his pro career in the Negro Leagues",
+        "response_text": "Mays",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He was the first Japanese player in nearly 30 years to play in the majors when he pitched for the Dodgers in 1995",
+        "response_text": "Nomo",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This pitcher was Rookie of the Year in 1967; he won the Cy Young & a World Series ring in 1969",
+        "response_text": "Seaver",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1956's Rookie of the Year with Cincinnati, he was the first player to be MVP in both the AL & NL",
+        "response_text": "Frank Robinson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Playing for the New York Mets, he was named the 1983 National League Rookie of the Year",
+        "response_text": "Darryl Strawberry",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BIZARRE MLB INJURIES",
+    "topic_area": "baseball",
+    "season": 22,
+    "air_date": "2005-12-09",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Outfielder Rickey Henderson fell asleep with an ice pack on his ankle & ended up suffering from this (in August)",
+        "response_text": "frostbite",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Pitcher Dennis Martinez got hurt hefting a heavy one of these; a team rep quipped that he had Samsonitis",
+        "response_text": "a suitcase",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Steve Sparks let his fingers do the walkin' & his shoulder do the dislocatin' when he tried to rip this item in half",
+        "response_text": "a phone book",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A's pitcher Rich Harden strained his shoulder reaching for this vital alarm clock part",
+        "response_text": "the snooze button",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Tony Gwynn of this team fractured his finger closing the door to his Porsche on the way to the bank",
+        "response_text": "the (San Diego) Padres",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 12,
+    "air_date": "1995-12-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This stadium is called \"The House that Ruth Built\\\"",
+        "response_text": "Yankee Stadium",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The cleanup hitter has this numerical position in the batting order",
+        "response_text": "fourth",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This pitch is often called a hook for its hooklike trajectory",
+        "response_text": "a curveball",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The mysterious \"disease\" that struck hitters about to face this pitcher was dubbed Ryanitis",
+        "response_text": "Nolan Ryan",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This stadium's imposing left-field wall became \"the Green Monster\" after it was painted in 1947",
+        "response_text": "Fenway Park",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 7,
+    "air_date": "1991-01-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In the past, the NL team in this city was called the Doves, the Redcaps & the Beaneaters",
+        "response_text": "Boston",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He was not only the first Black pitcher in the AL, but the oldest man to play in the majors",
+        "response_text": "Satchel Paige",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "He became the first Yankee to have his number retired after he said goodbye to Yankee Stadium July 4, 1939",
+        "response_text": "Lou Gehrig",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "If you forfeit a baseball game, the score goes into the books as this",
+        "response_text": "9-0",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Since 1959, center field fences in new Major League ballparks must be at least this far from home plate",
+        "response_text": "400",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 4,
+    "air_date": "1988-04-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1920, this man hit more home runs than any American League team other than his own",
+        "response_text": "Babe Ruth",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This Boston pitcher was the only one to win 20 or more games in both 1986 & 1987",
+        "response_text": "Roger Clemens",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Cubs' Hack Wilson holds the record for the most of these in 1 season, 190",
+        "response_text": "RBIs",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In Sept. 1987, an arbitrator found baseball owners guilty of collusion for not doing this in 1985",
+        "response_text": "they did not sign any free agents",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Though he missed the entire month of April, this Montreal outfielder led the Majors in runs scores in '87",
+        "response_text": "Tim Raines",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL NICKNAMES",
+    "topic_area": "baseball",
+    "season": 37,
+    "air_date": "2021-02-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"The Splendid Splinter\" & \"Teddy Ballgame\\\"",
+        "response_text": "Ted Williams",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"The Big Unit\\\"",
+        "response_text": "Randy Johnson",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "That's \"Mr. Cub\" to you",
+        "response_text": "Ernie Banks",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "That's \"Mr. October\" to you",
+        "response_text": "Reggie Jackson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "That's \"Mr. November\" to you",
+        "response_text": "Derek Jeter",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MLB TEAMS BY STADIUM",
+    "topic_area": "baseball",
+    "season": 21,
+    "air_date": "2005-03-09",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Shea Stadium",
+        "response_text": "the Mets",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Busch Stadium",
+        "response_text": "the Cardinals",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Coors Field",
+        "response_text": "the Rockies",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Hubert H. Humphrey Metrodome",
+        "response_text": "the Twins",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Tropicana Field",
+        "response_text": "the Tampa Bay Devil Rays",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1987-01-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Stealing a player from Philadelphia in 1890 earned Pittsburgh this team name",
+        "response_text": "the Pirates",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The only 1 of these officials ever expelled for dishonesty was Richard Higham in 1882",
+        "response_text": "an umpire",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Number of basic types of baseball gloves",
+        "response_text": "3",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "As player or manager, he wore the uniforms of all 4 NYC teams - Yankees, Giants, Dodgers & Mets",
+        "response_text": "Casey Stengel",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In May 1986 this Red Sox pitcher struck out not only 20 batters in 9 innings, but the old record",
+        "response_text": "Roger Clemens",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 1,
+    "air_date": "1985-03-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "2 games played the same day or night",
+        "response_text": "a doubleheader",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Player to whom passed balls are charged",
+        "response_text": "the catcher",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Though some are still said to throw it, 1934 was the last year this pitch was legal",
+        "response_text": "a spitball",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "English game similar to baseball that uses posts, not bases",
+        "response_text": "rounders",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "They started out in '62 as the Colt 45s",
+        "response_text": "the Houston Astros",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL BITS",
+    "topic_area": "baseball",
+    "season": 29,
+    "air_date": "2013-04-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "When this city's MLB team wins a game, the Jolly Roger is raised",
+        "response_text": "the Pittsburgh Pirates",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew shows us a diagram of a baseball diamond.) On a scorecard, if a batter hits a double, we mark the lines from home plate to second base & write 2B; if we mark the first line & write HBP, it indicates the player reached first base in this way",
+        "response_text": "hit by a pitch",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "240-pound Pablo \"Kung Fu Panda\" Sandoval hit .500 as this team swept the World Series in 2012",
+        "response_text": "the San Francisco Giants",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1971 the Hall of Fame set up a committee to select inductees from these leagues",
+        "response_text": "the Negro leagues",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 2010 a rookie for this team inspired restaurants to create \"Strasburgers\\\"",
+        "response_text": "the Washington Nationals",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL NICKNAMES",
+    "topic_area": "baseball",
+    "season": 16,
+    "air_date": "1999-10-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Charlie Hustle\\\"",
+        "response_text": "Pete Rose",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"The Strawman\\\"",
+        "response_text": "Darryl Strawberry",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Dr. K\\\"",
+        "response_text": "Dwight Gooden",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"The Iron Horse\\\"",
+        "response_text": "Lou Gehrig",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"The Splendid Splinter\\\"",
+        "response_text": "Ted Williams",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL RECORDS",
+    "topic_area": "baseball",
+    "season": 2,
+    "air_date": "1986-04-08",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A Major League pitcher who was 6'9\" holds this record",
+        "response_text": "the tallest player to play Major League ball",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It was played on 9/28/19, when the Giants beat the Phillies in only 51 minutes",
+        "response_text": "the shortest game in history",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "He still holds the lifetime records for bases on ball & home run percentage",
+        "response_text": "Babe Ruth",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1983, Dan Quisenberry posted a record 45 of them",
+        "response_text": "saves",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Joe DiMaggio's consecutive-game hitting streak record",
+        "response_text": "56 games",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 10,
+    "air_date": "1994-07-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This Braves outfielder hit 40 or more home runs in a season 8 times—a National League record",
+        "response_text": "Hank Aaron",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The 1993 Texas media guide devoted 25 pages to this pitcher who was playing his 27th & last season",
+        "response_text": "Nolan Ryan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This \"Yankee Clipper\" threw out the first pitch at the Florida Marlins' first game April 5, 1993",
+        "response_text": "Joe DiMaggio",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This new National League team plans to move its home games to Coors Field in 1995",
+        "response_text": "the Colorado Rockies",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In the 1960s this Dodger pitcher won 3 Cy Young Awards",
+        "response_text": "Sandy Koufax",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL NICKNAMES",
+    "topic_area": "baseball",
+    "season": 9,
+    "air_date": "1993-06-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Hammerin' Hank\\\"",
+        "response_text": "Hank Aaron",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"The Strawman\\\"",
+        "response_text": "Darryl Strawberry",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Stan the Man\\\"",
+        "response_text": "Stan Musial",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Chili\\\"",
+        "response_text": "Chili Davis",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"The Wizard of Oz\\\"",
+        "response_text": "Ozzie Smith",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL TEAMS",
+    "topic_area": "baseball",
+    "season": 30,
+    "air_date": "2014-03-14",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2013 this team added a new jersey, putting the name of the city, not the team, under 2 red birds perched on a bat",
+        "response_text": "the St. Louis Cardinals",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Midwest team's campaign to support the environment is called \"Our Tribe Is Green\\\"",
+        "response_text": "the Cleveland Indians",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "PNC Park is the home stadium for this team",
+        "response_text": "the Pittsburgh Pirates",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This team's mailing address is 1500 South Capitol Street SE",
+        "response_text": "the Washington Nationals",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In 1869 a club based in this, now a National League city, became the first all-professional baseball team",
+        "response_text": "Cincinnati",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL WORDS",
+    "topic_area": "baseball",
+    "season": 16,
+    "air_date": "2000-02-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Spiders catch them in their webs",
+        "response_text": "Flies",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "What a catcher might eat his dinner on",
+        "response_text": "Home plate",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A highly prized form of carbon",
+        "response_text": "Diamond",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "People who used peroxide on their hair",
+        "response_text": "Bleachers",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "It's material from which flags are made, or decorations in the colors of a flag",
+        "response_text": "Bunting",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ON HIS BASEBALL HALL OF FAME PLAQUE",
+    "topic_area": "baseball",
+    "season": 37,
+    "air_date": "2021-03-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"2,632 consecutive games played from May 30, 1982 through September 19, 1998\\\"",
+        "response_text": "Cal Ripken Jr.",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Hit safely in 56 consecutive games for Major League record 1941\\\"",
+        "response_text": "DiMaggio",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Managed Dodgers... claiming to 'bleed Dodger blue'... championships in 1981 and 1988\\\"",
+        "response_text": "Lasorda",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"'The Say Hey Kid\"', also the \"first to top both 300 homers and 300 steals\\\"",
+        "response_text": "Willie Mays",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Greatest drawing card in history of baseball\\\"",
+        "response_text": "Babe Ruth",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 6,
+    "air_date": "1989-10-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In his playing days, this St. Louis Cardinal outfielder & Hall of Famer was known as \"Stan the Man\\\"",
+        "response_text": "Stan Musial",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A major pitching award is named for this hurler who won a record 511 games",
+        "response_text": "Cy Young",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1985 this former president arbitrated the Major League umpire labor dispute",
+        "response_text": "Richard Nixon",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This manager won fewer games than Leo Durocher or Walt Alston but was in the most World Series—10",
+        "response_text": "Casey Stengel (of the Yankees)",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This club that no longer exists was called \"1st in war, 1st in peace & last in the A.L.\\\"",
+        "response_text": "the Washington Senators",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE WORLD SERIES",
+    "topic_area": "baseball",
+    "season": 40,
+    "air_date": "2023-10-31",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In even-numbered years of 2010, 2012 & 2014, Madison Bumgarner & Tim Lincecum pitched in as this team won the World Series",
+        "response_text": "the San Francisco Giants",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Truly Mr. October, this outfielder hit 10 home runs in 98 World Series at bats",
+        "response_text": "Reggie Jackson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This team refused admission to a local tavern owner's billy goat in 1945, & the ensuing curse lasted until the 2016 World Series",
+        "response_text": "the Cubbies",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In the 1919 World Series, this \"Black Sox\" player hit .375 & did not commit an error, footwear & all",
+        "response_text": "Shoeless Joe Jackson",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In 1981 there were 3 World Series MVPs: Ron Cey, Steve Yeager & Pedro Guerrero, all of this team",
+        "response_text": "the Los Angeles Dodgers",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 12,
+    "air_date": "1996-05-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Whitey Ford, a pitcher for this team, won 10 World Series games & lost 8, both records",
+        "response_text": "New York Yankees",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1953 the Boston Braves moved to this city",
+        "response_text": "Milwaukee",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Nicknamed the \"Georgia Peach\", he has the all-time highest career batting average, .367",
+        "response_text": "Ty Cobb",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1991 this Baltimore Oriole shortstop was named the American League's MVP",
+        "response_text": "Cal Ripken, Jr.",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This current baseball player is they only man in history to have more than 1,000 career stolen bases",
+        "response_text": "Rickey Henderson",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL STADIUMS",
+    "topic_area": "baseball",
+    "season": 7,
+    "air_date": "1990-09-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "One can park at the 1964 World's Fair grounds when attending Mets games at this stadium",
+        "response_text": "Shea Stadium",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In this team's Olympic Stadium, games are announced over the P.A. in 2 languages",
+        "response_text": "Montreal Expos",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1990 the White Sox spent their 81st & last season in this ballpark — baseball's oldest",
+        "response_text": "Comiskey Park",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This A.L. team's Skydome has the world's largest video board — 3 stories high & 115 feet wide",
+        "response_text": "Toronto Blue Jays",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Mini-Gateway Arches adorn the top of this stadium",
+        "response_text": "Busch Stadium",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WORLD SERIES",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1987-04-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In the 1950s, this team represented the American League 8 times",
+        "response_text": "the New York Yankees",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1 of only 2 players to hit 3 home runs in a single World Series game",
+        "response_text": "Reggie Jackson (or Babe Ruth)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Of 5, 9 or 13, the # of sweeps in World Series history",
+        "response_text": "13",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Though playing in the same city since 1900, these 2 teams have only met once in a World Series",
+        "response_text": "the White Sox & the Cubs",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A record lifetime .367 hitter, he averaged only .262 in his 3 World Series",
+        "response_text": "Ty Cobb",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 1,
+    "air_date": "1985-05-27",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "They measure 15\" x 15\\\"",
+        "response_text": "the bases",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "No Major Leaguer has ever hit a fair ball out of this \"House that Ruth built\\\"",
+        "response_text": "Yankee Stadium",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Jack Norworth wrote this song in 1908, but never saw a game till 34 yrs. later: \"Nellie Kelly loved baseball games / Knew the players, knew all their names / You could see her there every day / Shout hooray when they played / Her boyfriend by the name of Joe...\\\"",
+        "response_text": "\\\"Take Me Out To The Ball Game\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A type of pitch, or any type of doughnut",
+        "response_text": "a sinker",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Pitcher whose brother was Daffy but not crazy",
+        "response_text": "Dizzy Dean",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ACTUAL MLB ANNOUNCER QUOTES",
+    "topic_area": "baseball",
+    "season": 21,
+    "air_date": "2005-02-16",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Ron Guidry is not very big, maybe 140 pounds, but he has an arm like\" this king of beasts",
+        "response_text": "a lion",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Today is Father's Day, so everyone out there, Happy\" this, a 1968 Beatles tune",
+        "response_text": "Birthday",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"The first pitch to Tucker Ashford is grounded into left field. No, wait a minute. It's\" this 2-word term, \"low & outside\\\"",
+        "response_text": "ball one",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Winfield goes back... He hits his head on the wall & it rolls off! It's rolling\" to here, the usual position of Robbie Alomar",
+        "response_text": "second base",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"If Don Mattingly isn't the American League MVP, something isn't kosher in\" this Asian country",
+        "response_text": "China",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 3,
+    "air_date": "1987-03-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Reason you shouldn't buy tickets to a Cubs home night game",
+        "response_text": "because there are no lights there",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1 of 4 players aged 43 or older who played in the Majors in 1986",
+        "response_text": "(1 of) Pete Rose (Phil Niekro, Tony Perez or Tommy John)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Cornelius McGillicudy who managed Phil. Athletics for 50 years, was better known by this name",
+        "response_text": "Connie Mack",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "While 1 MVP Award is given each year in each league, this many Golden Glove Awards are given",
+        "response_text": "9 Golden Gloves in each league",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Yankee Clipper\" Joe DiMaggio was also known by this alliterative nickname",
+        "response_text": "\\\"Joltin' Joe\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE WORLD SERIES",
+    "topic_area": "baseball",
+    "season": 15,
+    "air_date": "1999-02-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1906 these 2 Chicago teams played each other in the Series for the first & last time",
+        "response_text": "Cubs & White Sox",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1955 the series between the Yankees & dese Bums became the first televised in color",
+        "response_text": "Brooklyn Dodgers",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1992 this Canadian team won 3 of its 4 World Series games in its last-at-bat",
+        "response_text": "Toronto Blue Jays",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This fabled Yankee catcher holds many World Series records including most career hits with 71",
+        "response_text": "Yogi Berra",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Hi, I'm Reggie Jackson.) Only 3 men have been named MVP of the World Series twice: me, Sandy Koufax & this Cardinals pitcher in 1964 & 1967",
+        "response_text": "Bob Gibson",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BACK TO BASEBALL",
+    "topic_area": "baseball",
+    "season": 30,
+    "air_date": "2014-04-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The 1962 \"Lovable Losers\" expansion team became the \"Miracle\" these by decade's end",
+        "response_text": "the Mets",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "All-time career strikeout leader among pitchers with 5,714",
+        "response_text": "Nolan Ryan",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In the 2013 world series this Boston slugger reached base 19 times in 25 plate appearances",
+        "response_text": "David Ortiz",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He was guilty of 1,406 career stolen bases",
+        "response_text": "Rickey Henderson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1952 he replaced Joe DiMaggio as Yankee centerfielder",
+        "response_text": "Mickey Mantle",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 1,
+    "air_date": "1984-10-04",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "To celebrate winning the '83 World Series, the Baltimore Orioles popped 240 bottles of it",
+        "response_text": "champagne",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Johnny Vander Meer is the only man to have ever pitched 2 of them consecutively",
+        "response_text": "no-hitters",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Brand of bats made in Kentucky; also describes Muhammad Ali",
+        "response_text": "Louisville Slugger",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In '51 playoff he hit \"the Shot Heard 'Round the World\\\"",
+        "response_text": "Bobby Thomson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "For years this Southerner was \"the voice of the Yankees\\\"",
+        "response_text": "Mel Allen",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE 2001 WORLD SERIES",
+    "topic_area": "baseball",
+    "season": 18,
+    "air_date": "2002-07-02",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Diamondbacks broke this Florida team's record as the expansion team to win a World Series fastest",
+        "response_text": "the Marlins",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Sarah of the Clue Crew stands in the stands at Bank One Ballpark in Phoenix.) Game 5 of the 2001 World Series was the first Major League game to be played in this month",
+        "response_text": "November",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This lengthy lefty became the first pitcher to win games 6 & 7 of a World Series on consecutive days",
+        "response_text": "Randy Johnson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This losing manager said philosophically, \"You have to take both sides\\\"",
+        "response_text": "Joe Torre",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Sarah of the Clue Crew steps up to the plate & takes a swing at Bank One Ballpark.) In Game 7 of the 2001 World Series this player called \"Gonzo\" stood here & delivered the championship hit",
+        "response_text": "Luis Gonzalez",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 4,
+    "air_date": "1988-01-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On May 2, 1986, S.F. police detained Nicholas Soria for rooting too loudly for this Chicago team",
+        "response_text": "the Cubs",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The city of Arlington, Texas, founded by 1 of these lawmen, is home to a baseball team named for them",
+        "response_text": "the Texas Rangers",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Former Atlanta Braves slugger Bob Horner spent '87 season playing ball in this country",
+        "response_text": "Japan",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The 1982 All-Star Game, played in this city, was the 1st one played outside the United States",
+        "response_text": "Montreal",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A film bio says St. Louis English teachers wanted this pitcher-turned-broadcaster off the air",
+        "response_text": "Dizzy Dean",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL HALL OF FAMERS' TEAMS",
+    "topic_area": "baseball",
+    "season": 26,
+    "air_date": "2010-02-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Catcher Roy Campanella",
+        "response_text": "Brooklyn",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Left fielder & first baseman Willie Stargell",
+        "response_text": "Pittsburgh Pirates",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Third baseman Brooks Robinson",
+        "response_text": "the Orioles",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Pitcher Bob Feller",
+        "response_text": "the Cleveland Indians",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Right fielder Al Kaline",
+        "response_text": "the Detroit Tigers",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL NICKNAMES",
+    "topic_area": "baseball",
+    "season": 22,
+    "air_date": "2006-05-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Shoeless Joe\\\"",
+        "response_text": "Joe Jackson",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"The Iron Horse\\\"",
+        "response_text": "Lou Gehrig",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Stan the Man\\\"",
+        "response_text": "Stan Musial",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A '70s Red Sox catcher: \"Pudge\\\"",
+        "response_text": "(Carlton) Fisk",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A '90s Rangers, now Tigers, catcher: \"Pudge\\\"",
+        "response_text": "Ivan Rodriguez",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL ROOKIES OF THE YEAR",
+    "topic_area": "baseball",
+    "season": 26,
+    "air_date": "2010-05-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Shortstop Derek Jeter (American League, 1996)",
+        "response_text": "the New York Yankees",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Pitcher Tom Seaver (National League, 1967)",
+        "response_text": "the Mets",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Second baseman Pete Rose (National League, 1963)",
+        "response_text": "the Reds",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "First baseman Willie McCovey (National League, 1959)",
+        "response_text": "San Francisco Giants",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Catcher Carlton Fisk (American League, 1972)",
+        "response_text": "the Boston Red Sox",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 2,
+    "air_date": "1985-10-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Winners of the All-Star Game 21 out of the last 23 times",
+        "response_text": "the National League",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Courts have upheld local ordinances banning night games in this team's ball park",
+        "response_text": "the Chicago Cubs",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Of Buck Rogers, Flash Gordon, & James T. Kirk, the 1 who currently manages the Expos",
+        "response_text": "Buck Rogers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A young boy supposedly said these words to \"Shoeless\" Joe Jackson after Black Sox Scandal",
+        "response_text": "\\\"Say it aint so\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1920, Cleveland shortstop Ray Chapman became only Major Leaguer to whom this happened in a game",
+        "response_text": "to be killed in a game",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "LITTLE LEAGUE BASEBALL",
+    "topic_area": "baseball",
+    "season": 30,
+    "air_date": "2014-06-02",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Little League is now in 80+ countries; in 2013, Perth Metro became the first team from this one to reach the World Series",
+        "response_text": "Australia",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1953 Joey Jay became the first Little Leaguer in the majors; in 1989 Carl Yastrzemski became the first inducted here",
+        "response_text": "the Hall of Fame",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In adult baseball, this is 90'; in Little League, it's 60\\'",
+        "response_text": "the distance from home to first (the distance between bases)",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew presents the clue on a monitor.) Carl Stotz was inspired to found Little League in 1939 after he stumbled into a bush while playing backyard baseball with his nephews in this town that, despite its name, is more than 100 miles inland",
+        "response_text": "Williamsport",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"A—pint—sized—Hercules—wielding—a—mighty—club\" was perhaps heard in his broadcast debut, for a 1953 Little League game",
+        "response_text": "Howard Cosell",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL",
+    "topic_area": "baseball",
+    "season": 13,
+    "air_date": "1996-09-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Pale Hose is a nickname for this American League team",
+        "response_text": "the (Chicago) White Sox",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This pitch thrown with great power is the most common pitch in baseball",
+        "response_text": "a fastball",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Martin Gardner's \"Annotated\" book about this Ernest Lawrence Thayer poem contains 28 variations",
+        "response_text": "Casey at the Bat",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A ball that bounces in fair territory & goes over the fence is this type of double",
+        "response_text": "a ground rule double",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In the 8th inning of the 1st game of the 1954 World Series, this New York Giant made \"The Catch\\\"",
+        "response_text": "Willie Mays",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WE'RE TALKIN' BASEBALL",
+    "topic_area": "baseball",
+    "season": 41,
+    "air_date": "2025-02-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1996 the bottom of this imaginary rectangle over home plate was moved from the top of the batter's knees to just below them",
+        "response_text": "strike zone",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A baseball hat worn in an unusual way by players or fans to inspire a comeback is called by this name",
+        "response_text": "a rally cap",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Added as part of safety protocols in 2020, all half-innings after the ninth now begin with an automatic runner at this location",
+        "response_text": "second base",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This new stat that sounds like it's kept by NASA is higher—more than 20 degrees on average—for a fly ball hitter",
+        "response_text": "launch angle",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Also a soccer term for a lone backline defender, it's a pitch similar to a slider but with more horizontal movement",
+        "response_text": "sweeper",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WORLD SERIES MVPs BY POSITION",
+    "topic_area": "baseball",
+    "season": 29,
+    "air_date": "2013-05-31",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Derek Jeter (2000) & Edgar Renteria (2010)",
+        "response_text": "shortstop",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Mike Schmidt (1980) & Pablo Sandoval (2012)",
+        "response_text": "third base",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Johnny Bench (1976) & Steve Yeager (1981)",
+        "response_text": "catcher",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Tom Glavine (1995) & Curt Schilling (2001)",
+        "response_text": "pitcher",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Donn Clendenon (1969) & Willie Stargell (1979)",
+        "response_text": "first base",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL HOME STADIUMS",
+    "topic_area": "baseball",
+    "season": 17,
+    "air_date": "2001-04-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Camden Yards",
+        "response_text": "the Baltimore Orioles",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Hubert H. Humphrey Metrodome",
+        "response_text": "the Minnesota Twins",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Bank One Ballpark, in Phoenix",
+        "response_text": "the Arizona Diamondbacks",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Olympic Stadium",
+        "response_text": "the Montreal Expos",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Ballpark at Arlington",
+        "response_text": "the Texas Rangers",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MAJOR LEAGUE BASEBALL",
+    "topic_area": "baseball",
+    "season": 40,
+    "air_date": "2024-04-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1957 New York City had 3 MLB teams, these 3",
+        "response_text": "the Giants, the Dodgers & the Yankees",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This fierce competitor from Georgia was the first major leaguer to collect 4,000 hits",
+        "response_text": "Ty Cobb",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "More agile than the nickname \"Pudge\" suggests, catcher Iván Rodriguez won 13 of these awards as the best fielder at his position",
+        "response_text": "a Gold Glove",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "National League pitchers' feeble swings became a thing of the past in 2022 as both leagues now have this position",
+        "response_text": "a designated hitter",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In the 1950s this NL team temporarily changed its name so as not to be associated with communism",
+        "response_text": "the (Cincinnati) Reds",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MLB TEAM NAMES, DEFINED",
+    "topic_area": "baseball",
+    "season": 38,
+    "air_date": "2022-02-02",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A nod to Catholic missionaries once prevalent in the area",
+        "response_text": "the Padres",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1890 they stole a player from Philadelphia's team & got this nickname",
+        "response_text": "the Pirates",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "For a viper with a rattle at the end of its tail",
+        "response_text": "the Diamondbacks",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Named after a law enforcement agency that dates back to the 1820s",
+        "response_text": "the Rangers",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "For those who had to get out of the way of NYC trolleys back in the day",
+        "response_text": "the Dodgers",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL'S BIG NUMBERS",
+    "topic_area": "baseball",
+    "season": 37,
+    "air_date": "2021-06-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This legendary Braves slugger who's first on the all-time RBI list with 2,297 passed away in 2021",
+        "response_text": "Hank Aaron (Hammerin' Hank)",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "During his career he had a record 14,053 official at-bats; maybe that's why he's also the career hits leader",
+        "response_text": "Pete Rose",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1973 & 1974 this California Angels pitcher hurled a total of 750 strikeouts, the most ever in 2 straight years",
+        "response_text": "Nolan Ryan",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He is the only player in MLB history to walk more than 200 times in one season; he got 232 free passes in 2004",
+        "response_text": "Barry Bonds",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "With Negro League stats now part of Major League history, this slugger may claim the title of \"last .400 hitter\\\"",
+        "response_text": "Josh Gibson",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "IT'S BASEBALL",
+    "topic_area": "baseball",
+    "season": 24,
+    "air_date": "2007-10-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Hi, I'm Curt Schilling.) Randy Johnson & I were co-MVPs of the 2001 World Series, receiving this award named for a great Yankee slugger",
+        "response_text": "the Babe Ruth Award",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 2005 the Angels changed their full name to the Los Angeles Angels of this city",
+        "response_text": "Anaheim",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Inducted into baseball's Hall of Fame in July 2007, he won 8 N.L. batting titles during his 20-year career as a Padre",
+        "response_text": "Tony Gwynn",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1962 this Dodger shortstop stole 104 bases, breaking Ty Cobb's 47-year-old record",
+        "response_text": "Maury Wills",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Over the past 75 years, only one pitcher has won more than 30 games in a season—this Tiger in 1968",
+        "response_text": "Denny McLain",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL NICKNAMES",
+    "topic_area": "baseball",
+    "season": 28,
+    "air_date": "2011-10-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"A-Rod\\\"",
+        "response_text": "Alex Rodriguez",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"The Lip\\\"",
+        "response_text": "Leo Durocher",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Dr. K\\\"",
+        "response_text": "Dwight Gooden",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Hall of Famer \"Eck\\\"",
+        "response_text": "Dennis Eckersley",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"The Scooter\" of the Bronx",
+        "response_text": "Phil Rizzuto",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BASEBALL ABBREVIATIONS",
+    "topic_area": "baseball",
+    "season": 28,
+    "air_date": "2012-06-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "E",
+        "response_text": "an error",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "RBI",
+        "response_text": "runs batted in",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "DP",
+        "response_text": "double play",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "HBP",
+        "response_text": "hit by pitch",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "OBP",
+        "response_text": "on-base percentage",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "IN THE BASEBALL TEAM'S LINEUP",
+    "topic_area": "baseball",
+    "season": 40,
+    "air_date": "2023-10-16",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1969: Ed Kranepool, Bud Harrelson & Tom Seaver... what an amazin' team",
+        "response_text": "the (Miracle) Mets",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1975: Fred Lynn, Bernie Carbo & Carlton Fisk, who will always wave it fair",
+        "response_text": "the Boston Red Sox",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1994: David Justice, Greg Maddux & Deion Sanders, moonlighting from the gridiron",
+        "response_text": "the Atlanta Braves",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "1906: Charley O'Leary, Pinky Lindsay & here's one who might help a bit... Ty Cobb",
+        "response_text": "the Detroit Tigers",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "2009: 2B Chase Utley, SS Jimmy Rollins, P Cole Hamels",
+        "response_text": "Philadelphia Phillies",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "EXPRESSIONS FROM BASEBALL",
+    "topic_area": "baseball",
+    "season": 31,
+    "air_date": "2014-11-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Your figures are pretty close, definitely in this place",
+        "response_text": "the ballpark",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Things aren't looking good; it's like we've already got this pair against us",
+        "response_text": "two strikes",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Dinner with your aunt? I can't do it until her next visit, so I've got to take this",
+        "response_text": "a rain check",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Don't worry, I'll keep you informed; I'll do this briefly with you after I get back",
+        "response_text": "touch base",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Most of the world doesn't care how we pick Daily Doubles; that's real this 2-word phrase",
+        "response_text": "inside baseball",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PRO BASEBALL TEAMS",
+    "topic_area": "baseball",
+    "season": 34,
+    "air_date": "2018-03-30",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "When they started play in 1995, they had a devil of a name",
+        "response_text": "the (Tampa Bay) Rays",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This team's offices are on West Camden Street",
+        "response_text": "the Orioles",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 2017 their 104 wins led the majors but they came up 1 win short in the World Series",
+        "response_text": "the Dodgers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The team that began life in Canada in 1969 is today known as this",
+        "response_text": "the Washington Nationals",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This West Coast team is the only one whose team city & name are both in Spanish",
+        "response_text": "the San Diego Padres",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ALSO A BASEBALL TERM",
+    "topic_area": "baseball",
+    "season": 39,
+    "air_date": "2023-02-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Completes the name of an exhibit about sailor life at the U.S.S. Constitution Museum, \"all hands...\\\"",
+        "response_text": "on deck",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's the unfortunate & illegal event when a Chevy smashes into a Volvo & then just takes off",
+        "response_text": "a hit & run",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Denny's original this is 2 pancakes, 2 bacon strips, 2 sausage links & 2 eggs",
+        "response_text": "a grand slam",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This type of 1930s film comedy was typified by \"Bringing Up Baby\" & \"The Awful Truth\\\"",
+        "response_text": "screwball",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "& Here's the non-pitch... synonyms for this include to resist or refuse",
+        "response_text": "to balk",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "LITTLE LEAGUE BASEBALL",
+    "topic_area": "baseball",
+    "season": 24,
+    "air_date": "2008-06-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Jimmy pitches one up from Williamsport, PA.) In the major leagues, this goes to about halfway up the torso; in Little League, it goes to the armpits",
+        "response_text": "the strike zone",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Jimmy lays another clue down from Williamsport, PA.) Unlike Major League Baseball, Little League batters may use non-wood bats; most are made of this metal that has a distinctive sound when it meets the ball",
+        "response_text": "aluminum",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Jimmy reports from a distance from Williamsport, PA.) The distance between the bases in Little League is this many feet, two-thirds that of Major League Baseball",
+        "response_text": "60 feet",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Jimmy gives us another clue from Williamsport, PA.) Little League games are shorter than big league ones, so as a dramatic moment, as Kyle comes to bat in the last regulation inning, the bottom of this",
+        "response_text": "the sixth inning",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Jimmy preserves another one for us from Williamsport, PA.) I'm caught between the bases, and I've gotten myself into one of these; it's also called a pickle, because that's what I'm in",
+        "response_text": "a rundown",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "2009 MLB RECAP",
+    "topic_area": "baseball",
+    "season": 26,
+    "air_date": "2010-04-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "They had the best regular-season record, 103-59",
+        "response_text": "the New York Yankees",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Shortly after coming back from a 50-game suspension, this Dodger hit a pinch-hit grand slam to beat the Reds",
+        "response_text": "Manny Ramirez",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Angels skipper didn't have a so-so year; he led the team to the postseason & was Manager of the Year",
+        "response_text": "Mike Scioscia",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "On August 23, Philadelphia 2B Eric Bruntlett became the 15th major leaguer to pull off an unassisted one of these",
+        "response_text": "a triple play",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This team came from 7 games behind to catch the Tigers & beat them in a one-game playoff for the AL Central title",
+        "response_text": "the Minnesota Twins",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "CURSES! BASEBALL!",
+    "topic_area": "baseball",
+    "season": 39,
+    "air_date": "2023-05-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Curse of William Penn hit this city's teams after Liberty Place Tower exceeded the height of Penn's statue on city hall",
+        "response_text": "Philadelphia",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Curse of the Bambino loomed over this team from 1920, after it traded Babe Ruth, until 2004, when it finally won a World Series",
+        "response_text": "the Red Sox",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Japan's Hanshin Tigers have felt the Curse of the Colonel since 1985, when fans threw a statue of this fast-food icon into a river",
+        "response_text": "Colonel Sanders",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Curse of Coogan's Bluff, site of the Polo Grounds, hit this team after it left New York & lingered until the 2010 World Series",
+        "response_text": "the San Francisco Giants",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The Bobblehead Curse is said to jinx this team's stars who've been thus honored, like Mike Piazza & Johan Santana",
+        "response_text": "the New York Mets",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MAJOR LEAGUE BASEBALL",
+    "topic_area": "baseball",
+    "season": 16,
+    "air_date": "2000-06-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On Sept. 13, 1998 this Cubs slugger surpassed Roger Maris' home run record; however, Mark McGwire did it 5 days earlier",
+        "response_text": "Sammy Sosa",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "On Feb. 28, 2000 this Yankee received a one-year suspension for violating MLB's drug policy",
+        "response_text": "Darryl Strawberry",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In the 1999 All-Star Game, this Red Sox ace struck out the first 4 batters he faced as the AL beat the NL",
+        "response_text": "Pedro Martinez",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Yankee catcher holds the World Series record for most hits with 71",
+        "response_text": "Yogi Berra",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1997 this 6' 10\" Seattle Mariners lefty became the first pitcher in his team's history to win 20 games",
+        "response_text": "Randy Johnson",
+        "dollar_value": 1000
+      }
+    ]
+  }
+]

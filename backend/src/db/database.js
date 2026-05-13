@@ -32,9 +32,13 @@ export async function initializeDatabase() {
   const schema = `
     CREATE TABLE IF NOT EXISTS categories (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
-      name TEXT UNIQUE NOT NULL,
+      name TEXT NOT NULL,
       slug TEXT UNIQUE NOT NULL,
       description TEXT,
+      topic_area TEXT,
+      season INTEGER,
+      air_date TEXT,
+      round TEXT,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
 
@@ -44,6 +48,7 @@ export async function initializeDatabase() {
       response_text TEXT NOT NULL,
       category_id INTEGER NOT NULL,
       difficulty_level INTEGER DEFAULT 1,
+      dollar_value INTEGER,
       source TEXT,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       FOREIGN KEY (category_id) REFERENCES categories(id)
@@ -60,6 +65,7 @@ export async function initializeDatabase() {
 
     CREATE INDEX IF NOT EXISTS idx_clues_category ON clues(category_id);
     CREATE INDEX IF NOT EXISTS idx_clues_difficulty ON clues(difficulty_level);
+    CREATE INDEX IF NOT EXISTS idx_categories_topic ON categories(topic_area);
   `;
 
   // Execute schema
