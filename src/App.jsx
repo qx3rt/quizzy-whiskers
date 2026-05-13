@@ -72,10 +72,12 @@ function answersMatch(userAnswer, correctAnswer) {
     return true
   }
 
-  if (
-    correctAnswer.includes(userAnswer) ||
-    userAnswer.includes(correctAnswer)
-  ) {
+  // Allow the user to have typed the correct answer as a substring of a longer
+  // response (e.g. extra context), but only when the correct answer is long
+  // enough that a coincidental substring match is unlikely (>= 6 chars).
+  // Intentionally NOT checking correctAnswer.includes(userAnswer) — that
+  // direction lets any substring of the answer (even a single letter) pass.
+  if (correctAnswer.length >= 6 && userAnswer.includes(correctAnswer)) {
     return true
   }
 
