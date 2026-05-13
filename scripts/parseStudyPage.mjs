@@ -168,7 +168,7 @@ function extractStudyClues(html) {
 }
 
 async function saveProcessedClues(clues) {
-  const outputPath = path.resolve(`data/processed/${outputName}-study-clues.json`)
+  const outputPath = path.resolve(`backend/data/processed/${outputName}-study-clues.json`)
   await fs.writeFile(outputPath, JSON.stringify(clues, null, 2), 'utf8')
   return outputPath
 }
