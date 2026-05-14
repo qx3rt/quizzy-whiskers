@@ -1,73 +1,5 @@
 [
   {
-    "name": "PHILOSOPHY THROUGH THE AGES",
-    "topic_area": "philosophy",
-    "season": 29,
-    "air_date": "2013-06-18",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The Lun-Yu, or \"Analects\", is considered the most reliable source of this philosopher's teachings",
-        "response_text": "Confucius",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Be strong & don't complain when I tell you little survives of the works of Panaetius, who brought this -ism to Rome",
-        "response_text": "stoicism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Medieval thinkers wondered how god could be this, meaning \"being everywhere\", if he's not even material",
-        "response_text": "omnipresent",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "During his 11 years as a student at the U. of Copenhagen, he wrote, \"What is truth but to live for an idea?\\\"",
-        "response_text": "(Søren) Kierkegaard",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This 19th century German's theory of dialectical progression was a major influence on Karl Marx",
-        "response_text": "Hegel",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 17,
-    "air_date": "2001-01-17",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Ethicists criticize the common maxim \"The end justifies\" these",
-        "response_text": "the means",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Schlegel was a romantic philosopher; this rhyming contemporary theorized about the dialectic",
-        "response_text": "Hegel",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "John Rawls' influential \"A Theory of\" this equates it simply with fairness",
-        "response_text": "Justice",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The moral type of this \"ism\" insists that each society be judged by its own standards",
-        "response_text": "relativism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This philosophy asserts free will; the political party \"is committed to America's heritage of freedom\\\"",
-        "response_text": "libertarianism",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
     "name": "PHILOSOPHY",
     "topic_area": "philosophy",
     "season": 24,
@@ -102,341 +34,35 @@
     ]
   },
   {
-    "name": "PHILOSOPHERS",
+    "name": "PHILOSOPHY THROUGH THE AGES",
     "topic_area": "philosophy",
-    "season": 11,
-    "air_date": "1995-05-22",
+    "season": 29,
+    "air_date": "2013-06-18",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "This American philosopher lived with R.W. Emerson before & after his time at Walden Pond",
-        "response_text": "Thoreau",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Ernst Haeckel's work popularized this British naturalist's ideas to German speakers",
-        "response_text": "Charles Darwin",
+        "clue_text": "The Lun-Yu, or \"Analects\", is considered the most reliable source of this philosopher's teachings",
+        "response_text": "Confucius",
         "dollar_value": 400
       },
       {
-        "clue_text": "The influence of Schopenhauer can be seen in the early work of this \"Beyond Good and Evil\" philosopher",
-        "response_text": "Nietzsche",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In his 1762 treatise \"The Social Contract\", this Swiss-French philosopher made a case for civil rights",
-        "response_text": "Rousseau",
+        "clue_text": "Be strong & don't complain when I tell you little survives of the works of Panaetius, who brought this -ism to Rome",
+        "response_text": "stoicism",
         "dollar_value": 800
       },
       {
-        "clue_text": "In 1911 Ludwig Wittgenstein went to Cambridge to study with this philosopher- mathematician",
-        "response_text": "Bertrand Russell",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 41,
-    "air_date": "2025-02-17",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In ethics, the opposite of being altruistic is being this, from the Latin for \"I\\\"",
-        "response_text": "egotistic (egoistic)",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Nick Bostrom is known for his argument that we are living in this, run by posthuman intelligences on their machines",
-        "response_text": "a simulation",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "You can be this kind of doubter about religion or UFOs; in philosophy it's a guy like David Hume, saying we can't know much of anything",
-        "response_text": "skeptic",
+        "clue_text": "Medieval thinkers wondered how god could be this, meaning \"being everywhere\", if he's not even material",
+        "response_text": "omnipresent",
         "dollar_value": 1200
       },
       {
-        "clue_text": "P.I. is philosophy shorthand for this issue, with questions like how do I know I am the same Ken I was 25 years ago?",
-        "response_text": "personal identity",
+        "clue_text": "During his 11 years as a student at the U. of Copenhagen, he wrote, \"What is truth but to live for an idea?\\\"",
+        "response_text": "(Søren) Kierkegaard",
         "dollar_value": 1600
       },
       {
-        "clue_text": "18th c. esthetics used this adjective for things awesome, not just pretty; Edmund Burke called it \"the strongest of all the passions\\\"",
-        "response_text": "the sublime",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 8,
-    "air_date": "1992-05-13",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "He called Hegel a \"mighty thinker\" in his afterword to the 2nd edition of \"Das Kapital\\\"",
-        "response_text": "Marx",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "First name shared by Kant & Swedenborg, though they spelled it differently",
-        "response_text": "Immanuel (Emanuel)",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "One group of this early mathematician's followers was known as the Mathematikoi",
-        "response_text": "Pythagoras",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Speusippus accompanied this man on his journey to Sicily & later became head of his academy",
-        "response_text": "Plato",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This Jewish philosopher was born in Amsterdam in 1632 to Portuguese parents",
-        "response_text": "Spinoza",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 13,
-    "air_date": "1997-04-15",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The ontological proof for this states there must be a being so great that none greater can be imagined",
-        "response_text": "God",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Abortion & euthanasia are current topics in this study of the principles of human conduct",
-        "response_text": "ethics",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Empirical & a priori are 2 types of this, the subject of epistemology",
-        "response_text": "knowledge",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This \"ism\" denies free will, saying all events & choices have been decided by earlier causes",
-        "response_text": "Determinism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In Hegel's theory of progress, this emerges from the conflict between thesis & antithesis",
-        "response_text": "synthesis",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 1,
-    "air_date": "1985-04-10",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "\\\"Consume, imbibe & swing\" is another way of stating this hedonistic philosophy",
-        "response_text": "eat, drink & be merry",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Effect is the immediate result of this",
-        "response_text": "cause",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Rodin aptly expressed the task of a philosopher in this famous statue",
-        "response_text": "The Thinker",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Method of reasoning which goes from general statements to specific conclusions",
-        "response_text": "deduction (deductive method or deductive reasoning)",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Philosophy portrayed in More's \"Utopia\" & personified in Don Quixote's tilting at windmills",
-        "response_text": "idealism",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHERS' COUNTRY OF BIRTH",
-    "topic_area": "philosophy",
-    "season": 27,
-    "air_date": "2010-10-22",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Thomas Hobbes, William of Ockham",
-        "response_text": "Britain",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Pico Della Mirandola, Boethius",
-        "response_text": "Italy",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "John Dewey, John Rawls",
-        "response_text": "the U.S.",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Desidierius Erasmus, Baruch Spinoza",
-        "response_text": "the Netherlands",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Robert Boyle, George Berkeley",
-        "response_text": "Ireland",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 35,
-    "air_date": "2019-03-29",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "18th c. ethics said actions of virtue are virtuous & actions of vice are this adjective, which today we use for a snarling dog",
-        "response_text": "vicious",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This -ism, the idea that life is for pleasure, became the name of a clothing-optional resort in Jamaica",
-        "response_text": "hedonism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"You can always make something out of what you've been made into\" expresses the thought of this French existentialist",
-        "response_text": "(Jean-Paul) Sartre",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In Indian thought prana is vital energy; the word is Sanskrit for this body function, a key part of yoga exercises",
-        "response_text": "breathing",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "13-letter term for the state of being aware; the \"hard problem\" of it is how to explain it using just the brain's physiology",
-        "response_text": "consciousness",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 27,
-    "air_date": "2011-05-20",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "A major figure in logic, he is perhaps best known for his love affair with a student named Heloise",
-        "response_text": "(Peter) Abelard",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Followers of this 13th Century Italian thinker are known as Thomists",
-        "response_text": "Thomas Aquinas",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This Danish thinker often attacked the evangelical Lutheran Church, saying there were no true Christians among its members",
-        "response_text": "Kierkegaard",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In \"The Social Contract\", this French thinker claimed that \"Man is born free; and everywhere he is in chains\\\"",
-        "response_text": "Rousseau",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "After this lantern-carrying Greek's death, a marble dog was placed on top of his monument in Corinth",
-        "response_text": "Diogenes",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 11,
-    "air_date": "1994-11-23",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Cartesianism is named for this 17th century French philosopher",
-        "response_text": "René Descartes",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In 1597 in his \"Religious Meditations\", Francis Bacon wrote that this \"is power\\\"",
-        "response_text": "Knowledge",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "\\\"Beauty is a matter of size and order\", he wrote in his \"Poetics\\\"",
-        "response_text": "Aristotle",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The French title of this Sartre work is \"L'Etre Et Neant\\\"",
-        "response_text": "\\\"Being And Nothingness\\\"",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This Dane published his concluding unscientific postscript under the pseudonym Johannes Climacus",
-        "response_text": "Soren Kierkegaard",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 24,
-    "air_date": "2007-10-19",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Heidegger said \"Sein zum Tode\", or one's awareness of & readiness for this event, is the key to authentic being",
-        "response_text": "death",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "A \"Jeopardy!\" game has 13 of these; medieval writers believed there were exactly 10, including place & time",
-        "response_text": "categories",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This -ism is the belief in God's existence; the \"process\" type has God in some ways affected by & changing with time",
-        "response_text": "theism",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Also a Paine title, this 18th C. theory said come on, sure the world exists, it's not just all in your head",
-        "response_text": "common sense",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "If you want to know what it is to know & how what we know is known, we know you'll like this branch of philosophy",
-        "response_text": "epistemology",
+        "clue_text": "This 19th century German's theory of dialectical progression was a major influence on Karl Marx",
+        "response_text": "Hegel",
         "dollar_value": 2000
       }
     ]
@@ -476,409 +102,35 @@
     ]
   },
   {
-    "name": "FAMOUS PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 9,
-    "air_date": "1993-01-01",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "He was sentenced to death in 399 B.C. for questioning tradition in Athens",
-        "response_text": "Socrates",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Francois Marie Arouet wrote his most famous story, \"Candide\", under this pen name",
-        "response_text": "Voltaire",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This Frenchman set forth his Existentialist ideas in his 1st major work, the 1938 novel \"Nausea\\\"",
-        "response_text": "Jean-Paul Sartre",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In 1886 he published \"Beyond Good and Evil\" to correct any misconceptions about the Superman",
-        "response_text": "Nietzsche",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In 1770 this author of \"Critique of Pure Reason\" became a professor at the University of Konigsberg",
-        "response_text": "Immanuel Kant",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "ETHICS",
-    "topic_area": "philosophy",
-    "season": 28,
-    "air_date": "2011-11-11",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "J.G. Fichte made ethics a matter of doing one's this around the same time Lord Nelson was expecting each man to \"do his\" this",
-        "response_text": "duty",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "A book called \"Ethical\" this dietary practice covers Pythagoras, Shelley & Gandhi",
-        "response_text": "Vegetarianism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Washington Hospital Center has a 35-member committee on this to help sort out painful decisions",
-        "response_text": "bioethics",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Monistic theories reduce the search for good to one thing, like pleasure in the case of this theory",
-        "response_text": "hedonism",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "The idea that the good can be objectively found is part of this -ism, also referring to obsessively high standards",
-        "response_text": "perfectionism",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
     "name": "PHILOSOPHY",
     "topic_area": "philosophy",
-    "season": 3,
-    "air_date": "1987-03-17",
+    "season": 21,
+    "air_date": "2004-11-24",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "Act which led Descartes to conclude, \"...therefore I am\\\"",
-        "response_text": "I think",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "It's said Aristophanes' mockery helped lead to a death sentence for this philosopher",
-        "response_text": "Socrates",
+        "clue_text": "Anti-civilization philosopher Jean-Jacques Rousseau advocated man's \"Return to\" this",
+        "response_text": "Nature",
         "dollar_value": 400
       },
       {
-        "clue_text": "Deductive reasoning leads to valid conclusions, while this type leads only to probabilities",
-        "response_text": "inductive reasoning",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Will & Ariel Durant defined the era between 1558 & 1648 as the \"Age of ...\" this",
-        "response_text": "Reason",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Son of the Count of Aquino, this medieval philosopher went on to become patron saint of Catholic school",
-        "response_text": "Thomas Aquinas",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 6,
-    "air_date": "1989-12-11",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "After Socrates died, this philosopher left Athens but later returned to found the Academy",
+        "clue_text": "This ancient philosopher wrote about a theory of forms in his \"Republic\\\"",
         "response_text": "Plato",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Italian scholastic philosopher whose followers are known as Thomists",
-        "response_text": "St. Thomas Aquinas",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Philosophical movement most associated with Jean-Paul Sartre",
-        "response_text": "existentialism",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Nobel Prize-winning English philosopher who wrote \"Principles of Mathematics\" & was an anti-nuclear activist",
-        "response_text": "Bertrand Russell",
         "dollar_value": 800
       },
       {
-        "clue_text": "His \"Essay Concerning Human Understanding\" says the mind is a tabula rasa, or clean slate, at birth",
-        "response_text": "John Locke",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 10,
-    "air_date": "1994-07-20",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "\\\"The Founder of Modern Socialism\" is a nickname of this German Communist philosopher",
-        "response_text": "Karl Marx",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "T.H. Huxley was a powerful advocate of the ideas implicit in this man's \"Origin of Species\\\"",
-        "response_text": "Darwin",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This branch of philosophy deals with the rules of correct reasoning in the form of arguments",
-        "response_text": "logic",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The ideas of this Danish existentialist were little appreciated until a century after they appeared",
-        "response_text": "Kierkegaard",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "He wrote \"Thus Spake Zarathustra\" after resigning a classics professorship at the Univ. of Basel",
-        "response_text": "Nietzsche",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 18,
-    "air_date": "2001-11-30",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Hillel phrased this \"precious\" rule negatively, saying don't do to others what you wouldn't want done to you",
-        "response_text": "the Golden Rule",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "A Florida city is named for this medieval author of \"The City of God\\\"",
-        "response_text": "St. Augustine",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Parmenides, Mr. One Unchanging Reality, was a major thinker pre-this man born around 470 B.C.",
-        "response_text": "Socrates",
+        "clue_text": "Kierkegaard said that God telling Abraham to do this in Genesis 22 is an example of absurdity in religion",
+        "response_text": "sacrifice his son (kill Isaac)",
         "dollar_value": 1200
       },
       {
-        "clue_text": "Expelled from Germany in 1849, he lived his last 30 years in the British kapital",
-        "response_text": "Karl Marx",
+        "clue_text": "Ancient Greek philosopher from Samos whose school promoted pleasure & let women & slaves join, too",
+        "response_text": "Epicurus",
         "dollar_value": 1600
       },
       {
-        "clue_text": "Jacques Lacan revised this philosopher's idea as \"Where I think, 'I think, therefore I am', that is where I am not\\\"",
-        "response_text": "Rene Descartes",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 26,
-    "air_date": "2010-01-07",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Alfred Whitehead said that Europe's philosophical tradition \"consists of a series of footnotes to\" this Greek",
-        "response_text": "Plato",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Ralph Waldo Emerson once employed this thinker as a gardener & handyman",
-        "response_text": "Thoreau",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In the 19th century he attacked Denmark's Lutheran church, questioning its true Christianity",
-        "response_text": "Kierkegaard",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "The first years of the life of this 5th c. philosopher are mostly known from his autobiographical \"Confessions\\\"",
-        "response_text": "Saint Augustine",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "According to his \"razor\"-sharp philosophy, a problem should be stated in its simplest & most basic terms",
-        "response_text": "(William of) Occam",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "A WORK OF PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 23,
-    "air_date": "2007-02-23",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The title of this Plato work refers to Socrates' defense of his actions, not to being sorry",
-        "response_text": "Apologia",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "John Locke influenced future democracies with \"Two Treatises of\" this",
-        "response_text": "Government",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Fury at religion led Nietzsche to title a book this, the enemy of the savior",
-        "response_text": "The Antichrist",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "It's sensible to bet that God exists, says the Pascal work \"Pensees\", whose title means these",
-        "response_text": "thoughts",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Karl Marx was heavily influenced by this German's \"Phenomenology of Mind\\\"",
-        "response_text": "Hegel",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 13,
-    "air_date": "1996-09-20",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Transcendentalist philosopher & teacher Bronson Alcott was this author's father",
-        "response_text": "Louisa May Alcott",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In Chinese this influential philosopher is called K'ung Fu-Tzu",
-        "response_text": "Confucius",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 1604 philosopher Francis Bacon advocated Union between England & this part of the U.K.",
-        "response_text": "Scotland",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Philosopher Brunetto Latini influenced this poet, who made him a character in \"The Divine Comedy\\\"",
-        "response_text": "Dante",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Jeremy Bentham founded this doctrine whose name comes from utilis, Latin for \"useful\\\"",
-        "response_text": "utilitarianism",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 26,
-    "air_date": "2010-06-16",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "You shouldn't put this French \"Discourse on Method\" author before the horse",
-        "response_text": "Descartes",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Kukai & Saicho were major philosophers of this country's Heian period",
-        "response_text": "Japan",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Plato & Xenophon left accounts of this philosopher who wrote nothing himself",
-        "response_text": "Socrates",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The argument that the mind at birth is a blank slate is \"key\" to his 1690 \"Essay Concerning Human Understanding\\\"",
-        "response_text": "John Locke",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This 3-named British political theorist who wrote \"On Liberty\" was also a major utilitarian philosopher",
-        "response_text": "(John Stuart) Mill",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 31,
-    "air_date": "2014-12-17",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "David Hume said the love of this, which a witness is asked to tell, \"never is, nor can be carried to too high a degree\\\"",
-        "response_text": "the truth",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "According to Hegelian dialectic, this is the solution to the 2 opposites thesis & antithesis",
-        "response_text": "synthesis",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In his 1886 work \"Beyond Good and Evil\", he expounded on his concept of the Superman",
-        "response_text": "Nietzsche",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Metaphysics is often divided into 2 areas: ontology, the study of being, & this, the study of the physical universe",
-        "response_text": "cosmology",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This English philosopher said it's \"necessary to distinguish...the business of civil government from that of religion\\\"",
-        "response_text": "John Locke",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY GLOSSARY",
-    "topic_area": "philosophy",
-    "season": 26,
-    "air_date": "2010-04-21",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Camus & Buber were big in this movement that said humans were fully responsible for making meaning of their own lives",
-        "response_text": "existentialism",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The name of this study of moral principles is derived from a Greek word meaning \"habit\\\"",
-        "response_text": "ethics",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This philosophical movement holds that the truth value of a proposition lies in its practicality",
-        "response_text": "pragmatism",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Founded by Zeno of Citium, this -ism is the belief that detachment & self-control enable one to argue in an unbiased fashion",
-        "response_text": "stoicism",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "\\\"Every virtue is laudable. Kindness is a virtue. Therefore, kindness is laudable\" is a logical this",
-        "response_text": "syllogism",
+        "clue_text": "This Scot wanted to change the course of philosophy with his 1739-1740 \"A Treatise of Human Nature\\\"",
+        "response_text": "David Hume",
         "dollar_value": 2000
       }
     ]
@@ -920,34 +172,68 @@
   {
     "name": "PHILOSOPHY",
     "topic_area": "philosophy",
-    "season": 8,
-    "air_date": "1992-01-23",
+    "season": 24,
+    "air_date": "2007-10-19",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "Protagoras said, \"There are\" this many \"sides to every question\\\"",
-        "response_text": "2",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This famous Rene said, \"It is not enough to have a good mind. The main thing is to use it well\\\"",
-        "response_text": "Descartes",
+        "clue_text": "Heidegger said \"Sein zum Tode\", or one's awareness of & readiness for this event, is the key to authentic being",
+        "response_text": "death",
         "dollar_value": 400
       },
       {
-        "clue_text": "The Baron de Montesquieu said, \"A man should be mourned at\" this event, \"not at his death\\\"",
-        "response_text": "his birth",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This future leader of existentialism graduated from the Ecole Normale Superieure in 1929",
-        "response_text": "Jean-Paul Sartre",
+        "clue_text": "A \"Jeopardy!\" game has 13 of these; medieval writers believed there were exactly 10, including place & time",
+        "response_text": "categories",
         "dollar_value": 800
       },
       {
-        "clue_text": "17th century Dutch Jewish philosopher who said, \"Peace is not an absence of war, it is a virtue\\\"",
-        "response_text": "Spinoza",
-        "dollar_value": 1000
+        "clue_text": "This -ism is the belief in God's existence; the \"process\" type has God in some ways affected by & changing with time",
+        "response_text": "theism",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Also a Paine title, this 18th C. theory said come on, sure the world exists, it's not just all in your head",
+        "response_text": "common sense",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "If you want to know what it is to know & how what we know is known, we know you'll like this branch of philosophy",
+        "response_text": "epistemology",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 36,
+    "air_date": "2019-11-25",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Our discussion is ...on the right way to conduct our lives\", this Greek philosopher wrote in \"The Republic\\\"",
+        "response_text": "Plato",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "According to Karl Marx, this is \"the opium of the people\\\"",
+        "response_text": "religion",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A persistent issue in bioethics is the fate of patients in PVS, persistent this state",
+        "response_text": "vegetative",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This English liberal philosopher and author of two treatises on government helped inspire the Declaration of Independence",
+        "response_text": "John Locke",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Francis Bacon is considered a father of this school of philosophy that holds that all knowledge comes from experience",
+        "response_text": "empiricism",
+        "dollar_value": 2000
       }
     ]
   },
@@ -986,35 +272,205 @@
     ]
   },
   {
-    "name": "THAT'S MY PHILOSOPHY",
+    "name": "PHILOSOPHY",
     "topic_area": "philosophy",
-    "season": 37,
-    "air_date": "2021-05-31",
+    "season": 10,
+    "air_date": "1994-03-24",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "\\\"Je pense, donc je suis\" is how I originally wrote my best-known philosophical phrase",
-        "response_text": "(René) Descartes",
+        "clue_text": "He & his collaborator Engels were both members of the Young Hegelian philosophical group",
+        "response_text": "(Karl) Marx",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In Plato's \"Crito\", this philosopher argues that it's important to live honorably, not just to live",
+        "response_text": "Socrates",
         "dollar_value": 400
       },
       {
-        "clue_text": "Oui, in a 1946 essay I expounded on the idea that \"Existence precedes essence\\\"",
-        "response_text": "Jean-Paul Sartre",
+        "clue_text": "His \"Analects\" say that the Chun-Tzu is one who practices jen in accordance with li",
+        "response_text": "Confucius",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In \"Being and Nothingness\", he wrote that man must realize \"he is alone, abandoned on Earth...\\\"",
+        "response_text": "Jean Paul Sartre",
         "dollar_value": 800
       },
       {
-        "clue_text": "\\\"God is dead! God remains dead! And we have killed him!\" Yep, I wrote that in 1882",
+        "clue_text": "This 19th century Dane divided men into 3 groups: aesthetes, ethical men & religious men",
+        "response_text": "Kierkegaard",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "FAMOUS PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 9,
+    "air_date": "1993-01-01",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He was sentenced to death in 399 B.C. for questioning tradition in Athens",
+        "response_text": "Socrates",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Francois Marie Arouet wrote his most famous story, \"Candide\", under this pen name",
+        "response_text": "Voltaire",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Frenchman set forth his Existentialist ideas in his 1st major work, the 1938 novel \"Nausea\\\"",
+        "response_text": "Jean-Paul Sartre",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1886 he published \"Beyond Good and Evil\" to correct any misconceptions about the Superman",
         "response_text": "Nietzsche",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1770 this author of \"Critique of Pure Reason\" became a professor at the University of Konigsberg",
+        "response_text": "Immanuel Kant",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 39,
+    "air_date": "2022-09-15",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Some say this 2-word concept of desire & decision isn't real; experiments show people exposed to that viewpoint behave worse",
+        "response_text": "free will",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Antisthenes has been credited with starting this Greek sect, now the -ism that says people are only out for themselves",
+        "response_text": "cynicism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Man is by nature a political animal\", wrote this ancient Greek in his \"Politics\\\"",
+        "response_text": "Aristotle",
         "dollar_value": 1200
       },
       {
-        "clue_text": "\\\"Now the cave or den is the world of sight, the fire is the sun, the way upward is the way to knowledge\"—hey, that's mine!",
-        "response_text": "Plato",
+        "clue_text": "Kant wrote \"Critiques\" of pure & practical this, the method of making logical correlations",
+        "response_text": "Reason",
         "dollar_value": 1600
       },
       {
-        "clue_text": "I was born in Edinburgh in 1711, 28 years before I published the first volumes of \"A Treatise of Human Nature\\\"",
-        "response_text": "(David) Hume",
+        "clue_text": "2 basic approaches in this field are deontology (an act is inherently good or bad) & teleology (depends on the result)",
+        "response_text": "ethics",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 11,
+    "air_date": "1994-09-28",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This Greek wrote his dialogues to help men understand the good life & to goad them into living it",
+        "response_text": "Plato",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The axiom \"Cogito, Ergo Sum\", \"I think, therefore I am\", is his most famous formulation",
+        "response_text": "Descartes",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1918 this future British earl & co-author of \"Principia Mathematica\" was jailed for his radical pacifism",
+        "response_text": "Bertrand Russell",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This term for the philosophical movement of Emerson, Ripley, Thoreau & others was first used derisively",
+        "response_text": "Transcendentalism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The name of this philosophy that began in 19th century Russia comes from the Latin for \"nothing\\\"",
+        "response_text": "nihilism",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 3,
+    "air_date": "1987-03-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Act which led Descartes to conclude, \"...therefore I am\\\"",
+        "response_text": "I think",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's said Aristophanes' mockery helped lead to a death sentence for this philosopher",
+        "response_text": "Socrates",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Deductive reasoning leads to valid conclusions, while this type leads only to probabilities",
+        "response_text": "inductive reasoning",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Will & Ariel Durant defined the era between 1558 & 1648 as the \"Age of ...\" this",
+        "response_text": "Reason",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Son of the Count of Aquino, this medieval philosopher went on to become patron saint of Catholic school",
+        "response_text": "Thomas Aquinas",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY GLOSSARY",
+    "topic_area": "philosophy",
+    "season": 26,
+    "air_date": "2010-04-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Camus & Buber were big in this movement that said humans were fully responsible for making meaning of their own lives",
+        "response_text": "existentialism",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The name of this study of moral principles is derived from a Greek word meaning \"habit\\\"",
+        "response_text": "ethics",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This philosophical movement holds that the truth value of a proposition lies in its practicality",
+        "response_text": "pragmatism",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Founded by Zeno of Citium, this -ism is the belief that detachment & self-control enable one to argue in an unbiased fashion",
+        "response_text": "stoicism",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "\\\"Every virtue is laudable. Kindness is a virtue. Therefore, kindness is laudable\" is a logical this",
+        "response_text": "syllogism",
         "dollar_value": 2000
       }
     ]
@@ -1022,67 +478,101 @@
   {
     "name": "PHILOSOPHERS",
     "topic_area": "philosophy",
-    "season": 30,
-    "air_date": "2014-04-03",
+    "season": 26,
+    "air_date": "2010-06-16",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "This saint's written output was more than 8 million words—& he died around age 50",
-        "response_text": "(Thomas) Aquinas",
+        "clue_text": "You shouldn't put this French \"Discourse on Method\" author before the horse",
+        "response_text": "Descartes",
         "dollar_value": 200
       },
       {
-        "clue_text": "\\\"God remains dead!\" he wrote, \"How can we console ourselves, the murderers of all murderers!\\\"",
-        "response_text": "Nietzsche",
+        "clue_text": "Kukai & Saicho were major philosophers of this country's Heian period",
+        "response_text": "Japan",
         "dollar_value": 400
       },
       {
-        "clue_text": "This Geneva-born guy wrote \"The Social Contract\" & inspired the leaders of the French Revolution",
-        "response_text": "(Jean-Jacques) Rousseau",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "\\\"Wherever law ends, tyranny begins\", wrote this English philosopher who influenced the Founding Fathers",
-        "response_text": "John Locke",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This German, the \"philosopher of pessimism\", had such a gloomy outlook that even his own mother disliked him",
-        "response_text": "Schopenhauer",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 8,
-    "air_date": "1991-09-02",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "An agnostic is waiting for proof of this one way or the other before taking sides",
-        "response_text": "existence of God",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "20th c. British philosopher, mathematician & Earl who said knowledge came only from sense",
-        "response_text": "Bertrand Russell",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The earliest Greek philosophers are known as \"Pre-\" this man known for his method",
+        "clue_text": "Plato & Xenophon left accounts of this philosopher who wrote nothing himself",
         "response_text": "Socrates",
         "dollar_value": 600
       },
       {
-        "clue_text": "American philosopher born in Spain in 1863, he's known for his 1905-06 work, \"The Life of Reason\\\"",
-        "response_text": "George Santayana",
+        "clue_text": "The argument that the mind at birth is a blank slate is \"key\" to his 1690 \"Essay Concerning Human Understanding\\\"",
+        "response_text": "John Locke",
         "dollar_value": 800
       },
       {
-        "clue_text": "Most of the philosophers of the French Enlightenment contributed to his \"Encyclopedie\\\"",
-        "response_text": "(Denis) Diderot",
+        "clue_text": "This 3-named British political theorist who wrote \"On Liberty\" was also a major utilitarian philosopher",
+        "response_text": "(John Stuart) Mill",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "A WORK OF PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 23,
+    "air_date": "2007-02-23",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The title of this Plato work refers to Socrates' defense of his actions, not to being sorry",
+        "response_text": "Apologia",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "John Locke influenced future democracies with \"Two Treatises of\" this",
+        "response_text": "Government",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Fury at religion led Nietzsche to title a book this, the enemy of the savior",
+        "response_text": "The Antichrist",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "It's sensible to bet that God exists, says the Pascal work \"Pensees\", whose title means these",
+        "response_text": "thoughts",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Karl Marx was heavily influenced by this German's \"Phenomenology of Mind\\\"",
+        "response_text": "Hegel",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 11,
+    "air_date": "1994-11-23",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Cartesianism is named for this 17th century French philosopher",
+        "response_text": "René Descartes",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1597 in his \"Religious Meditations\", Francis Bacon wrote that this \"is power\\\"",
+        "response_text": "Knowledge",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Beauty is a matter of size and order\", he wrote in his \"Poetics\\\"",
+        "response_text": "Aristotle",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The French title of this Sartre work is \"L'Etre Et Neant\\\"",
+        "response_text": "\\\"Being And Nothingness\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Dane published his concluding unscientific postscript under the pseudonym Johannes Climacus",
+        "response_text": "Soren Kierkegaard",
         "dollar_value": 1000
       }
     ]
@@ -1090,34 +580,272 @@
   {
     "name": "PHILOSOPHY",
     "topic_area": "philosophy",
-    "season": 21,
-    "air_date": "2004-11-24",
-    "round": "Double Jeopardy!",
+    "season": 38,
+    "air_date": "2021-12-29",
+    "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "Anti-civilization philosopher Jean-Jacques Rousseau advocated man's \"Return to\" this",
-        "response_text": "Nature",
+        "clue_text": "David Hume wrote that in any instance of \"cause and\" this, there's no necessary connection, just a sequence of events",
+        "response_text": "effect",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Thomas Nagel's paper \"What is It Like to Be\" this says we can't know just by imagining eating bugs & hanging upside-down",
+        "response_text": "a bat",
         "dollar_value": 400
       },
       {
-        "clue_text": "This ancient philosopher wrote about a theory of forms in his \"Republic\\\"",
-        "response_text": "Plato",
+        "clue_text": "Pascal's wager is that you may as well hold this belief because that gives you everything to gain & nothing to lose",
+        "response_text": "belief in God",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Rousseau argued that man is happier & morally better not in society but in a \"state of\" this, like wild plants & animals are",
+        "response_text": "nature",
         "dollar_value": 800
       },
       {
-        "clue_text": "Kierkegaard said that God telling Abraham to do this in Genesis 22 is an example of absurdity in religion",
-        "response_text": "sacrifice his son (kill Isaac)",
+        "clue_text": "This adjective for a statement that can't be corrected, like if someone says, \"My foot hurts\", is also used of an always- misbehaving child",
+        "response_text": "incorrigible",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 9,
+    "air_date": "1992-11-13",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Transcendentalist philosopher Bronson Alcott was the father of this famous authoress",
+        "response_text": "Louisa May Alcott",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He got his doctorate in philosophy in 1841 and published \"The Communist Manifesto\" in 1848",
+        "response_text": "Karl Marx",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "His most famous work, \"The Prince\", wasn't published until 5 years after his death",
+        "response_text": "Niccolò Machiavelli",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In \"The Ethics\", Spinoza wrote that nature abhors one of these",
+        "response_text": "a vacuum",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Immanuel Kant is a big name in this field of philosophy, concerned with the ultimate nature of things",
+        "response_text": "metaphysics",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 17,
+    "air_date": "2001-01-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Ethicists criticize the common maxim \"The end justifies\" these",
+        "response_text": "the means",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Schlegel was a romantic philosopher; this rhyming contemporary theorized about the dialectic",
+        "response_text": "Hegel",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "John Rawls' influential \"A Theory of\" this equates it simply with fairness",
+        "response_text": "Justice",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The moral type of this \"ism\" insists that each society be judged by its own standards",
+        "response_text": "relativism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This philosophy asserts free will; the political party \"is committed to America's heritage of freedom\\\"",
+        "response_text": "libertarianism",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHERS' COUNTRY OF BIRTH",
+    "topic_area": "philosophy",
+    "season": 27,
+    "air_date": "2010-10-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Thomas Hobbes, William of Ockham",
+        "response_text": "Britain",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Pico Della Mirandola, Boethius",
+        "response_text": "Italy",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "John Dewey, John Rawls",
+        "response_text": "the U.S.",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Desidierius Erasmus, Baruch Spinoza",
+        "response_text": "the Netherlands",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Robert Boyle, George Berkeley",
+        "response_text": "Ireland",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 22,
+    "air_date": "2006-03-01",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The first Greek philosophers are known as pre-this, for the man known for his method",
+        "response_text": "Socratic",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "From the Greek for \"pleasure\", it's the doctrine that pleasure is the highest good",
+        "response_text": "hedonism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Kant published a \"Critique of Pure\" this in 1781 & Feyerabend published a \"Farewell to\" it in 1987",
+        "response_text": "Reason",
         "dollar_value": 1200
       },
       {
-        "clue_text": "Ancient Greek philosopher from Samos whose school promoted pleasure & let women & slaves join, too",
-        "response_text": "Epicurus",
+        "clue_text": "In \"Essay Concerning Human Understanding\", he argued that we're born with a blank slate, with no innate ideas",
+        "response_text": "John Locke",
         "dollar_value": 1600
       },
       {
-        "clue_text": "This Scot wanted to change the course of philosophy with his 1739-1740 \"A Treatise of Human Nature\\\"",
-        "response_text": "David Hume",
+        "clue_text": "In this work, Nietzsche introduced the concepts of the Ubermensch, or superman, & the will to power",
+        "response_text": "Thus Spake Zarathustra",
         "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 13,
+    "air_date": "1997-04-15",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The ontological proof for this states there must be a being so great that none greater can be imagined",
+        "response_text": "God",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Abortion & euthanasia are current topics in this study of the principles of human conduct",
+        "response_text": "ethics",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Empirical & a priori are 2 types of this, the subject of epistemology",
+        "response_text": "knowledge",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This \"ism\" denies free will, saying all events & choices have been decided by earlier causes",
+        "response_text": "Determinism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In Hegel's theory of progress, this emerges from the conflict between thesis & antithesis",
+        "response_text": "synthesis",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 10,
+    "air_date": "1993-12-03",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Stoics derived their name from a painted porch in this Greek city",
+        "response_text": "Athens",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This church put most of Descartes' books on its Index of Proscribed Literature",
+        "response_text": "the Roman Catholic Church",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Latin name of this great philosophical work by St. Augustine is \"De Civitate Dei\\\"",
+        "response_text": "The City of God",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Frenchman later said that his 1945 lecture on \"Existentialism and Humanism\" was a mistake",
+        "response_text": "Sartre",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Lewis Carroll's 1896 book on the symbolic type of this branch of philosophy was not intended for children",
+        "response_text": "logic",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "YOGI BERRA: PHILOSOPHER",
+    "topic_area": "philosophy",
+    "season": 18,
+    "air_date": "2001-12-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Completes Yogi's simple but profound statement \"It ain't over 'til...\\\"",
+        "response_text": "it's over",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Yogi surmised that in baseball \"90 percent of the game is half\" this",
+        "response_text": "mental",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Yogi once asked that this food dish be cut in 4 pieces because he wasn't hungry enough to eat 8",
+        "response_text": "pizza",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Yogi warned that \"You got to be careful if you don't know where you're going because you might not\" do this",
+        "response_text": "get there",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Yogi once reflected that it was this psychological term \"all over again\\\"",
+        "response_text": "deja vu",
+        "dollar_value": 1000
       }
     ]
   },
@@ -1158,33 +886,509 @@
   {
     "name": "PHILOSOPHY",
     "topic_area": "philosophy",
-    "season": 36,
-    "air_date": "2019-11-25",
+    "season": 29,
+    "air_date": "2013-05-27",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "\\\"Our discussion is ...on the right way to conduct our lives\", this Greek philosopher wrote in \"The Republic\\\"",
-        "response_text": "Plato",
+        "clue_text": "Empiricism believes all knowledge comes from this, which William Blake wrote \"Songs of\\\"",
+        "response_text": "experience",
         "dollar_value": 400
       },
       {
-        "clue_text": "According to Karl Marx, this is \"the opium of the people\\\"",
-        "response_text": "religion",
+        "clue_text": "Scholasticism is a term for the philosophies coming out of these, as opposed to out of the church",
+        "response_text": "universities",
         "dollar_value": 800
       },
       {
-        "clue_text": "A persistent issue in bioethics is the fate of patients in PVS, persistent this state",
-        "response_text": "vegetative",
+        "clue_text": "It's a matter of taste whether to spell this study of beauty with 2 vowels at the start",
+        "response_text": "aestheticism",
         "dollar_value": 1200
       },
       {
-        "clue_text": "This English liberal philosopher and author of two treatises on government helped inspire the Declaration of Independence",
-        "response_text": "John Locke",
+        "clue_text": "Metaphysics studies the real nature of things; meta-these studies the language used in talk of morality",
+        "response_text": "ethics",
         "dollar_value": 1600
       },
       {
-        "clue_text": "Francis Bacon is considered a father of this school of philosophy that holds that all knowledge comes from experience",
-        "response_text": "empiricism",
+        "clue_text": "Plato & Aristotle gave this word for a teacher the meaning \"one who quibbles & argues deviously\\\"",
+        "response_text": "sophist",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 13,
+    "air_date": "1996-09-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Transcendentalist philosopher & teacher Bronson Alcott was this author's father",
+        "response_text": "Louisa May Alcott",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In Chinese this influential philosopher is called K'ung Fu-Tzu",
+        "response_text": "Confucius",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1604 philosopher Francis Bacon advocated Union between England & this part of the U.K.",
+        "response_text": "Scotland",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Philosopher Brunetto Latini influenced this poet, who made him a character in \"The Divine Comedy\\\"",
+        "response_text": "Dante",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Jeremy Bentham founded this doctrine whose name comes from utilis, Latin for \"useful\\\"",
+        "response_text": "utilitarianism",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 30,
+    "air_date": "2014-04-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This saint's written output was more than 8 million words—& he died around age 50",
+        "response_text": "(Thomas) Aquinas",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"God remains dead!\" he wrote, \"How can we console ourselves, the murderers of all murderers!\\\"",
+        "response_text": "Nietzsche",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Geneva-born guy wrote \"The Social Contract\" & inspired the leaders of the French Revolution",
+        "response_text": "(Jean-Jacques) Rousseau",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Wherever law ends, tyranny begins\", wrote this English philosopher who influenced the Founding Fathers",
+        "response_text": "John Locke",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This German, the \"philosopher of pessimism\", had such a gloomy outlook that even his own mother disliked him",
+        "response_text": "Schopenhauer",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 40,
+    "air_date": "2024-04-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Nobel prize-winning physiologist John Eccles held to dualism, the belief that these 2 are radically different substances",
+        "response_text": "the body & the mind",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Skye Cleary's book on Simone de Beauvoir is titled \"How to Be\" this synonym of genuine",
+        "response_text": "authentic",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Before he was the title guy who spake about teaching of the Superman, he appeared in Nietszche's book \"The Gay Science\\\"",
+        "response_text": "Zarathustra",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Medieval philosophy's \"Doctor Invincibilis\" was this man who used a \"razor\" to eliminate unnecessary entities",
+        "response_text": "Ockham",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This 1781 work includes \"pure knowledge à priori is that with which no empirical element is mixed up\\\"",
+        "response_text": "Critique of Pure Reason",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 1,
+    "air_date": "1985-04-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Consume, imbibe & swing\" is another way of stating this hedonistic philosophy",
+        "response_text": "eat, drink & be merry",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Effect is the immediate result of this",
+        "response_text": "cause",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Rodin aptly expressed the task of a philosopher in this famous statue",
+        "response_text": "The Thinker",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Method of reasoning which goes from general statements to specific conclusions",
+        "response_text": "deduction (deductive method or deductive reasoning)",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Philosophy portrayed in More's \"Utopia\" & personified in Don Quixote's tilting at windmills",
+        "response_text": "idealism",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 37,
+    "air_date": "2021-01-25",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In Islamic philosophy, there are 7 divine attributes of God including the senses sam, \"hearing\", & basar, this",
+        "response_text": "sight",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "His 17th century \"Discourse on Method\" contained radical ideas of the self exemplified by the dictum \"Cogito ergo sum\\\"",
+        "response_text": "Descartes",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This 5-letter goal of philosophy was defined pretty basically by Aristotle: \"to say of what is that it is\\\"",
+        "response_text": "truth",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Antonyms that fill in a famous Kierkegaard thought: life can only be understood ____ but it has to be lived ____",
+        "response_text": "backwards & forwards (reverse & forward)",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Mohism, in 5th century B.C. China, argued for doing \"what is beneficial to the world\", like this -ism that arose in 19th c. Britain",
+        "response_text": "utilitarianism",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "ETHICS",
+    "topic_area": "philosophy",
+    "season": 28,
+    "air_date": "2011-11-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "J.G. Fichte made ethics a matter of doing one's this around the same time Lord Nelson was expecting each man to \"do his\" this",
+        "response_text": "duty",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A book called \"Ethical\" this dietary practice covers Pythagoras, Shelley & Gandhi",
+        "response_text": "Vegetarianism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Washington Hospital Center has a 35-member committee on this to help sort out painful decisions",
+        "response_text": "bioethics",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Monistic theories reduce the search for good to one thing, like pleasure in the case of this theory",
+        "response_text": "hedonism",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "The idea that the good can be objectively found is part of this -ism, also referring to obsessively high standards",
+        "response_text": "perfectionism",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 41,
+    "air_date": "2025-02-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In ethics, the opposite of being altruistic is being this, from the Latin for \"I\\\"",
+        "response_text": "egotistic (egoistic)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Nick Bostrom is known for his argument that we are living in this, run by posthuman intelligences on their machines",
+        "response_text": "a simulation",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "You can be this kind of doubter about religion or UFOs; in philosophy it's a guy like David Hume, saying we can't know much of anything",
+        "response_text": "skeptic",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "P.I. is philosophy shorthand for this issue, with questions like how do I know I am the same Ken I was 25 years ago?",
+        "response_text": "personal identity",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "18th c. esthetics used this adjective for things awesome, not just pretty; Edmund Burke called it \"the strongest of all the passions\\\"",
+        "response_text": "the sublime",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "THAT'S MY PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 37,
+    "air_date": "2021-05-31",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Je pense, donc je suis\" is how I originally wrote my best-known philosophical phrase",
+        "response_text": "(René) Descartes",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Oui, in a 1946 essay I expounded on the idea that \"Existence precedes essence\\\"",
+        "response_text": "Jean-Paul Sartre",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"God is dead! God remains dead! And we have killed him!\" Yep, I wrote that in 1882",
+        "response_text": "Nietzsche",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "\\\"Now the cave or den is the world of sight, the fire is the sun, the way upward is the way to knowledge\"—hey, that's mine!",
+        "response_text": "Plato",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "I was born in Edinburgh in 1711, 28 years before I published the first volumes of \"A Treatise of Human Nature\\\"",
+        "response_text": "(David) Hume",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 8,
+    "air_date": "1992-05-20",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Thales in the 6th c. BC said everything came from water; Empedocles later added air & these 2 things",
+        "response_text": "fire & earth",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This 19th century Danish philosopher was known to his followers as \"S.K.\\\"",
+        "response_text": "(Soren) Kierkegaard",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Alfred North Whitehead said European philosophy is \"a series of footnotes to\" this Greek",
+        "response_text": "Plato",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "John Locke believed no one is born with innate ideas, that at birth the mind is one of these",
+        "response_text": "a clean slate (or tabula rasa)",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "St. Anselm is famous for his proof of this",
+        "response_text": "the existence of God",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 18,
+    "air_date": "2001-11-30",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Hillel phrased this \"precious\" rule negatively, saying don't do to others what you wouldn't want done to you",
+        "response_text": "the Golden Rule",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A Florida city is named for this medieval author of \"The City of God\\\"",
+        "response_text": "St. Augustine",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Parmenides, Mr. One Unchanging Reality, was a major thinker pre-this man born around 470 B.C.",
+        "response_text": "Socrates",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Expelled from Germany in 1849, he lived his last 30 years in the British kapital",
+        "response_text": "Karl Marx",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Jacques Lacan revised this philosopher's idea as \"Where I think, 'I think, therefore I am', that is where I am not\\\"",
+        "response_text": "Rene Descartes",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 6,
+    "air_date": "1989-12-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "After Socrates died, this philosopher left Athens but later returned to found the Academy",
+        "response_text": "Plato",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Italian scholastic philosopher whose followers are known as Thomists",
+        "response_text": "St. Thomas Aquinas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Philosophical movement most associated with Jean-Paul Sartre",
+        "response_text": "existentialism",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Nobel Prize-winning English philosopher who wrote \"Principles of Mathematics\" & was an anti-nuclear activist",
+        "response_text": "Bertrand Russell",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "His \"Essay Concerning Human Understanding\" says the mind is a tabula rasa, or clean slate, at birth",
+        "response_text": "John Locke",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 5,
+    "air_date": "1989-06-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "To both a fish & a philosopher, it's a group or movement to which he belongs",
+        "response_text": "a school",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Plato considered him his brightest student and called him the \"mind of the school\\\"",
+        "response_text": "Aristotle",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Zeno's followers were called this after their meeting place on Athens' Painted Porch, the Stoa Poikile",
+        "response_text": "the stoics",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "We're pretty sure Pyrrho of Elis initiated this school of philosophy, but you can never be certain",
+        "response_text": "skepticism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Leibniz's optimistic view of the world was ridiculed by Voltaire in this work",
+        "response_text": "Candide",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 35,
+    "air_date": "2019-03-29",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "18th c. ethics said actions of virtue are virtuous & actions of vice are this adjective, which today we use for a snarling dog",
+        "response_text": "vicious",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This -ism, the idea that life is for pleasure, became the name of a clothing-optional resort in Jamaica",
+        "response_text": "hedonism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"You can always make something out of what you've been made into\" expresses the thought of this French existentialist",
+        "response_text": "(Jean-Paul) Sartre",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In Indian thought prana is vital energy; the word is Sanskrit for this body function, a key part of yoga exercises",
+        "response_text": "breathing",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "13-letter term for the state of being aware; the \"hard problem\" of it is how to explain it using just the brain's physiology",
+        "response_text": "consciousness",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 19,
+    "air_date": "2003-04-22",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Much of Chinese philosophy of the 300s B.C. was based on these 2 forces meaning \"shaded\" & \"sunny\\\"",
+        "response_text": "yin & yang",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Kierkegaard's \"Fear & Trembling\" deals with the ethical problem of this Biblical man asked to sacrifice his son",
+        "response_text": "Abraham",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "One who makes a practice of challenging supposed knowledge; Pyrrho was said to be the first one",
+        "response_text": "skeptic",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This -ism can mean the pursuit of noble, impractical goals or, in philosophy, the belief that reality is in one's mind",
+        "response_text": "idealism",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This founder of utilitarianism turned to philosophy out of disgust with British law",
+        "response_text": "Jeremy Bentham",
         "dollar_value": 2000
       }
     ]
@@ -1258,546 +1462,36 @@
     ]
   },
   {
-    "name": "FAMOUS PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 12,
-    "air_date": "1996-04-22",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "This Greek thinker known for his \"method\" apparently supported himself as a stonecarver",
-        "response_text": "Socrates",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This 17th century Frenchman is considered the founder of modern philosophy",
-        "response_text": "(René) Descartes",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 1963 this existentialist published his autobiography, \"The Words\\\"",
-        "response_text": "Jean-Paul Sartre",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "He served as a teacher in Concord, Mass. & as a tutor of Emerson's brother's children",
-        "response_text": "Thoreau",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This \"Critique of Pure Reason\" author taught at Konigsberg University for over 40 years",
-        "response_text": "Immanuel Kant",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 25,
-    "air_date": "2008-09-24",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "From the Greek for \"inquirer\", it's someone who doubts the claims of philosophical knowledge",
-        "response_text": "skeptic",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Conscious awareness is sometimes called this, the Latin word for \"I think\" used by Descartes",
-        "response_text": "cogito",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "To Abelard this was not the name of a movie studio but a quality that unites all objects of a certain type",
-        "response_text": "universal",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Aristotle separates intellectual from moral virtue in \"Nicomachean\" these",
-        "response_text": "Ethics",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This -ism of assessing ideas by their practical consequences is the title of a William James work",
-        "response_text": "pragmatism",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 22,
-    "air_date": "2006-03-01",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The first Greek philosophers are known as pre-this, for the man known for his method",
-        "response_text": "Socratic",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "From the Greek for \"pleasure\", it's the doctrine that pleasure is the highest good",
-        "response_text": "hedonism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Kant published a \"Critique of Pure\" this in 1781 & Feyerabend published a \"Farewell to\" it in 1987",
-        "response_text": "Reason",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In \"Essay Concerning Human Understanding\", he argued that we're born with a blank slate, with no innate ideas",
-        "response_text": "John Locke",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "In this work, Nietzsche introduced the concepts of the Ubermensch, or superman, & the will to power",
-        "response_text": "Thus Spake Zarathustra",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 4,
-    "air_date": "1987-11-27",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "It's the immediate result of \"cause\\\"",
-        "response_text": "effect",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "He say, key to orderly social life is the gentleman of noble character, not of noble birth",
-        "response_text": "Confucius",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "From Greek \"to examine\", it's one who constantly doubts or questions",
-        "response_text": "a skeptic",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Many sophists believed people clever enough to evade laws had no moral obligation to do this",
-        "response_text": "obey laws",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Nearly all of Plato's works are written in the form of these",
-        "response_text": "dialogues",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
     "name": "PHILOSOPHY",
     "topic_area": "philosophy",
     "season": 8,
-    "air_date": "1991-12-11",
+    "air_date": "1992-01-23",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "Hedonism is the belief that this is the greatest good",
-        "response_text": "pleasure",
+        "clue_text": "Protagoras said, \"There are\" this many \"sides to every question\\\"",
+        "response_text": "2",
         "dollar_value": 200
       },
       {
-        "clue_text": "This 4th century saint drew inspiration for his \"The City of God\" from Plato & St. Paul",
-        "response_text": "St. Augustine",
+        "clue_text": "This famous Rene said, \"It is not enough to have a good mind. The main thing is to use it well\\\"",
+        "response_text": "Descartes",
         "dollar_value": 400
       },
       {
-        "clue_text": "A leading rationalist, his philosophy became known as Cartesianism",
-        "response_text": "(René) Descartes",
+        "clue_text": "The Baron de Montesquieu said, \"A man should be mourned at\" this event, \"not at his death\\\"",
+        "response_text": "his birth",
         "dollar_value": 600
       },
       {
-        "clue_text": "This branch of philosophy studies the principles of art & beauty",
-        "response_text": "aesthetics",
+        "clue_text": "This future leader of existentialism graduated from the Ecole Normale Superieure in 1929",
+        "response_text": "Jean-Paul Sartre",
         "dollar_value": 800
       },
       {
-        "clue_text": "Jeremy Bentham & John Stuart Mill developed this, which seeks the greatest good for the most people",
-        "response_text": "utilitarianism",
+        "clue_text": "17th century Dutch Jewish philosopher who said, \"Peace is not an absence of war, it is a virtue\\\"",
+        "response_text": "Spinoza",
         "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 31,
-    "air_date": "2015-06-02",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Francis Bacon's \"Meditationes Sacrae\" includes the famous aphorism \"Knowledge is\" this",
-        "response_text": "power",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In ethics this Chinese thinker stressed 2 virtues: li, rules of proper conduct, & ren, benevolent love",
-        "response_text": "Confucius",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In 14 years this 19th century Dane published 30 books, mostly about how to reach God",
-        "response_text": "Kierkegaard",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Empedocles said that these were the 2 basic emotions or forces",
-        "response_text": "love & hate",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This hedonistic philosophy is named for the founder of an ancient utopian community called \"The Garden\\\"",
-        "response_text": "Epicureanism",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHERS",
-    "topic_area": "philosophy",
-    "season": 33,
-    "air_date": "2017-07-25",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "When this philosopher died around 347 B.C., his nephew Speusippus took over the Academy",
-        "response_text": "Plato",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Best known as an economist, this Scot wrote a philosophical treatise in 1759 called \"Theory of Moral Sentiments\\\"",
-        "response_text": "Adam Smith",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The porch where Zeno taught led to this name for his students, who pursued tranquility of mind",
-        "response_text": "Stoic",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "He spent 11 years as a University of Copenhagen student & asked in his journal, \"What is truth but to live for an idea?\\\"",
-        "response_text": "Soren Kierkegaard",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This Englishman's \"Second Treatise\" laid the groundwork for future democracies & the U.S. constitution",
-        "response_text": "John Locke",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 9,
-    "air_date": "1992-11-13",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Transcendentalist philosopher Bronson Alcott was the father of this famous authoress",
-        "response_text": "Louisa May Alcott",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "He got his doctorate in philosophy in 1841 and published \"The Communist Manifesto\" in 1848",
-        "response_text": "Karl Marx",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "His most famous work, \"The Prince\", wasn't published until 5 years after his death",
-        "response_text": "Niccolò Machiavelli",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In \"The Ethics\", Spinoza wrote that nature abhors one of these",
-        "response_text": "a vacuum",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Immanuel Kant is a big name in this field of philosophy, concerned with the ultimate nature of things",
-        "response_text": "metaphysics",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 29,
-    "air_date": "2013-05-27",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Empiricism believes all knowledge comes from this, which William Blake wrote \"Songs of\\\"",
-        "response_text": "experience",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Scholasticism is a term for the philosophies coming out of these, as opposed to out of the church",
-        "response_text": "universities",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "It's a matter of taste whether to spell this study of beauty with 2 vowels at the start",
-        "response_text": "aestheticism",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Metaphysics studies the real nature of things; meta-these studies the language used in talk of morality",
-        "response_text": "ethics",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Plato & Aristotle gave this word for a teacher the meaning \"one who quibbles & argues deviously\\\"",
-        "response_text": "sophist",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 40,
-    "air_date": "2023-12-21",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "It's the English translation of René Descartes' dictum \"cogito, ergo sum\\\"",
-        "response_text": "I think, therefore I am",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Thomism is a school of thought named for this 13th c. theologian who tried to reconcile Aristotle with Christianity",
-        "response_text": "Thomas Aquinas",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Tranquility of mind is important in this -ism taught by its founder Zeno from a porch in Athens",
-        "response_text": "Stoicism",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "It may produce the greatest good for the greatest number to know this philosopher was a great advocate of utilitarianism",
-        "response_text": "Jeremy Bentham",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Attributed to this mathematician & philosopher of ancient Greece is the observation that \"all things are numbers\\\"",
-        "response_text": "Pythagoras",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 27,
-    "air_date": "2011-07-12",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Heidegger said the most basic question in philosophy is \"why is there something rather than\" this",
-        "response_text": "nothing",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The hypothesis that the external world is a delusion is called this organ \"in a vat\\\"",
-        "response_text": "a brain",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In 1901 Jacques Maritain vowed to do this if he didn't find the meaning of life within a year; he lived until 1973",
-        "response_text": "kill himself",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "The classic \"Problem of the Many\" is this in the sky: which droplets are part of it, & where does it start & end?",
-        "response_text": "a cloud",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "In philosophy it has a middle \"A\" instead of \"I\" & doesn't mean \"about to happen\" but \"within one's mind\\\"",
-        "response_text": "immanent",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 32,
-    "air_date": "2016-03-25",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The wise ruler seen as ideal in Plato's \"Republic\" is known as the philosopher-this",
-        "response_text": "a philosopher-king",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Polytheism says there are many gods in the universe; this -ism says the whole universe is God",
-        "response_text": "pantheism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This 19th-century German philosopher asked \"Is man only a blunder of God, or is God only a blunder of man?\\\"",
-        "response_text": "(Friedrich) Nietzsche",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "1789's \"Principles of Morals\" by this man defined utilitarianism as the greatest good for the greatest number",
-        "response_text": "(Jeremy) Bentham",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "The fundamental question of philosophy is whether life is worth living, he wrote in \"The Myth of Sisyphus\\\"",
-        "response_text": "(Albert) Camus",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 5,
-    "air_date": "1989-06-21",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "To both a fish & a philosopher, it's a group or movement to which he belongs",
-        "response_text": "a school",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Plato considered him his brightest student and called him the \"mind of the school\\\"",
-        "response_text": "Aristotle",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Zeno's followers were called this after their meeting place on Athens' Painted Porch, the Stoa Poikile",
-        "response_text": "the stoics",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "We're pretty sure Pyrrho of Elis initiated this school of philosophy, but you can never be certain",
-        "response_text": "skepticism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Leibniz's optimistic view of the world was ridiculed by Voltaire in this work",
-        "response_text": "Candide",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "YOGI BERRA: PHILOSOPHER",
-    "topic_area": "philosophy",
-    "season": 18,
-    "air_date": "2001-12-05",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Completes Yogi's simple but profound statement \"It ain't over 'til...\\\"",
-        "response_text": "it's over",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Yogi surmised that in baseball \"90 percent of the game is half\" this",
-        "response_text": "mental",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Yogi once asked that this food dish be cut in 4 pieces because he wasn't hungry enough to eat 8",
-        "response_text": "pizza",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Yogi warned that \"You got to be careful if you don't know where you're going because you might not\" do this",
-        "response_text": "get there",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Yogi once reflected that it was this psychological term \"all over again\\\"",
-        "response_text": "deja vu",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 38,
-    "air_date": "2022-04-28",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Plato thought there were ideal entities called forms; this pupil disagreed in his book \"Metaphysics\\\"",
-        "response_text": "Aristotle",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Medieval questions about these: not how many fit on a pin but do they have free will? & with no bodies, can they have knowledge?",
-        "response_text": "angels",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Qualia are events in this realm, one of the 2 in Descartes' dualist philosophy",
-        "response_text": "the mind",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "It's the philosophical study of art & of the judgments of art & beauty",
-        "response_text": "aesthetics",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "In works like \"Philosophical Investigations\", this Vienna-born thinker showed how thought is shaped by our language",
-        "response_text": "Wittgenstein",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 22,
-    "air_date": "2005-12-02",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "A 1954 article by Michael Dummett is provocatively titled, \"Can\" one of these \"precede its cause?\\\"",
-        "response_text": "an effect",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Gilbert Ryle tried to sort out the relation of the body & this, also the title of the venerable journal he edited",
-        "response_text": "mind",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "When philosophers refer to the \"Summa\", they usually mean this work of Christian thought from around 1270",
-        "response_text": "Summa Theologica",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Plotinus, who taught of eternal realities, thought himself a Platonist; we add 3 letters & call him this",
-        "response_text": "a Neo-Platonist",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Many of Kierkegaard's works were a strong reaction against this German's idealist phenomenology",
-        "response_text": "Hegel",
-        "dollar_value": 2000
       }
     ]
   },
@@ -1838,135 +1532,101 @@
   {
     "name": "PHILOSOPHY",
     "topic_area": "philosophy",
-    "season": 40,
-    "air_date": "2024-04-02",
+    "season": 38,
+    "air_date": "2022-04-28",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "Nobel prize-winning physiologist John Eccles held to dualism, the belief that these 2 are radically different substances",
-        "response_text": "the body & the mind",
+        "clue_text": "Plato thought there were ideal entities called forms; this pupil disagreed in his book \"Metaphysics\\\"",
+        "response_text": "Aristotle",
         "dollar_value": 400
       },
       {
-        "clue_text": "Skye Cleary's book on Simone de Beauvoir is titled \"How to Be\" this synonym of genuine",
-        "response_text": "authentic",
+        "clue_text": "Medieval questions about these: not how many fit on a pin but do they have free will? & with no bodies, can they have knowledge?",
+        "response_text": "angels",
         "dollar_value": 800
       },
       {
-        "clue_text": "Before he was the title guy who spake about teaching of the Superman, he appeared in Nietszche's book \"The Gay Science\\\"",
-        "response_text": "Zarathustra",
+        "clue_text": "Qualia are events in this realm, one of the 2 in Descartes' dualist philosophy",
+        "response_text": "the mind",
         "dollar_value": 1200
       },
       {
-        "clue_text": "Medieval philosophy's \"Doctor Invincibilis\" was this man who used a \"razor\" to eliminate unnecessary entities",
-        "response_text": "Ockham",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This 1781 work includes \"pure knowledge à priori is that with which no empirical element is mixed up\\\"",
-        "response_text": "Critique of Pure Reason",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 37,
-    "air_date": "2021-01-25",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In Islamic philosophy, there are 7 divine attributes of God including the senses sam, \"hearing\", & basar, this",
-        "response_text": "sight",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "His 17th century \"Discourse on Method\" contained radical ideas of the self exemplified by the dictum \"Cogito ergo sum\\\"",
-        "response_text": "Descartes",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This 5-letter goal of philosophy was defined pretty basically by Aristotle: \"to say of what is that it is\\\"",
-        "response_text": "truth",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Antonyms that fill in a famous Kierkegaard thought: life can only be understood ____ but it has to be lived ____",
-        "response_text": "backwards & forwards (reverse & forward)",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Mohism, in 5th century B.C. China, argued for doing \"what is beneficial to the world\", like this -ism that arose in 19th c. Britain",
-        "response_text": "utilitarianism",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 12,
-    "air_date": "1996-02-23",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Moritz Schlick led the group in this Austrian capital that founded the logical positivist school",
-        "response_text": "Vienna",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "At times this, the study & existence of God, has been considered part of metaphysics",
-        "response_text": "theology",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This branch of philosophy concerned with conduct & character is also called moral philosophy",
-        "response_text": "ethics",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The name of this, the belief that pleasure is the highest good of life, comes from Greek for \"pleasure\\\"",
-        "response_text": "hedonism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The study of beauty is a central concern of this branch of philosophy, the newest branch with its own name",
+        "clue_text": "It's the philosophical study of art & of the judgments of art & beauty",
         "response_text": "aesthetics",
-        "dollar_value": 1000
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In works like \"Philosophical Investigations\", this Vienna-born thinker showed how thought is shaped by our language",
+        "response_text": "Wittgenstein",
+        "dollar_value": 2000
       }
     ]
   },
   {
-    "name": "PHILOSOPHERS",
+    "name": "PHILOSOPHY",
     "topic_area": "philosophy",
-    "season": 5,
-    "air_date": "1989-07-21",
-    "round": "Jeopardy!",
+    "season": 31,
+    "air_date": "2014-12-17",
+    "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "Though largely unknown when he died, he's been called the most prominent figure in Chinese history",
-        "response_text": "Confucius",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Caled \"an outstanding thinker of the 19th century\", this philosopher also wrote \"War & Peace\\\"",
-        "response_text": "Tolstoy",
+        "clue_text": "David Hume said the love of this, which a witness is asked to tell, \"never is, nor can be carried to too high a degree\\\"",
+        "response_text": "the truth",
         "dollar_value": 400
       },
       {
-        "clue_text": "Rousseau said it's \"a good bank account, a good cook and a good digestion\", Shultz, \"a warm puppy\\\"",
-        "response_text": "happiness",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Siegel & Shuster gave us the Superman of the comics, & he gave us the philosophical superman",
-        "response_text": "Nietzsche",
+        "clue_text": "According to Hegelian dialectic, this is the solution to the 2 opposites thesis & antithesis",
+        "response_text": "synthesis",
         "dollar_value": 800
       },
       {
-        "clue_text": "Aristocles was the real name of this Athenian known for his \"Dialogues\\\"",
-        "response_text": "Plato",
+        "clue_text": "In his 1886 work \"Beyond Good and Evil\", he expounded on his concept of the Superman",
+        "response_text": "Nietzsche",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Metaphysics is often divided into 2 areas: ontology, the study of being, & this, the study of the physical universe",
+        "response_text": "cosmology",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This English philosopher said it's \"necessary to distinguish...the business of civil government from that of religion\\\"",
+        "response_text": "John Locke",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "FOLKSY PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 13,
+    "air_date": "1997-07-09",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Walt Kelly created this philosophical possum for \"Animal Comics\\\"",
+        "response_text": "Pogo",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This Dust Bowl balladeer was born July 14, 1912 in Okemah, Oklahoma",
+        "response_text": "Woody Guthrie",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Beardstown Ladies earned their business sense through running this type of club",
+        "response_text": "Investment club",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Mark Twain title lawyer whose adages also appear in \"Following The Equator\\\"",
+        "response_text": "Puddinhead Wilson",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This humorous Georgia columnist had a black labrador named \"Catfish\\\"",
+        "response_text": "Lewis Grizzard",
         "dollar_value": 1000
       }
     ]
@@ -2008,40 +1668,6 @@
   {
     "name": "PHILOSOPHY",
     "topic_area": "philosophy",
-    "season": 38,
-    "air_date": "2021-12-29",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "David Hume wrote that in any instance of \"cause and\" this, there's no necessary connection, just a sequence of events",
-        "response_text": "effect",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Thomas Nagel's paper \"What is It Like to Be\" this says we can't know just by imagining eating bugs & hanging upside-down",
-        "response_text": "a bat",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Pascal's wager is that you may as well hold this belief because that gives you everything to gain & nothing to lose",
-        "response_text": "belief in God",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Rousseau argued that man is happier & morally better not in society but in a \"state of\" this, like wild plants & animals are",
-        "response_text": "nature",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This adjective for a statement that can't be corrected, like if someone says, \"My foot hurts\", is also used of an always- misbehaving child",
-        "response_text": "incorrigible",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
     "season": 11,
     "air_date": "1995-06-13",
     "round": "Double Jeopardy!",
@@ -2069,6 +1695,584 @@
       {
         "clue_text": "This 19th century Scandinavian theologian is considered the father of existentialism",
         "response_text": "Kierkegaard",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 32,
+    "air_date": "2016-03-25",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The wise ruler seen as ideal in Plato's \"Republic\" is known as the philosopher-this",
+        "response_text": "a philosopher-king",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Polytheism says there are many gods in the universe; this -ism says the whole universe is God",
+        "response_text": "pantheism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This 19th-century German philosopher asked \"Is man only a blunder of God, or is God only a blunder of man?\\\"",
+        "response_text": "(Friedrich) Nietzsche",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "1789's \"Principles of Morals\" by this man defined utilitarianism as the greatest good for the greatest number",
+        "response_text": "(Jeremy) Bentham",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "The fundamental question of philosophy is whether life is worth living, he wrote in \"The Myth of Sisyphus\\\"",
+        "response_text": "(Albert) Camus",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 22,
+    "air_date": "2005-12-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A 1954 article by Michael Dummett is provocatively titled, \"Can\" one of these \"precede its cause?\\\"",
+        "response_text": "an effect",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Gilbert Ryle tried to sort out the relation of the body & this, also the title of the venerable journal he edited",
+        "response_text": "mind",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "When philosophers refer to the \"Summa\", they usually mean this work of Christian thought from around 1270",
+        "response_text": "Summa Theologica",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Plotinus, who taught of eternal realities, thought himself a Platonist; we add 3 letters & call him this",
+        "response_text": "a Neo-Platonist",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Many of Kierkegaard's works were a strong reaction against this German's idealist phenomenology",
+        "response_text": "Hegel",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 27,
+    "air_date": "2011-05-20",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A major figure in logic, he is perhaps best known for his love affair with a student named Heloise",
+        "response_text": "(Peter) Abelard",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Followers of this 13th Century Italian thinker are known as Thomists",
+        "response_text": "Thomas Aquinas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Danish thinker often attacked the evangelical Lutheran Church, saying there were no true Christians among its members",
+        "response_text": "Kierkegaard",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In \"The Social Contract\", this French thinker claimed that \"Man is born free; and everywhere he is in chains\\\"",
+        "response_text": "Rousseau",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "After this lantern-carrying Greek's death, a marble dog was placed on top of his monument in Corinth",
+        "response_text": "Diogenes",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 40,
+    "air_date": "2023-12-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's the English translation of René Descartes' dictum \"cogito, ergo sum\\\"",
+        "response_text": "I think, therefore I am",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Thomism is a school of thought named for this 13th c. theologian who tried to reconcile Aristotle with Christianity",
+        "response_text": "Thomas Aquinas",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Tranquility of mind is important in this -ism taught by its founder Zeno from a porch in Athens",
+        "response_text": "Stoicism",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "It may produce the greatest good for the greatest number to know this philosopher was a great advocate of utilitarianism",
+        "response_text": "Jeremy Bentham",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Attributed to this mathematician & philosopher of ancient Greece is the observation that \"all things are numbers\\\"",
+        "response_text": "Pythagoras",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 12,
+    "air_date": "1995-09-06",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This philosopher & student of Plato was born in Stagira in northern Greece in 384 B.C.",
+        "response_text": "Aristotle",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This French philosopher & lover of Heloise was an early exponent of the doctrine called Scholasticism",
+        "response_text": "Abelard",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Scottish economist wrote \"The Theory of Moral Sentiments\", a philosophical treatise, in 1759",
+        "response_text": "Adam Smith",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He refined his concept of the superman in \"Beyond Good and Evil\\\"",
+        "response_text": "Nietzsche",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Some consider his \"Critique of Pure Reason\" the most influential modern work of philosophy",
+        "response_text": "(Immanuel) Kant",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 25,
+    "air_date": "2008-09-24",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "From the Greek for \"inquirer\", it's someone who doubts the claims of philosophical knowledge",
+        "response_text": "skeptic",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Conscious awareness is sometimes called this, the Latin word for \"I think\" used by Descartes",
+        "response_text": "cogito",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "To Abelard this was not the name of a movie studio but a quality that unites all objects of a certain type",
+        "response_text": "universal",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Aristotle separates intellectual from moral virtue in \"Nicomachean\" these",
+        "response_text": "Ethics",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This -ism of assessing ideas by their practical consequences is the title of a William James work",
+        "response_text": "pragmatism",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 33,
+    "air_date": "2017-07-25",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "When this philosopher died around 347 B.C., his nephew Speusippus took over the Academy",
+        "response_text": "Plato",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Best known as an economist, this Scot wrote a philosophical treatise in 1759 called \"Theory of Moral Sentiments\\\"",
+        "response_text": "Adam Smith",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The porch where Zeno taught led to this name for his students, who pursued tranquility of mind",
+        "response_text": "Stoic",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "He spent 11 years as a University of Copenhagen student & asked in his journal, \"What is truth but to live for an idea?\\\"",
+        "response_text": "Soren Kierkegaard",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This Englishman's \"Second Treatise\" laid the groundwork for future democracies & the U.S. constitution",
+        "response_text": "John Locke",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 5,
+    "air_date": "1989-07-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Though largely unknown when he died, he's been called the most prominent figure in Chinese history",
+        "response_text": "Confucius",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Caled \"an outstanding thinker of the 19th century\", this philosopher also wrote \"War & Peace\\\"",
+        "response_text": "Tolstoy",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Rousseau said it's \"a good bank account, a good cook and a good digestion\", Shultz, \"a warm puppy\\\"",
+        "response_text": "happiness",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Siegel & Shuster gave us the Superman of the comics, & he gave us the philosophical superman",
+        "response_text": "Nietzsche",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Aristocles was the real name of this Athenian known for his \"Dialogues\\\"",
+        "response_text": "Plato",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 8,
+    "air_date": "1991-12-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Hedonism is the belief that this is the greatest good",
+        "response_text": "pleasure",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This 4th century saint drew inspiration for his \"The City of God\" from Plato & St. Paul",
+        "response_text": "St. Augustine",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A leading rationalist, his philosophy became known as Cartesianism",
+        "response_text": "(René) Descartes",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This branch of philosophy studies the principles of art & beauty",
+        "response_text": "aesthetics",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Jeremy Bentham & John Stuart Mill developed this, which seeks the greatest good for the most people",
+        "response_text": "utilitarianism",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 10,
+    "air_date": "1994-07-20",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"The Founder of Modern Socialism\" is a nickname of this German Communist philosopher",
+        "response_text": "Karl Marx",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "T.H. Huxley was a powerful advocate of the ideas implicit in this man's \"Origin of Species\\\"",
+        "response_text": "Darwin",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This branch of philosophy deals with the rules of correct reasoning in the form of arguments",
+        "response_text": "logic",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The ideas of this Danish existentialist were little appreciated until a century after they appeared",
+        "response_text": "Kierkegaard",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "He wrote \"Thus Spake Zarathustra\" after resigning a classics professorship at the Univ. of Basel",
+        "response_text": "Nietzsche",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 27,
+    "air_date": "2011-07-12",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Heidegger said the most basic question in philosophy is \"why is there something rather than\" this",
+        "response_text": "nothing",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The hypothesis that the external world is a delusion is called this organ \"in a vat\\\"",
+        "response_text": "a brain",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1901 Jacques Maritain vowed to do this if he didn't find the meaning of life within a year; he lived until 1973",
+        "response_text": "kill himself",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "The classic \"Problem of the Many\" is this in the sky: which droplets are part of it, & where does it start & end?",
+        "response_text": "a cloud",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In philosophy it has a middle \"A\" instead of \"I\" & doesn't mean \"about to happen\" but \"within one's mind\\\"",
+        "response_text": "immanent",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 26,
+    "air_date": "2010-01-07",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Alfred Whitehead said that Europe's philosophical tradition \"consists of a series of footnotes to\" this Greek",
+        "response_text": "Plato",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Ralph Waldo Emerson once employed this thinker as a gardener & handyman",
+        "response_text": "Thoreau",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In the 19th century he attacked Denmark's Lutheran church, questioning its true Christianity",
+        "response_text": "Kierkegaard",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "The first years of the life of this 5th c. philosopher are mostly known from his autobiographical \"Confessions\\\"",
+        "response_text": "Saint Augustine",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "According to his \"razor\"-sharp philosophy, a problem should be stated in its simplest & most basic terms",
+        "response_text": "(William of) Occam",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 31,
+    "air_date": "2015-06-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Francis Bacon's \"Meditationes Sacrae\" includes the famous aphorism \"Knowledge is\" this",
+        "response_text": "power",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In ethics this Chinese thinker stressed 2 virtues: li, rules of proper conduct, & ren, benevolent love",
+        "response_text": "Confucius",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 14 years this 19th century Dane published 30 books, mostly about how to reach God",
+        "response_text": "Kierkegaard",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Empedocles said that these were the 2 basic emotions or forces",
+        "response_text": "love & hate",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This hedonistic philosophy is named for the founder of an ancient utopian community called \"The Garden\\\"",
+        "response_text": "Epicureanism",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "FAMOUS PHILOSOPHERS",
+    "topic_area": "philosophy",
+    "season": 12,
+    "air_date": "1996-04-22",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This Greek thinker known for his \"method\" apparently supported himself as a stonecarver",
+        "response_text": "Socrates",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This 17th century Frenchman is considered the founder of modern philosophy",
+        "response_text": "(René) Descartes",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1963 this existentialist published his autobiography, \"The Words\\\"",
+        "response_text": "Jean-Paul Sartre",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He served as a teacher in Concord, Mass. & as a tutor of Emerson's brother's children",
+        "response_text": "Thoreau",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This \"Critique of Pure Reason\" author taught at Konigsberg University for over 40 years",
+        "response_text": "Immanuel Kant",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 8,
+    "air_date": "1991-09-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "An agnostic is waiting for proof of this one way or the other before taking sides",
+        "response_text": "existence of God",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "20th c. British philosopher, mathematician & Earl who said knowledge came only from sense",
+        "response_text": "Bertrand Russell",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The earliest Greek philosophers are known as \"Pre-\" this man known for his method",
+        "response_text": "Socrates",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "American philosopher born in Spain in 1863, he's known for his 1905-06 work, \"The Life of Reason\\\"",
+        "response_text": "George Santayana",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Most of the philosophers of the French Enlightenment contributed to his \"Encyclopedie\\\"",
+        "response_text": "(Denis) Diderot",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 4,
+    "air_date": "1987-11-27",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's the immediate result of \"cause\\\"",
+        "response_text": "effect",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He say, key to orderly social life is the gentleman of noble character, not of noble birth",
+        "response_text": "Confucius",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "From Greek \"to examine\", it's one who constantly doubts or questions",
+        "response_text": "a skeptic",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Many sophists believed people clever enough to evade laws had no moral obligation to do this",
+        "response_text": "obey laws",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Nearly all of Plato's works are written in the form of these",
+        "response_text": "dialogues",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "PHILOSOPHY",
+    "topic_area": "philosophy",
+    "season": 12,
+    "air_date": "1996-02-23",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Moritz Schlick led the group in this Austrian capital that founded the logical positivist school",
+        "response_text": "Vienna",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "At times this, the study & existence of God, has been considered part of metaphysics",
+        "response_text": "theology",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This branch of philosophy concerned with conduct & character is also called moral philosophy",
+        "response_text": "ethics",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The name of this, the belief that pleasure is the highest good of life, comes from Greek for \"pleasure\\\"",
+        "response_text": "hedonism",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The study of beauty is a central concern of this branch of philosophy, the newest branch with its own name",
+        "response_text": "aesthetics",
         "dollar_value": 1000
       }
     ]
@@ -2108,274 +2312,70 @@
     ]
   },
   {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 39,
-    "air_date": "2022-09-15",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Some say this 2-word concept of desire & decision isn't real; experiments show people exposed to that viewpoint behave worse",
-        "response_text": "free will",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Antisthenes has been credited with starting this Greek sect, now the -ism that says people are only out for themselves",
-        "response_text": "cynicism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"Man is by nature a political animal\", wrote this ancient Greek in his \"Politics\\\"",
-        "response_text": "Aristotle",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Kant wrote \"Critiques\" of pure & practical this, the method of making logical correlations",
-        "response_text": "Reason",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "2 basic approaches in this field are deontology (an act is inherently good or bad) & teleology (depends on the result)",
-        "response_text": "ethics",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
+    "name": "PHILOSOPHERS",
     "topic_area": "philosophy",
     "season": 8,
-    "air_date": "1992-05-20",
+    "air_date": "1992-05-13",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "Thales in the 6th c. BC said everything came from water; Empedocles later added air & these 2 things",
-        "response_text": "fire & earth",
+        "clue_text": "He called Hegel a \"mighty thinker\" in his afterword to the 2nd edition of \"Das Kapital\\\"",
+        "response_text": "Marx",
         "dollar_value": 200
       },
       {
-        "clue_text": "This 19th century Danish philosopher was known to his followers as \"S.K.\\\"",
-        "response_text": "(Soren) Kierkegaard",
+        "clue_text": "First name shared by Kant & Swedenborg, though they spelled it differently",
+        "response_text": "Immanuel (Emanuel)",
         "dollar_value": 400
       },
       {
-        "clue_text": "Alfred North Whitehead said European philosophy is \"a series of footnotes to\" this Greek",
-        "response_text": "Plato",
+        "clue_text": "One group of this early mathematician's followers was known as the Mathematikoi",
+        "response_text": "Pythagoras",
         "dollar_value": 600
       },
       {
-        "clue_text": "John Locke believed no one is born with innate ideas, that at birth the mind is one of these",
-        "response_text": "a clean slate (or tabula rasa)",
+        "clue_text": "Speusippus accompanied this man on his journey to Sicily & later became head of his academy",
+        "response_text": "Plato",
         "dollar_value": 800
       },
       {
-        "clue_text": "St. Anselm is famous for his proof of this",
-        "response_text": "the existence of God",
+        "clue_text": "This Jewish philosopher was born in Amsterdam in 1632 to Portuguese parents",
+        "response_text": "Spinoza",
         "dollar_value": 1000
       }
     ]
   },
   {
-    "name": "PHILOSOPHY",
+    "name": "PHILOSOPHERS",
     "topic_area": "philosophy",
     "season": 11,
-    "air_date": "1994-09-28",
+    "air_date": "1995-05-22",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "This Greek wrote his dialogues to help men understand the good life & to goad them into living it",
-        "response_text": "Plato",
+        "clue_text": "This American philosopher lived with R.W. Emerson before & after his time at Walden Pond",
+        "response_text": "Thoreau",
         "dollar_value": 200
       },
       {
-        "clue_text": "The axiom \"Cogito, Ergo Sum\", \"I think, therefore I am\", is his most famous formulation",
-        "response_text": "Descartes",
+        "clue_text": "Ernst Haeckel's work popularized this British naturalist's ideas to German speakers",
+        "response_text": "Charles Darwin",
         "dollar_value": 400
       },
       {
-        "clue_text": "In 1918 this future British earl & co-author of \"Principia Mathematica\" was jailed for his radical pacifism",
-        "response_text": "Bertrand Russell",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This term for the philosophical movement of Emerson, Ripley, Thoreau & others was first used derisively",
-        "response_text": "Transcendentalism",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The name of this philosophy that began in 19th century Russia comes from the Latin for \"nothing\\\"",
-        "response_text": "nihilism",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 10,
-    "air_date": "1994-03-24",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "He & his collaborator Engels were both members of the Young Hegelian philosophical group",
-        "response_text": "(Karl) Marx",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In Plato's \"Crito\", this philosopher argues that it's important to live honorably, not just to live",
-        "response_text": "Socrates",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "His \"Analects\" say that the Chun-Tzu is one who practices jen in accordance with li",
-        "response_text": "Confucius",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In \"Being and Nothingness\", he wrote that man must realize \"he is alone, abandoned on Earth...\\\"",
-        "response_text": "Jean Paul Sartre",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This 19th century Dane divided men into 3 groups: aesthetes, ethical men & religious men",
-        "response_text": "Kierkegaard",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 12,
-    "air_date": "1995-09-06",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "This philosopher & student of Plato was born in Stagira in northern Greece in 384 B.C.",
-        "response_text": "Aristotle",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This French philosopher & lover of Heloise was an early exponent of the doctrine called Scholasticism",
-        "response_text": "Abelard",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This Scottish economist wrote \"The Theory of Moral Sentiments\", a philosophical treatise, in 1759",
-        "response_text": "Adam Smith",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "He refined his concept of the superman in \"Beyond Good and Evil\\\"",
+        "clue_text": "The influence of Schopenhauer can be seen in the early work of this \"Beyond Good and Evil\" philosopher",
         "response_text": "Nietzsche",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Some consider his \"Critique of Pure Reason\" the most influential modern work of philosophy",
-        "response_text": "(Immanuel) Kant",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "FOLKSY PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 13,
-    "air_date": "1997-07-09",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Walt Kelly created this philosophical possum for \"Animal Comics\\\"",
-        "response_text": "Pogo",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This Dust Bowl balladeer was born July 14, 1912 in Okemah, Oklahoma",
-        "response_text": "Woody Guthrie",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The Beardstown Ladies earned their business sense through running this type of club",
-        "response_text": "Investment club",
         "dollar_value": 600
       },
       {
-        "clue_text": "Mark Twain title lawyer whose adages also appear in \"Following The Equator\\\"",
-        "response_text": "Puddinhead Wilson",
+        "clue_text": "In his 1762 treatise \"The Social Contract\", this Swiss-French philosopher made a case for civil rights",
+        "response_text": "Rousseau",
         "dollar_value": 800
       },
       {
-        "clue_text": "This humorous Georgia columnist had a black labrador named \"Catfish\\\"",
-        "response_text": "Lewis Grizzard",
+        "clue_text": "In 1911 Ludwig Wittgenstein went to Cambridge to study with this philosopher- mathematician",
+        "response_text": "Bertrand Russell",
         "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 10,
-    "air_date": "1993-12-03",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The Stoics derived their name from a painted porch in this Greek city",
-        "response_text": "Athens",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This church put most of Descartes' books on its Index of Proscribed Literature",
-        "response_text": "the Roman Catholic Church",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The Latin name of this great philosophical work by St. Augustine is \"De Civitate Dei\\\"",
-        "response_text": "The City of God",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This Frenchman later said that his 1945 lecture on \"Existentialism and Humanism\" was a mistake",
-        "response_text": "Sartre",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Lewis Carroll's 1896 book on the symbolic type of this branch of philosophy was not intended for children",
-        "response_text": "logic",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "PHILOSOPHY",
-    "topic_area": "philosophy",
-    "season": 19,
-    "air_date": "2003-04-22",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Much of Chinese philosophy of the 300s B.C. was based on these 2 forces meaning \"shaded\" & \"sunny\\\"",
-        "response_text": "yin & yang",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Kierkegaard's \"Fear & Trembling\" deals with the ethical problem of this Biblical man asked to sacrifice his son",
-        "response_text": "Abraham",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "One who makes a practice of challenging supposed knowledge; Pyrrho was said to be the first one",
-        "response_text": "skeptic",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "This -ism can mean the pursuit of noble, impractical goals or, in philosophy, the belief that reality is in one's mind",
-        "response_text": "idealism",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This founder of utilitarianism turned to philosophy out of disgust with British law",
-        "response_text": "Jeremy Bentham",
-        "dollar_value": 2000
       }
     ]
   }

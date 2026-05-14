@@ -1,646 +1,68 @@
 [
   {
-    "name": "EURO DISNEY",
+    "name": "DISNEY DWARF ALTERNATE NAMES",
     "topic_area": "disney",
-    "season": 10,
-    "air_date": "1994-02-18",
+    "season": 37,
+    "air_date": "2021-04-02",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "The 5,000-acre Euro Disney resort is 1/5 the size of this world capital that's just 20 miles away",
-        "response_text": "Paris",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Beware! One of these mythical beasts lurks in a lair beneath Sleeping Beauty's Chateau",
-        "response_text": "a dragon",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "A Caribbean restaurant called the Blue Lagoon is located inside this ride that's full of Buccaneers",
-        "response_text": "Pirates of the Caribbean",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The French call this attraction full of singing doll's \"Le Monde est Petit\\\"",
-        "response_text": "It's a Small World",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "A rip-roaring recreation of his wild west show features cowboys, Indians & stampeding buffalo",
-        "response_text": "Buffalo Bill",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY SONGS",
-    "topic_area": "disney",
-    "season": 38,
-    "air_date": "2021-10-18",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "This song says, \"I can open your eyes, take you wonder by wonder\\\"",
-        "response_text": "\\\"A Whole New World\\\"",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "\\\"Life Is A Highway\", according to Rascal Flatts in a song used in this animated film",
-        "response_text": "Cars",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Sung by Troy & the gang, a song from this TV movie says, \"We're all in this together, once we know that we are we're all stars...\\\"",
-        "response_text": "High School Musical",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This song from \"Toy Story\" earned Randy Newman an Oscar nomination",
-        "response_text": "\\\"You've Got A Friend In Me\\\"",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"Feed The Birds\" from this film was said to be one of Walt Disney's personal favorites",
-        "response_text": "Mary Poppins",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "THE DISNEY CHANNEL",
-    "topic_area": "disney",
-    "season": 23,
-    "air_date": "2007-07-26",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Ron Stoppable helps this title girl in her fight against villains like Frugal Lucre & Sr. Senior, Jr.",
-        "response_text": "Kim Possible",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "A junior high hoops star starts turning into a leprechaun in the Disney Channel movie \"The Luck of\" them",
-        "response_text": "the Irish",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The Diffy family from the year 2121 gets stuck in our century on this show",
-        "response_text": "Phil of the Future",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This title kid is \"in the (White) House\" when his dad is made executive chef",
-        "response_text": "Cory (Baxter)",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Disney says this title guy \"is your average 13-year-old kid, who just so happens to be a powerful and magical dragon!\\\"",
-        "response_text": "Jake Long",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TOUGH DISNEY",
-    "topic_area": "disney",
-    "season": 4,
-    "air_date": "1987-11-13",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Both Disneyland and Walt Disney World's Magic Kingdom are located in counties with this name",
-        "response_text": "Orange County",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Technical reason the third Mickey Mouse cartoon, \"Steamboat Willie\", was released first on November 18, 1928",
-        "response_text": "because it had sound",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "For \"Pinocchio\", he was painted with 27 colors; for the \"Mickey Mouse Club\", they used only nine",
-        "response_text": "Jiminy Cricket",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "According to the 1953 cartoon, these four sounds are \"where the music comes from\\\"",
-        "response_text": "a toot, a whistle, a plunk, and a boom",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The title character of this 1961 live-action hit was named Ned Brainard",
-        "response_text": "The Absent-Minded Professor",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY ANIMATED SUPPORTING CHARACTERS",
-    "topic_area": "disney",
-    "season": 32,
-    "air_date": "2016-02-24",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "2006: Luigi, a 1959 Fiat 500",
-        "response_text": "Cars",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "1942: Flower, a skunk",
-        "response_text": "Bambi",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "1995: Slinky Dog",
-        "response_text": "Toy Story",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "1991: Chip the teacup & Mrs. Potts, a teapot",
-        "response_text": "Beauty and the Beast",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "1950: Gus & Jaq, mice",
-        "response_text": "Cinderella",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY ENDINGS",
-    "topic_area": "disney",
-    "season": 39,
-    "air_date": "2023-05-30",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The queen & king don't fare well on their voyage in this 2013 film; daughters Anna & Elsa find their wrecked ship in the 2019 sequel",
-        "response_text": "Frozen",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Judge Frollo suffers a great fall from a cathedral in this 1996 flick",
-        "response_text": "The Hunchback of Notre Dame",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Tadashi dies in a fire in this 2014 movie, leaving Hiro devastated, but Baymax is there for him",
-        "response_text": "Big Hero 6",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In this 1986 classic Basil of Baker Street survives a fall from Big Ben, but the evil Ratigan is not so lucky",
-        "response_text": "The Great Mouse Detective",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "In Tim Burton's \"Alice in Wonderland\", Alice slays the Jabberwocky with this, callooh! Callay!",
-        "response_text": "the Vorpal Sword",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY DOGS",
-    "topic_area": "disney",
-    "season": 5,
-    "air_date": "1989-05-19",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "A bloodhound chasing Mickey in \"The Chain Gang\", he later became \"Mickey's Pal\\\"",
-        "response_text": "Pluto",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "He began in the early 1930s as a stringbean character called Dippy Dawg",
-        "response_text": "Goofy",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 1960 the new xerography process made it unnecessary for the animators to draw all 101 of these",
-        "response_text": "dalmatians",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Walt Disney's 1st live-action comedy & his 1st to star Fred MacMurray",
-        "response_text": "The Shaggy Dog",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In a 1957 film, this dog fights off a pack of wild pigs",
-        "response_text": "Old Yeller",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY SONGS",
-    "topic_area": "disney",
-    "season": 31,
-    "air_date": "2015-01-08",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "\\\"A Spoonful of Sugar\" is from this movie",
-        "response_text": "Mary Poppins",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The song titled \"Some Day\" he \"Will Come\" is from \"Snow White & the Seven Dwarfs\\\"",
-        "response_text": "My Prince",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "A \"Beauty and the Beast\" song, or a hospitable Disney World restaurant",
-        "response_text": "\\\"Be Our Guest\\\"",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Simba & Nala sing it on realizing they've found romance",
-        "response_text": "\\\"Can You Feel The Love Tonight\\\"",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Randy Newman's Oscar-nominated song from \"Toy Story\\\"",
-        "response_text": "\\\"You've Got A Friend In Me\\\"",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY DOGS",
-    "topic_area": "disney",
-    "season": 16,
-    "air_date": "2000-03-03",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Introduced in the 1930s, he's been known as Dippy Dawg, Dippy the Goof &, most famously, this",
-        "response_text": "Goofy",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "We don't know why a mouse would have a dog, but he's Mickey's faithful pet",
-        "response_text": "Pluto",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The Internet Movie Database says someone actually counted all the black spots in this 1961 film & found 6,469,952",
-        "response_text": "101 Dalmatians",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Nana is the Darling children's nursemaid as well as their dog in this 1953 feature",
-        "response_text": "Peter Pan",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "A genteel cocker spaniel finds romance with a mutt from the wrong side of the tracks in this 1955 classic",
-        "response_text": "Lady and the Tramp",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEYLAND",
-    "topic_area": "disney",
-    "season": 3,
-    "air_date": "1987-04-13",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Between the parade & the fireworks she flies over Fantasyland summer nights at about 9:30 P.M.",
-        "response_text": "Tinker Bell",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The July 17, 1955 opening day TV show was hosted by A. Linkletter, B. Cummings, & this future Calif. governor",
-        "response_text": "Ronald Reagan",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "He gets more phone calls than anyone else at Disneyland",
-        "response_text": "Mickey Mouse",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "You can board steam-powered railroad trains at New Orleans Square, Main Street, U.S.A., & , oddly, here",
-        "response_text": "Tomorrowland",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "There's one of these on Main Street open 7 days a week—but only from 10 a.m. to 3 p.m.",
-        "response_text": "bank (Bank of America)",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "ALL THINGS DISNEY",
-    "topic_area": "disney",
-    "season": 35,
-    "air_date": "2018-11-09",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Act 1 of this Broadway musical includes a young Elsa & a young Anna singing \"A Little Bit Of You\\\"",
-        "response_text": "Frozen",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The iconic geosphere known as Spaceship Earth is the symbol of this Disney World theme park",
-        "response_text": "Epcot",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Belle from \"Beauty and the Beast\" was a role model for this actress growing up & in 2017 she got to play her on film",
-        "response_text": "Emma Watson",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Mal & Evie are 2 of the offspring of some pretty famous villains in this Disney Channel movie series",
-        "response_text": "The Descendants",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The name of this Disney resort that opened in Hawaii in 2011 means \"messenger of a chief\\\"",
-        "response_text": "Aulani",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "WE LOVE DISNEYLAND",
-    "topic_area": "disney",
-    "season": 25,
-    "air_date": "2008-10-14",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Disneyland once boasted that it had the world's 8th-largest fleet of these undersea vessels; they returned in 2007",
-        "response_text": "submarines",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The construction of Disneyland delayed this animated film, but the heroine's castle became the park's centerpiece",
-        "response_text": "Sleeping Beauty",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "During the holiday season, Jack Skellington of \"The Nightmare Before Christmas\" appears in this spooky attraction",
-        "response_text": "The Haunted Mansion",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "You can zap space enemy targets with lasers on the Astro Blasters ride named for this Space Ranger",
-        "response_text": "Buzz Lightyear",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This creature was far from his Himalayan home when he began lurking inside Disneyland's Matterhorn in 1978",
-        "response_text": "the Abominable Snowman",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY MANIA",
-    "topic_area": "disney",
-    "season": 20,
-    "air_date": "2003-09-25",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In 2003 this little friend of Winnie the Pooh starred in his own \"Big Movie\\\"",
-        "response_text": "Piglet",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In \"The Little Mermaid\", it's the name of the sinister sea witch",
-        "response_text": "Ursula",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Spaceship Earth, the geosphere at this Disney World theme park, is 180 feet high & weighs 16 million pounds",
-        "response_text": "Epcot",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In \"The Jungle Book\", he's the happy-go-lucky bear who befriends Mowgli",
-        "response_text": "Baloo",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This movie originally with Hayley Mills & Hayley Mills was remade in 1998 with Lindsay Lohan & Lindsay Lohan",
-        "response_text": "The Parent Trap",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "DISNEYLAND",
-    "topic_area": "disney",
-    "season": 11,
-    "air_date": "1995-01-05",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Rides in this \"land\" are based on such classic Disney films as \"Dumbo\" & \"Alice in Wonderland\\\"",
-        "response_text": "Fantasyland",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The electronic musical theme of this street's famous electrical parade is called \"Baroque Hoedown\\\"",
-        "response_text": "Main Street",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "You can climb aboard this ride at the Disneyland Hotel & take it all the way to Tomorrowland",
-        "response_text": "the monorail",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The 1946 film \"Song of the South\" inspired this log flume ride that features a 5-story drop",
-        "response_text": "Splash Mountain",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Jose the Macaw, who used to greet guests at the entrance to Adventureland, stars in this \"Enchanted\" room",
-        "response_text": "the Tiki Room",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY FACTS",
-    "topic_area": "disney",
-    "season": 34,
-    "air_date": "2018-05-09",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Hippo ballerinas perform a hypnotic \"Dance Of The Hours\" in this 1940 film",
-        "response_text": "Fantasia",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "When Walt was trying to create Disneyland, he got sizable funding from this TV network Disney now owns",
-        "response_text": "ABC",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Songs from this 1951 Disney adaptation include \"All In The Golden Afternoon\" & \"I'm Late\\\"",
-        "response_text": "Alice in Wonderland",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Disney's CEO since 2005, he's brought Pixar, Lucasfilm & Marvel into the Mouse House",
-        "response_text": "Robert Iger",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The title animal in this, Disney's first live-action comedy, is a Bratislavian sheepdog",
-        "response_text": "The Shaggy Dog",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY VILLAINS",
-    "topic_area": "disney",
-    "season": 8,
-    "air_date": "1991-12-25",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "His hand, the left one, is inside another character, the crocodile",
-        "response_text": "Captain Hook",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The Heffalumps & Woozles who tried to steal his honey were imaginary; he dreamt them",
-        "response_text": "Winnie the Pooh",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In this 1977 film Bernard & Bianca save the orphan Penny from the evil clutches of Madame Medusa",
-        "response_text": "The Rescuers",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "J. Worthington Foulfellow, a.k.a. Honest John, is this type of sly animal who charms Pinocchio",
-        "response_text": "a fox",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Even the name of this wicked fairy in \"Sleeping Beauty\" sounds evil",
-        "response_text": "Maleficent",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY SONGS",
-    "topic_area": "disney",
-    "season": 35,
-    "air_date": "2018-10-05",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "This wonderful Swahili phrase means \"no worries for the rest of your days\\\"",
-        "response_text": "hakuna matata",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "A song in \"101 Dalmatians\" says if this villainess \"doesn't scare you, no evil thing will\\\"",
-        "response_text": "Cruella de Vil",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "\\\"You can bet before we're through, mister I'll make a man out of you\", says a song from this China-set film",
-        "response_text": "Mulan",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Pocahontas asks, \"Can you sing with all the voices of the mountain? Can you paint with all\" these?",
-        "response_text": "the colors of the wind",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Jiminy Cricket sings this song that goes on to say, \"Anything your heart desires, will come to you\\\"",
-        "response_text": "\\\"When You Wish Upon A Star\\\"",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEYLAND: YESTERDAY & TODAY",
-    "topic_area": "disney",
-    "season": 34,
-    "air_date": "2018-03-23",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In 2007 the old Submarine Voyage resurfaced with a new theme inspired by this animated film",
-        "response_text": "Finding Nemo",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This area of the park where Pirates of the Caribbean is located was fashioned after the French Quarter",
-        "response_text": "New Orleans Square",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Original attractions from 1955 that are still around include Autopia & this boat ride in Adventure Land",
-        "response_text": "the Jungle Cruise",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "To honor \"Star Wars\", Disneyland added this 5-letter word to the front of its Space Mountain ride",
-        "response_text": "hyper",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "From 1967 to 1973, the Carousel of Progress showcased decades of American life, sponsored by this company",
-        "response_text": "GE (General Electric)",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY'S 7 DWARFS",
-    "topic_area": "disney",
-    "season": 31,
-    "air_date": "2015-01-27",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Timidly reticent",
-        "response_text": "Bashful",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Nasally irritated",
-        "response_text": "Sneezy",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Byname of sometime dentist John Henry Holliday",
-        "response_text": "Doc",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Cantankerously sullen",
+        "clue_text": "Cantankerous",
         "response_text": "Grumpy",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Chipper",
+        "response_text": "Happy",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Reticent",
+        "response_text": "Bashful",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Sawbones",
+        "response_text": "Doc",
         "dollar_value": 800
       },
       {
-        "clue_text": "Jovially exultant",
-        "response_text": "Happy",
+        "clue_text": "Languid",
+        "response_text": "Sleepy",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "VAULT DISNEY",
+    "topic_area": "disney",
+    "season": 15,
+    "air_date": "1998-09-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "It's the title mode of transportation for 1928's \"Willie\\\"",
+        "response_text": "steamboat",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's the first name of either of the 2 \"Rescuers\\\"",
+        "response_text": "Bernard & Bianca",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "King Louie is the scatting leader of the monkeys in this 1967 animated film",
+        "response_text": "The Jungle Book",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Before Mickey, one of Walt's successful creations was this \"Lucky Rabbit\\\"",
+        "response_text": "Oswald",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "If we're heading through \"The Black Hole\", it's with this Austrian-born actor who played evil Dr. Reinhardt",
+        "response_text": "Maximilian Schell",
         "dollar_value": 1000
       }
     ]
@@ -680,35 +102,239 @@
     ]
   },
   {
-    "name": "DISNEY PRINCESS NAMES",
+    "name": "THE DISNEY CHANNEL",
     "topic_area": "disney",
-    "season": 34,
-    "air_date": "2017-12-04",
+    "season": 23,
+    "air_date": "2007-07-26",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "French for \"beautiful\\\"",
-        "response_text": "Belle",
+        "clue_text": "Ron Stoppable helps this title girl in her fight against villains like Frugal Lucre & Sr. Senior, Jr.",
+        "response_text": "Kim Possible",
         "dollar_value": 200
       },
       {
-        "clue_text": "Algonquian for \"mischievous one\\\"",
-        "response_text": "Pocahontas",
+        "clue_text": "A junior high hoops star starts turning into a leprechaun in the Disney Channel movie \"The Luck of\" them",
+        "response_text": "the Irish",
         "dollar_value": 400
       },
       {
-        "clue_text": "\\\"Magnolia\" or literally \"wood\" & \"orchid\" in Chinese",
-        "response_text": "Mulan",
+        "clue_text": "The Diffy family from the year 2121 gets stuck in our century on this show",
+        "response_text": "Phil of the Future",
         "dollar_value": 600
       },
       {
-        "clue_text": "From the Persian via Arabic, it's a fragrant flower",
-        "response_text": "Jasmine",
+        "clue_text": "This title kid is \"in the (White) House\" when his dad is made executive chef",
+        "response_text": "Cory (Baxter)",
         "dollar_value": 800
       },
       {
-        "clue_text": "From the Latin for \"dawn\", just like a Roman goddess",
-        "response_text": "Aurora",
+        "clue_text": "Disney says this title guy \"is your average 13-year-old kid, who just so happens to be a powerful and magical dragon!\\\"",
+        "response_text": "Jake Long",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WE LOVE DISNEYLAND",
+    "topic_area": "disney",
+    "season": 25,
+    "air_date": "2008-10-14",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Disneyland once boasted that it had the world's 8th-largest fleet of these undersea vessels; they returned in 2007",
+        "response_text": "submarines",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The construction of Disneyland delayed this animated film, but the heroine's castle became the park's centerpiece",
+        "response_text": "Sleeping Beauty",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "During the holiday season, Jack Skellington of \"The Nightmare Before Christmas\" appears in this spooky attraction",
+        "response_text": "The Haunted Mansion",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "You can zap space enemy targets with lasers on the Astro Blasters ride named for this Space Ranger",
+        "response_text": "Buzz Lightyear",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This creature was far from his Himalayan home when he began lurking inside Disneyland's Matterhorn in 1978",
+        "response_text": "the Abominable Snowman",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEYLAND",
+    "topic_area": "disney",
+    "season": 6,
+    "air_date": "1990-05-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "On June 14, 1959 this vice president & his family opened Disneyland's monorail",
+        "response_text": "Richard Nixon",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "2 of the 4 peaks in the Disneyland \"mountain range\\\"",
+        "response_text": "Big Thunder, Matterhorn, Space Mountain & Splash Mountain",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Of 7 days, 7 weeks or 7 months, time it took for the first million guests to visit Disneyland",
+        "response_text": "7 weeks",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "New Orleans Square restaurant, or a hit song for Linda Ronstadt & Roy Orbison",
+        "response_text": "Blue Bayou",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "It may be Sleeping Beauty's castle, but in the doorway you hear this song from \"Pinocchio\\\"",
+        "response_text": "\\\"When You Wish Upon A Star\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY DOGS",
+    "topic_area": "disney",
+    "season": 26,
+    "air_date": "2010-04-23",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1930, he appeared as Minnie Mouse's dog, Rover; in 1931 he became Mickey's dog & was renamed this",
+        "response_text": "Pluto",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Pongo & Perdita are easy to spot as the mom & pop in this classic",
+        "response_text": "101 Dalmatians",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Percy is Governor Ratcliffe's pampered pooch in this 1995 release",
+        "response_text": "Pocahontas",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "She wasn't the grandmother but the darling dog/nursemaid in \"Peter Pan\\\"",
+        "response_text": "Nana",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Sadly, in a live-action favorite, after contracting rabies, this title dog has to be put down",
+        "response_text": "Old Yeller",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY VILLAINS",
+    "topic_area": "disney",
+    "season": 16,
+    "air_date": "1999-11-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Jafar",
+        "response_text": "Aladdin",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Ursula",
+        "response_text": "The Little Mermaid",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Scar",
+        "response_text": "The Lion King",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Clayton",
+        "response_text": "Tarzan",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Kaa & Shere Khan",
+        "response_text": "The Jungle Book",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TOUGH DISNEY",
+    "topic_area": "disney",
+    "season": 4,
+    "air_date": "1987-11-13",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Both Disneyland and Walt Disney World's Magic Kingdom are located in counties with this name",
+        "response_text": "Orange County",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Technical reason the third Mickey Mouse cartoon, \"Steamboat Willie\", was released first on November 18, 1928",
+        "response_text": "because it had sound",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "For \"Pinocchio\", he was painted with 27 colors; for the \"Mickey Mouse Club\", they used only nine",
+        "response_text": "Jiminy Cricket",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "According to the 1953 cartoon, these four sounds are \"where the music comes from\\\"",
+        "response_text": "a toot, a whistle, a plunk, and a boom",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The title character of this 1961 live-action hit was named Ned Brainard",
+        "response_text": "The Absent-Minded Professor",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY DOGS",
+    "topic_area": "disney",
+    "season": 5,
+    "air_date": "1989-05-19",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "A bloodhound chasing Mickey in \"The Chain Gang\", he later became \"Mickey's Pal\\\"",
+        "response_text": "Pluto",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He began in the early 1930s as a stringbean character called Dippy Dawg",
+        "response_text": "Goofy",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1960 the new xerography process made it unnecessary for the animators to draw all 101 of these",
+        "response_text": "dalmatians",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Walt Disney's 1st live-action comedy & his 1st to star Fred MacMurray",
+        "response_text": "The Shaggy Dog",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In a 1957 film, this dog fights off a pack of wild pigs",
+        "response_text": "Old Yeller",
         "dollar_value": 1000
       }
     ]
@@ -782,142 +408,6 @@
     ]
   },
   {
-    "name": "NAME THE DISNEY PRINCESS",
-    "topic_area": "disney",
-    "season": 40,
-    "air_date": "2024-06-12",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "She has magical 70-foot locks",
-        "response_text": "Rapunzel",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "She's the only princess based on a real person",
-        "response_text": "Pocahontas",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Her name is from Polynesian for \"ocean\" & the ocean chooses her for a special task",
-        "response_text": "Moana",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "She's friends with a trumpet-playing alligator named Louise",
-        "response_text": "Tiana",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "She's sister to brothers Hamish, Harris & Hubert",
-        "response_text": "Merida",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY DOGS",
-    "topic_area": "disney",
-    "season": 26,
-    "air_date": "2010-04-23",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In 1930, he appeared as Minnie Mouse's dog, Rover; in 1931 he became Mickey's dog & was renamed this",
-        "response_text": "Pluto",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Pongo & Perdita are easy to spot as the mom & pop in this classic",
-        "response_text": "101 Dalmatians",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Percy is Governor Ratcliffe's pampered pooch in this 1995 release",
-        "response_text": "Pocahontas",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "She wasn't the grandmother but the darling dog/nursemaid in \"Peter Pan\\\"",
-        "response_text": "Nana",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Sadly, in a live-action favorite, after contracting rabies, this title dog has to be put down",
-        "response_text": "Old Yeller",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "AFRODISNEYAC",
-    "topic_area": "disney",
-    "season": 30,
-    "air_date": "2014-01-07",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "African folk-tale elements were used in this animated 1994 hit that showed you can't go wrong with a funny meerkat",
-        "response_text": "The Lion King",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In the 1999 Disney version, Tony Goldwyn didn't need the physique of earlier actors who played this swinger",
-        "response_text": "Tarzan",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In Disney's \"A Far Off Place\", poachers kill the parents of this \"Legally Blonde\" star, who escapes via the Kalahari",
-        "response_text": "(Reese) Witherspoon",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Look out for that tree in the made-up African nation of Bukuvu, this title guy!",
-        "response_text": "George of the Jungle",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Kevin Bacon went to Africa hoping to recruit a tall tribesman to play basketball in this 1994 movie",
-        "response_text": "The Air Up There",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY DWARF ALTERNATE NAMES",
-    "topic_area": "disney",
-    "season": 37,
-    "air_date": "2021-04-02",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Cantankerous",
-        "response_text": "Grumpy",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Chipper",
-        "response_text": "Happy",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Reticent",
-        "response_text": "Bashful",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Sawbones",
-        "response_text": "Doc",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Languid",
-        "response_text": "Sleepy",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
     "name": "THE WALT DISNEY FAMILY MUSEUM",
     "topic_area": "disney",
     "season": 29,
@@ -952,35 +442,103 @@
     ]
   },
   {
-    "name": "DISNEY SONGS",
+    "name": "THE WALT DISNEY ARCHIVES",
     "topic_area": "disney",
-    "season": 7,
-    "air_date": "1991-03-28",
+    "season": 32,
+    "air_date": "2016-04-20",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "Peggy Lee co-wrote the song \"He's a Tramp\" for this film & she sang it, too",
-        "response_text": "Lady and the Tramp",
+        "clue_text": "(Sarah of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) It was tiaras all around in this Anne Hathaway sequel—one for Mia & one for her cat, Fat Louie; the yellow gems resemble pears because the fictional country of Genovia is famous for them",
+        "response_text": "Princess Diaries 2 (The Princess Diaries accepted)",
         "dollar_value": 200
       },
       {
-        "clue_text": "A song from \"Peter Pan\" advises, \"Never Smile at\" one of these big reptiles",
-        "response_text": "Crocodile",
+        "clue_text": "(Jimmy of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) The 11-foot long miniature of this submarine from \"20,000 Leagues Under the Sea\" had a working motor & weighed 1,000 pounds when rigged for filming",
+        "response_text": "the Nautilus",
         "dollar_value": 400
       },
       {
-        "clue_text": "\\\"Biddle-Dee-Dee\" is a song from \"Toby Tyler\" & \"Bibbidi Bobbidi Boo\" is a song from this film",
-        "response_text": "Cinderella",
+        "clue_text": "(Jimmy of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) \"Pirates of the Caribbean\" props include the dead man's chest, Jack's compass, & a medallion of stolen Aztec gold cursed due to the greed of this Spanish conquistador",
+        "response_text": "Cortés",
         "dollar_value": 600
       },
       {
-        "clue_text": "The 1951 film that features the song \"Painting the Roses Red\" & \"March of the Cards\\\"",
-        "response_text": "Alice in Wonderland",
+        "clue_text": "(Sarah of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) There are openings in the side of the overcoat worn by Mary Poppins so that thin cables could be inserted to magically lift this actress, giving her the illusion of flight",
+        "response_text": "Julie Andrews",
         "dollar_value": 800
       },
       {
-        "clue_text": "King Louie the orangutan sings \"I Wanna Be Like You\" to Mowgli in this film",
-        "response_text": "The Jungle Book",
+        "clue_text": "(Jimmy of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) A fictional ring once owned by Lucrezia Borgia that bore the inscription \"in canis corpore transmuto\" turns Tommy Kirk into this title canine",
+        "response_text": "the Shaggy Dog",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ALL THINGS DISNEY",
+    "topic_area": "disney",
+    "season": 40,
+    "air_date": "2024-02-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Naturally, he was the first animated character to get a star on the Hollywood Walk of Fame",
+        "response_text": "Mickey",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "At Walt Disney World in 1975, Scott Carpenter, Gordon Cooper & Jim Irwin attended the grand opening of this ride",
+        "response_text": "Space Mountain",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Inspired by \"The Princess and the Frog\", Disneyland has a new eatery featuring southern dishes & named for this character",
+        "response_text": "Tiana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This song from \"Three Little Pigs\" became a rallying cry against the Great Depression & the rise of Hitler",
+        "response_text": "\\\"Who's Afraid Of The Big Bad Wolf?\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"A Spoonful Of Sugar\" & \"It's A Small World\" are among the more than 200 songs these siblings wrote for Disney",
+        "response_text": "the Shermans",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ALL THINGS DISNEY",
+    "topic_area": "disney",
+    "season": 35,
+    "air_date": "2018-11-09",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Act 1 of this Broadway musical includes a young Elsa & a young Anna singing \"A Little Bit Of You\\\"",
+        "response_text": "Frozen",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The iconic geosphere known as Spaceship Earth is the symbol of this Disney World theme park",
+        "response_text": "Epcot",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Belle from \"Beauty and the Beast\" was a role model for this actress growing up & in 2017 she got to play her on film",
+        "response_text": "Emma Watson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Mal & Evie are 2 of the offspring of some pretty famous villains in this Disney Channel movie series",
+        "response_text": "The Descendants",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The name of this Disney resort that opened in Hawaii in 2011 means \"messenger of a chief\\\"",
+        "response_text": "Aulani",
         "dollar_value": 1000
       }
     ]
@@ -1020,69 +578,307 @@
     ]
   },
   {
-    "name": "DISNEY DO-OVERS",
+    "name": "DISNEY SONGS",
     "topic_area": "disney",
-    "season": 39,
-    "air_date": "2022-11-23",
+    "season": 31,
+    "air_date": "2015-01-08",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "1967: Bruce Reitherman as the voice of Mowgli; 2016: Neel Sethi as Mowgli",
-        "response_text": "The Jungle Book",
+        "clue_text": "\\\"A Spoonful of Sugar\" is from this movie",
+        "response_text": "Mary Poppins",
         "dollar_value": 400
       },
       {
-        "clue_text": "In the title role in 1998: Ming-Na Wen; in 2020: Liu Yifei",
-        "response_text": "Mulan",
+        "clue_text": "The song titled \"Some Day\" he \"Will Come\" is from \"Snow White & the Seven Dwarfs\\\"",
+        "response_text": "My Prince",
         "dollar_value": 800
       },
       {
-        "clue_text": "1961: Hayley Mills & Hayley Mills; 1998: Lindsay Lohan & Lindsay Lohan",
-        "response_text": "The Parent Trap",
+        "clue_text": "A \"Beauty and the Beast\" song, or a hospitable Disney World restaurant",
+        "response_text": "\\\"Be Our Guest\\\"",
         "dollar_value": 1200
       },
       {
-        "clue_text": "1976: Barbara Harris & Jodie Foster; 2003: Jamie Lee Curtis & Lindsay Lohan",
-        "response_text": "Freaky Friday",
+        "clue_text": "Simba & Nala sing it on realizing they've found romance",
+        "response_text": "\\\"Can You Feel The Love Tonight\\\"",
         "dollar_value": 1600
       },
       {
-        "clue_text": "1968: Dean Jones & Herbie; 1997: Bruce Campbell & Herbie",
-        "response_text": "The Love Bug",
+        "clue_text": "Randy Newman's Oscar-nominated song from \"Toy Story\\\"",
+        "response_text": "\\\"You've Got A Friend In Me\\\"",
         "dollar_value": 2000
       }
     ]
   },
   {
-    "name": "VAULT DISNEY",
+    "name": "DISNEYLAND",
     "topic_area": "disney",
-    "season": 15,
-    "air_date": "1998-09-17",
-    "round": "Double Jeopardy!",
+    "season": 3,
+    "air_date": "1987-04-13",
+    "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "It's the title mode of transportation for 1928's \"Willie\\\"",
-        "response_text": "steamboat",
+        "clue_text": "Between the parade & the fireworks she flies over Fantasyland summer nights at about 9:30 P.M.",
+        "response_text": "Tinker Bell",
         "dollar_value": 200
       },
       {
-        "clue_text": "It's the first name of either of the 2 \"Rescuers\\\"",
-        "response_text": "Bernard & Bianca",
+        "clue_text": "The July 17, 1955 opening day TV show was hosted by A. Linkletter, B. Cummings, & this future Calif. governor",
+        "response_text": "Ronald Reagan",
         "dollar_value": 400
       },
       {
-        "clue_text": "King Louie is the scatting leader of the monkeys in this 1967 animated film",
-        "response_text": "The Jungle Book",
+        "clue_text": "He gets more phone calls than anyone else at Disneyland",
+        "response_text": "Mickey Mouse",
         "dollar_value": 600
       },
       {
-        "clue_text": "Before Mickey, one of Walt's successful creations was this \"Lucky Rabbit\\\"",
-        "response_text": "Oswald",
+        "clue_text": "You can board steam-powered railroad trains at New Orleans Square, Main Street, U.S.A., & , oddly, here",
+        "response_text": "Tomorrowland",
         "dollar_value": 800
       },
       {
-        "clue_text": "If we're heading through \"The Black Hole\", it's with this Austrian-born actor who played evil Dr. Reinhardt",
-        "response_text": "Maximilian Schell",
+        "clue_text": "There's one of these on Main Street open 7 days a week—but only from 10 a.m. to 3 p.m.",
+        "response_text": "bank (Bank of America)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY SIDEKICKS",
+    "topic_area": "disney",
+    "season": 30,
+    "air_date": "2014-03-04",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In \"Mulan\", Mushu is one of these legendary creatures",
+        "response_text": "a dragon",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Angus in \"Brave\" is Merida's horse, of course, one of these big ones",
+        "response_text": "a Clydesdale",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This sidekick of Captain Hook wishes to return to a simpler life of \"scuttling ships... cutting throats\\\"",
+        "response_text": "Smee",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In \"Diamonds Are Forever\", 007 was attacked by a bikini-clad woman who shared a name with this 1942 Disney sidekick",
+        "response_text": "Thumper",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "The song heard before the credits as fireworks explode over the castle was sung originally by this sidekick",
+        "response_text": "Jiminy Cricket",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY PRINCESS NAMES",
+    "topic_area": "disney",
+    "season": 34,
+    "air_date": "2017-12-04",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "French for \"beautiful\\\"",
+        "response_text": "Belle",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Algonquian for \"mischievous one\\\"",
+        "response_text": "Pocahontas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Magnolia\" or literally \"wood\" & \"orchid\" in Chinese",
+        "response_text": "Mulan",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "From the Persian via Arabic, it's a fragrant flower",
+        "response_text": "Jasmine",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "From the Latin for \"dawn\", just like a Roman goddess",
+        "response_text": "Aurora",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY+",
+    "topic_area": "disney",
+    "season": 38,
+    "air_date": "2021-11-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Miss Minutes has the task of explaining the multiverse to this Marvel antihero who meets, let's say, unexpected variants of himself",
+        "response_text": "a Loki",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Take a fly-through of \"Star Wars\" vehicles like this iconic ship. \"You're all clear, kid!\"; now let's respond correctly and go home",
+        "response_text": "the Millennium Falcon",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Pixar's \"Dug Days\" is set in the backyard of the pooch introduced in this 2009 film",
+        "response_text": "Up",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It's Hanks for the memory, but Josh Peck is now the first half of the title in this show, a reboot of a 1989 detective film",
+        "response_text": "Turner & Hooch",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A hidden underground cave below Chichen Itza is a legend of this people; a \"National Geographic\" documentary digs up the \"Buried Truth\\\"",
+        "response_text": "the Mayans",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ZOOG DISNEY CHANNEL",
+    "topic_area": "disney",
+    "season": 19,
+    "air_date": "2003-01-08",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In the TV movie \"The Luck of the Irish\", the young Kyle Johnson discovers he's this type of fairy",
+        "response_text": "a leprechaun",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Clu, Jack & Fi's encounters with all kinds of paranormal spooks go onto Fi's website on this show",
+        "response_text": "So Weird",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The only thing perfect student Ren & her brother Louis have in common is their last name on this show",
+        "response_text": "Even Stevens",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Britney made a guest appearance on this \"famous\" show about a TV action hero who moves back to his hometown",
+        "response_text": "The Famous Jett Jackson",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Hilary Duff & her cartoon alter ego try to survive middle school as this title character",
+        "response_text": "Lizzie McGuire",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "DISNEYLAND",
+    "topic_area": "disney",
+    "season": 10,
+    "air_date": "1993-10-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The Jungle Cruise was inspired in part by this Bogart & Hepburn film",
+        "response_text": "The African Queen",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "You can see Walt Disney's family crest above the archway at the entrance to this castle",
+        "response_text": "Sleeping Beauty's castle",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Disneyland's 1st 2 keelboats had been used on a TV show about Mike Fink & this fur-capped frontiersman",
+        "response_text": "Davy Crockett",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Tourists used to fish for catfish off the docks of this island named for a Mark Twain character",
+        "response_text": "Tom Sawyer's island",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Watch out for the evil queen from this 1937 film; she may stare at you out of a window in Fantasyland",
+        "response_text": "Snow White",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEYLAND SONGS",
+    "topic_area": "disney",
+    "season": 28,
+    "air_date": "2011-10-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Yo ho, yo ho...\\\"",
+        "response_text": "Pirates of the Caribbean",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"It's a world of laughter, a world of tears...\\\"",
+        "response_text": "It's a Small World",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Grim, grinning ghosts come out to socialize...\\\"",
+        "response_text": "The Haunted Mansion",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"A Heffalump & Woozle is very confusel...\"\\'",
+        "response_text": "Winnie the Pooh",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Never smile at a crocodile\\\"",
+        "response_text": "Peter Pan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY SONGS",
+    "topic_area": "disney",
+    "season": 8,
+    "air_date": "1992-02-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"The Perfect Nanny\", a song in this film, perfectly describes its title character",
+        "response_text": "Mary Poppins",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "He sings \"I've Got No Strings\" in a puppet show; you might call it a \"wooden\" performance",
+        "response_text": "Pinocchio",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "She sings \"A Dream Is A Wish Your Heart Makes\" while the little birds help her get dressed",
+        "response_text": "Cinderella",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Mrs. Jumbo sings the lullaby \"Baby Mine\" to this title character",
+        "response_text": "Dumbo",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Everybody Has a Laughing Place\" was also in this film but \"Zip-A-Dee Doo-Dah\" won the Oscar",
+        "response_text": "Song of the South",
         "dollar_value": 1000
       }
     ]
@@ -1122,273 +918,137 @@
     ]
   },
   {
-    "name": "DISNEYLAND",
+    "name": "I'M GOING TO DISNEYLAND",
     "topic_area": "disney",
-    "season": 10,
-    "air_date": "1993-10-13",
+    "season": 23,
+    "air_date": "2007-04-30",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "The Jungle Cruise was inspired in part by this Bogart & Hepburn film",
-        "response_text": "The African Queen",
+        "clue_text": "That spooky woman's head in a crystal ball always freaks me out on this scary ride",
+        "response_text": "The Haunted Mansion",
         "dollar_value": 200
       },
       {
-        "clue_text": "You can see Walt Disney's family crest above the archway at the entrance to this castle",
-        "response_text": "Sleeping Beauty's castle",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Disneyland's 1st 2 keelboats had been used on a TV show about Mike Fink & this fur-capped frontiersman",
-        "response_text": "Davy Crockett",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Tourists used to fish for catfish off the docks of this island named for a Mark Twain character",
-        "response_text": "Tom Sawyer's island",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Watch out for the evil queen from this 1937 film; she may stare at you out of a window in Fantasyland",
-        "response_text": "Snow White",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "THE DISNEY LADY SINGS",
-    "topic_area": "disney",
-    "season": 38,
-    "air_date": "2022-02-25",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "\\\"Belle\", performed by Paige O'Hara",
-        "response_text": "Beauty and the Beast",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "\\\"Someday My Prince Will Come\", performed by Adriana Caselotti",
-        "response_text": "Snow White (and the Seven Dwarfs)",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "\\\"How Far I'll Go\", performed by Auli'i Cravalho",
-        "response_text": "Moana",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "\\\"Once Upon A Dream\", performed by Mary Costa",
-        "response_text": "Sleeping Beauty",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"When Will My Life Begin?\", performed by Mandy Moore",
-        "response_text": "Tangled",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "THE DISNEY VILLAIN WHO SAID...",
-    "topic_area": "disney",
-    "season": 41,
-    "air_date": "2025-03-18",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "\\\"That's enough. Off with their heads\\\"",
-        "response_text": "the Queen of Hearts",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "\\\"All that's left now is to kill Elsa... and bring back summer\\\"",
-        "response_text": "Hans",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "\\\"The daughter of the great sea king is a very precious commodity\\\"",
-        "response_text": "Ursula",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "\\\"Without the genie, boy, you're nothing\\\"",
-        "response_text": "Jafar",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"You poor simple fools, thinking you could defeat me. Me? The mistress of all evil? Well here's your precious princess\\\"",
-        "response_text": "Maleficent",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEYLAND RIDES & ATTRACTIONS",
-    "topic_area": "disney",
-    "season": 27,
-    "air_date": "2011-02-17",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In a ride that dates from the park's 1955 opening, you spin in these",
-        "response_text": "teacups",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The abominable snowman resides inside the ride named for this Alpine mountain",
-        "response_text": "the Matterhorn",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This movie character's adventurous ride takes you through the Temple of the Forbidden Eye",
-        "response_text": "Indiana Jones",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "A \"Doom Buggy\" transports you through this attraction",
-        "response_text": "the Haunted Mansion",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "It's a South Seas paradise in this \"enchanted\" room",
-        "response_text": "the Tiki Room",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY",
-    "topic_area": "disney",
-    "season": 2,
-    "air_date": "1986-01-01",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Thumper & Flower offer \"comic relief\" in this movie about man's disregard for nature",
-        "response_text": "Bambi",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In \"The Sorcerer's Apprentice\", the sorcerer's name, \"Yen Sid\", is really this",
-        "response_text": "Disney backwards",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "As of May of 1981, this Disney operation had the world's fifth-largest navy",
-        "response_text": "Vacation Kingdom at Walt Disney World",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Disney departed from original story of \"Pinocchio\" by not killing this major character at the outset",
-        "response_text": "Jiminy Cricket",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The only one of the Seven Dwarfs with a one-syllable name",
-        "response_text": "Doc",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "LEONARD MALTIN ON DISNEY",
-    "topic_area": "disney",
-    "season": 24,
-    "air_date": "2008-01-07",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "(Leonard Maltin reads the clue.) 1935's \"The Band Concert\", my favorite animated short, featured the color debut of this ultimate Disney icon, who played the maestro",
-        "response_text": "Mickey Mouse",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "(Leonard Maltin reads the clue.) The craze inspired by this TV hero in the '50s took Walt by surprise; he'd killed him off at the Alamo in episode 3, so he had to film prequels in order to bring him back",
-        "response_text": "Davy Crockett",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "(Leonard Maltin reads the clue.) The crown jewel of Walt's career was this, my favorite Disney film of all time—& it gave the world a new movie star, Julie Andrews",
-        "response_text": "Mary Poppins",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "(Leonard Maltin reads the clue.) A chance meeting with Leopold Stokowski led Walt to hire him for a \"Sorcerer's Apprentice\" short; Stokowski prodded him into making a longer film, this 1940 epic",
-        "response_text": "Fantasia",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "(Leonard Maltin wraps it up.) My favorite animated Disney film is this 1941 classic in which a lovable misfit becomes a high-flying circus star",
+        "clue_text": "I'll feel like a kid again on this flying elephant ride, a fixture at Disneyland since 1955",
         "response_text": "Dumbo",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEYLAND",
-    "topic_area": "disney",
-    "season": 9,
-    "air_date": "1993-02-18",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The theme song of this ride is \"Yo-Ho, Yo-Ho—A Pirate's Life For Me\\\"",
-        "response_text": "Pirates of the Caribbean",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Those \"dying\" to go through this attraction must do so in a \"Doom Buggy\\\"",
-        "response_text": "the Haunted Mansion",
         "dollar_value": 400
       },
       {
-        "clue_text": "The 1st paddle-wheeler built in half a century is the steamboat Mark Twain, found in this \"land\\\"",
-        "response_text": "Frontierland",
+        "clue_text": "I love the theme of global unity on the ride in which international dolls sing this interminable tune",
+        "response_text": "\\\"It's A Small World\\\"",
         "dollar_value": 600
       },
       {
-        "clue_text": "Michael Jackson stars as the commander of a spaceship in this 3-D film featured in Fantasyland",
-        "response_text": "Captain EO",
+        "clue_text": "Aaargh! I can't wait to go on this classic ride now that Captain Jack Sparrow is part of the fun",
+        "response_text": "Pirates of the Caribbean",
         "dollar_value": 800
       },
       {
-        "clue_text": "The voice of Brer Bear on Splash Mountain was provided by the same actor who did it for this 1946 film",
-        "response_text": "Song of the South",
+        "clue_text": "Well, zip-a-dee-doo-dah! I can't wait to get soaked on this ride that has a 5-story plunge near the end",
+        "response_text": "Splash Mountain",
         "dollar_value": 1000
       }
     ]
   },
   {
-    "name": "DISNEY WORLD AT 25",
+    "name": "HAPPY 40th ANNIVERSARY DISNEYLAND",
     "topic_area": "disney",
-    "season": 13,
-    "air_date": "1997-02-03",
+    "season": 12,
+    "air_date": "1995-11-28",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "This sitcom star dreams she's a contestant on \"Jeopardy!\" in \"Ellen's Energy Adventure\", new at Epcot",
-        "response_text": "Ellen DeGeneres",
+        "clue_text": "A musical stage show called \"The Spirit of\" this Indian heroine debuted in Fantasyland in the summer of '95",
+        "response_text": "Pocahontas",
         "dollar_value": 200
       },
       {
-        "clue_text": "When Buzz Aldrin narrated Epcot's '96 Candlelight Processional, he quoted this \"Toy Story\" character",
-        "response_text": "Buzz Lightyear",
+        "clue_text": "Simba is the \"mane\" attraction in the popular parade inspired by this film",
+        "response_text": "The Lion King",
         "dollar_value": 400
       },
       {
-        "clue_text": "In honor of the 25th anniversary, this heroine's castle was transformed into a giant pink cake",
+        "clue_text": "On Disneyland's 40th birthday, July 17, 1995, Randy Travis led a Sing-along from the top of this \"Alpine\" mountain",
+        "response_text": "the Matterhorn",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A time capsule buried at this castle in 1995 will be opened on Disneyland's 80th anniversary in 2035",
+        "response_text": "the Sleeping Beauty castle",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The exciting new ride named for this character is a perilous journey through the Temple of the Forbidden Eye",
+        "response_text": "Indiana Jones",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY SONGS",
+    "topic_area": "disney",
+    "season": 7,
+    "air_date": "1991-03-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Peggy Lee co-wrote the song \"He's a Tramp\" for this film & she sang it, too",
+        "response_text": "Lady and the Tramp",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A song from \"Peter Pan\" advises, \"Never Smile at\" one of these big reptiles",
+        "response_text": "Crocodile",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Biddle-Dee-Dee\" is a song from \"Toby Tyler\" & \"Bibbidi Bobbidi Boo\" is a song from this film",
         "response_text": "Cinderella",
         "dollar_value": 600
       },
       {
-        "clue_text": "The Tower of Terror inspired by this TV series now drops you 13 stories twice; Rod Serling would approve",
-        "response_text": "The Twilight Zone",
+        "clue_text": "The 1951 film that features the song \"Painting the Roses Red\" & \"March of the Cards\\\"",
+        "response_text": "Alice in Wonderland",
         "dollar_value": 800
       },
       {
-        "clue_text": "He reprises his role as Prof. Wayne Szalinski in the 3-D Epcot film \"Honey, I Shrunk the Audience\\\"",
-        "response_text": "Rick Moranis",
+        "clue_text": "King Louie the orangutan sings \"I Wanna Be Like You\" to Mowgli in this film",
+        "response_text": "The Jungle Book",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY SONGS",
+    "topic_area": "disney",
+    "season": 35,
+    "air_date": "2018-10-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This wonderful Swahili phrase means \"no worries for the rest of your days\\\"",
+        "response_text": "hakuna matata",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A song in \"101 Dalmatians\" says if this villainess \"doesn't scare you, no evil thing will\\\"",
+        "response_text": "Cruella de Vil",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"You can bet before we're through, mister I'll make a man out of you\", says a song from this China-set film",
+        "response_text": "Mulan",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Pocahontas asks, \"Can you sing with all the voices of the mountain? Can you paint with all\" these?",
+        "response_text": "the colors of the wind",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Jiminy Cricket sings this song that goes on to say, \"Anything your heart desires, will come to you\\\"",
+        "response_text": "\\\"When You Wish Upon A Star\\\"",
         "dollar_value": 1000
       }
     ]
@@ -1428,35 +1088,545 @@
     ]
   },
   {
-    "name": "DISNEY SONGS",
+    "name": "THE DISNEY VILLAIN WHO SAID...",
     "topic_area": "disney",
-    "season": 8,
-    "air_date": "1992-02-20",
+    "season": 41,
+    "air_date": "2025-03-18",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "\\\"The Perfect Nanny\", a song in this film, perfectly describes its title character",
-        "response_text": "Mary Poppins",
+        "clue_text": "\\\"That's enough. Off with their heads\\\"",
+        "response_text": "the Queen of Hearts",
         "dollar_value": 200
       },
       {
-        "clue_text": "He sings \"I've Got No Strings\" in a puppet show; you might call it a \"wooden\" performance",
-        "response_text": "Pinocchio",
+        "clue_text": "\\\"All that's left now is to kill Elsa... and bring back summer\\\"",
+        "response_text": "Hans",
         "dollar_value": 400
       },
       {
-        "clue_text": "She sings \"A Dream Is A Wish Your Heart Makes\" while the little birds help her get dressed",
+        "clue_text": "\\\"The daughter of the great sea king is a very precious commodity\\\"",
+        "response_text": "Ursula",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Without the genie, boy, you're nothing\\\"",
+        "response_text": "Jafar",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"You poor simple fools, thinking you could defeat me. Me? The mistress of all evil? Well here's your precious princess\\\"",
+        "response_text": "Maleficent",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY MANIA",
+    "topic_area": "disney",
+    "season": 20,
+    "air_date": "2003-09-25",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2003 this little friend of Winnie the Pooh starred in his own \"Big Movie\\\"",
+        "response_text": "Piglet",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In \"The Little Mermaid\", it's the name of the sinister sea witch",
+        "response_text": "Ursula",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Spaceship Earth, the geosphere at this Disney World theme park, is 180 feet high & weighs 16 million pounds",
+        "response_text": "Epcot",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In \"The Jungle Book\", he's the happy-go-lucky bear who befriends Mowgli",
+        "response_text": "Baloo",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This movie originally with Hayley Mills & Hayley Mills was remade in 1998 with Lindsay Lohan & Lindsay Lohan",
+        "response_text": "The Parent Trap",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "DISNEYLAND RIDES & ATTRACTIONS",
+    "topic_area": "disney",
+    "season": 27,
+    "air_date": "2011-02-17",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In a ride that dates from the park's 1955 opening, you spin in these",
+        "response_text": "teacups",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The abominable snowman resides inside the ride named for this Alpine mountain",
+        "response_text": "the Matterhorn",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This movie character's adventurous ride takes you through the Temple of the Forbidden Eye",
+        "response_text": "Indiana Jones",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "A \"Doom Buggy\" transports you through this attraction",
+        "response_text": "the Haunted Mansion",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "It's a South Seas paradise in this \"enchanted\" room",
+        "response_text": "the Tiki Room",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEYLAND",
+    "topic_area": "disney",
+    "season": 9,
+    "air_date": "1993-02-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The theme song of this ride is \"Yo-Ho, Yo-Ho—A Pirate's Life For Me\\\"",
+        "response_text": "Pirates of the Caribbean",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Those \"dying\" to go through this attraction must do so in a \"Doom Buggy\\\"",
+        "response_text": "the Haunted Mansion",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The 1st paddle-wheeler built in half a century is the steamboat Mark Twain, found in this \"land\\\"",
+        "response_text": "Frontierland",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Michael Jackson stars as the commander of a spaceship in this 3-D film featured in Fantasyland",
+        "response_text": "Captain EO",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The voice of Brer Bear on Splash Mountain was provided by the same actor who did it for this 1946 film",
+        "response_text": "Song of the South",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY DOGS",
+    "topic_area": "disney",
+    "season": 16,
+    "air_date": "2000-03-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Introduced in the 1930s, he's been known as Dippy Dawg, Dippy the Goof &, most famously, this",
+        "response_text": "Goofy",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "We don't know why a mouse would have a dog, but he's Mickey's faithful pet",
+        "response_text": "Pluto",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Internet Movie Database says someone actually counted all the black spots in this 1961 film & found 6,469,952",
+        "response_text": "101 Dalmatians",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Nana is the Darling children's nursemaid as well as their dog in this 1953 feature",
+        "response_text": "Peter Pan",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A genteel cocker spaniel finds romance with a mutt from the wrong side of the tracks in this 1955 classic",
+        "response_text": "Lady and the Tramp",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEYLAND",
+    "topic_area": "disney",
+    "season": 11,
+    "air_date": "1995-01-05",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Rides in this \"land\" are based on such classic Disney films as \"Dumbo\" & \"Alice in Wonderland\\\"",
+        "response_text": "Fantasyland",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The electronic musical theme of this street's famous electrical parade is called \"Baroque Hoedown\\\"",
+        "response_text": "Main Street",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "You can climb aboard this ride at the Disneyland Hotel & take it all the way to Tomorrowland",
+        "response_text": "the monorail",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The 1946 film \"Song of the South\" inspired this log flume ride that features a 5-story drop",
+        "response_text": "Splash Mountain",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Jose the Macaw, who used to greet guests at the entrance to Adventureland, stars in this \"Enchanted\" room",
+        "response_text": "the Tiki Room",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY FACTS",
+    "topic_area": "disney",
+    "season": 34,
+    "air_date": "2018-05-09",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Hippo ballerinas perform a hypnotic \"Dance Of The Hours\" in this 1940 film",
+        "response_text": "Fantasia",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "When Walt was trying to create Disneyland, he got sizable funding from this TV network Disney now owns",
+        "response_text": "ABC",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Songs from this 1951 Disney adaptation include \"All In The Golden Afternoon\" & \"I'm Late\\\"",
+        "response_text": "Alice in Wonderland",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Disney's CEO since 2005, he's brought Pixar, Lucasfilm & Marvel into the Mouse House",
+        "response_text": "Robert Iger",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The title animal in this, Disney's first live-action comedy, is a Bratislavian sheepdog",
+        "response_text": "The Shaggy Dog",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE DISNEY LADY SINGS",
+    "topic_area": "disney",
+    "season": 38,
+    "air_date": "2022-02-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Belle\", performed by Paige O'Hara",
+        "response_text": "Beauty and the Beast",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Someday My Prince Will Come\", performed by Adriana Caselotti",
+        "response_text": "Snow White (and the Seven Dwarfs)",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"How Far I'll Go\", performed by Auli'i Cravalho",
+        "response_text": "Moana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Once Upon A Dream\", performed by Mary Costa",
+        "response_text": "Sleeping Beauty",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"When Will My Life Begin?\", performed by Mandy Moore",
+        "response_text": "Tangled",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY DO-OVERS",
+    "topic_area": "disney",
+    "season": 39,
+    "air_date": "2022-11-23",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "1967: Bruce Reitherman as the voice of Mowgli; 2016: Neel Sethi as Mowgli",
+        "response_text": "The Jungle Book",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In the title role in 1998: Ming-Na Wen; in 2020: Liu Yifei",
+        "response_text": "Mulan",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1961: Hayley Mills & Hayley Mills; 1998: Lindsay Lohan & Lindsay Lohan",
+        "response_text": "The Parent Trap",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "1976: Barbara Harris & Jodie Foster; 2003: Jamie Lee Curtis & Lindsay Lohan",
+        "response_text": "Freaky Friday",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "1968: Dean Jones & Herbie; 1997: Bruce Campbell & Herbie",
+        "response_text": "The Love Bug",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY ENDINGS",
+    "topic_area": "disney",
+    "season": 39,
+    "air_date": "2023-05-30",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The queen & king don't fare well on their voyage in this 2013 film; daughters Anna & Elsa find their wrecked ship in the 2019 sequel",
+        "response_text": "Frozen",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Judge Frollo suffers a great fall from a cathedral in this 1996 flick",
+        "response_text": "The Hunchback of Notre Dame",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Tadashi dies in a fire in this 2014 movie, leaving Hiro devastated, but Baymax is there for him",
+        "response_text": "Big Hero 6",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In this 1986 classic Basil of Baker Street survives a fall from Big Ben, but the evil Ratigan is not so lucky",
+        "response_text": "The Great Mouse Detective",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "In Tim Burton's \"Alice in Wonderland\", Alice slays the Jabberwocky with this, callooh! Callay!",
+        "response_text": "the Vorpal Sword",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "LEONARD MALTIN ON DISNEY",
+    "topic_area": "disney",
+    "season": 24,
+    "air_date": "2008-01-07",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Leonard Maltin reads the clue.) 1935's \"The Band Concert\", my favorite animated short, featured the color debut of this ultimate Disney icon, who played the maestro",
+        "response_text": "Mickey Mouse",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Leonard Maltin reads the clue.) The craze inspired by this TV hero in the '50s took Walt by surprise; he'd killed him off at the Alamo in episode 3, so he had to film prequels in order to bring him back",
+        "response_text": "Davy Crockett",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Leonard Maltin reads the clue.) The crown jewel of Walt's career was this, my favorite Disney film of all time—& it gave the world a new movie star, Julie Andrews",
+        "response_text": "Mary Poppins",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Leonard Maltin reads the clue.) A chance meeting with Leopold Stokowski led Walt to hire him for a \"Sorcerer's Apprentice\" short; Stokowski prodded him into making a longer film, this 1940 epic",
+        "response_text": "Fantasia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Leonard Maltin wraps it up.) My favorite animated Disney film is this 1941 classic in which a lovable misfit becomes a high-flying circus star",
+        "response_text": "Dumbo",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY ANIMATED SUPPORTING CHARACTERS",
+    "topic_area": "disney",
+    "season": 32,
+    "air_date": "2016-02-24",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "2006: Luigi, a 1959 Fiat 500",
+        "response_text": "Cars",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1942: Flower, a skunk",
+        "response_text": "Bambi",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "1995: Slinky Dog",
+        "response_text": "Toy Story",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1991: Chip the teacup & Mrs. Potts, a teapot",
+        "response_text": "Beauty and the Beast",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1950: Gus & Jaq, mice",
+        "response_text": "Cinderella",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "AFRODISNEYAC",
+    "topic_area": "disney",
+    "season": 30,
+    "air_date": "2014-01-07",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "African folk-tale elements were used in this animated 1994 hit that showed you can't go wrong with a funny meerkat",
+        "response_text": "The Lion King",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In the 1999 Disney version, Tony Goldwyn didn't need the physique of earlier actors who played this swinger",
+        "response_text": "Tarzan",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In Disney's \"A Far Off Place\", poachers kill the parents of this \"Legally Blonde\" star, who escapes via the Kalahari",
+        "response_text": "(Reese) Witherspoon",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Look out for that tree in the made-up African nation of Bukuvu, this title guy!",
+        "response_text": "George of the Jungle",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Kevin Bacon went to Africa hoping to recruit a tall tribesman to play basketball in this 1994 movie",
+        "response_text": "The Air Up There",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "NAME THE DISNEY PRINCESS",
+    "topic_area": "disney",
+    "season": 40,
+    "air_date": "2024-06-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "She has magical 70-foot locks",
+        "response_text": "Rapunzel",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "She's the only princess based on a real person",
+        "response_text": "Pocahontas",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Her name is from Polynesian for \"ocean\" & the ocean chooses her for a special task",
+        "response_text": "Moana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "She's friends with a trumpet-playing alligator named Louise",
+        "response_text": "Tiana",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "She's sister to brothers Hamish, Harris & Hubert",
+        "response_text": "Merida",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY",
+    "topic_area": "disney",
+    "season": 2,
+    "air_date": "1986-01-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Thumper & Flower offer \"comic relief\" in this movie about man's disregard for nature",
+        "response_text": "Bambi",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In \"The Sorcerer's Apprentice\", the sorcerer's name, \"Yen Sid\", is really this",
+        "response_text": "Disney backwards",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "As of May of 1981, this Disney operation had the world's fifth-largest navy",
+        "response_text": "Vacation Kingdom at Walt Disney World",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Disney departed from original story of \"Pinocchio\" by not killing this major character at the outset",
+        "response_text": "Jiminy Cricket",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The only one of the Seven Dwarfs with a one-syllable name",
+        "response_text": "Doc",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY WORLD AT 25",
+    "topic_area": "disney",
+    "season": 13,
+    "air_date": "1997-02-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This sitcom star dreams she's a contestant on \"Jeopardy!\" in \"Ellen's Energy Adventure\", new at Epcot",
+        "response_text": "Ellen DeGeneres",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "When Buzz Aldrin narrated Epcot's '96 Candlelight Processional, he quoted this \"Toy Story\" character",
+        "response_text": "Buzz Lightyear",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In honor of the 25th anniversary, this heroine's castle was transformed into a giant pink cake",
         "response_text": "Cinderella",
         "dollar_value": 600
       },
       {
-        "clue_text": "Mrs. Jumbo sings the lullaby \"Baby Mine\" to this title character",
-        "response_text": "Dumbo",
+        "clue_text": "The Tower of Terror inspired by this TV series now drops you 13 stories twice; Rod Serling would approve",
+        "response_text": "The Twilight Zone",
         "dollar_value": 800
       },
       {
-        "clue_text": "\\\"Everybody Has a Laughing Place\" was also in this film but \"Zip-A-Dee Doo-Dah\" won the Oscar",
-        "response_text": "Song of the South",
+        "clue_text": "He reprises his role as Prof. Wayne Szalinski in the 3-D Epcot film \"Honey, I Shrunk the Audience\\\"",
+        "response_text": "Rick Moranis",
         "dollar_value": 1000
       }
     ]
@@ -1530,210 +1700,6 @@
     ]
   },
   {
-    "name": "I'M GOING TO DISNEYLAND",
-    "topic_area": "disney",
-    "season": 23,
-    "air_date": "2007-04-30",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "That spooky woman's head in a crystal ball always freaks me out on this scary ride",
-        "response_text": "The Haunted Mansion",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "I'll feel like a kid again on this flying elephant ride, a fixture at Disneyland since 1955",
-        "response_text": "Dumbo",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "I love the theme of global unity on the ride in which international dolls sing this interminable tune",
-        "response_text": "\\\"It's A Small World\\\"",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Aaargh! I can't wait to go on this classic ride now that Captain Jack Sparrow is part of the fun",
-        "response_text": "Pirates of the Caribbean",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Well, zip-a-dee-doo-dah! I can't wait to get soaked on this ride that has a 5-story plunge near the end",
-        "response_text": "Splash Mountain",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEYLAND",
-    "topic_area": "disney",
-    "season": 6,
-    "air_date": "1990-05-03",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "On June 14, 1959 this vice president & his family opened Disneyland's monorail",
-        "response_text": "Richard Nixon",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "2 of the 4 peaks in the Disneyland \"mountain range\\\"",
-        "response_text": "Big Thunder, Matterhorn, Space Mountain & Splash Mountain",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Of 7 days, 7 weeks or 7 months, time it took for the first million guests to visit Disneyland",
-        "response_text": "7 weeks",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "New Orleans Square restaurant, or a hit song for Linda Ronstadt & Roy Orbison",
-        "response_text": "Blue Bayou",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "It may be Sleeping Beauty's castle, but in the doorway you hear this song from \"Pinocchio\\\"",
-        "response_text": "\\\"When You Wish Upon A Star\\\"",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY VILLAINS",
-    "topic_area": "disney",
-    "season": 16,
-    "air_date": "1999-11-22",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Jafar",
-        "response_text": "Aladdin",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Ursula",
-        "response_text": "The Little Mermaid",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Scar",
-        "response_text": "The Lion King",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Clayton",
-        "response_text": "Tarzan",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Kaa & Shere Khan",
-        "response_text": "The Jungle Book",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY+",
-    "topic_area": "disney",
-    "season": 38,
-    "air_date": "2021-11-12",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Miss Minutes has the task of explaining the multiverse to this Marvel antihero who meets, let's say, unexpected variants of himself",
-        "response_text": "a Loki",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Take a fly-through of \"Star Wars\" vehicles like this iconic ship. \"You're all clear, kid!\"; now let's respond correctly and go home",
-        "response_text": "the Millennium Falcon",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Pixar's \"Dug Days\" is set in the backyard of the pooch introduced in this 2009 film",
-        "response_text": "Up",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "It's Hanks for the memory, but Josh Peck is now the first half of the title in this show, a reboot of a 1989 detective film",
-        "response_text": "Turner & Hooch",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "A hidden underground cave below Chichen Itza is a legend of this people; a \"National Geographic\" documentary digs up the \"Buried Truth\\\"",
-        "response_text": "the Mayans",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "ALL THINGS DISNEY",
-    "topic_area": "disney",
-    "season": 40,
-    "air_date": "2024-02-26",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Naturally, he was the first animated character to get a star on the Hollywood Walk of Fame",
-        "response_text": "Mickey",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "At Walt Disney World in 1975, Scott Carpenter, Gordon Cooper & Jim Irwin attended the grand opening of this ride",
-        "response_text": "Space Mountain",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Inspired by \"The Princess and the Frog\", Disneyland has a new eatery featuring southern dishes & named for this character",
-        "response_text": "Tiana",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This song from \"Three Little Pigs\" became a rallying cry against the Great Depression & the rise of Hitler",
-        "response_text": "\\\"Who's Afraid Of The Big Bad Wolf?\\\"",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"A Spoonful Of Sugar\" & \"It's A Small World\" are among the more than 200 songs these siblings wrote for Disney",
-        "response_text": "the Shermans",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DISNEY SIDEKICKS",
-    "topic_area": "disney",
-    "season": 30,
-    "air_date": "2014-03-04",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In \"Mulan\", Mushu is one of these legendary creatures",
-        "response_text": "a dragon",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Angus in \"Brave\" is Merida's horse, of course, one of these big ones",
-        "response_text": "a Clydesdale",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This sidekick of Captain Hook wishes to return to a simpler life of \"scuttling ships... cutting throats\\\"",
-        "response_text": "Smee",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In \"Diamonds Are Forever\", 007 was attacked by a bikini-clad woman who shared a name with this 1942 Disney sidekick",
-        "response_text": "Thumper",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "The song heard before the credits as fireworks explode over the castle was sung originally by this sidekick",
-        "response_text": "Jiminy Cricket",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
     "name": "DISNEY PARK SONGS",
     "topic_area": "disney",
     "season": 40,
@@ -1768,137 +1734,171 @@
     ]
   },
   {
-    "name": "ZOOG DISNEY CHANNEL",
+    "name": "DISNEY'S 7 DWARFS",
     "topic_area": "disney",
-    "season": 19,
-    "air_date": "2003-01-08",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In the TV movie \"The Luck of the Irish\", the young Kyle Johnson discovers he's this type of fairy",
-        "response_text": "a leprechaun",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Clu, Jack & Fi's encounters with all kinds of paranormal spooks go onto Fi's website on this show",
-        "response_text": "So Weird",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The only thing perfect student Ren & her brother Louis have in common is their last name on this show",
-        "response_text": "Even Stevens",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Britney made a guest appearance on this \"famous\" show about a TV action hero who moves back to his hometown",
-        "response_text": "The Famous Jett Jackson",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Hilary Duff & her cartoon alter ego try to survive middle school as this title character",
-        "response_text": "Lizzie McGuire",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "HAPPY 40th ANNIVERSARY DISNEYLAND",
-    "topic_area": "disney",
-    "season": 12,
-    "air_date": "1995-11-28",
+    "season": 31,
+    "air_date": "2015-01-27",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "A musical stage show called \"The Spirit of\" this Indian heroine debuted in Fantasyland in the summer of '95",
-        "response_text": "Pocahontas",
+        "clue_text": "Timidly reticent",
+        "response_text": "Bashful",
         "dollar_value": 200
       },
       {
-        "clue_text": "Simba is the \"mane\" attraction in the popular parade inspired by this film",
-        "response_text": "The Lion King",
+        "clue_text": "Nasally irritated",
+        "response_text": "Sneezy",
         "dollar_value": 400
       },
       {
-        "clue_text": "On Disneyland's 40th birthday, July 17, 1995, Randy Travis led a Sing-along from the top of this \"Alpine\" mountain",
-        "response_text": "the Matterhorn",
+        "clue_text": "Byname of sometime dentist John Henry Holliday",
+        "response_text": "Doc",
         "dollar_value": 600
       },
       {
-        "clue_text": "A time capsule buried at this castle in 1995 will be opened on Disneyland's 80th anniversary in 2035",
-        "response_text": "the Sleeping Beauty castle",
+        "clue_text": "Cantankerously sullen",
+        "response_text": "Grumpy",
         "dollar_value": 800
       },
       {
-        "clue_text": "The exciting new ride named for this character is a perilous journey through the Temple of the Forbidden Eye",
-        "response_text": "Indiana Jones",
+        "clue_text": "Jovially exultant",
+        "response_text": "Happy",
         "dollar_value": 1000
       }
     ]
   },
   {
-    "name": "THE WALT DISNEY ARCHIVES",
+    "name": "DISNEY SONGS",
     "topic_area": "disney",
-    "season": 32,
-    "air_date": "2016-04-20",
+    "season": 38,
+    "air_date": "2021-10-18",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "(Sarah of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) It was tiaras all around in this Anne Hathaway sequel—one for Mia & one for her cat, Fat Louie; the yellow gems resemble pears because the fictional country of Genovia is famous for them",
-        "response_text": "Princess Diaries 2 (The Princess Diaries accepted)",
+        "clue_text": "This song says, \"I can open your eyes, take you wonder by wonder\\\"",
+        "response_text": "\\\"A Whole New World\\\"",
         "dollar_value": 200
       },
       {
-        "clue_text": "(Jimmy of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) The 11-foot long miniature of this submarine from \"20,000 Leagues Under the Sea\" had a working motor & weighed 1,000 pounds when rigged for filming",
-        "response_text": "the Nautilus",
+        "clue_text": "\\\"Life Is A Highway\", according to Rascal Flatts in a song used in this animated film",
+        "response_text": "Cars",
         "dollar_value": 400
       },
       {
-        "clue_text": "(Jimmy of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) \"Pirates of the Caribbean\" props include the dead man's chest, Jack's compass, & a medallion of stolen Aztec gold cursed due to the greed of this Spanish conquistador",
-        "response_text": "Cortés",
+        "clue_text": "Sung by Troy & the gang, a song from this TV movie says, \"We're all in this together, once we know that we are we're all stars...\\\"",
+        "response_text": "High School Musical",
         "dollar_value": 600
       },
       {
-        "clue_text": "(Sarah of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) There are openings in the side of the overcoat worn by Mary Poppins so that thin cables could be inserted to magically lift this actress, giving her the illusion of flight",
-        "response_text": "Julie Andrews",
+        "clue_text": "This song from \"Toy Story\" earned Randy Newman an Oscar nomination",
+        "response_text": "\\\"You've Got A Friend In Me\\\"",
         "dollar_value": 800
       },
       {
-        "clue_text": "(Jimmy of the Clue Crew reports from the Walt Disney Archives in Burbank, CA.) A fictional ring once owned by Lucrezia Borgia that bore the inscription \"in canis corpore transmuto\" turns Tommy Kirk into this title canine",
-        "response_text": "the Shaggy Dog",
+        "clue_text": "\\\"Feed The Birds\" from this film was said to be one of Walt Disney's personal favorites",
+        "response_text": "Mary Poppins",
         "dollar_value": 1000
       }
     ]
   },
   {
-    "name": "DISNEYLAND SONGS",
+    "name": "DISNEYLAND: YESTERDAY & TODAY",
     "topic_area": "disney",
-    "season": 28,
-    "air_date": "2011-10-12",
+    "season": 34,
+    "air_date": "2018-03-23",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "\\\"Yo ho, yo ho...\\\"",
-        "response_text": "Pirates of the Caribbean",
+        "clue_text": "In 2007 the old Submarine Voyage resurfaced with a new theme inspired by this animated film",
+        "response_text": "Finding Nemo",
         "dollar_value": 200
       },
       {
-        "clue_text": "\\\"It's a world of laughter, a world of tears...\\\"",
-        "response_text": "It's a Small World",
+        "clue_text": "This area of the park where Pirates of the Caribbean is located was fashioned after the French Quarter",
+        "response_text": "New Orleans Square",
         "dollar_value": 400
       },
       {
-        "clue_text": "\\\"Grim, grinning ghosts come out to socialize...\\\"",
-        "response_text": "The Haunted Mansion",
+        "clue_text": "Original attractions from 1955 that are still around include Autopia & this boat ride in Adventure Land",
+        "response_text": "the Jungle Cruise",
         "dollar_value": 600
       },
       {
-        "clue_text": "\\\"A Heffalump & Woozle is very confusel...\"\\'",
+        "clue_text": "To honor \"Star Wars\", Disneyland added this 5-letter word to the front of its Space Mountain ride",
+        "response_text": "hyper",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "From 1967 to 1973, the Carousel of Progress showcased decades of American life, sponsored by this company",
+        "response_text": "GE (General Electric)",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DISNEY VILLAINS",
+    "topic_area": "disney",
+    "season": 8,
+    "air_date": "1991-12-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "His hand, the left one, is inside another character, the crocodile",
+        "response_text": "Captain Hook",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Heffalumps & Woozles who tried to steal his honey were imaginary; he dreamt them",
         "response_text": "Winnie the Pooh",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In this 1977 film Bernard & Bianca save the orphan Penny from the evil clutches of Madame Medusa",
+        "response_text": "The Rescuers",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "J. Worthington Foulfellow, a.k.a. Honest John, is this type of sly animal who charms Pinocchio",
+        "response_text": "a fox",
         "dollar_value": 800
       },
       {
-        "clue_text": "\\\"Never smile at a crocodile\\\"",
-        "response_text": "Peter Pan",
+        "clue_text": "Even the name of this wicked fairy in \"Sleeping Beauty\" sounds evil",
+        "response_text": "Maleficent",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "EURO DISNEY",
+    "topic_area": "disney",
+    "season": 10,
+    "air_date": "1994-02-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The 5,000-acre Euro Disney resort is 1/5 the size of this world capital that's just 20 miles away",
+        "response_text": "Paris",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Beware! One of these mythical beasts lurks in a lair beneath Sleeping Beauty's Chateau",
+        "response_text": "a dragon",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A Caribbean restaurant called the Blue Lagoon is located inside this ride that's full of Buccaneers",
+        "response_text": "Pirates of the Caribbean",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The French call this attraction full of singing doll's \"Le Monde est Petit\\\"",
+        "response_text": "It's a Small World",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A rip-roaring recreation of his wild west show features cowboys, Indians & stampeding buffalo",
+        "response_text": "Buffalo Bill",
         "dollar_value": 1000
       }
     ]

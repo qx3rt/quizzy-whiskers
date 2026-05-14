@@ -63,9 +63,47 @@ export async function initializeDatabase() {
       status TEXT DEFAULT 'active'
     );
 
+    CREATE TABLE IF NOT EXISTS users (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      email TEXT UNIQUE NOT NULL,
+      password_hash TEXT NOT NULL,
+      display_name TEXT,
+      created_at TEXT DEFAULT (datetime('now'))
+    );
+
+    CREATE TABLE IF NOT EXISTS games (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER NOT NULL REFERENCES users(id),
+      final_score INTEGER NOT NULL,
+      round1_correct INTEGER DEFAULT 0,
+      round1_incorrect INTEGER DEFAULT 0,
+      round1_timed_out INTEGER DEFAULT 0,
+      round2_correct INTEGER DEFAULT 0,
+      round2_incorrect INTEGER DEFAULT 0,
+      round2_timed_out INTEGER DEFAULT 0,
+      final_jeopardy_correct INTEGER,
+      topics TEXT,
+      played_at TEXT DEFAULT (datetime('now'))
+    );
+
+    CREATE TABLE IF NOT EXISTS achievements (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      slug TEXT UNIQUE NOT NULL,
+      name TEXT NOT NULL,
+      description TEXT NOT NULL
+    );
+
+    CREATE TABLE IF NOT EXISTS user_achievements (
+      user_id INTEGER NOT NULL REFERENCES users(id),
+      achievement_id INTEGER NOT NULL REFERENCES achievements(id),
+      earned_at TEXT DEFAULT (datetime('now')),
+      PRIMARY KEY (user_id, achievement_id)
+    );
+
     CREATE INDEX IF NOT EXISTS idx_clues_category ON clues(category_id);
     CREATE INDEX IF NOT EXISTS idx_clues_difficulty ON clues(difficulty_level);
     CREATE INDEX IF NOT EXISTS idx_categories_topic ON categories(topic_area);
+    CREATE INDEX IF NOT EXISTS idx_games_user ON games(user_id);
   `;
 
   // Execute schema

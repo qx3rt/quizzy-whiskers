@@ -1,34 +1,34 @@
 [
   {
-    "name": "FIELD HOCKEY",
+    "name": "ICE HOCKEY",
     "topic_area": "hockey",
-    "season": 7,
-    "air_date": "1990-10-15",
+    "season": 5,
+    "air_date": "1988-10-06",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "Normally only this player who guards the cage can kick the ball or stop it with his body",
-        "response_text": "the goalie",
+        "clue_text": "He's been the National Hockey League's most valuable player the most times",
+        "response_text": "(Wayne) Gretzky",
         "dollar_value": 200
       },
       {
-        "clue_text": "Field hockey is the national sport of this country & its neighbor Pakistan",
-        "response_text": "India",
+        "clue_text": "This country won the gold in 6 of the 1st 7 winter Olympics, but hasn't won it since 1952",
+        "response_text": "Canada",
         "dollar_value": 400
       },
       {
-        "clue_text": "Hockey comes from hoquet, French for this shepherd's staff that looks like a hockey stick",
-        "response_text": "a shepherd's crook",
+        "clue_text": "Number of periods in a regulation ice hockey game",
+        "response_text": "3",
         "dollar_value": 600
       },
       {
-        "clue_text": "Maximum length of a field hockey field, with no end zones either",
-        "response_text": "100 yards",
+        "clue_text": "\\\"Trick\" term for a player scoring 3 goals in 1 game",
+        "response_text": "a hat trick",
         "dollar_value": 800
       },
       {
-        "clue_text": "2 positions played in an offensive backfield in football or a defensive backfield in field hockey",
-        "response_text": "fullback & halfback",
+        "clue_text": "He was selected as an NHL All-Star more times than any other player",
+        "response_text": "Gordie Howe",
         "dollar_value": 1000
       }
     ]
@@ -68,6 +68,74 @@
     ]
   },
   {
+    "name": "HOCKEY",
+    "topic_area": "hockey",
+    "season": 21,
+    "air_date": "2004-10-14",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Alex and Tie Domi of the Toronto Maple Leafs are both suited up and on the ice to play some hockey.) If Tie Domi crosses the blue line before I get the puck to him, we'll be guilty of this infraction",
+        "response_text": "offsides",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "To figure out how many points a player has, simply add these 2 totals",
+        "response_text": "goals and assists",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Tie Domi and Alex Trebek pose together on the ice.) Any player who messes with me will deal with Tie Domi, who has this job—also the name of a \"Dirty Harry\" film",
+        "response_text": "enforcer",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Bryan Trottier sparked this team to 4 Stanley Cup championships from 1980 through 1983",
+        "response_text": "the New York Islanders",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Alex shuffles his hockey stick back and forth on the ice.) It's the 13-letter word for the skill I was just demonstrating (Mario Lemieux doesn't have to worry)",
+        "response_text": "stickhandling",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "FIELD HOCKEY",
+    "topic_area": "hockey",
+    "season": 7,
+    "air_date": "1990-10-15",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Normally only this player who guards the cage can kick the ball or stop it with his body",
+        "response_text": "the goalie",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Field hockey is the national sport of this country & its neighbor Pakistan",
+        "response_text": "India",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Hockey comes from hoquet, French for this shepherd's staff that looks like a hockey stick",
+        "response_text": "a shepherd's crook",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Maximum length of a field hockey field, with no end zones either",
+        "response_text": "100 yards",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "2 positions played in an offensive backfield in football or a defensive backfield in field hockey",
+        "response_text": "fullback & halfback",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
     "name": "THE STANLEY CUP",
     "topic_area": "hockey",
     "season": 21,
@@ -98,108 +166,6 @@
         "clue_text": "(Alex Trebek presents the clue from the Hockey Hall of Fame in Toronto.) In 2001, hockey fans everywhere were thrilled for this ex-Boston defenseman when he won his first Stanley Cup in a 22-year career",
         "response_text": "Ray Bourque",
         "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "NHL TEAMS IN OTHER WORDS",
-    "topic_area": "hockey",
-    "season": 23,
-    "air_date": "2006-09-26",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The Monarchs",
-        "response_text": "the Kings",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The Great Whites",
-        "response_text": "the (San Jose) Sharks",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Electrical Discharge",
-        "response_text": "the (Tampa Bay) Lightning",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Tropical Storms",
-        "response_text": "the Hurricanes",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The Cavalry Swords",
-        "response_text": "the (Buffalo) Sabres",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "NHL LOGOS",
-    "topic_area": "hockey",
-    "season": 34,
-    "air_date": "2018-01-05",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "A webbed foot forms the \"D\" in this team's name on their logo",
-        "response_text": "the Mighty Ducks (or the Anaheim Ducks)",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In 2010 they brought back crossed swords to their bison logo",
-        "response_text": "the Buffalo Sabres",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "A sea creature is depicted chomping on a hockey stick on the logo of this San Jose team",
-        "response_text": "the Sharks",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "A musical note outlined in yellow & navy has served as their logo since 1998",
-        "response_text": "the (St. Louis) Blues",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This team's flying wheel logo is the oldest unchanged logo in the NHL, created in 1948",
-        "response_text": "the Detroit Red Wings",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "ICE HOCKEY",
-    "topic_area": "hockey",
-    "season": 5,
-    "air_date": "1988-10-06",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "He's been the National Hockey League's most valuable player the most times",
-        "response_text": "(Wayne) Gretzky",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This country won the gold in 6 of the 1st 7 winter Olympics, but hasn't won it since 1952",
-        "response_text": "Canada",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Number of periods in a regulation ice hockey game",
-        "response_text": "3",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "\\\"Trick\" term for a player scoring 3 goals in 1 game",
-        "response_text": "a hat trick",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "He was selected as an NHL All-Star more times than any other player",
-        "response_text": "Gordie Howe",
-        "dollar_value": 1000
       }
     ]
   },
@@ -272,35 +238,69 @@
     ]
   },
   {
-    "name": "HOCKEY",
+    "name": "NHL LOGOS",
     "topic_area": "hockey",
-    "season": 21,
-    "air_date": "2004-10-14",
+    "season": 34,
+    "air_date": "2018-01-05",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "(Alex and Tie Domi of the Toronto Maple Leafs are both suited up and on the ice to play some hockey.) If Tie Domi crosses the blue line before I get the puck to him, we'll be guilty of this infraction",
-        "response_text": "offsides",
+        "clue_text": "A webbed foot forms the \"D\" in this team's name on their logo",
+        "response_text": "the Mighty Ducks (or the Anaheim Ducks)",
         "dollar_value": 200
       },
       {
-        "clue_text": "To figure out how many points a player has, simply add these 2 totals",
-        "response_text": "goals and assists",
+        "clue_text": "In 2010 they brought back crossed swords to their bison logo",
+        "response_text": "the Buffalo Sabres",
         "dollar_value": 400
       },
       {
-        "clue_text": "(Tie Domi and Alex Trebek pose together on the ice.) Any player who messes with me will deal with Tie Domi, who has this job—also the name of a \"Dirty Harry\" film",
-        "response_text": "enforcer",
+        "clue_text": "A sea creature is depicted chomping on a hockey stick on the logo of this San Jose team",
+        "response_text": "the Sharks",
         "dollar_value": 600
       },
       {
-        "clue_text": "Bryan Trottier sparked this team to 4 Stanley Cup championships from 1980 through 1983",
-        "response_text": "the New York Islanders",
+        "clue_text": "A musical note outlined in yellow & navy has served as their logo since 1998",
+        "response_text": "the (St. Louis) Blues",
         "dollar_value": 800
       },
       {
-        "clue_text": "(Alex shuffles his hockey stick back and forth on the ice.) It's the 13-letter word for the skill I was just demonstrating (Mario Lemieux doesn't have to worry)",
-        "response_text": "stickhandling",
+        "clue_text": "This team's flying wheel logo is the oldest unchanged logo in the NHL, created in 1948",
+        "response_text": "the Detroit Red Wings",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "SKATING INTO THE NHL",
+    "topic_area": "hockey",
+    "season": 36,
+    "air_date": "2020-01-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "With 20, in 2018-19 Morgan Rielly led the NHL in goals by a player at this position where scoring isn't your first job",
+        "response_text": "a defenseman",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "From 1981 to 1985 he averaged—averaged!—206 points per season; \"The Great One\", indeed",
+        "response_text": "(Wayne) Gretzky",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Gilbert Perreault is credited with \"The 3 important elements of hockey are fore-check, backcheck &\" this, & you can take that to the bank",
+        "response_text": "paycheck",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "When it came to winning the 2019 Stanley Cup, meet me in this city, as its team avenged a 1970 finals loss to the Bruins",
+        "response_text": "St. Louis",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A 1990 Oilers-Kings game saw 356 of these doled out, with Marty McSorley getting 37—that'd be more than half the game!",
+        "response_text": "penalty minutes",
         "dollar_value": 1000
       }
     ]
@@ -340,35 +340,35 @@
     ]
   },
   {
-    "name": "SKATING INTO THE NHL",
+    "name": "NHL TEAMS IN OTHER WORDS",
     "topic_area": "hockey",
-    "season": 36,
-    "air_date": "2020-01-10",
+    "season": 23,
+    "air_date": "2006-09-26",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "With 20, in 2018-19 Morgan Rielly led the NHL in goals by a player at this position where scoring isn't your first job",
-        "response_text": "a defenseman",
+        "clue_text": "The Monarchs",
+        "response_text": "the Kings",
         "dollar_value": 200
       },
       {
-        "clue_text": "From 1981 to 1985 he averaged—averaged!—206 points per season; \"The Great One\", indeed",
-        "response_text": "(Wayne) Gretzky",
+        "clue_text": "The Great Whites",
+        "response_text": "the (San Jose) Sharks",
         "dollar_value": 400
       },
       {
-        "clue_text": "Gilbert Perreault is credited with \"The 3 important elements of hockey are fore-check, backcheck &\" this, & you can take that to the bank",
-        "response_text": "paycheck",
+        "clue_text": "Electrical Discharge",
+        "response_text": "the (Tampa Bay) Lightning",
         "dollar_value": 600
       },
       {
-        "clue_text": "When it came to winning the 2019 Stanley Cup, meet me in this city, as its team avenged a 1970 finals loss to the Bruins",
-        "response_text": "St. Louis",
+        "clue_text": "Tropical Storms",
+        "response_text": "the Hurricanes",
         "dollar_value": 800
       },
       {
-        "clue_text": "A 1990 Oilers-Kings game saw 356 of these doled out, with Marty McSorley getting 37—that'd be more than half the game!",
-        "response_text": "penalty minutes",
+        "clue_text": "The Cavalry Swords",
+        "response_text": "the (Buffalo) Sabres",
         "dollar_value": 1000
       }
     ]
