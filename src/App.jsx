@@ -1,6 +1,15 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import './App.css'
-import { fetchBoard, fetchCategories, fetchFinalJeopardy } from './utils/api'
+import {
+  fetchBoard,
+  fetchCategories,
+  fetchFinalJeopardy,
+  login,
+  register,
+  fetchMe,
+  saveGame,
+  fetchGameHistory,
+} from './utils/api'
 
 const CLUE_TIME_LIMIT = 15
 const FINAL_JEOPARDY_TIME_LIMIT = 30
@@ -59,7 +68,6 @@ function answersMatch(userAnswer, correctAnswer) {
   return getSimilarityScore(userAnswer, correctAnswer) >= FUZZY_MATCH_THRESHOLD
 }
 
-// Pick `count` random clue IDs from non-lowest-value positions (indices > 0)
 function placeDailyDoubles(board, count) {
   const eligible = []
   board.forEach((col) => {
@@ -72,27 +80,27 @@ function placeDailyDoubles(board, count) {
 }
 
 function App() {
-  // Categories
+  // ── Categories ──────────────────────────────────────────────────────────────
   const [categories, setCategories] = useState([])
   const [selectedTopics, setSelectedTopics] = useState([])
   const [showCategoryPicker, setShowCategoryPicker] = useState(false)
 
-  // Game phase: LOBBY | ROUND_1 | ROUND_2 | FINAL_JEOPARDY | GAME_OVER
+  // ── Game phase: LOBBY | ROUND_1 | ROUND_2 | FINAL_JEOPARDY | GAME_OVER ─────
   const [gamePhase, setGamePhase] = useState('LOBBY')
   const [gameLoading, setGameLoading] = useState(false)
   const [gameError, setGameError] = useState(null)
 
-  // Boards
+  // ── Boards ──────────────────────────────────────────────────────────────────
   const [activeBoard, setActiveBoard] = useState([])
   const [round2Board, setRound2Board] = useState([])
   const [finalJeopardyData, setFinalJeopardyData] = useState(null)
   const [dailyDoubleIds, setDailyDoubleIds] = useState(new Set())
 
-  // Daily Double wager pending (holds the full clue object)
+  // ── Daily Double wager pending ──────────────────────────────────────────────
   const [pendingWagerClue, setPendingWagerClue] = useState(null)
   const [wagerText, setWagerText] = useState('')
 
-  // Active clue interaction
+  // ── Active clue interaction ─────────────────────────────────────────────────
   const [activeClue, setActiveClue] = useState(null)
   const [activeWager, setActiveWager] = useState(null)
   const [answerText, setAnswerText] = useState('')
@@ -101,34 +109,92 @@ function App() {
   const [timeRemaining, setTimeRemaining] = useState(CLUE_TIME_LIMIT)
   const [didTimeExpire, setDidTimeExpire] = useState(false)
 
-  // Score & per-round stats
+  // ── Score & per-round stats ─────────────────────────────────────────────────
   const [score, setScore] = useState(0)
   const [roundStats, setRoundStats] = useState({ correct: 0, incorrect: 0, timedOut: 0 })
   const [round1Stats, setRound1Stats] = useState(null)
   const [round2Stats, setRound2Stats] = useState(null)
   const [finalJeopardyCorrect, setFinalJeopardyCorrect] = useState(null)
 
-  // Final Jeopardy sub-phase: 'wager' | 'clue'
+  // ── Final Jeopardy sub-phase: 'wager' | 'clue' ─────────────────────────────
   const [finalSubPhase, setFinalSubPhase] = useState('wager')
   const [finalWagerText, setFinalWagerText] = useState('')
 
+  // ── Auth ────────────────────────────────────────────────────────────────────
+  const [authToken, setAuthToken] = useState(() => localStorage.getItem('qw_token'))
+  const [user, setUser] = useState(null)
+  const [showAuthModal, setShowAuthModal] = useState(false)
+  const [authTab, setAuthTab] = useState('login')
+  const [authEmail, setAuthEmail] = useState('')
+  const [authPassword, setAuthPassword] = useState('')
+  const [authDisplayName, setAuthDisplayName] = useState('')
+  const [authError, setAuthError] = useState(null)
+  const [authLoading, setAuthLoading] = useState(false)
+
+  // ── Game history & achievements ─────────────────────────────────────────────
+  const [gameHistory, setGameHistory] = useState(null)
+  const [newAchievements, setNewAchievements] = useState([])
+
   const answerInputRef = useRef(null)
   const wagerInputRef = useRef(null)
+  const gameSavedRef = useRef(false)
 
-  // Load categories on mount
+  // ── Load categories on mount ────────────────────────────────────────────────
   useEffect(() => {
     fetchCategories()
       .then(setCategories)
       .catch((err) => console.error('Failed to load categories', err))
   }, [])
 
-  // Board completion
+  // ── Validate stored token on mount ──────────────────────────────────────────
+  useEffect(() => {
+    if (!authToken) return
+    fetchMe(authToken)
+      .then(setUser)
+      .catch(() => {
+        localStorage.removeItem('qw_token')
+        setAuthToken(null)
+      })
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Auto-save game when entering GAME_OVER (logged-in users) ────────────────
+  useEffect(() => {
+    if (gamePhase !== 'GAME_OVER' || !user || !authToken || gameSavedRef.current) return
+    gameSavedRef.current = true
+
+    saveGame(authToken, {
+      finalScore: score,
+      topics: selectedTopics,
+      round1Correct: round1Stats?.correct ?? 0,
+      round1Incorrect: round1Stats?.incorrect ?? 0,
+      round1TimedOut: round1Stats?.timedOut ?? 0,
+      round2Correct: round2Stats?.correct ?? 0,
+      round2Incorrect: round2Stats?.incorrect ?? 0,
+      round2TimedOut: round2Stats?.timedOut ?? 0,
+      finalJeopardyCorrect: finalJeopardyCorrect,
+    })
+      .then(({ newAchievements: earned }) => {
+        if (earned?.length > 0) setNewAchievements(earned)
+        return fetchGameHistory(authToken)
+      })
+      .then(setGameHistory)
+      .catch(console.error)
+  }, [gamePhase]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Auto-dismiss achievement toasts ─────────────────────────────────────────
+  useEffect(() => {
+    if (newAchievements.length === 0) return
+    const id = window.setTimeout(() => setNewAchievements([]), 6000)
+    return () => window.clearTimeout(id)
+  }, [newAchievements])
+
+  // ── Board completion ────────────────────────────────────────────────────────
   const isBoardComplete = useMemo(
     () => activeBoard.length > 0 && activeBoard.every((col) => col.clues.every((c) => c.used)),
     [activeBoard]
   )
 
-  // Timer
+  // ── Timer ───────────────────────────────────────────────────────────────────
   useEffect(() => {
     if (!activeClue || isSubmitted || didTimeExpire) return
 
@@ -144,20 +210,62 @@ function App() {
     return () => window.clearTimeout(id)
   }, [activeClue, isSubmitted, didTimeExpire, timeRemaining, activeWager])
 
-  // Focus answer input when clue opens
+  // ── Focus helpers ───────────────────────────────────────────────────────────
   useEffect(() => {
     if (activeClue && !isSubmitted && !didTimeExpire) {
       answerInputRef.current?.focus()
     }
   }, [activeClue, isSubmitted, didTimeExpire])
 
-  // Focus wager input when wager modal opens
   useEffect(() => {
     if (pendingWagerClue || (gamePhase === 'FINAL_JEOPARDY' && finalSubPhase === 'wager')) {
       wagerInputRef.current?.focus()
     }
   }, [pendingWagerClue, gamePhase, finalSubPhase])
 
+  // ── Auth handlers ───────────────────────────────────────────────────────────
+  async function handleAuthSubmit(event) {
+    event.preventDefault()
+    setAuthError(null)
+    setAuthLoading(true)
+
+    try {
+      const result =
+        authTab === 'login'
+          ? await login(authEmail, authPassword)
+          : await register(authEmail, authPassword, authDisplayName)
+
+      localStorage.setItem('qw_token', result.token)
+      setAuthToken(result.token)
+      setUser(result.user)
+      setShowAuthModal(false)
+      setAuthEmail('')
+      setAuthPassword('')
+      setAuthDisplayName('')
+    } catch (err) {
+      const msg = err.message
+      if (msg.includes('409')) setAuthError('Email already registered.')
+      else if (msg.includes('401')) setAuthError('Invalid email or password.')
+      else if (msg.includes('400')) setAuthError('Please check your inputs.')
+      else setAuthError('Something went wrong. Please try again.')
+    } finally {
+      setAuthLoading(false)
+    }
+  }
+
+  function handleSignOut() {
+    localStorage.removeItem('qw_token')
+    setAuthToken(null)
+    setUser(null)
+    setGameHistory(null)
+  }
+
+  function switchAuthTab(tab) {
+    setAuthTab(tab)
+    setAuthError(null)
+  }
+
+  // ── Topic selection ─────────────────────────────────────────────────────────
   function toggleTopic(id) {
     setSelectedTopics((prev) => {
       if (prev.includes(id)) return prev.filter((t) => t !== id)
@@ -166,6 +274,7 @@ function App() {
     })
   }
 
+  // ── Game lifecycle ──────────────────────────────────────────────────────────
   async function startGame() {
     setGameLoading(true)
     setGameError(null)
@@ -177,6 +286,9 @@ function App() {
     setActiveClue(null)
     setActiveWager(null)
     setPendingWagerClue(null)
+    setNewAchievements([])
+    setGameHistory(null)
+    gameSavedRef.current = false
 
     try {
       const [r1, r2] = await Promise.all([
@@ -242,8 +354,10 @@ function App() {
     setRoundStats({ correct: 0, incorrect: 0, timedOut: 0 })
     setRound1Stats(null)
     setRound2Stats(null)
+    gameSavedRef.current = false
   }
 
+  // ── Clue selection & wager ──────────────────────────────────────────────────
   function handleClueSelect(selectedClue) {
     if (selectedClue.used) return
 
@@ -284,6 +398,7 @@ function App() {
     openClue(clue, Math.min(amount, maxWager))
   }
 
+  // ── Answer submission ───────────────────────────────────────────────────────
   function handleSubmitAnswer(event) {
     event.preventDefault()
     if (!activeClue || !answerText.trim() || didTimeExpire) return
@@ -316,6 +431,7 @@ function App() {
     setActiveWager(null)
   }
 
+  // ── Final Jeopardy wager ────────────────────────────────────────────────────
   function handleFinalWagerSubmit(event) {
     event.preventDefault()
     const amount = parseInt(finalWagerText, 10)
@@ -333,6 +449,7 @@ function App() {
     openClue(fjClue, capped)
   }
 
+  // ── Derived values ──────────────────────────────────────────────────────────
   const showReveal = isSubmitted || didTimeExpire
   const atCategoryLimit = selectedTopics.length >= 6
   const activeDelta = activeWager !== null ? activeWager : (activeClue?.value ?? 0)
@@ -360,6 +477,22 @@ function App() {
               <span className="score-label">Score</span>
               <strong className="score-value">{formatScore(score)}</strong>
             </div>
+            {user ? (
+              <div className="profile-chip">
+                <span className="profile-name">{user.displayName || user.email.split('@')[0]}</span>
+                <button className="profile-signout" type="button" onClick={handleSignOut}>
+                  Sign out
+                </button>
+              </div>
+            ) : (
+              <button
+                className="secondary-button"
+                type="button"
+                onClick={() => { setShowAuthModal(true); setAuthTab('login') }}
+              >
+                Sign in
+              </button>
+            )}
             {gamePhase !== 'LOBBY' && gamePhase !== 'GAME_OVER' && (
               <button className="secondary-button" type="button" onClick={quitGame}>
                 Quit
@@ -598,6 +731,39 @@ function App() {
               )}
             </div>
 
+            {gameHistory && (
+              <div className="game-history">
+                <p className="history-heading">Your record</p>
+                <div className="history-stats">
+                  <div className="history-stat">
+                    <span className="history-stat-value">{gameHistory.totalGames}</span>
+                    <span className="history-stat-label">Games played</span>
+                  </div>
+                  <div className="history-stat">
+                    <span className="history-stat-value">{formatScore(gameHistory.bestScore)}</span>
+                    <span className="history-stat-label">Best score</span>
+                  </div>
+                  <div className="history-stat">
+                    <span className="history-stat-value">{formatScore(gameHistory.avgScore)}</span>
+                    <span className="history-stat-label">Avg score</span>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {!user && (
+              <p className="game-over-sign-in-prompt">
+                <button
+                  className="inline-text-button"
+                  type="button"
+                  onClick={() => { setShowAuthModal(true); setAuthTab('register') }}
+                >
+                  Create a free account
+                </button>{' '}
+                to track your scores and earn achievements.
+              </p>
+            )}
+
             <button className="primary-button" type="button" onClick={quitGame}>
               Play Again
             </button>
@@ -615,8 +781,7 @@ function App() {
             </div>
             <div className="clue-modal-value">${pendingWagerClue.value.toLocaleString()}</div>
             <p className="clue-modal-text dd-wager-prompt">
-              Enter your wager. Min $5 · Max $
-              {Math.max(score, pendingWagerClue.value).toLocaleString()}
+              Enter your wager. Min $5 · Max ${Math.max(score, pendingWagerClue.value).toLocaleString()}
             </p>
             <form className="clue-modal-form" onSubmit={handleWagerSubmit}>
               <div className="clue-modal-input-row">
@@ -724,6 +889,99 @@ function App() {
               </div>
             )}
           </div>
+        </div>
+      )}
+
+      {/* ── AUTH MODAL ──────────────────────────────────────────────── */}
+      {showAuthModal && (
+        <div
+          className="clue-modal-overlay"
+          onClick={() => setShowAuthModal(false)}
+          role="dialog"
+          aria-modal="true"
+        >
+          <div className="auth-modal" onClick={(e) => e.stopPropagation()}>
+            <button
+              className="auth-modal-close"
+              type="button"
+              onClick={() => setShowAuthModal(false)}
+              aria-label="Close"
+            >
+              ×
+            </button>
+
+            <div className="auth-tabs">
+              <button
+                className={`auth-tab ${authTab === 'login' ? 'auth-tab-active' : ''}`}
+                type="button"
+                onClick={() => switchAuthTab('login')}
+              >
+                Sign in
+              </button>
+              <button
+                className={`auth-tab ${authTab === 'register' ? 'auth-tab-active' : ''}`}
+                type="button"
+                onClick={() => switchAuthTab('register')}
+              >
+                Create account
+              </button>
+            </div>
+
+            <form className="auth-form" onSubmit={handleAuthSubmit}>
+              {authTab === 'register' && (
+                <input
+                  className="auth-input"
+                  type="text"
+                  placeholder="Display name (optional)"
+                  value={authDisplayName}
+                  onChange={(e) => setAuthDisplayName(e.target.value)}
+                  autoComplete="name"
+                />
+              )}
+              <input
+                className="auth-input"
+                type="email"
+                placeholder="Email"
+                value={authEmail}
+                onChange={(e) => setAuthEmail(e.target.value)}
+                required
+                autoComplete="email"
+              />
+              <input
+                className="auth-input"
+                type="password"
+                placeholder="Password (min 6 characters)"
+                value={authPassword}
+                onChange={(e) => setAuthPassword(e.target.value)}
+                required
+                minLength={6}
+                autoComplete={authTab === 'login' ? 'current-password' : 'new-password'}
+              />
+              {authError && <p className="auth-error">{authError}</p>}
+              <button className="clue-modal-submit" type="submit" disabled={authLoading}>
+                {authLoading
+                  ? 'Loading…'
+                  : authTab === 'login'
+                    ? 'Sign in'
+                    : 'Create account'}
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* ── ACHIEVEMENT TOASTS ──────────────────────────────────────── */}
+      {newAchievements.length > 0 && (
+        <div className="achievement-toasts">
+          {newAchievements.map((ach) => (
+            <div key={ach.slug} className="achievement-toast">
+              <span className="achievement-toast-icon">★</span>
+              <div>
+                <p className="achievement-toast-name">{ach.name}</p>
+                <p className="achievement-toast-desc">{ach.description}</p>
+              </div>
+            </div>
+          ))}
         </div>
       )}
     </main>
