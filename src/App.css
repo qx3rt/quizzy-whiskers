@@ -748,3 +748,229 @@
     font-size: 1.4rem;
   }
 }
+
+/* ─── Round badge in header ─────────────────────────────────────── */
+.round-badge {
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--j-blue-vivid);
+  color: var(--j-white);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  white-space: nowrap;
+}
+
+/* ─── Lobby hero actions ─────────────────────────────────────────── */
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-actions .primary-button {
+  margin-top: 0;
+}
+
+.lobby-picker-toggle {
+  margin-top: 0;
+}
+
+/* ─── Game error message ─────────────────────────────────────────── */
+.game-error {
+  margin: 12px 0 0;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: rgba(255, 60, 60, 0.1);
+  border: 1px solid rgba(255, 60, 60, 0.3);
+  color: var(--j-red);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* ─── Round complete panel ───────────────────────────────────────── */
+.round-complete-panel {
+  text-align: center;
+  padding: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.round-complete-score {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 800;
+  color: var(--j-gold);
+  margin: 0;
+  text-shadow: 0 2px 20px rgba(255, 204, 0, 0.4);
+  letter-spacing: 0.02em;
+}
+
+.round-complete-stats {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--j-white-dim);
+  margin: 0;
+}
+
+/* ─── Final Jeopardy wager panel ─────────────────────────────────── */
+.final-jeopardy-panel {
+  text-align: center;
+  padding: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.fj-category {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  color: var(--j-white);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+  line-height: 1.15;
+}
+
+.fj-description {
+  font-size: 1rem;
+  color: var(--j-white-dim);
+  margin: 0;
+}
+
+.fj-balance {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--j-gold-dim);
+  margin: 0;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.fj-wager-form {
+  display: grid;
+  gap: 14px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.fj-wager-row {
+  margin: 0;
+}
+
+/* ─── Daily Double badge in clue modal ───────────────────────────── */
+.dd-badge {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--j-gold);
+  padding: 5px 11px;
+  border-radius: 4px;
+  background: rgba(255, 204, 0, 0.12);
+  border: 1px solid rgba(255, 204, 0, 0.35);
+}
+
+/* Slightly smaller body text for DD wager prompt */
+.dd-wager-prompt {
+  font-size: 1rem;
+  color: var(--j-white-dim);
+}
+
+/* ─── Wagered clue value display ─────────────────────────────────── */
+.wager-value {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 10px;
+}
+
+.wager-label {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: 700;
+  color: rgba(255, 204, 0, 0.65);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ─── Game over panel ────────────────────────────────────────────── */
+.game-over-panel {
+  text-align: center;
+  padding: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.game-over-score {
+  font-family: var(--font-display);
+  font-size: clamp(4rem, 10vw, 6rem);
+  font-weight: 800;
+  color: var(--j-gold);
+  line-height: 1;
+  text-shadow: 0 4px 32px rgba(255, 204, 0, 0.45);
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.game-over-label {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--j-gold-dim);
+  margin: 0;
+}
+
+.game-over-breakdown {
+  display: grid;
+  gap: 8px;
+  width: 100%;
+  max-width: 480px;
+  margin: 12px 0;
+}
+
+.round-stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 18px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.round-stat-label {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--j-white-dim);
+  white-space: nowrap;
+}
+
+.round-stat-detail {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--j-white);
+  letter-spacing: 0.03em;
+  text-align: right;
+}

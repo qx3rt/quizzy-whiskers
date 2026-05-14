@@ -1,34 +1,170 @@
 [
   {
-    "name": "TENNIS, ANYONE?",
+    "name": "TENNIS RECORDS",
     "topic_area": "tennis",
-    "season": 14,
-    "air_date": "1998-05-06",
+    "season": 4,
+    "air_date": "1988-03-08",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "In July 1877 the first tennis championships were played on a croquet lawn in this London suburb",
-        "response_text": "Wimbledon",
+        "clue_text": "Known as \"Big Bill\", his serve has been clocked at 163.6 mph",
+        "response_text": "Big Bill Tilden",
         "dollar_value": 200
       },
       {
-        "clue_text": "This \"affectionate\" term refers to a score of zero",
-        "response_text": "Love",
+        "clue_text": "Of 18½, 34½, or 51½ minutes, longest play time recorded for a single point",
+        "response_text": "51½ minutes",
         "dollar_value": 400
       },
       {
-        "clue_text": "This 17-year-old, then ranked No. 66, shook up women's tennis by reaching the 1997 U.S. Open final",
-        "response_text": "Venus Williams",
+        "clue_text": "In 1957, M.H. de Amorin began a Wimbledon round doing this 17 successive times while serving",
+        "response_text": "double faulting",
         "dollar_value": 600
       },
       {
-        "clue_text": "At the center, a tennis net should be exactly this many feet high",
-        "response_text": "3 feet high",
+        "clue_text": "This man from Down Under, the only player to win the Grand Slam in singles, did it twice, in 1962 & '69",
+        "response_text": "Rod Laver",
         "dollar_value": 800
       },
       {
-        "clue_text": "She retired in 1994 with career earnings of over $20 million, a figure then exceeded by only Ivan Lendl",
-        "response_text": "Martina Navratilova",
+        "clue_text": "From 1926-33, she won 229 straight matches, the longest winning streak ever in tennis",
+        "response_text": "Helen Wills Moody",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS \"E\\\"",
+    "topic_area": "tennis",
+    "season": 31,
+    "air_date": "2015-02-25",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In tennis lingo, it's a bad shot; there are \"forced\" & \"unforced\" types",
+        "response_text": "errors",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's no backhand compliment—\"America's tennis sweetheart\", she won Grand Slam titles every year from 1974 to 1986",
+        "response_text": "(Chris) Evert",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The most common grip used by beginners is this directional style",
+        "response_text": "the Eastern forehand style",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "\\\"Emmo\" was the nickname of this Aussie legend who won 12 Grand Slam singles titles in the 1960s",
+        "response_text": "Roy Emerson",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "A world No. 1 & winner of 6 Grand Slam singles titles in the '80s & '90s, this Swede was inducted into the ITHoF in 2004",
+        "response_text": "Stefan Edberg",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS THE MENACE",
+    "topic_area": "tennis",
+    "season": 29,
+    "air_date": "2013-07-03",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Tennis shoes with good support can decrease your chances of spraining these, aka your talocrural joints",
+        "response_text": "ankles",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "An ATP study found that injuries occurred less than half as often on this French Open surface as on hard courts",
+        "response_text": "clay",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Stretching for a forehand, Boris Becker hyper-extended this joint aka the carpus & had to withdraw from Wimbledon",
+        "response_text": "wrist",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"Tennis leg\", a tear in one of these \"bovine\" muscles of the lower leg, can feel like getting shot with a pellet gun",
+        "response_text": "the calves",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Jimmy of the Clue Crew shows an anatomical drawing on the monitor.) Doctors say, when you're serving, it's a good idea to raise your arm angle above 90 degrees to reduce the risk of injury to this group of four muscles & related tendons in the shoulder",
+        "response_text": "the rotator cuff",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS VOCABULARY, ANYONE?",
+    "topic_area": "tennis",
+    "season": 27,
+    "air_date": "2011-01-04",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "An aviator with 5 air kills",
+        "response_text": "an ace",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A crack in the earth's crust",
+        "response_text": "a fault",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The retinue of a reigning monarch",
+        "response_text": "the court",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "An automobile race run over public roads",
+        "response_text": "a rally",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Ambrose Bierce described this as \"a temporary insanity curable by marriage\\\"",
+        "response_text": "love",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 17,
+    "air_date": "2000-11-17",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "To some it means everything, but to a tennis player, it means zip, nada, squat",
+        "response_text": "Love",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "At Wimbledon 2000 she became only the second African-American woman to win the singles title",
+        "response_text": "Venus Williams",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Hi, I'm Martina Navratilova and the answer is) In 1973 Billie Jean King & Bobby Riggs played the first \"Battle of the Sexes\"; I played this \"Bad Boy\" in 1992's battle",
+        "response_text": "Jimmy Connors",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He has more Grand Slam singles titles than any other man in history",
+        "response_text": "Pete Sampras",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This coveted prize in team tennis was originally known as the International Lawn Tennis Challenge Trophy",
+        "response_text": "Davis Cup",
         "dollar_value": 1000
       }
     ]
@@ -70,102 +206,34 @@
   {
     "name": "TENNIS",
     "topic_area": "tennis",
-    "season": 2,
-    "air_date": "1985-12-13",
+    "season": 5,
+    "air_date": "1989-02-28",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "Originally, it was 7 ft. at the ends, sagging to 5 ft. in the middle",
-        "response_text": "the tennis net",
+        "clue_text": "In the 1870s it was 4 ft. 8 in. high in the center & 7 ft. at the sides",
+        "response_text": "the net",
         "dollar_value": 200
       },
       {
-        "clue_text": "In 1900, a trophy for int'l competition was donated by Dwight Davis, student at this Boston area U.",
-        "response_text": "Harvard",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Long before losing to Billie Jean King, he won at Wimbledon in 1939",
+        "clue_text": "A famous foe of Billie Jean King, his autobiography is titled \"Tennis is My Racket\\\"",
         "response_text": "Bobby Riggs",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "His U.S. Open win made him 1st Black U.S. men's national singles champion",
-        "response_text": "Arthur Ashe",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "A short stroke made before the ball touches the ground",
-        "response_text": "a volley",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 2,
-    "air_date": "1986-03-18",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "An approach shot is any shot that enables the player to do this",
-        "response_text": "approach the net",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "John Newcombe, Ken Rosewall, & Rod Laver are all from this country",
-        "response_text": "Australia",
         "dollar_value": 400
       },
       {
-        "clue_text": "Formed in 1974 but forced to disband in 1978 was this inter-city league, the WTT",
-        "response_text": "World Team Tennis",
+        "clue_text": "Mary Outerbridge played tennis on this British Atlantic island & literally imported the game to the U.S.",
+        "response_text": "Bermuda",
         "dollar_value": 600
       },
       {
-        "clue_text": "In 1979, at age 16, she was youngest woman ever to win the U.S. Open",
-        "response_text": "Tracy Austin",
+        "clue_text": "To accommodate TV, the length of matches was limited by the introduction of this in 1970",
+        "response_text": "tiebreakers",
         "dollar_value": 800
       },
       {
-        "clue_text": "Title of person who sits in the chair & officiates at a tennis match",
-        "response_text": "the umpire",
+        "clue_text": "1 of the 2 Americans who won gold in women's doubles at the '88 Olympics",
+        "response_text": "Pam Shriver & Zina Garrison",
         "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS \"E\\\"",
-    "topic_area": "tennis",
-    "season": 31,
-    "air_date": "2015-02-25",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In tennis lingo, it's a bad shot; there are \"forced\" & \"unforced\" types",
-        "response_text": "errors",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "It's no backhand compliment—\"America's tennis sweetheart\", she won Grand Slam titles every year from 1974 to 1986",
-        "response_text": "(Chris) Evert",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The most common grip used by beginners is this directional style",
-        "response_text": "the Eastern forehand style",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "\\\"Emmo\" was the nickname of this Aussie legend who won 12 Grand Slam singles titles in the 1960s",
-        "response_text": "Roy Emerson",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "A world No. 1 & winner of 6 Grand Slam singles titles in the '80s & '90s, this Swede was inducted into the ITHoF in 2004",
-        "response_text": "Stefan Edberg",
-        "dollar_value": 2000
       }
     ]
   },
@@ -204,273 +272,35 @@
     ]
   },
   {
-    "name": "TABLE TENNIS",
-    "topic_area": "tennis",
-    "season": 11,
-    "air_date": "1995-01-24",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "This common name for the game was once owned by Parker Brothers",
-        "response_text": "ping pong",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Usually the first player to score this many points wins the game",
-        "response_text": "21",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Most players use the shake-hands one, a few use the penhold",
-        "response_text": "grip",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The center line divides the table into courts for this type of play",
-        "response_text": "doubles",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Its debut as a full medal sport occurred at the 1988 Summer Olympics in this Asian city",
-        "response_text": "Seoul",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "ANYONE FOR TENNIS?",
-    "topic_area": "tennis",
-    "season": 37,
-    "air_date": "2021-02-15",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In 2020 Dominic Thiem completed a comeback to win this event & became the first new male Grand Slam winner in 6 years",
-        "response_text": "the U.S. Open",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In 2014, 2015 & 2019 Novak Djokovic defeated this Swiss player in the Wimbledon final",
-        "response_text": "Roger Federer",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This 5-letter word means an extended exchange of strokes before a point",
-        "response_text": "a rally",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "At the 2012 French Open, this Russian completed her career slam",
-        "response_text": "Maria Sharapova",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Teams representing different nations vie for this trophy named for its donor",
-        "response_text": "the Davis Cup",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS THE MENACE",
-    "topic_area": "tennis",
-    "season": 29,
-    "air_date": "2013-07-03",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Tennis shoes with good support can decrease your chances of spraining these, aka your talocrural joints",
-        "response_text": "ankles",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "An ATP study found that injuries occurred less than half as often on this French Open surface as on hard courts",
-        "response_text": "clay",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Stretching for a forehand, Boris Becker hyper-extended this joint aka the carpus & had to withdraw from Wimbledon",
-        "response_text": "wrist",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "\\\"Tennis leg\", a tear in one of these \"bovine\" muscles of the lower leg, can feel like getting shot with a pellet gun",
-        "response_text": "the calves",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "(Jimmy of the Clue Crew shows an anatomical drawing on the monitor.) Doctors say, when you're serving, it's a good idea to raise your arm angle above 90 degrees to reduce the risk of injury to this group of four muscles & related tendons in the shoulder",
-        "response_text": "the rotator cuff",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 13,
-    "air_date": "1997-01-07",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Flat, topspin & slice are the 3 basic types of this first shot",
-        "response_text": "Serve",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "She was the No. 1 ranked player in Czechoslovakia 1972-75",
-        "response_text": "Martina Navratilova",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The International Lawn Tennis Challenge trophy is better known as this, for the man who established it",
-        "response_text": "The Davis Cup",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Chris Evert retired as a pro in 1989 & this 13-year-old girl trained by Chris' father turned pro in 1990",
-        "response_text": "Jennifer Capriati",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "To accomplish a Grand Slam, you have to win certain tournaments in these 4 countries",
-        "response_text": "Australia, England, France & United States",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 2,
-    "air_date": "1986-04-02",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "It gets games off to a fast start, the fastest clocked at 163.6 mph",
-        "response_text": "the serve",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In singles, the longest recorded one went over 100 hours",
-        "response_text": "a match",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Yes, for the 1st 8 Summer Games, starting in 1896",
-        "response_text": "Was tennis an Olympic sport?",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "From 1973-79, Chris Evert Lloyd won 125 straight matches on this surface",
-        "response_text": "clay",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In 1920, Bill Tilden became the 1st American to win this major tournament",
-        "response_text": "Wimbledon",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
     "name": "TENNIS",
     "topic_area": "tennis",
     "season": 7,
-    "air_date": "1990-09-06",
+    "air_date": "1990-10-23",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "To decide which player serves first, this piece of equipment is usually tossed",
-        "response_text": "a racket",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "3 of them are the continental serve, Eastern forehand & Eastern backhand",
-        "response_text": "grips",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In tournament play this official sits on a high chair alongside center court",
-        "response_text": "the umpire",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In 1988, this West German became only the third woman to win the Grand Slam",
-        "response_text": "Steffi Graf",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This term refers to a score of 40-40",
-        "response_text": "deuce",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "WIMBLEDON",
-    "topic_area": "tennis",
-    "season": 26,
-    "air_date": "2010-07-02",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In 1967 color TV was introduced to the U.K. when this network sponsored a tournament on centre court",
-        "response_text": "the BBC",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The Wimbledon championships are the only Grand Slam event played on this surface",
-        "response_text": "grass",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Between 1973 & 2006 this Czech-American appeared in 326 Wimbledon matches, the most of any player, male or female",
-        "response_text": "Martina Navratilova",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This sport is attached to the name of the club that sponsors Wimbledon, though activities are confined to tennis",
-        "response_text": "croquet",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In 1985 he became the youngest player, the first unseeded player & the first German to win the men's singles title",
-        "response_text": "Boris Becker",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 24,
-    "air_date": "2007-11-22",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The ladies' singles trophy for this event is a sterling silver tray called the Rosewater Dish",
+        "clue_text": "In 1877, the first major tennis tournament took place in this London suburb",
         "response_text": "Wimbledon",
         "dollar_value": 200
       },
       {
-        "clue_text": "This feisty American's 1984 winning percentage of .965 is the best in the ATP Tour's modern era",
-        "response_text": "John McEnroe",
+        "clue_text": "This silver bowl is awarded annually to the nation that wins the World's Men's Tennis title",
+        "response_text": "the Davis Cup",
         "dollar_value": 400
       },
       {
-        "clue_text": "Only 3 women have won more than 100 singles titles: Martina Navratilova, Chris Evert & this European",
-        "response_text": "Steffi Graf",
+        "clue_text": "The surname of this former women's champ is Aborigine for \"tall trees by still waters\\\"",
+        "response_text": "Yvonne Goolagong",
         "dollar_value": 600
       },
       {
-        "clue_text": "It's the \"ITF Team Championship for Men\\\"",
-        "response_text": "Davis Cup",
+        "clue_text": "If you touch the baseline during a serve, you've committed this kind of fault",
+        "response_text": "a foot fault",
         "dollar_value": 800
       },
       {
-        "clue_text": "In April 2007 Switzerland issued its very first stamp of a living person, a 1-franc stamp depicting this tennis player",
-        "response_text": "Roger Federer",
+        "clue_text": "This Czech won the US Men's Singles 3 three times in the 1980s & was runner up 5 times",
+        "response_text": "Ivan Lendl",
         "dollar_value": 1000
       }
     ]
@@ -510,205 +340,35 @@
     ]
   },
   {
-    "name": "WIMBLEDON SINGLES CHAMPS",
+    "name": "TABLE TENNIS",
     "topic_area": "tennis",
-    "season": 25,
-    "air_date": "2009-06-12",
+    "season": 11,
+    "air_date": "1995-01-24",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "This Swede: 1976 through 1980",
-        "response_text": "Bjorn Borg",
+        "clue_text": "This common name for the game was once owned by Parker Brothers",
+        "response_text": "ping pong",
         "dollar_value": 200
       },
       {
-        "clue_text": "This mouthy New Yorker: 1981, 1983, 1984",
-        "response_text": "John McEnroe",
+        "clue_text": "Usually the first player to score this many points wins the game",
+        "response_text": "21",
         "dollar_value": 400
       },
       {
-        "clue_text": "This Czech lady: 1978, 1979, 1982-87, 1990",
-        "response_text": "(Martina) Navratilova",
+        "clue_text": "Most players use the shake-hands one, a few use the penhold",
+        "response_text": "grip",
         "dollar_value": 600
       },
       {
-        "clue_text": "This American lefty: 1974, 1982",
-        "response_text": "(Jimmy) Connors",
+        "clue_text": "The center line divides the table into courts for this type of play",
+        "response_text": "doubles",
         "dollar_value": 800
       },
       {
-        "clue_text": "This Aussie lefty: 1961, 1962, 1968, 1969",
-        "response_text": "Rod Laver",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 24,
-    "air_date": "2008-06-18",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "This American woman was the first to win 20 Wimbledon titles",
-        "response_text": "Billie Jean King",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This Bruin won the 1971 NCAA men's tennis title & later became professional tennis' all-time tournament winner",
-        "response_text": "Jimmy Connors",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Arthur Ashe called this 1960s Aussie tennis star's left arm \"a two-by-four with freckles\\\"",
-        "response_text": "Rod Laver",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Born in Buenos Aires in 1970, she became a tennis pro at age 14",
-        "response_text": "Gabriela Sabatini",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This Californian gave birth in June 2007 & returned to the pro tour that fall",
-        "response_text": "Lindsay Davenport",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS-Y WILLIAMS",
-    "topic_area": "tennis",
-    "season": 40,
-    "air_date": "2023-12-14",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Venus & Serena grew up in this huge city's suburb of Compton, better known for rappers than groundstrokers",
-        "response_text": "L.A.",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Venus took the 2000 & 2001 singles titles at this British Grand Slam event",
-        "response_text": "Wimbledon",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 2001 the Williams sisters got \"animated\" on the court in the \"Tennis the Menace\" episode of this Fox series",
-        "response_text": "The Simpsons",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In 2003 Serena completed a \"Serena Slam\", beating Venus 7-6, 3-6, 6-4 at this event in Melbourne",
-        "response_text": "the Australian Open",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The way this dad of Venus & Serena managed their careers brought some criticism, but turned out pretty well",
-        "response_text": "(King) Richard Williams",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS TIPS",
-    "topic_area": "tennis",
-    "season": 30,
-    "air_date": "2014-04-28",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Doing this before serving can keep you loose, but don't imitate Novak Djokovic, who does it up to 25 times",
-        "response_text": "bouncing the ball",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Swing from low to high to hit this type of spin; some pros get 3,000 rpm on the ball",
-        "response_text": "topspin",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Getting close to the net gives you better angles on your volleys but leaves you vulnerable to this—look up!",
-        "response_text": "a lob",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "(Kelly of the Clue Crew shows diagrams on the monitor.) Because the net is lower in the center & there's an extra 4 1/2 feet of court to work with, this type of diagonal shot is typically smarter than hitting it down the line",
-        "response_text": "a cross-court",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Popularized by Evert, Connors & Borg, it's an easier stroke to learn but does limit your reach",
-        "response_text": "the two-handed backhand",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 5,
-    "air_date": "1989-02-28",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In the 1870s it was 4 ft. 8 in. high in the center & 7 ft. at the sides",
-        "response_text": "the net",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "A famous foe of Billie Jean King, his autobiography is titled \"Tennis is My Racket\\\"",
-        "response_text": "Bobby Riggs",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Mary Outerbridge played tennis on this British Atlantic island & literally imported the game to the U.S.",
-        "response_text": "Bermuda",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "To accommodate TV, the length of matches was limited by the introduction of this in 1970",
-        "response_text": "tiebreakers",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "1 of the 2 Americans who won gold in women's doubles at the '88 Olympics",
-        "response_text": "Pam Shriver & Zina Garrison",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS VOCABULARY, ANYONE?",
-    "topic_area": "tennis",
-    "season": 27,
-    "air_date": "2011-01-04",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "An aviator with 5 air kills",
-        "response_text": "an ace",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "A crack in the earth's crust",
-        "response_text": "a fault",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The retinue of a reigning monarch",
-        "response_text": "the court",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "An automobile race run over public roads",
-        "response_text": "a rally",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Ambrose Bierce described this as \"a temporary insanity curable by marriage\\\"",
-        "response_text": "love",
+        "clue_text": "Its debut as a full medal sport occurred at the 1988 Summer Olympics in this Asian city",
+        "response_text": "Seoul",
         "dollar_value": 1000
       }
     ]
@@ -784,271 +444,33 @@
   {
     "name": "TENNIS",
     "topic_area": "tennis",
-    "season": 3,
-    "air_date": "1987-05-28",
+    "season": 2,
+    "air_date": "1986-04-02",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "Of the base line or service line, the one that's farther back",
-        "response_text": "the base line",
+        "clue_text": "It gets games off to a fast start, the fastest clocked at 163.6 mph",
+        "response_text": "the serve",
         "dollar_value": 200
       },
       {
-        "clue_text": "1-word term used when the score is 40-40",
-        "response_text": "deuce",
+        "clue_text": "In singles, the longest recorded one went over 100 hours",
+        "response_text": "a match",
         "dollar_value": 400
       },
       {
-        "clue_text": "A high school dropout, this great Swedish star dropped out of the pro tour at only 26",
-        "response_text": "Björn Borg",
+        "clue_text": "Yes, for the 1st 8 Summer Games, starting in 1896",
+        "response_text": "Was tennis an Olympic sport?",
         "dollar_value": 600
       },
       {
-        "clue_text": "Native country of all 4 finalists in men's & women's singles at 1986 U.S. Open",
-        "response_text": "Czechoslovakia",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This national championship is generally considered the world's foremost clay-court event",
-        "response_text": "the French Open",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "SOUNDS LIKE TENNIS",
-    "topic_area": "tennis",
-    "season": 38,
-    "air_date": "2021-09-13",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Ambrose Bierce defined it as \"a temporary insanity curable by marriage\\\"",
-        "response_text": "love",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Spot for a potential earthquake",
-        "response_text": "a fault",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The money you net from an investment",
-        "response_text": "a return",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In blackjack it can have one of 2 different values",
-        "response_text": "ace",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The operating expenses of running a business",
-        "response_text": "overhead",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 10,
-    "air_date": "1994-01-10",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The court is 78 by 27 feet for singles & 78 by 36 feet for this type of play",
-        "response_text": "doubles",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The name of this tennis implement comes from the Arabic rahah, meaning \"palm of the hand\\\"",
-        "response_text": "racket",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In scoring ad is short for this word",
-        "response_text": "advantage",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The French Open is played on this type of surface that favors touch over power",
+        "clue_text": "From 1973-79, Chris Evert Lloyd won 125 straight matches on this surface",
         "response_text": "clay",
         "dollar_value": 800
       },
       {
-        "clue_text": "This top-ranked female tennis player was attacked during an April 1993 match in Germany",
-        "response_text": "Monica Seles",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS, ANYONE?",
-    "topic_area": "tennis",
-    "season": 27,
-    "air_date": "2011-06-14",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Held in Melbourne in January, it's the first of the 4 tennis Grand Slam events every year",
-        "response_text": "the Australian Open",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "These 2 sisters have faced each other in the Wimbledon singles finals 4 times",
-        "response_text": "Venus & Serena Williams",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 2008 Stanislas Wawrinka teamed with this pro to represent Switzerland in the Olympics, winning the doubles title",
-        "response_text": "Roger Federer",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In 2010 this Spaniard exceeded $10 million in tournament earnings & was the world's No. 1 ranked player",
-        "response_text": "Rafael Nadal",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "The 2 Martinas to have been ranked as the year's No. 1 women's tennis player",
-        "response_text": "Martina Hingis & Martina Navratilova",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS RECORDS",
-    "topic_area": "tennis",
-    "season": 4,
-    "air_date": "1988-03-08",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Known as \"Big Bill\", his serve has been clocked at 163.6 mph",
-        "response_text": "Big Bill Tilden",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Of 18½, 34½, or 51½ minutes, longest play time recorded for a single point",
-        "response_text": "51½ minutes",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 1957, M.H. de Amorin began a Wimbledon round doing this 17 successive times while serving",
-        "response_text": "double faulting",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This man from Down Under, the only player to win the Grand Slam in singles, did it twice, in 1962 & '69",
-        "response_text": "Rod Laver",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "From 1926-33, she won 229 straight matches, the longest winning streak ever in tennis",
-        "response_text": "Helen Wills Moody",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "THE WORLD OF TENNIS",
-    "topic_area": "tennis",
-    "season": 33,
-    "air_date": "2017-05-24",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In 2014 at age 33 he led Switzerland to its first Davis Cup title",
-        "response_text": "Federer",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Andy Murray hails from this U.K. country",
-        "response_text": "Scotland",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "He's \"The Matador of Manacor\", Spain",
-        "response_text": "Nadal",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Ex-Czech, please! In 1990 she won Wimbledon singles title no. 9",
-        "response_text": "Navratilova",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Homeland of Gabriela Sabatini & Juan Martin Del Potro",
-        "response_text": "Argentina",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 7,
-    "air_date": "1990-10-23",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In 1877, the first major tennis tournament took place in this London suburb",
+        "clue_text": "In 1920, Bill Tilden became the 1st American to win this major tournament",
         "response_text": "Wimbledon",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This silver bowl is awarded annually to the nation that wins the World's Men's Tennis title",
-        "response_text": "the Davis Cup",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The surname of this former women's champ is Aborigine for \"tall trees by still waters\\\"",
-        "response_text": "Yvonne Goolagong",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "If you touch the baseline during a serve, you've committed this kind of fault",
-        "response_text": "a foot fault",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This Czech won the US Men's Singles 3 three times in the 1980s & was runner up 5 times",
-        "response_text": "Ivan Lendl",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 18,
-    "air_date": "2001-10-08",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "(Cheryl of the Clue Crew reports from the tennis court.) Once meaning \"to hinder\", it's the call on a serve when the ball hits the net & drops over",
-        "response_text": "let",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In tennis it's an exchange of strokes; in auto racing it's a long-distance competition",
-        "response_text": "rally",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "(Sofia serves up an infraction.) 2-word term for the infraction being committed here",
-        "response_text": "foot fault",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This American phenom with a 140-MPH serve is known as the \"A-Rod of Tennis\\\"",
-        "response_text": "Andy Roddick",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "(Sofia serves up a shot.) The shot being gracefully executed here is this one with an 8-letter name",
-        "response_text": "overhead",
         "dollar_value": 1000
       }
     ]
@@ -1090,6 +512,176 @@
   {
     "name": "TENNIS",
     "topic_area": "tennis",
+    "season": 4,
+    "air_date": "1987-10-01",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The largest crowd ever for a tennis match assembled at this Texas stadium in 1973",
+        "response_text": "Astrodome",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Term for a slow, lofted shot",
+        "response_text": "lob",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The 1st time an Eastern European nation won the Davis Cup was when this country beat Italy in 1980",
+        "response_text": "Czechoslovakia",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The net crosses this number of parallel lines on a standard tennis court",
+        "response_text": "5",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1953, this 18-year-old called \"Little Mo\" became 1st woman to win all 4 grand slam events in the same year",
+        "response_text": "Marueen Connolly",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 10,
+    "air_date": "1994-01-10",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The court is 78 by 27 feet for singles & 78 by 36 feet for this type of play",
+        "response_text": "doubles",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The name of this tennis implement comes from the Arabic rahah, meaning \"palm of the hand\\\"",
+        "response_text": "racket",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In scoring ad is short for this word",
+        "response_text": "advantage",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The French Open is played on this type of surface that favors touch over power",
+        "response_text": "clay",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This top-ranked female tennis player was attacked during an April 1993 match in Germany",
+        "response_text": "Monica Seles",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS-Y WILLIAMS",
+    "topic_area": "tennis",
+    "season": 40,
+    "air_date": "2023-12-14",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Venus & Serena grew up in this huge city's suburb of Compton, better known for rappers than groundstrokers",
+        "response_text": "L.A.",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Venus took the 2000 & 2001 singles titles at this British Grand Slam event",
+        "response_text": "Wimbledon",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 2001 the Williams sisters got \"animated\" on the court in the \"Tennis the Menace\" episode of this Fox series",
+        "response_text": "The Simpsons",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 2003 Serena completed a \"Serena Slam\", beating Venus 7-6, 3-6, 6-4 at this event in Melbourne",
+        "response_text": "the Australian Open",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The way this dad of Venus & Serena managed their careers brought some criticism, but turned out pretty well",
+        "response_text": "(King) Richard Williams",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE WORLD OF TENNIS",
+    "topic_area": "tennis",
+    "season": 33,
+    "air_date": "2017-05-24",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2014 at age 33 he led Switzerland to its first Davis Cup title",
+        "response_text": "Federer",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Andy Murray hails from this U.K. country",
+        "response_text": "Scotland",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "He's \"The Matador of Manacor\", Spain",
+        "response_text": "Nadal",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Ex-Czech, please! In 1990 she won Wimbledon singles title no. 9",
+        "response_text": "Navratilova",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Homeland of Gabriela Sabatini & Juan Martin Del Potro",
+        "response_text": "Argentina",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 2,
+    "air_date": "1986-03-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "An approach shot is any shot that enables the player to do this",
+        "response_text": "approach the net",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "John Newcombe, Ken Rosewall, & Rod Laver are all from this country",
+        "response_text": "Australia",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Formed in 1974 but forced to disband in 1978 was this inter-city league, the WTT",
+        "response_text": "World Team Tennis",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1979, at age 16, she was youngest woman ever to win the U.S. Open",
+        "response_text": "Tracy Austin",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Title of person who sits in the chair & officiates at a tennis match",
+        "response_text": "the umpire",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
     "season": 8,
     "air_date": "1991-11-06",
     "round": "Jeopardy!",
@@ -1117,6 +709,482 @@
       {
         "clue_text": "In the Astrodome in 1973, Billie Jean King beat this senior male player in a \"Battle of the Sexes\\\"",
         "response_text": "Bobby Riggs",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "ANYONE FOR TENNIS?",
+    "topic_area": "tennis",
+    "season": 37,
+    "air_date": "2021-02-15",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 2020 Dominic Thiem completed a comeback to win this event & became the first new male Grand Slam winner in 6 years",
+        "response_text": "the U.S. Open",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 2014, 2015 & 2019 Novak Djokovic defeated this Swiss player in the Wimbledon final",
+        "response_text": "Roger Federer",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This 5-letter word means an extended exchange of strokes before a point",
+        "response_text": "a rally",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "At the 2012 French Open, this Russian completed her career slam",
+        "response_text": "Maria Sharapova",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Teams representing different nations vie for this trophy named for its donor",
+        "response_text": "the Davis Cup",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 3,
+    "air_date": "1987-05-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Of the base line or service line, the one that's farther back",
+        "response_text": "the base line",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "1-word term used when the score is 40-40",
+        "response_text": "deuce",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A high school dropout, this great Swedish star dropped out of the pro tour at only 26",
+        "response_text": "Björn Borg",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Native country of all 4 finalists in men's & women's singles at 1986 U.S. Open",
+        "response_text": "Czechoslovakia",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This national championship is generally considered the world's foremost clay-court event",
+        "response_text": "the French Open",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 24,
+    "air_date": "2008-06-18",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This American woman was the first to win 20 Wimbledon titles",
+        "response_text": "Billie Jean King",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This Bruin won the 1971 NCAA men's tennis title & later became professional tennis' all-time tournament winner",
+        "response_text": "Jimmy Connors",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Arthur Ashe called this 1960s Aussie tennis star's left arm \"a two-by-four with freckles\\\"",
+        "response_text": "Rod Laver",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Born in Buenos Aires in 1970, she became a tennis pro at age 14",
+        "response_text": "Gabriela Sabatini",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Californian gave birth in June 2007 & returned to the pro tour that fall",
+        "response_text": "Lindsay Davenport",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WIMBLEDON",
+    "topic_area": "tennis",
+    "season": 26,
+    "air_date": "2010-07-02",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In 1967 color TV was introduced to the U.K. when this network sponsored a tournament on centre court",
+        "response_text": "the BBC",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The Wimbledon championships are the only Grand Slam event played on this surface",
+        "response_text": "grass",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Between 1973 & 2006 this Czech-American appeared in 326 Wimbledon matches, the most of any player, male or female",
+        "response_text": "Martina Navratilova",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This sport is attached to the name of the club that sponsors Wimbledon, though activities are confined to tennis",
+        "response_text": "croquet",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1985 he became the youngest player, the first unseeded player & the first German to win the men's singles title",
+        "response_text": "Boris Becker",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 2,
+    "air_date": "1985-12-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Originally, it was 7 ft. at the ends, sagging to 5 ft. in the middle",
+        "response_text": "the tennis net",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1900, a trophy for int'l competition was donated by Dwight Davis, student at this Boston area U.",
+        "response_text": "Harvard",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Long before losing to Billie Jean King, he won at Wimbledon in 1939",
+        "response_text": "Bobby Riggs",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "His U.S. Open win made him 1st Black U.S. men's national singles champion",
+        "response_text": "Arthur Ashe",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "A short stroke made before the ball touches the ground",
+        "response_text": "a volley",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "SOUNDS LIKE TENNIS",
+    "topic_area": "tennis",
+    "season": 38,
+    "air_date": "2021-09-13",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Ambrose Bierce defined it as \"a temporary insanity curable by marriage\\\"",
+        "response_text": "love",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Spot for a potential earthquake",
+        "response_text": "a fault",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The money you net from an investment",
+        "response_text": "a return",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In blackjack it can have one of 2 different values",
+        "response_text": "ace",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The operating expenses of running a business",
+        "response_text": "overhead",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 18,
+    "air_date": "2001-10-08",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Cheryl of the Clue Crew reports from the tennis court.) Once meaning \"to hinder\", it's the call on a serve when the ball hits the net & drops over",
+        "response_text": "let",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In tennis it's an exchange of strokes; in auto racing it's a long-distance competition",
+        "response_text": "rally",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Sofia serves up an infraction.) 2-word term for the infraction being committed here",
+        "response_text": "foot fault",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This American phenom with a 140-MPH serve is known as the \"A-Rod of Tennis\\\"",
+        "response_text": "Andy Roddick",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "(Sofia serves up a shot.) The shot being gracefully executed here is this one with an 8-letter name",
+        "response_text": "overhead",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 7,
+    "air_date": "1990-09-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "To decide which player serves first, this piece of equipment is usually tossed",
+        "response_text": "a racket",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "3 of them are the continental serve, Eastern forehand & Eastern backhand",
+        "response_text": "grips",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In tournament play this official sits on a high chair alongside center court",
+        "response_text": "the umpire",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 1988, this West German became only the third woman to win the Grand Slam",
+        "response_text": "Steffi Graf",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This term refers to a score of 40-40",
+        "response_text": "deuce",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WIMBLEDON SINGLES CHAMPS",
+    "topic_area": "tennis",
+    "season": 25,
+    "air_date": "2009-06-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This Swede: 1976 through 1980",
+        "response_text": "Bjorn Borg",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This mouthy New Yorker: 1981, 1983, 1984",
+        "response_text": "John McEnroe",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This Czech lady: 1978, 1979, 1982-87, 1990",
+        "response_text": "(Martina) Navratilova",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This American lefty: 1974, 1982",
+        "response_text": "(Jimmy) Connors",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This Aussie lefty: 1961, 1962, 1968, 1969",
+        "response_text": "Rod Laver",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS TIPS",
+    "topic_area": "tennis",
+    "season": 30,
+    "air_date": "2014-04-28",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Doing this before serving can keep you loose, but don't imitate Novak Djokovic, who does it up to 25 times",
+        "response_text": "bouncing the ball",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Swing from low to high to hit this type of spin; some pros get 3,000 rpm on the ball",
+        "response_text": "topspin",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Getting close to the net gives you better angles on your volleys but leaves you vulnerable to this—look up!",
+        "response_text": "a lob",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "(Kelly of the Clue Crew shows diagrams on the monitor.) Because the net is lower in the center & there's an extra 4 1/2 feet of court to work with, this type of diagonal shot is typically smarter than hitting it down the line",
+        "response_text": "a cross-court",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Popularized by Evert, Connors & Borg, it's an easier stroke to learn but does limit your reach",
+        "response_text": "the two-handed backhand",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS, ANYONE?",
+    "topic_area": "tennis",
+    "season": 14,
+    "air_date": "1998-05-06",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In July 1877 the first tennis championships were played on a croquet lawn in this London suburb",
+        "response_text": "Wimbledon",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This \"affectionate\" term refers to a score of zero",
+        "response_text": "Love",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This 17-year-old, then ranked No. 66, shook up women's tennis by reaching the 1997 U.S. Open final",
+        "response_text": "Venus Williams",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "At the center, a tennis net should be exactly this many feet high",
+        "response_text": "3 feet high",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "She retired in 1994 with career earnings of over $20 million, a figure then exceeded by only Ivan Lendl",
+        "response_text": "Martina Navratilova",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 13,
+    "air_date": "1997-01-07",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Flat, topspin & slice are the 3 basic types of this first shot",
+        "response_text": "Serve",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "She was the No. 1 ranked player in Czechoslovakia 1972-75",
+        "response_text": "Martina Navratilova",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The International Lawn Tennis Challenge trophy is better known as this, for the man who established it",
+        "response_text": "The Davis Cup",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Chris Evert retired as a pro in 1989 & this 13-year-old girl trained by Chris' father turned pro in 1990",
+        "response_text": "Jennifer Capriati",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "To accomplish a Grand Slam, you have to win certain tournaments in these 4 countries",
+        "response_text": "Australia, England, France & United States",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS, ANYONE?",
+    "topic_area": "tennis",
+    "season": 27,
+    "air_date": "2011-06-14",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Held in Melbourne in January, it's the first of the 4 tennis Grand Slam events every year",
+        "response_text": "the Australian Open",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "These 2 sisters have faced each other in the Wimbledon singles finals 4 times",
+        "response_text": "Venus & Serena Williams",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 2008 Stanislas Wawrinka teamed with this pro to represent Switzerland in the Olympics, winning the doubles title",
+        "response_text": "Roger Federer",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In 2010 this Spaniard exceeded $10 million in tournament earnings & was the world's No. 1 ranked player",
+        "response_text": "Rafael Nadal",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The 2 Martinas to have been ranked as the year's No. 1 women's tennis player",
+        "response_text": "Martina Hingis & Martina Navratilova",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TENNIS",
+    "topic_area": "tennis",
+    "season": 24,
+    "air_date": "2007-11-22",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The ladies' singles trophy for this event is a sterling silver tray called the Rosewater Dish",
+        "response_text": "Wimbledon",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This feisty American's 1984 winning percentage of .965 is the best in the ATP Tour's modern era",
+        "response_text": "John McEnroe",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Only 3 women have won more than 100 singles titles: Martina Navratilova, Chris Evert & this European",
+        "response_text": "Steffi Graf",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "It's the \"ITF Team Championship for Men\\\"",
+        "response_text": "Davis Cup",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In April 2007 Switzerland issued its very first stamp of a living person, a 1-franc stamp depicting this tennis player",
+        "response_text": "Roger Federer",
         "dollar_value": 1000
       }
     ]
@@ -1151,74 +1219,6 @@
       {
         "clue_text": "Nicknamed \"Little Mo\", this Grand Slam tennis champ of the 1950s was honored on a stamp in 2019",
         "response_text": "Maureen Connolly",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 17,
-    "air_date": "2000-11-17",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "To some it means everything, but to a tennis player, it means zip, nada, squat",
-        "response_text": "Love",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "At Wimbledon 2000 she became only the second African-American woman to win the singles title",
-        "response_text": "Venus Williams",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "(Hi, I'm Martina Navratilova and the answer is) In 1973 Billie Jean King & Bobby Riggs played the first \"Battle of the Sexes\"; I played this \"Bad Boy\" in 1992's battle",
-        "response_text": "Jimmy Connors",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "He has more Grand Slam singles titles than any other man in history",
-        "response_text": "Pete Sampras",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This coveted prize in team tennis was originally known as the International Lawn Tennis Challenge Trophy",
-        "response_text": "Davis Cup",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TENNIS",
-    "topic_area": "tennis",
-    "season": 4,
-    "air_date": "1987-10-01",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The largest crowd ever for a tennis match assembled at this Texas stadium in 1973",
-        "response_text": "Astrodome",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Term for a slow, lofted shot",
-        "response_text": "lob",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The 1st time an Eastern European nation won the Davis Cup was when this country beat Italy in 1980",
-        "response_text": "Czechoslovakia",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The net crosses this number of parallel lines on a standard tennis court",
-        "response_text": "5",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In 1953, this 18-year-old called \"Little Mo\" became 1st woman to win all 4 grand slam events in the same year",
-        "response_text": "Marueen Connolly",
         "dollar_value": 1000
       }
     ]

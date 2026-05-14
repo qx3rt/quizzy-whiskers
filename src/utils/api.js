@@ -15,9 +15,12 @@ export async function fetchCategories() {
 }
 
 // topicSlugs: optional array of topic area ids (e.g. ['shakespeare', 'mythology'])
-// Maps API shape → app shape expected by game logic.
-export async function fetchBoard(topicSlugs = []) {
-  const qs = topicSlugs.length ? `?topics=${topicSlugs.join(',')}` : ''
+// round: 'Jeopardy!' | 'Double Jeopardy!' — filters to one round for consistent dollar values
+export async function fetchBoard(topicSlugs = [], round = '') {
+  const params = new URLSearchParams()
+  if (topicSlugs.length) params.set('topics', topicSlugs.join(','))
+  if (round) params.set('round', round)
+  const qs = params.toString() ? `?${params}` : ''
   const json = await request(`/api/board${qs}`)
 
   return json.data.map((column) => ({
@@ -30,4 +33,10 @@ export async function fetchBoard(topicSlugs = []) {
       used: false,
     })),
   }))
+}
+
+// Returns { category: string, clue: { id, clue_text, response_text } }
+export async function fetchFinalJeopardy() {
+  const json = await request('/api/board/final')
+  return json.data
 }

@@ -290,6 +290,36 @@ function groupIntoCategories(rows) {
   return [...groups.values()]
 }
 
+// Collects Final Jeopardy! rows — one clue per episode, no dollar value.
+function groupFinalJeopardy(rows) {
+  const mediaCue = /\[.*?\]|\(.*?audio.*?\)|\(.*?video.*?\)|\(.*?visual.*?\)/i
+  const groups = new Map()
+
+  for (const row of rows) {
+    if (row.round !== 'Final Jeopardy!') continue
+    if (!row.category || !row.question || !row.answer) continue
+    if (isGameMechanic(row.category)) continue
+    if (mediaCue.test(row.question)) continue
+
+    const clueText = stripHtml(row.question)
+    const responseText = stripHtml(row.answer)
+    if (!clueText || !responseText) continue
+
+    const key = `${row.air_date}|||${row.category}`
+    if (!groups.has(key)) {
+      groups.set(key, {
+        name: row.category,
+        round: 'Final Jeopardy!',
+        air_date: row.air_date,
+        clue_text: clueText,
+        response_text: responseText,
+      })
+    }
+  }
+
+  return [...groups.values()]
+}
+
 async function main() {
   // Load TSV
   let raw
@@ -361,6 +391,12 @@ async function main() {
     return
   }
 
+  // Collect and export Final Jeopardy clues
+  console.log('\nCollecting Final Jeopardy! clues …')
+  const finalJeopardyGroups = groupFinalJeopardy(rows)
+  const shuffledFJ = finalJeopardyGroups.sort(() => Math.random() - 0.5).slice(0, 2000)
+  console.log(`  ${shuffledFJ.length.toLocaleString()} Final Jeopardy! clues`)
+
   // Write output files
   await fs.mkdir(OUTPUT_DIR, { recursive: true })
   for (const [topic, sets] of byTopic) {
@@ -368,7 +404,10 @@ async function main() {
     await fs.writeFile(outPath, JSON.stringify(sets, null, 2), 'utf8')
   }
 
-  console.log(`\n✓ Wrote ${byTopic.size} JSON files to ${OUTPUT_DIR}`)
+  const fjPath = path.join(OUTPUT_DIR, 'final_jeopardy.json')
+  await fs.writeFile(fjPath, JSON.stringify(shuffledFJ, null, 2), 'utf8')
+
+  console.log(`\n✓ Wrote ${byTopic.size} topic files + final_jeopardy.json to ${OUTPUT_DIR}`)
   console.log('Next step: rm backend/data/app.db && npm run dev --prefix backend')
 }
 

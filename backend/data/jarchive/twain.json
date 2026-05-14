@@ -1,205 +1,35 @@
 [
   {
-    "name": "& NEVER THE TWAINS SHALL MEET",
+    "name": "MARK TWAIN: BOOK LOVER",
     "topic_area": "twain",
-    "season": 21,
-    "air_date": "2005-06-22",
+    "season": 24,
+    "air_date": "2008-04-16",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "Shania Twain was born on Aug. 28, 1965 in Windsor, Canada; Mark Twain, on Nov. 30, 1835 in this state",
-        "response_text": "Missouri",
+        "clue_text": "Writing about this author's \"The Deerslayer\", Twain called its pathos \"funny\" & \"its love-scenes odious\\\"",
+        "response_text": "(James Fenimore) Cooper",
         "dollar_value": 400
       },
       {
-        "clue_text": "Shania's given name is Eilleen Regina Edwards; Mark's was this (including his middle name)",
-        "response_text": "Samuel Langhorne Clemens",
+        "clue_text": "(Alex reads the clue from the Mark Twain House in Hartford, CT.) Mark Twain made notations in the books he owned; he wrote, \"Can any plausible excuse be furnished for the crime of creating the human race\" in this man's \"Voyage of the H.M.S. Beagle\\\"",
+        "response_text": "Darwin",
         "dollar_value": 800
       },
       {
-        "clue_text": "Mark first visited this city in 1872; in 1999 Shania played the Prince's Trust concert in Hyde Park there",
-        "response_text": "London",
+        "clue_text": "One of Twain's favorite books was the \"Diary of\" this Englishman; Twain credited it as the model for his book \"1601\\\"",
+        "response_text": "(Samuel) Pepys",
         "dollar_value": 1200
       },
       {
-        "clue_text": "In 1870 Mark married the lovely Olivia Langdon; in 1993 Shania wed this adorable \"mutt\\\"",
-        "response_text": "Robert Mutt Lange",
+        "clue_text": "A copy of the New Testament in Arabic was given to Twain during the cruise that inspired this 1869 travel classic",
+        "response_text": "The Innocents Abroad",
         "dollar_value": 1600
       },
       {
-        "clue_text": "Shania's self-titled debut went gold in 1996; in 1873 Mark's first novel had this \"golden\"-sounding title",
-        "response_text": "The Gilded Age",
+        "clue_text": "\\\"The only poem I have ever carried about with me\", said Twain, was this classic, best enjoyed with \"a jug of wine\\\"",
+        "response_text": "the Rubaiyat of Omar Khayyam",
         "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "MARK TWAIN",
-    "topic_area": "twain",
-    "season": 6,
-    "air_date": "1990-04-11",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In \"Pudd'nhead Wilson\", Twain said a classic is \"a book which people praise & don't\" do this",
-        "response_text": "read",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In 1894 Twain took this title character \"Abroad\" & 2 years later he became a \"Detective\\\"",
-        "response_text": "Tom Sawyer",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "He worked as a riverboat pilot on the Mississippi until traffic was curtailed due to this",
-        "response_text": "outbreak of the Civil War",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Samuel Clemens 1st used the name Mark Twain in 1863 while writing for this Nevada town's newspaper",
-        "response_text": "Virginia City",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "When 1st published, this book of Twain's travels to Europe was sold mainly by door-to-door salesman",
-        "response_text": "The Innocents Abroad",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "MARK TWAIN",
-    "topic_area": "twain",
-    "season": 8,
-    "air_date": "1992-05-06",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "He said, \"One of the most striking differences between a cat & a lie is that a cat has only\" this many lives",
-        "response_text": "nine",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In \"Tom Sawyer\", the town of St. Petersburg was modeled on this one in Missouri",
-        "response_text": "Hannibal",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "By April 1859 he had become a licensed one of these",
-        "response_text": "a riverboat pilot",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "This Twain novel is set in 16th century England",
-        "response_text": "The Prince and the Pauper",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "He first used his pen name on the Territorial Enterprise, a newspaper in this Nevada city",
-        "response_text": "Virginia City",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TWAIN TRACTS",
-    "topic_area": "twain",
-    "season": 27,
-    "air_date": "2010-11-15",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "A blow on the head sends a man back to Camelot in this 1889 Mark Twain novel",
-        "response_text": "A Connecticut Yankee in King Arthur's Court",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Twain set down the \"Personal Recollections of\" this female French saint & warrior",
-        "response_text": "Joan of Arc",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "A miner bets on his amphibian's leaping ability in \"The Celebrated Jumping Frog of\" this county",
-        "response_text": "Calaveras County",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The first half of this Twain work describes his apprenticeship as a river pilot",
-        "response_text": "Life on the Mississippi",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "These were \"Abroad\" in a work Twain compiled from letters he sent home from an overseas trip",
-        "response_text": "Innocents",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "MARK TWAIN",
-    "topic_area": "twain",
-    "season": 4,
-    "air_date": "1987-10-20",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Century in which Mark Twain died",
-        "response_text": "20th century",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Color of the suit that, late in Mark Twain's life, became his trademark",
-        "response_text": "white",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "\\\"Dan'l Webster\" was the name of this \"Celebrated\" title figure",
-        "response_text": "\\\"The Celebrated Jumping Frog of Calaveras County\\\"",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "After being hit by a crowbar, a man from Hartford woke up near this castle site",
-        "response_text": "King Arthur's Court",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In his comic criticism of this author's works, Twain calls \"Chingachgook\" \"Chicago\\\"",
-        "response_text": "James Fenimore Cooper",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TWAIN",
-    "topic_area": "twain",
-    "season": 4,
-    "air_date": "1987-11-13",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Twain said, \"The art of frying\" this fowl \"cannot be learned north of the line of Mason and Dixon\\\"",
-        "response_text": "chicken",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Character who refers to \"The Adventures of Tom Sawyer\" in the first line of his book",
-        "response_text": "Huckleberry Finn",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "On their first date, Twain took his future wife to a reading given by this English author in 1867",
-        "response_text": "Charles Dickens",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "His actual middle name",
-        "response_text": "Langhorne",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "According to the title, it's what Twain was following in his last travel book",
-        "response_text": "the equator",
-        "dollar_value": 1000
       }
     ]
   },
@@ -233,142 +63,6 @@
       {
         "clue_text": "Of this \"Devil's Dictionary\" author, Twain wrote, \"For every laugh, there are 5 blushes & 10 shudders\\\"",
         "response_text": "Ambrose Bierce",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "MARK TWAIN",
-    "topic_area": "twain",
-    "season": 16,
-    "air_date": "2000-02-10",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Mark Twain was a pen name; this was his real name",
-        "response_text": "Samuel Langhorne Clemens",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Twain wrote that in \"The Deerslayer\", this author \"scored 114 offenses against literary art out of a possible 115\\\"",
-        "response_text": "James Fenimore Cooper",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This 1889 novel contrasts American homespun ingenuity with the Dark Ages' superstition & ineptitude",
-        "response_text": "\\\"A Connecticut Yankee in King Arthur's Court\\\"",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In the 1850s Twain was an apprentice one of these under Horace Bixby; he became a licensed one in 1859",
-        "response_text": "Riverboat pilot",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Twain said, \"There is no distinctly Native American criminal class except\" this body",
-        "response_text": "Congress",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "TWAIN TWIP",
-    "topic_area": "twain",
-    "season": 22,
-    "air_date": "2006-01-16",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Mark Twain was born in Florida—Florida, Missouri that is—& moved with his family to this town in 1839",
-        "response_text": "Hannibal",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In the titles of 2 of Twain's travel books, it follows \"The Innocents\" & \"A Tramp\\\"",
-        "response_text": "Abroad",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Twain once defined this type of book (& he wrote several) as one \"which people praise and don't read\\\"",
-        "response_text": "a classic",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "As he predicted he would, Twain died in 1910, a year in which this appeared, just as it did in 1835 when he was born",
-        "response_text": "Halley's Comet",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Twain wrote of how the \"Maid of the Mist descends the fearful rapids\" in a piece called \"A Visit to\" this place",
-        "response_text": "Niagara Falls",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "MARK TWAIN QUOTES",
-    "topic_area": "twain",
-    "season": 6,
-    "air_date": "1989-10-04",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "According to Twain this breeds children as well as contempt",
-        "response_text": "familiarity",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "\\\"I'll risk $40 he can outjump any\" one of these \"in Calaveras County\\\"",
-        "response_text": "a frog",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In an 1897 cable from London to the Associated Press, Twain said, \"The reports of my death are\" this",
-        "response_text": "\\\"greatly exaggerated\\\"",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "\\\"The wise man saith, 'Put all your eggs in the one basket and...' \" make sure you do this",
-        "response_text": "\\\"watch that basket\\\"",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In \"Life on the Mississippi\" a man told of his home equipped with \"all the modern\" ones of these",
-        "response_text": "inconveniences",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "MARK TWAIN: BOOK LOVER",
-    "topic_area": "twain",
-    "season": 24,
-    "air_date": "2008-04-16",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Writing about this author's \"The Deerslayer\", Twain called its pathos \"funny\" & \"its love-scenes odious\\\"",
-        "response_text": "(James Fenimore) Cooper",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "(Alex reads the clue from the Mark Twain House in Hartford, CT.) Mark Twain made notations in the books he owned; he wrote, \"Can any plausible excuse be furnished for the crime of creating the human race\" in this man's \"Voyage of the H.M.S. Beagle\\\"",
-        "response_text": "Darwin",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "One of Twain's favorite books was the \"Diary of\" this Englishman; Twain credited it as the model for his book \"1601\\\"",
-        "response_text": "(Samuel) Pepys",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "A copy of the New Testament in Arabic was given to Twain during the cruise that inspired this 1869 travel classic",
-        "response_text": "The Innocents Abroad",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "\\\"The only poem I have ever carried about with me\", said Twain, was this classic, best enjoyed with \"a jug of wine\\\"",
-        "response_text": "the Rubaiyat of Omar Khayyam",
         "dollar_value": 2000
       }
     ]
@@ -444,6 +138,312 @@
   {
     "name": "MARK TWAIN",
     "topic_area": "twain",
+    "season": 6,
+    "air_date": "1990-04-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In \"Pudd'nhead Wilson\", Twain said a classic is \"a book which people praise & don't\" do this",
+        "response_text": "read",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In 1894 Twain took this title character \"Abroad\" & 2 years later he became a \"Detective\\\"",
+        "response_text": "Tom Sawyer",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "He worked as a riverboat pilot on the Mississippi until traffic was curtailed due to this",
+        "response_text": "outbreak of the Civil War",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Samuel Clemens 1st used the name Mark Twain in 1863 while writing for this Nevada town's newspaper",
+        "response_text": "Virginia City",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "When 1st published, this book of Twain's travels to Europe was sold mainly by door-to-door salesman",
+        "response_text": "The Innocents Abroad",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARK TWAIN",
+    "topic_area": "twain",
+    "season": 8,
+    "air_date": "1992-05-06",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "He said, \"One of the most striking differences between a cat & a lie is that a cat has only\" this many lives",
+        "response_text": "nine",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In \"Tom Sawyer\", the town of St. Petersburg was modeled on this one in Missouri",
+        "response_text": "Hannibal",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "By April 1859 he had become a licensed one of these",
+        "response_text": "a riverboat pilot",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "This Twain novel is set in 16th century England",
+        "response_text": "The Prince and the Pauper",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "He first used his pen name on the Territorial Enterprise, a newspaper in this Nevada city",
+        "response_text": "Virginia City",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARK TWAIN",
+    "topic_area": "twain",
+    "season": 30,
+    "air_date": "2013-12-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Twain took \"a journey around the world\" in his fifth & last travel book, \"Following\" this imaginary line",
+        "response_text": "equator",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A crowning event in Twain's life was receiving an honorary degree from this British university in 1907",
+        "response_text": "Oxford",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Twain satirized the customs & institutions of the feudal world in this 1889 novel",
+        "response_text": "A Connecticut Yankee in King Arthur's Court",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The only known moving picture ever taken of Mark Twain is in a silent film produced by this man's studio in 1909",
+        "response_text": "Thomas Edison",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The prince in \"The Prince and the Pauper\" was this historical figure, son of Henry VIII & Jane Seymour",
+        "response_text": "Edward VI",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARK TWAIN",
+    "topic_area": "twain",
+    "season": 16,
+    "air_date": "2000-02-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Mark Twain was a pen name; this was his real name",
+        "response_text": "Samuel Langhorne Clemens",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Twain wrote that in \"The Deerslayer\", this author \"scored 114 offenses against literary art out of a possible 115\\\"",
+        "response_text": "James Fenimore Cooper",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This 1889 novel contrasts American homespun ingenuity with the Dark Ages' superstition & ineptitude",
+        "response_text": "\\\"A Connecticut Yankee in King Arthur's Court\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In the 1850s Twain was an apprentice one of these under Horace Bixby; he became a licensed one in 1859",
+        "response_text": "Riverboat pilot",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Twain said, \"There is no distinctly Native American criminal class except\" this body",
+        "response_text": "Congress",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TWAIN",
+    "topic_area": "twain",
+    "season": 4,
+    "air_date": "1987-11-13",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Twain said, \"The art of frying\" this fowl \"cannot be learned north of the line of Mason and Dixon\\\"",
+        "response_text": "chicken",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Character who refers to \"The Adventures of Tom Sawyer\" in the first line of his book",
+        "response_text": "Huckleberry Finn",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "On their first date, Twain took his future wife to a reading given by this English author in 1867",
+        "response_text": "Charles Dickens",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "His actual middle name",
+        "response_text": "Langhorne",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "According to the title, it's what Twain was following in his last travel book",
+        "response_text": "the equator",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TWAIN",
+    "topic_area": "twain",
+    "season": 12,
+    "air_date": "1995-09-15",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Twain claimed it was easy to give up this habit, saying \"I've done it a thousand times\\\"",
+        "response_text": "smoking",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The grave of Laura H. Frazer, Twain's childhood friend, also bears the name of this character she inspired",
+        "response_text": "Becky Thatcher",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "As a teenager Twain, like Ben Franklin, was apprenticed to one of these",
+        "response_text": "printer",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Mark Twain's grave is in Elmira in this state",
+        "response_text": "New York",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Twain was on the staff of this Nevada town's Territorial Enterprise",
+        "response_text": "Virginia City",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "TWAIN TWIP",
+    "topic_area": "twain",
+    "season": 22,
+    "air_date": "2006-01-16",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Mark Twain was born in Florida—Florida, Missouri that is—& moved with his family to this town in 1839",
+        "response_text": "Hannibal",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In the titles of 2 of Twain's travel books, it follows \"The Innocents\" & \"A Tramp\\\"",
+        "response_text": "Abroad",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Twain once defined this type of book (& he wrote several) as one \"which people praise and don't read\\\"",
+        "response_text": "a classic",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "As he predicted he would, Twain died in 1910, a year in which this appeared, just as it did in 1835 when he was born",
+        "response_text": "Halley's Comet",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Twain wrote of how the \"Maid of the Mist descends the fearful rapids\" in a piece called \"A Visit to\" this place",
+        "response_text": "Niagara Falls",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARK TWAIN QUOTES",
+    "topic_area": "twain",
+    "season": 6,
+    "air_date": "1989-10-04",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "According to Twain this breeds children as well as contempt",
+        "response_text": "familiarity",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"I'll risk $40 he can outjump any\" one of these \"in Calaveras County\\\"",
+        "response_text": "a frog",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In an 1897 cable from London to the Associated Press, Twain said, \"The reports of my death are\" this",
+        "response_text": "\\\"greatly exaggerated\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"The wise man saith, 'Put all your eggs in the one basket and...' \" make sure you do this",
+        "response_text": "\\\"watch that basket\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In \"Life on the Mississippi\" a man told of his home equipped with \"all the modern\" ones of these",
+        "response_text": "inconveniences",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "BY TWAIN",
+    "topic_area": "twain",
+    "season": 21,
+    "air_date": "2004-11-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Prior to this novel's publication, its whitewash scene appeared in the Philadelphia Sunday Republic",
+        "response_text": "Tom Sawyer",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's the title locale of the story Twain originally called \"Jim Smiley and his Jumping Frog\\\"",
+        "response_text": "Calaveras County",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Travel letters Twain wrote during a tour of Europe were collected in his book called these \"Abroad\\\"",
+        "response_text": "Innocents",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In the first part of this 1883 memoir, Twain recalled his days as a riverboat pilot",
+        "response_text": "Life on the Mississippi",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "It's the humorous nickname of the lawyer who solves the murder of York Driscoll, Dawson Landing's chief citizen",
+        "response_text": "Pudd'n'head Wilson",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "MARK TWAIN",
+    "topic_area": "twain",
     "season": 11,
     "air_date": "1994-10-26",
     "round": "Double Jeopardy!",
@@ -471,6 +471,210 @@
       {
         "clue_text": "This eccentric attorney from Dawson's Landing, Mo. successfully defends Italian twins accused of murder",
         "response_text": "Pudd'nhead Wilson",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARK TWAIN",
+    "topic_area": "twain",
+    "season": 4,
+    "air_date": "1987-10-20",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Century in which Mark Twain died",
+        "response_text": "20th century",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Color of the suit that, late in Mark Twain's life, became his trademark",
+        "response_text": "white",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Dan'l Webster\" was the name of this \"Celebrated\" title figure",
+        "response_text": "\\\"The Celebrated Jumping Frog of Calaveras County\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "After being hit by a crowbar, a man from Hartford woke up near this castle site",
+        "response_text": "King Arthur's Court",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In his comic criticism of this author's works, Twain calls \"Chingachgook\" \"Chicago\\\"",
+        "response_text": "James Fenimore Cooper",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARK TWAIN QUOTES",
+    "topic_area": "twain",
+    "season": 9,
+    "air_date": "1993-02-08",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Character who said, \"You feel mighty free and easy and comfortable on a raft\\\"",
+        "response_text": "Huck Finn",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This \"consists of whatever a body is obliged to do...play consists of whatever a body is not obliged to do\\\"",
+        "response_text": "work",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"There are two times in a man's life when he should not speculate: when he can't afford it, and\" this",
+        "response_text": "when he can",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"When in doubt tell\" this",
+        "response_text": "the truth",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"There ain't no surer way to find out whether you like people or hate them, than to\" do this \"with them\\\"",
+        "response_text": "travel with them",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "& NEVER THE TWAINS SHALL MEET",
+    "topic_area": "twain",
+    "season": 21,
+    "air_date": "2005-06-22",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Shania Twain was born on Aug. 28, 1965 in Windsor, Canada; Mark Twain, on Nov. 30, 1835 in this state",
+        "response_text": "Missouri",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Shania's given name is Eilleen Regina Edwards; Mark's was this (including his middle name)",
+        "response_text": "Samuel Langhorne Clemens",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Mark first visited this city in 1872; in 1999 Shania played the Prince's Trust concert in Hyde Park there",
+        "response_text": "London",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In 1870 Mark married the lovely Olivia Langdon; in 1993 Shania wed this adorable \"mutt\\\"",
+        "response_text": "Robert Mutt Lange",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Shania's self-titled debut went gold in 1996; in 1873 Mark's first novel had this \"golden\"-sounding title",
+        "response_text": "The Gilded Age",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "THE QUOTABLE MARK TWAIN",
+    "topic_area": "twain",
+    "season": 29,
+    "air_date": "2013-03-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"In Paris they just simply...stared. We never did succeed in making those idiots understand their own\" this",
+        "response_text": "language",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"I came in with\" this \"in 1835. It is coming again next year, and I expect to go out with it\", Twain said in 1909; he did",
+        "response_text": "Halley's Comet",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This place \"goes by favor. If it went by merit, you would stay out and your dog would go in\\\"",
+        "response_text": "heaven",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "On this painting: \"To me it was merely a serene and subdued face... the complexion was bad...there are no people that color\\\"",
+        "response_text": "the Mona Lisa",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"It has noble poetry in it; and some clever fables...and some good morals... and upward of a thousand lies\\\"",
+        "response_text": "the Bible",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "MARK TWAIN SHALL MEET",
+    "topic_area": "twain",
+    "season": 27,
+    "air_date": "2011-01-20",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "...this anti-slavery author; her Hartford home was next door to Twain's",
+        "response_text": "(Harriet Beecher) Stowe",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "...this young British author who was traveling from India to England via the U.S. in 1889",
+        "response_text": "(Rudyard) Kipling",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "...this poet, whose \"Idylls of the King\" started an Arthurian craze that inspired \"A Connecticut Yankee\\\"",
+        "response_text": "Tennyson",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "...this British-born journalist in the 1860s, a few years before a journey in Africa made him famous",
+        "response_text": "(Henry Morgan) Stanley",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "...this newspaper publisher, when Twain was chased out of his office at the New York tribune",
+        "response_text": "Horace Greeley",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "TWAIN TRACTS",
+    "topic_area": "twain",
+    "season": 17,
+    "air_date": "2000-09-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In a 1909 essay Mark Twain asserted this man could not have written the plays attributed to him",
+        "response_text": "William Shakespeare",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In articles & a book Twain questioned this Mary Baker Eddy church's tenet of divine healing",
+        "response_text": "Christian Science",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In a 1904 essay Twain's subject was this French saint about whom he had written a book",
+        "response_text": "Joan of Arc",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "The Sacramento Union published Twain's running account of his visit to these islands",
+        "response_text": "Hawaiian Islands",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In \"Innocents Abroad\" Twain derides this city's mistreatment of Galileo & its love of the Medicis",
+        "response_text": "Florence",
         "dollar_value": 1000
       }
     ]
@@ -546,169 +750,33 @@
   {
     "name": "TWAIN TRACTS",
     "topic_area": "twain",
-    "season": 17,
-    "air_date": "2000-09-25",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In a 1909 essay Mark Twain asserted this man could not have written the plays attributed to him",
-        "response_text": "William Shakespeare",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In articles & a book Twain questioned this Mary Baker Eddy church's tenet of divine healing",
-        "response_text": "Christian Science",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In a 1904 essay Twain's subject was this French saint about whom he had written a book",
-        "response_text": "Joan of Arc",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The Sacramento Union published Twain's running account of his visit to these islands",
-        "response_text": "Hawaiian Islands",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In \"Innocents Abroad\" Twain derides this city's mistreatment of Galileo & its love of the Medicis",
-        "response_text": "Florence",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "MARK TWAIN SHALL MEET",
-    "topic_area": "twain",
     "season": 27,
-    "air_date": "2011-01-20",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "...this anti-slavery author; her Hartford home was next door to Twain's",
-        "response_text": "(Harriet Beecher) Stowe",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "...this young British author who was traveling from India to England via the U.S. in 1889",
-        "response_text": "(Rudyard) Kipling",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "...this poet, whose \"Idylls of the King\" started an Arthurian craze that inspired \"A Connecticut Yankee\\\"",
-        "response_text": "Tennyson",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "...this British-born journalist in the 1860s, a few years before a journey in Africa made him famous",
-        "response_text": "(Henry Morgan) Stanley",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "...this newspaper publisher, when Twain was chased out of his office at the New York tribune",
-        "response_text": "Horace Greeley",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "TWAIN",
-    "topic_area": "twain",
-    "season": 12,
-    "air_date": "1995-09-15",
+    "air_date": "2010-11-15",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "Twain claimed it was easy to give up this habit, saying \"I've done it a thousand times\\\"",
-        "response_text": "smoking",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The grave of Laura H. Frazer, Twain's childhood friend, also bears the name of this character she inspired",
-        "response_text": "Becky Thatcher",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "As a teenager Twain, like Ben Franklin, was apprenticed to one of these",
-        "response_text": "printer",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Mark Twain's grave is in Elmira in this state",
-        "response_text": "New York",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Twain was on the staff of this Nevada town's Territorial Enterprise",
-        "response_text": "Virginia City",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "MARK TWAIN QUOTES",
-    "topic_area": "twain",
-    "season": 9,
-    "air_date": "1993-02-08",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Character who said, \"You feel mighty free and easy and comfortable on a raft\\\"",
-        "response_text": "Huck Finn",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This \"consists of whatever a body is obliged to do...play consists of whatever a body is not obliged to do\\\"",
-        "response_text": "work",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "\\\"There are two times in a man's life when he should not speculate: when he can't afford it, and\" this",
-        "response_text": "when he can",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "\\\"When in doubt tell\" this",
-        "response_text": "the truth",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"There ain't no surer way to find out whether you like people or hate them, than to\" do this \"with them\\\"",
-        "response_text": "travel with them",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "MARK TWAIN",
-    "topic_area": "twain",
-    "season": 30,
-    "air_date": "2013-12-26",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Twain took \"a journey around the world\" in his fifth & last travel book, \"Following\" this imaginary line",
-        "response_text": "equator",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "A crowning event in Twain's life was receiving an honorary degree from this British university in 1907",
-        "response_text": "Oxford",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Twain satirized the customs & institutions of the feudal world in this 1889 novel",
+        "clue_text": "A blow on the head sends a man back to Camelot in this 1889 Mark Twain novel",
         "response_text": "A Connecticut Yankee in King Arthur's Court",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Twain set down the \"Personal Recollections of\" this female French saint & warrior",
+        "response_text": "Joan of Arc",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "A miner bets on his amphibian's leaping ability in \"The Celebrated Jumping Frog of\" this county",
+        "response_text": "Calaveras County",
         "dollar_value": 600
       },
       {
-        "clue_text": "The only known moving picture ever taken of Mark Twain is in a silent film produced by this man's studio in 1909",
-        "response_text": "Thomas Edison",
+        "clue_text": "The first half of this Twain work describes his apprenticeship as a river pilot",
+        "response_text": "Life on the Mississippi",
         "dollar_value": 800
       },
       {
-        "clue_text": "The prince in \"The Prince and the Pauper\" was this historical figure, son of Henry VIII & Jane Seymour",
-        "response_text": "Edward VI",
+        "clue_text": "These were \"Abroad\" in a work Twain compiled from letters he sent home from an overseas trip",
+        "response_text": "Innocents",
         "dollar_value": 1000
       }
     ]
@@ -744,74 +812,6 @@
         "clue_text": "\\\"I would have written a shorter letter, but I did not have\" this",
         "response_text": "the time",
         "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "THE QUOTABLE MARK TWAIN",
-    "topic_area": "twain",
-    "season": 29,
-    "air_date": "2013-03-12",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "\\\"In Paris they just simply...stared. We never did succeed in making those idiots understand their own\" this",
-        "response_text": "language",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "\\\"I came in with\" this \"in 1835. It is coming again next year, and I expect to go out with it\", Twain said in 1909; he did",
-        "response_text": "Halley's Comet",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This place \"goes by favor. If it went by merit, you would stay out and your dog would go in\\\"",
-        "response_text": "heaven",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "On this painting: \"To me it was merely a serene and subdued face... the complexion was bad...there are no people that color\\\"",
-        "response_text": "the Mona Lisa",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"It has noble poetry in it; and some clever fables...and some good morals... and upward of a thousand lies\\\"",
-        "response_text": "the Bible",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "BY TWAIN",
-    "topic_area": "twain",
-    "season": 21,
-    "air_date": "2004-11-10",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Prior to this novel's publication, its whitewash scene appeared in the Philadelphia Sunday Republic",
-        "response_text": "Tom Sawyer",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "It's the title locale of the story Twain originally called \"Jim Smiley and his Jumping Frog\\\"",
-        "response_text": "Calaveras County",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Travel letters Twain wrote during a tour of Europe were collected in his book called these \"Abroad\\\"",
-        "response_text": "Innocents",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In the first part of this 1883 memoir, Twain recalled his days as a riverboat pilot",
-        "response_text": "Life on the Mississippi",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "It's the humorous nickname of the lawyer who solves the murder of York Driscoll, Dawson Landing's chief citizen",
-        "response_text": "Pudd'n'head Wilson",
-        "dollar_value": 2000
       }
     ]
   }

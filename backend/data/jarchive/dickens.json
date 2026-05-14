@@ -1,238 +1,34 @@
 [
   {
-    "name": "SPEAK OF THE DICKENS",
+    "name": "WHAT THE DICKENS!",
     "topic_area": "dickens",
-    "season": 10,
-    "air_date": "1994-02-21",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Dickens was 25 when he began this tale that features Fagin & Bill Sikes",
-        "response_text": "Oliver Twist",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "It's the last word spoken in \"A Christmas Carol\"; it has only 3 letters",
-        "response_text": "one",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Chapter 16 in this binational novel is called \"Still Knitting\\\"",
-        "response_text": "A Tale of Two Cities",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Dickens' first major work concerns these \"Papers\" of a London club",
-        "response_text": "the Pickwick Papers",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In its preface Dickens wrote, \"I have in my heart of hearts a favourite child, and his name is\" this",
-        "response_text": "David Copperfield",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DICKENS NOVELS BY CHARACTERS",
-    "topic_area": "dickens",
-    "season": 16,
-    "air_date": "2000-04-14",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Noah Claypole, Mr. Bumble, The Artful Dodger",
-        "response_text": "\\\"Oliver Twist\\\"",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Jarvis Lorry, Lucie Manette, Sydney Carton",
-        "response_text": "\\\"A Tale of Two Cities\\\"",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Clara Peggotty, Mr. Murdstone, Uriah Heep",
-        "response_text": "\\\"David Copperfield\\\"",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Uncle Pumblechook, Mr. Wopsle, Miss Havisham",
-        "response_text": "\\\"Great Expectations\\\"",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Newman Noggs, Miss La Creevy, Wackford Squeers",
-        "response_text": "\\\"Nicholas Nickleby\\\"",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "LIKE THE DICKENS",
-    "topic_area": "dickens",
-    "season": 41,
-    "air_date": "2025-01-24",
+    "season": 29,
+    "air_date": "2012-10-24",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "In \"Miss Marley\" Clara & Jacob Marley are orphans whose fates turn once the latter partners with this man",
+        "clue_text": "He says, \"Merry Christmas! ...What reason have you to be merry? You're poor enough\\\"",
         "response_text": "Ebenezer Scrooge",
         "dollar_value": 400
       },
       {
-        "clue_text": "In \"Jack Dawkins\" the character known by this nickname returns to London after being sent to Australia on a prison ship",
-        "response_text": "the Artful Dodger",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"The Unlikely Escape of Uriah Heep\" finds the title villain \"summoned\" from the pages of this Dickens tale by young Charley",
-        "response_text": "David Copperfield",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In \"The Great Fire of London\", a film of this book is planned, & Audrey has spectral contact with the title imprisoned lass",
-        "response_text": "Little Dorrit",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Inspired by this Dickens masterwork, \"Tom-All-Alone's\" catches up with Inspector Bucket & wily solicitor Tulkinghorn",
-        "response_text": "Bleak House",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "A LITTLE DICKENS",
-    "topic_area": "dickens",
-    "season": 16,
-    "air_date": "1999-10-12",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Near the end of this novel, the protagonist sends a turkey to the Cratchits",
-        "response_text": "A Christmas Carol",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The trade this title character soon learns is pickpocketing",
+        "clue_text": "Characters in this novel include Blathers, Brittles, Brownlow & Bumble",
         "response_text": "Oliver Twist",
-        "dollar_value": 400
+        "dollar_value": 800
       },
       {
-        "clue_text": "All Miss Havisham's clocks are permanently stopped in this 1860 work",
+        "clue_text": "This novel set in London & Paris was first published serially in 1859",
+        "response_text": "A Tale of Two Cities",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "The Christian name of the main guy in this novel is Philip & his family name is Pirrip",
         "response_text": "Great Expectations",
-        "dollar_value": 600
+        "dollar_value": 1600
       },
       {
-        "clue_text": "The title character of this work spends his early childhood with his mother & their servant Clara Peggotty",
-        "response_text": "David Copperfield",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "It's no mystery why this work was Dickens' last; he didn't live to finish it",
-        "response_text": "The Mystery of Edwin Drood",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "SPEAK OF THE DICKENS",
-    "topic_area": "dickens",
-    "season": 5,
-    "air_date": "1989-07-12",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "This novel about Mr. Murdstone's stepson was released in monthly installments in 1849 & 1850",
-        "response_text": "David Copperfield",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "\\\"A Tale of Two Cities\" is set during this historic event",
-        "response_text": "French Revolution",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "\\\"'S wonderful\" & \"'S Marvelous\" might be Smike's description of this novel he's in",
-        "response_text": "Nicholas Nickleby",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "1854 novel about tough goings in the industrial city of Coketown",
-        "response_text": "Hard Times",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Little Dorrit has her own book, but Little Nell is a character in this one",
+        "clue_text": "Little Nell, but not the proverbial cat, dies in this 1840-41 work",
         "response_text": "The Old Curiosity Shop",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DICKENS CHARACTERS",
-    "topic_area": "dickens",
-    "season": 23,
-    "air_date": "2006-09-11",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "This \"Christmas Carol\" clerk's children are Peter, Martha, Belinda, Tiny Tim & 2 who don't have names",
-        "response_text": "Bob Cratchit",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Drinking beer, kicking dogs & hitting women are hobbies of this man, Fagin's adult accomplice",
-        "response_text": "Bill Sykes",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Paul Dombey styles himself \"sole representative\" of this firm",
-        "response_text": "Dombey and Son",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Nathaniel Winkle is among the illustrious members of this title club",
-        "response_text": "the Pickwick Club",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "He marries Dora Spenlow in Chapter 43 & Agnes Wickfield in Chapter 62",
-        "response_text": "David Copperfield",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "A LITTLE DICKENS",
-    "topic_area": "dickens",
-    "season": 22,
-    "air_date": "2006-01-23",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In \"Oliver Twist\", Bill Sikes' girl, Nancy, is a member of this man's gang of pickpockets",
-        "response_text": "Fagin",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Uriah Heep had a heap of hate for this Dickens title character",
-        "response_text": "David Copperfield",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This Dickens work was first published on December 17, 1843",
-        "response_text": "A Christmas Carol",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "It's the specific type of prison where Charles Dickens' father suffered in 1824",
-        "response_text": "debtor's prison",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Little Paul is the \"son\" in this Dickens title business",
-        "response_text": "Dombey and Son",
         "dollar_value": 2000
       }
     ]
@@ -272,103 +68,103 @@
     ]
   },
   {
-    "name": "SPEECH OF THE DICKENS",
+    "name": "THE QUOTABLE DICKENS",
     "topic_area": "dickens",
-    "season": 39,
-    "air_date": "2022-11-23",
+    "season": 29,
+    "air_date": "2013-05-22",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "This alphanumeric term meaning first rate first appeared in \"The Pickwick Papers\\\"",
-        "response_text": "A1",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "This word for beer or ale poured straight from the tap debuted in \"Sketches by Boz\\\"",
-        "response_text": "draught",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"Barnaby Rudge\" gave us this clothing & weapon term meaning related to espionage",
-        "response_text": "cloak and dagger",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In \"The Old Curiosity Shop\", this means a miser, even without an initial \"skin\\\"",
-        "response_text": "flint",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Mrs. Gargery in \"Great Expectations\" was the first to go \"on the\" this; stay out of her way, Pip!",
-        "response_text": "rampage",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "A DICKENS OF A STORY",
-    "topic_area": "dickens",
-    "season": 19,
-    "air_date": "2002-09-27",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "This 1850 Dickens novel is considered his \"veiled autobiography\\\"",
-        "response_text": "David Copperfield",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In this novel, Mr. Bumble ends up as an inmate in the workhouse that he once oversaw",
+        "clue_text": "\\\"'What have you got, Dodger?' 'A couple of pickpockets', replied that young gentleman\\\"",
         "response_text": "Oliver Twist",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"It is a far, far better thing that I do, than I have ever done\\\"",
+        "response_text": "A Tale of Two Cities",
         "dollar_value": 800
       },
       {
-        "clue_text": "In \"A Tale of Two Cities\", she knits in code to condemn aristocrats to the guillotine",
-        "response_text": "Madame Defarge",
+        "clue_text": "\\\"I will never desert Mr. Micawber\\\"",
+        "response_text": "David Copperfield",
         "dollar_value": 1200
       },
       {
-        "clue_text": "The title of this novel refers to a residence in Hertfordshire",
-        "response_text": "Bleak House",
+        "clue_text": "\\\"I give Pirrip as my father's family name, on the authority of his tombstone\\\"",
+        "response_text": "Great Expectations",
         "dollar_value": 1600
       },
       {
-        "clue_text": "This Dickens Christmas story is divided into \"Chirp the First\", \"Chirp the Second\" & \"Chirp the Third\\\"",
-        "response_text": "The Cricket on the Hearth",
+        "clue_text": "\\\"Quilp is my name. You might remember. It's not a long one —Daniel Quilp\\\"",
+        "response_text": "The Old Curiosity Shop",
         "dollar_value": 2000
       }
     ]
   },
   {
-    "name": "WORDS IN A DICKENS TITLE",
+    "name": "DICKENSIAN CHARACTERS",
     "topic_area": "dickens",
-    "season": 40,
-    "air_date": "2024-07-25",
-    "round": "Jeopardy!",
+    "season": 4,
+    "air_date": "1988-02-25",
+    "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "To wrench an ankle; ouch!",
-        "response_text": "twist",
+        "clue_text": "His ghost wore a heavy chain of cash boxes, keys, padlocks, ledgers, deeds & heavy purses",
+        "response_text": "Jacob Marley",
         "dollar_value": 200
       },
       {
-        "clue_text": "It's said to have finished off the nosy feline",
-        "response_text": "curiosity",
+        "clue_text": "This novel reveals that the eccentric Miss Havisham was jilted by her lover on her wedding day",
+        "response_text": "Great Expectations",
         "dollar_value": 400
       },
       {
-        "clue_text": "Type of fund that invests in diversified securities",
-        "response_text": "mutual",
+        "clue_text": "The villainous redheaded law clerk in \"David Copperfield\\\"",
+        "response_text": "Uriah Heep",
         "dollar_value": 600
       },
       {
-        "clue_text": "As a verb it can mean to sing joyously, perhaps at holiday time",
-        "response_text": "carol",
+        "clue_text": "The brothers Cheeryble are the generous benefactors & employers of this Dickensian hero",
+        "response_text": "Nicholas Nickleby",
         "dollar_value": 800
       },
       {
-        "clue_text": "This type of secret cult religion in the ancient Greco-Roman world offered unique experiences unlike those in the standard faiths",
-        "response_text": "a mystery",
+        "clue_text": "Tracy Tupman, Nathaniel Winkle, & Augustus Snodgrass belonged to this club",
+        "response_text": "the Pickwick Club",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DICKENS NOVELS BY CHARACTERS",
+    "topic_area": "dickens",
+    "season": 16,
+    "air_date": "2000-04-14",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Noah Claypole, Mr. Bumble, The Artful Dodger",
+        "response_text": "\\\"Oliver Twist\\\"",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Jarvis Lorry, Lucie Manette, Sydney Carton",
+        "response_text": "\\\"A Tale of Two Cities\\\"",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Clara Peggotty, Mr. Murdstone, Uriah Heep",
+        "response_text": "\\\"David Copperfield\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Uncle Pumblechook, Mr. Wopsle, Miss Havisham",
+        "response_text": "\\\"Great Expectations\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Newman Noggs, Miss La Creevy, Wackford Squeers",
+        "response_text": "\\\"Nicholas Nickleby\\\"",
         "dollar_value": 1000
       }
     ]
@@ -408,103 +204,137 @@
     ]
   },
   {
-    "name": "THE DICKENS, YOU SAY",
+    "name": "A LITTLE DICKENS",
     "topic_area": "dickens",
-    "season": 17,
-    "air_date": "2001-05-16",
+    "season": 22,
+    "air_date": "2006-01-23",
     "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "Of his works, Dickens called this largely autobiographical book his own \"favourite child\\\"",
-        "response_text": "\\\"David Copperfield\\\"",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In April 1859 Dickens launched a new weekly with the 1st installation of this \"tale\" set in the French Revoution",
-        "response_text": "\\\"A Tale of Two Cities\\\"",
+        "clue_text": "In \"Oliver Twist\", Bill Sikes' girl, Nancy, is a member of this man's gang of pickpockets",
+        "response_text": "Fagin",
         "dollar_value": 400
       },
       {
-        "clue_text": "\\\"The Haunted Man\" was the last of 5 books Dickens wrote about this holiday",
-        "response_text": "Christmas",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Editors suggested a club of hunters for a series, but Dickens changed the setting to this club of eccentrics",
-        "response_text": "Pickwick Club (Pickwick Papers)",
+        "clue_text": "Uriah Heep had a heap of hate for this Dickens title character",
+        "response_text": "David Copperfield",
         "dollar_value": 800
       },
       {
-        "clue_text": "In 1833 Dickens began using this 3-letter pseudonym which had been used as a nickname for his youngest brother",
-        "response_text": "Boz",
-        "dollar_value": 1000
+        "clue_text": "This Dickens work was first published on December 17, 1843",
+        "response_text": "A Christmas Carol",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "It's the specific type of prison where Charles Dickens' father suffered in 1824",
+        "response_text": "debtor's prison",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Little Paul is the \"son\" in this Dickens title business",
+        "response_text": "Dombey and Son",
+        "dollar_value": 2000
       }
     ]
   },
   {
-    "name": "DICKENS WILL BE THE DEATH OF ME",
+    "name": "CHARLES DICKENS",
     "topic_area": "dickens",
-    "season": 35,
-    "air_date": "2019-03-21",
+    "season": 30,
+    "air_date": "2014-04-15",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "Scrooge starts seeing ghosts following the death of this character",
-        "response_text": "Jacob Marley",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Justice prevails as the villainous Bill Sikes accidentally hangs himself near the end of this novel",
-        "response_text": "Oliver Twist",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "It's not fully depicted in \"A Tale of Two Cities\", but it's the implied method of execution for the heroic Sydney Carton",
-        "response_text": "by guillotine",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "An evil dwarf, Quilp pursues little Nell & her grandfather but drowns in the Thames in this \"Old\" work",
-        "response_text": "The Old Curiosity Shop",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In \"Bleak House\" the half-mad alcoholic Krook dies this odd way, bursting into flames without apparent cause",
-        "response_text": "spontaneous combustion",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DICKENS' WORKS",
-    "topic_area": "dickens",
-    "season": 18,
-    "air_date": "2001-10-11",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Character who is \"A squeezing, wrenching, scraping, clutching, covetous old sinner!\\\"",
-        "response_text": "Ebenezer Scrooge",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This novel was based in part on Thomas Carlyle's history of the French Revolution",
-        "response_text": "A Tale of Two Cities",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Dickens' 13th novel, it made its world debut in the USA's Harper's Weekly, which had high hopes for it",
+        "clue_text": "It's considered Dickens' best book; it even has \"Great\" in the title",
         "response_text": "Great Expectations",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Last name of Ralph, who hates his nephew Nicholas & maybe is bitter that the book isn't named for him",
+        "response_text": "Nickleby",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Profession of Ellen Ternan, with whom Dickens became infatuated in 1857 when he was 45 & she, 18",
+        "response_text": "actress",
         "dollar_value": 600
       },
       {
-        "clue_text": "Dickens' first installment of this novel was published in April 1870; he died while working on part 6",
+        "clue_text": "A 2012 bicentennial exhibition featured the manuscript of this unfinished mystery",
         "response_text": "The Mystery of Edwin Drood",
         "dollar_value": 800
       },
       {
-        "clue_text": "The first play from this book, done while the story was still a serial, had a happy ending with Nell still alive",
+        "clue_text": "Charles met this \"Moonstone\" author & writing partner through a man named Augustus Egg",
+        "response_text": "Wilkie Collins",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "SPEAK OF THE DICKENS",
+    "topic_area": "dickens",
+    "season": 5,
+    "air_date": "1989-07-12",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This novel about Mr. Murdstone's stepson was released in monthly installments in 1849 & 1850",
+        "response_text": "David Copperfield",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"A Tale of Two Cities\" is set during this historic event",
+        "response_text": "French Revolution",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"'S wonderful\" & \"'S Marvelous\" might be Smike's description of this novel he's in",
+        "response_text": "Nicholas Nickleby",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "1854 novel about tough goings in the industrial city of Coketown",
+        "response_text": "Hard Times",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Little Dorrit has her own book, but Little Nell is a character in this one",
         "response_text": "The Old Curiosity Shop",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DICKENSIANA",
+    "topic_area": "dickens",
+    "season": 15,
+    "air_date": "1999-01-11",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Dickens mentions this Defoe work in many of his tales, including \"Bleak House\" & \"A Christmas Carol\\\"",
+        "response_text": "Robinson Crusoe",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Subtitled \"The Parish Boy's Progress\", it appeared in 24 installments in Bentley's Miscellany",
+        "response_text": "Oliver Twist",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Dickens met this U.S. president a few weeks before the impeachment proceedings",
+        "response_text": "Andrew Johnson",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Dickens' self-styled hero born \"A posthumous child\\\"",
+        "response_text": "David Copperfield",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "One of the first full-length sound films of a Dickens work was a 1935 version of this tale of Nell & Quilp",
+        "response_text": "Ye Olde Curiosity Shoppe",
         "dollar_value": 1000
       }
     ]
@@ -544,414 +374,6 @@
     ]
   },
   {
-    "name": "THE CHARLES DICKENS BICENTENNIAL",
-    "topic_area": "dickens",
-    "season": 28,
-    "air_date": "2012-07-02",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "The \"Dickens on Screen\" festival showed the 1951 \"Christmas Carol\" adaptation with Alastair Sim as this character",
-        "response_text": "Ebenezer Scrooge",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The Brits even celebrated the April 2 Bicentennial of John Forster, who had this role repping Dickens to publishers",
-        "response_text": "literary agent",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "On the big day, February 7, Prince Charles & Ralph Fiennes paid tribute at this London burial site",
-        "response_text": "Westminster Abbey",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "This title boy & Mr. Micawber are appearing onstage at the theater where the \"Pinball Wizard\" scene in \"Tommy\" was filmed",
-        "response_text": "David Copperfield",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This city named for its \"harbor entrance\" location re-created the dance at which Elizabeth Dickens' water broke",
-        "response_text": "Portsmouth",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "THE QUOTABLE DICKENS",
-    "topic_area": "dickens",
-    "season": 29,
-    "air_date": "2013-05-22",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "\\\"'What have you got, Dodger?' 'A couple of pickpockets', replied that young gentleman\\\"",
-        "response_text": "Oliver Twist",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "\\\"It is a far, far better thing that I do, than I have ever done\\\"",
-        "response_text": "A Tale of Two Cities",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "\\\"I will never desert Mr. Micawber\\\"",
-        "response_text": "David Copperfield",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "\\\"I give Pirrip as my father's family name, on the authority of his tombstone\\\"",
-        "response_text": "Great Expectations",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "\\\"Quilp is my name. You might remember. It's not a long one —Daniel Quilp\\\"",
-        "response_text": "The Old Curiosity Shop",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "DICKENS",
-    "topic_area": "dickens",
-    "season": 9,
-    "air_date": "1992-12-31",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Charles Dickens called this 1843 tale a \"ghostly little book to raise the ghost of an idea\\\"",
-        "response_text": "A Christmas Carol",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In the original ending to this novel, Pip & Estella are permanently separated",
-        "response_text": "Great Expectations",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 1858 he began doing paid readings which later included \"Sikes and Nancy\", an episode from this novel",
-        "response_text": "Oliver Twist",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In its day, one of the most celebrated scenes in fiction was the death of this novel's Little Nell",
-        "response_text": "The Old Curiosity Shop",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Dickens' first book, a collection of \"Sketches\", was written under this pseudonym",
-        "response_text": "Boz",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DICKENS BOOK BY CHARACTER",
-    "topic_area": "dickens",
-    "season": 32,
-    "air_date": "2015-10-01",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Bob Cratchit",
-        "response_text": "A Christmas Carol",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Bill Sikes",
-        "response_text": "Oliver Twist",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Esther Summerson",
-        "response_text": "Bleak House",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Dr. Alexandre Manette",
-        "response_text": "A Tale of Two Cities",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Uriah Heep",
-        "response_text": "David Copperfield",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "CHARLES DICKENS",
-    "topic_area": "dickens",
-    "season": 12,
-    "air_date": "1996-05-15",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "\\\"Nicholas Nickleby\"' Mr. Squeers \"had but one eye, and the popular prejudice runs in favour of\" this many",
-        "response_text": "two",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "The name of this \"A Christmas Carol\" character has become synonymous with avarice",
-        "response_text": "Ebenezer Scrooge",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 1824 Dickens' father was sent to this kind of prison",
-        "response_text": "a debtor's prison",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "In 1960 this Dickens novel about a foundling was turned into a musical play",
-        "response_text": "Oliver Twist",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This 1854 work attacks the utilitarian philosophy fostered by industrialization",
-        "response_text": "Hard Times",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "QUICK AS THE DICKENS",
-    "topic_area": "dickens",
-    "season": 32,
-    "air_date": "2016-07-18",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In this novel the title orphan falls in with Fagin's den of thieves",
-        "response_text": "Oliver Twist",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Pip is to be brought up as \"a young fellow of\" these, the novel's title",
-        "response_text": "Great Expectations",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "It's set during the French Revolution",
-        "response_text": "A Tale of Two Cities",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "This title character lodges with Mr. Micawber",
-        "response_text": "David Copperfield",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This work was subtitled \"For These Times\\\"",
-        "response_text": "Hard Times",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "WHAT THE DICKENS!",
-    "topic_area": "dickens",
-    "season": 29,
-    "air_date": "2012-10-24",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "He says, \"Merry Christmas! ...What reason have you to be merry? You're poor enough\\\"",
-        "response_text": "Ebenezer Scrooge",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Characters in this novel include Blathers, Brittles, Brownlow & Bumble",
-        "response_text": "Oliver Twist",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This novel set in London & Paris was first published serially in 1859",
-        "response_text": "A Tale of Two Cities",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "The Christian name of the main guy in this novel is Philip & his family name is Pirrip",
-        "response_text": "Great Expectations",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Little Nell, but not the proverbial cat, dies in this 1840-41 work",
-        "response_text": "The Old Curiosity Shop",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "DICKENS BOOKS BY CHARACTERS",
-    "topic_area": "dickens",
-    "season": 21,
-    "air_date": "2004-10-12",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Jacob Marley & Tiny Tim",
-        "response_text": "A Christmas Carol",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Dr. Manette & Madame Defarge",
-        "response_text": "A Tale of Two Cities",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Estella & Miss Havisham",
-        "response_text": "Great Expectations",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Betsey Trotwood & Mr. Murdstone",
-        "response_text": "David Copperfield",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Quilp, Kit Nubbles & Little Nell",
-        "response_text": "The Old Curiosity Shop",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "SPEAK OF THE DICKENS",
-    "topic_area": "dickens",
-    "season": 39,
-    "air_date": "2023-04-21",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Dickens had a pet bird of this variety that he featured in \"Barnaby Rudge\" & that, in turn, may have inspired a Poe poem",
-        "response_text": "a raven",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Dora Spenlow was this title character's first wife; Agnes Wickfield was his second",
-        "response_text": "David Copperfield",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Dickens wrote several holiday books besides \"A Christmas Carol\", including the tale of this insect \"on the Hearth\\\"",
-        "response_text": "a cricket",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "Dickens collaborated on several stories with a dear friend, this author of \"The Moonstone\\\"",
-        "response_text": "Wilkie Collins",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "\\\"The Life and Adventures of\" this alliterative character inspired an 8 1/2 hour long drama that premiered on Broadway in 1981",
-        "response_text": "Nicholas Nickleby",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "SPEAK OF THE DICKENS!",
-    "topic_area": "dickens",
-    "season": 24,
-    "air_date": "2008-04-10",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "\\\"A boat of dirty and disreputable appearance\" is floating on this river at the beginning of \"Our Mutual Friend\\\"",
-        "response_text": "the Thames",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "\\\"The Old Curiosity Shop\" mentions this \"corner\" in \"that dreary pile\" Westminster Abbey; Dickens ended up there",
-        "response_text": "the Poet's Corner",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In an 1845 tale, Mrs. Peerybingle says, \"To have\" one of these \"on the hearth is the luckiest thing in all the world!\\\"",
-        "response_text": "a cricket",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "This ghost wears a long chain made of \"cash-boxes, keys, padlocks, ledgers, deeds, and heavy purses wrought in steel\\\"",
-        "response_text": "Jacob Marley",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Dickens thought of calling this mystery \"Dead? Or Alive?\", leading some to think the title hero didn't really die",
-        "response_text": "The Mystery of Edwin Drood",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "CHARLES DICKENS",
-    "topic_area": "dickens",
-    "season": 8,
-    "air_date": "1991-10-03",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Britannica says Dickens tossed off this holiday story while writing \"Martin Chuzzlewit\\\"",
-        "response_text": "A Christmas Carol",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "His 1st major work written in the 1st person, it used parts of the autobiography he'd abandoned",
-        "response_text": "David Copperfield",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In \"Bleak House\" Dickens wrote, \"I only ask to be free\"; these insects \"are free\\\"",
-        "response_text": "butterflies",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "\\\"A Tale of Two Cities\" is set late in this century",
-        "response_text": "the 18th century",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "1838-39 work that exposed the ragged schools in the north of England & helped get them abolished",
-        "response_text": "Nicholas Nickleby",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "CHARACTERS IN DICKENS BOOKS",
-    "topic_area": "dickens",
-    "season": 14,
-    "air_date": "1998-05-14",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Fan, Mr. Fezziwig, Bob Cratchit",
-        "response_text": "\\\"A Christmas Carol\\\"",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Master Charles Bates, Mr. Bumble, Bill Sikes",
-        "response_text": "\\\"Oliver Twist\\\"",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Monsieur the Marquis, Charles Darnay, Lucie Manette",
-        "response_text": "\\\"A Tale of Two Cities\\\"",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Mr. Creakle, Peggotty, Mr. Micawber",
-        "response_text": "\\\"David Copperfield\\\"",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Dick Swiveller, Kit Nubbles, Little Nell Trent",
-        "response_text": "\\\"The Old Curiosity Shop\\\"",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
     "name": "DICKENS' CHARACTERS",
     "topic_area": "dickens",
     "season": 13,
@@ -986,35 +408,69 @@
     ]
   },
   {
-    "name": "WHAT THE DICKENS?",
+    "name": "A LITTLE DICKENS",
     "topic_area": "dickens",
-    "season": 28,
-    "air_date": "2011-11-25",
+    "season": 16,
+    "air_date": "1999-10-12",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "\\\"Enormous Anticipations\\\"",
-        "response_text": "Great Expectations",
+        "clue_text": "Near the end of this novel, the protagonist sends a turkey to the Cratchits",
+        "response_text": "A Christmas Carol",
         "dollar_value": 200
       },
       {
-        "clue_text": "\\\"Some Story Regarding Multiple Metropolises\\\"",
-        "response_text": "A Tale of Two Cities",
+        "clue_text": "The trade this title character soon learns is pickpocketing",
+        "response_text": "Oliver Twist",
         "dollar_value": 400
       },
       {
-        "clue_text": "\\\"Holiday Song\\\"",
-        "response_text": "A Christmas Carol",
+        "clue_text": "All Miss Havisham's clocks are permanently stopped in this 1860 work",
+        "response_text": "Great Expectations",
         "dollar_value": 600
       },
       {
-        "clue_text": "\\\"An Ancient Odds & Ends Boutique\\\"",
-        "response_text": "The Old Curiosity Shop",
+        "clue_text": "The title character of this work spends his early childhood with his mother & their servant Clara Peggotty",
+        "response_text": "David Copperfield",
         "dollar_value": 800
       },
       {
-        "clue_text": "\\\"Tough Days\\\"",
-        "response_text": "Hard Times",
+        "clue_text": "It's no mystery why this work was Dickens' last; he didn't live to finish it",
+        "response_text": "The Mystery of Edwin Drood",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WORDS IN A DICKENS TITLE",
+    "topic_area": "dickens",
+    "season": 40,
+    "air_date": "2024-07-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "To wrench an ankle; ouch!",
+        "response_text": "twist",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's said to have finished off the nosy feline",
+        "response_text": "curiosity",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Type of fund that invests in diversified securities",
+        "response_text": "mutual",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "As a verb it can mean to sing joyously, perhaps at holiday time",
+        "response_text": "carol",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This type of secret cult religion in the ancient Greco-Roman world offered unique experiences unlike those in the standard faiths",
+        "response_text": "a mystery",
         "dollar_value": 1000
       }
     ]
@@ -1054,142 +510,6 @@
     ]
   },
   {
-    "name": "SPEAK OF THE DICKENS!",
-    "topic_area": "dickens",
-    "season": 23,
-    "air_date": "2007-03-12",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Some of the men in this novel assume the Alias \"Jacques\"; Monsieur DeFarge calls himself Jacques Four",
-        "response_text": "A Tale of Two Cities",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Dances, & cake, & mince-pies, & plenty of beer—why, it's party time with the Fezziwigs in this short novel",
-        "response_text": "A Christmas Carol",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "This character in \"Oliver Twist\" is \"as roystering and swaggering a young gentleman as ever stood four feet six\\\"",
-        "response_text": "the Artful Dodger",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "\\\"Night is generally my time for walking\", begins Dickens' novel about this title store",
-        "response_text": "The Old Curiosity Shop",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "Chapter 1 of this novel is \"The Dawn\"; Dickens was writing Chapter 22, \"The Dawn Again\", on the day he died",
-        "response_text": "The Mystery of Edwin Drood",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "WORDS IN CHARLES DICKENS NOVEL TITLES",
-    "topic_area": "dickens",
-    "season": 32,
-    "air_date": "2016-04-26",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Proverbially, it did in the feline",
-        "response_text": "The Old Curiosity Shop",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "A shorter synonym for story",
-        "response_text": "a tale",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "An offspring",
-        "response_text": "son",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "An enigma",
-        "response_text": "The Mystery of Edwin Drood",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Denotes a company co-owned by its investors, who share in its funding & profits",
-        "response_text": "mutual",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "DICKENSIAN CHARACTERS",
-    "topic_area": "dickens",
-    "season": 4,
-    "air_date": "1988-02-25",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "His ghost wore a heavy chain of cash boxes, keys, padlocks, ledgers, deeds & heavy purses",
-        "response_text": "Jacob Marley",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This novel reveals that the eccentric Miss Havisham was jilted by her lover on her wedding day",
-        "response_text": "Great Expectations",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "The villainous redheaded law clerk in \"David Copperfield\\\"",
-        "response_text": "Uriah Heep",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "The brothers Cheeryble are the generous benefactors & employers of this Dickensian hero",
-        "response_text": "Nicholas Nickleby",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Tracy Tupman, Nathaniel Winkle, & Augustus Snodgrass belonged to this club",
-        "response_text": "the Pickwick Club",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "CHARLES DICKENS",
-    "topic_area": "dickens",
-    "season": 30,
-    "air_date": "2014-04-15",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "It's considered Dickens' best book; it even has \"Great\" in the title",
-        "response_text": "Great Expectations",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Last name of Ralph, who hates his nephew Nicholas & maybe is bitter that the book isn't named for him",
-        "response_text": "Nickleby",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Profession of Ellen Ternan, with whom Dickens became infatuated in 1857 when he was 45 & she, 18",
-        "response_text": "actress",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "A 2012 bicentennial exhibition featured the manuscript of this unfinished mystery",
-        "response_text": "The Mystery of Edwin Drood",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Charles met this \"Moonstone\" author & writing partner through a man named Augustus Egg",
-        "response_text": "Wilkie Collins",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
     "name": "DICKENS BOOK BY CHARACTERS",
     "topic_area": "dickens",
     "season": 34,
@@ -1224,69 +544,35 @@
     ]
   },
   {
-    "name": "DICKENSIANA",
-    "topic_area": "dickens",
-    "season": 15,
-    "air_date": "1999-01-11",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Dickens mentions this Defoe work in many of his tales, including \"Bleak House\" & \"A Christmas Carol\\\"",
-        "response_text": "Robinson Crusoe",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Subtitled \"The Parish Boy's Progress\", it appeared in 24 installments in Bentley's Miscellany",
-        "response_text": "Oliver Twist",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Dickens met this U.S. president a few weeks before the impeachment proceedings",
-        "response_text": "Andrew Johnson",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Dickens' self-styled hero born \"A posthumous child\\\"",
-        "response_text": "David Copperfield",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "One of the first full-length sound films of a Dickens work was a 1935 version of this tale of Nell & Quilp",
-        "response_text": "Ye Olde Curiosity Shoppe",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
     "name": "CHARLES DICKENS",
     "topic_area": "dickens",
-    "season": 19,
-    "air_date": "2003-05-20",
-    "round": "Jeopardy!",
+    "season": 12,
+    "air_date": "1996-05-15",
+    "round": "Double Jeopardy!",
     "clues": [
       {
-        "clue_text": "Dickens came to fame at age 24 with his first novel, about this club's \"papers\\\"",
-        "response_text": "Pickwick Club",
+        "clue_text": "\\\"Nicholas Nickleby\"' Mr. Squeers \"had but one eye, and the popular prejudice runs in favour of\" this many",
+        "response_text": "two",
         "dollar_value": 200
       },
       {
-        "clue_text": "Dickens' public readings of Sikes' murder of Nancy, an episode from this novel, made women in the audience swoon",
-        "response_text": "\\\"Oliver Twist\\\"",
+        "clue_text": "The name of this \"A Christmas Carol\" character has become synonymous with avarice",
+        "response_text": "Ebenezer Scrooge",
         "dollar_value": 400
       },
       {
-        "clue_text": "This novel's Mr. Micawber was modeled on Dickens' father",
-        "response_text": "\\\"David Copperfield\\\"",
+        "clue_text": "In 1824 Dickens' father was sent to this kind of prison",
+        "response_text": "a debtor's prison",
         "dollar_value": 600
       },
       {
-        "clue_text": "Wilkie Collins called this book \"Dickens' last laboured effort, the melancholy work of a worn-out brain\\\"",
-        "response_text": "\\\"The Mystery of Edwin Drood\\\"",
+        "clue_text": "In 1960 this Dickens novel about a foundling was turned into a musical play",
+        "response_text": "Oliver Twist",
         "dollar_value": 800
       },
       {
-        "clue_text": "In 1836 Dickens published his stories & essays from magazines & newspapers in the book \"Sketches by\" him",
-        "response_text": "Boz",
+        "clue_text": "This 1854 work attacks the utilitarian philosophy fostered by industrialization",
+        "response_text": "Hard Times",
         "dollar_value": 1000
       }
     ]
@@ -1326,6 +612,210 @@
     ]
   },
   {
+    "name": "SPEECH OF THE DICKENS",
+    "topic_area": "dickens",
+    "season": 39,
+    "air_date": "2022-11-23",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This alphanumeric term meaning first rate first appeared in \"The Pickwick Papers\\\"",
+        "response_text": "A1",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This word for beer or ale poured straight from the tap debuted in \"Sketches by Boz\\\"",
+        "response_text": "draught",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Barnaby Rudge\" gave us this clothing & weapon term meaning related to espionage",
+        "response_text": "cloak and dagger",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In \"The Old Curiosity Shop\", this means a miser, even without an initial \"skin\\\"",
+        "response_text": "flint",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Mrs. Gargery in \"Great Expectations\" was the first to go \"on the\" this; stay out of her way, Pip!",
+        "response_text": "rampage",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "DICKENS BOOKS BY CHARACTERS",
+    "topic_area": "dickens",
+    "season": 21,
+    "air_date": "2004-10-12",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Jacob Marley & Tiny Tim",
+        "response_text": "A Christmas Carol",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Dr. Manette & Madame Defarge",
+        "response_text": "A Tale of Two Cities",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Estella & Miss Havisham",
+        "response_text": "Great Expectations",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Betsey Trotwood & Mr. Murdstone",
+        "response_text": "David Copperfield",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Quilp, Kit Nubbles & Little Nell",
+        "response_text": "The Old Curiosity Shop",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WHAT THE DICKENS?",
+    "topic_area": "dickens",
+    "season": 28,
+    "air_date": "2011-11-25",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"Enormous Anticipations\\\"",
+        "response_text": "Great Expectations",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "\\\"Some Story Regarding Multiple Metropolises\\\"",
+        "response_text": "A Tale of Two Cities",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"Holiday Song\\\"",
+        "response_text": "A Christmas Carol",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"An Ancient Odds & Ends Boutique\\\"",
+        "response_text": "The Old Curiosity Shop",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"Tough Days\\\"",
+        "response_text": "Hard Times",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DICKENS' WORKS",
+    "topic_area": "dickens",
+    "season": 18,
+    "air_date": "2001-10-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Character who is \"A squeezing, wrenching, scraping, clutching, covetous old sinner!\\\"",
+        "response_text": "Ebenezer Scrooge",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "This novel was based in part on Thomas Carlyle's history of the French Revolution",
+        "response_text": "A Tale of Two Cities",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Dickens' 13th novel, it made its world debut in the USA's Harper's Weekly, which had high hopes for it",
+        "response_text": "Great Expectations",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Dickens' first installment of this novel was published in April 1870; he died while working on part 6",
+        "response_text": "The Mystery of Edwin Drood",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "The first play from this book, done while the story was still a serial, had a happy ending with Nell still alive",
+        "response_text": "The Old Curiosity Shop",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "SPEAK OF THE DICKENS!",
+    "topic_area": "dickens",
+    "season": 24,
+    "air_date": "2008-04-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "\\\"A boat of dirty and disreputable appearance\" is floating on this river at the beginning of \"Our Mutual Friend\\\"",
+        "response_text": "the Thames",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"The Old Curiosity Shop\" mentions this \"corner\" in \"that dreary pile\" Westminster Abbey; Dickens ended up there",
+        "response_text": "the Poet's Corner",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In an 1845 tale, Mrs. Peerybingle says, \"To have\" one of these \"on the hearth is the luckiest thing in all the world!\\\"",
+        "response_text": "a cricket",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This ghost wears a long chain made of \"cash-boxes, keys, padlocks, ledgers, deeds, and heavy purses wrought in steel\\\"",
+        "response_text": "Jacob Marley",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Dickens thought of calling this mystery \"Dead? Or Alive?\", leading some to think the title hero didn't really die",
+        "response_text": "The Mystery of Edwin Drood",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "LIKE THE DICKENS",
+    "topic_area": "dickens",
+    "season": 41,
+    "air_date": "2025-01-24",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In \"Miss Marley\" Clara & Jacob Marley are orphans whose fates turn once the latter partners with this man",
+        "response_text": "Ebenezer Scrooge",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In \"Jack Dawkins\" the character known by this nickname returns to London after being sent to Australia on a prison ship",
+        "response_text": "the Artful Dodger",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "\\\"The Unlikely Escape of Uriah Heep\" finds the title villain \"summoned\" from the pages of this Dickens tale by young Charley",
+        "response_text": "David Copperfield",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In \"The Great Fire of London\", a film of this book is planned, & Audrey has spectral contact with the title imprisoned lass",
+        "response_text": "Little Dorrit",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Inspired by this Dickens masterwork, \"Tom-All-Alone's\" catches up with Inspector Bucket & wily solicitor Tulkinghorn",
+        "response_text": "Bleak House",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
     "name": "DICKENS TITLE LETTER DROP",
     "topic_area": "dickens",
     "season": 27,
@@ -1356,6 +846,108 @@
         "clue_text": "Drop a letter from Dickens' last completed novel & it's about that devilish guy we both know",
         "response_text": "Our Mutual Fiend",
         "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "CHARLES DICKENS",
+    "topic_area": "dickens",
+    "season": 8,
+    "air_date": "1991-10-03",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Britannica says Dickens tossed off this holiday story while writing \"Martin Chuzzlewit\\\"",
+        "response_text": "A Christmas Carol",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "His 1st major work written in the 1st person, it used parts of the autobiography he'd abandoned",
+        "response_text": "David Copperfield",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In \"Bleak House\" Dickens wrote, \"I only ask to be free\"; these insects \"are free\\\"",
+        "response_text": "butterflies",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "\\\"A Tale of Two Cities\" is set late in this century",
+        "response_text": "the 18th century",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "1838-39 work that exposed the ragged schools in the north of England & helped get them abolished",
+        "response_text": "Nicholas Nickleby",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WORDS IN CHARLES DICKENS NOVEL TITLES",
+    "topic_area": "dickens",
+    "season": 32,
+    "air_date": "2016-04-26",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Proverbially, it did in the feline",
+        "response_text": "The Old Curiosity Shop",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "A shorter synonym for story",
+        "response_text": "a tale",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "An offspring",
+        "response_text": "son",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "An enigma",
+        "response_text": "The Mystery of Edwin Drood",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Denotes a company co-owned by its investors, who share in its funding & profits",
+        "response_text": "mutual",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DICKENS WILL BE THE DEATH OF ME",
+    "topic_area": "dickens",
+    "season": 35,
+    "air_date": "2019-03-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Scrooge starts seeing ghosts following the death of this character",
+        "response_text": "Jacob Marley",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Justice prevails as the villainous Bill Sikes accidentally hangs himself near the end of this novel",
+        "response_text": "Oliver Twist",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "It's not fully depicted in \"A Tale of Two Cities\", but it's the implied method of execution for the heroic Sydney Carton",
+        "response_text": "by guillotine",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "An evil dwarf, Quilp pursues little Nell & her grandfather but drowns in the Thames in this \"Old\" work",
+        "response_text": "The Old Curiosity Shop",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In \"Bleak House\" the half-mad alcoholic Krook dies this odd way, bursting into flames without apparent cause",
+        "response_text": "spontaneous combustion",
+        "dollar_value": 1000
       }
     ]
   },
@@ -1394,6 +986,346 @@
     ]
   },
   {
+    "name": "DICKENS CHARACTERS",
+    "topic_area": "dickens",
+    "season": 23,
+    "air_date": "2006-09-11",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This \"Christmas Carol\" clerk's children are Peter, Martha, Belinda, Tiny Tim & 2 who don't have names",
+        "response_text": "Bob Cratchit",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Drinking beer, kicking dogs & hitting women are hobbies of this man, Fagin's adult accomplice",
+        "response_text": "Bill Sykes",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Paul Dombey styles himself \"sole representative\" of this firm",
+        "response_text": "Dombey and Son",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Nathaniel Winkle is among the illustrious members of this title club",
+        "response_text": "the Pickwick Club",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "He marries Dora Spenlow in Chapter 43 & Agnes Wickfield in Chapter 62",
+        "response_text": "David Copperfield",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "CHARACTERS IN DICKENS BOOKS",
+    "topic_area": "dickens",
+    "season": 14,
+    "air_date": "1998-05-14",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Fan, Mr. Fezziwig, Bob Cratchit",
+        "response_text": "\\\"A Christmas Carol\\\"",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Master Charles Bates, Mr. Bumble, Bill Sikes",
+        "response_text": "\\\"Oliver Twist\\\"",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Monsieur the Marquis, Charles Darnay, Lucie Manette",
+        "response_text": "\\\"A Tale of Two Cities\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Mr. Creakle, Peggotty, Mr. Micawber",
+        "response_text": "\\\"David Copperfield\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Dick Swiveller, Kit Nubbles, Little Nell Trent",
+        "response_text": "\\\"The Old Curiosity Shop\\\"",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "THE CHARLES DICKENS BICENTENNIAL",
+    "topic_area": "dickens",
+    "season": 28,
+    "air_date": "2012-07-02",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "The \"Dickens on Screen\" festival showed the 1951 \"Christmas Carol\" adaptation with Alastair Sim as this character",
+        "response_text": "Ebenezer Scrooge",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "The Brits even celebrated the April 2 Bicentennial of John Forster, who had this role repping Dickens to publishers",
+        "response_text": "literary agent",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "On the big day, February 7, Prince Charles & Ralph Fiennes paid tribute at this London burial site",
+        "response_text": "Westminster Abbey",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This title boy & Mr. Micawber are appearing onstage at the theater where the \"Pinball Wizard\" scene in \"Tommy\" was filmed",
+        "response_text": "David Copperfield",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This city named for its \"harbor entrance\" location re-created the dance at which Elizabeth Dickens' water broke",
+        "response_text": "Portsmouth",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "QUICK AS THE DICKENS",
+    "topic_area": "dickens",
+    "season": 32,
+    "air_date": "2016-07-18",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "In this novel the title orphan falls in with Fagin's den of thieves",
+        "response_text": "Oliver Twist",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Pip is to be brought up as \"a young fellow of\" these, the novel's title",
+        "response_text": "Great Expectations",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "It's set during the French Revolution",
+        "response_text": "A Tale of Two Cities",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "This title character lodges with Mr. Micawber",
+        "response_text": "David Copperfield",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This work was subtitled \"For These Times\\\"",
+        "response_text": "Hard Times",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "DICKENS",
+    "topic_area": "dickens",
+    "season": 9,
+    "air_date": "1992-12-31",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Charles Dickens called this 1843 tale a \"ghostly little book to raise the ghost of an idea\\\"",
+        "response_text": "A Christmas Carol",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In the original ending to this novel, Pip & Estella are permanently separated",
+        "response_text": "Great Expectations",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In 1858 he began doing paid readings which later included \"Sikes and Nancy\", an episode from this novel",
+        "response_text": "Oliver Twist",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "In its day, one of the most celebrated scenes in fiction was the death of this novel's Little Nell",
+        "response_text": "The Old Curiosity Shop",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Dickens' first book, a collection of \"Sketches\", was written under this pseudonym",
+        "response_text": "Boz",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "A DICKENS OF A STORY",
+    "topic_area": "dickens",
+    "season": 19,
+    "air_date": "2002-09-27",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This 1850 Dickens novel is considered his \"veiled autobiography\\\"",
+        "response_text": "David Copperfield",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "In this novel, Mr. Bumble ends up as an inmate in the workhouse that he once oversaw",
+        "response_text": "Oliver Twist",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In \"A Tale of Two Cities\", she knits in code to condemn aristocrats to the guillotine",
+        "response_text": "Madame Defarge",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "The title of this novel refers to a residence in Hertfordshire",
+        "response_text": "Bleak House",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This Dickens Christmas story is divided into \"Chirp the First\", \"Chirp the Second\" & \"Chirp the Third\\\"",
+        "response_text": "The Cricket on the Hearth",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "THE DICKENS, YOU SAY",
+    "topic_area": "dickens",
+    "season": 17,
+    "air_date": "2001-05-16",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Of his works, Dickens called this largely autobiographical book his own \"favourite child\\\"",
+        "response_text": "\\\"David Copperfield\\\"",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "In April 1859 Dickens launched a new weekly with the 1st installation of this \"tale\" set in the French Revoution",
+        "response_text": "\\\"A Tale of Two Cities\\\"",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "\\\"The Haunted Man\" was the last of 5 books Dickens wrote about this holiday",
+        "response_text": "Christmas",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Editors suggested a club of hunters for a series, but Dickens changed the setting to this club of eccentrics",
+        "response_text": "Pickwick Club (Pickwick Papers)",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1833 Dickens began using this 3-letter pseudonym which had been used as a nickname for his youngest brother",
+        "response_text": "Boz",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "SPEAK OF THE DICKENS!",
+    "topic_area": "dickens",
+    "season": 23,
+    "air_date": "2007-03-12",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Some of the men in this novel assume the Alias \"Jacques\"; Monsieur DeFarge calls himself Jacques Four",
+        "response_text": "A Tale of Two Cities",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Dances, & cake, & mince-pies, & plenty of beer—why, it's party time with the Fezziwigs in this short novel",
+        "response_text": "A Christmas Carol",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This character in \"Oliver Twist\" is \"as roystering and swaggering a young gentleman as ever stood four feet six\\\"",
+        "response_text": "the Artful Dodger",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "\\\"Night is generally my time for walking\", begins Dickens' novel about this title store",
+        "response_text": "The Old Curiosity Shop",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "Chapter 1 of this novel is \"The Dawn\"; Dickens was writing Chapter 22, \"The Dawn Again\", on the day he died",
+        "response_text": "The Mystery of Edwin Drood",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "SPEAK OF THE DICKENS",
+    "topic_area": "dickens",
+    "season": 10,
+    "air_date": "1994-02-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Dickens was 25 when he began this tale that features Fagin & Bill Sikes",
+        "response_text": "Oliver Twist",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "It's the last word spoken in \"A Christmas Carol\"; it has only 3 letters",
+        "response_text": "one",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Chapter 16 in this binational novel is called \"Still Knitting\\\"",
+        "response_text": "A Tale of Two Cities",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Dickens' first major work concerns these \"Papers\" of a London club",
+        "response_text": "the Pickwick Papers",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In its preface Dickens wrote, \"I have in my heart of hearts a favourite child, and his name is\" this",
+        "response_text": "David Copperfield",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "CHARLES DICKENS",
+    "topic_area": "dickens",
+    "season": 19,
+    "air_date": "2003-05-20",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Dickens came to fame at age 24 with his first novel, about this club's \"papers\\\"",
+        "response_text": "Pickwick Club",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Dickens' public readings of Sikes' murder of Nancy, an episode from this novel, made women in the audience swoon",
+        "response_text": "\\\"Oliver Twist\\\"",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "This novel's Mr. Micawber was modeled on Dickens' father",
+        "response_text": "\\\"David Copperfield\\\"",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Wilkie Collins called this book \"Dickens' last laboured effort, the melancholy work of a worn-out brain\\\"",
+        "response_text": "\\\"The Mystery of Edwin Drood\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1836 Dickens published his stories & essays from magazines & newspapers in the book \"Sketches by\" him",
+        "response_text": "Boz",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
     "name": "WHAT THE DICKENS!",
     "topic_area": "dickens",
     "season": 40,
@@ -1424,6 +1356,74 @@
         "clue_text": "He takes Charles Darnay's place at the scaffold in \"A Tale of Two Cities\\\"",
         "response_text": "Sydney Carton",
         "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "DICKENS BOOK BY CHARACTER",
+    "topic_area": "dickens",
+    "season": 32,
+    "air_date": "2015-10-01",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Bob Cratchit",
+        "response_text": "A Christmas Carol",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Bill Sikes",
+        "response_text": "Oliver Twist",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Esther Summerson",
+        "response_text": "Bleak House",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Dr. Alexandre Manette",
+        "response_text": "A Tale of Two Cities",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Uriah Heep",
+        "response_text": "David Copperfield",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "SPEAK OF THE DICKENS",
+    "topic_area": "dickens",
+    "season": 39,
+    "air_date": "2023-04-21",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "Dickens had a pet bird of this variety that he featured in \"Barnaby Rudge\" & that, in turn, may have inspired a Poe poem",
+        "response_text": "a raven",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Dora Spenlow was this title character's first wife; Agnes Wickfield was his second",
+        "response_text": "David Copperfield",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Dickens wrote several holiday books besides \"A Christmas Carol\", including the tale of this insect \"on the Hearth\\\"",
+        "response_text": "a cricket",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "Dickens collaborated on several stories with a dear friend, this author of \"The Moonstone\\\"",
+        "response_text": "Wilkie Collins",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "\\\"The Life and Adventures of\" this alliterative character inspired an 8 1/2 hour long drama that premiered on Broadway in 1981",
+        "response_text": "Nicholas Nickleby",
+        "dollar_value": 2000
       }
     ]
   }

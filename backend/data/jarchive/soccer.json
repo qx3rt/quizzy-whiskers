@@ -1,68 +1,34 @@
 [
   {
-    "name": "SOCCER",
+    "name": "WORLD CUP '98",
     "topic_area": "soccer",
-    "season": 29,
-    "air_date": "2012-12-04",
+    "season": 15,
+    "air_date": "1998-12-03",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "(Kelly of the Clue Crew describes what's happening at a soccer field in Johannesburg, South Africa.) Soccer players' ability to bend the ball is shown in two types of this, named for where on the field it takes place—inswinging & outswinging",
-        "response_text": "a corner kick",
+        "clue_text": "There were an average of 2.67 of these a game, not enough for some bored U.S. viewers",
+        "response_text": "Goals",
         "dollar_value": 200
       },
       {
-        "clue_text": "(Sarah of the Clue Crew describes what's happening at a soccer field in Johannesburg, South Africa.) It's awarded after a foul by defenders, & stopping it at over 60 mph is one of sport's great challenges; the ball will generally go the way the shooter's plant foot is pointed",
-        "response_text": "a penalty kick",
+        "clue_text": "This country's win over the \"Great Satan\" knocked the U.S. out of contention for the second round",
+        "response_text": "Iran",
         "dollar_value": 400
       },
       {
-        "clue_text": "(Kelly of the Clue Crew describes what's happening at a soccer field in Johannesburg, South Africa.) Graze the bottom of the ball on one side to make the ball curve around defenders, with a kick named for this fruit",
-        "response_text": "a banana",
+        "clue_text": "Argentina didn't \"kick\" about this controversial tie-breaking method after using it to beat England",
+        "response_text": "Penalty kicks/shootout",
         "dollar_value": 600
       },
       {
-        "clue_text": "He led Brazil to 3 World Cup soccer titles & won an NASL title with the Cosmos",
-        "response_text": "Pelé",
+        "clue_text": "Only in France: the pre-game show at the final was a tribute to this \"saint\"ly fashion designer",
+        "response_text": "Yves Saint Laurent",
         "dollar_value": 800
       },
       {
-        "clue_text": "Kicking the ball through a soccer defender's legs & recovering it on the other side is this move, also the name of a spice",
-        "response_text": "nutmeg",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "THE FIFA MEN'S WORLD CUP",
-    "topic_area": "soccer",
-    "season": 35,
-    "air_date": "2019-07-05",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "In 2006 Zinedine Zidane famously incurred a red card infraction: this foul that even got a Paris statue named for it",
-        "response_text": "the headbutt",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "Pele was only 17 when he first played for this country in 1958—it would win 3 World Cups with him",
-        "response_text": "Brazil",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 2018 France won the final game 4-2, but only scored 3 times because the 4th goal was this type",
-        "response_text": "an own goal",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Only 4 European teams competed in the first World Cup; the rest didn't want to travel all the way to this capital of Uruguay",
-        "response_text": "Montevideo",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "England won its only Cup in 1966 in a 4-2 extra-time victory on its home pitch—this London stadium",
-        "response_text": "Wembley",
+        "clue_text": "It was a good July for this country: they reached the World Cup semis & Goran Ivanisevic made the Wimbledon final",
+        "response_text": "Croatia",
         "dollar_value": 1000
       }
     ]
@@ -102,35 +68,69 @@
     ]
   },
   {
-    "name": "WORLD CUP '94",
+    "name": "SOCCER'S WORLD CUP",
     "topic_area": "soccer",
-    "season": 11,
-    "air_date": "1994-09-21",
+    "season": 20,
+    "air_date": "2003-09-10",
+    "round": "Double Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "England won in 1966 when the final game went into this, but not as far as penalty kicks",
+        "response_text": "a shootout",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "2 of its last 3 World Cup wins were over Italy in the finals",
+        "response_text": "Brazil",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "In 1994, the year this country hosted, 147 nations participated",
+        "response_text": "the United States",
+        "dollar_value": 1200
+      },
+      {
+        "clue_text": "In 1938 it became the first host country not to make it to the finals; it didn't make that mistake in 1998 (it won!)",
+        "response_text": "France",
+        "dollar_value": 1600
+      },
+      {
+        "clue_text": "This country that no longer exists made it to the finals 6 times, winning in 1954, 1974 & 1990",
+        "response_text": "West Germany",
+        "dollar_value": 2000
+      }
+    ]
+  },
+  {
+    "name": "WORLD SOCCER",
+    "topic_area": "soccer",
+    "season": 40,
+    "air_date": "2023-09-21",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "This team defeated Italy on penalty kicks to win the tournament",
+        "clue_text": "Popular players from this nation over the years have included Bebeto, Marta & Fernandinho",
         "response_text": "Brazil",
         "dollar_value": 200
       },
       {
-        "clue_text": "The 2 teams automatically in the tournament were the defending Champs, Germany, & this one",
-        "response_text": "The United States",
+        "clue_text": "In the 2019 FA Cup Final at this British arena, Manchester City crushed Watford 6-nil",
+        "response_text": "Wembley Stadium",
         "dollar_value": 400
       },
       {
-        "clue_text": "At the end of the second round, officials had issued a record 179 of these",
-        "response_text": "yellow cards",
+        "clue_text": "In 2010, this plastic horn infamously made its presence known among World Cup crowds in South Africa",
+        "response_text": "the vuvuzela",
         "dollar_value": 600
       },
       {
-        "clue_text": "Word most associated with Univision announcer Andres Cantor",
-        "response_text": "\\\"Gol!\\\"",
+        "clue_text": "Juventus, a top pro team in this country, is affectionately known as \"The Old Lady\\\"",
+        "response_text": "Italy",
         "dollar_value": 800
       },
       {
-        "clue_text": "This team's Oleg Salenko set a record by scoring 5 times in 1 game against Cameroon",
-        "response_text": "Russia",
+        "clue_text": "Sporting number 7, this Portuguese soccer star helped his nation win the 2016 European Championship, its first major title",
+        "response_text": "Cristiano Ronaldo",
         "dollar_value": 1000
       }
     ]
@@ -170,6 +170,74 @@
     ]
   },
   {
+    "name": "SOCCER",
+    "topic_area": "soccer",
+    "season": 5,
+    "air_date": "1988-10-19",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "At the beginning of a game, the choice of goal & kickoff is decided by this",
+        "response_text": "a toss of a coin",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "Tackling is taking the ball away from an opponent by using these",
+        "response_text": "the feet",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "Number of players fielded by a soccer team",
+        "response_text": "11",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "As in football, this infraction is indicated by grasping the wrist with the opposite hand",
+        "response_text": "holding",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Country in which the 1994 World Cup tournament will be held",
+        "response_text": "the United States",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "WORLD CUP '94",
+    "topic_area": "soccer",
+    "season": 11,
+    "air_date": "1994-09-21",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "This team defeated Italy on penalty kicks to win the tournament",
+        "response_text": "Brazil",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "The 2 teams automatically in the tournament were the defending Champs, Germany, & this one",
+        "response_text": "The United States",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "At the end of the second round, officials had issued a record 179 of these",
+        "response_text": "yellow cards",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "Word most associated with Univision announcer Andres Cantor",
+        "response_text": "\\\"Gol!\\\"",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "This team's Oleg Salenko set a record by scoring 5 times in 1 game against Cameroon",
+        "response_text": "Russia",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
     "name": "SOCCER TO US!",
     "topic_area": "soccer",
     "season": 27,
@@ -199,6 +267,40 @@
       {
         "clue_text": "About 80% of the world's soccer balls are made in this country, most of them in Sialkot, north of Lahore",
         "response_text": "Pakistan",
+        "dollar_value": 1000
+      }
+    ]
+  },
+  {
+    "name": "SOCCER",
+    "topic_area": "soccer",
+    "season": 29,
+    "air_date": "2012-12-04",
+    "round": "Jeopardy!",
+    "clues": [
+      {
+        "clue_text": "(Kelly of the Clue Crew describes what's happening at a soccer field in Johannesburg, South Africa.) Soccer players' ability to bend the ball is shown in two types of this, named for where on the field it takes place—inswinging & outswinging",
+        "response_text": "a corner kick",
+        "dollar_value": 200
+      },
+      {
+        "clue_text": "(Sarah of the Clue Crew describes what's happening at a soccer field in Johannesburg, South Africa.) It's awarded after a foul by defenders, & stopping it at over 60 mph is one of sport's great challenges; the ball will generally go the way the shooter's plant foot is pointed",
+        "response_text": "a penalty kick",
+        "dollar_value": 400
+      },
+      {
+        "clue_text": "(Kelly of the Clue Crew describes what's happening at a soccer field in Johannesburg, South Africa.) Graze the bottom of the ball on one side to make the ball curve around defenders, with a kick named for this fruit",
+        "response_text": "a banana",
+        "dollar_value": 600
+      },
+      {
+        "clue_text": "He led Brazil to 3 World Cup soccer titles & won an NASL title with the Cosmos",
+        "response_text": "Pelé",
+        "dollar_value": 800
+      },
+      {
+        "clue_text": "Kicking the ball through a soccer defender's legs & recovering it on the other side is this move, also the name of a spice",
+        "response_text": "nutmeg",
         "dollar_value": 1000
       }
     ]
@@ -238,74 +340,6 @@
     ]
   },
   {
-    "name": "WORLD CUP '98",
-    "topic_area": "soccer",
-    "season": 15,
-    "air_date": "1998-12-03",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "There were an average of 2.67 of these a game, not enough for some bored U.S. viewers",
-        "response_text": "Goals",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "This country's win over the \"Great Satan\" knocked the U.S. out of contention for the second round",
-        "response_text": "Iran",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "Argentina didn't \"kick\" about this controversial tie-breaking method after using it to beat England",
-        "response_text": "Penalty kicks/shootout",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Only in France: the pre-game show at the final was a tribute to this \"saint\"ly fashion designer",
-        "response_text": "Yves Saint Laurent",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "It was a good July for this country: they reached the World Cup semis & Goran Ivanisevic made the Wimbledon final",
-        "response_text": "Croatia",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
-    "name": "WORLD SOCCER",
-    "topic_area": "soccer",
-    "season": 40,
-    "air_date": "2023-09-21",
-    "round": "Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "Popular players from this nation over the years have included Bebeto, Marta & Fernandinho",
-        "response_text": "Brazil",
-        "dollar_value": 200
-      },
-      {
-        "clue_text": "In the 2019 FA Cup Final at this British arena, Manchester City crushed Watford 6-nil",
-        "response_text": "Wembley Stadium",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "In 2010, this plastic horn infamously made its presence known among World Cup crowds in South Africa",
-        "response_text": "the vuvuzela",
-        "dollar_value": 600
-      },
-      {
-        "clue_text": "Juventus, a top pro team in this country, is affectionately known as \"The Old Lady\\\"",
-        "response_text": "Italy",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "Sporting number 7, this Portuguese soccer star helped his nation win the 2016 European Championship, its first major title",
-        "response_text": "Cristiano Ronaldo",
-        "dollar_value": 1000
-      }
-    ]
-  },
-  {
     "name": "SOCCER",
     "topic_area": "soccer",
     "season": 34,
@@ -340,69 +374,35 @@
     ]
   },
   {
-    "name": "SOCCER'S WORLD CUP",
+    "name": "THE FIFA MEN'S WORLD CUP",
     "topic_area": "soccer",
-    "season": 20,
-    "air_date": "2003-09-10",
-    "round": "Double Jeopardy!",
-    "clues": [
-      {
-        "clue_text": "England won in 1966 when the final game went into this, but not as far as penalty kicks",
-        "response_text": "a shootout",
-        "dollar_value": 400
-      },
-      {
-        "clue_text": "2 of its last 3 World Cup wins were over Italy in the finals",
-        "response_text": "Brazil",
-        "dollar_value": 800
-      },
-      {
-        "clue_text": "In 1994, the year this country hosted, 147 nations participated",
-        "response_text": "the United States",
-        "dollar_value": 1200
-      },
-      {
-        "clue_text": "In 1938 it became the first host country not to make it to the finals; it didn't make that mistake in 1998 (it won!)",
-        "response_text": "France",
-        "dollar_value": 1600
-      },
-      {
-        "clue_text": "This country that no longer exists made it to the finals 6 times, winning in 1954, 1974 & 1990",
-        "response_text": "West Germany",
-        "dollar_value": 2000
-      }
-    ]
-  },
-  {
-    "name": "SOCCER",
-    "topic_area": "soccer",
-    "season": 5,
-    "air_date": "1988-10-19",
+    "season": 35,
+    "air_date": "2019-07-05",
     "round": "Jeopardy!",
     "clues": [
       {
-        "clue_text": "At the beginning of a game, the choice of goal & kickoff is decided by this",
-        "response_text": "a toss of a coin",
+        "clue_text": "In 2006 Zinedine Zidane famously incurred a red card infraction: this foul that even got a Paris statue named for it",
+        "response_text": "the headbutt",
         "dollar_value": 200
       },
       {
-        "clue_text": "Tackling is taking the ball away from an opponent by using these",
-        "response_text": "the feet",
+        "clue_text": "Pele was only 17 when he first played for this country in 1958—it would win 3 World Cups with him",
+        "response_text": "Brazil",
         "dollar_value": 400
       },
       {
-        "clue_text": "Number of players fielded by a soccer team",
-        "response_text": "11",
+        "clue_text": "In 2018 France won the final game 4-2, but only scored 3 times because the 4th goal was this type",
+        "response_text": "an own goal",
         "dollar_value": 600
       },
       {
-        "clue_text": "As in football, this infraction is indicated by grasping the wrist with the opposite hand",
-        "response_text": "holding",
+        "clue_text": "Only 4 European teams competed in the first World Cup; the rest didn't want to travel all the way to this capital of Uruguay",
+        "response_text": "Montevideo",
         "dollar_value": 800
       },
       {
-        "clue_text": "Country in which the 1994 World Cup tournament will be held",
-        "response_text": "the United States",
+        "clue_text": "England won its only Cup in 1966 in a 4-2 extra-time victory on its home pitch—this London stadium",
+        "response_text": "Wembley",
         "dollar_value": 1000
       }
     ]
