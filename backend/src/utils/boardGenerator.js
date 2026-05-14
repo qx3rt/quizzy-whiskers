@@ -4,8 +4,9 @@ import { getAllQuery } from '../db/database.js'
 // (original episode category name + 5 clues in dollar-value order).
 //
 // topicAreas: array of topic slugs (e.g. ['shakespeare', 'mythology'])
-// If empty, picks from all available topics at random.
-export function generateCuratedBoard(topicAreas = []) {
+// round: 'Jeopardy!' | 'Double Jeopardy!' | 'Final Jeopardy!' — filters to one round
+//        so all 6 columns share consistent dollar values. Defaults to 'Jeopardy!'.
+export function generateCuratedBoard(topicAreas = [], round = 'Jeopardy!') {
   let candidates
 
   if (topicAreas.length > 0) {
@@ -14,12 +15,13 @@ export function generateCuratedBoard(topicAreas = []) {
     candidates = getAllQuery(
       `SELECT id, name, topic_area, season, air_date, round
        FROM categories
-       WHERE topic_area IN (${placeholders})`,
-      topicAreas
+       WHERE round = ? AND topic_area IN (${placeholders})`,
+      [round, ...topicAreas]
     )
   } else {
     candidates = getAllQuery(
-      'SELECT id, name, topic_area, season, air_date, round FROM categories'
+      'SELECT id, name, topic_area, season, air_date, round FROM categories WHERE round = ?',
+      [round]
     )
   }
 
@@ -47,4 +49,31 @@ export function generateCuratedBoard(topicAreas = []) {
       })),
     }
   })
+}
+
+// Returns a single random Final Jeopardy! category-set (1 clue).
+export function generateFinalJeopardy() {
+  const candidates = getAllQuery(
+    "SELECT id, name, topic_area FROM categories WHERE round = 'Final Jeopardy!'"
+  )
+
+  if (candidates.length === 0) {
+    return null
+  }
+
+  const cat = candidates[Math.floor(Math.random() * candidates.length)]
+  const clues = getAllQuery(
+    'SELECT id, clue_text, response_text, dollar_value FROM clues WHERE category_id = ?',
+    [cat.id]
+  )
+
+  if (clues.length === 0) {
+    return null
+  }
+
+  const clue = clues[0]
+  return {
+    category: cat.name,
+    clue: { id: clue.id, clue_text: clue.clue_text, response_text: clue.response_text },
+  }
 }
