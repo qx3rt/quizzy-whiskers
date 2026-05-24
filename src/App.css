@@ -1347,6 +1347,13 @@
   margin: 0;
 }
 
+.achievement-earned {
+  font-size: 0.75rem;
+  color: var(--j-gold);
+  margin-top: 0.25rem;
+  font-weight: 600;
+}
+
 .no-achievements {
   text-align: center;
   color: var(--j-white-dim);

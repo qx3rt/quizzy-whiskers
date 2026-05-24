@@ -134,6 +134,7 @@ function App() {
   // ── Game history & achievements ─────────────────────────────────────────────
   const [gameHistory, setGameHistory] = useState(null)
   const [newAchievements, setNewAchievements] = useState([])
+  const [allAchievements, setAllAchievements] = useState([])
 
   const answerInputRef = useRef(null)
   const wagerInputRef = useRef(null)
@@ -187,6 +188,14 @@ function App() {
     const id = window.setTimeout(() => setNewAchievements([]), 6000)
     return () => window.clearTimeout(id)
   }, [newAchievements])
+
+  // ── Fetch all achievements when viewing profile ──────────────────────────────
+  useEffect(() => {
+    if (gamePhase !== 'PROFILE' || !authToken) return
+    fetchMyAchievements(authToken)
+      .then(setAllAchievements)
+      .catch(console.error)
+  }, [gamePhase, authToken])
 
   // ── Board completion ────────────────────────────────────────────────────────
   const isBoardComplete = useMemo(
@@ -804,16 +813,21 @@ function App() {
             <div className="profile-section">
               <h3>Achievements</h3>
               <div className="profile-achievements">
-                {newAchievements && newAchievements.length > 0 ? (
-                  newAchievements.map((achievement) => (
-                    <div key={achievement.slug} className="achievement-card earned">
-                      <div className="achievement-icon">⭐</div>
-                      <div className="achievement-content">
-                        <div className="achievement-name">{achievement.name}</div>
-                        <div className="achievement-desc">{achievement.description}</div>
+                {allAchievements && allAchievements.length > 0 ? (
+                  allAchievements.map((achievement) => {
+                    const earnedDate = new Date(achievement.earned_at);
+                    const dateStr = earnedDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                    return (
+                      <div key={achievement.slug} className="achievement-card earned">
+                        <div className="achievement-icon">⭐</div>
+                        <div className="achievement-content">
+                          <div className="achievement-name">{achievement.name}</div>
+                          <div className="achievement-desc">{achievement.description}</div>
+                          <div className="achievement-earned">Earned {dateStr}</div>
+                        </div>
                       </div>
-                    </div>
-                  ))
+                    );
+                  })
                 ) : (
                   <p className="no-achievements">Complete games to earn achievements!</p>
                 )}
