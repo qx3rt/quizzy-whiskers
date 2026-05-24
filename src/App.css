@@ -991,6 +991,13 @@
 .profile-name {
   font-weight: 700;
   color: var(--j-gold);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.profile-name:hover {
+  opacity: 0.8;
+}
   letter-spacing: 0.03em;
 }
 
@@ -1231,3 +1238,129 @@
   margin: 0;
   line-height: 1.4;
 }
+
+/* ─── Profile Panel ─────────────────────────────────────────────── */
+
+.profile-panel {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.profile-header h2 {
+  margin: 0.5rem 0 0;
+  font-size: 2rem;
+  color: var(--j-white);
+}
+
+.profile-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.stat-value {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--j-gold);
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--j-white-dim);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.profile-section {
+  margin-bottom: 2rem;
+}
+
+.profile-section h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--j-white);
+  margin: 0 0 1rem;
+  letter-spacing: 0.02em;
+}
+
+.profile-achievements {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.achievement-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 1rem;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.achievement-card.earned {
+  opacity: 1;
+  border-color: rgba(255, 193, 7, 0.3);
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.08) 0%, rgba(255, 193, 7, 0.02) 100%);
+}
+
+.achievement-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.achievement-content {
+  flex: 1;
+}
+
+.achievement-name {
+  font-weight: 700;
+  color: var(--j-white);
+  margin: 0 0 0.25rem;
+  font-size: 0.95rem;
+}
+
+.achievement-desc {
+  font-size: 0.8rem;
+  color: var(--j-white-dim);
+  margin: 0;
+}
+
+.no-achievements {
+  text-align: center;
+  color: var(--j-white-dim);
+  font-size: 0.95rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 600px) {
+  .profile-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-header h2 {
+    font-size: 1.5rem;
+  }
+}
+

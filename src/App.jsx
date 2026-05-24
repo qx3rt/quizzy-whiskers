@@ -200,9 +200,13 @@ function App() {
 
     if (timeRemaining <= 0) {
       setDidTimeExpire(true)
-      const penalty = activeWager !== null ? activeWager : activeClue.value
-      setScore((s) => s - penalty)
-      setRoundStats((rs) => ({ ...rs, timedOut: rs.timedOut + 1 }))
+      if (!isSubmitted) {
+        // Timed out without submission: track but don't deduct
+        setRoundStats((rs) => ({ ...rs, timedOut: rs.timedOut + 1 }))
+      } else {
+        // Already submitted wrong answer before timeout — penalty already applied
+        // (No additional action needed; wrong answer penalty happened on submit)
+      }
       return
     }
 
@@ -465,7 +469,7 @@ function App() {
             <h1>Jeopardy practice, made cozy.</h1>
           </div>
           <div className="header-actions">
-            {gamePhase !== 'LOBBY' && (
+            {gamePhase !== 'LOBBY' && gamePhase !== 'PROFILE' && (
               <span className="round-badge">
                 {gamePhase === 'ROUND_1' && 'Round 1 — Jeopardy!'}
                 {gamePhase === 'ROUND_2' && 'Round 2 — Double Jeopardy!'}
@@ -479,7 +483,7 @@ function App() {
             </div>
             {user ? (
               <div className="profile-chip">
-                <span className="profile-name">{user.displayName || user.email.split('@')[0]}</span>
+                <span className="profile-name" onClick={() => setGamePhase('PROFILE')}>{user.displayName || user.email.split('@')[0]}</span>
                 <button className="profile-signout" type="button" onClick={handleSignOut}>
                   Sign out
                 </button>
@@ -769,6 +773,58 @@ function App() {
             </button>
           </section>
         )}
+
+        {/* ── PROFILE ────────────────────────────────────────────────────── */}
+        {gamePhase === 'PROFILE' && user && (
+          <section className="panel panel-full profile-panel">
+            <div className="profile-header">
+              <div>
+                <p className="panel-eyebrow">Your Profile</p>
+                <h2>{user.displayName || user.email}</h2>
+              </div>
+            </div>
+
+            {/* Stats */}
+            <div className="profile-stats">
+              <div className="stat-card">
+                <div className="stat-value">{gameHistory.totalGames || 0}</div>
+                <div className="stat-label">Games Played</div>
+              </div>
+              <div className="stat-card">
+                <div className="stat-value">${gameHistory.bestScore ? gameHistory.bestScore.toLocaleString() : '0'}</div>
+                <div className="stat-label">Best Score</div>
+              </div>
+              <div className="stat-card">
+                <div className="stat-value">${gameHistory.avgScore ? Math.round(gameHistory.avgScore).toLocaleString() : '0'}</div>
+                <div className="stat-label">Average Score</div>
+              </div>
+            </div>
+
+            {/* Achievements */}
+            <div className="profile-section">
+              <h3>Achievements</h3>
+              <div className="profile-achievements">
+                {newAchievements && newAchievements.length > 0 ? (
+                  newAchievements.map((achievement) => (
+                    <div key={achievement.slug} className="achievement-card earned">
+                      <div className="achievement-icon">⭐</div>
+                      <div className="achievement-content">
+                        <div className="achievement-name">{achievement.name}</div>
+                        <div className="achievement-desc">{achievement.description}</div>
+                      </div>
+                    </div>
+                  ))
+                ) : (
+                  <p className="no-achievements">Complete games to earn achievements!</p>
+                )}
+              </div>
+            </div>
+
+            <button className="primary-button" type="button" onClick={() => setGamePhase('LOBBY')}>
+              Back to Lobby
+            </button>
+          </section>
+        )}
       </div>
 
       {/* ── DAILY DOUBLE WAGER MODAL ─────────────────────────────────── */}
@@ -870,11 +926,13 @@ function App() {
                     {didTimeExpire ? "Time's up" : isCorrect ? 'Correct!' : 'Incorrect'}
                   </span>
                   <span className="verdict-delta">
-                    {didTimeExpire
-                      ? `−$${activeDelta.toLocaleString()} for timeout`
-                      : isCorrect
-                        ? `+$${activeDelta.toLocaleString()} earned`
-                        : `−$${activeDelta.toLocaleString()} deducted`}
+                    {didTimeExpire && !isSubmitted
+                      ? ''
+                      : didTimeExpire
+                        ? `−$${activeDelta.toLocaleString()} for timeout`
+                        : isCorrect
+                          ? `+$${activeDelta.toLocaleString()} earned`
+                          : `−$${activeDelta.toLocaleString()} deducted`}
                   </span>
                 </div>
 
