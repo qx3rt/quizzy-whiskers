@@ -189,12 +189,13 @@ function App() {
     return () => window.clearTimeout(id)
   }, [newAchievements])
 
-  // ── Fetch all achievements when viewing profile ──────────────────────────────
+  // ── Fetch profile data (achievements and game history) when viewing profile ────
   useEffect(() => {
     if (gamePhase !== 'PROFILE' || !authToken) return
-    fetchMyAchievements(authToken)
-      .then(setAllAchievements)
-      .catch(console.error)
+    Promise.all([
+      fetchMyAchievements(authToken).then(setAllAchievements),
+      fetchGameHistory(authToken).then(setGameHistory),
+    ]).catch(console.error)
   }, [gamePhase, authToken])
 
   // ── Board completion ────────────────────────────────────────────────────────
@@ -796,15 +797,15 @@ function App() {
             {/* Stats */}
             <div className="profile-stats">
               <div className="stat-card">
-                <div className="stat-value">{gameHistory.totalGames || 0}</div>
+                <div className="stat-value">{gameHistory?.totalGames || 0}</div>
                 <div className="stat-label">Games Played</div>
               </div>
               <div className="stat-card">
-                <div className="stat-value">${gameHistory.bestScore ? gameHistory.bestScore.toLocaleString() : '0'}</div>
+                <div className="stat-value">${gameHistory?.bestScore ? gameHistory.bestScore.toLocaleString() : '0'}</div>
                 <div className="stat-label">Best Score</div>
               </div>
               <div className="stat-card">
-                <div className="stat-value">${gameHistory.avgScore ? Math.round(gameHistory.avgScore).toLocaleString() : '0'}</div>
+                <div className="stat-value">${gameHistory?.avgScore ? Math.round(gameHistory.avgScore).toLocaleString() : '0'}</div>
                 <div className="stat-label">Average Score</div>
               </div>
             </div>
