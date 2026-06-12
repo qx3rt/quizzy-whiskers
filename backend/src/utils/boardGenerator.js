@@ -39,8 +39,12 @@ export function generateCuratedBoard(topicAreas = [], round = 'Jeopardy!') {
     return []
   }
 
-  // JS shuffle (sql.js has no ORDER BY RANDOM())
-  const shuffled = candidates.sort(() => Math.random() - 0.5).slice(0, 6)
+  // Fisher-Yates shuffle (sql.js has no ORDER BY RANDOM())
+  for (let i = candidates.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
+  }
+  const shuffled = candidates.slice(0, 6)
 
   // Fetch all clues for the selected categories in one query instead of one per category
   const ids = shuffled.map(c => c.id)
