@@ -11,9 +11,9 @@ import {
   fetchGameHistory,
 } from './utils/api'
 
-const CLUE_TIME_LIMIT = 15
+const CLUE_TIME_LIMIT = 20
 const FINAL_JEOPARDY_TIME_LIMIT = 30
-const FUZZY_MATCH_THRESHOLD = 0.84
+const FUZZY_MATCH_THRESHOLD = 0.80
 
 function normalizeAnswer(text) {
   return text
@@ -61,11 +61,24 @@ function getSimilarityScore(source, target) {
   return 1 - getLevenshteinDistance(source, target) / longest
 }
 
+function simpleStem(str) {
+  if (str.endsWith('ies') && str.length > 4) return str.slice(0, -3) + 'y'
+  if (str.endsWith('ves') && str.length > 4) return str.slice(0, -3) + 'f'
+  if (str.endsWith('es') && str.length > 4) return str.slice(0, -2)
+  if (str.endsWith('s') && str.length > 3) return str.slice(0, -1)
+  return str
+}
+
 function answersMatch(userAnswer, correctAnswer) {
   if (!userAnswer || !correctAnswer) return false
   if (userAnswer === correctAnswer) return true
   if (correctAnswer.length >= 6 && userAnswer.includes(correctAnswer)) return true
-  return getSimilarityScore(userAnswer, correctAnswer) >= FUZZY_MATCH_THRESHOLD
+  if (getSimilarityScore(userAnswer, correctAnswer) >= FUZZY_MATCH_THRESHOLD) return true
+  const stemmedUser = simpleStem(userAnswer)
+  const stemmedCorrect = simpleStem(correctAnswer)
+  if (stemmedUser === stemmedCorrect) return true
+  if (getSimilarityScore(stemmedUser, stemmedCorrect) >= FUZZY_MATCH_THRESHOLD) return true
+  return false
 }
 
 function placeDailyDoubles(board, count) {
