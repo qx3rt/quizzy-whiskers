@@ -104,6 +104,8 @@ export async function initializeDatabase() {
     CREATE INDEX IF NOT EXISTS idx_clues_difficulty ON clues(difficulty_level);
     CREATE INDEX IF NOT EXISTS idx_categories_topic ON categories(topic_area);
     CREATE INDEX IF NOT EXISTS idx_games_user ON games(user_id);
+    CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
+    CREATE INDEX IF NOT EXISTS idx_user_achievements_user ON user_achievements(user_id);
   `;
 
   // Execute schema
