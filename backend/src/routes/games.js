@@ -23,6 +23,14 @@ router.post('/', requireAuth, (req, res) => {
     return res.status(400).json({ success: false, error: 'finalScore is required' })
   }
 
+  const roundCounts = [round1Correct, round1Incorrect, round1TimedOut, round2Correct, round2Incorrect, round2TimedOut]
+  if (roundCounts.some((n) => !Number.isInteger(n) || n < 0 || n > 30)) {
+    return res.status(400).json({ success: false, error: 'Invalid round stats' })
+  }
+  if (finalJeopardyCorrect !== null && finalJeopardyCorrect !== true && finalJeopardyCorrect !== false) {
+    return res.status(400).json({ success: false, error: 'Invalid finalJeopardyCorrect value' })
+  }
+
   try {
     const db = getDatabase()
     db.run(

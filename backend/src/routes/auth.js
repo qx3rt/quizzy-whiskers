@@ -16,6 +16,9 @@ router.post('/register', async (req, res) => {
   }
 
   const normalizedEmail = email.toLowerCase().trim()
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizedEmail)) {
+    return res.status(400).json({ success: false, error: 'Invalid email address' })
+  }
 
   try {
     const existing = getAllQuery('SELECT id FROM users WHERE email = ?', [normalizedEmail])
