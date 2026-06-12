@@ -93,6 +93,11 @@ export async function fetchGameHistory(token) {
 
 // ── Achievements ──────────────────────────────────────────────────────────────
 
+export async function fetchAllAchievements() {
+  const json = await request('/api/achievements')
+  return json.data
+}
+
 export async function fetchMyAchievements(token) {
   const json = await request('/api/achievements/mine', { headers: authHeaders(token) })
   return json.data

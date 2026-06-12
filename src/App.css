@@ -1266,23 +1266,74 @@
 /* ─── Profile Panel ─────────────────────────────────────────────── */
 
 .profile-panel {
-  max-width: 640px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
-.profile-header {
+/* ── Identity header ───────────────────────────────────────────────── */
+.profile-identity {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  gap: 1.25rem;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
-.profile-header h2 {
-  margin: 0.5rem 0 0;
-  font-size: 2rem;
+.profile-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--j-gold);
+  color: var(--j-black);
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.profile-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile-meta h2 {
+  margin: 0 0 0.2rem;
+  font-size: 1.6rem;
   color: var(--j-white);
 }
 
+.profile-email {
+  margin: 0 0 0.15rem;
+  font-size: 0.85rem;
+  color: var(--j-white-dim);
+}
+
+.profile-member-since {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--j-gold);
+  letter-spacing: 0.02em;
+}
+
+.profile-signout-btn {
+  margin-left: auto;
+  font-size: 0.8rem;
+  padding: 6px 14px;
+  flex-shrink: 0;
+}
+
+/* ── Stats (4-column bar) ──────────────────────────────────────────── */
+.profile-stats-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Keep old .profile-stats for GAME_OVER screen */
 .profile-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1378,6 +1429,28 @@
   font-weight: 600;
 }
 
+.achievement-locked-label {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+.achievement-lock-icon {
+  font-size: 1rem;
+  opacity: 0.3;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.achievement-count {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--j-gold);
+  margin-left: 0.5rem;
+}
+
 .no-achievements {
   text-align: center;
   color: var(--j-white-dim);
@@ -1385,13 +1458,99 @@
   margin: 2rem 0;
 }
 
+/* ── Game history list ─────────────────────────────────────────────── */
+.game-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.game-history-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  transition: background 0.15s ease;
+}
+
+.game-history-row:last-child {
+  border-bottom: none;
+}
+
+.game-history-row:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.game-history-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.game-history-date {
+  font-size: 0.8rem;
+  color: var(--j-white-dim);
+}
+
+.game-history-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.game-history-topic-pill {
+  font-size: 0.7rem;
+  background: rgba(255, 204, 0, 0.12);
+  color: var(--j-gold);
+  border: 1px solid rgba(255, 204, 0, 0.2);
+  border-radius: 999px;
+  padding: 1px 8px;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.game-history-breakdown {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 0.01em;
+}
+
+.game-history-score {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--j-gold);
+  flex-shrink: 0;
+  text-align: right;
+  min-width: 80px;
+}
+
 @media (max-width: 600px) {
+  .profile-stats-bar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .profile-stats {
     grid-template-columns: 1fr;
   }
 
-  .profile-header h2 {
-    font-size: 1.5rem;
+  .profile-meta h2 {
+    font-size: 1.3rem;
+  }
+
+  .profile-signout-btn {
+    margin-left: 0;
+  }
+
+  .game-history-score {
+    min-width: 60px;
+    font-size: 1rem;
   }
 }
 

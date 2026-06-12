@@ -85,16 +85,35 @@ router.get('/', requireAuth, (req, res) => {
       'SELECT * FROM games WHERE user_id = ? ORDER BY played_at DESC LIMIT 20',
       [req.user.userId]
     )
-    const [{ count: totalGames }] = getAllQuery(
-      'SELECT COUNT(*) as count FROM games WHERE user_id = ?',
+    const [stats] = getAllQuery(
+      `SELECT
+         COUNT(*) as totalGames,
+         COALESCE(MAX(final_score), 0) as bestScore,
+         COALESCE(ROUND(AVG(final_score)), 0) as avgScore,
+         COALESCE(SUM(round1_correct + round2_correct), 0) as totalCorrect,
+         COALESCE(SUM(round1_correct + round1_incorrect + round1_timed_out + round2_correct + round2_incorrect + round2_timed_out), 0) as totalAnswered,
+         COALESCE(SUM(CASE WHEN final_jeopardy_correct = 1 THEN 1 ELSE 0 END), 0) as finalJeopardyWins
+       FROM games WHERE user_id = ?`,
       [req.user.userId]
     )
-    const bestScore = games.length ? Math.max(...games.map((g) => g.final_score)) : 0
-    const avgScore = games.length
-      ? Math.round(games.reduce((s, g) => s + g.final_score, 0) / games.length)
-      : 0
 
-    res.json({ success: true, data: { games, totalGames, bestScore, avgScore } })
+    res.json({
+      success: true,
+      data: {
+        games,
+        totalGames: stats.totalGames,
+        bestScore: stats.bestScore,
+        avgScore: stats.avgScore,
+        lifetimeStats: {
+          totalGames: stats.totalGames,
+          bestScore: stats.bestScore,
+          avgScore: stats.avgScore,
+          totalCorrect: stats.totalCorrect,
+          totalAnswered: stats.totalAnswered,
+          finalJeopardyWins: stats.finalJeopardyWins,
+        },
+      },
+    })
   } catch (err) {
     console.error('Games history error:', err)
     res.status(500).json({ success: false, error: 'Failed to fetch game history' })

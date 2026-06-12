@@ -16,10 +16,18 @@ const PORT = process.env.PORT || 3001;
 
 const ACHIEVEMENTS = [
   { slug: 'first_game',             name: 'First Steps',           description: 'Complete your first game' },
-  { slug: 'perfect_round',          name: 'Clean Sweep',           description: 'Answer all 5 clues in a round correctly' },
-  { slug: 'final_jeopardy_winner',  name: 'Final Say',             description: 'Win Final Jeopardy!' },
-  { slug: 'high_roller',            name: 'High Roller',           description: 'Score $10,000 or more in a single game' },
+  { slug: 'ten_games',              name: 'Getting Warmed Up',     description: 'Play 10 games' },
+  { slug: 'fifty_games',            name: 'Seasoned Contestant',   description: 'Play 50 games' },
   { slug: 'century_club',           name: 'Century Club',          description: 'Play 100 games' },
+  { slug: 'perfect_round',          name: 'Clean Sweep',           description: 'Answer all 5 clues in a round correctly with no misses or timeouts' },
+  { slug: 'perfect_game',           name: 'Flawless Victory',      description: 'Complete both rounds with no incorrect answers or timeouts' },
+  { slug: 'no_timeouts',            name: 'Quick Draw',            description: 'Finish a full game without any timeouts' },
+  { slug: 'double_dominator',       name: 'Double Down',           description: 'Answer all Double Jeopardy clues correctly' },
+  { slug: 'final_jeopardy_winner',  name: 'Final Say',             description: 'Win Final Jeopardy!' },
+  { slug: 'fj_regular',             name: 'Final Authority',       description: 'Win Final Jeopardy! 5 times' },
+  { slug: 'high_roller',            name: 'High Roller',           description: 'Score $10,000 or more in a single game' },
+  { slug: 'grand_champion',         name: 'Grand Champion',        description: 'Score $20,000 or more in a single game' },
+  { slug: 'answer_machine',         name: 'Answer Machine',        description: 'Answer 200 questions correctly across all your games' },
 ];
 
 function seedAchievements() {

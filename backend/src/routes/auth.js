@@ -91,7 +91,7 @@ router.post('/login', async (req, res) => {
 // GET /api/auth/me
 router.get('/me', requireAuth, (req, res) => {
   const users = getAllQuery(
-    'SELECT id, email, display_name FROM users WHERE id = ?',
+    'SELECT id, email, display_name, created_at FROM users WHERE id = ?',
     [req.user.userId]
   )
   if (!users.length) {
@@ -100,7 +100,7 @@ router.get('/me', requireAuth, (req, res) => {
   const user = users[0]
   res.json({
     success: true,
-    data: { id: user.id, email: user.email, displayName: user.display_name },
+    data: { id: user.id, email: user.email, displayName: user.display_name, memberSince: user.created_at },
   })
 })
 
