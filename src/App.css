@@ -662,6 +662,32 @@
   font-weight: 700;
 }
 
+/* ─── "Be more specific" prompt ─────────────────────────────────── */
+.clue-modal-specific {
+  display: grid;
+  gap: 14px;
+}
+
+.specific-prompt {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--j-orange);
+  text-align: center;
+}
+
+/* ─── No-penalty hint below submit button ────────────────────────── */
+.clue-modal-hint {
+  margin: 0;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  line-height: 1.5;
+}
+
 /* ─── Continue button ────────────────────────────────────────────── */
 .clue-modal-continue {
   border: 2px solid rgba(255, 255, 255, 0.25);

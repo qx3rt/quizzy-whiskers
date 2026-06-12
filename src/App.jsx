@@ -10,86 +10,19 @@ import {
   saveGame,
   fetchGameHistory,
 } from './utils/api'
+import {
+  normalizeAnswer,
+  answersMatch,
+  isPartialMatch,
+  placeDailyDoubles,
+} from './utils/answerEval'
 
 const CLUE_TIME_LIMIT = 20
 const FINAL_JEOPARDY_TIME_LIMIT = 30
-const FUZZY_MATCH_THRESHOLD = 0.80
-
-function normalizeAnswer(text) {
-  return text
-    .toLowerCase()
-    .replace(/^(what|who|where|when)\s+(is|are|was|were)\s+/i, '')
-    .replace(/\s*\([^)]*\)\s*/g, ' ')
-    .replace(/&/g, ' and ')
-    .replace(/[^\w\s]/g, ' ')
-    .replace(/\b(a|an|the)\b/g, ' ')
-    .replace(/\band\b/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim()
-}
+const MORE_SPECIFIC_TIME_LIMIT = 20
 
 function formatScore(score) {
   return `${score < 0 ? '-' : ''}$${Math.abs(score).toLocaleString()}`
-}
-
-function getLevenshteinDistance(source, target) {
-  const rows = source.length + 1
-  const cols = target.length + 1
-  const matrix = Array.from({ length: rows }, () => Array(cols).fill(0))
-
-  for (let row = 0; row < rows; row += 1) matrix[row][0] = row
-  for (let col = 0; col < cols; col += 1) matrix[0][col] = col
-
-  for (let row = 1; row < rows; row += 1) {
-    for (let col = 1; col < cols; col += 1) {
-      const cost = source[row - 1] === target[col - 1] ? 0 : 1
-      matrix[row][col] = Math.min(
-        matrix[row - 1][col] + 1,
-        matrix[row][col - 1] + 1,
-        matrix[row - 1][col - 1] + cost
-      )
-    }
-  }
-
-  return matrix[source.length][target.length]
-}
-
-function getSimilarityScore(source, target) {
-  if (!source && !target) return 1
-  const longest = Math.max(source.length, target.length)
-  if (longest === 0) return 1
-  return 1 - getLevenshteinDistance(source, target) / longest
-}
-
-function simpleStem(str) {
-  if (str.endsWith('ies') && str.length > 4) return str.slice(0, -3) + 'y'
-  if (str.endsWith('ves') && str.length > 4) return str.slice(0, -3) + 'f'
-  if (str.endsWith('es') && str.length > 4) return str.slice(0, -2)
-  if (str.endsWith('s') && str.length > 3) return str.slice(0, -1)
-  return str
-}
-
-function answersMatch(userAnswer, correctAnswer) {
-  if (!userAnswer || !correctAnswer) return false
-  if (userAnswer === correctAnswer) return true
-  if (correctAnswer.length >= 6 && userAnswer.includes(correctAnswer)) return true
-  if (getSimilarityScore(userAnswer, correctAnswer) >= FUZZY_MATCH_THRESHOLD) return true
-  const stemmedUser = simpleStem(userAnswer)
-  const stemmedCorrect = simpleStem(correctAnswer)
-  if (stemmedUser === stemmedCorrect) return true
-  if (getSimilarityScore(stemmedUser, stemmedCorrect) >= FUZZY_MATCH_THRESHOLD) return true
-  return false
-}
-
-function placeDailyDoubles(board, count) {
-  const eligible = []
-  board.forEach((col) => {
-    col.clues.forEach((clue, idx) => {
-      if (idx > 0) eligible.push(clue.id)
-    })
-  })
-  const shuffled = eligible.sort(() => Math.random() - 0.5)
-  return new Set(shuffled.slice(0, count))
 }
 
 function App() {
@@ -121,6 +54,9 @@ function App() {
   const [isCorrect, setIsCorrect] = useState(null)
   const [timeRemaining, setTimeRemaining] = useState(CLUE_TIME_LIMIT)
   const [didTimeExpire, setDidTimeExpire] = useState(false)
+  const [needsMoreSpecific, setNeedsMoreSpecific] = useState(false)
+  const [moreSpecificText, setMoreSpecificText] = useState('')
+  const [moreSpecificTimeRemaining, setMoreSpecificTimeRemaining] = useState(MORE_SPECIFIC_TIME_LIMIT)
 
   // ── Score & per-round stats ─────────────────────────────────────────────────
   const [score, setScore] = useState(0)
@@ -150,6 +86,7 @@ function App() {
   const [allAchievements, setAllAchievements] = useState([])
 
   const answerInputRef = useRef(null)
+  const moreSpecificInputRef = useRef(null)
   const wagerInputRef = useRef(null)
   const gameSavedRef = useRef(false)
 
@@ -219,7 +156,7 @@ function App() {
 
   // ── Timer ───────────────────────────────────────────────────────────────────
   useEffect(() => {
-    if (!activeClue || isSubmitted || didTimeExpire) return
+    if (!activeClue || isSubmitted || didTimeExpire || needsMoreSpecific) return
 
     if (timeRemaining <= 0) {
       setDidTimeExpire(true)
@@ -235,14 +172,42 @@ function App() {
 
     const id = window.setTimeout(() => setTimeRemaining((t) => t - 1), 1000)
     return () => window.clearTimeout(id)
-  }, [activeClue, isSubmitted, didTimeExpire, timeRemaining])
+  }, [activeClue, isSubmitted, didTimeExpire, needsMoreSpecific, timeRemaining])
+
+  // ── "Be more specific" timer ────────────────────────────────────────────────
+  useEffect(() => {
+    if (!needsMoreSpecific) return
+
+    if (moreSpecificTimeRemaining <= 0) {
+      const delta = activeWager !== null ? activeWager : (activeClue?.value ?? 0)
+      setIsCorrect(false)
+      setIsSubmitted(true)
+      setScore((s) => s - delta)
+      setNeedsMoreSpecific(false)
+      if (gamePhase === 'FINAL_JEOPARDY') {
+        setFinalJeopardyCorrect(false)
+      } else {
+        setRoundStats((rs) => ({ ...rs, incorrect: rs.incorrect + 1 }))
+      }
+      return
+    }
+
+    const id = window.setTimeout(() => setMoreSpecificTimeRemaining((t) => t - 1), 1000)
+    return () => window.clearTimeout(id)
+  }, [needsMoreSpecific, moreSpecificTimeRemaining]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Focus helpers ───────────────────────────────────────────────────────────
   useEffect(() => {
-    if (activeClue && !isSubmitted && !didTimeExpire) {
+    if (activeClue && !isSubmitted && !didTimeExpire && !needsMoreSpecific) {
       answerInputRef.current?.focus()
     }
-  }, [activeClue, isSubmitted, didTimeExpire])
+  }, [activeClue, isSubmitted, didTimeExpire, needsMoreSpecific])
+
+  useEffect(() => {
+    if (needsMoreSpecific) {
+      moreSpecificInputRef.current?.focus()
+    }
+  }, [needsMoreSpecific])
 
   useEffect(() => {
     if (pendingWagerClue || (gamePhase === 'FINAL_JEOPARDY' && finalSubPhase === 'wager')) {
@@ -412,6 +377,9 @@ function App() {
     setIsCorrect(null)
     setTimeRemaining(timeLimit)
     setDidTimeExpire(false)
+    setNeedsMoreSpecific(false)
+    setMoreSpecificText('')
+    setMoreSpecificTimeRemaining(MORE_SPECIFIC_TIME_LIMIT)
   }
 
   function handleWagerSubmit(event) {
@@ -433,11 +401,43 @@ function App() {
     const normalizedUser = normalizeAnswer(answerText)
     const normalizedCorrect = normalizeAnswer(activeClue.response)
     const correct = answersMatch(normalizedUser, normalizedCorrect)
+
+    if (!correct && isPartialMatch(normalizedUser, normalizedCorrect)) {
+      setNeedsMoreSpecific(true)
+      setMoreSpecificTimeRemaining(MORE_SPECIFIC_TIME_LIMIT)
+      return
+    }
+
     const delta = activeWager !== null ? activeWager : activeClue.value
 
     setIsCorrect(correct)
     setIsSubmitted(true)
     setScore((s) => (correct ? s + delta : s - delta))
+
+    if (gamePhase === 'FINAL_JEOPARDY') {
+      setFinalJeopardyCorrect(correct)
+    } else {
+      setRoundStats((rs) => ({
+        ...rs,
+        correct: correct ? rs.correct + 1 : rs.correct,
+        incorrect: !correct ? rs.incorrect + 1 : rs.incorrect,
+      }))
+    }
+  }
+
+  function handleSubmitMoreSpecific(event) {
+    event.preventDefault()
+    if (!moreSpecificText.trim()) return
+
+    const normalizedUser = normalizeAnswer(moreSpecificText)
+    const normalizedCorrect = normalizeAnswer(activeClue.response)
+    const correct = answersMatch(normalizedUser, normalizedCorrect)
+    const delta = activeWager !== null ? activeWager : activeClue.value
+
+    setIsCorrect(correct)
+    setIsSubmitted(true)
+    setScore((s) => (correct ? s + delta : s - delta))
+    setNeedsMoreSpecific(false)
 
     if (gamePhase === 'FINAL_JEOPARDY') {
       setFinalJeopardyCorrect(correct)
@@ -900,8 +900,14 @@ function App() {
           <div className="clue-modal">
             <div className="clue-modal-meta">
               <span className="clue-modal-category">{activeClue.category}</span>
-              <div className={`timer-badge ${timeRemaining <= 3 ? 'timer-warning' : ''}`}>
-                {didTimeExpire ? "Time's up" : `${timeRemaining}s`}
+              <div className={`timer-badge ${
+                needsMoreSpecific
+                  ? moreSpecificTimeRemaining <= 3 ? 'timer-warning' : ''
+                  : timeRemaining <= 3 ? 'timer-warning' : ''
+              }`}>
+                {needsMoreSpecific
+                  ? `${moreSpecificTimeRemaining}s`
+                  : didTimeExpire ? "Time's up" : `${timeRemaining}s`}
               </div>
             </div>
 
@@ -916,7 +922,32 @@ function App() {
 
             <p className="clue-modal-text">{activeClue.clue}</p>
 
-            {!showReveal ? (
+            {needsMoreSpecific ? (
+              <div className="clue-modal-specific">
+                <p className="specific-prompt">Can you be more specific?</p>
+                <form className="clue-modal-form" onSubmit={handleSubmitMoreSpecific}>
+                  <div className="clue-modal-input-row">
+                    <span className="answer-prefix">What is</span>
+                    <input
+                      ref={moreSpecificInputRef}
+                      className="clue-modal-input"
+                      type="text"
+                      value={moreSpecificText}
+                      onChange={(e) => setMoreSpecificText(e.target.value)}
+                      placeholder="be more specific…"
+                      autoComplete="off"
+                    />
+                  </div>
+                  <button
+                    className="clue-modal-submit"
+                    type="submit"
+                    disabled={!moreSpecificText.trim()}
+                  >
+                    Submit response
+                  </button>
+                </form>
+              </div>
+            ) : !showReveal ? (
               <form className="clue-modal-form" onSubmit={handleSubmitAnswer}>
                 <div className="clue-modal-input-row">
                   <span className="answer-prefix">What is</span>
@@ -938,6 +969,7 @@ function App() {
                 >
                   Submit response
                 </button>
+                <p className="clue-modal-hint">Letting the timer run out won&rsquo;t affect your score.</p>
               </form>
             ) : (
               <div className="clue-modal-result">

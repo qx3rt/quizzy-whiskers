@@ -18,14 +18,15 @@ if (!fs.existsSync(DATA_DIR)) {
 export async function initializeDatabase() {
   SQL = await initSqlJs();
 
-  // Load existing database if it exists
-  if (fs.existsSync(dbPath)) {
+  const isTest = process.env.NODE_ENV === 'test';
+
+  if (!isTest && fs.existsSync(dbPath)) {
     const filebuffer = fs.readFileSync(dbPath);
     db = new SQL.Database(filebuffer);
     console.log('Loaded existing database from', dbPath);
   } else {
     db = new SQL.Database();
-    console.log('Created new database at', dbPath);
+    if (!isTest) console.log('Created new database at', dbPath);
   }
 
   // Create schema
@@ -127,7 +128,7 @@ export function getDatabase() {
 }
 
 export function saveDatabase() {
-  if (db) {
+  if (db && process.env.NODE_ENV !== 'test') {
     const data = db.export();
     const buffer = Buffer.from(data);
     fs.writeFileSync(dbPath, buffer);
