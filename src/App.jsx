@@ -235,7 +235,7 @@ function App() {
 
     const id = window.setTimeout(() => setTimeRemaining((t) => t - 1), 1000)
     return () => window.clearTimeout(id)
-  }, [activeClue, isSubmitted, didTimeExpire, timeRemaining, activeWager])
+  }, [activeClue, isSubmitted, didTimeExpire, timeRemaining])
 
   // ── Focus helpers ───────────────────────────────────────────────────────────
   useEffect(() => {
