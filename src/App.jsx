@@ -558,7 +558,7 @@ function App() {
                 Sign in
               </button>
             )}
-            {gamePhase !== 'LOBBY' && gamePhase !== 'GAME_OVER' && (
+            {gamePhase !== 'LOBBY' && gamePhase !== 'GAME_OVER' && gamePhase !== 'PROFILE' && (
               <button className="secondary-button" type="button" onClick={quitGame}>
                 Quit
               </button>
