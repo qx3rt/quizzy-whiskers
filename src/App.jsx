@@ -288,6 +288,7 @@ function App() {
     setAuthToken(null)
     setUser(null)
     setGameHistory(null)
+    setGamePhase('LOBBY')
   }
 
   function switchAuthTab(tab) {
