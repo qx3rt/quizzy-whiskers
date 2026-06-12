@@ -144,7 +144,6 @@ export function runQuery(sql, params = []) {
   const db = getDatabase();
   try {
     db.run(sql, params);
-    saveDatabase();
     return { success: true };
   } catch (error) {
     console.error('Query error:', error);
