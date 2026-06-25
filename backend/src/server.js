@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { initializeDatabase, closeDatabase, runQuery } from './db/database.js';
+import { initializeDatabase, closeDatabase, runQuery, getAllQuery } from './db/database.js';
 import categoriesRouter from './routes/categories.js';
 import { syncCategoryGroups } from './models/categories.js';
 import boardRouter from './routes/board.js';
@@ -64,9 +64,15 @@ async function startServer() {
     app.use('/api/games', gamesRouter);
     app.use('/api/achievements', achievementsRouter);
 
-    // Health check
-    app.get('/api/health', (req, res) => {
-      res.json({ status: 'ok' });
+    // Health check — includes category counts for diagnostics
+    app.get('/api/health', async (req, res) => {
+      try {
+        const [g] = await getAllQuery('SELECT COUNT(*)::int AS groups FROM category_groups');
+        const [m] = await getAllQuery('SELECT COUNT(*)::int AS mappings FROM category_group_mappings');
+        res.json({ status: 'ok', categoryGroups: g.groups, categoryMappings: m.mappings });
+      } catch {
+        res.json({ status: 'ok' });
+      }
     });
 
     // 404 handler

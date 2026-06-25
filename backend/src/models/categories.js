@@ -67,38 +67,50 @@ function matchTopic(categoryUpper) {
 
 // Seeds category_groups and category_group_mappings if empty. Safe to call on every startup.
 export async function syncCategoryGroups() {
-  // Always upsert group rows (fast, idempotent)
-  for (const rule of TOPIC_RULES) {
-    await runQuery(
-      'INSERT INTO category_groups (slug, display_name) VALUES ($1, $2) ON CONFLICT (slug) DO NOTHING',
-      [rule.topic, rule.display]
+  try {
+    // Always upsert group rows (fast, idempotent ~55 rows)
+    for (const rule of TOPIC_RULES) {
+      await runQuery(
+        'INSERT INTO category_groups (slug, display_name) VALUES ($1, $2) ON CONFLICT (slug) DO NOTHING',
+        [rule.topic, rule.display]
+      )
+    }
+    const [{ groupCount }] = await getAllQuery('SELECT COUNT(*)::int AS "groupCount" FROM category_groups')
+    console.log(`[categories] category_groups: ${groupCount} rows`)
+
+    // Only rebuild mappings when the table is empty (queries all Cluebase categories — slow)
+    const [{ mappingCount }] = await getAllQuery('SELECT COUNT(*)::int AS "mappingCount" FROM category_group_mappings')
+    console.log(`[categories] category_group_mappings: ${mappingCount} rows`)
+    if (mappingCount > 0) {
+      console.log('[categories] mappings already populated, skipping rebuild')
+      return
+    }
+
+    console.log('[categories] Building category_group_mappings from Cluebase data...')
+    const categories = await getAllQuery(
+      "SELECT DISTINCT category FROM clues WHERE category IS NOT NULL AND category != ''"
     )
+    console.log(`[categories] Found ${categories.length} distinct Cluebase categories`)
+
+    const groups = await getAllQuery('SELECT id, slug FROM category_groups')
+    const groupBySlug = Object.fromEntries(groups.map((g) => [g.slug, g.id]))
+
+    let mapped = 0
+    for (const { category } of categories) {
+      const rule = matchTopic(' ' + category.toUpperCase() + ' ')
+      if (!rule) continue
+      const groupId = groupBySlug[rule.topic]
+      if (!groupId) continue
+      await runQuery(
+        'INSERT INTO category_group_mappings (category_group_id, cluebase_category) VALUES ($1, $2) ON CONFLICT (cluebase_category) DO NOTHING',
+        [groupId, category]
+      )
+      mapped++
+    }
+    console.log(`[categories] Mapped ${mapped} of ${categories.length} Cluebase categories`)
+  } catch (err) {
+    console.error('[categories] syncCategoryGroups failed:', err.message)
   }
-
-  // Only rebuild mappings when the table is empty (the expensive part)
-  const [{ count }] = await getAllQuery('SELECT COUNT(*)::int AS count FROM category_group_mappings')
-  if (count > 0) return
-
-  console.log('Building category_group_mappings from Cluebase data...')
-  const categories = await getAllQuery(
-    "SELECT DISTINCT category FROM clues WHERE category IS NOT NULL AND category != ''"
-  )
-  const groups = await getAllQuery('SELECT id, slug FROM category_groups')
-  const groupBySlug = Object.fromEntries(groups.map((g) => [g.slug, g.id]))
-
-  let mapped = 0
-  for (const { category } of categories) {
-    const rule = matchTopic(' ' + category.toUpperCase() + ' ')
-    if (!rule) continue
-    const groupId = groupBySlug[rule.topic]
-    if (!groupId) continue
-    await runQuery(
-      'INSERT INTO category_group_mappings (category_group_id, cluebase_category) VALUES ($1, $2) ON CONFLICT (cluebase_category) DO NOTHING',
-      [groupId, category]
-    )
-    mapped++
-  }
-  console.log(`Category sync: mapped ${mapped} of ${categories.length} Cluebase categories`)
 }
 
 // Returns topic areas with the count of Cluebase categories mapped to each group.
