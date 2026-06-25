@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import { initializeDatabase, closeDatabase, runQuery, getAllQuery } from './db/database.js';
 import categoriesRouter from './routes/categories.js';
 import { syncCategoryGroups } from './models/categories.js';
+import { seedClues, seedFinalJeopardy } from './models/clueSeeder.js';
 import boardRouter from './routes/board.js';
 import authRouter from './routes/auth.js';
 import gamesRouter from './routes/games.js';
@@ -53,8 +54,10 @@ app.use(express.json());
 async function startServer() {
   try {
     await initializeDatabase();
-    await seedAchievements();
+    await seedClues();
+    await seedFinalJeopardy();
     await syncCategoryGroups();
+    await seedAchievements();
     console.log('Database ready');
 
     // Routes

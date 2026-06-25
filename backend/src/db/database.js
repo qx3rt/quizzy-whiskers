@@ -61,6 +61,15 @@ export async function initializeDatabase() {
       PRIMARY KEY (user_id, achievement_id)
     );
 
+    CREATE TABLE IF NOT EXISTS clues (
+      id SERIAL PRIMARY KEY,
+      category TEXT NOT NULL,
+      round TEXT NOT NULL,
+      value INTEGER NOT NULL,
+      clue TEXT NOT NULL,
+      response TEXT NOT NULL
+    );
+
     CREATE TABLE IF NOT EXISTS category_groups (
       id SERIAL PRIMARY KEY,
       slug TEXT UNIQUE NOT NULL,
@@ -81,6 +90,8 @@ export async function initializeDatabase() {
       response_text TEXT NOT NULL
     );
 
+    CREATE INDEX IF NOT EXISTS idx_clues_category ON clues(category);
+    CREATE INDEX IF NOT EXISTS idx_clues_round_value ON clues(round, value);
     CREATE INDEX IF NOT EXISTS idx_games_played_user ON games_played(user_id);
     CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
     CREATE INDEX IF NOT EXISTS idx_user_achievements_user ON user_achievements(user_id);
@@ -105,4 +116,8 @@ export async function getQuery(sql, params = []) {
 
 export async function runQuery(sql, params = []) {
   return pool.query(sql, params)
+}
+
+export async function getClient() {
+  return pool.connect()
 }
