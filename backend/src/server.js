@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { initializeDatabase, closeDatabase, runQuery } from './db/database.js';
 import categoriesRouter from './routes/categories.js';
+import { syncCategoryGroups } from './models/categories.js';
 import boardRouter from './routes/board.js';
 import authRouter from './routes/auth.js';
 import gamesRouter from './routes/games.js';
@@ -53,6 +54,7 @@ async function startServer() {
   try {
     await initializeDatabase();
     await seedAchievements();
+    await syncCategoryGroups();
     console.log('Database ready');
 
     // Routes
