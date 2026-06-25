@@ -15,6 +15,7 @@ import {
 import {
   normalizeAnswer,
   answersMatch,
+  splitAlternates,
   isPartialMatch,
   placeDailyDoubles,
 } from './utils/answerEval'
@@ -179,9 +180,9 @@ function App() {
   useEffect(() => {
     if (gamePhase !== 'PROFILE' || !authToken) return
     Promise.all([
-      fetchMe(authToken).then(setUser),
-      fetchAllAchievements().then(setAchievementDefs),
-      fetchMyAchievements(authToken).then(setAllAchievements),
+      fetchMe(authToken).then((data) => { if (data) setUser(data) }),
+      fetchAllAchievements().then((data) => setAchievementDefs(data ?? [])),
+      fetchMyAchievements(authToken).then((data) => setAllAchievements(data ?? [])),
       fetchGameHistory(authToken).then(setGameHistory),
     ]).catch(console.error)
   }, [gamePhase, authToken])
@@ -439,7 +440,10 @@ function App() {
 
     const normalizedUser = normalizeAnswer(answerText)
     const normalizedCorrect = normalizeAnswer(activeClue.response)
-    const correct = answersMatch(normalizedUser, normalizedCorrect)
+    const alternates = splitAlternates(activeClue.response)
+      .map(normalizeAnswer)
+      .filter((a) => a !== normalizedCorrect)
+    const correct = answersMatch(normalizedUser, normalizedCorrect, alternates)
 
     if (!correct && isPartialMatch(normalizedUser, normalizedCorrect)) {
       setNeedsMoreSpecific(true)
@@ -470,7 +474,10 @@ function App() {
 
     const normalizedUser = normalizeAnswer(moreSpecificText)
     const normalizedCorrect = normalizeAnswer(activeClue.response)
-    const correct = answersMatch(normalizedUser, normalizedCorrect)
+    const alternates = splitAlternates(activeClue.response)
+      .map(normalizeAnswer)
+      .filter((a) => a !== normalizedCorrect)
+    const correct = answersMatch(normalizedUser, normalizedCorrect, alternates)
     const delta = activeWager !== null ? activeWager : activeClue.value
 
     setIsCorrect(correct)
@@ -837,134 +844,145 @@ function App() {
         )}
 
         {/* ── PROFILE ────────────────────────────────────────────────────── */}
-        {gamePhase === 'PROFILE' && user && (
-          <section className="panel panel-full profile-panel">
+        {gamePhase === 'PROFILE' && (
+          <>
+            {user ? (
+              <section className="panel panel-full profile-panel">
 
-            {/* Identity */}
-            <div className="profile-identity">
-              <div className="profile-avatar">
-                {(user.displayName || user.email).charAt(0).toUpperCase()}
-              </div>
-              <div className="profile-meta">
-                <h2>{user.displayName || user.email.split('@')[0]}</h2>
-                <p className="profile-email">{user.email}</p>
-                {user.memberSince && (
-                  <p className="profile-member-since">Member since {formatMemberSince(user.memberSince)}</p>
-                )}
-              </div>
-              <button className="secondary-button profile-signout-btn" type="button" onClick={handleSignOut}>
-                Sign out
-              </button>
-            </div>
-
-            {/* Lifetime stats */}
-            {(() => {
-              const ls = gameHistory?.lifetimeStats
-              const accuracy = ls?.totalAnswered > 0
-                ? Math.round((ls.totalCorrect / ls.totalAnswered) * 100)
-                : null
-              const fjRate = ls?.totalGames > 0
-                ? Math.round((ls.finalJeopardyWins / ls.totalGames) * 100)
-                : null
-              return (
-                <div className="profile-stats-bar">
-                  <div className="stat-card">
-                    <div className="stat-value">{ls?.totalGames ?? 0}</div>
-                    <div className="stat-label">Games Played</div>
+                {/* Identity */}
+                <div className="profile-identity">
+                  <div className="profile-avatar">
+                    {(user.displayName || user.email).charAt(0).toUpperCase()}
                   </div>
-                  <div className="stat-card">
-                    <div className="stat-value">{ls?.bestScore ? `$${ls.bestScore.toLocaleString()}` : '—'}</div>
-                    <div className="stat-label">Best Score</div>
-                  </div>
-                  <div className="stat-card">
-                    <div className="stat-value">{accuracy !== null ? `${accuracy}%` : '—'}</div>
-                    <div className="stat-label">Accuracy</div>
-                  </div>
-                  <div className="stat-card">
-                    <div className="stat-value">{fjRate !== null ? `${fjRate}%` : '—'}</div>
-                    <div className="stat-label">FJ Win Rate</div>
-                  </div>
-                </div>
-              )
-            })()}
-
-            {/* Achievements */}
-            {(() => {
-              const earned = new Map(allAchievements.map((a) => [a.slug, a.earned_at]))
-              const merged = achievementDefs.map((def) => ({
-                ...def,
-                earned_at: earned.get(def.slug) || null,
-              }))
-              const earnedCount = merged.filter((a) => a.earned_at).length
-              return (
-                <div className="profile-section">
-                  <h3>Achievements <span className="achievement-count">{earnedCount}/{merged.length}</span></h3>
-                  <div className="profile-achievements">
-                    {merged.map((ach) => (
-                      <div key={ach.slug} className={`achievement-card${ach.earned_at ? ' earned' : ''}`}>
-                        <div className="achievement-icon">{ACHIEVEMENT_ICONS[ach.slug] || '🎖️'}</div>
-                        <div className="achievement-content">
-                          <div className="achievement-name">{ach.name}</div>
-                          <div className="achievement-desc">{ach.description}</div>
-                          {ach.earned_at ? (
-                            <div className="achievement-earned">Earned {timeAgo(ach.earned_at)}</div>
-                          ) : (
-                            <div className="achievement-locked-label">Locked</div>
-                          )}
-                        </div>
-                        {!ach.earned_at && <div className="achievement-lock-icon">🔒</div>}
-                      </div>
-                    ))}
-                    {merged.length === 0 && (
-                      <p className="no-achievements">Complete games to earn achievements!</p>
+                  <div className="profile-meta">
+                    <h2>{user.displayName || user.email.split('@')[0]}</h2>
+                    <p className="profile-email">{user.email}</p>
+                    {user.memberSince && (
+                      <p className="profile-member-since">Member since {formatMemberSince(user.memberSince)}</p>
                     )}
                   </div>
+                  <button className="secondary-button profile-signout-btn" type="button" onClick={handleSignOut}>
+                    Sign out
+                  </button>
                 </div>
-              )
-            })()}
 
-            {/* Recent game history */}
-            {gameHistory?.games?.length > 0 && (
-              <div className="profile-section">
-                <h3>Recent Games</h3>
-                <div className="game-history-list">
-                  {gameHistory.games.slice(0, 10).map((game) => {
-                    const date = new Date(game.played_at).toLocaleDateString('en-US', {
-                      month: 'short', day: 'numeric', year: 'numeric',
-                    })
-                    const topics = game.topics ? game.topics.split(',').filter(Boolean) : []
-                    const fjResult = game.final_jeopardy_correct === 1 ? '✓' : game.final_jeopardy_correct === 0 ? '✗' : '—'
-                    return (
-                      <div key={game.id} className="game-history-row">
-                        <div className="game-history-main">
-                          <span className="game-history-date">{date}</span>
-                          {topics.length > 0 && (
-                            <div className="game-history-topics">
-                              {topics.map((t) => (
-                                <span key={t} className="game-history-topic-pill">{t}</span>
-                              ))}
-                            </div>
-                          )}
-                          <div className="game-history-breakdown">
-                            R1 {game.round1_correct}✓ {game.round1_incorrect}✗
-                            &nbsp;·&nbsp;
-                            R2 {game.round2_correct}✓ {game.round2_incorrect}✗
-                            &nbsp;·&nbsp;
-                            FJ {fjResult}
-                          </div>
-                        </div>
-                        <div className="game-history-score">{formatScore(game.final_score)}</div>
+                {/* Lifetime stats */}
+                {(() => {
+                  const ls = gameHistory?.lifetimeStats
+                  const accuracy = ls?.totalAnswered > 0
+                    ? Math.round((ls.totalCorrect / ls.totalAnswered) * 100)
+                    : null
+                  const fjRate = ls?.totalGames > 0
+                    ? Math.round((ls.finalJeopardyWins / ls.totalGames) * 100)
+                    : null
+                  return (
+                    <div className="profile-stats-bar">
+                      <div className="stat-card">
+                        <div className="stat-value">{ls?.totalGames ?? 0}</div>
+                        <div className="stat-label">Games Played</div>
                       </div>
-                    )
-                  })}
-                </div>
-              </div>
-            )}
+                      <div className="stat-card">
+                        <div className="stat-value">{ls?.bestScore ? `$${ls.bestScore.toLocaleString()}` : '—'}</div>
+                        <div className="stat-label">Best Score</div>
+                      </div>
+                      <div className="stat-card">
+                        <div className="stat-value">{accuracy !== null ? `${accuracy}%` : '—'}</div>
+                        <div className="stat-label">Accuracy</div>
+                      </div>
+                      <div className="stat-card">
+                        <div className="stat-value">{fjRate !== null ? `${fjRate}%` : '—'}</div>
+                        <div className="stat-label">FJ Win Rate</div>
+                      </div>
+                    </div>
+                  )
+                })()}
 
-            <button className="secondary-button" type="button" onClick={() => setGamePhase('LOBBY')}>
-              ← Back to Lobby
-            </button>
-          </section>
+                {/* Achievements */}
+                {(() => {
+                  const earned = new Map((allAchievements ?? []).map((a) => [a.slug, a.earned_at]))
+                  const merged = (achievementDefs ?? []).map((def) => ({
+                    ...def,
+                    earned_at: earned.get(def.slug) || null,
+                  }))
+                  const earnedCount = merged.filter((a) => a.earned_at).length
+                  return (
+                    <div className="profile-section">
+                      <h3>Achievements <span className="achievement-count">{earnedCount}/{merged.length}</span></h3>
+                      <div className="profile-achievements">
+                        {merged.map((ach) => (
+                          <div key={ach.slug} className={`achievement-card${ach.earned_at ? ' earned' : ''}`}>
+                            <div className="achievement-icon">{ACHIEVEMENT_ICONS[ach.slug] || '🎖️'}</div>
+                            <div className="achievement-content">
+                              <div className="achievement-name">{ach.name}</div>
+                              <div className="achievement-desc">{ach.description}</div>
+                              {ach.earned_at ? (
+                                <div className="achievement-earned">Earned {timeAgo(ach.earned_at)}</div>
+                              ) : (
+                                <div className="achievement-locked-label">Locked</div>
+                              )}
+                            </div>
+                            {!ach.earned_at && <div className="achievement-lock-icon">🔒</div>}
+                          </div>
+                        ))}
+                        {merged.length === 0 && (
+                          <p className="no-achievements">Complete games to earn achievements!</p>
+                        )}
+                      </div>
+                    </div>
+                  )
+                })()}
+
+                {/* Recent game history */}
+                {gameHistory?.games?.length > 0 && (
+                  <div className="profile-section">
+                    <h3>Recent Games</h3>
+                    <div className="game-history-list">
+                      {gameHistory.games.slice(0, 10).map((game) => {
+                        const date = new Date(game.played_at).toLocaleDateString('en-US', {
+                          month: 'short', day: 'numeric', year: 'numeric',
+                        })
+                        const topics = game.topics ? game.topics.split(',').filter(Boolean) : []
+                        const fjResult = game.final_jeopardy_correct === 1 ? '✓' : game.final_jeopardy_correct === 0 ? '✗' : '—'
+                        return (
+                          <div key={game.id} className="game-history-row">
+                            <div className="game-history-main">
+                              <span className="game-history-date">{date}</span>
+                              {topics.length > 0 && (
+                                <div className="game-history-topics">
+                                  {topics.map((t) => (
+                                    <span key={t} className="game-history-topic-pill">{t}</span>
+                                  ))}
+                                </div>
+                              )}
+                              <div className="game-history-breakdown">
+                                R1 {game.round1_correct}✓ {game.round1_incorrect}✗
+                                &nbsp;·&nbsp;
+                                R2 {game.round2_correct}✓ {game.round2_incorrect}✗
+                                &nbsp;·&nbsp;
+                                FJ {fjResult}
+                              </div>
+                            </div>
+                            <div className="game-history-score">{formatScore(game.final_score)}</div>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                <button className="secondary-button" type="button" onClick={() => setGamePhase('LOBBY')}>
+                  ← Back to Lobby
+                </button>
+              </section>
+            ) : (
+              <section className="panel panel-full profile-panel">
+                <p className="profile-loading">Loading profile…</p>
+                <button className="secondary-button" type="button" onClick={() => setGamePhase('LOBBY')}>
+                  ← Back to Lobby
+                </button>
+              </section>
+            )}
+          </>
         )}
       </div>
 

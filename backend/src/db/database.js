@@ -2,10 +2,23 @@ import pg from 'pg'
 
 const { Pool } = pg
 
+const dbUrl = process.env.NODE_ENV === 'test'
+  ? (process.env.DATABASE_URL_TEST || process.env.DATABASE_URL)
+  : process.env.DATABASE_URL
+
+if (dbUrl) {
+  try {
+    const { hostname } = new URL(dbUrl)
+    console.log(`[db] connecting to ${hostname}`)
+  } catch {
+    console.log('[db] DATABASE_URL is set (unparseable)')
+  }
+} else {
+  console.warn('[db] WARNING: DATABASE_URL is not set — falling back to default pg connection (localhost:5432)')
+}
+
 const pool = new Pool({
-  connectionString: process.env.NODE_ENV === 'test'
-    ? (process.env.DATABASE_URL_TEST || process.env.DATABASE_URL)
-    : process.env.DATABASE_URL,
+  connectionString: dbUrl,
   ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
 })
 

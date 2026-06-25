@@ -1,5 +1,14 @@
 export const FUZZY_MATCH_THRESHOLD = 0.80
 
+// Split a raw (un-normalized) correct answer into alternate acceptable forms.
+// Handles patterns like "France or Germany", "Twain/Clemens", "A and/or B".
+export function splitAlternates(rawAnswer) {
+  return rawAnswer
+    .split(/\s+and\/or\s+|\s+or\s+|\s*\/\s*/i)
+    .map((s) => s.trim())
+    .filter(Boolean)
+}
+
 export function normalizeAnswer(text) {
   return text
     .toLowerCase()
@@ -50,7 +59,7 @@ export function simpleStem(str) {
   return str
 }
 
-export function answersMatch(userAnswer, correctAnswer) {
+function matchesSingle(userAnswer, correctAnswer) {
   if (!userAnswer || !correctAnswer) return false
   if (userAnswer === correctAnswer) return true
   if (correctAnswer.length >= 6 && userAnswer.includes(correctAnswer)) return true
@@ -59,7 +68,18 @@ export function answersMatch(userAnswer, correctAnswer) {
   const stemmedCorrect = simpleStem(correctAnswer)
   if (stemmedUser === stemmedCorrect) return true
   if (getSimilarityScore(stemmedUser, stemmedCorrect) >= FUZZY_MATCH_THRESHOLD) return true
+  // Order-insensitive: sort words of both answers and compare
+  const userSorted = userAnswer.split(/\s+/).sort().join(' ')
+  const correctSorted = correctAnswer.split(/\s+/).sort().join(' ')
+  if (userSorted === correctSorted) return true
+  if (getSimilarityScore(userSorted, correctSorted) >= FUZZY_MATCH_THRESHOLD) return true
   return false
+}
+
+// alternates: optional array of pre-normalized alternate correct answers
+export function answersMatch(userAnswer, correctAnswer, alternates = []) {
+  if (matchesSingle(userAnswer, correctAnswer)) return true
+  return alternates.some((alt) => matchesSingle(userAnswer, alt))
 }
 
 export function isPartialMatch(userAnswer, correctAnswer) {
