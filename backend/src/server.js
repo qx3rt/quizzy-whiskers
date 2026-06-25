@@ -44,10 +44,10 @@ async function seedAchievements() {
 }
 
 // Middleware
-const allowedOrigins = process.env.CORS_ORIGIN
+const corsOrigin = process.env.CORS_ORIGIN
   ? process.env.CORS_ORIGIN.split(',').map(o => o.trim())
-  : ['http://localhost:5173'];
-app.use(cors({ origin: allowedOrigins }));
+  : true; // allow all when not configured; set CORS_ORIGIN in production to restrict
+app.use(cors({ origin: corsOrigin }));
 app.use(express.json());
 
 // Initialize database and start server
