@@ -73,6 +73,8 @@ function matchesSingle(userAnswer, correctAnswer) {
   const correctSorted = correctAnswer.split(/\s+/).sort().join(' ')
   if (userSorted === correctSorted) return true
   if (getSimilarityScore(userSorted, correctSorted) >= FUZZY_MATCH_THRESHOLD) return true
+  // Abbreviation: user typed the start of a longer correct answer (e.g. "vet" → "veterinarian")
+  if (userAnswer.length >= 3 && correctAnswer.startsWith(userAnswer)) return true
   return false
 }
 
