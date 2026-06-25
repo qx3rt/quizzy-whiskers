@@ -18,7 +18,7 @@ async function batchInsert(client, table, columns, rows) {
     const values = []
     const placeholders = chunk.map((row, ri) => {
       row.forEach((v) => values.push(v))
-      const base = (i + ri) * columns.length
+      const base = ri * columns.length
       return `(${columns.map((_, ci) => `$${base + ci + 1}`).join(', ')})`
     })
     await client.query(
