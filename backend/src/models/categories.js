@@ -1,84 +1,81 @@
+import { readFileSync, readdirSync } from 'fs'
+import { fileURLToPath } from 'url'
+import { dirname, join } from 'path'
 import { getAllQuery, runQuery } from '../db/database.js'
 
-const TOPIC_RULES = [
-  { topic: 'shakespeare',  display: 'Shakespeare',        keywords: ['SHAKESPEARE'] },
-  { topic: 'dickens',      display: 'Dickens',            keywords: ['DICKENS'] },
-  { topic: 'twain',        display: 'Mark Twain',         keywords: ['MARK TWAIN', 'TWAIN'] },
-  { topic: 'austen',       display: 'Jane Austen',        keywords: ['JANE AUSTEN', 'AUSTEN'] },
-  { topic: 'hemingway',    display: 'Hemingway',          keywords: ['HEMINGWAY'] },
-  { topic: 'poe',          display: 'Edgar Allan Poe',    keywords: [' POE '] },
-  { topic: 'poetry',       display: 'Poetry',             keywords: ['POETRY', ' POEMS', 'POEM '] },
-  { topic: 'literature',   display: 'Literature',         keywords: ['LITERATURE', 'NOVELS', ' NOVEL ', 'AUTHORS', ' AUTHOR ', 'FICTION', 'LITERARY'] },
-  { topic: 'broadway',     display: 'Broadway',           keywords: ['BROADWAY', 'MUSICAL', 'MUSICALS', 'TONY AWARD', 'TONY AWARDS'] },
-  { topic: 'opera',        display: 'Opera',              keywords: ['OPERA', 'OPERAS'] },
-  { topic: 'ballet',       display: 'Ballet',             keywords: ['BALLET'] },
-  { topic: 'classical',    display: 'Classical Music',    keywords: ['CLASSICAL MUSIC', 'SYMPHONY', 'SYMPHONIES', 'COMPOSER', 'COMPOSERS', 'BEETHOVEN', 'MOZART', 'BACH'] },
-  { topic: 'movies',       display: 'Movies',             keywords: ['MOVIE', 'MOVIES', 'FILM', 'FILMS', 'CINEMA', 'OSCAR', 'OSCARS', 'DIRECTOR', 'DIRECTORS', 'ACTOR', 'ACTRESS', 'ANIMATED FILM', 'BOX OFFICE'] },
-  { topic: 'television',   display: 'Television',         keywords: ['TELEVISION', ' TV ', 'SITCOM', 'SITCOMS', 'EMMY', 'EMMYS', 'GAME SHOW', 'TALK SHOW', 'TV SHOW', 'SOAP OPERA'] },
-  { topic: 'disney',       display: 'Disney',             keywords: ['DISNEY'] },
-  { topic: 'music',        display: 'Music',              keywords: ['MUSIC', 'SONGS', ' SONG ', 'SINGER', 'SINGERS', 'BAND ', 'BANDS', 'ALBUM', 'ALBUMS', 'ROCK AND ROLL', "ROCK 'N' ROLL", 'JAZZ', 'BLUES', 'COUNTRY MUSIC', 'HIP HOP', 'RAP ', 'POP MUSIC'] },
-  { topic: 'art',          display: 'Art',                keywords: ['PAINTING', 'PAINTINGS', 'SCULPTURE', 'SCULPTOR', 'MUSEUM', 'MUSEUMS', 'ARTIST', 'ARTISTS', 'FINE ART', 'MASTERPIECE'] },
-  { topic: 'architecture', display: 'Architecture',       keywords: ['ARCHITECTURE', 'ARCHITECT', 'BUILDING', 'BUILDINGS', 'LANDMARK', 'LANDMARKS'] },
-  { topic: 'presidents',   display: 'Presidents',         keywords: ['PRESIDENT', 'PRESIDENTS', 'WHITE HOUSE', 'COMMANDER IN CHIEF'] },
-  { topic: 'royalty',      display: 'Royalty',            keywords: ['KING ', 'QUEEN ', 'KINGS ', 'QUEENS ', 'ROYALTY', 'MONARCHY', 'CROWN'] },
-  { topic: 'war',          display: 'War & Military',     keywords: ['WAR ', ' WAR', 'WARS', 'BATTLE', 'BATTLES', 'MILITARY', 'WWII', 'WWI', 'CIVIL WAR', 'REVOLUTION'] },
-  { topic: 'history',      display: 'History',            keywords: ['HISTORY', 'HISTORICAL', 'ANCIENT', 'MEDIEVAL', 'CENTURY', 'EMPIRE', 'CIVILIZATION'] },
-  { topic: 'politics',     display: 'Politics',           keywords: ['POLITICS', 'POLITICAL', 'CONGRESS', 'SENATE', 'SUPREME COURT', 'ELECTION', 'CONSTITUTION'] },
-  { topic: 'mythology',    display: 'Mythology',          keywords: ['MYTHOLOGY', 'MYTH', 'GODS', 'GODDESSES', 'GREEK GODS', 'ROMAN GODS', 'NORSE', 'GREEK HEROES', 'OLYMPUS'] },
-  { topic: 'bible',        display: 'The Bible',          keywords: ['BIBLE', 'BIBLICAL', 'TESTAMENT', 'SCRIPTURE', 'GOSPEL', 'APOSTLE', 'PROPHET'] },
-  { topic: 'religion',     display: 'Religion',           keywords: ['RELIGION', 'RELIGIOUS', 'CHURCH', 'CHRISTIANITY', 'ISLAM', 'JUDAISM', 'BUDDHISM', 'HINDUISM'] },
-  { topic: 'philosophy',   display: 'Philosophy',         keywords: ['PHILOSOPHY', 'PHILOSOPHER', 'PHILOSOPHERS', 'ETHICS'] },
-  { topic: 'astronomy',    display: 'Astronomy',          keywords: ['ASTRONOMY', 'ASTRONOMERS', 'PLANET', 'PLANETS', 'STARS', 'GALAXY', 'SPACE', 'NASA', 'CONSTELLATION', 'COMET', 'TELESCOPE'] },
-  { topic: 'biology',      display: 'Biology',            keywords: ['BIOLOGY', 'ANIMAL', 'ANIMALS', 'MAMMAL', 'MAMMALS', 'BIRDS', 'INSECTS', 'PLANTS', 'BOTANY', 'SPECIES', 'EVOLUTION', 'DNA'] },
-  { topic: 'chemistry',    display: 'Chemistry',          keywords: ['CHEMISTRY', 'ELEMENTS', 'CHEMICAL', 'PERIODIC TABLE', 'MOLECULE', 'COMPOUND'] },
-  { topic: 'physics',      display: 'Physics',            keywords: ['PHYSICS', 'PHYSICISTS', 'QUANTUM', 'RELATIVITY', 'GRAVITY', 'ENERGY'] },
-  { topic: 'science',      display: 'Science',            keywords: ['SCIENCE', 'SCIENTIST', 'SCIENTISTS', 'INVENTION', 'INVENTIONS', 'INVENTOR', 'INVENTORS', 'DISCOVERY', 'DISCOVERIES', 'LABORATORY', 'EXPERIMENT', 'NOBEL PRIZE'] },
-  { topic: 'medicine',     display: 'Medicine',           keywords: ['MEDICINE', 'MEDICAL', 'DOCTOR', 'ANATOMY', 'DISEASE', 'SURGERY', 'PHARMACY'] },
-  { topic: 'geography',    display: 'Geography',          keywords: ['GEOGRAPHY', 'GEOGRAPHICAL', 'CONTINENT', 'CONTINENTS', 'OCEAN', 'OCEANS', 'RIVER', 'RIVERS', 'MOUNTAIN', 'MOUNTAINS', 'LAKE', 'LAKES', 'DESERT', 'ISLAND', 'ISLANDS', 'PENINSULA'] },
-  { topic: 'capitals',     display: 'World Capitals',     keywords: ['CAPITAL', 'CAPITALS', 'CAPITAL CITY', 'CAPITAL CITIES'] },
-  { topic: 'countries',    display: 'Countries',          keywords: ['COUNTRY', 'COUNTRIES', 'NATION', 'NATIONS', 'FLAG', 'FLAGS'] },
-  { topic: 'us-states',    display: 'U.S. States',        keywords: ['U.S. STATE', 'U.S. STATES', 'AMERICAN STATE', 'STATE CAPITAL', 'THE GREAT STATE'] },
-  { topic: 'cities',       display: 'Cities',             keywords: ['CITY', 'CITIES'] },
-  { topic: 'baseball',     display: 'Baseball',           keywords: ['BASEBALL', 'WORLD SERIES', 'MLB'] },
-  { topic: 'football',     display: 'Football',           keywords: ['FOOTBALL', 'NFL', 'SUPER BOWL', 'QUARTERBACK'] },
-  { topic: 'basketball',   display: 'Basketball',         keywords: ['BASKETBALL', 'NBA', 'MARCH MADNESS'] },
-  { topic: 'hockey',       display: 'Hockey',             keywords: ['HOCKEY', 'NHL', 'STANLEY CUP'] },
-  { topic: 'soccer',       display: 'Soccer',             keywords: ['SOCCER', 'WORLD CUP', 'FIFA', 'FOOTBALL CLUB'] },
-  { topic: 'olympics',     display: 'Olympics',           keywords: ['OLYMPICS', 'OLYMPIC', 'OLYMPIAN', 'OLYMPIANS'] },
-  { topic: 'golf',         display: 'Golf',               keywords: ['GOLF', 'GOLFER', 'GOLFERS', 'THE MASTERS', 'PGA'] },
-  { topic: 'boxing',       display: 'Boxing',             keywords: ['BOXING', 'BOXER', 'BOXERS', 'HEAVYWEIGHT'] },
-  { topic: 'tennis',       display: 'Tennis',             keywords: ['TENNIS', 'WIMBLEDON', 'US OPEN'] },
-  { topic: 'sports',       display: 'Sports',             keywords: ['SPORTS', 'ATHLETE', 'ATHLETES', 'CHAMPION', 'CHAMPIONSHIP', 'HALL OF FAME', 'TROPHY', 'RACING', 'MARATHON'] },
-  { topic: 'food',         display: 'Food & Drink',       keywords: ['FOOD', 'COOKING', 'CUISINE', 'CHEF', 'RECIPE', 'RESTAURANT', 'DISH', 'INGREDIENT', 'VEGETABLE', 'FRUIT', 'BREAD', 'CHEESE', 'SPICE', 'DESSERT', 'CAKE', 'WINE', 'BEER', 'COCKTAIL', 'BEVERAGE', 'POTENT POTABLE'] },
-  { topic: 'business',     display: 'Business',           keywords: ['BUSINESS', 'COMPANY', 'COMPANIES', 'CORPORATION', 'STOCK MARKET', 'ECONOMY', 'ECONOMICS', 'FINANCE', 'BRAND', 'BRANDS', 'ENTREPRENEUR', 'CEO'] },
-  { topic: 'technology',   display: 'Technology',         keywords: ['TECHNOLOGY', 'COMPUTER', 'COMPUTERS', 'INTERNET', 'SOFTWARE', 'APP', 'SILICON VALLEY', 'DIGITAL', 'ARTIFICIAL INTELLIGENCE'] },
-  { topic: 'language',     display: 'Language & Words',   keywords: ['LANGUAGE', 'LANGUAGES', 'WORD ', 'WORDS', 'VOCABULARY', 'GRAMMAR', 'LATIN ', 'ETYMOLOGY', 'SLANG', 'IDIOM'] },
-  { topic: 'biography',    display: 'Biography',          keywords: ['BIOGRAPHY', 'LIFE OF ', 'BORN IN', 'FAMOUS '] },
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const JARCHIVE_DIR = join(__dirname, '../../data/jarchive')
+
+// Topic groups with display names — used to seed category_groups table.
+const TOPIC_GROUPS = [
+  { slug: 'shakespeare',  display: 'Shakespeare' },
+  { slug: 'dickens',      display: 'Dickens' },
+  { slug: 'twain',        display: 'Mark Twain' },
+  { slug: 'austen',       display: 'Jane Austen' },
+  { slug: 'hemingway',    display: 'Hemingway' },
+  { slug: 'poe',          display: 'Edgar Allan Poe' },
+  { slug: 'poetry',       display: 'Poetry' },
+  { slug: 'literature',   display: 'Literature' },
+  { slug: 'broadway',     display: 'Broadway' },
+  { slug: 'opera',        display: 'Opera' },
+  { slug: 'ballet',       display: 'Ballet' },
+  { slug: 'classical',    display: 'Classical Music' },
+  { slug: 'movies',       display: 'Movies' },
+  { slug: 'television',   display: 'Television' },
+  { slug: 'disney',       display: 'Disney' },
+  { slug: 'music',        display: 'Music' },
+  { slug: 'art',          display: 'Art' },
+  { slug: 'architecture', display: 'Architecture' },
+  { slug: 'presidents',   display: 'Presidents' },
+  { slug: 'royalty',      display: 'Royalty' },
+  { slug: 'war',          display: 'War & Military' },
+  { slug: 'history',      display: 'History' },
+  { slug: 'politics',     display: 'Politics' },
+  { slug: 'mythology',    display: 'Mythology' },
+  { slug: 'bible',        display: 'The Bible' },
+  { slug: 'religion',     display: 'Religion' },
+  { slug: 'philosophy',   display: 'Philosophy' },
+  { slug: 'astronomy',    display: 'Astronomy' },
+  { slug: 'biology',      display: 'Biology' },
+  { slug: 'chemistry',    display: 'Chemistry' },
+  { slug: 'physics',      display: 'Physics' },
+  { slug: 'science',      display: 'Science' },
+  { slug: 'medicine',     display: 'Medicine' },
+  { slug: 'geography',    display: 'Geography' },
+  { slug: 'capitals',     display: 'World Capitals' },
+  { slug: 'countries',    display: 'Countries' },
+  { slug: 'us-states',    display: 'U.S. States' },
+  { slug: 'cities',       display: 'Cities' },
+  { slug: 'baseball',     display: 'Baseball' },
+  { slug: 'football',     display: 'Football' },
+  { slug: 'basketball',   display: 'Basketball' },
+  { slug: 'hockey',       display: 'Hockey' },
+  { slug: 'soccer',       display: 'Soccer' },
+  { slug: 'olympics',     display: 'Olympics' },
+  { slug: 'golf',         display: 'Golf' },
+  { slug: 'boxing',       display: 'Boxing' },
+  { slug: 'tennis',       display: 'Tennis' },
+  { slug: 'sports',       display: 'Sports' },
+  { slug: 'food',         display: 'Food & Drink' },
+  { slug: 'business',     display: 'Business' },
+  { slug: 'technology',   display: 'Technology' },
+  { slug: 'language',     display: 'Language & Words' },
+  { slug: 'biography',    display: 'Biography' },
 ]
 
-function matchTopic(categoryUpper) {
-  for (const rule of TOPIC_RULES) {
-    for (const kw of rule.keywords) {
-      if (categoryUpper.includes(kw)) return rule
-    }
-  }
-  return null
-}
-
-// Seeds category_groups and category_group_mappings if empty. Safe to call on every startup.
+// Seeds category_groups and category_group_mappings from jarchive data. Safe to call on every startup.
 export async function syncCategoryGroups() {
   try {
-    // Always upsert group rows (fast, idempotent ~55 rows)
-    for (const rule of TOPIC_RULES) {
+    // Upsert group rows (fast, idempotent)
+    for (const group of TOPIC_GROUPS) {
       await runQuery(
         'INSERT INTO category_groups (slug, display_name) VALUES ($1, $2) ON CONFLICT (slug) DO NOTHING',
-        [rule.topic, rule.display]
+        [group.slug, group.display]
       )
     }
     const [{ groupCount }] = await getAllQuery('SELECT COUNT(*)::int AS "groupCount" FROM category_groups')
     console.log(`[categories] category_groups: ${groupCount} rows`)
 
-    // Only rebuild mappings when the table is empty (queries all Cluebase categories — slow)
     const [{ mappingCount }] = await getAllQuery('SELECT COUNT(*)::int AS "mappingCount" FROM category_group_mappings')
     console.log(`[categories] category_group_mappings: ${mappingCount} rows`)
     if (mappingCount > 0) {
@@ -86,34 +83,38 @@ export async function syncCategoryGroups() {
       return
     }
 
-    console.log('[categories] Building category_group_mappings from Cluebase data...')
-    const categories = await getAllQuery(
-      "SELECT DISTINCT category FROM clues WHERE category IS NOT NULL AND category != ''"
-    )
-    console.log(`[categories] Found ${categories.length} distinct Cluebase categories`)
-
+    // Build mappings directly from jarchive JSON using the known topic_area on each category
+    console.log('[categories] Building category_group_mappings from jarchive topic areas...')
     const groups = await getAllQuery('SELECT id, slug FROM category_groups')
     const groupBySlug = Object.fromEntries(groups.map((g) => [g.slug, g.id]))
 
+    const files = readdirSync(JARCHIVE_DIR).filter(
+      (f) => f.endsWith('.json') && f !== 'final_jeopardy.json'
+    )
+
     let mapped = 0
-    for (const { category } of categories) {
-      const rule = matchTopic(' ' + category.toUpperCase() + ' ')
-      if (!rule) continue
-      const groupId = groupBySlug[rule.topic]
-      if (!groupId) continue
-      await runQuery(
-        'INSERT INTO category_group_mappings (category_group_id, cluebase_category) VALUES ($1, $2) ON CONFLICT (cluebase_category) DO NOTHING',
-        [groupId, category]
-      )
-      mapped++
+    const seen = new Set()
+    for (const file of files) {
+      const categories = JSON.parse(readFileSync(join(JARCHIVE_DIR, file), 'utf8'))
+      for (const cat of categories) {
+        if (!cat.topic_area || !cat.name || seen.has(cat.name)) continue
+        seen.add(cat.name)
+        const groupId = groupBySlug[cat.topic_area]
+        if (!groupId) continue
+        await runQuery(
+          'INSERT INTO category_group_mappings (category_group_id, cluebase_category) VALUES ($1, $2) ON CONFLICT (cluebase_category) DO NOTHING',
+          [groupId, cat.name]
+        )
+        mapped++
+      }
     }
-    console.log(`[categories] Mapped ${mapped} of ${categories.length} Cluebase categories`)
+    console.log(`[categories] Mapped ${mapped} categories from jarchive data`)
   } catch (err) {
     console.error('[categories] syncCategoryGroups failed:', err.message)
   }
 }
 
-// Returns topic areas with the count of Cluebase categories mapped to each group.
+// Returns topic areas with the count of jarchive categories mapped to each group.
 export async function getTopicAreas() {
   return getAllQuery(`
     SELECT cg.slug AS id,
