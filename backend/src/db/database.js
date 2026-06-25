@@ -97,7 +97,16 @@ export async function initializeDatabase() {
     CREATE INDEX IF NOT EXISTS idx_user_achievements_user ON user_achievements(user_id);
     CREATE INDEX IF NOT EXISTS idx_cgm_category ON category_group_mappings(cluebase_category);
     CREATE INDEX IF NOT EXISTS idx_cgm_group ON category_group_mappings(category_group_id);
-  `)
+  `);
+
+  // Strip Cluebase-specific columns that have NOT NULL constraints incompatible
+  // with our schema. IF EXISTS makes these no-ops on fresh deployments.
+  await pool.query(`
+    ALTER TABLE clues DROP COLUMN IF EXISTS daily_double;
+    ALTER TABLE clues DROP COLUMN IF EXISTS complete;
+    ALTER TABLE clues DROP COLUMN IF EXISTS air_date;
+    ALTER TABLE clues DROP COLUMN IF EXISTS season;
+  `);
 }
 
 export async function closeDatabase() {
