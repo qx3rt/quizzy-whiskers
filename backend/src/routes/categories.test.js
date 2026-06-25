@@ -1,20 +1,25 @@
 import { describe, it, expect, beforeEach } from 'vitest'
 import request from 'supertest'
 import { createTestApp } from '../test/helpers.js'
-import { getDatabase } from '../db/database.js'
+import { runQuery } from '../db/database.js'
 
 let app
 
 beforeEach(async () => {
   app = await createTestApp()
-  const db = getDatabase()
   const topicSlugs = ['us-states', 'tv', 'science', 'biography']
-  topicSlugs.forEach((slug, i) => {
-    db.run(
-      "INSERT INTO categories (name, slug, topic_area, round) VALUES (?, ?, ?, 'Jeopardy!')",
-      [`Category ${i}`, `cat-${slug}-${i}`, slug]
+  for (let i = 0; i < topicSlugs.length; i++) {
+    const slug = topicSlugs[i]
+    const result = await runQuery(
+      'INSERT INTO category_groups (slug, display_name) VALUES ($1, $2) RETURNING id',
+      [slug, slug]
     )
-  })
+    const groupId = result.rows[0].id
+    await runQuery(
+      'INSERT INTO category_group_mappings (category_group_id, cluebase_category) VALUES ($1, $2)',
+      [groupId, `TEST_CATEGORY_${slug.toUpperCase()}`]
+    )
+  }
 })
 
 describe('GET /api/categories', () => {

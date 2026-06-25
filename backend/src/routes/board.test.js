@@ -6,8 +6,8 @@ let app
 
 beforeEach(async () => {
   app = await createTestApp()
-  seedTestBoard('Jeopardy!')
-  seedTestBoard('Double Jeopardy!')
+  await seedTestBoard('Jeopardy!')
+  await seedTestBoard('Double Jeopardy!')
 })
 
 describe('GET /api/board', () => {

@@ -8,7 +8,7 @@ const router = express.Router()
 //   ?topics=shakespeare,mythology  (comma-separated topic slugs)
 //   ?round=Jeopardy!              ('Jeopardy!' | 'Double Jeopardy!' — defaults to 'Jeopardy!')
 // Returns 6 category-sets, each with 5 clues ordered by dollar value.
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const topicsParam = req.query.topics
     const topicAreas = topicsParam
@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
     const VALID_ROUNDS = ['Jeopardy!', 'Double Jeopardy!']
     const round = VALID_ROUNDS.includes(req.query.round) ? req.query.round : 'Jeopardy!'
 
-    const board = generateCuratedBoard(topicAreas, round)
+    const board = await generateCuratedBoard(topicAreas, round)
 
     res.json({ success: true, data: board })
   } catch (error) {
@@ -29,9 +29,9 @@ router.get('/', (req, res) => {
 
 // GET /api/board/final
 // Returns a single random Final Jeopardy! category + clue.
-router.get('/final', (req, res) => {
+router.get('/final', async (req, res) => {
   try {
-    const result = generateFinalJeopardy()
+    const result = await generateFinalJeopardy()
     if (!result) {
       return res.status(404).json({ success: false, error: 'No Final Jeopardy clues available' })
     }

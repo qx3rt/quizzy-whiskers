@@ -1,8 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { initializeDatabase, closeDatabase, getDatabase, getAllQuery, saveDatabase } from './db/database.js';
-import { syncCategories } from './db/seed.js';
+import { initializeDatabase, closeDatabase, getAllQuery, runQuery } from './db/database.js';
 import categoriesRouter from './routes/categories.js';
 import boardRouter from './routes/board.js';
 import authRouter from './routes/auth.js';
@@ -30,20 +29,16 @@ const ACHIEVEMENTS = [
   { slug: 'answer_machine',         name: 'Answer Machine',        description: 'Answer 200 questions correctly across all your games' },
 ];
 
-function seedAchievements() {
-  const db = getDatabase();
+async function seedAchievements() {
   let added = 0;
   for (const ach of ACHIEVEMENTS) {
-    const existing = getAllQuery('SELECT id FROM achievements WHERE slug = ?', [ach.slug]);
-    if (existing.length === 0) {
-      db.run('INSERT INTO achievements (slug, name, description) VALUES (?, ?, ?)', [ach.slug, ach.name, ach.description]);
-      added++;
-    }
+    const result = await runQuery(
+      'INSERT INTO achievements (slug, name, description) VALUES ($1, $2, $3) ON CONFLICT (slug) DO NOTHING',
+      [ach.slug, ach.name, ach.description]
+    );
+    if (result.rowCount > 0) added++;
   }
-  if (added > 0) {
-    saveDatabase();
-    console.log(`Seeded ${added} achievements`);
-  }
+  if (added > 0) console.log(`Seeded ${added} achievements`);
 }
 
 // Middleware
@@ -54,8 +49,7 @@ app.use(express.json());
 async function startServer() {
   try {
     await initializeDatabase();
-    await syncCategories();
-    seedAchievements();
+    await seedAchievements();
     console.log('Database ready');
 
     // Routes
@@ -88,8 +82,7 @@ async function startServer() {
 // Graceful shutdown
 process.on('SIGINT', () => {
   console.log('Shutting down gracefully...');
-  closeDatabase();
-  process.exit(0);
+  closeDatabase().then(() => process.exit(0));
 });
 
 startServer();

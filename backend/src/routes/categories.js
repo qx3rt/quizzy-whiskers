@@ -5,11 +5,10 @@ const router = express.Router()
 
 // Returns topic areas (e.g. shakespeare, mythology) with category-set counts.
 // Frontend uses this to populate the category picker.
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   try {
-    const topics = getTopicAreas()
+    const topics = await getTopicAreas()
 
-    // Humanize the slug into a display name
     const formatted = topics.map(t => ({
       id: t.id,
       name: humanizeTopicSlug(t.slug),

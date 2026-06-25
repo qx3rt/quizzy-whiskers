@@ -1,6 +1,6 @@
 import express from 'express'
 import bcrypt from 'bcryptjs'
-import { getAllQuery, getDatabase, saveDatabase } from '../db/database.js'
+import { getAllQuery, runQuery } from '../db/database.js'
 import { requireAuth, signToken } from '../middleware/auth.js'
 
 const router = express.Router()
@@ -21,20 +21,17 @@ router.post('/register', async (req, res) => {
   }
 
   try {
-    const existing = getAllQuery('SELECT id FROM users WHERE email = ?', [normalizedEmail])
+    const existing = await getAllQuery('SELECT id FROM users WHERE email = $1', [normalizedEmail])
     if (existing.length > 0) {
       return res.status(409).json({ success: false, error: 'Email already registered' })
     }
 
     const passwordHash = await bcrypt.hash(password, 10)
-    const db = getDatabase()
-    db.run(
-      'INSERT INTO users (email, password_hash, display_name) VALUES (?, ?, ?)',
+    const result = await runQuery(
+      'INSERT INTO users (email, password_hash, display_name) VALUES ($1, $2, $3) RETURNING id',
       [normalizedEmail, passwordHash, displayName?.trim() || null]
     )
-    const idResult = db.exec('SELECT last_insert_rowid()')
-    const userId = idResult[0]?.values?.[0]?.[0]
-    saveDatabase()
+    const userId = result.rows[0].id
 
     const token = signToken({ userId, email: normalizedEmail })
     res.status(201).json({
@@ -60,8 +57,8 @@ router.post('/login', async (req, res) => {
   const normalizedEmail = email.toLowerCase().trim()
 
   try {
-    const users = getAllQuery(
-      'SELECT id, email, password_hash, display_name FROM users WHERE email = ?',
+    const users = await getAllQuery(
+      'SELECT id, email, password_hash, display_name FROM users WHERE email = $1',
       [normalizedEmail]
     )
     if (users.length === 0) {
@@ -89,19 +86,24 @@ router.post('/login', async (req, res) => {
 })
 
 // GET /api/auth/me
-router.get('/me', requireAuth, (req, res) => {
-  const users = getAllQuery(
-    'SELECT id, email, display_name, created_at FROM users WHERE id = ?',
-    [req.user.userId]
-  )
-  if (!users.length) {
-    return res.status(404).json({ success: false, error: 'User not found' })
+router.get('/me', requireAuth, async (req, res) => {
+  try {
+    const users = await getAllQuery(
+      'SELECT id, email, display_name, created_at FROM users WHERE id = $1',
+      [req.user.userId]
+    )
+    if (!users.length) {
+      return res.status(404).json({ success: false, error: 'User not found' })
+    }
+    const user = users[0]
+    res.json({
+      success: true,
+      data: { id: user.id, email: user.email, displayName: user.display_name, memberSince: user.created_at },
+    })
+  } catch (err) {
+    console.error('Auth me error:', err)
+    res.status(500).json({ success: false, error: 'Failed to fetch user' })
   }
-  const user = users[0]
-  res.json({
-    success: true,
-    data: { id: user.id, email: user.email, displayName: user.display_name, memberSince: user.created_at },
-  })
 })
 
 export default router

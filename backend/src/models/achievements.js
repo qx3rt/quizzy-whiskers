@@ -1,13 +1,12 @@
-import { getAllQuery, getDatabase } from '../db/database.js'
+import { getAllQuery, runQuery } from '../db/database.js'
 
-export function checkAndAwardAchievements(userId, gameData, allGamesCount) {
-  const allAchievements = getAllQuery('SELECT * FROM achievements')
-  const earned = new Set(
-    getAllQuery('SELECT achievement_id FROM user_achievements WHERE user_id = ?', [userId]).map(
-      (r) => r.achievement_id
-    )
+export async function checkAndAwardAchievements(userId, gameData, allGamesCount) {
+  const allAchievements = await getAllQuery('SELECT * FROM achievements')
+  const earnedRows = await getAllQuery(
+    'SELECT achievement_id FROM user_achievements WHERE user_id = $1',
+    [userId]
   )
-  const db = getDatabase()
+  const earned = new Set(earnedRows.map(r => r.achievement_id))
   const newlyEarned = []
 
   for (const ach of allAchievements) {
@@ -56,11 +55,11 @@ export function checkAndAwardAchievements(userId, gameData, allGamesCount) {
         grant = gameData.final_jeopardy_correct === 1
         break
       case 'fj_regular': {
-        const [{ total }] = getAllQuery(
-          'SELECT COALESCE(SUM(final_jeopardy_correct), 0) as total FROM games WHERE user_id = ?',
+        const rows = await getAllQuery(
+          'SELECT COALESCE(SUM(final_jeopardy_correct), 0)::int AS total FROM games_played WHERE user_id = $1',
           [userId]
         )
-        grant = total >= 5
+        grant = rows[0].total >= 5
         break
       }
       case 'high_roller':
@@ -70,20 +69,20 @@ export function checkAndAwardAchievements(userId, gameData, allGamesCount) {
         grant = gameData.final_score >= 20000
         break
       case 'answer_machine': {
-        const [{ total }] = getAllQuery(
-          'SELECT COALESCE(SUM(round1_correct + round2_correct), 0) as total FROM games WHERE user_id = ?',
+        const rows = await getAllQuery(
+          'SELECT COALESCE(SUM(round1_correct + round2_correct), 0)::int AS total FROM games_played WHERE user_id = $1',
           [userId]
         )
-        grant = total >= 200
+        grant = rows[0].total >= 200
         break
       }
     }
 
     if (grant) {
-      db.run('INSERT OR IGNORE INTO user_achievements (user_id, achievement_id) VALUES (?, ?)', [
-        userId,
-        ach.id,
-      ])
+      await runQuery(
+        'INSERT INTO user_achievements (user_id, achievement_id) VALUES ($1, $2) ON CONFLICT DO NOTHING',
+        [userId, ach.id]
+      )
       newlyEarned.push({ slug: ach.slug, name: ach.name, description: ach.description })
     }
   }

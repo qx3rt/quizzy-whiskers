@@ -1,12 +1,12 @@
 import express from 'express'
-import { getAllQuery, getDatabase, saveDatabase } from '../db/database.js'
+import { getAllQuery, runQuery } from '../db/database.js'
 import { requireAuth } from '../middleware/auth.js'
 import { checkAndAwardAchievements } from '../models/achievements.js'
 
 const router = express.Router()
 
 // POST /api/games — save a completed game
-router.post('/', requireAuth, (req, res) => {
+router.post('/', requireAuth, async (req, res) => {
   const {
     finalScore,
     topics = [],
@@ -32,12 +32,11 @@ router.post('/', requireAuth, (req, res) => {
   }
 
   try {
-    const db = getDatabase()
-    db.run(
-      `INSERT INTO games
+    await runQuery(
+      `INSERT INTO games_played
        (user_id, final_score, round1_correct, round1_incorrect, round1_timed_out,
         round2_correct, round2_incorrect, round2_timed_out, final_jeopardy_correct, topics)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)`,
       [
         req.user.userId,
         finalScore,
@@ -52,10 +51,11 @@ router.post('/', requireAuth, (req, res) => {
       ]
     )
 
-    const [{ count: totalGames }] = getAllQuery(
-      'SELECT COUNT(*) as count FROM games WHERE user_id = ?',
+    const countRows = await getAllQuery(
+      'SELECT COUNT(*)::int AS count FROM games_played WHERE user_id = $1',
       [req.user.userId]
     )
+    const totalGames = countRows[0].count
 
     const gameData = {
       final_score: finalScore,
@@ -68,8 +68,7 @@ router.post('/', requireAuth, (req, res) => {
       final_jeopardy_correct: finalJeopardyCorrect ? 1 : 0,
     }
 
-    const newAchievements = checkAndAwardAchievements(req.user.userId, gameData, totalGames)
-    saveDatabase()
+    const newAchievements = await checkAndAwardAchievements(req.user.userId, gameData, totalGames)
 
     res.json({ success: true, data: { newAchievements } })
   } catch (err) {
@@ -79,23 +78,24 @@ router.post('/', requireAuth, (req, res) => {
 })
 
 // GET /api/games — game history for the authenticated user
-router.get('/', requireAuth, (req, res) => {
+router.get('/', requireAuth, async (req, res) => {
   try {
-    const games = getAllQuery(
-      'SELECT * FROM games WHERE user_id = ? ORDER BY played_at DESC LIMIT 20',
+    const games = await getAllQuery(
+      'SELECT * FROM games_played WHERE user_id = $1 ORDER BY played_at DESC LIMIT 20',
       [req.user.userId]
     )
-    const [stats] = getAllQuery(
+    const statsRows = await getAllQuery(
       `SELECT
-         COUNT(*) as totalGames,
-         COALESCE(MAX(final_score), 0) as bestScore,
-         COALESCE(ROUND(AVG(final_score)), 0) as avgScore,
-         COALESCE(SUM(round1_correct + round2_correct), 0) as totalCorrect,
-         COALESCE(SUM(round1_correct + round1_incorrect + round1_timed_out + round2_correct + round2_incorrect + round2_timed_out), 0) as totalAnswered,
-         COALESCE(SUM(CASE WHEN final_jeopardy_correct = 1 THEN 1 ELSE 0 END), 0) as finalJeopardyWins
-       FROM games WHERE user_id = ?`,
+         COUNT(*)::int AS "totalGames",
+         COALESCE(MAX(final_score), 0) AS "bestScore",
+         COALESCE(ROUND(AVG(final_score)::numeric)::int, 0) AS "avgScore",
+         COALESCE(SUM(round1_correct + round2_correct)::int, 0) AS "totalCorrect",
+         COALESCE(SUM(round1_correct + round1_incorrect + round1_timed_out + round2_correct + round2_incorrect + round2_timed_out)::int, 0) AS "totalAnswered",
+         COALESCE(SUM(CASE WHEN final_jeopardy_correct = 1 THEN 1 ELSE 0 END)::int, 0) AS "finalJeopardyWins"
+       FROM games_played WHERE user_id = $1`,
       [req.user.userId]
     )
+    const stats = statsRows[0]
 
     res.json({
       success: true,

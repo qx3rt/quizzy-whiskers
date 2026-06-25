@@ -1,100 +1,103 @@
-import { getAllQuery } from '../db/database.js'
+import { getAllQuery, getQuery } from '../db/database.js'
 
-// Generates a 6-column board. Each column is a real Jeopardy! category-set
-// (original episode category name + 5 clues in dollar-value order).
-//
-// topicAreas: array of topic slugs (e.g. ['shakespeare', 'mythology'])
-// round: 'Jeopardy!' | 'Double Jeopardy!' | 'Final Jeopardy!' — filters to one round
-//        so all 6 columns share consistent dollar values. Defaults to 'Jeopardy!'.
-export function generateCuratedBoard(topicAreas = [], round = 'Jeopardy!') {
-  // Expected max dollar value per round — used to filter out misclassified old-era categories.
-  // Some old-era Double Jeopardy! categories were stored with $200-$1000 values (same as
-  // Round 1) because the import script's isModernJ check passes for those values. Filtering
-  // by max_value ensures all 6 columns use a consistent dollar scale.
-  const expectedMaxValue = round === 'Double Jeopardy!' ? 2000 : 1000
+// Translate app round names to Cluebase's naming convention
+const ROUND_MAP = {
+  'Jeopardy!': 'J!',
+  'Double Jeopardy!': 'DJ!',
+}
 
-  let candidates
+// Expected max dollar value per round — excludes old-era categories with
+// mismatched values (e.g. DJ! categories that only go up to $1000).
+const MAX_VALUE = {
+  'Jeopardy!': 1000,
+  'Double Jeopardy!': 2000,
+}
 
-  const maxValueSubquery = `AND id IN (
-      SELECT category_id FROM clues GROUP BY category_id HAVING MAX(dollar_value) = ${expectedMaxValue}
-    )`
+export async function generateCuratedBoard(topicAreas = [], round = 'Jeopardy!') {
+  const cluebaseRound = ROUND_MAP[round] || 'J!'
+  const expectedMax = MAX_VALUE[round] || 1000
+
+  let candidateRows
 
   if (topicAreas.length > 0) {
-    // sql.js doesn't support IN (?) with an array — build placeholders manually
-    const placeholders = topicAreas.map(() => '?').join(', ')
-    candidates = getAllQuery(
-      `SELECT id, name, topic_area, season, air_date, round
-       FROM categories
-       WHERE round = ? AND topic_area IN (${placeholders}) ${maxValueSubquery}`,
-      [round, ...topicAreas]
+    candidateRows = await getAllQuery(
+      `SELECT c.category
+       FROM clues c
+       JOIN category_group_mappings cgm ON cgm.cluebase_category = c.category
+       JOIN category_groups cg ON cg.id = cgm.category_group_id
+       WHERE c.round = $1
+         AND c.value > 0
+         AND cg.slug = ANY($2::text[])
+       GROUP BY c.category
+       HAVING COUNT(*) >= 5 AND MAX(c.value) = $3
+       ORDER BY RANDOM()
+       LIMIT 6`,
+      [cluebaseRound, topicAreas, expectedMax]
     )
   } else {
-    candidates = getAllQuery(
-      `SELECT id, name, topic_area, season, air_date, round FROM categories WHERE round = ? ${maxValueSubquery}`,
-      [round]
+    candidateRows = await getAllQuery(
+      `SELECT category
+       FROM clues
+       WHERE round = $1 AND value > 0
+       GROUP BY category
+       HAVING COUNT(*) >= 5 AND MAX(value) = $2
+       ORDER BY RANDOM()
+       LIMIT 6`,
+      [cluebaseRound, expectedMax]
     )
   }
 
-  if (candidates.length === 0) {
-    return []
-  }
+  if (candidateRows.length === 0) return []
 
-  // Fisher-Yates shuffle (sql.js has no ORDER BY RANDOM())
-  for (let i = candidates.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
-  }
-  const shuffled = candidates.slice(0, 6)
+  const selectedCategories = candidateRows.map(r => r.category)
 
-  // Fetch all clues for the selected categories in one query instead of one per category
-  const ids = shuffled.map(c => c.id)
-  const placeholders = ids.map(() => '?').join(', ')
-  const allClues = getAllQuery(
-    `SELECT id, clue_text, response_text, dollar_value, category_id FROM clues WHERE category_id IN (${placeholders}) ORDER BY category_id, dollar_value ASC`,
-    ids
+  // Fetch all clues for the selected categories in one query
+  const clues = await getAllQuery(
+    `SELECT id, category, value, clue AS clue_text, response AS response_text
+     FROM clues
+     WHERE round = $1 AND category = ANY($2::text[]) AND value > 0
+     ORDER BY category, value ASC`,
+    [cluebaseRound, selectedCategories]
   )
 
   const cluesByCategory = {}
-  for (const clue of allClues) {
-    if (!cluesByCategory[clue.category_id]) cluesByCategory[clue.category_id] = []
-    cluesByCategory[clue.category_id].push(clue)
+  for (const clue of clues) {
+    if (!cluesByCategory[clue.category]) cluesByCategory[clue.category] = []
+    cluesByCategory[clue.category].push(clue)
   }
 
-  return shuffled.map(cat => ({
-    category: cat.name,
-    topic_area: cat.topic_area,
-    clues: (cluesByCategory[cat.id] || []).map(c => ({
+  // Look up topic_area for each category (best-effort; null if untagged)
+  const topicRows = await getAllQuery(
+    `SELECT cgm.cluebase_category, cg.slug AS topic_area
+     FROM category_group_mappings cgm
+     JOIN category_groups cg ON cg.id = cgm.category_group_id
+     WHERE cgm.cluebase_category = ANY($1::text[])`,
+    [selectedCategories]
+  )
+  const topicByCategory = {}
+  for (const row of topicRows) topicByCategory[row.cluebase_category] = row.topic_area
+
+  return selectedCategories.map(category => ({
+    category,
+    topic_area: topicByCategory[category] || null,
+    clues: (cluesByCategory[category] || []).slice(0, 5).map(c => ({
       id: c.id,
-      value: c.dollar_value,
+      value: c.value,
       clue_text: c.clue_text,
       response_text: c.response_text,
     })),
   }))
 }
 
-// Returns a single random Final Jeopardy! category-set (1 clue).
-export function generateFinalJeopardy() {
-  const candidates = getAllQuery(
-    "SELECT id, name, topic_area FROM categories WHERE round = 'Final Jeopardy!'"
+export async function generateFinalJeopardy() {
+  const row = await getQuery(
+    'SELECT id, name, clue_text, response_text FROM final_jeopardy ORDER BY RANDOM() LIMIT 1'
   )
 
-  if (candidates.length === 0) {
-    return null
-  }
+  if (!row) return null
 
-  const cat = candidates[Math.floor(Math.random() * candidates.length)]
-  const clues = getAllQuery(
-    'SELECT id, clue_text, response_text, dollar_value FROM clues WHERE category_id = ?',
-    [cat.id]
-  )
-
-  if (clues.length === 0) {
-    return null
-  }
-
-  const clue = clues[0]
   return {
-    category: cat.name,
-    clue: { id: clue.id, clue_text: clue.clue_text, response_text: clue.response_text },
+    category: row.name,
+    clue: { id: row.id, clue_text: row.clue_text, response_text: row.response_text },
   }
 }
