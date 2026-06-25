@@ -15,6 +15,9 @@ dist-ssr
 # SQLite database (auto-seeded on startup)
 *.db
 
+# Raw scraped HTML (data pipeline outputs, not source code)
+data/raw/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

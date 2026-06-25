@@ -13,7 +13,6 @@
  */
 
 import 'dotenv/config'
-import { createRequire } from 'module'
 import { readFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import path from 'path'

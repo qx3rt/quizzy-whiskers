@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { initializeDatabase, closeDatabase, getAllQuery, runQuery } from './db/database.js';
+import { initializeDatabase, closeDatabase, runQuery } from './db/database.js';
 import categoriesRouter from './routes/categories.js';
 import boardRouter from './routes/board.js';
 import authRouter from './routes/auth.js';
@@ -42,7 +42,10 @@ async function seedAchievements() {
 }
 
 // Middleware
-app.use(cors());
+const allowedOrigins = process.env.CORS_ORIGIN
+  ? process.env.CORS_ORIGIN.split(',').map(o => o.trim())
+  : ['http://localhost:5173'];
+app.use(cors({ origin: allowedOrigins }));
 app.use(express.json());
 
 // Initialize database and start server
@@ -80,9 +83,13 @@ async function startServer() {
 }
 
 // Graceful shutdown
-process.on('SIGINT', () => {
+function shutdown() {
   console.log('Shutting down gracefully...');
-  closeDatabase().then(() => process.exit(0));
-});
+  closeDatabase()
+    .then(() => process.exit(0))
+    .catch((err) => { console.error('Shutdown error:', err); process.exit(1); });
+}
+process.on('SIGINT', shutdown);
+process.on('SIGTERM', shutdown);
 
 startServer();

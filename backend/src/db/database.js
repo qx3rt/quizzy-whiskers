@@ -34,7 +34,7 @@ export async function initializeDatabase() {
 
     CREATE TABLE IF NOT EXISTS games_played (
       id SERIAL PRIMARY KEY,
-      user_id INTEGER NOT NULL REFERENCES users(id),
+      user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
       final_score INTEGER NOT NULL,
       round1_correct INTEGER DEFAULT 0,
       round1_incorrect INTEGER DEFAULT 0,
@@ -55,8 +55,8 @@ export async function initializeDatabase() {
     );
 
     CREATE TABLE IF NOT EXISTS user_achievements (
-      user_id INTEGER NOT NULL REFERENCES users(id),
-      achievement_id INTEGER NOT NULL REFERENCES achievements(id),
+      user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      achievement_id INTEGER NOT NULL REFERENCES achievements(id) ON DELETE CASCADE,
       earned_at TIMESTAMPTZ DEFAULT NOW(),
       PRIMARY KEY (user_id, achievement_id)
     );
@@ -85,6 +85,7 @@ export async function initializeDatabase() {
     CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
     CREATE INDEX IF NOT EXISTS idx_user_achievements_user ON user_achievements(user_id);
     CREATE INDEX IF NOT EXISTS idx_cgm_category ON category_group_mappings(cluebase_category);
+    CREATE INDEX IF NOT EXISTS idx_cgm_group ON category_group_mappings(category_group_id);
   `)
 }
 

@@ -1,12 +1,21 @@
 import { getAllQuery, runQuery } from '../db/database.js'
 
 export async function checkAndAwardAchievements(userId, gameData, allGamesCount) {
-  const allAchievements = await getAllQuery('SELECT * FROM achievements')
-  const earnedRows = await getAllQuery(
-    'SELECT achievement_id FROM user_achievements WHERE user_id = $1',
-    [userId]
-  )
+  const [allAchievements, earnedRows, fjRows, correctRows] = await Promise.all([
+    getAllQuery('SELECT * FROM achievements'),
+    getAllQuery('SELECT achievement_id FROM user_achievements WHERE user_id = $1', [userId]),
+    getAllQuery(
+      'SELECT COALESCE(SUM(final_jeopardy_correct), 0)::int AS total FROM games_played WHERE user_id = $1',
+      [userId]
+    ),
+    getAllQuery(
+      'SELECT COALESCE(SUM(round1_correct + round2_correct), 0)::int AS total FROM games_played WHERE user_id = $1',
+      [userId]
+    ),
+  ])
   const earned = new Set(earnedRows.map(r => r.achievement_id))
+  const fjWins = fjRows[0].total
+  const totalCorrect = correctRows[0].total
   const newlyEarned = []
 
   for (const ach of allAchievements) {
@@ -54,28 +63,18 @@ export async function checkAndAwardAchievements(userId, gameData, allGamesCount)
       case 'final_jeopardy_winner':
         grant = gameData.final_jeopardy_correct === 1
         break
-      case 'fj_regular': {
-        const rows = await getAllQuery(
-          'SELECT COALESCE(SUM(final_jeopardy_correct), 0)::int AS total FROM games_played WHERE user_id = $1',
-          [userId]
-        )
-        grant = rows[0].total >= 5
+      case 'fj_regular':
+        grant = fjWins >= 5
         break
-      }
       case 'high_roller':
         grant = gameData.final_score >= 10000
         break
       case 'grand_champion':
         grant = gameData.final_score >= 20000
         break
-      case 'answer_machine': {
-        const rows = await getAllQuery(
-          'SELECT COALESCE(SUM(round1_correct + round2_correct), 0)::int AS total FROM games_played WHERE user_id = $1',
-          [userId]
-        )
-        grant = rows[0].total >= 200
+      case 'answer_machine':
+        grant = totalCorrect >= 200
         break
-      }
     }
 
     if (grant) {
