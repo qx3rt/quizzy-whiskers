@@ -3,6 +3,7 @@ export default function ClueModal({
   activeWager,
   timeRemaining,
   didTimeExpire,
+  didPass,
   needsMoreSpecific,
   moreSpecificTimeRemaining,
   moreSpecificText,
@@ -17,6 +18,7 @@ export default function ClueModal({
   moreSpecificInputRef,
   onSubmitAnswer,
   onSubmitMoreSpecific,
+  onPass,
   onContinue,
 }) {
   return (
@@ -31,7 +33,7 @@ export default function ClueModal({
           }`}>
             {needsMoreSpecific
               ? `${moreSpecificTimeRemaining}s`
-              : didTimeExpire ? "Time's up" : `${timeRemaining}s`}
+              : didTimeExpire ? "Time's up" : didPass ? 'Passed' : `${timeRemaining}s`}
           </div>
         </div>
 
@@ -86,37 +88,51 @@ export default function ClueModal({
                 autoComplete="off"
               />
             </div>
-            <button
-              className="clue-modal-submit"
-              type="submit"
-              disabled={!answerText.trim() || isSubmitted || didTimeExpire}
-            >
-              Submit response
-            </button>
+            <div className="clue-modal-actions">
+              <button
+                className="clue-modal-submit"
+                type="submit"
+                disabled={!answerText.trim() || isSubmitted || didTimeExpire}
+              >
+                Submit response
+              </button>
+              <button
+                className="clue-modal-pass"
+                type="button"
+                onClick={onPass}
+                disabled={isSubmitted || didTimeExpire}
+              >
+                I Don&apos;t Know
+              </button>
+            </div>
             <p className="clue-modal-hint">Letting the timer run out won&rsquo;t affect your score.</p>
           </form>
         ) : (
           <div className="clue-modal-result">
             <div
               className={`clue-modal-verdict ${
-                didTimeExpire
-                  ? 'verdict-time'
-                  : isCorrect
-                    ? 'verdict-correct'
-                    : 'verdict-incorrect'
+                didPass
+                  ? 'verdict-pass'
+                  : didTimeExpire
+                    ? 'verdict-time'
+                    : isCorrect
+                      ? 'verdict-correct'
+                      : 'verdict-incorrect'
               }`}
             >
               <span className="verdict-label">
-                {didTimeExpire ? "Time's up" : isCorrect ? 'Correct!' : 'Incorrect'}
+                {didPass ? 'Passed' : didTimeExpire ? "Time's up" : isCorrect ? 'Correct!' : 'Incorrect'}
               </span>
               <span className="verdict-delta">
-                {didTimeExpire && !isSubmitted
+                {didPass
                   ? ''
-                  : didTimeExpire
-                    ? `−$${activeDelta.toLocaleString()} for timeout`
-                    : isCorrect
-                      ? `+$${activeDelta.toLocaleString()} earned`
-                      : `−$${activeDelta.toLocaleString()} deducted`}
+                  : didTimeExpire && !isSubmitted
+                    ? ''
+                    : didTimeExpire
+                      ? `−$${activeDelta.toLocaleString()} for timeout`
+                      : isCorrect
+                        ? `+$${activeDelta.toLocaleString()} earned`
+                        : `−$${activeDelta.toLocaleString()} deducted`}
               </span>
             </div>
 

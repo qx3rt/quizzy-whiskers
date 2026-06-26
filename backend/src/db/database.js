@@ -107,6 +107,13 @@ export async function initializeDatabase() {
     ALTER TABLE clues DROP COLUMN IF EXISTS air_date;
     ALTER TABLE clues DROP COLUMN IF EXISTS season;
   `);
+
+  // Incremental schema additions — safe to run on existing deployments.
+  await pool.query(`
+    ALTER TABLE users ADD COLUMN IF NOT EXISTS token_version INTEGER NOT NULL DEFAULT 0;
+    ALTER TABLE games_played ADD COLUMN IF NOT EXISTS round1_passed INTEGER DEFAULT 0;
+    ALTER TABLE games_played ADD COLUMN IF NOT EXISTS round2_passed INTEGER DEFAULT 0;
+  `);
 }
 
 export async function closeDatabase() {

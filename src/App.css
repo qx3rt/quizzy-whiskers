@@ -589,6 +589,47 @@
   outline-offset: 3px;
 }
 
+.clue-modal-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.clue-modal-actions .clue-modal-submit {
+  flex: 1;
+}
+
+.clue-modal-pass {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  padding: 14px 20px;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.55);
+  transition: border-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+  white-space: nowrap;
+}
+
+.clue-modal-pass:hover:not(:disabled) {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.clue-modal-pass:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.verdict-pass {
+  background: rgba(150, 150, 180, 0.12);
+  border: 2px solid rgba(150, 150, 180, 0.35);
+  color: rgba(200, 200, 220, 0.85);
+}
+
 /* ─── Result / verdict ───────────────────────────────────────────── */
 .clue-modal-result {
   display: grid;
@@ -893,6 +934,27 @@
 
 .fj-wager-row {
   margin: 0;
+}
+
+/* ─── Daily Double reveal animation ─────────────────────────────── */
+@keyframes dd-reveal {
+  0%   { transform: scale(0.55); opacity: 0; }
+  65%  { transform: scale(1.06); opacity: 1; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+
+@keyframes dd-badge-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(255, 204, 0, 0.6); }
+  60%  { box-shadow: 0 0 0 10px rgba(255, 204, 0, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 204, 0, 0); }
+}
+
+.daily-double-modal {
+  animation: dd-reveal 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.daily-double-modal .dd-badge {
+  animation: dd-badge-pulse 0.7s ease-out 0.35s both;
 }
 
 /* ─── Daily Double badge in clue modal ───────────────────────────── */
@@ -1210,6 +1272,23 @@
   border: 1px solid rgba(255, 60, 60, 0.3);
 }
 
+.auth-remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.65);
+  cursor: pointer;
+  user-select: none;
+}
+
+.auth-remember input[type="checkbox"] {
+  accent-color: var(--j-gold);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
 /* ─── Achievement toasts ─────────────────────────────────────────── */
 .achievement-toasts {
   position: fixed;
@@ -1318,11 +1397,17 @@
   letter-spacing: 0.02em;
 }
 
-.profile-signout-btn {
+.profile-signout-group {
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.profile-signout-btn {
   font-size: 0.8rem;
   padding: 6px 14px;
-  flex-shrink: 0;
 }
 
 /* ── Stats (4-column bar) ──────────────────────────────────────────── */

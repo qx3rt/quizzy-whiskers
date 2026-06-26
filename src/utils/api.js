@@ -75,6 +75,33 @@ export async function fetchMe(token) {
   return json.data
 }
 
+export async function signOutAll(token) {
+  await request('/api/auth/signout-all', { method: 'POST', headers: authHeaders(token) })
+}
+
+// Token persistence — sessionStorage by default so browser sync can't leak it
+// across devices. localStorage only when user opts in with "Remember me".
+const TOKEN_KEY = 'qw_token'
+
+export function saveToken(token, remember = false) {
+  if (remember) {
+    localStorage.setItem(TOKEN_KEY, token)
+    sessionStorage.removeItem(TOKEN_KEY)
+  } else {
+    sessionStorage.setItem(TOKEN_KEY, token)
+    localStorage.removeItem(TOKEN_KEY)
+  }
+}
+
+export function loadToken() {
+  return sessionStorage.getItem(TOKEN_KEY) ?? localStorage.getItem(TOKEN_KEY) ?? null
+}
+
+export function clearToken() {
+  sessionStorage.removeItem(TOKEN_KEY)
+  localStorage.removeItem(TOKEN_KEY)
+}
+
 // ── Games ─────────────────────────────────────────────────────────────────────
 
 export async function saveGame(token, gameData) {

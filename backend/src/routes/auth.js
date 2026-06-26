@@ -1,6 +1,6 @@
 import express from 'express'
 import bcrypt from 'bcryptjs'
-import { getAllQuery, runQuery } from '../db/database.js'
+import { getAllQuery, getQuery, runQuery } from '../db/database.js'
 import { requireAuth, signToken } from '../middleware/auth.js'
 
 const router = express.Router()
@@ -28,12 +28,12 @@ router.post('/register', async (req, res) => {
 
     const passwordHash = await bcrypt.hash(password, 10)
     const result = await runQuery(
-      'INSERT INTO users (email, password_hash, display_name) VALUES ($1, $2, $3) RETURNING id',
+      'INSERT INTO users (email, password_hash, display_name) VALUES ($1, $2, $3) RETURNING id, token_version',
       [normalizedEmail, passwordHash, displayName?.trim() || null]
     )
-    const userId = result.rows[0].id
+    const { id: userId, token_version } = result.rows[0]
 
-    const token = signToken({ userId, email: normalizedEmail })
+    const token = signToken({ userId, email: normalizedEmail, token_version })
     res.status(201).json({
       success: true,
       data: {
@@ -58,7 +58,7 @@ router.post('/login', async (req, res) => {
 
   try {
     const users = await getAllQuery(
-      'SELECT id, email, password_hash, display_name FROM users WHERE email = $1',
+      'SELECT id, email, password_hash, display_name, token_version FROM users WHERE email = $1',
       [normalizedEmail]
     )
     if (users.length === 0) {
@@ -71,7 +71,7 @@ router.post('/login', async (req, res) => {
       return res.status(401).json({ success: false, error: 'Invalid credentials' })
     }
 
-    const token = signToken({ userId: user.id, email: user.email })
+    const token = signToken({ userId: user.id, email: user.email, token_version: user.token_version })
     res.json({
       success: true,
       data: {
@@ -103,6 +103,20 @@ router.get('/me', requireAuth, async (req, res) => {
   } catch (err) {
     console.error('Auth me error:', err)
     res.status(500).json({ success: false, error: 'Failed to fetch user' })
+  }
+})
+
+// POST /api/auth/signout-all — invalidates all existing tokens for this user
+router.post('/signout-all', requireAuth, async (req, res) => {
+  try {
+    await runQuery(
+      'UPDATE users SET token_version = token_version + 1 WHERE id = $1',
+      [req.user.userId]
+    )
+    res.json({ success: true })
+  } catch (err) {
+    console.error('Signout-all error:', err)
+    res.status(500).json({ success: false, error: 'Failed to sign out all sessions' })
   }
 })
 

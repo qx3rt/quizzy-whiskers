@@ -12,12 +12,12 @@ describe('signToken', () => {
     expect(decoded.email).toBe('test@example.com')
   })
 
-  it('token expires in ~30 days', () => {
+  it('token expires in ~7 days', () => {
     const token = signToken({ userId: 1 })
     const decoded = jwt.decode(token)
-    const thirtyDaysFromNow = Math.floor(Date.now() / 1000) + 30 * 24 * 60 * 60
-    expect(decoded.exp).toBeGreaterThan(thirtyDaysFromNow - 60)
-    expect(decoded.exp).toBeLessThanOrEqual(thirtyDaysFromNow + 60)
+    const sevenDaysFromNow = Math.floor(Date.now() / 1000) + 7 * 24 * 60 * 60
+    expect(decoded.exp).toBeGreaterThan(sevenDaysFromNow - 60)
+    expect(decoded.exp).toBeLessThanOrEqual(sevenDaysFromNow + 60)
   })
 })
 

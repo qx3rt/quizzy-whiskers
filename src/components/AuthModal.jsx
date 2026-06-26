@@ -5,9 +5,11 @@ export default function AuthModal({
   authEmail,
   authPassword,
   authDisplayName,
+  rememberMe,
   onEmailChange,
   onPasswordChange,
   onDisplayNameChange,
+  onRememberMeChange,
   onSwitchTab,
   onSubmit,
   onClose,
@@ -76,6 +78,16 @@ export default function AuthModal({
             minLength={6}
             autoComplete={authTab === 'login' ? 'current-password' : 'new-password'}
           />
+          {authTab === 'login' && (
+            <label className="auth-remember">
+              <input
+                type="checkbox"
+                checked={rememberMe}
+                onChange={(e) => onRememberMeChange(e.target.checked)}
+              />
+              Remember me on this device
+            </label>
+          )}
           {authError && <p className="auth-error">{authError}</p>}
           <button className="clue-modal-submit" type="submit" disabled={authLoading}>
             {authLoading

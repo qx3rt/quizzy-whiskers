@@ -13,6 +13,13 @@ const MAX_VALUE = {
   'Double Jeopardy!': 2000,
 }
 
+// Canonical display values by position, regardless of raw DB value (older seasons
+// used different dollar amounts but the same 5-tier structure).
+const CANONICAL_VALUES = {
+  'Jeopardy!':        [200, 400, 600, 800, 1000],
+  'Double Jeopardy!': [400, 800, 1200, 1600, 2000],
+}
+
 export async function generateCuratedBoard(topicAreas = [], round = 'Jeopardy!') {
   const cluebaseRound = ROUND_MAP[round] || 'J!'
   const expectedMax = MAX_VALUE[round] || 1000
@@ -80,9 +87,9 @@ export async function generateCuratedBoard(topicAreas = [], round = 'Jeopardy!')
   return selectedCategories.map(category => ({
     category,
     topic_area: topicByCategory[category] || null,
-    clues: (cluesByCategory[category] || []).slice(0, 5).map(c => ({
+    clues: (cluesByCategory[category] || []).slice(0, 5).map((c, index) => ({
       id: c.id,
-      value: c.value,
+      value: (CANONICAL_VALUES[round] ?? CANONICAL_VALUES['Jeopardy!'])[index],
       clue_text: c.clue_text,
       response_text: c.response_text,
     })),

@@ -57,11 +57,9 @@ export default function LobbyScreen({
               <p className="panel-eyebrow">Category picker</p>
               <h3>Choose up to 6 categories</h3>
             </div>
-            <span className="panel-tag">
-              {selectedTopics.length === 0
-                ? 'Random'
-                : `${selectedTopics.length} / 6 selected`}
-            </span>
+            {selectedTopics.length > 0 && (
+              <span className="panel-tag">{selectedTopics.length} / 6 selected</span>
+            )}
           </div>
 
           <div className="category-picker-grid">

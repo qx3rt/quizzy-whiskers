@@ -13,9 +13,11 @@ router.post('/', requireAuth, async (req, res) => {
     round1Correct = 0,
     round1Incorrect = 0,
     round1TimedOut = 0,
+    round1Passed = 0,
     round2Correct = 0,
     round2Incorrect = 0,
     round2TimedOut = 0,
+    round2Passed = 0,
     finalJeopardyCorrect = null,
   } = req.body
 
@@ -23,7 +25,7 @@ router.post('/', requireAuth, async (req, res) => {
     return res.status(400).json({ success: false, error: 'finalScore is required' })
   }
 
-  const roundCounts = [round1Correct, round1Incorrect, round1TimedOut, round2Correct, round2Incorrect, round2TimedOut]
+  const roundCounts = [round1Correct, round1Incorrect, round1TimedOut, round1Passed, round2Correct, round2Incorrect, round2TimedOut, round2Passed]
   if (roundCounts.some((n) => !Number.isInteger(n) || n < 0 || n > 30)) {
     return res.status(400).json({ success: false, error: 'Invalid round stats' })
   }
@@ -34,18 +36,20 @@ router.post('/', requireAuth, async (req, res) => {
   try {
     await runQuery(
       `INSERT INTO games_played
-       (user_id, final_score, round1_correct, round1_incorrect, round1_timed_out,
-        round2_correct, round2_incorrect, round2_timed_out, final_jeopardy_correct, topics)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)`,
+       (user_id, final_score, round1_correct, round1_incorrect, round1_timed_out, round1_passed,
+        round2_correct, round2_incorrect, round2_timed_out, round2_passed, final_jeopardy_correct, topics)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)`,
       [
         req.user.userId,
         finalScore,
         round1Correct,
         round1Incorrect,
         round1TimedOut,
+        round1Passed,
         round2Correct,
         round2Incorrect,
         round2TimedOut,
+        round2Passed,
         finalJeopardyCorrect !== null ? (finalJeopardyCorrect ? 1 : 0) : null,
         Array.isArray(topics) ? topics.join(',') : '',
       ]
@@ -90,7 +94,7 @@ router.get('/', requireAuth, async (req, res) => {
          COALESCE(MAX(final_score), 0) AS "bestScore",
          COALESCE(ROUND(AVG(final_score)::numeric)::int, 0) AS "avgScore",
          COALESCE(SUM(round1_correct + round2_correct)::int, 0) AS "totalCorrect",
-         COALESCE(SUM(round1_correct + round1_incorrect + round1_timed_out + round2_correct + round2_incorrect + round2_timed_out)::int, 0) AS "totalAnswered",
+         COALESCE(SUM(round1_correct + round1_incorrect + round1_timed_out + round1_passed + round2_correct + round2_incorrect + round2_timed_out + round2_passed)::int, 0) AS "totalAnswered",
          COALESCE(SUM(CASE WHEN final_jeopardy_correct = 1 THEN 1 ELSE 0 END)::int, 0) AS "finalJeopardyWins"
        FROM games_played WHERE user_id = $1`,
       [req.user.userId]

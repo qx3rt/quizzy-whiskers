@@ -22,6 +22,7 @@ export default function ProfileScreen({
   allAchievements,
   achievementDefs,
   onSignOut,
+  onSignOutAll,
   onBackToLobby,
 }) {
   if (!user) {
@@ -63,9 +64,14 @@ export default function ProfileScreen({
             <p className="profile-member-since">Member since {formatMemberSince(user.memberSince)}</p>
           )}
         </div>
-        <button className="secondary-button profile-signout-btn" type="button" onClick={onSignOut}>
-          Sign out
-        </button>
+        <div className="profile-signout-group">
+          <button className="secondary-button profile-signout-btn" type="button" onClick={onSignOut}>
+            Sign out
+          </button>
+          <button className="secondary-button profile-signout-btn" type="button" onClick={onSignOutAll}>
+            Sign out everywhere
+          </button>
+        </div>
       </div>
 
       <div className="profile-stats-bar">
@@ -134,8 +140,10 @@ export default function ProfileScreen({
                     )}
                     <div className="game-history-breakdown">
                       R1 {game.round1_correct}✓ {game.round1_incorrect}✗
+                      {game.round1_passed > 0 && ` ${game.round1_passed}?`}
                       &nbsp;·&nbsp;
                       R2 {game.round2_correct}✓ {game.round2_incorrect}✗
+                      {game.round2_passed > 0 && ` ${game.round2_passed}?`}
                       &nbsp;·&nbsp;
                       FJ {fjResult}
                     </div>

@@ -149,6 +149,23 @@ describe('answersMatch', () => {
   it('matches cities/city via -ies stem', () => {
     expect(answersMatch('cities', 'city')).toBe(true)
   })
+
+  // Word-subset: correct answer words ⊆ user answer words
+  // answersMatch receives pre-normalized inputs (normalization happens in checkAnswer).
+  // "(Gerald Rudolph) Ford" normalizes to "ford"; user types "gerald ford" → "gerald ford".
+  it('accepts "gerald ford" when correct normalizes to "ford" (parens stripped)', () => {
+    expect(answersMatch('gerald ford', 'ford')).toBe(true)
+  })
+
+  // "George (Herbert Walker) Bush" normalizes to "george bush"; user types "george hw bush".
+  it('accepts "george hw bush" when correct normalizes to "george bush"', () => {
+    expect(answersMatch('george hw bush', 'george bush')).toBe(true)
+  })
+
+  // Positional initials: "c-section" normalizes to "c section"; correct "Caesarean Section" → "caesarean section".
+  it('accepts "c section" for "caesarean section" via initial-letter matching', () => {
+    expect(answersMatch('c section', 'caesarean section')).toBe(true)
+  })
 })
 
 describe('isPartialMatch', () => {

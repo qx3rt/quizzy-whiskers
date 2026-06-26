@@ -75,6 +75,21 @@ function matchesSingle(userAnswer, correctAnswer) {
   if (getSimilarityScore(userSorted, correctSorted) >= FUZZY_MATCH_THRESHOLD) return true
   // Abbreviation: user typed the start of a longer correct answer (e.g. "vet" → "veterinarian")
   if (userAnswer.length >= 3 && correctAnswer.startsWith(userAnswer)) return true
+
+  // Word-subset: all correct answer words appear somewhere in user answer
+  // (handles "(Gerald Rudolph) Ford" → "ford" matching user's "gerald ford",
+  //  and "George Bush" matching "george hw bush")
+  const cWords = correctAnswer.split(/\s+/).filter(Boolean)
+  const uWords = userAnswer.split(/\s+/).filter(Boolean)
+  if (cWords.length > 0 && cWords.every((w) => uWords.includes(w))) return true
+
+  // Positional initials: each user word is either the full word or a single-letter
+  // abbreviation of the corresponding correct word (handles "c section" → "caesarean section")
+  if (uWords.length === cWords.length && uWords.length >= 2) {
+    if (uWords.every((w, i) => w === cWords[i] || (w.length === 1 && cWords[i].startsWith(w))))
+      return true
+  }
+
   return false
 }
 

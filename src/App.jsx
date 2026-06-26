@@ -11,6 +11,10 @@ import {
   fetchGameHistory,
   fetchAllAchievements,
   fetchMyAchievements,
+  signOutAll,
+  saveToken,
+  loadToken,
+  clearToken,
 } from './utils/api'
 import {
   normalizeAnswer,
@@ -73,13 +77,14 @@ function App() {
   const [isCorrect, setIsCorrect] = useState(null)
   const [timeRemaining, setTimeRemaining] = useState(CLUE_TIME_LIMIT)
   const [didTimeExpire, setDidTimeExpire] = useState(false)
+  const [didPass, setDidPass] = useState(false)
   const [needsMoreSpecific, setNeedsMoreSpecific] = useState(false)
   const [moreSpecificText, setMoreSpecificText] = useState('')
   const [moreSpecificTimeRemaining, setMoreSpecificTimeRemaining] = useState(MORE_SPECIFIC_TIME_LIMIT)
 
   // ── Score & per-round stats ─────────────────────────────────────────────────
   const [score, setScore] = useState(0)
-  const [roundStats, setRoundStats] = useState({ correct: 0, incorrect: 0, timedOut: 0 })
+  const [roundStats, setRoundStats] = useState({ correct: 0, incorrect: 0, timedOut: 0, passed: 0 })
   const [round1Stats, setRound1Stats] = useState(null)
   const [round2Stats, setRound2Stats] = useState(null)
   const [finalJeopardyCorrect, setFinalJeopardyCorrect] = useState(null)
@@ -89,7 +94,7 @@ function App() {
   const [finalWagerText, setFinalWagerText] = useState('')
 
   // ── Auth ────────────────────────────────────────────────────────────────────
-  const [authToken, setAuthToken] = useState(() => localStorage.getItem('qw_token'))
+  const [authToken, setAuthToken] = useState(() => loadToken())
   const [user, setUser] = useState(null)
   const [showAuthModal, setShowAuthModal] = useState(false)
   const [authTab, setAuthTab] = useState('login')
@@ -98,6 +103,7 @@ function App() {
   const [authDisplayName, setAuthDisplayName] = useState('')
   const [authError, setAuthError] = useState(null)
   const [authLoading, setAuthLoading] = useState(false)
+  const [rememberMe, setRememberMe] = useState(false)
 
   // ── Game history & achievements ─────────────────────────────────────────────
   const [gameHistory, setGameHistory] = useState(null)
@@ -123,7 +129,7 @@ function App() {
     fetchMe(authToken)
       .then(setUser)
       .catch(() => {
-        localStorage.removeItem('qw_token')
+        clearToken()
         setAuthToken(null)
       })
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
@@ -139,9 +145,11 @@ function App() {
       round1Correct: round1Stats?.correct ?? 0,
       round1Incorrect: round1Stats?.incorrect ?? 0,
       round1TimedOut: round1Stats?.timedOut ?? 0,
+      round1Passed: round1Stats?.passed ?? 0,
       round2Correct: round2Stats?.correct ?? 0,
       round2Incorrect: round2Stats?.incorrect ?? 0,
       round2TimedOut: round2Stats?.timedOut ?? 0,
+      round2Passed: round2Stats?.passed ?? 0,
       finalJeopardyCorrect: finalJeopardyCorrect,
     })
       .then(({ newAchievements: earned }) => {
@@ -178,7 +186,7 @@ function App() {
 
   // ── Timer ───────────────────────────────────────────────────────────────────
   useEffect(() => {
-    if (!activeClue || isSubmitted || didTimeExpire || needsMoreSpecific) return
+    if (!activeClue || isSubmitted || didTimeExpire || didPass || needsMoreSpecific) return
 
     if (timeRemaining <= 0) {
       setDidTimeExpire(true)
@@ -190,7 +198,7 @@ function App() {
 
     const id = window.setTimeout(() => setTimeRemaining((t) => t - 1), 1000)
     return () => window.clearTimeout(id)
-  }, [activeClue, isSubmitted, didTimeExpire, needsMoreSpecific, timeRemaining])
+  }, [activeClue, isSubmitted, didTimeExpire, didPass, needsMoreSpecific, timeRemaining])
 
   // ── "Be more specific" timer ────────────────────────────────────────────────
   useEffect(() => {
@@ -245,13 +253,14 @@ function App() {
           ? await login(authEmail, authPassword)
           : await register(authEmail, authPassword, authDisplayName)
 
-      localStorage.setItem('qw_token', result.token)
+      saveToken(result.token, authTab === 'login' ? rememberMe : false)
       setAuthToken(result.token)
       setUser(result.user)
       setShowAuthModal(false)
       setAuthEmail('')
       setAuthPassword('')
       setAuthDisplayName('')
+      setRememberMe(false)
     } catch (err) {
       const msg = err.message
       if (msg.includes('409')) setAuthError('Email already registered.')
@@ -264,11 +273,18 @@ function App() {
   }
 
   function handleSignOut() {
-    localStorage.removeItem('qw_token')
+    clearToken()
     setAuthToken(null)
     setUser(null)
     setGameHistory(null)
     setGamePhase(GAME_PHASES.LOBBY)
+  }
+
+  async function handleSignOutAll() {
+    if (authToken) {
+      try { await signOutAll(authToken) } catch { /* best-effort */ }
+    }
+    handleSignOut()
   }
 
   function switchAuthTab(tab) {
@@ -290,7 +306,7 @@ function App() {
     setGameLoading(true)
     setGameError(null)
     setScore(0)
-    setRoundStats({ correct: 0, incorrect: 0, timedOut: 0 })
+    setRoundStats({ correct: 0, incorrect: 0, timedOut: 0, passed: 0 })
     setRound1Stats(null)
     setRound2Stats(null)
     setFinalJeopardyCorrect(null)
@@ -330,7 +346,7 @@ function App() {
 
   function advanceToRound2() {
     setRound1Stats(roundStats)
-    setRoundStats({ correct: 0, incorrect: 0, timedOut: 0 })
+    setRoundStats({ correct: 0, incorrect: 0, timedOut: 0, passed: 0 })
     setDailyDoubleIds(placeDailyDoubles(round2Board, 2))
     setActiveBoard(round2Board)
     setGamePhase(GAME_PHASES.ROUND_2)
@@ -338,7 +354,7 @@ function App() {
 
   function advanceToFinalJeopardy() {
     setRound2Stats(roundStats)
-    setRoundStats({ correct: 0, incorrect: 0, timedOut: 0 })
+    setRoundStats({ correct: 0, incorrect: 0, timedOut: 0, passed: 0 })
 
     if (!finalJeopardyData) {
       setGamePhase(GAME_PHASES.GAME_OVER)
@@ -362,7 +378,7 @@ function App() {
     setActiveWager(null)
     setPendingWagerClue(null)
     setScore(0)
-    setRoundStats({ correct: 0, incorrect: 0, timedOut: 0 })
+    setRoundStats({ correct: 0, incorrect: 0, timedOut: 0, passed: 0 })
     setRound1Stats(null)
     setRound2Stats(null)
     gameSavedRef.current = false
@@ -395,6 +411,7 @@ function App() {
     const timeLimit = gamePhase === GAME_PHASES.FINAL_JEOPARDY ? FINAL_JEOPARDY_TIME_LIMIT : CLUE_TIME_LIMIT
     setTimeRemaining(timeLimit)
     setDidTimeExpire(false)
+    setDidPass(false)
     setNeedsMoreSpecific(false)
     setMoreSpecificText('')
     setMoreSpecificTimeRemaining(MORE_SPECIFIC_TIME_LIMIT)
@@ -464,12 +481,18 @@ function App() {
     }
   }
 
+  function handlePassClue() {
+    setDidPass(true)
+    setRoundStats((rs) => ({ ...rs, passed: rs.passed + 1 }))
+  }
+
   function handleContinue() {
     if (gamePhase === GAME_PHASES.FINAL_JEOPARDY) {
       setGamePhase(GAME_PHASES.GAME_OVER)
     }
     setActiveClue(null)
     setActiveWager(null)
+    setDidPass(false)
   }
 
   // ── Final Jeopardy wager ────────────────────────────────────────────────────
@@ -491,7 +514,7 @@ function App() {
   }
 
   // ── Derived values ──────────────────────────────────────────────────────────
-  const showReveal = isSubmitted || didTimeExpire
+  const showReveal = isSubmitted || didTimeExpire || didPass
   const atCategoryLimit = selectedTopics.length >= 6
   const activeDelta = activeWager !== null ? activeWager : (activeClue?.value ?? 0)
 
@@ -601,6 +624,7 @@ function App() {
             allAchievements={allAchievements}
             achievementDefs={achievementDefs}
             onSignOut={handleSignOut}
+            onSignOutAll={handleSignOutAll}
             onBackToLobby={() => setGamePhase(GAME_PHASES.LOBBY)}
           />
         )}
@@ -637,6 +661,8 @@ function App() {
           moreSpecificInputRef={moreSpecificInputRef}
           onSubmitAnswer={handleSubmitAnswer}
           onSubmitMoreSpecific={handleSubmitMoreSpecific}
+          onPass={handlePassClue}
+          didPass={didPass}
           onContinue={handleContinue}
         />
       )}
@@ -649,9 +675,11 @@ function App() {
           authEmail={authEmail}
           authPassword={authPassword}
           authDisplayName={authDisplayName}
+          rememberMe={rememberMe}
           onEmailChange={setAuthEmail}
           onPasswordChange={setAuthPassword}
           onDisplayNameChange={setAuthDisplayName}
+          onRememberMeChange={setRememberMe}
           onSwitchTab={switchAuthTab}
           onSubmit={handleAuthSubmit}
           onClose={() => setShowAuthModal(false)}

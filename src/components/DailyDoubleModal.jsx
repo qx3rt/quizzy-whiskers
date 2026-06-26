@@ -1,7 +1,7 @@
 export default function DailyDoubleModal({ clue, score, wagerText, onWagerChange, wagerInputRef, onSubmit }) {
   return (
     <div className="clue-modal-overlay">
-      <div className="clue-modal">
+      <div className="clue-modal daily-double-modal">
         <div className="clue-modal-meta">
           <span className="clue-modal-category">{clue.category}</span>
           <span className="dd-badge">Daily Double!</span>

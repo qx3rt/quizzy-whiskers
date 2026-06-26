@@ -23,6 +23,7 @@ export default function GameOverScreen({
             <span className="round-stat-detail">
               {round1Stats.correct} correct · {round1Stats.incorrect} wrong ·{' '}
               {round1Stats.timedOut} timed out
+              {round1Stats.passed > 0 && ` · ${round1Stats.passed} passed`}
             </span>
           </div>
         )}
@@ -32,6 +33,7 @@ export default function GameOverScreen({
             <span className="round-stat-detail">
               {round2Stats.correct} correct · {round2Stats.incorrect} wrong ·{' '}
               {round2Stats.timedOut} timed out
+              {round2Stats.passed > 0 && ` · ${round2Stats.passed} passed`}
             </span>
           </div>
         )}
