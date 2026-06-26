@@ -17,10 +17,21 @@ if (dbUrl) {
   console.warn('[db] WARNING: DATABASE_URL is not set — falling back to default pg connection (localhost:5432)')
 }
 
-const pool = new Pool({
-  connectionString: dbUrl,
-  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
-})
+// Use SSL for any remote host regardless of NODE_ENV — Railway requires it
+// but may not have NODE_ENV=production set.
+let sslConfig = false
+if (dbUrl) {
+  try {
+    const { hostname } = new URL(dbUrl)
+    if (hostname !== 'localhost' && hostname !== '127.0.0.1') {
+      sslConfig = { rejectUnauthorized: false }
+    }
+  } catch {
+    // malformed URL — leave ssl: false
+  }
+}
+
+const pool = new Pool({ connectionString: dbUrl, ssl: sslConfig })
 
 export async function initializeDatabase() {
   await pool.query(`
@@ -114,6 +125,9 @@ export async function initializeDatabase() {
     ALTER TABLE games_played ADD COLUMN IF NOT EXISTS round1_passed INTEGER DEFAULT 0;
     ALTER TABLE games_played ADD COLUMN IF NOT EXISTS round2_passed INTEGER DEFAULT 0;
   `);
+
+  const { rows: [{ count }] } = await pool.query('SELECT COUNT(*)::int AS count FROM users')
+  console.log(`[db] users in database: ${count}`)
 }
 
 export async function closeDatabase() {

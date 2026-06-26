@@ -28,10 +28,12 @@ export default function ProfileScreen({
   if (!user) {
     return (
       <section className="panel panel-full profile-panel">
+        <div className="profile-nav">
+          <button className="secondary-button profile-back-btn" type="button" onClick={onBackToLobby}>
+            ← Back to Lobby
+          </button>
+        </div>
         <p className="profile-loading">Loading profile…</p>
-        <button className="secondary-button" type="button" onClick={onBackToLobby}>
-          ← Back to Lobby
-        </button>
       </section>
     )
   }
@@ -53,6 +55,11 @@ export default function ProfileScreen({
 
   return (
     <section className="panel panel-full profile-panel">
+      <div className="profile-nav">
+        <button className="secondary-button profile-back-btn" type="button" onClick={onBackToLobby}>
+          ← Back to Lobby
+        </button>
+      </div>
       <div className="profile-identity">
         <div className="profile-avatar">
           {(user.displayName || user.email).charAt(0).toUpperCase()}
@@ -156,9 +163,6 @@ export default function ProfileScreen({
         </div>
       )}
 
-      <button className="secondary-button" type="button" onClick={onBackToLobby}>
-        ← Back to Lobby
-      </button>
     </section>
   )
 }

@@ -1349,6 +1349,15 @@
   margin: 0 auto;
 }
 
+.profile-nav {
+  margin-bottom: 1.25rem;
+}
+
+.profile-back-btn {
+  font-size: 0.85rem;
+  padding: 6px 14px;
+}
+
 /* ── Identity header ───────────────────────────────────────────────── */
 .profile-identity {
   display: flex;
