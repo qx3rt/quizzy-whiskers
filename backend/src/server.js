@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import { initializeDatabase, closeDatabase, runQuery, getAllQuery } from './db/database.js';
 import categoriesRouter from './routes/categories.js';
 import { syncCategoryGroups } from './models/categories.js';
-import { seedClues, seedFinalJeopardy } from './models/clueSeeder.js';
+import { seedClues, seedFinalJeopardy, fixClueEscapes } from './models/clueSeeder.js';
 import boardRouter from './routes/board.js';
 import authRouter from './routes/auth.js';
 import gamesRouter from './routes/games.js';
@@ -55,6 +55,7 @@ async function startServer() {
   try {
     await initializeDatabase();
     await seedClues();
+    await fixClueEscapes();
     await seedFinalJeopardy();
     await syncCategoryGroups();
     await seedAchievements();

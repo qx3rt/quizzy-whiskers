@@ -1,10 +1,13 @@
 import { readFileSync, readdirSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
-import { getAllQuery, getClient } from '../db/database.js'
+import { getAllQuery, getClient, runQuery } from '../db/database.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const JARCHIVE_DIR = join(__dirname, '../../data/jarchive')
+
+// Jarchive scraper double-escaped closing quotes inside clue text (e.g. "homes\" → "homes")
+const clean = (s) => s.replace(/\\"/g, '"')
 
 const ROUND_MAP = {
   'Jeopardy!': 'J!',
@@ -48,7 +51,7 @@ export async function seedClues() {
       if (!round) continue
       for (const clue of cat.clues) {
         if (!clue.clue_text || !clue.response_text || !clue.dollar_value) continue
-        rows.push([cat.name, round, clue.dollar_value, clue.clue_text, clue.response_text])
+        rows.push([cat.name, round, clue.dollar_value, clean(clue.clue_text), clean(clue.response_text)])
       }
     }
   }
@@ -78,7 +81,7 @@ export async function seedFinalJeopardy() {
   const data = JSON.parse(readFileSync(join(JARCHIVE_DIR, 'final_jeopardy.json'), 'utf8'))
   const rows = data
     .filter((c) => c.clue_text && c.response_text && c.name)
-    .map((c) => [c.name, c.air_date || null, c.clue_text, c.response_text])
+    .map((c) => [c.name, c.air_date || null, clean(c.clue_text), clean(c.response_text)])
 
   const client = await getClient()
   try {
@@ -91,5 +94,18 @@ export async function seedFinalJeopardy() {
     console.error('[final_jeopardy] Seed failed:', err.message)
   } finally {
     client.release()
+  }
+}
+
+// One-time fix for rows already seeded with jarchive escape artifacts.
+// Idempotent — rows without the artifact are unaffected; subsequent runs find nothing to update.
+export async function fixClueEscapes() {
+  const result = await runQuery(
+    `UPDATE clues SET clue = REPLACE(clue, $1, $2), response = REPLACE(response, $1, $2)
+     WHERE POSITION($1 IN clue) > 0 OR POSITION($1 IN response) > 0`,
+    ['\\"', '"']
+  )
+  if (result.rowCount > 0) {
+    console.log(`[clues] Fixed escape artifacts in ${result.rowCount} rows`)
   }
 }
