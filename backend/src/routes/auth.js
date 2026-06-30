@@ -1,6 +1,6 @@
 import express from 'express'
 import bcrypt from 'bcryptjs'
-import { getAllQuery, getQuery, runQuery } from '../db/database.js'
+import { getAllQuery, runQuery } from '../db/database.js'
 import { requireAuth, signToken } from '../middleware/auth.js'
 
 const router = express.Router()

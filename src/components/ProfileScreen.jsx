@@ -1,20 +1,5 @@
 import { formatScore, formatMemberSince, timeAgo } from '../utils/formatters'
-
-const ACHIEVEMENT_ICONS = {
-  first_game: '🎯',
-  ten_games: '🔟',
-  fifty_games: '🏆',
-  century_club: '💯',
-  perfect_round: '✨',
-  perfect_game: '🏅',
-  no_timeouts: '⚡',
-  double_dominator: '💰',
-  final_jeopardy_winner: '🎤',
-  fj_regular: '🌟',
-  high_roller: '💵',
-  grand_champion: '👑',
-  answer_machine: '🧠',
-}
+import { ACHIEVEMENT_ICONS } from '../utils/achievementIcons'
 
 export default function ProfileScreen({
   user,

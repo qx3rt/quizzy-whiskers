@@ -33,7 +33,8 @@ import ProfileScreen from './components/ProfileScreen'
 import DailyDoubleModal from './components/DailyDoubleModal'
 import ClueModal from './components/ClueModal'
 import AuthModal from './components/AuthModal'
-import AchievementToasts from './components/AchievementToasts'
+import AchievementModal from './components/AchievementModal'
+import { pickCelebrationPhrase } from './utils/achievementIcons'
 
 const CLUE_TIME_LIMIT = 20
 const FINAL_JEOPARDY_TIME_LIMIT = 30
@@ -108,6 +109,7 @@ function App() {
   // ── Game history & achievements ─────────────────────────────────────────────
   const [gameHistory, setGameHistory] = useState(null)
   const [newAchievements, setNewAchievements] = useState([])
+  const [achievementModalIndex, setAchievementModalIndex] = useState(0)
   const [allAchievements, setAllAchievements] = useState([])
   const [achievementDefs, setAchievementDefs] = useState([])
 
@@ -153,19 +155,15 @@ function App() {
       finalJeopardyCorrect: finalJeopardyCorrect,
     })
       .then(({ newAchievements: earned }) => {
-        if (earned?.length > 0) setNewAchievements(earned)
+        if (earned?.length > 0) {
+          setNewAchievements(earned.map(a => ({ ...a, phrase: pickCelebrationPhrase() })))
+          setAchievementModalIndex(0)
+        }
         return fetchGameHistory(authToken)
       })
       .then(setGameHistory)
       .catch(console.error)
   }, [gamePhase]) // eslint-disable-line react-hooks/exhaustive-deps
-
-  // ── Auto-dismiss achievement toasts ─────────────────────────────────────────
-  useEffect(() => {
-    if (newAchievements.length === 0) return
-    const id = window.setTimeout(() => setNewAchievements([]), 6000)
-    return () => window.clearTimeout(id)
-  }, [newAchievements])
 
   // ── Fetch profile data when viewing profile ──────────────────────────────────
   useEffect(() => {
@@ -495,6 +493,17 @@ function App() {
     setDidPass(false)
   }
 
+  // ── Achievement modal cycling ───────────────────────────────────────────────
+  function handleAchievementAdvance() {
+    const next = achievementModalIndex + 1
+    if (next >= newAchievements.length) {
+      setNewAchievements([])
+      setAchievementModalIndex(0)
+    } else {
+      setAchievementModalIndex(next)
+    }
+  }
+
   // ── Final Jeopardy wager ────────────────────────────────────────────────────
   function handleFinalWagerSubmit(event) {
     event.preventDefault()
@@ -686,7 +695,11 @@ function App() {
         />
       )}
 
-      <AchievementToasts achievements={newAchievements} />
+      <AchievementModal
+        achievements={newAchievements}
+        index={achievementModalIndex}
+        onNext={handleAchievementAdvance}
+      />
     </main>
   )
 }
