@@ -253,7 +253,7 @@ function App() {
           ? await login(authEmail, authPassword)
           : await register(authEmail, authPassword, authDisplayName)
 
-      saveToken(result.token, authTab === 'login' ? rememberMe : false)
+      saveToken(result.token, authTab === 'login' ? rememberMe : true)
       setAuthToken(result.token)
       setUser(result.user)
       setShowAuthModal(false)
