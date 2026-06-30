@@ -1,6 +1,6 @@
 import express from 'express'
 import bcrypt from 'bcryptjs'
-import { getAllQuery, runQuery } from '../db/database.js'
+import { getQuery, runQuery } from '../db/database.js'
 import { requireAuth, signToken } from '../middleware/auth.js'
 
 const router = express.Router()
@@ -21,8 +21,8 @@ router.post('/register', async (req, res) => {
   }
 
   try {
-    const existing = await getAllQuery('SELECT id FROM users WHERE email = $1', [normalizedEmail])
-    if (existing.length > 0) {
+    const existing = await getQuery('SELECT id FROM users WHERE email = $1', [normalizedEmail])
+    if (existing !== null) {
       return res.status(409).json({ success: false, error: 'Email already registered' })
     }
 
@@ -57,15 +57,13 @@ router.post('/login', async (req, res) => {
   const normalizedEmail = email.toLowerCase().trim()
 
   try {
-    const users = await getAllQuery(
+    const user = await getQuery(
       'SELECT id, email, password_hash, display_name, token_version FROM users WHERE email = $1',
       [normalizedEmail]
     )
-    if (users.length === 0) {
+    if (user === null) {
       return res.status(401).json({ success: false, error: 'Invalid credentials' })
     }
-
-    const user = users[0]
     const match = await bcrypt.compare(password, user.password_hash)
     if (!match) {
       return res.status(401).json({ success: false, error: 'Invalid credentials' })
@@ -88,14 +86,13 @@ router.post('/login', async (req, res) => {
 // GET /api/auth/me
 router.get('/me', requireAuth, async (req, res) => {
   try {
-    const users = await getAllQuery(
+    const user = await getQuery(
       'SELECT id, email, display_name, created_at FROM users WHERE id = $1',
       [req.user.userId]
     )
-    if (!users.length) {
+    if (user === null) {
       return res.status(404).json({ success: false, error: 'User not found' })
     }
-    const user = users[0]
     res.json({
       success: true,
       data: { id: user.id, email: user.email, displayName: user.display_name, memberSince: user.created_at },

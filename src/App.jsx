@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useReducer, useRef, useState } from 'react'
 import './App.css'
 import {
   fetchBoard,
@@ -49,6 +49,55 @@ function checkAnswer(userText, clueResponse) {
   return answersMatch(norm, normCorrect, alts)
 }
 
+// ── Clue interaction state reducer ─────────────────────────────────────────────
+const INITIAL_CLUE_STATE = {
+  activeClue: null,
+  activeWager: null,
+  answerText: '',
+  isSubmitted: false,
+  isCorrect: null,
+  timeRemaining: CLUE_TIME_LIMIT,
+  didTimeExpire: false,
+  didPass: false,
+  needsMoreSpecific: false,
+  moreSpecificText: '',
+  moreSpecificTimeRemaining: MORE_SPECIFIC_TIME_LIMIT,
+}
+
+function clueReducer(state, action) {
+  switch (action.type) {
+    case 'OPEN_CLUE':
+      return {
+        ...INITIAL_CLUE_STATE,
+        activeClue: action.clue,
+        activeWager: action.wager,
+        timeRemaining: action.timeLimit,
+      }
+    case 'CLOSE_CLUE':
+      return { ...INITIAL_CLUE_STATE }
+    case 'SET_ANSWER_TEXT':
+      return { ...state, answerText: action.text }
+    case 'SET_MORE_SPECIFIC_TEXT':
+      return { ...state, moreSpecificText: action.text }
+    case 'NEED_MORE_SPECIFIC':
+      return { ...state, needsMoreSpecific: true, moreSpecificTimeRemaining: MORE_SPECIFIC_TIME_LIMIT }
+    case 'SUBMIT':
+      return { ...state, isCorrect: action.correct, isSubmitted: true, needsMoreSpecific: false }
+    case 'PASS':
+      return { ...state, didPass: true }
+    case 'TICK':
+      return { ...state, timeRemaining: state.timeRemaining - 1 }
+    case 'TIME_EXPIRE':
+      return { ...state, didTimeExpire: true }
+    case 'MORE_SPECIFIC_TICK':
+      return { ...state, moreSpecificTimeRemaining: state.moreSpecificTimeRemaining - 1 }
+    case 'MORE_SPECIFIC_TIME_EXPIRE':
+      return { ...state, isCorrect: false, isSubmitted: true, needsMoreSpecific: false }
+    default:
+      return state
+  }
+}
+
 function App() {
   // ── Categories ──────────────────────────────────────────────────────────────
   const [categories, setCategories] = useState([])
@@ -71,17 +120,12 @@ function App() {
   const [wagerText, setWagerText] = useState('')
 
   // ── Active clue interaction ─────────────────────────────────────────────────
-  const [activeClue, setActiveClue] = useState(null)
-  const [activeWager, setActiveWager] = useState(null)
-  const [answerText, setAnswerText] = useState('')
-  const [isSubmitted, setIsSubmitted] = useState(false)
-  const [isCorrect, setIsCorrect] = useState(null)
-  const [timeRemaining, setTimeRemaining] = useState(CLUE_TIME_LIMIT)
-  const [didTimeExpire, setDidTimeExpire] = useState(false)
-  const [didPass, setDidPass] = useState(false)
-  const [needsMoreSpecific, setNeedsMoreSpecific] = useState(false)
-  const [moreSpecificText, setMoreSpecificText] = useState('')
-  const [moreSpecificTimeRemaining, setMoreSpecificTimeRemaining] = useState(MORE_SPECIFIC_TIME_LIMIT)
+  const [clueState, dispatchClue] = useReducer(clueReducer, INITIAL_CLUE_STATE)
+  const {
+    activeClue, activeWager, answerText, isSubmitted, isCorrect,
+    timeRemaining, didTimeExpire, didPass, needsMoreSpecific,
+    moreSpecificText, moreSpecificTimeRemaining,
+  } = clueState
 
   // ── Score & per-round stats ─────────────────────────────────────────────────
   const [score, setScore] = useState(0)
@@ -182,19 +226,23 @@ function App() {
     [activeBoard]
   )
 
+  // ── Wager-or-clue-value for score delta ────────────────────────────────────
+  const activeDelta = useMemo(
+    () => activeWager !== null ? activeWager : (activeClue?.value ?? 0),
+    [activeWager, activeClue?.value]
+  )
+
   // ── Timer ───────────────────────────────────────────────────────────────────
   useEffect(() => {
     if (!activeClue || isSubmitted || didTimeExpire || didPass || needsMoreSpecific) return
 
     if (timeRemaining <= 0) {
-      setDidTimeExpire(true)
-      if (!isSubmitted) {
-        setRoundStats((rs) => ({ ...rs, timedOut: rs.timedOut + 1 }))
-      }
+      dispatchClue({ type: 'TIME_EXPIRE' })
+      setRoundStats((rs) => ({ ...rs, timedOut: rs.timedOut + 1 }))
       return
     }
 
-    const id = window.setTimeout(() => setTimeRemaining((t) => t - 1), 1000)
+    const id = window.setTimeout(() => dispatchClue({ type: 'TICK' }), 1000)
     return () => window.clearTimeout(id)
   }, [activeClue, isSubmitted, didTimeExpire, didPass, needsMoreSpecific, timeRemaining])
 
@@ -203,11 +251,8 @@ function App() {
     if (!needsMoreSpecific) return
 
     if (moreSpecificTimeRemaining <= 0) {
-      const delta = activeWager !== null ? activeWager : (activeClue?.value ?? 0)
-      setIsCorrect(false)
-      setIsSubmitted(true)
-      setScore((s) => s - delta)
-      setNeedsMoreSpecific(false)
+      dispatchClue({ type: 'MORE_SPECIFIC_TIME_EXPIRE' })
+      setScore((s) => s - activeDelta)
       if (gamePhase === GAME_PHASES.FINAL_JEOPARDY) {
         setFinalJeopardyCorrect(false)
       } else {
@@ -216,9 +261,9 @@ function App() {
       return
     }
 
-    const id = window.setTimeout(() => setMoreSpecificTimeRemaining((t) => t - 1), 1000)
+    const id = window.setTimeout(() => dispatchClue({ type: 'MORE_SPECIFIC_TICK' }), 1000)
     return () => window.clearTimeout(id)
-  }, [needsMoreSpecific, moreSpecificTimeRemaining]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [needsMoreSpecific, moreSpecificTimeRemaining, activeDelta, gamePhase])
 
   // ── Focus helpers ───────────────────────────────────────────────────────────
   useEffect(() => {
@@ -308,8 +353,7 @@ function App() {
     setRound1Stats(null)
     setRound2Stats(null)
     setFinalJeopardyCorrect(null)
-    setActiveClue(null)
-    setActiveWager(null)
+    dispatchClue({ type: 'CLOSE_CLUE' })
     setPendingWagerClue(null)
     setNewAchievements([])
     setGameHistory(null)
@@ -361,8 +405,7 @@ function App() {
 
     setFinalSubPhase('wager')
     setFinalWagerText('')
-    setActiveClue(null)
-    setActiveWager(null)
+    dispatchClue({ type: 'CLOSE_CLUE' })
     setGamePhase(GAME_PHASES.FINAL_JEOPARDY)
   }
 
@@ -372,8 +415,7 @@ function App() {
     setRound2Board([])
     setFinalJeopardyData(null)
     setDailyDoubleIds(new Set())
-    setActiveClue(null)
-    setActiveWager(null)
+    dispatchClue({ type: 'CLOSE_CLUE' })
     setPendingWagerClue(null)
     setScore(0)
     setRoundStats({ correct: 0, incorrect: 0, timedOut: 0, passed: 0 })
@@ -401,18 +443,12 @@ function App() {
   }
 
   function openClue(clue, wager) {
-    setActiveClue(clue)
-    setActiveWager(wager)
-    setAnswerText('')
-    setIsSubmitted(false)
-    setIsCorrect(null)
-    const timeLimit = gamePhase === GAME_PHASES.FINAL_JEOPARDY ? FINAL_JEOPARDY_TIME_LIMIT : CLUE_TIME_LIMIT
-    setTimeRemaining(timeLimit)
-    setDidTimeExpire(false)
-    setDidPass(false)
-    setNeedsMoreSpecific(false)
-    setMoreSpecificText('')
-    setMoreSpecificTimeRemaining(MORE_SPECIFIC_TIME_LIMIT)
+    dispatchClue({
+      type: 'OPEN_CLUE',
+      clue,
+      wager,
+      timeLimit: gamePhase === GAME_PHASES.FINAL_JEOPARDY ? FINAL_JEOPARDY_TIME_LIMIT : CLUE_TIME_LIMIT,
+    })
   }
 
   function handleWagerSubmit(event) {
@@ -427,6 +463,20 @@ function App() {
   }
 
   // ── Answer submission ───────────────────────────────────────────────────────
+  function recordAnswerResult(correct) {
+    dispatchClue({ type: 'SUBMIT', correct })
+    setScore((s) => (correct ? s + activeDelta : s - activeDelta))
+    if (gamePhase === GAME_PHASES.FINAL_JEOPARDY) {
+      setFinalJeopardyCorrect(correct)
+    } else {
+      setRoundStats((rs) => ({
+        ...rs,
+        correct: correct ? rs.correct + 1 : rs.correct,
+        incorrect: !correct ? rs.incorrect + 1 : rs.incorrect,
+      }))
+    }
+  }
+
   function handleSubmitAnswer(event) {
     event.preventDefault()
     if (!activeClue || !answerText.trim() || didTimeExpire) return
@@ -434,53 +484,21 @@ function App() {
     const correct = checkAnswer(answerText, activeClue.response)
 
     if (!correct && isPartialMatch(normalizeAnswer(answerText), normalizeAnswer(activeClue.response))) {
-      setNeedsMoreSpecific(true)
-      setMoreSpecificTimeRemaining(MORE_SPECIFIC_TIME_LIMIT)
+      dispatchClue({ type: 'NEED_MORE_SPECIFIC' })
       return
     }
 
-    const delta = activeWager !== null ? activeWager : activeClue.value
-
-    setIsCorrect(correct)
-    setIsSubmitted(true)
-    setScore((s) => (correct ? s + delta : s - delta))
-
-    if (gamePhase === GAME_PHASES.FINAL_JEOPARDY) {
-      setFinalJeopardyCorrect(correct)
-    } else {
-      setRoundStats((rs) => ({
-        ...rs,
-        correct: correct ? rs.correct + 1 : rs.correct,
-        incorrect: !correct ? rs.incorrect + 1 : rs.incorrect,
-      }))
-    }
+    recordAnswerResult(correct)
   }
 
   function handleSubmitMoreSpecific(event) {
     event.preventDefault()
     if (!moreSpecificText.trim()) return
-
-    const correct = checkAnswer(moreSpecificText, activeClue.response)
-    const delta = activeWager !== null ? activeWager : activeClue.value
-
-    setIsCorrect(correct)
-    setIsSubmitted(true)
-    setScore((s) => (correct ? s + delta : s - delta))
-    setNeedsMoreSpecific(false)
-
-    if (gamePhase === GAME_PHASES.FINAL_JEOPARDY) {
-      setFinalJeopardyCorrect(correct)
-    } else {
-      setRoundStats((rs) => ({
-        ...rs,
-        correct: correct ? rs.correct + 1 : rs.correct,
-        incorrect: !correct ? rs.incorrect + 1 : rs.incorrect,
-      }))
-    }
+    recordAnswerResult(checkAnswer(moreSpecificText, activeClue.response))
   }
 
   function handlePassClue() {
-    setDidPass(true)
+    dispatchClue({ type: 'PASS' })
     setRoundStats((rs) => ({ ...rs, passed: rs.passed + 1 }))
   }
 
@@ -488,9 +506,7 @@ function App() {
     if (gamePhase === GAME_PHASES.FINAL_JEOPARDY) {
       setGamePhase(GAME_PHASES.GAME_OVER)
     }
-    setActiveClue(null)
-    setActiveWager(null)
-    setDidPass(false)
+    dispatchClue({ type: 'CLOSE_CLUE' })
   }
 
   // ── Achievement modal cycling ───────────────────────────────────────────────
@@ -525,7 +541,6 @@ function App() {
   // ── Derived values ──────────────────────────────────────────────────────────
   const showReveal = isSubmitted || didTimeExpire || didPass
   const atCategoryLimit = selectedTopics.length >= 6
-  const activeDelta = activeWager !== null ? activeWager : (activeClue?.value ?? 0)
 
   return (
     <main className="app-shell">
@@ -659,9 +674,9 @@ function App() {
           needsMoreSpecific={needsMoreSpecific}
           moreSpecificTimeRemaining={moreSpecificTimeRemaining}
           moreSpecificText={moreSpecificText}
-          onMoreSpecificChange={setMoreSpecificText}
+          onMoreSpecificChange={(text) => dispatchClue({ type: 'SET_MORE_SPECIFIC_TEXT', text })}
           answerText={answerText}
-          onAnswerChange={setAnswerText}
+          onAnswerChange={(text) => dispatchClue({ type: 'SET_ANSWER_TEXT', text })}
           isSubmitted={isSubmitted}
           isCorrect={isCorrect}
           showReveal={showReveal}

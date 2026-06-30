@@ -78,13 +78,18 @@ export async function checkAndAwardAchievements(userId, gameData, allGamesCount)
     }
 
     if (grant) {
-      await runQuery(
-        'INSERT INTO user_achievements (user_id, achievement_id) VALUES ($1, $2) ON CONFLICT DO NOTHING',
-        [userId, ach.id]
-      )
-      newlyEarned.push({ slug: ach.slug, name: ach.name, description: ach.description })
+      newlyEarned.push({ id: ach.id, slug: ach.slug, name: ach.name, description: ach.description })
     }
   }
 
-  return newlyEarned
+  if (newlyEarned.length > 0) {
+    const placeholders = newlyEarned.map((_, i) => `($1, $${i + 2})`).join(', ')
+    const ids = newlyEarned.map((a) => a.id)
+    await runQuery(
+      `INSERT INTO user_achievements (user_id, achievement_id) VALUES ${placeholders} ON CONFLICT DO NOTHING`,
+      [userId, ...ids]
+    )
+  }
+
+  return newlyEarned.map(({ slug, name, description }) => ({ slug, name, description }))
 }
